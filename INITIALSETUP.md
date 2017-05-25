@@ -49,3 +49,26 @@ gulp.task('default', function() {
     "gulp-sourcemaps": "^2.3.1",
     ```
 - Add them if missing and run cmd: ```npm install```
+
+### Install AngularFire 2  
+Reference: [AngularFire2 Install Guide](https://github.com/angular/angularfire2/blob/master/docs/1-install-and-setup.md) 
+- run cmd: ```npm install angularfire2 firebase@^3.9.0 --save```
+- add the below config to the file ```app.module.ts```:
+```javascript
+export const firebaseConfig = {
+    apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
+    authDomain: "tokucinema.firebaseapp.com",
+    databaseURL: "https://tokucinema.firebaseio.com",
+    projectId: "tokucinema",
+    storageBucket: "tokucinema.appspot.com",
+    messagingSenderId: "835457714346"
+};
+```
+- add this import to the same file:
+```javascript
+import { AngularFireModule } from 'angularfire2';
+```
+- add this line to the imports array, also in the same file:
+```javascript
+AngularFireModule.initializeApp(firebaseConfig)
+```
