@@ -30,7 +30,7 @@
   <ul>
     <div *ngFor="let menuItem of menuItems; let i = index">
       <li>
-        <a href="#" [routerLink]="[menuItem.link]">{{menuItem.text}}</a>
+        <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]">{{menuItem.text}}</a>
       </li>
     </div>
   </ul>
@@ -43,8 +43,3 @@
 
 <!--Modal-->
 <div *ngIf="navMenuOpen || searchOpen" class="nav-modal"></div>
-
-<!--Footer-->
-<div class="nav-footer">
-  <p>Please don't sue us!</p>
-</div>

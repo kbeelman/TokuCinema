@@ -29,4 +29,9 @@ export class NavComponent implements OnInit {
     this.searchOpen = !this.searchOpen;
   }
 
+  private closeNav(): void {
+    this.navMenuOpen = false;
+    this.searchOpen = false;
+  }
+
 }

@@ -1,3 +1,11 @@
-<p>
-  home works!
-</p>
+<div class="home-root">
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Maecenas non semper massa. Duis odio tortor, scelerisque in felis at, feugiat consequat arcu.</p>
+  </div>
+    <a class="landing-page-card" 
+      [routerLink]="[landingPage.link]"
+      *ngFor="let landingPage of landingPages">
+      {{landingPage.text}}
+    </a>
+</div>

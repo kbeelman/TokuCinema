@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../../css/app/home/styles/styles.css']
 })
 export class HomeComponent implements OnInit {
+  landingPages: Array<{"text": string, "link": string}> = [
+    {"text": 'Movies', "link": '/movies'},
+    {"text": 'Media', "link": '/media'},
+    {"text": 'About', "link": '/about'}
+  ]
 
   constructor() { }
 

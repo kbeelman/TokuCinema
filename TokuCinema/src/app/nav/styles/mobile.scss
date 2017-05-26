@@ -42,10 +42,3 @@ $mobile-gutter: 20px;
     @extend %svg-icon;
   }
 }
-
-.nav-footer {
-  @extend %center-children;
-  position: absolute;
-  bottom: $mobile-gutter;
-  width: 100%;
-}
