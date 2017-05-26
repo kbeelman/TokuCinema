@@ -21,15 +21,15 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
-  private toggleNavMenu(): void {
+  toggleNavMenu(): void {
     this.navMenuOpen = !this.navMenuOpen;
   }
 
-  private toggleSearch(): void {
+  toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
   }
 
-  private closeNav(): void {
+  closeNav(): void {
     this.navMenuOpen = false;
     this.searchOpen = false;
   }
