@@ -16,8 +16,7 @@ $mobile-gutter: 20px;
 
 .landing-page-card {
   @extend %center-children;
-  margin-top: 20px;
-  height: 150px;
+  height: calc((100vh - 100px) / 3);
   width: 100%;
   background-color: lightgray;
   text-decoration: none;
