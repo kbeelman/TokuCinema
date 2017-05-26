@@ -1,0 +1,17 @@
+$tablet-gutter: 40px;
+
+.nav-root {
+  margin-top: $tablet-gutter;
+}
+
+.nav-hamburger-menu {
+  left: $tablet-gutter;
+}
+
+.nav-search-icon {
+  right: $tablet-gutter;
+}
+
+.nav-footer {
+  bottom: $tablet-gutter;
+}
