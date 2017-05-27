@@ -8,6 +8,10 @@
 .media-information {
   position: absolute;
   right: $desktop-gutter;
-  top: $below-header;
+  top: $below-header + 80px;
   display: flex;
+}
+
+.media-poster {
+  display: block;
 }
