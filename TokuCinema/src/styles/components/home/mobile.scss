@@ -10,6 +10,7 @@
 .landing-page-card {
   @extend %center-children;
   height: calc((100vh - 300px) / 3);
+  min-height: 120px;
   width: 100%;
   background-color: lightgray;
   text-decoration: none;
