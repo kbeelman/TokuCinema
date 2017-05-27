@@ -1,0 +1,14 @@
+<div class="media-card" 
+  [routerLink]="['/home']">
+  <div>
+    <h3>{{media.Title}}</h3>
+    <h4>Disc Info:</h4>
+    <p *ngFor="let info of media.DiscInfo">
+      {{info}}
+    </p>
+    <h4>Distribution Info:</h4>
+    <p *ngFor="let dInfo of media.DistributionInfo">
+      {{dInfo}}
+    </p>
+  </div>
+</div>
