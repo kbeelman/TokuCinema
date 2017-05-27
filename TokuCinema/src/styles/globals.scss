@@ -1,0 +1,23 @@
+// Variables
+$mobile-gutter: 20px;
+$tablet-gutter: 40px;
+$desktop-gutter: calc((100% - 940px) / 2);
+
+// Placeholders
+%svg-icon {
+  height: auto;
+  width: 30px;
+}
+
+%center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+// Base
+
+body {
+  margin: 0;
+}

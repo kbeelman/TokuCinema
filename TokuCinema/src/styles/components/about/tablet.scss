@@ -1,0 +1,20 @@
+@import '../../globals.scss';
+
+.about-root {
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+  margin-bottom: $tablet-gutter;
+}
+
+$tablet-gutter: 40px;
+
+.dev-card {
+  margin-top: $tablet-gutter;
+  padding-bottom: $tablet-gutter;
+  padding-top: $tablet-gutter;
+
+  p {
+    padding-left: $tablet-gutter;
+    padding-right: $tablet-gutter;
+  }
+}

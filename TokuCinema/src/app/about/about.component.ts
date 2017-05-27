@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['../../css/app/about/styles/styles.css']
+  templateUrl: './about.component.html'
 })
 export class AboutComponent implements OnInit {
   developers: Array<{"name": string, "imgUrl": string, "bio": string}> = [

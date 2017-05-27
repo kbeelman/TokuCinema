@@ -1,0 +1,11 @@
+@import '../../../styles/globals';
+
+@import 'mobile';
+
+@media (min-width: 768px) {
+  @import 'tablet';
+}
+
+@media (min-width: 1140px) {
+  @import 'desktop';
+}

@@ -1,0 +1,8 @@
+@import '../../globals.scss';
+
+$mobile-gutter: 40px;
+
+.mediadetails-root {
+    margin-left: $mobile-gutter;
+    margin-right: $mobile-gutter;
+}

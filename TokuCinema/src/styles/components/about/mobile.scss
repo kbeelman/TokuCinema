@@ -1,0 +1,23 @@
+@import '../../globals.scss';
+
+.about-root {
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.dev-card {
+  margin-top: $mobile-gutter;
+  background-color: lightgrey;
+  padding-bottom: $mobile-gutter;
+  padding-top: $mobile-gutter;
+
+  p {
+    padding-left: $mobile-gutter;
+    padding-right: $mobile-gutter;
+  }
+}

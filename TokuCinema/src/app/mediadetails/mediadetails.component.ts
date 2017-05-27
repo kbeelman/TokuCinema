@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-mediadetails',
-  templateUrl: './mediadetails.component.html',
-  styleUrls: ['../../css/app/mediadetails/styles/styles.css']
+  templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit {
 

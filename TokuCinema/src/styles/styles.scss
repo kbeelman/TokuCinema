@@ -1,9 +1,13 @@
-@import 'mobile';
+@charset 'utf-8';
+@import 'globals';
+@import 'components/components';
 
-@media (min-width: 768px) {
-  @import 'tablet';
-}
+// @import 'mobile';
 
-@media (min-width: 1140px) {
-  @import 'desktop';
-}
+// @media (min-width: 768px) {
+//   @import 'tablet';
+// }
+
+// @media (min-width: 1140px) {
+//   @import 'desktop';
+// }

@@ -1,0 +1,32 @@
+@import '../../globals.scss';
+
+.nav-root {
+  @extend %center-children;
+  margin-top: $mobile-gutter;
+  width: 100%;
+}
+
+.nav-hamburger-menu {
+  position: absolute;
+  left: $mobile-gutter;
+
+  svg {
+    @extend %svg-icon;
+  }
+}
+
+.nav-title {
+
+  h1 {
+    margin: 0;
+  }
+}
+
+.nav-search-icon {
+  position: absolute;
+  right: $mobile-gutter;
+
+  svg {
+    @extend %svg-icon;
+  }
+}
