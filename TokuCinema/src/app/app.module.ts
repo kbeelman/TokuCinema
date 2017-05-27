@@ -19,9 +19,6 @@ import { MediadetailsComponent } from './mediadetails/mediadetails.component';
 import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 
-// Classes
-import { MediaDetails } from '../domain/MediaDetails';
-
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
     authDomain: "tokucinema.firebaseapp.com",
@@ -42,7 +39,6 @@ export const firebaseConfig = {
     MediaComponent,
     MediadetailsComponent,
     DevCardComponent,
-    MediaDetails,
     MovieCardComponent
   ],
   imports: [
