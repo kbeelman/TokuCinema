@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/src/css
 /dist
 /tmp
 /out-tsc
@@ -40,3 +41,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Don't ignore styles.css
+/src/css/styles/styles.css
