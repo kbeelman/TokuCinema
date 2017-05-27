@@ -1,22 +1,35 @@
 <div class="media-details-root">
-  <div>{{movie.Title}}</div>
   <div>
-    Main Feature Information:
-    <ul>
-      <li *ngFor = "let item of movie.MainFeatureInfo">{{item}}</li>
-    </ul>
+    <h2>{{movie.Title}}</h2>
+    <h3>{{movie.TitleJapanese}}</h3>
   </div>
   <div>
-    Disc Information:
-    <ul>
-      <li *ngFor = "let item of movie.DiscInfo">{{item}}</li>
-    </ul>
+    <div style="width: 300px">
+      <img src="http://placehold.it/200x275">
+    </div>
+    <div class="media-information">
+      <div>
+        <div>
+          Main Feature Information:
+          <ul>
+            <li *ngFor = "let item of movie.MainFeatureInfo">{{item}}</li>
+          </ul>
+        </div>
+        <div>
+          Disc Information:
+          <ul>
+            <li *ngFor = "let item of movie.DiscInfo">{{item}}</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          Distributor Information:
+          <ul>
+            <li *ngFor = "let item of movie.DistributionInfo">{{item}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-  <div>
-    Distributor Information:
-    <ul>
-      <li *ngFor = "let item of movie.DistributionInfo">{{item}}</li>
-    </ul>
-  </div>
-
 </div>
