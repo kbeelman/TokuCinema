@@ -47,4 +47,10 @@
 </div>
 
 <!--Modal-->
-<div *ngIf="searchOpen" class="nav-modal"></div>
+<div *ngIf="searchOpen" class="nav-modal">
+  <app-search-results
+    *ngIf="searchTerm != ''"
+    [searchItems]="this.getSearchItems()"
+    [searchTerm]="searchTerm">
+  </app-search-results>
+</div>
