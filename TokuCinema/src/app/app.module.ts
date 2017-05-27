@@ -17,6 +17,7 @@ import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
 import { MediaComponent } from './media/media.component';
 import { MediadetailsComponent } from './mediadetails/mediadetails.component';
 import { DevCardComponent } from './dev-card/dev-card.component';
+import { MovieCardComponent } from './movie-card/movie-card.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -37,7 +38,8 @@ export const firebaseConfig = {
     MoviedetailsComponent,
     MediaComponent,
     MediadetailsComponent,
-    DevCardComponent
+    DevCardComponent,
+    MovieCardComponent
   ],
   imports: [
     BrowserModule,

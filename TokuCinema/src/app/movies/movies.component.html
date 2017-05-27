@@ -1,3 +1,16 @@
-<p>
-  movies works!
-</p>
+<div class="movies-root">
+  <div class="movies-header">
+    <h2>Movies</h2>
+    <input type="text" name="" value="" placeholder="search">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+  </div>
+  <div class="movies-results">
+    <app-movie-card
+      *ngFor="let movie of movies"
+      [movie]="movie">
+    </app-movie-card>
+  </div>
+</div>
