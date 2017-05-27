@@ -8,3 +8,20 @@ $mobile-gutter: 40px;
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
 }
+
+.media-information {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-information div {
+  width: 80%;
+  justify-content: center;
+}
+
+.media-poster {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
