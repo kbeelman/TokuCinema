@@ -6,16 +6,10 @@ import { MediaDetails } from '../../domain/MediaDetails';
   templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit {
-  // landingPages: Array<{"text": string, "link": string, "body": string}> = [
-  //   {"text": 'Movies', "link": '/movies', 
-  //     "body": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-  //   {"text": 'Media', "link": '/media', 
-  //     "body": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-  //   {"text": 'About', "link": '/about', 
-  //     "body": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..'}
-  // ]
-
-  //mainFeatureInfo: Array<{"details": string[]}> = [{"details": ["stuff", ""]}]
+    movie: MediaDetails = new MediaDetails("Godzilla",
+    ["Aspect Ratio: 4x3", "Runtime: 90 minutes"],
+    ["Region: 1", "Number of Discs: 2"],
+    ["Distributor: Classic Media", "Catalog Code: 1234"]);
 
   constructor() { }
 

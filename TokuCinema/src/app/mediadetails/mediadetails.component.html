@@ -1,3 +1,22 @@
 <div class="media-details-root">
-  <p>Media Details works!</p>
+  <div>{{movie.Title}}</div>
+  <div>
+    Main Feature Information:
+    <ul>
+      <li *ngFor = "let item of movie.MainFeatureInfo">{{item}}</li>
+    </ul>
+  </div>
+  <div>
+    Disc Information:
+    <ul>
+      <li *ngFor = "let item of movie.DiscInfo">{{item}}</li>
+    </ul>
+  </div>
+  <div>
+    Distributor Information:
+    <ul>
+      <li *ngFor = "let item of movie.DistributionInfo">{{item}}</li>
+    </ul>
+  </div>
+
 </div>
