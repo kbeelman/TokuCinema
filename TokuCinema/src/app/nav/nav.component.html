@@ -31,11 +31,12 @@
     <div class="nav-menu-wrapper" *ngFor="let menuItem of menuItems; let i = index">
       <li class="nav-menu-item">
         <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]">
-          <div class="nav-menu-link">
-            {{menuItem.text}}
-          </div>
+            <div>
+              <h2>{{menuItem.text}}</h2>
+            </div>
         </a>
       </li>
+      <hr *ngIf="i != menuItems.length - 1">
     </div>
   </ul>
 </div>

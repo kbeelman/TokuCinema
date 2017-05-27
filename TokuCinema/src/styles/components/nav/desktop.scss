@@ -7,3 +7,11 @@
 .nav-search-icon {
   right: $desktop-gutter;
 }
+
+.expanded-menu {
+
+  ul {
+    padding-left: $desktop-gutter;
+    padding-right: $desktop-gutter;
+  }
+}
