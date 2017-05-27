@@ -7,3 +7,11 @@
 .nav-search-icon {
   right: $tablet-gutter;
 }
+
+.expanded-menu {
+
+  ul {
+    padding-left: $tablet-gutter;
+    padding-right: $tablet-gutter;
+  }
+}
