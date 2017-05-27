@@ -4,3 +4,10 @@
   margin-left: $desktop-gutter;
   margin-right: $desktop-gutter;
 }
+
+.media-information {
+  position: absolute;
+  right: $desktop-gutter;
+  top: $below-header;
+  display: flex;
+}
