@@ -2,7 +2,9 @@
 
 $mobile-gutter: 40px;
 
-.mediadetails-root {
-    margin-left: $mobile-gutter;
-    margin-right: $mobile-gutter;
+.media-details-root {
+  margin-top: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
 }
