@@ -1,4 +1,4 @@
-$desktop-gutter: calc((100% - 940px) / 2);
+@import '../../globals.scss';
 
 .home-root {
   margin-left: $desktop-gutter;
