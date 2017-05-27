@@ -2,8 +2,11 @@
 
 .nav-root {
   @extend %center-children;
-  margin-top: $mobile-gutter;
   width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 80px;
 }
 
 .nav-hamburger-menu {
@@ -29,4 +32,13 @@
   svg {
     @extend %svg-icon;
   }
+}
+
+
+.nav-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(29.8%, 33.7%, 36.9%, 0.8);
 }
