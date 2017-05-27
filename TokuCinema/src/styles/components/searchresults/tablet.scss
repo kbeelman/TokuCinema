@@ -1,1 +1,11 @@
 @import '../../globals.scss';
+
+.result-lists-wrapper {
+  display: flex;
+  justify-content: center;
+
+  div {
+    margin: $tablet-gutter;
+    margin-top: 0;
+  }
+}

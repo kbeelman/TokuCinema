@@ -18,7 +18,15 @@ $below-header: $mobile-gutter + 80px;
 }
 
 // Base
-
 body {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Important Overrides
+.normal-z {
+  z-index: 0 !important;
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ListMovieItem } from '../../domain/ListMovieItem';
 import { MediaDetails } from '../../domain/MediaDetails';
 import { ISearchable } from '../../domain/ISearchable';
@@ -71,6 +71,10 @@ export class NavComponent implements OnInit {
     this.searchOpen = false;
   }
 
+  @Output() searchEvent = new EventEmitter();
+  clearSearch(): void {
+    this.searchEvent.emit(this.searchTerm = '');
+  }
   getSearchItems(): Array<ISearchable> {
     let result: Array<ISearchable> = new Array<ISearchable>();
     // Add Movies

@@ -32,6 +32,7 @@ export class MediaComponent implements OnInit {
       ["Distributor: Classic Media", "Catalog Code: 1234", "UPC: 0123456789", "Release Date: 2006"],
       [])
   ];
+  searchTerm: string = '';
 
   constructor() { }
 

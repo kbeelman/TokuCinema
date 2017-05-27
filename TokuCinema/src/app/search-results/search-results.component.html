@@ -1,24 +1,26 @@
 <div class="results-root">
   <p *ngIf="searchTerm.length >= 0 && searchTerm != ''">Showing results for: {{searchTerm}}</p>
-  <div>
-    <h2>Movies</h2>
-    <ul class="result-list">
-      <li class="result-item" *ngFor="let item of movieItems | search : searchTerm; let i = index">
-        <a href="#" [routerLink]="['/movies', 'name']">
-          {{item.name}}
-        </a>
-        <input [(ngModel)]="searchTerm" type="hidden" name="" [value]="i">
-      </li>
-    </ul>
-  </div>
-  <div>
-    <h2>Media</h2>
-    <ul class="result-list">
-      <li class="result-item" *ngFor="let item of mediaItems | search : searchTerm">
-        <a href="#" [routerLink]="['/media', 'name']">
-          {{item.name}}
-        </a>
-      </li>
-    </ul>
+  <div class="result-lists-wrapper">
+    <div>
+      <h2>Movies</h2>
+      <ul class="result-list">
+        <li class="result-item" *ngFor="let item of movieItems | search : searchTerm; let i = index">
+          <a href="#" [routerLink]="['/movies', 'name']">
+            {{item.name}}
+          </a>
+          <input [(ngModel)]="searchTerm" type="hidden" name="" [value]="i">
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Media</h2>
+      <ul class="result-list">
+        <li class="result-item" *ngFor="let item of mediaItems | search : searchTerm">
+          <a href="#" [routerLink]="['/media', 'name']">
+            {{item.name}}
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>

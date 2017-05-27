@@ -48,6 +48,7 @@
     <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
   </div>
   <app-search-results
+    (click)="clearSearch(); closeNav();"
     *ngIf="searchTerm != ''"
     [searchItems]="this.getSearchItems()"
     [searchTerm]="searchTerm">
