@@ -1,7 +1,12 @@
 <div class="home-root">
-    <a class="landing-page-card" 
-      [routerLink]="[landingPage.link]"
-      *ngFor="let landingPage of landingPages">
-      {{landingPage.text}}
-    </a>
+    <div 
+      class="home-tile" 
+      *ngFor="let landingPage of landingPages; let i = index"
+      [ngClass]="{'align-right': i === 1}">
+      <a class="landing-page-card" 
+        [routerLink]="[landingPage.link]">
+        {{landingPage.text}}
+      </a>
+      <p class="landing-paragraph">{{landingPage.body}}</p>
+    </div>
 </div>
