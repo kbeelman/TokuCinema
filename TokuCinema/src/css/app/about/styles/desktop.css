@@ -1,2 +1,6 @@
+.about-root {
+  margin-left: calc((100% - 940px) / 2);
+  margin-right: calc((100% - 940px) / 2);
+  margin-bottom: calc((100% - 940px) / 2); }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwL2Fib3V0L3N0eWxlcy9kZXNrdG9wLmNzcyIsInNvdXJjZXMiOlsiYXBwL2Fib3V0L3N0eWxlcy9kZXNrdG9wLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiJGRlc2t0b3AtZ3V0dGVyOiBjYWxjKCgxMDAlIC0gOTQwcHgpIC8gMik7Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiIifQ== */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwL2Fib3V0L3N0eWxlcy9kZXNrdG9wLmNzcyIsInNvdXJjZXMiOlsiYXBwL2Fib3V0L3N0eWxlcy9kZXNrdG9wLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiJGRlc2t0b3AtZ3V0dGVyOiBjYWxjKCgxMDAlIC0gOTQwcHgpIC8gMik7XG5cbi5hYm91dC1yb290IHtcbiAgbWFyZ2luLWxlZnQ6ICRkZXNrdG9wLWd1dHRlcjtcbiAgbWFyZ2luLXJpZ2h0OiAkZGVza3RvcC1ndXR0ZXI7XG4gIG1hcmdpbi1ib3R0b206ICRkZXNrdG9wLWd1dHRlcjtcbn0iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUEsQUFBQSxXQUFXLENBQUM7RUFDVixXQUFXLEVBSEksd0JBQXdCO0VBSXZDLFlBQVksRUFKRyx3QkFBd0I7RUFLdkMsYUFBYSxFQUxFLHdCQUF3QixHQU14QyJ9 */

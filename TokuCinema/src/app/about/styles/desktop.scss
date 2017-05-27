@@ -1,1 +1,7 @@
 $desktop-gutter: calc((100% - 940px) / 2);
+
+.about-root {
+  margin-left: $desktop-gutter;
+  margin-right: $desktop-gutter;
+  margin-bottom: $desktop-gutter;
+}
