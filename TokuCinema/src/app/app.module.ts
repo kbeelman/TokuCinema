@@ -19,6 +19,10 @@ import { MediadetailsComponent } from './mediadetails/mediadetails.component';
 import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MediaCardComponent } from './media-card/media-card.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
+
+// Pipes
+import { Search } from './pipes/search.pipe';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -41,7 +45,9 @@ export const firebaseConfig = {
     MediadetailsComponent,
     DevCardComponent,
     MovieCardComponent,
-    MediaCardComponent
+    MediaCardComponent,
+    SearchResultsComponent,
+    Search
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+@import '../../globals.scss';
+
+.results-root {
+  margin-top: $below-header;
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+  text-align: center;
+}
+
+.result-list {
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
