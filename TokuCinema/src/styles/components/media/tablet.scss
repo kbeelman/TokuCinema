@@ -1,1 +1,7 @@
 @import '../../globals.scss';
+
+.medias-results {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}

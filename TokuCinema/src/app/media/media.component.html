@@ -1,3 +1,16 @@
-<p>
-  media works!
-</p>
+<div class="medias-root">
+  <div class="medias-header">
+    <h2>Media</h2>
+    <input type="text" name="" value="" placeholder="search">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+    <input type="checkbox" name="" value="">
+  </div>
+  <div class="medias-results">
+    <app-media-card
+      *ngFor="let media of medias"
+      [media]="media">
+    </app-media-card>
+  </div>
+</div>
