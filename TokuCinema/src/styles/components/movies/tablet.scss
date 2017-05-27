@@ -1,1 +1,19 @@
 @import '../../globals.scss';
+
+.movies-root {
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+  margin-top: $tablet-gutter;
+  margin-bottom: $tablet-gutter;
+}
+
+.movies-header {
+  text-align: center;
+}
+
+.movies-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}

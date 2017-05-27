@@ -1,1 +1,9 @@
 @import '../../globals.scss';
+
+.movie-card {
+    height: 200px;
+    width: 300px;
+    background-color: lightgray;
+    text-decoration: none;
+    margin: 20px;
+}
