@@ -7,6 +7,7 @@
   top: 0;
   background-color: white;
   height: 80px;
+  z-index: 10;
 }
 
 .nav-hamburger-menu {
@@ -39,6 +40,40 @@
   position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
   background-color: rgba(29.8%, 33.7%, 36.9%, 0.8);
+}
+
+.expanded-menu {
+  top: 80px;
+  background-color: darkgray;
+  width: 100%;
+  position: fixed;
+
+  ul {
+    padding: 0;
+    padding-left: $mobile-gutter;
+    padding-right: $mobile-gutter;
+  }
+
+}
+
+.nav-menu-wrapper {
+  @extend %center-children;
+
+  .nav-menu-item {
+    padding: 0;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      height: 100px;
+    }
+  }
+}
+
+.nav-menu-link {
+  height: 100px;
+  margin-top: 50%;
+  margin-bottom: 50%;
 }

@@ -28,9 +28,13 @@
 <!--Expanded Menu-->
 <div *ngIf="navMenuOpen" class="expanded-menu">
   <ul>
-    <div *ngFor="let menuItem of menuItems; let i = index">
-      <li>
-        <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]">{{menuItem.text}}</a>
+    <div class="nav-menu-wrapper" *ngFor="let menuItem of menuItems; let i = index">
+      <li class="nav-menu-item">
+        <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]">
+          <div class="nav-menu-link">
+            {{menuItem.text}}
+          </div>
+        </a>
       </li>
     </div>
   </ul>
@@ -42,4 +46,4 @@
 </div>
 
 <!--Modal-->
-<div *ngIf="navMenuOpen || searchOpen" class="nav-modal"></div>
+<div *ngIf="searchOpen" class="nav-modal"></div>
