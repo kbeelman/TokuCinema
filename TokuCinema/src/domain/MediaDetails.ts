@@ -4,5 +4,5 @@ export class MediaDetails {
         public MainFeatureInfo: Array<string>,
         public DiscInfo: Array<string>,
         public DistributionInfo: Array<string>
-    ){}
+    ) {}
 }

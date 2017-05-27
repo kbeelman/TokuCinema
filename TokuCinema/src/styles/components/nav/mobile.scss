@@ -49,6 +49,7 @@
   background-color: darkgray;
   width: 100%;
   position: fixed;
+  z-index: 2;
 
   ul {
     padding: 0;
@@ -58,22 +59,18 @@
 
 }
 
-.nav-menu-wrapper {
-  @extend %center-children;
+.nav-menu-item {
+  list-style: none;
+  
+  a {
+    height: auto;
+    text-decoration: none;
 
-  .nav-menu-item {
-    padding: 0;
-    list-style: none;
-
-    a {
-      text-decoration: none;
+    div {
+      @extend %center-children;
       height: 100px;
+      width: 100%;
+
     }
   }
-}
-
-.nav-menu-link {
-  height: 100px;
-  margin-top: 50%;
-  margin-bottom: 50%;
 }
