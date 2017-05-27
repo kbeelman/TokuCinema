@@ -1,6 +1,8 @@
 @import '../../globals.scss';
 
-.movies-root {
-    margin-left: $mobile-gutter;
-    margin-right: $mobile-gutter;
+.movie-card {
+    height: 200px;
+    width: 100%;
+    background-color: lightgray;
+    text-decoration: none;
 }

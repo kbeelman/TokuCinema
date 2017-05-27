@@ -1,5 +1,12 @@
 @import '../../globals.scss';
 
+.movies-root {
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-top: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+}
+
 .movies-header {
   text-align: center;
 }

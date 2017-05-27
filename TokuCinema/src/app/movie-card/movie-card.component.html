@@ -1,4 +1,11 @@
-<div>
+<div class="movie-card" 
+  [routerLink]="['/home']"
+    [ngStyle]="{
+        'background-image': 'url(' + movie.PosterUrl + ')',
+        'background-size': 'cover'
+      }">
   <h3>{{movie.MovieTitle}}</h3>
   <p>Also known as {{movie.AltTitle}}</p>
+  <p>Released in {{movie.ReleaseYear}} by {{movie.ProductionCompany}}</p>
+  <p>Country of Origin: {{movie.CountryFlag}}</p>
 </div>
