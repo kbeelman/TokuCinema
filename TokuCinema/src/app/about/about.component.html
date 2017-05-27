@@ -1,3 +1,17 @@
-<p>
-  about works!
-</p>
+<div class="about-root">
+  <div class="about-section">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <hr>
+  <div class="about-section">
+    <h2>Developers</h2>
+    <div class="dev-card-wrapper">
+      <app-dev-card
+        class="dev-card"
+        *ngFor="let developer of this.developers"
+        [developer]="developer">
+      </app-dev-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+$tablet-gutter: 40px;
+
+.dev-card {
+  margin-top: $tablet-gutter;
+  padding-bottom: $tablet-gutter;
+  padding-top: $tablet-gutter;
+
+  p {
+    padding-left: $tablet-gutter;
+    padding-right: $tablet-gutter;
+  }
+}

@@ -1,6 +1,18 @@
-$mobile-gutter: 40px;
+$mobile-gutter: 20px;
+
+%center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .about-root {
-    margin-left: $mobile-gutter;
-    margin-right: $mobile-gutter;
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+}
+
+.about-section {
+  text-align: center;
 }

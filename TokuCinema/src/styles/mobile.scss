@@ -1,3 +1,17 @@
+$mobile-gutter: 20px;
+
 body {
-    margin: 0;
+  margin: 0;
+}
+
+.dev-card {
+  margin-top: $mobile-gutter;
+  background-color: lightgrey;
+  padding-bottom: $mobile-gutter;
+  padding-top: $mobile-gutter;
+
+  p {
+    padding-left: $mobile-gutter;
+    padding-right: $mobile-gutter;
+  }
 }
