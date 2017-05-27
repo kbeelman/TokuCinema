@@ -40,6 +40,7 @@
   position: fixed;
   height: 100%;
   width: 100%;
+  top: 80px;
   z-index: 1;
   background-color: rgba(29.8%, 33.7%, 36.9%, 0.8);
 }
@@ -79,7 +80,7 @@
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
   position: relative;
-  top: 80px;
+  margin-top: 20px;
   left: 0;
   z-index: 2;
   height: 40px;

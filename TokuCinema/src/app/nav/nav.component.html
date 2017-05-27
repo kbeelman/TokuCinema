@@ -41,13 +41,12 @@
   </ul>
 </div>
 
-<!--Search-->
-<div *ngIf="searchOpen" class="nav-search">
-  <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
-</div>
-
 <!--Modal-->
 <div *ngIf="searchOpen" class="nav-modal">
+  <!--Search-->
+  <div *ngIf="searchOpen" class="nav-search">
+    <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
+  </div>
   <app-search-results
     *ngIf="searchTerm != ''"
     [searchItems]="this.getSearchItems()"
