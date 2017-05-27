@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --env=prod --aot --sm -output-path ../.",
+    "build": "ng build --prod --env=prod --aot --sm",
     "test": "ng test",
     "test-once": "ng test --single-run",
     "lint": "ng lint",
