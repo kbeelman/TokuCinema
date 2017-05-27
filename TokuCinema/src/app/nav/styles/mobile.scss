@@ -1,17 +1,3 @@
-$mobile-gutter: 20px;
-
-%svg-icon {
-  height: auto;
-  width: 30px;
-}
-
-%center-children {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .nav-root {
   @extend %center-children;
   margin-top: $mobile-gutter;
