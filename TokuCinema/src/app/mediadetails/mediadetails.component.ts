@@ -6,7 +6,8 @@ import { MediaDetails } from '../../domain/MediaDetails';
   templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit {
-    movie: MediaDetails = new MediaDetails("Godzilla",
+    movie: MediaDetails = new MediaDetails("DVD",
+    "Godzilla",
     "ゴジラ (Gojira)",
     ["Aspect Ratio: 4x3", "Runtime: 90 minutes", "Black & White", "Runtime: 96 (Japanese) / 80 (American)",
         "Original Runtime: 96", "Chapter Stops: 12 (Japanese) / 5 (American)", "Subtitles: English"],

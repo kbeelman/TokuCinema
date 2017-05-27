@@ -3,6 +3,7 @@ import { ItemType } from './ItemType';
 
 export class MediaDetails implements ISearchable {
     constructor(
+        public Medium: string,
         public Title: string,
         public TitleJapanese: string,
         public MainFeatureInfo: Array<string>,
