@@ -3,13 +3,17 @@
   <h2>Movies</h2>
   <ul class="result-list">
     <li class="result-item" *ngFor="let item of movieItems | search : searchTerm">
-      {{item.name}}
+      <a href="#" [routerLink]="['/movies', 'name']">
+        {{item.name}}
+      </a>
     </li>
   </ul>
   <h2>Media</h2>
   <ul class="result-list">
     <li class="result-item" *ngFor="let item of mediaItems | search : searchTerm">
-      {{item.name}}
+      <a href="#" [routerLink]="['/media', 'name']">
+        {{item.name}}
+      </a>
     </li>
   </ul>
 </div>
