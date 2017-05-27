@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ListMovieItem } from '../../domain/ListMovieItem';
 import { MediaDetails } from '../../domain/MediaDetails';
-import { INameable } from '../../domain/INameable';
+import { ISearchable } from '../../domain/ISearchable';
 
 @Component({
   selector: 'app-nav',
@@ -27,17 +27,26 @@ export class NavComponent implements OnInit {
   ];
   mediaItems: Array<MediaDetails> = [
     new MediaDetails("Godzilla",
-    ["Aspect Ratio: 4x3", "Runtime: 90 minutes"],
-    ["Region: 1", "Number of Discs: 2"],
-    ["Distributor: Classic Media", "Catalog Code: 1234"]),
+      "ゴジラ (Gojira)",
+      ["Aspect Ratio: 4x3", "Runtime: 90 minutes", "Black & White", "Runtime: 96 (Japanese) / 80 (American)",
+          "Original Runtime: 96", "Chapter Stops: 12 (Japanese) / 5 (American)", "Subtitles: English"],
+      ["Medium: DVD", "Format: Single Sided, Dual-Layer", "Region: 1", "Number of Discs: 2", "Color System: NTSC"],
+      ["Distributor: Classic Media", "Catalog Code: 1234", "UPC: 0123456789", "Release Date: 2006"],
+      []),
     new MediaDetails("Mothra",
-    ["Aspect Ratio: 4x3", "Runtime: 90 minutes"],
-    ["Region: 1", "Number of Discs: 2"],
-    ["Distributor: Classic Media", "Catalog Code: 1234"]),
+      "ゴジラ (Gojira)",
+      ["Aspect Ratio: 4x3", "Runtime: 90 minutes", "Black & White", "Runtime: 96 (Japanese) / 80 (American)",
+          "Original Runtime: 96", "Chapter Stops: 12 (Japanese) / 5 (American)", "Subtitles: English"],
+      ["Medium: DVD", "Format: Single Sided, Dual-Layer", "Region: 1", "Number of Discs: 2", "Color System: NTSC"],
+      ["Distributor: Classic Media", "Catalog Code: 1234", "UPC: 0123456789", "Release Date: 2006"],
+      []),
     new MediaDetails("Rodan",
-    ["Aspect Ratio: 4x3", "Runtime: 90 minutes"],
-    ["Region: 1", "Number of Discs: 2"],
-    ["Distributor: Classic Media", "Catalog Code: 1234"])
+      "ゴジラ (Gojira)",
+      ["Aspect Ratio: 4x3", "Runtime: 90 minutes", "Black & White", "Runtime: 96 (Japanese) / 80 (American)",
+          "Original Runtime: 96", "Chapter Stops: 12 (Japanese) / 5 (American)", "Subtitles: English"],
+      ["Medium: DVD", "Format: Single Sided, Dual-Layer", "Region: 1", "Number of Discs: 2", "Color System: NTSC"],
+      ["Distributor: Classic Media", "Catalog Code: 1234", "UPC: 0123456789", "Release Date: 2006"],
+      [])
   ];
   searchTerm: string = '';
 
@@ -59,8 +68,8 @@ export class NavComponent implements OnInit {
     this.searchOpen = false;
   }
 
-  getSearchItems(): Array<INameable> {
-    let result: Array<INameable> = new Array<INameable>();
+  getSearchItems(): Array<ISearchable> {
+    let result: Array<ISearchable> = new Array<ISearchable>();
     // Add Movies
     this.movieItems.forEach(element => {
       result.push(element);
