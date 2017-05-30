@@ -1,12 +1,13 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ListMovieItem } from '../../domain/ListMovieItem';
+// import { ListMovieItem } from '../../domain/ListMovieItem';
+import { Movie } from '../../domain/Movie';
 
 @Component({
   selector: 'app-movie-card',
   templateUrl: './movie-card.component.html'
 })
 export class MovieCardComponent implements OnInit {
-  @Input() movie: ListMovieItem;
+  @Input() movie: Movie;
 
   constructor() { }
 

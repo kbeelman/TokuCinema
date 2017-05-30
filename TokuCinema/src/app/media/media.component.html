@@ -12,7 +12,7 @@
   <div class="medias-results">
     <app-media-card
       *ngFor="let media of medias"
-      [media]="media">
+      [media]="media.GetMediaDetails()">
     </app-media-card>
   </div>
 </div>
