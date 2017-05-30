@@ -1,7 +1,9 @@
 import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from './Types';
 import { MediaDetails } from './MediaDetails';
+import { ISearchable } from './ISearchable';
+import { ItemType } from './ItemType';
 
-export class Media {
+export class Media implements ISearchable{
     constructor(
         // Main Feature Info
         public Title: string,
@@ -44,5 +46,13 @@ export class Media {
         );
 
         return mediaDetails;
+    }
+
+    public getName(): string {
+        return this.Title;
+    }
+
+    public getType(): ItemType {
+        return ItemType.Media;
     }
 }

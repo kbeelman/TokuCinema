@@ -1,6 +1,8 @@
 import { Country, Language, Series, Era } from './Types';
+import { ISearchable } from './ISearchable';
+import { ItemType } from './ItemType';
 
-export class Movie {
+export class Movie implements ISearchable {
     constructor(
         public OfficialTitle: string,
         public AlternateTitles: Array<string>,
@@ -14,4 +16,12 @@ export class Movie {
         public Series: Series,
         public Era: Era
     ) {}
+
+    public getName(): string {
+        return this.OfficialTitle;
+    }
+
+    public getType(): ItemType {
+        return ItemType.Movie;
+    }
 }
