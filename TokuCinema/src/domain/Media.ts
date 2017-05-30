@@ -1,4 +1,4 @@
-import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from './Enums';
+import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from './Types';
 import { MediaDetails } from './MediaDetails';
 
 export class Media {

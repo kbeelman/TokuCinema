@@ -1,4 +1,4 @@
-import { Country, Language, Series, Era } from './Enums';
+import { Country, Language, Series, Era } from './Types';
 
 export class Movie {
     constructor(
