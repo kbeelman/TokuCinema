@@ -1,6 +1,4 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-// import { ListMovieItem } from '../../domain/ListMovieItem';
-// import { MediaDetails } from '../../domain/MediaDetails';
 import { Media } from '../../domain/Media';
 import { Movie } from '../../domain/Movie';
 import { ISearchable } from '../../domain/ISearchable';

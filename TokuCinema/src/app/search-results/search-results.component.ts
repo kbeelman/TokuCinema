@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ISearchable } from '../../domain/ISearchable';
 import { Search } from '../pipes/search.pipe';
-import { ListMovieItem } from '../../domain/ListMovieItem';
 import { MediaDetails } from '../../domain/MediaDetails';
 import { ItemType } from '../../domain/ItemType';
 

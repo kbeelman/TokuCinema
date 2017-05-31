@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-// import { ListMovieItem } from '../../domain/ListMovieItem';
 import { Movie } from '../../domain/Movie';
 import { stubMovies } from '../../assets/data/stubData';
 
