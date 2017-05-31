@@ -21,7 +21,7 @@ import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MediaCardComponent } from './media-card/media-card.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
-// import { MediaFormComponent } from './media-form/media-form.component';
+import { MediaFormComponent } from './media-form/media-form.component';
 
 // Pipes
 import { Search } from './pipes/search.pipe';
@@ -49,8 +49,8 @@ export const firebaseConfig = {
     MovieCardComponent,
     MediaCardComponent,
     SearchResultsComponent,
-    Search
-    // MediaFormComponent
+    Search,
+    MediaFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+// Template for uploading data to firebase prior to building forms
+{
+    "movies": {
+        "0": {
+            "OfficialTitle": "",
+            "AlternateTitles": [""],
+            "OriginalPoster": "",
+            "ReleaseYear": "",
+            "ProductionCompany": "",
+            "CountryOfOrigin": "",
+            "Languages": [""],
+            "Studio": "",
+            "Director": "",
+            "Series": "",
+            "Era": ""
+        }
+    },
+    "media": {
+        "0": {
+            "Title": "",
+            "JapaneseTitle": "",
+            "AspectRatio": "",
+            "Runtime": "",
+            "Color": "",
+            "OriginalRuntime": "",
+            "ChapterStops": [{"Version":"", "Count": ""}],
+            "Subtitles": [""],
+            "Medium": "",
+            "Format": "",
+            "Region": "",
+            "DiskCount": "",
+            "ColorSystem": "",
+            "Distributor": "",
+            "CatalogCode": "",
+            "UPC": "",
+            "ReleaseDate": "",
+            "PurchaseLinks": [""]
+        }
+    }
+}
