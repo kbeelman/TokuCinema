@@ -17,6 +17,25 @@ $below-header: $mobile-gutter + 80px;
   text-align: center;
 }
 
+%mobile-frame {
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+  margin-top: $below-header;  
+}
+
+%tablet-frame {
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+  margin-bottom: $tablet-gutter;
+  margin-top: $tablet-gutter + 80px;
+}
+
+%desktop-frame {
+  margin-left: $desktop-gutter;
+  margin-right: $desktop-gutter;
+}
+
 // Base
 body {
   margin: 0;

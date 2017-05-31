@@ -6,6 +6,7 @@ import { RouterModule }   from '@angular/router';
 
 // External Dependencies
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 // Components
 import { AppComponent } from './app.component';
@@ -20,6 +21,7 @@ import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MediaCardComponent } from './media-card/media-card.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+// import { MediaFormComponent } from './media-form/media-form.component';
 
 // Pipes
 import { Search } from './pipes/search.pipe';
@@ -48,12 +50,14 @@ export const firebaseConfig = {
     MediaCardComponent,
     SearchResultsComponent,
     Search
+    // MediaFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
     RouterModule.forRoot([
       { path: '',
         redirectTo: '/home',
@@ -82,7 +86,11 @@ export const firebaseConfig = {
       {
         path: 'media/:name',
         component: MediadetailsComponent
-      },
+      }
+      // {
+      //   path: 'media-form',
+      //   component: MediaFormComponent
+      // },
     ]),
   ],
   providers: [],
