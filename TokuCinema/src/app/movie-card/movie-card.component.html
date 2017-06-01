@@ -1,5 +1,5 @@
 <div class="movie-card" 
-  [routerLink]="['/movies', 'name']"
+  [routerLink]="['/movies', movie.OfficialTitle]"
     [ngStyle]="{
         'background-image': 'url(' + movie.OriginalPoster + ')',
         'background-size': 'cover'

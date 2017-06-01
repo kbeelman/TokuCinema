@@ -4,6 +4,8 @@ import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
 export class Media implements ISearchable{
+    public Key: string;
+
     constructor(
         // Main Feature Info
         public Title: string,
@@ -26,7 +28,9 @@ export class Media implements ISearchable{
         public UPC: string,
         public ReleaseDate: Date,
         public PurchaseLinks: Array<string>
-    ) {}
+    ) {
+        this.setKey();
+    }
 
     // Draft method for exposing this class without affecting current media details page
     public GetMediaDetails(): MediaDetails {
@@ -54,5 +58,11 @@ export class Media implements ISearchable{
 
     public getType(): ItemType {
         return ItemType.Media;
+    }
+
+    private setKey(): void {
+        let key: string = this.ReleaseDate + "-" + this.Title + "-" + 
+            this.Distributor + "-" + this.Medium;
+        this.Key = key;
     }
 }

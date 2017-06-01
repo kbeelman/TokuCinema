@@ -3,6 +3,8 @@ import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
 export class Movie implements ISearchable {
+    // public Key: string;
+
     constructor(
         public OfficialTitle: string,
         public AlternateTitles: Array<string>,
@@ -24,4 +26,10 @@ export class Movie implements ISearchable {
     public getType(): ItemType {
         return ItemType.Movie;
     }
+
+    // Is Official Title unique enough to serve as Key - otherwise we
+    // can do something like OfficialTitle-Series
+    // private setKey(): void {
+
+    // }
 }
