@@ -1,8 +1,9 @@
+import { DomainBuilder, DataType } from './../../domain/Builder';
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Media } from '../../domain/Media';
 import { Movie } from '../../domain/Movie';
 import { ISearchable } from '../../domain/ISearchable';
-import { stubMedia, stubMovies } from '../../assets/data/stubData';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-nav',
@@ -17,13 +18,36 @@ export class NavComponent implements OnInit {
     {"text": 'Movies', "link": '/movies'},
     {"text": 'About', "link": '/about'}
   ];
-  movieItems: Array<Movie> = stubMovies;
-  mediaItems: Array<Media> = stubMedia;
+  movieItems = new Array<Movie>();
+  mediaItems = new Array<Media>();
   searchTerm: string = '';
 
-  constructor() { }
+  moviesData: FirebaseListObservable<any[]>;
+  mediaData: FirebaseListObservable<any[]>;
+
+  constructor(db: AngularFireDatabase) { 
+    this.moviesData = db.list('/movies');
+    this.mediaData = db.list('/media');
+  }
 
   ngOnInit() {
+    // Transform Movies
+    this.moviesData.forEach(element => {
+      for (var i = 0; i < element.length; i++) {
+        let domainBuilder = new DomainBuilder(element[i], DataType.Movie);
+        let domainObject = domainBuilder.getDomainObject();
+        this.movieItems.push(domainObject);
+      }
+    });
+
+    // Transform Media
+    this.mediaData.forEach(element => {
+      for (var i = 0; i < element.length; i++) {
+        let domainBuilder = new DomainBuilder(element[i], DataType.Media);
+        let domainObject = domainBuilder.getDomainObject();
+        this.mediaItems.push(domainObject);
+      }
+    });
   }
 
   toggleNavMenu(): void {
@@ -43,6 +67,7 @@ export class NavComponent implements OnInit {
   clearSearch(): void {
     this.searchEvent.emit(this.searchTerm = '');
   }
+
   getSearchItems(): Array<ISearchable> {
     let result: Array<ISearchable> = new Array<ISearchable>();
     // Add Movies

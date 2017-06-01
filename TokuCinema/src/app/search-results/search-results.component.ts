@@ -13,8 +13,6 @@ export class SearchResultsComponent implements OnInit {
   @Input() searchItems: Array<ISearchable>;
   movieItems: Array<{"name": string, "type": string}> = new Array<{"name": string, "type": string}>();
   mediaItems: Array<{"name": string, "type": string}> = new Array<{"name": string, "type": string}>();
-  movieResultCount: number = 0;
-  mediaResultCount: number = 0;
 
   constructor() { }
 
@@ -28,8 +26,6 @@ export class SearchResultsComponent implements OnInit {
       }
     });
 
-    console.log("movie count: ");
-    console.log(this.movieResultCount);
   }
 
 }
