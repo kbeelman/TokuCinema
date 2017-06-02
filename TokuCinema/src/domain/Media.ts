@@ -1,10 +1,10 @@
+import { StringCleaner, StringType } from './StringCleaner';
 import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from './Types';
 import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
 export class Media implements ISearchable{
-    public Key: string;
 
     constructor(
         // Main Feature Info
@@ -27,9 +27,16 @@ export class Media implements ISearchable{
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDate: Date,
-        public PurchaseLinks: Array<string>
+        public PurchaseLinks: Array<string>,
+        public BoxArt: string,
+        public Path?: string
     ) {
-        this.setKey();
+        if (this.Path) {
+            this.Path = this.Path.replace(/\s+/g, '-');
+        } else {
+            let path = this.Title + "-" + this.Distributor + "-" + this.Medium + "-" + this.ReleaseDate;
+            this.Path = path.replace(/\s+/g, '-');
+        }
     }
 
     // Draft method for exposing this class without affecting current media details page
@@ -58,11 +65,5 @@ export class Media implements ISearchable{
 
     public getType(): ItemType {
         return ItemType.Media;
-    }
-
-    private setKey(): void {
-        let key: string = this.ReleaseDate + "-" + this.Title + "-" + 
-            this.Distributor + "-" + this.Medium;
-        this.Key = key;
     }
 }

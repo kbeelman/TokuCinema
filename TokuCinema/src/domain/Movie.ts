@@ -1,9 +1,9 @@
+import { StringCleaner, StringType } from './StringCleaner';
 import { Country, Language, Series, Era } from './Types';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
 export class Movie implements ISearchable {
-    // public Key: string;
 
     constructor(
         public OfficialTitle: string,
@@ -16,8 +16,16 @@ export class Movie implements ISearchable {
         public Studio: string,
         public Director: string,
         public Series: Series,
-        public Era: Era
-    ) {}
+        public Era: Era,
+        public Path?: string
+    ) {
+        // Assign default route if none given, clean either way
+        if (this.Path) {
+            this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();    
+        } else {
+            this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
+        }
+    }
 
     public getName(): string {
         return this.OfficialTitle;
@@ -27,9 +35,4 @@ export class Movie implements ISearchable {
         return ItemType.Movie;
     }
 
-    // Is Official Title unique enough to serve as Key - otherwise we
-    // can do something like OfficialTitle-Series
-    // private setKey(): void {
-
-    // }
 }

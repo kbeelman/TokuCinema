@@ -1,6 +1,7 @@
 @import '../../globals.scss';
 
-.moviedetails-root {
+.movie-details-root {
+    margin-top: $below-header;
     margin-left: $mobile-gutter;
     margin-right: $mobile-gutter;
 }

@@ -1,7 +1,7 @@
 <div class="media-details-root">
   <div class="media-details-title">
-    <h2>{{movie.Title}} - {{movie.Medium}} Review</h2>
-    <h3>{{movie.TitleJapanese}}</h3>
+    <h2>{{mediaDetails.Title}} - {{mediaDetails.Medium}} Review</h2>
+    <h3>{{mediaDetails.TitleJapanese}}</h3>
   </div>
   <div>
     <div class="media-poster">
@@ -12,13 +12,13 @@
         <div>
           Main Feature Information:
           <ul>
-            <li *ngFor = "let item of movie.MainFeatureInfo">{{item}}</li>
+            <li *ngFor = "let item of mediaDetails.MainFeatureInfo">{{item}}</li>
           </ul>
         </div>
         <div>
           Disc Information:
           <ul>
-            <li *ngFor = "let item of movie.DiscInfo">{{item}}</li>
+            <li *ngFor = "let item of mediaDetails.DiscInfo">{{item}}</li>
           </ul>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <div>
           Distributor Information:
           <ul>
-            <li *ngFor = "let item of movie.DistributionInfo">{{item}}</li>
+            <li *ngFor = "let item of mediaDetails.DistributionInfo">{{item}}</li>
           </ul>
         </div>
       </div>

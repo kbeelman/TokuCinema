@@ -27,7 +27,8 @@ export class DomainBuilder {
     private buildMovie(): Movie {
         let movieData = this.RawData;
         
-        let movie: Movie = new Movie(movieData['OfficialTitle'], 
+        let movie: Movie = new Movie(
+            movieData['OfficialTitle'], 
             movieData['AlternateTitles'],
             movieData['OriginalPoster'],
             movieData['ReleaseYear'],
@@ -37,7 +38,8 @@ export class DomainBuilder {
             movieData['Studio'],
             movieData['Director'],
             movieData['Series'],
-            movieData['Era']);
+            movieData['Era'],
+            movieData['Path']);
 
         return movie;
     }
@@ -45,7 +47,8 @@ export class DomainBuilder {
     private buildMedia(): Media {
         let mediaData = this.RawData;
         
-        let media: Media = new Media(mediaData['Title'],
+        let media: Media = new Media(
+            mediaData['Title'],
             mediaData['JapaneseTitle'],
             mediaData['AspectRatio'],
             mediaData['Runtime'],
@@ -62,7 +65,9 @@ export class DomainBuilder {
             mediaData['CatalogCode'],
             mediaData['UPC'],
             mediaData['ReleaseDate'],
-            mediaData['PurchaseLinks']
+            mediaData['PurchaseLinks'],
+            mediaData['BoxArt'],
+            mediaData['Path']
         );
 
         return media;

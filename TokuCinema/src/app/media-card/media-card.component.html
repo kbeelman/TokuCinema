@@ -1,14 +1,11 @@
 <div class="media-card" 
-  [routerLink]="['/media', 'name']">
-  <div>
-    <h3>{{media.Title}}</h3>
-    <h4>Disc Info:</h4>
-    <p *ngFor="let info of media.DiscInfo">
-      {{info}}
-    </p>
-    <h4>Distribution Info:</h4>
-    <p *ngFor="let dInfo of media.DistributionInfo">
-      {{dInfo}}
-    </p>
-  </div>
+  [routerLink]="['/media', media.Path]"
+    [ngStyle]="{
+        'background-image': 'url(' + media.BoxArt + ')',
+        'background-size': 'cover'
+      }">
+  <h3>{{media.Title}}</h3>
+  <p>Also known as {{media.JapaneseTitle}}</p>
+  <p>Released on {{media.ReleaseDate}} by {{media.Distributor}}</p>
+  <p>Medium: {{media.Medium}}</p>
 </div>
