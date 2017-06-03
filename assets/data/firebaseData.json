@@ -79,6 +79,28 @@
             "PurchaseLinks": ["https://www.amazon.com/Mothra-Vs-Godzilla-Various/dp/B000MV8AJK/ref=sr_1_1?ie=UTF8&qid=1496274547&sr=8-1&keywords=Mothra+vs+Godzilla"],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/51WPVGG7Z3L.jpg",
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"
+        },
+        {
+            "Title": "Godzilla Final Wars",
+            "JapaneseTitle": "Gojira Finel Wors",
+            "AspectRatio": "2.40:1",
+            "Runtime": "125",
+            "Color": "Color",
+            "OriginalRuntime": "125",
+            "ChapterStops": [{"Version":"American", "Count": "12"}],
+            "Subtitles": ["Japanese", "English"],
+            "Medium": "Blu-ray",
+            "Format": "Single Sided",
+            "Region": "1",
+            "DiskCount": "1",
+            "ColorSystem": "NTSC",
+            "Distributor": "Toho",
+            "CatalogCode": "",
+            "UPC": "",
+            "ReleaseDate": "2014-05-06",
+            "PurchaseLinks": ["https://www.amazon.com/Godzilla-Final-Tokyo-S-O-S-Blu-ray/dp/B00IQAUO48/ref=sr_1_3?ie=UTF8&qid=1496467367&sr=8-3&keywords=Godzilla+Final+Wars"],
+            "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/91g2I8EPOhL._SX466_.jpg",
+            "Path": "Godzilla-Final-Wars-Toho-Blu-ray-2014-05-06"
         }
     ]
 }

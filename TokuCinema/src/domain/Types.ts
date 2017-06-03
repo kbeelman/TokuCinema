@@ -1,4 +1,4 @@
-export type AspectRatio = "4:3" |  "16:9";
+export type AspectRatio = "4:3" |  "16:9" | "2.35:1" | "2.40:1";
 
 export type ColorType = "Black & White" | "Color";
 
