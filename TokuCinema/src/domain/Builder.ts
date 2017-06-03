@@ -35,7 +35,7 @@ export class DomainBuilder {
             movieData['ProductionCompany'],
             movieData['CountryOfOrigin'],
             movieData['Languages'],
-            movieData['Studio'],
+            movieData['Distributor'],
             movieData['Director'],
             movieData['Series'],
             movieData['Era'],

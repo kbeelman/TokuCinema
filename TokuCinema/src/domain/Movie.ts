@@ -13,7 +13,7 @@ export class Movie implements ISearchable {
         public ProductionCompany: string,
         public CountryOfOrigin: Country,
         public Languages: Array<Language>,
-        public Studio: string,
+        public Distributor: string,
         public Director: string,
         public Series: Series,
         public Era: Era,
