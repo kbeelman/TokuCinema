@@ -1,4 +1,5 @@
-<div class="media-details-root">
+<div *ngIf="this.mediaDetails"
+  class="media-details-root">
   <div class="media-details-title">
     <h2>{{mediaDetails.Title}} - {{mediaDetails.Medium}} Review</h2>
     <h3>{{mediaDetails.TitleJapanese}}</h3>
