@@ -1,11 +1,12 @@
-<div class="movie-card" 
-  [routerLink]="['/movies', movie.Path]"
-    [ngStyle]="{
-        'background-image': 'url(' + movie.OriginalPoster + ')',
-        'background-size': 'cover'
-      }">
-  <h3>{{movie.OfficialTitle}}</h3>
-  <p>Also known as {{movie.AlternateTitles[0]}}</p>
-  <p>Released in {{movie.ReleaseYear}} by {{movie.ProductionCompany}}</p>
-  <p>Country of Origin: {{movie.CountryOfOrigin}}</p>
+<div class="movie-card" [routerLink]="['/movies', movie.Path]">
+  <div class="movie-card-content">
+    <div>
+      <h3>{{movie.OfficialTitle}}</h3>
+      <p>{{movie.AlternateTitles[0]}}</p>
+      <p>{{movie.ReleaseYear}}</p>
+      <p>{{movie.ProductionCompany}}</p>
+      <p>{{movie.CountryOfOrigin}}</p>
+    </div>
+  </div>
+  <img class="media-card-image" [src]="movie.OriginalPoster" alt="{{movie.OfficialTitle}} Title poster">
 </div>
