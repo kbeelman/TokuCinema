@@ -35,4 +35,8 @@ export class Movie implements ISearchable {
         return ItemType.Movie;
     }
 
+    public getPath(): string {
+        return this.Path;
+    }
+
 }

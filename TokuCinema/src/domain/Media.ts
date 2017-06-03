@@ -32,10 +32,10 @@ export class Media implements ISearchable{
         public Path?: string
     ) {
         if (this.Path) {
-            this.Path = this.Path.replace(/\s+/g, '-');
+            this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
         } else {
             let path = this.Title + "-" + this.Distributor + "-" + this.Medium + "-" + this.ReleaseDate;
-            this.Path = path.replace(/\s+/g, '-');
+            this.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
         }
     }
 
@@ -65,5 +65,9 @@ export class Media implements ISearchable{
 
     public getType(): ItemType {
         return ItemType.Media;
+    }
+
+    public getPath(): string {
+        return this.Path;
     }
 }

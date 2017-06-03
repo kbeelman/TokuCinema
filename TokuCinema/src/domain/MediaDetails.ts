@@ -1,7 +1,7 @@
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
-export class MediaDetails implements ISearchable {
+export class MediaDetails {
     constructor(
         public Medium: string,
         public Title: string,
@@ -12,11 +12,4 @@ export class MediaDetails implements ISearchable {
         public PurchaseLinks: Array<string>
     ) {}
 
-    getName(): string {
-        return this.Title;
-    }
-
-    getType(): ItemType {
-        return ItemType.Media;
-    }
 }

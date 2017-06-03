@@ -1,3 +1,4 @@
+import { element } from 'protractor';
 import { Component, OnInit, Input } from '@angular/core';
 import { ISearchable } from '../../domain/ISearchable';
 import { Search } from '../pipes/search.pipe';
@@ -11,8 +12,8 @@ import { ItemType } from '../../domain/ItemType';
 export class SearchResultsComponent implements OnInit {
   @Input() searchTerm: string;
   @Input() searchItems: Array<ISearchable>;
-  movieItems: Array<{"name": string, "type": string}> = new Array<{"name": string, "type": string}>();
-  mediaItems: Array<{"name": string, "type": string}> = new Array<{"name": string, "type": string}>();
+  movieItems = new Array<{"name": string, "type": string, "path": string}>();
+  mediaItems = new Array<{"name": string, "type": string, "path": string}>();
 
   constructor() { }
 
@@ -20,9 +21,9 @@ export class SearchResultsComponent implements OnInit {
     // Populate movies
     this.searchItems.forEach(element => {
       if (element.getType() === ItemType.Movie) {
-        this.movieItems.push({name: element.getName(), type: 'Movie'});
+        this.movieItems.push({name: element.getName(), type: 'Movie', path: element.getPath()});
       } else if (element.getType() === ItemType.Media) {
-        this.mediaItems.push({name: element.getName(), type: 'Media'});
+        this.mediaItems.push({name: element.getName(), type: 'Media', path: element.getPath()});
       }
     });
 

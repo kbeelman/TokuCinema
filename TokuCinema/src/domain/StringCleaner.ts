@@ -3,9 +3,9 @@ export class StringCleaner {
 
     constructor(stringToClean: string, stringType: StringType) {
         if (stringType === StringType.WithoutRoute) {
-            this.CleanString = this.cleanString(stringToClean.replace(/\s+/g, '-'));
+            this.CleanString = this.cleanString(stringToClean);
         } else if (stringType === StringType.WithRoute) {
-            this.CleanString = this.cleanRouteName(stringToClean.replace(/\s+/g, '-'));
+            this.CleanString = this.cleanRouteName(stringToClean);
         }
     }
 
@@ -29,14 +29,7 @@ export class StringCleaner {
 
   // Clean if not part of a route - assignment
   private cleanString(string: string): string {
-      let cleanString = string.replace(/[^A-Za-z]/, "-")
-      .split(' ');
-    if(cleanString.length > 1){
-      return this.replaceSpaces(cleanString[0] + '-' + cleanString[cleanString.length-1]);
-    }
-    else {
-      return this.replaceSpaces(cleanString[0]);
-    }
+    return this.replaceSpaces(string);
   }
 
   private replaceSpaces(string: string): string {

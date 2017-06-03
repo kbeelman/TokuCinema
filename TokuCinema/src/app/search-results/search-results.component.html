@@ -5,7 +5,7 @@
       <h2>Movies</h2>
       <ul class="result-list">
         <li class="result-item" *ngFor="let item of movieItems | search : searchTerm; let i = index">
-          <a href="#" [routerLink]="['/movies', 'name']">
+          <a href="#" [routerLink]="['/movies', item.path]">
             {{item.name}}
           </a>
           <input [(ngModel)]="searchTerm" type="hidden" name="" [value]="i">
@@ -16,7 +16,7 @@
       <h2>Media</h2>
       <ul class="result-list">
         <li class="result-item" *ngFor="let item of mediaItems | search : searchTerm">
-          <a href="#" [routerLink]="['/media', 'name']">
+          <a href="#" [routerLink]="['/media', item.path]">
             {{item.name}}
           </a>
         </li>
