@@ -1,20 +1,23 @@
 @import '../../globals.scss';
 
 .media-card {
-  height: auto;
+  display: flex;
+  max-height: 240px;
   width: 100%;
   background-color: lightgray;
   text-decoration: none;
+}
 
-  div {
-    margin: 20px;
+.media-card-content {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    h3 {
-      padding-top: 20px;
-    }
-
-    p:last-child {
-      padding-bottom: 20px;
-    }
-  }
+.media-card-image {
+  max-height: 100%;
+  width: 160px;
 }

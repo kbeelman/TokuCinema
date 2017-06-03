@@ -27,8 +27,8 @@ export class Movie implements ISearchable {
         }
     }
 
-    public getName(): string {
-        return this.OfficialTitle;
+    public getDisplayName(): string {
+        return this.OfficialTitle + " (" + this.ReleaseYear + ")";
     }
 
     public getType(): ItemType {

@@ -59,8 +59,8 @@ export class Media implements ISearchable{
         return mediaDetails;
     }
 
-    public getName(): string {
-        return this.Title;
+    public getDisplayName(): string {
+        return this.Title + " | " + this.Distributor + " " + this.Medium;
     }
 
     public getType(): ItemType {

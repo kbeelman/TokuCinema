@@ -21,9 +21,9 @@ export class SearchResultsComponent implements OnInit {
     // Populate movies
     this.searchItems.forEach(element => {
       if (element.getType() === ItemType.Movie) {
-        this.movieItems.push({name: element.getName(), type: 'Movie', path: element.getPath()});
+        this.movieItems.push({name: element.getDisplayName(), type: 'Movie', path: element.getPath()});
       } else if (element.getType() === ItemType.Media) {
-        this.mediaItems.push({name: element.getName(), type: 'Media', path: element.getPath()});
+        this.mediaItems.push({name: element.getDisplayName(), type: 'Media', path: element.getPath()});
       }
     });
 

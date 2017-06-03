@@ -1,11 +1,11 @@
-<div class="media-card" 
-  [routerLink]="['/media', media.Path]"
-    [ngStyle]="{
-        'background-image': 'url(' + media.BoxArt + ')',
-        'background-size': 'cover'
-      }">
-  <h3>{{media.Title}}</h3>
-  <p>Also known as {{media.JapaneseTitle}}</p>
-  <p>Released on {{media.ReleaseDate}} by {{media.Distributor}}</p>
-  <p>Medium: {{media.Medium}}</p>
+<div class="media-card" [routerLink]="['/media', media.Path]">
+  <img class="media-card-image" src="{{media.BoxArt}}" alt="{{media.Title}} box art image">
+  <div class="media-card-content">
+    <div>
+      <h3>{{media.Title}}</h3>
+      <p>{{media.ReleaseDate}}</p>
+      <p>{{media.Distributor}}</p>
+      <p>{{media.Medium}}</p>
+    </div>
+  </div>
 </div>

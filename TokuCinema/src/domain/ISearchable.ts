@@ -1,7 +1,7 @@
 import { ItemType } from './ItemType';
 
 export interface ISearchable {
-    getName(): string;
+    getDisplayName(): string;
     getType(): ItemType;
     getPath(): string;
 }
