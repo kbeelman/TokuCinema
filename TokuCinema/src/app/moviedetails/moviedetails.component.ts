@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ISubscription } from "rxjs/Subscription";
 import { ActivatedRoute, Params, Router }   from '@angular/router';
 import { Location }                 from '@angular/common';
 import 'rxjs/add/operator/switchMap';
+import "rxjs/add/operator/takeWhile";
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 import { Movie } from '../../domain/Movie';
@@ -12,7 +14,8 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
   selector: 'app-moviedetails',
   templateUrl: './moviedetails.component.html'
 })
-export class MoviedetailsComponent implements OnInit {
+export class MoviedetailsComponent implements OnInit, OnDestroy {
+  private alive: boolean = true;
   movie: Movie;
   moviesData: FirebaseListObservable<any[]>;
 
@@ -21,7 +24,8 @@ export class MoviedetailsComponent implements OnInit {
       private location: Location,
     ) { 
     
-    router.events.subscribe((val) => {
+    router.events.takeWhile(() => this.alive)
+    .subscribe((val) => {
 
       if(this.router.url.split('/')[1] === 'movies' && this.router.url.split('/')[2]){
         let Path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
@@ -44,6 +48,10 @@ export class MoviedetailsComponent implements OnInit {
 
   ngOnInit() {
     
+  }
+
+  ngOnDestroy() {
+    this.alive = false;
   }
 
 }

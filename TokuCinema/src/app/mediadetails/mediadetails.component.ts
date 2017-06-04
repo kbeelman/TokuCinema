@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Params, Router }   from '@angular/router';
 import { Location }                 from '@angular/common';
+import { ISubscription } from "rxjs/Subscription";
 import 'rxjs/add/operator/switchMap';
+import "rxjs/add/operator/takeWhile";
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 import { Media } from '../../domain/Media';
@@ -13,7 +15,8 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
   selector: 'app-mediadetails',
   templateUrl: './mediadetails.component.html'
 })
-export class MediadetailsComponent implements OnInit {
+export class MediadetailsComponent implements OnInit, OnDestroy {
+    private alive: boolean = true;
     mediaData: FirebaseListObservable<any[]>;
     media: Media;
     mediaDetails: MediaDetails;
@@ -25,7 +28,8 @@ export class MediadetailsComponent implements OnInit {
       private location: Location,
     ) { 
     
-    router.events.subscribe((val) => {
+    router.events.takeWhile(() => this.alive)
+    .subscribe((val) => {
 
       if(this.router.url.split('/')[1] === 'media' && this.router.url.split('/')[2]){
         let Path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
@@ -49,6 +53,10 @@ export class MediadetailsComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+
+  ngOnDestroy() {
+    this.alive = false;
   }
 
 }
