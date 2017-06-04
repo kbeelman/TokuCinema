@@ -10,8 +10,32 @@ import { DomainBuilder, DataType } from './../../domain/Builder';
 export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();
   searchTerm: string = '';
-
   mediaData: FirebaseListObservable<any[]>;
+
+  // Form use
+  mediums: Array<string> = [
+    "Blu-ray",
+    "DVD",
+    "Laser Disc",
+    "VHS"
+  ];
+
+  languages: Array<string> = [
+    "English",
+    "Japanese",
+    "German",
+    "French",
+    "Italian"
+  ];
+
+  countries: Array<string> = [
+    "Japan",
+    "United States"
+  ];
+
+  regions: Array<number> = [
+    1, 2, 3, 4
+  ];
 
   constructor(db: AngularFireDatabase) { 
     this.mediaData = db.list('/media');

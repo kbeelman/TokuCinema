@@ -1,18 +1,47 @@
 <div class="medias-root">
   <div class="medias-header">
     <h2>Media</h2>
-    <div class="nav-search normal-z">
-      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
+    <div class="detail-search normal-z">
+      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search by title">
     </div>
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
+    
+    <!--Filters-->
+    <div class="filter-section">
+      <div class="filter-option">
+        <label for="medium-select">Medium</label>
+        <select id="medium-select">
+          <option *ngFor="let medium of mediums" [value]="medium">{{medium}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="spoken-language-select">Spoken Language</label>
+        <select id="spoken-language-select">
+          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="subtitle-language-select">Subtitle Language</label>
+        <select id="subtitle-language-select">
+          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="country-select">Country</label>
+        <select id="country-select">
+          <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="region-select">Region</label>
+        <select id="region-select">
+          <option *ngFor="let region of regions" [value]="region">{{region}}</option>
+        </select>
+      </div>
+    </div>
   </div>
-  <div class="medias-results">
-    <app-media-card
-      *ngFor="let media of mediaItems"
-      [media]="media">
-    </app-media-card>
-  </div>
+
+  <app-media-search-results
+    [mediaItems]="this.mediaItems"
+    [searchTerm]="this.searchTerm">
+  </app-media-search-results>
 </div>

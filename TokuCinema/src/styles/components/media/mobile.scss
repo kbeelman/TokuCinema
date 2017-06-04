@@ -14,3 +14,40 @@
 .medias-results {
   justify-content: center;
 }
+
+.detail-search {
+  position: relative;
+  margin-top: 20px;
+  left: 0;
+  z-index: 2;
+  height: 40px;
+  border: solid 1px black;
+
+  input {
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+  }
+}
+
+.filter-section {
+  margin-top: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+  width: 100%;
+
+  .filter-option {
+    margin-top: $mobile-gutter;
+
+    label {
+
+    }
+
+    select {
+      width: 100%;
+    }
+  }
+
+  .filter-option:first-child {
+    margin-top: 0;
+  }
+}
