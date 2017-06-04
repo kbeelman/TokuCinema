@@ -2,7 +2,7 @@
   <div class="medias-header">
     <h2>Media</h2>
     <div class="detail-search normal-z">
-      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search by title">
+      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Filter by title">
     </div>
     
     <!--Filters-->
@@ -10,30 +10,35 @@
       <div class="filter-option">
         <label for="medium-select">Medium</label>
         <select id="medium-select">
+          <option value="">Choose a medium</option>
           <option *ngFor="let medium of mediums" [value]="medium">{{medium}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="spoken-language-select">Spoken Language</label>
         <select id="spoken-language-select">
+          <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="subtitle-language-select">Subtitle Language</label>
         <select id="subtitle-language-select">
+          <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="country-select">Country</label>
         <select id="country-select">
+          <option value="">Choose a country</option>
           <option *ngFor="let country of countries" [value]="country">{{country}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="region-select">Region</label>
         <select id="region-select">
+          <option value="">Choose a region</option>
           <option *ngFor="let region of regions" [value]="region">{{region}}</option>
         </select>
       </div>

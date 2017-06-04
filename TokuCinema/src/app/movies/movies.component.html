@@ -1,18 +1,59 @@
 <div class="movies-root">
   <div class="movies-header">
     <h2>Movies</h2>
-    <div class="nav-search normal-z">
+    <div class="detail-search normal-z">
       <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
     </div>
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
-    <input type="checkbox" name="" value="">
+
+<!--Filters-->
+    <div class="filter-section">
+      <div class="filter-option">
+        <label for="spoken-language-select">Spoken Language</label>
+        <select id="spoken-language-select">
+          <option value="">Choose a language</option>
+          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="medium-select">Studio</label>
+        <select id="medium-select">
+          <option value="">Choose a studio</option>
+          <option *ngFor="let studio of studios" [value]="studio">{{studio}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="subtitle-language-select">Director</label>
+        <select id="subtitle-language-select">
+          <option value="">Choose a director</option>
+          <option *ngFor="let director of directors" [value]="director">{{director}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="country-select">Series</label>
+        <select id="country-select">
+          <option value="">Choose a series</option>
+          <option *ngFor="let seriesItem of series" [value]="seriesItem">{{seriesItem}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="region-select">Era</label>
+        <select id="region-select">
+          <option value="">Choose an era</option>
+          <option *ngFor="let era of eras" [value]="era">{{era}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <label for="region-select">Production Company</label>
+        <select id="region-select">
+          <option value="">Choose a production company</option>
+          <option *ngFor="let productionCompany of productionCompanies" [value]="productionCompany">{{productionCompany}}</option>
+        </select>
+      </div>
+    </div>
   </div>
-  <div class="movies-results">
-    <app-movie-card
-      *ngFor="let movie of movieItems"
-      [movie]="movie">
-    </app-movie-card>
-  </div>
+
+<app-movies-search-results
+  [movieItems]="this.movieItems"
+  [searchTerm]="this.searchTerm">
+</app-movies-search-results>
 </div>

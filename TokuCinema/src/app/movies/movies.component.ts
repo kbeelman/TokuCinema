@@ -10,8 +10,42 @@ import { DomainBuilder, DataType } from './../../domain/Builder';
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
   searchTerm: string = '';
-
   moviesData: FirebaseListObservable<any[]>;
+
+  languages: Array<string> = [
+    "English",
+    "Japanese",
+    "German",
+    "French",
+    "Italian"
+  ];
+
+  studios: Array<string> = [
+    "Toho",
+    "Legendary"
+  ];
+
+  directors: Array<string> = [
+    "Ishiro Honda",
+    "Rick James"
+  ];
+
+  series: Array<string> = [
+    "Godzilla",
+    "Rodan",
+    "Mothra"
+  ];
+
+  eras: Array<string> = [
+    "Showa",
+    "Heisei",
+    "Millenium Falcon"
+  ];
+
+  productionCompanies: Array<string> = [
+    "Universal",
+    "TriStar"
+  ];
 
   constructor(db: AngularFireDatabase) { 
     this.moviesData = db.list('/movies');

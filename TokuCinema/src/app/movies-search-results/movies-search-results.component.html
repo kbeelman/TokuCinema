@@ -1,0 +1,6 @@
+  <div class="movies-results">
+    <app-movie-card
+      *ngFor="let movie of movieItems | movieTitle : searchTerm"
+      [movie]="movie">
+    </app-movie-card>
+  </div>

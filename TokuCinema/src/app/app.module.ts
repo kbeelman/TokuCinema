@@ -22,11 +22,13 @@ import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MediaCardComponent } from './media-card/media-card.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { MediaFormComponent } from './media-form/media-form.component';
+import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
+import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
 
 // Pipes
 import { Search } from './pipes/search.pipe';
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
-import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
+import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -53,8 +55,10 @@ export const firebaseConfig = {
     SearchResultsComponent,
     Search,
     MediaTitleSearch,
+    MovieTitleSearch,
     MediaFormComponent,
-    MediaSearchResultsComponent
+    MediaSearchResultsComponent,
+    MoviesSearchResultsComponent
   ],
   imports: [
     BrowserModule,
