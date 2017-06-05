@@ -1,6 +1,6 @@
   <div class="movies-results">
     <app-movie-card
-      *ngFor="let movie of movieItems | movieTitle : searchTerm"
+      *ngFor="let movie of movieItems | movieTitle : searchTerm | movieFilters : movieFiltersPackage"
       [movie]="movie">
     </app-movie-card>
   </div>

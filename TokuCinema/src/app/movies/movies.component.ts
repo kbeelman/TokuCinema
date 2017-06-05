@@ -10,6 +10,11 @@ import { DomainBuilder, DataType } from './../../domain/Builder';
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
   searchTerm: string = '';
+  distributorFilter: string = '';
+  directorFilter: string = '';
+  seriesFilter: string = '';
+  eraFilter: string = '';
+  productionCompanyFilter: string = '';
   moviesData: FirebaseListObservable<any[]>;
 
   languages: Array<string> = [
@@ -20,7 +25,7 @@ export class MoviesComponent implements OnInit {
     "Italian"
   ];
 
-  studios: Array<string> = [
+  distributors: Array<string> = [
     "Toho",
     "Legendary"
   ];

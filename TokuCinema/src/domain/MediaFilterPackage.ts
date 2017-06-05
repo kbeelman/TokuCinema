@@ -1,5 +1,3 @@
-import { Medium, Language, Country } from './Types';
-
 // More of a struct
 export class MediaFilterPakage {
     public Medium: string;

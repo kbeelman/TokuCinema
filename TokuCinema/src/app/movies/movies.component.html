@@ -9,42 +9,42 @@
     <div class="filter-section">
       <div class="filter-option">
         <label for="spoken-language-select">Spoken Language</label>
-        <select id="spoken-language-select">
+        <select id="spoken-language-select" disabled>
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="medium-select">Studio</label>
-        <select id="medium-select">
+        <label for="distributor-select">Distributor</label>
+        <select id="distributor-select" [(ngModel)]="this.distributorFilter">
           <option value="">Choose a studio</option>
-          <option *ngFor="let studio of studios" [value]="studio">{{studio}}</option>
+          <option *ngFor="let distributor of distributors" [value]="distributor">{{distributor}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="subtitle-language-select">Director</label>
-        <select id="subtitle-language-select">
+        <label for="director-select">Director</label>
+        <select id="director-select" [(ngModel)]="this.directorFilter">
           <option value="">Choose a director</option>
           <option *ngFor="let director of directors" [value]="director">{{director}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="country-select">Series</label>
-        <select id="country-select">
+        <label for="series-select">Series</label>
+        <select id="series-select" [(ngModel)]="this.seriesFilter">
           <option value="">Choose a series</option>
           <option *ngFor="let seriesItem of series" [value]="seriesItem">{{seriesItem}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="region-select">Era</label>
-        <select id="region-select">
+        <label for="era-select">Era</label>
+        <select id="era-select" [(ngModel)]="this.eraFilter">
           <option value="">Choose an era</option>
           <option *ngFor="let era of eras" [value]="era">{{era}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="region-select">Production Company</label>
-        <select id="region-select">
+        <label for="production-company-select">Production Company</label>
+        <select id="production-company-select" [(ngModel)]="this.productionCompanyFilter">
           <option value="">Choose a production company</option>
           <option *ngFor="let productionCompany of productionCompanies" [value]="productionCompany">{{productionCompany}}</option>
         </select>
@@ -54,6 +54,11 @@
 
 <app-movies-search-results
   [movieItems]="this.movieItems"
-  [searchTerm]="this.searchTerm">
+  [searchTerm]="this.searchTerm"
+  [distributor]="this.distributorFilter"
+  [director]="this.directorFilter"
+  [series]="this.seriesFilter"
+  [era]="this.eraFilter"
+  [productionCompany]="this.productionCompanyFilter">
 </app-movies-search-results>
 </div>

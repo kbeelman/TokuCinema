@@ -1,18 +1,34 @@
+import { MovieFilterPackage } from './../../domain/MovieFilterPackage';
 import { MovieTitleSearch } from './../pipes/movies/movieTitle.pipe';
 import { Movie } from './../../domain/Movie';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'app-movies-search-results',
   templateUrl: './movies-search-results.component.html'
 })
-export class MoviesSearchResultsComponent implements OnInit {
+export class MoviesSearchResultsComponent implements OnChanges {
   @Input() movieItems: Array<Movie>;
   @Input() searchTerm: string;
+  @Input() distributor: string;
+  @Input() director: string;
+  @Input() series: string;
+  @Input() era: string;
+  @Input() productionCompany: string;
+  movieFiltersPackage: MovieFilterPackage;
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnChanges() {
+    this.movieFiltersPackage = new MovieFilterPackage(this.distributor,
+      this.director,
+      this.series,
+      this.era,
+      this.productionCompany);
+
+    console.log('Filtering results by: ');
+    console.log(this.searchTerm);
+    console.log(this.movieFiltersPackage);
   }
 
 }
