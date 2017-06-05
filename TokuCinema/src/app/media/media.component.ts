@@ -1,3 +1,4 @@
+import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
 import { Component, OnInit } from '@angular/core';
 import { Media } from '../../domain/Media';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
@@ -10,6 +11,8 @@ import { DomainBuilder, DataType } from './../../domain/Builder';
 export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();
   searchTerm: string = '';
+  mediumFilter: string = '';
+  regionFilter: any = '';
   mediaData: FirebaseListObservable<any[]>;
 
   // Form use

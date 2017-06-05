@@ -1,18 +1,28 @@
+import { MediaFiltersSearch } from './../pipes/media/mediaFilters.pipe';
+import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
 import { MediaTitleSearch } from '../pipes/media/mediaTitle.pipe';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { Media } from '../../domain/Media';
 
 @Component({
   selector: 'app-media-search-results',
   templateUrl: './media-search-results.component.html'
 })
-export class MediaSearchResultsComponent implements OnInit {
+export class MediaSearchResultsComponent implements OnChanges {
   @Input() mediaItems: Array<Media>;
   @Input() searchTerm: string;
+  @Input() mediumFilter: string;
+  @Input() regionFilter: number;
+  mediaFilters: MediaFilterPakage;
 
-  constructor() { }
+  constructor() { 
+  }
 
-  ngOnInit() {
+  ngOnChanges() {
+    this.mediaFilters = new MediaFilterPakage(this.mediumFilter, this.regionFilter);
+    console.log("Filtering by: ")
+    console.log(this.searchTerm);
+    console.log(this.mediaFilters);
   }
 
 }

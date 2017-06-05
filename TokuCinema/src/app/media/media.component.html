@@ -9,35 +9,35 @@
     <div class="filter-section">
       <div class="filter-option">
         <label for="medium-select">Medium</label>
-        <select id="medium-select">
+        <select id="medium-select" [(ngModel)]="mediumFilter">
           <option value="">Choose a medium</option>
           <option *ngFor="let medium of mediums" [value]="medium">{{medium}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="spoken-language-select">Spoken Language</label>
-        <select id="spoken-language-select">
+        <select id="spoken-language-select" disabled>
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="subtitle-language-select">Subtitle Language</label>
-        <select id="subtitle-language-select">
+        <select id="subtitle-language-select" disabled>
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="country-select">Country</label>
-        <select id="country-select">
+        <select id="country-select" disabled>
           <option value="">Choose a country</option>
           <option *ngFor="let country of countries" [value]="country">{{country}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="region-select">Region</label>
-        <select id="region-select">
+        <select id="region-select" [(ngModel)]="regionFilter">
           <option value="">Choose a region</option>
           <option *ngFor="let region of regions" [value]="region">{{region}}</option>
         </select>
@@ -47,6 +47,8 @@
 
   <app-media-search-results
     [mediaItems]="this.mediaItems"
-    [searchTerm]="this.searchTerm">
+    [searchTerm]="this.searchTerm"
+    [mediumFilter]="this.mediumFilter"
+    [regionFilter]="this.regionFilter">
   </app-media-search-results>
 </div>
