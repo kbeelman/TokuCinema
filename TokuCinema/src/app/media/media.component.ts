@@ -12,6 +12,9 @@ export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();
   searchTerm: string = '';
   mediumFilter: string = '';
+  spokenLanguageFilter: string = '';
+  subtitleLanguageFilter: string = '';
+  countryFilter: string = '';
   regionFilter: any = '';
   mediaData: FirebaseListObservable<any[]>;
 
@@ -50,6 +53,7 @@ export class MediaComponent implements OnInit {
         let domainBuilder = new DomainBuilder(element[i], DataType.Media);
         let domainObject = domainBuilder.getDomainObject();
         this.mediaItems.push(domainObject);
+        console.log(domainObject);
       }
     });
   }

@@ -12,6 +12,9 @@ export class MediaSearchResultsComponent implements OnChanges {
   @Input() mediaItems: Array<Media>;
   @Input() searchTerm: string;
   @Input() mediumFilter: string;
+  @Input() spokenLanguageFilter: string;
+  @Input() subtitleLanguageFilter: string;
+  @Input() countryFilter: string;
   @Input() regionFilter: number;
   mediaFilters: MediaFilterPakage;
 
@@ -19,7 +22,7 @@ export class MediaSearchResultsComponent implements OnChanges {
   }
 
   ngOnChanges() {
-    this.mediaFilters = new MediaFilterPakage(this.mediumFilter, this.regionFilter);
+    this.mediaFilters = new MediaFilterPakage(this.mediumFilter, this.spokenLanguageFilter, this.subtitleLanguageFilter, this.countryFilter, this.regionFilter);
     console.log("Filtering by: ")
     console.log(this.searchTerm);
     console.log(this.mediaFilters);

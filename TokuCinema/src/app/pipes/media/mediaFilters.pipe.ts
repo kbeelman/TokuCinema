@@ -7,12 +7,15 @@ export class MediaFiltersSearch implements PipeTransform {
       // Filter for Medium
       let filteredResults = value.filter( item => item.Medium.toLowerCase().includes(args.Medium.toLowerCase()));
       // Filter for Spoken language
-      // let filteredResults = value.filter( item => item.Medium.toLowerCase().includes(args.Medium.toLowerCase()));
+      if (args.SpokenLanguages != '') {
+        filteredResults = filteredResults.filter( item => item.AudioTracks.includes(args.SpokenLanguages));
+      }
       // Filter for Subtitle language
-      // let filteredResults = value.filter( item => item.Medium.toLowerCase().includes(args.Medium.toLowerCase()));
+      if (args.SubtitleLanguages != '') {
+        filteredResults = filteredResults.filter( item => item.Subtitles.includes(args.SubtitleLanguages));
+      }
       // Filter for Country
-      // filteredResults = filteredResults.filter( item => item.Country.toLowerCase().includes(args.Medium.toLowerCase()));
-      
+      filteredResults = filteredResults.filter( item => item.Country.toLowerCase().includes(args.Country.toLowerCase()));
       // Filter for Region
       filteredResults = filteredResults.filter( item => item.Region.toLowerCase().includes(args.Region.toLowerCase()));
 

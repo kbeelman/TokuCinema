@@ -16,21 +16,21 @@
       </div>
       <div class="filter-option">
         <label for="spoken-language-select">Spoken Language</label>
-        <select id="spoken-language-select" disabled>
+        <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="subtitle-language-select">Subtitle Language</label>
-        <select id="subtitle-language-select" disabled>
+        <select id="subtitle-language-select" [(ngModel)]="this.subtitleLanguageFilter">
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <label for="country-select">Country</label>
-        <select id="country-select" disabled>
+        <select id="country-select" [(ngModel)]="this.countryFilter">
           <option value="">Choose a country</option>
           <option *ngFor="let country of countries" [value]="country">{{country}}</option>
         </select>
@@ -49,6 +49,9 @@
     [mediaItems]="this.mediaItems"
     [searchTerm]="this.searchTerm"
     [mediumFilter]="this.mediumFilter"
+    [spokenLanguageFilter]="this.spokenLanguageFilter"
+    [subtitleLanguageFilter]="this.subtitleLanguageFilter"
+    [countryFilter]="this.countryFilter"
     [regionFilter]="this.regionFilter">
   </app-media-search-results>
 </div>

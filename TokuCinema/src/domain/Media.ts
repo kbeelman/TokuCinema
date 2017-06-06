@@ -15,11 +15,13 @@ export class Media implements ISearchable{
         public Color: ColorType,
         public OriginalRuntime: number,
         public ChapterStops: Array<{"Version": string, "Count": number}>,
+        public AudioTracks: Array<Language>,
         public Subtitles: Array<Language>,
         // Disc Information
         public Medium: Medium,
         public Format: Format,
         public Region: number,
+        public Country: string,
         public DiskCount: number,
         public ColorSystem: ColorSystem,
         // Distributor Information
