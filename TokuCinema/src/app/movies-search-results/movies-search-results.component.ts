@@ -10,6 +10,7 @@ import { Component, OnInit, Input, OnChanges } from '@angular/core';
 export class MoviesSearchResultsComponent implements OnChanges {
   @Input() movieItems: Array<Movie>;
   @Input() searchTerm: string;
+  @Input() spokenLanguageFilter: string;
   @Input() distributor: string;
   @Input() director: string;
   @Input() series: string;
@@ -20,7 +21,8 @@ export class MoviesSearchResultsComponent implements OnChanges {
   constructor() { }
 
   ngOnChanges() {
-    this.movieFiltersPackage = new MovieFilterPackage(this.distributor,
+    this.movieFiltersPackage = new MovieFilterPackage(this.spokenLanguageFilter,
+      this.distributor,
       this.director,
       this.series,
       this.era,

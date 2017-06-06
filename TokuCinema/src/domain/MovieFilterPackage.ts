@@ -8,18 +8,18 @@ export class MovieFilterPackage {
     public ProductionCompany: string;
 
     constructor(
+        spokenLanguage?: string,
         distributor?: string,
         director?: string,
         series?: string,
         era?: string,
-        productionCompany?: string,
-        spokenLanguage?: string
+        productionCompany?: string
     ) {
-        this.SpokenLanguage = spokenLanguage;
-        this.Distributor = distributor;
-        this.Director = director;
-        this.Series = series;
-        this.Era = era;
-        this.ProductionCompany = productionCompany;
+        this.SpokenLanguage = spokenLanguage && spokenLanguage.length ? spokenLanguage : '';
+        this.Distributor = distributor && distributor.length ? distributor : '';
+        this.Director = director && director.length ? director : '';
+        this.Series = series && series.length ? series : '';
+        this.Era = era && era.length ? era : '';
+        this.ProductionCompany = productionCompany && productionCompany.length ? productionCompany : '';
     }
 }

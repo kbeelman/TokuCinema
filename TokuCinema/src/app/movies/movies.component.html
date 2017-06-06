@@ -9,7 +9,7 @@
     <div class="filter-section">
       <div class="filter-option">
         <label for="spoken-language-select">Spoken Language</label>
-        <select id="spoken-language-select" disabled>
+        <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
           <option value="">Choose a language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
@@ -53,6 +53,7 @@
   </div>
 
 <app-movies-search-results
+  [spokenLanguageFilter]="this.spokenLanguageFilter"
   [movieItems]="this.movieItems"
   [searchTerm]="this.searchTerm"
   [distributor]="this.distributorFilter"

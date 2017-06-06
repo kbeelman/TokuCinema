@@ -10,6 +10,7 @@ import { DomainBuilder, DataType } from './../../domain/Builder';
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
   searchTerm: string = '';
+  spokenLanguageFilter: string = '';
   distributorFilter: string = '';
   directorFilter: string = '';
   seriesFilter: string = '';
@@ -62,6 +63,7 @@ export class MoviesComponent implements OnInit {
         let domainBuilder = new DomainBuilder(element[i], DataType.Movie);
         let domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
+        console.log(domainObject);
       }
     });
   }
