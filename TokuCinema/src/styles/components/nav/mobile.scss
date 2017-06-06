@@ -5,7 +5,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: white;
+  background-color: $secondary-background;
   height: 80px;
   z-index: 10;
 }
@@ -42,12 +42,12 @@
   width: 100%;
   top: 80px;
   z-index: 1;
-  background-color: rgba(29.8%, 33.7%, 36.9%, 0.8);
+  background-color: $modal-background;
 }
 
 .expanded-menu {
   top: 80px;
-  background-color: darkgray;
+  background-color: $tertiary-background;
   width: 100%;
   position: fixed;
   z-index: 2;
@@ -87,8 +87,18 @@
   border: solid 1px black;
 
   input {
+    background-color: $tertiary-background;
+    outline: none;
+    border: none;
+    color: $primary-foreground;
     height: 100%;
     width: 100%;
     font-size: 24px;
+  }
+}
+
+.nav-hamburger-menu, .nav-search-icon {
+  svg {
+    fill: $primary-foreground;
   }
 }

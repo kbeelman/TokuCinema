@@ -72,4 +72,5 @@ export class Media implements ISearchable{
     public getPath(): string {
         return this.Path;
     }
+
 }

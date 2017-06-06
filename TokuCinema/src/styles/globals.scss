@@ -4,6 +4,20 @@ $tablet-gutter: 40px;
 $desktop-gutter: calc((100% - 940px) / 2);
 $below-header: $mobile-gutter + 80px;
 
+  // Colors
+$primary-background: #181818;
+$secondary-background: #222;
+$tertiary-background: #363636;
+
+$primary-foreground: #efefef;
+$secondary-foreground: #cccccc;
+$tertiary-foreground: #999999;
+
+$primary-accent: #f22929;
+$secondary-accent: #00a810;
+
+$modal-background: rgba(33,34,34,.96);
+
 // Placeholders
 %svg-icon {
   height: auto;
@@ -39,10 +53,24 @@ $below-header: $mobile-gutter + 80px;
 // Base
 body {
   margin: 0;
+  background-color: $primary-background;
+  color: $primary-foreground;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
   text-decoration: none;
+  
+  &:link, &:visited, &:hover, &:active {
+    color: $primary-foreground;
+  }
+}
+
+input, select {
+    background-color: $tertiary-background;
+    outline: none;
+    border: none;
+    color: $primary-foreground;
 }
 
 // Important Overrides
