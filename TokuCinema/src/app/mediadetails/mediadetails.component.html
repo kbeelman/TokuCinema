@@ -6,7 +6,7 @@
   </div>
   <div>
     <div class="media-poster">
-      <img src="http://placehold.it/200x275">
+      <img [src]="mediaDetails.BoxArt" width="200" height="280">
     </div>
     <div class="media-information">
       <div class="left-information">
@@ -24,6 +24,20 @@
         </div>
       </div>
       <div>
+        <div>
+          Purchase Now:
+          <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock else elseBlock"></div>
+          <ng-template #thenBlock>
+            <ul>
+              <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item" target="_blank">Amazon</a></li>
+            </ul>
+          </ng-template>
+          <ng-template #elseBlock>
+            <ul>
+              <li>Sorry, this item is unavailable for purchase.</li>
+            </ul>
+          </ng-template>
+        </div>
         <div>
           Distributor Information:
           <ul>

@@ -55,7 +55,8 @@ export class Media implements ISearchable{
                 this.DiskCount.toString(), this.ColorSystem.toString()
             ],
             [this.Distributor, this.CatalogCode, this.UPC, this.ReleaseDate.toString()],
-            []
+            this.PurchaseLinks,
+            this.BoxArt
         );
 
         return mediaDetails;
