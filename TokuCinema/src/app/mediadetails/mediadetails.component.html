@@ -6,18 +6,18 @@
   </div>
   <div>
     <div class="media-poster">
-      <img [src]="mediaDetails.BoxArt" width="200" height="280">
+      <img [src]="mediaDetails.BoxArt">
     </div>
     <div class="media-information">
       <div class="left-information">
         <div>
-          Main Feature Information:
+          <h3>Main Feature Information:</h3>
           <ul>
             <li *ngFor = "let item of mediaDetails.MainFeatureInfo">{{item}}</li>
           </ul>
         </div>
         <div>
-          Disc Information:
+          <h3>Disc Information:</h3>
           <ul>
             <li *ngFor = "let item of mediaDetails.DiscInfo">{{item}}</li>
           </ul>
@@ -25,7 +25,7 @@
       </div>
       <div>
         <div>
-          Purchase Now:
+          <h3>Purchase Now:</h3>
           <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock else elseBlock"></div>
           <ng-template #thenBlock>
             <ul>
@@ -39,12 +39,42 @@
           </ng-template>
         </div>
         <div>
-          Distributor Information:
+          <h3>Distributor Information:</h3>
           <ul>
             <li *ngFor = "let item of mediaDetails.DistributionInfo">{{item}}</li>
           </ul>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="media-review">
+    <img src="https://i.imgur.com/iG56sYL.jpg" width="900" height="500">
+    <div><h2>Video: 4/5</h2></div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <img src="https://i.imgur.com/iG56sYL.jpg" width="900" height="500">
+    <div><h2>Audio: 5/5</h2></div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <img src="https://i.imgur.com/iG56sYL.jpg" width="900" height="500">
+    <div><h2>Extras: 2/5</h2></div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </div>
+    <img src="https://i.imgur.com/iG56sYL.jpg" width="900" height="500">
+    <div><h2>Overall: 3/5</h2></div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
   </div>
 </div>
