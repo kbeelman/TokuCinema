@@ -1,4 +1,4 @@
-<div class="media-card" [routerLink]="['/media', media.Path]">
+<div *ngIf="this.media" class="media-card" [routerLink]="['/media', media.Path]">
   <img class="media-card-image" src="{{media.BoxArt}}" alt="{{media.Title}} box art image">
   <div class="media-card-content">
     <div>

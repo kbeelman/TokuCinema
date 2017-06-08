@@ -1,3 +1,5 @@
+import { RouterTestingModule } from '@angular/router/testing';
+import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MediaCardComponent } from './media-card.component';
@@ -8,7 +10,11 @@ describe('MediaCardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediaCardComponent ]
+      declarations: [ MediaCardComponent ],
+      imports: [
+        FormsModule,
+        RouterTestingModule
+      ]
     })
     .compileComponents();
   }));

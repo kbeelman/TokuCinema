@@ -1,5 +1,9 @@
+import { RouterTestingModule } from '@angular/router/testing';
+import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { firebaseConfig } from '../app.component.spec';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MoviedetailsComponent } from './moviedetails.component';
 
 describe('MoviedetailsComponent', () => {
@@ -8,7 +12,13 @@ describe('MoviedetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviedetailsComponent ]
+      declarations: [ MoviedetailsComponent ],
+      imports: [
+        FormsModule,
+        RouterTestingModule,
+        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireDatabaseModule 
+      ]
     })
     .compileComponents();
   }));

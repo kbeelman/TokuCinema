@@ -1,5 +1,8 @@
-<div class="dev-card">
-  <img [src]="developer.imgUrl">
-  <h3>{{developer.name}}</h3>
-  <p>{{developer.bio}}</p>
-</div>
+<a *ngIf="this.developer" 
+  [href]="developer.url" target="_blank">
+  <div class="dev-card">
+    <img [src]="developer.imgUrl">
+    <h3>{{developer.name}}</h3>
+    <p>{{developer.bio}}</p>
+  </div>
+</a>

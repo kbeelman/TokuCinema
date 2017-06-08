@@ -1,3 +1,16 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { MediaCardComponent } from './media-card/media-card.component';
+import { MovieCardComponent } from './movie-card/movie-card.component';
+import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
+import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
+import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
+import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
+import { Search } from './pipes/search.pipe';
+import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
+import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
+import { DevCardComponent } from './dev-card/dev-card.component';
 import { RouterTestingModule }   from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 
@@ -9,9 +22,9 @@ import { MoviesComponent } from './movies/movies.component';
 import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
 import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
-import { TestBed, async } from '@angular/core/testing';
 
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -23,6 +36,9 @@ export const firebaseConfig = {
 };
 
 describe('AppComponent', () => {
+  let component: AppComponent;
+  let fixture: ComponentFixture<AppComponent>;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
@@ -34,16 +50,36 @@ describe('AppComponent', () => {
         MoviesComponent,
         MoviedetailsComponent,
         MediaComponent,
-        MediadetailsComponent
+        MediadetailsComponent,
+        DevCardComponent,
+        SearchResultsComponent,
+        MoviesSearchResultsComponent,
+        MediaSearchResultsComponent,
+        Search,
+        MovieTitleSearch,
+        MediaTitleSearch,
+        MediaFiltersSearch,
+        MovieFiltersSearch,
+        MovieCardComponent,
+        MediaCardComponent
       ],
-      imports: [ FormsModule, RouterTestingModule, AngularFireModule.initializeApp(firebaseConfig) ]
+      imports: [ 
+        FormsModule,
+        RouterTestingModule,
+        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireDatabaseModule, 
+      ]
     }).compileComponents();
   }));
 
-  it('should create the app', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
+  beforeEach(() => {
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create the app', async(() => {    
+    expect(component).toBeTruthy();
   }));
 
 });
