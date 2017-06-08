@@ -45,7 +45,7 @@ export class Media implements ISearchable{
     public GetMediaDetails(): MediaDetails {
         let mediaDetails = new MediaDetails(this.Medium.toString(), this.Title, this.JapaneseTitle,
             [
-                this.AspectRatio.toString(), this.toString(), this.Color.toString(),
+                this.AspectRatio.toString(), this.Runtime.toString(), this.Color.toString(),
                 this.OriginalRuntime.toString(), 
                 '', // Chapter stops go here
                 this.Subtitles.toString()
@@ -55,7 +55,8 @@ export class Media implements ISearchable{
                 this.DiskCount.toString(), this.ColorSystem.toString()
             ],
             [this.Distributor, this.CatalogCode, this.UPC, this.ReleaseDate.toString()],
-            []
+            this.PurchaseLinks,
+            this.BoxArt
         );
 
         return mediaDetails;

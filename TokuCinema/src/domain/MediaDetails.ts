@@ -9,7 +9,8 @@ export class MediaDetails {
         public MainFeatureInfo: Array<string>,
         public DiscInfo: Array<string>,
         public DistributionInfo: Array<string>,
-        public PurchaseLinks: Array<string>
+        public PurchaseLinks: Array<string>,
+        public BoxArt: string
     ) {}
 
 }

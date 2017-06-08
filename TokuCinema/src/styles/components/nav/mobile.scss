@@ -11,6 +11,7 @@
 }
 
 .nav-hamburger-menu {
+  cursor: pointer;
   position: absolute;
   left: $mobile-gutter;
 
@@ -20,13 +21,14 @@
 }
 
 .nav-title {
-
+  cursor: pointer;
   h1 {
     margin: 0;
   }
 }
 
 .nav-search-icon {
+  cursor: pointer;
   position: absolute;
   right: $mobile-gutter;
 
