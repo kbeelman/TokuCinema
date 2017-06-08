@@ -91,12 +91,23 @@ Monster Movie Review Website
 </system.webServer>
 </configuration>
 ```
-    
-3. Commit/Push the changes
+3. Clean Root of Compile App (old build)
+    - Delete all files and folders in the root TokuCinema directory except for the below:
+        - .git (folder)
+        - node_modules (folder)
+        - TokuCinema (folder)
+        - INITIALSETUP.md (file)
+        - README.md (file)
+        - web.config (file)
+
+4. Copy Contents of Dist folder (new build) to Root directory
+    - Copy all contents of this directory: ```TokuCinema\TokuCinema\dist```, and paste them into the root of the repository.
+
+5. Commit/Push the changes
     - Azure will automatically pull the changes and redploy the application. 
         - CI location:  [TokuCinema CI](http://tokuCinema-ci.azurewebsites.net/)
         - Prod location:  [TokuCinema Prod](http://tokuCinema.azurewebsites.net/)  
 
-*Currently the CI pulls from the develop branch and Prod pulls from master*  
+*Currently the CI pulls from the development branch and Prod pulls from master*  
 
 **(Merging develop to master and pushing will deploy to Prod)**
