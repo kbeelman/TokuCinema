@@ -1,5 +1,16 @@
 @import '../../globals.scss';
 
+.movies-results {
+
+  app-movie-card {
+    width: calc(50% - 5px);
+  }
+
+  app-movie-card:nth-child(odd) {
+    margin-right: 10px;
+  }
+}
+
 .movie-card {
-  width: 400px;
+  width: 100%;
 }
