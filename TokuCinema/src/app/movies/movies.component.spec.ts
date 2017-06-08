@@ -1,5 +1,13 @@
+import { MovieCardComponent } from './../movie-card/movie-card.component';
+import { MovieTitleSearch } from './../pipes/movies/movieTitle.pipe';
+import { MovieFiltersSearch } from './../pipes/movies/movieFilters.pipe';
+import { MoviesSearchResultsComponent } from './../movies-search-results/movies-search-results.component';
+import { RouterTestingModule } from '@angular/router/testing';
+import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { firebaseConfig } from '../app.component.spec';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MoviesComponent } from './movies.component';
 
 describe('MoviesComponent', () => {
@@ -8,7 +16,18 @@ describe('MoviesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviesComponent ]
+      declarations: [ MoviesComponent,
+      MoviesSearchResultsComponent,
+      MovieFiltersSearch,
+      MovieTitleSearch,
+      MovieCardComponent
+    ],
+      imports: [
+        FormsModule,
+        RouterTestingModule,
+        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireDatabaseModule 
+      ]
     })
     .compileComponents();
   }));

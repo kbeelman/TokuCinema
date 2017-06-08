@@ -1,5 +1,17 @@
 @import '../../globals.scss';
 
+.medias-results,
+.movies-results {
+
+  app-media-card {
+    width: calc(50% - 5px);
+  }
+
+  app-media-card:nth-child(odd) {
+    margin-right: 10px;
+  }
+}
+
 .media-card {
-  width: 400px;
+  width: 100%;
 }

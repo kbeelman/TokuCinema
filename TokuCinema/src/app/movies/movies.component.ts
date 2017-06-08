@@ -33,7 +33,8 @@ export class MoviesComponent implements OnInit {
 
   directors: Array<string> = [
     "Ishiro Honda",
-    "Rick James"
+    "Gareth Edwards",
+    "Masaaki Tezuka"
   ];
 
   series: Array<string> = [
@@ -45,7 +46,7 @@ export class MoviesComponent implements OnInit {
   eras: Array<string> = [
     "Showa",
     "Heisei",
-    "Millenium Falcon"
+    "Millenium"
   ];
 
   productionCompanies: Array<string> = [

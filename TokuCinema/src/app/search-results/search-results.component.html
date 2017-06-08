@@ -1,5 +1,5 @@
 <div class="results-root">
-  <p *ngIf="searchTerm.length >= 0 && searchTerm != ''">Showing results for: {{searchTerm}}</p>
+  <p *ngIf="searchTerm && searchTerm.length >= 0 && searchTerm != ''">Showing results for: {{searchTerm}}</p>
   <div class="result-lists-wrapper">
     <div>
       <h2>Movies</h2>

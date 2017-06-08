@@ -1,13 +1,5 @@
 @import '../../globals.scss';
 
-.movie-card {
-    display: flex;
-    max-height: 240px;
-    background-color: $secondary-background;
-    text-decoration: none;
-    margin: 10px;
-}
-
 .movie-card-content {
     width: 100%;
     margin-left: 10px;
@@ -15,4 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    div {
+        width: 100%;
+        padding: $mobile-gutter;
+    }
 }
