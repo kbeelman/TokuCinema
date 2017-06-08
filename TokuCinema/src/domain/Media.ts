@@ -24,6 +24,7 @@ export class Media implements ISearchable{
         public Country: string,
         public DiskCount: number,
         public ColorSystem: ColorSystem,
+        public Screencaps: Array<string>,
         // Distributor Information
         public Distributor: string,
         public CatalogCode: string,
@@ -56,7 +57,8 @@ export class Media implements ISearchable{
             ],
             [this.Distributor, this.CatalogCode, this.UPC, this.ReleaseDate.toString()],
             this.PurchaseLinks,
-            this.BoxArt
+            this.BoxArt,
+            this.Screencaps
         );
 
         return mediaDetails;

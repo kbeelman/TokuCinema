@@ -63,6 +63,7 @@ export class DomainBuilder {
             mediaData['Country'],
             mediaData['DiskCount'],
             mediaData['ColorSystem'],
+            mediaData['Screencaps'],
             mediaData['Distributor'],
             mediaData['CatalogCode'],
             mediaData['UPC'],
