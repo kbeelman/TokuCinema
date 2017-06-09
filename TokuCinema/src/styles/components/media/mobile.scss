@@ -18,6 +18,7 @@
 .detail-search {
   position: relative;
   margin-top: 20px;
+  margin-bottom: 20px;
   left: 0;
   z-index: 2;
   height: 40px;
@@ -36,18 +37,23 @@
   width: 100%;
 
   .filter-option {
-    margin-top: $mobile-gutter;
-
-    label {
-
-    }
 
     select {
       width: 100%;
     }
   }
+}
 
-  .filter-option:first-child {
-    margin-top: 0;
+.hide-filters {
+  display: none;
+}
+
+.clear-button {
+  height: 40px;
+  width: 33%;
+
+  input {
+    height: 100%;
+    width: 100%;
   }
 }

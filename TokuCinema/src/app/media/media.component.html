@@ -2,48 +2,48 @@
   <div class="medias-header">
     <h2>Media</h2>
     <div class="detail-search normal-z">
-      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Filter by title">
+      <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Filter by title, language, etc.">
     </div>
     
     <!--Filters-->
-    <div class="filter-section">
+    <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
       <div class="filter-option">
-        <label for="medium-select">Medium</label>
         <select id="medium-select" [(ngModel)]="mediumFilter">
-          <option value="">Choose a medium</option>
+          <option value="">Filter by medium</option>
           <option *ngFor="let medium of mediums" [value]="medium">{{medium}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="spoken-language-select">Spoken Language</label>
         <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
-          <option value="">Choose a language</option>
+          <option value="">Filter by spoken language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="subtitle-language-select">Subtitle Language</label>
         <select id="subtitle-language-select" [(ngModel)]="this.subtitleLanguageFilter">
-          <option value="">Choose a language</option>
+          <option value="">Filter by subtitle language</option>
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="country-select">Country of origin</label>
         <select id="country-select" [(ngModel)]="this.countryFilter">
-          <option value="">Choose a country</option>
+          <option value="">Filter by country</option>
           <option *ngFor="let country of countries" [value]="country">{{country}}</option>
         </select>
       </div>
       <div class="filter-option">
-        <label for="region-select">Region</label>
         <select id="region-select" [(ngModel)]="regionFilter">
-          <option value="">Choose a region</option>
+          <option value="">Filter by region</option>
           <option *ngFor="let region of regions" [value]="region">{{region}}</option>
         </select>
       </div>
+      <div class="filter-option clear-button">
+        <input type="button" value="Clear Filters" (click)="clearFilters()">
+      </div>
     </div>
   </div>
+
+  <a class="toggle-filters" (click)="this.toggleShowFilters()">{{this.showFilters}}</a>
 
   <app-media-search-results
     [mediaItems]="this.mediaItems"

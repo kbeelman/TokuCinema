@@ -17,6 +17,7 @@ export class MediaComponent implements OnInit {
   countryFilter: string = '';
   regionFilter: any = '';
   mediaData: FirebaseListObservable<any[]>;
+  showFilters: string = "Show filters +";
 
   // Form use
   mediums: Array<string> = [
@@ -56,6 +57,23 @@ export class MediaComponent implements OnInit {
         console.log(domainObject);
       }
     });
+  }
+
+  public toggleShowFilters(): void {
+    if(this.showFilters === 'Show filters +') {
+      this.showFilters = 'Hide filters -';
+    } else {
+      this.showFilters = 'Show filters +';
+    }
+  }
+
+  public clearFilters(): void {
+    this.countryFilter = '';
+    this.mediumFilter = '';
+    this.regionFilter = '';
+    this.spokenLanguageFilter = '';
+    this.subtitleLanguageFilter = '';
+    this.countryFilter = '';
   }
 
 }
