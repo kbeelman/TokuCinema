@@ -73,7 +73,6 @@ export class MediaComponent implements OnInit {
     this.regionFilter = '';
     this.spokenLanguageFilter = '';
     this.subtitleLanguageFilter = '';
-    this.countryFilter = '';
   }
 
 }

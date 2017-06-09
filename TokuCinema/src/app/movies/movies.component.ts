@@ -17,6 +17,7 @@ export class MoviesComponent implements OnInit {
   eraFilter: string = '';
   productionCompanyFilter: string = '';
   moviesData: FirebaseListObservable<any[]>;
+  showFilters: string = "Show filters +";
 
   languages: Array<string> = [
     "English",
@@ -67,6 +68,23 @@ export class MoviesComponent implements OnInit {
         console.log(domainObject);
       }
     });
+  }
+
+  public toggleShowFilters(): void {
+    if(this.showFilters === 'Show filters +') {
+      this.showFilters = 'Hide filters -';
+    } else {
+      this.showFilters = 'Show filters +';
+    }
+  }
+
+  public clearFilters(): void {
+    this.directorFilter = '';
+    this.distributorFilter = '';
+    this.eraFilter = '';
+    this.productionCompanyFilter = '';
+    this.seriesFilter = '';
+    this.spokenLanguageFilter = '';
   }
 
 }
