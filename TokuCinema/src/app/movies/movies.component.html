@@ -6,7 +6,7 @@
     </div>
 
 <!--Filters-->
-    <div class="filter-section">
+    <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
       <div class="filter-option">
         <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
           <option value="">Choose a language</option>
