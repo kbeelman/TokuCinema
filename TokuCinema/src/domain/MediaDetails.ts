@@ -3,12 +3,28 @@ import { ItemType } from './ItemType';
 
 export class MediaDetails {
     constructor(
-        public Medium: string,
+        // Main Feature Info
         public Title: string,
-        public TitleJapanese: string,
-        public MainFeatureInfo: Array<string>,
-        public DiscInfo: Array<string>,
-        public DistributionInfo: Array<string>,
+        public OriginalTitle: string,
+        public AspectRatio: string,
+        public Runtime: number,
+        public OriginalRuntime: number,
+        public Color: string,
+        //public ChapterStops: Array<{"Version": string, "Count": number}>,
+        public AudioTracks: Array<string>,
+        public Subtitles: Array<string>,
+        // Medium Information
+        public Medium: string,
+        public Format: string,
+        public Region: string,
+        public Country: string,
+        public MediumCount: number,
+        public ColorSystem: string,
+        // Distribution Information
+        public Distributor: string,
+        public CatalogCode: string,
+        public UPC: string,
+        public ReleaseDate: Date,
         public PurchaseLinks: Array<string>,
         public BoxArt: string,
         public Screencaps: Array<string>

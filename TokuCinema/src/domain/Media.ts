@@ -9,18 +9,18 @@ export class Media implements ISearchable{
     constructor(
         // Main Feature Info
         public Title: string,
-        public JapaneseTitle: string,
+        public OriginalTitle: string,
         public AspectRatio: AspectRatio,
         public Runtime: number,
         public Color: ColorType,
         public OriginalRuntime: number,
         public ChapterStops: Array<{"Version": string, "Count": number}>,
-        public AudioTracks: Array<Language>,
         public Subtitles: Array<Language>,
-        // Disc Information
+        public AudioTracks: Array<Language>,
+        // Medium Information
         public Medium: Medium,
         public Format: Format,
-        public Region: number,
+        public Region: string,
         public Country: string,
         public DiskCount: number,
         public ColorSystem: ColorSystem,
@@ -44,18 +44,28 @@ export class Media implements ISearchable{
 
     // Draft method for exposing this class without affecting current media details page
     public GetMediaDetails(): MediaDetails {
-        let mediaDetails = new MediaDetails(this.Medium.toString(), this.Title, this.JapaneseTitle,
-            [
-                this.AspectRatio.toString(), this.Runtime.toString(), this.Color.toString(),
-                this.OriginalRuntime.toString(), 
-                '', // Chapter stops go here
-                this.Subtitles.toString()
-            ],
-            [
-                this.Medium.toString(), this.Format.toString(), this.Region.toString(), 
-                this.DiskCount.toString(), this.ColorSystem.toString()
-            ],
-            [this.Distributor, this.CatalogCode, this.UPC, this.ReleaseDate.toString()],
+        let mediaDetails = new MediaDetails(
+            this.Title,
+            this.OriginalTitle,
+            this.AspectRatio.toString(),
+            this.Runtime,
+            this.OriginalRuntime,
+            this.Color.toString(),
+            //this.ChapterStops,
+            this.AudioTracks,
+            this.Subtitles,
+            // Medium Information
+            this.Medium.toString(),
+            this.Format.toString(),
+            this.Region,
+            this.Country,
+            this.DiskCount,
+            this.ColorSystem,
+            // Distribution Information
+            this.Distributor,
+            this.CatalogCode,
+            this.UPC,
+            this.ReleaseDate,
             this.PurchaseLinks,
             this.BoxArt,
             this.Screencaps
