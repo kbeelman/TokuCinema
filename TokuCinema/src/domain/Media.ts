@@ -16,7 +16,9 @@ export class Media implements ISearchable{
         public OriginalRuntime: number,
         public ChapterStops: Array<{"Version": string, "Count": number}>,
         public Subtitles: Array<Language>,
+        public SubtitlesDetails: Array<Language>,
         public AudioTracks: Array<Language>,
+        public AudioTracksDetails: Array<Language>,
         // Medium Information
         public Medium: Medium,
         public Format: Format,
@@ -52,8 +54,8 @@ export class Media implements ISearchable{
             this.OriginalRuntime,
             this.Color.toString(),
             //this.ChapterStops,
-            this.AudioTracks,
-            this.Subtitles,
+            this.AudioTracksDetails,
+            this.SubtitlesDetails,
             // Medium Information
             this.Medium.toString(),
             this.Format.toString(),

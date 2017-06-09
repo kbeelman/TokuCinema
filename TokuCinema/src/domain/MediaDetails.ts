@@ -11,8 +11,8 @@ export class MediaDetails {
         public OriginalRuntime: number,
         public Color: string,
         //public ChapterStops: Array<{"Version": string, "Count": number}>,
-        public AudioTracks: Array<string>,
-        public Subtitles: Array<string>,
+        public AudioTracksDetails: Array<string>,
+        public SubtitlesDetails: Array<string>,
         // Medium Information
         public Medium: string,
         public Format: string,

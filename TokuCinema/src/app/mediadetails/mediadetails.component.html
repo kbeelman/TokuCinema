@@ -18,14 +18,14 @@
             <li *ngIf="this.mediaDetails.OriginalRuntime">Original Runtime: {{this.mediaDetails.OriginalRuntime}} minutes</li>
             <li *ngIf="this.mediaDetails.Color">Color: {{this.mediaDetails.Color}}</li>
             <!--<li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops: {{this.mediaDetails.ChapterStops}}</li>-->
-            <li *ngIf="this.mediaDetails.AudioTracks">Audio Tracks:
+            <li *ngIf="this.mediaDetails.AudioTracksDetails">Audio Tracks:
               <ul>
-                <li *ngFor = "let item of mediaDetails.AudioTracks">{{item}}</li>
+                <li *ngFor = "let item of mediaDetails.AudioTracksDetails">{{item}}</li>
               </ul>
             </li>
-            <li *ngIf="this.mediaDetails.Subtitles">Subtitles:
+            <li *ngIf="this.mediaDetails.SubtitlesDetails">Subtitles:
               <ul>
-                <li *ngFor = "let item of mediaDetails.Subtitles">{{item}}</li>
+                <li *ngFor = "let item of mediaDetails.SubtitlesDetails">{{item}}</li>
               </ul>
             </li>
           </ul>
@@ -61,7 +61,7 @@
           <h4>Distributor Information:</h4>
           <ul>
             <li *ngIf="this.mediaDetails.Distributor">Distributor: {{this.mediaDetails.Distributor}}</li>
-            <li *ngIf="this.mediaDetails.CatalogCode">CatalogCode: {{this.mediaDetails.CatalogCode}}</li>
+            <li *ngIf="this.mediaDetails.CatalogCode">Catalog Code: {{this.mediaDetails.CatalogCode}}</li>
             <li *ngIf="this.mediaDetails.UPC">UPC: {{this.mediaDetails.UPC}}</li>
             <li *ngIf="this.mediaDetails.ReleaseDate">Release Date: {{this.mediaDetails.ReleaseDate}}</li>
           </ul>
