@@ -20,7 +20,6 @@ $mobile-gutter: 40px;
 }
 
 .media-information div {
-  width: 80%;
   justify-content: center;
 }
 
@@ -33,6 +32,7 @@ $mobile-gutter: 40px;
 .media-poster img {
   width: 200px;
   height: 280px;
+  margin-bottom: 15px;
 }
 
 .media-review {
@@ -44,4 +44,13 @@ $mobile-gutter: 40px;
   display: block;
   margin: auto;
   margin-top: 20px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin: 0px;
 }

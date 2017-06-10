@@ -10,7 +10,7 @@ export class MediaDetails {
         public Runtime: number,
         public OriginalRuntime: number,
         public Color: string,
-        //public ChapterStops: Array<{"Version": string, "Count": number}>,
+        public ChapterStops: Array<{"Version": string, "Count": number}>,
         public AudioTracksDetails: Array<string>,
         public SubtitlesDetails: Array<string>,
         // Medium Information
@@ -25,7 +25,7 @@ export class MediaDetails {
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDate: Date,
-        public PurchaseLinks: Array<string>,
+        public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
         public BoxArt: string,
         public Screencaps: Array<string>
     ) {}

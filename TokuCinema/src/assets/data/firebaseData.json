@@ -76,12 +76,18 @@
             "Country": "Japan",
             "DiskCount": "1",
             "ColorSystem": "NTSC",
-            "Screencaps": ["https://i.imgur.com/EBne34b.png","https://i.imgur.com/rqsa5I1.png","https://i.imgur.com/61pReJL.png","https://i.imgur.com/e7w0tFH.png"],
+            "Screencaps": [
+                "https://i.imgur.com/EBne34b.png",
+                "https://i.imgur.com/rqsa5I1.png",
+                "https://i.imgur.com/61pReJL.png",
+                "https://i.imgur.com/f8X7iyA.png",
+                "https://i.imgur.com/e7w0tFH.png"],
             "Distributor": "Classic Media",
             "CatalogCode": "LVD 54288",
             "UPC": "074645428895",
             "ReleaseDate": "2002-09-17",
-            "PurchaseLinks": ["https://www.amazon.com/Godzilla-Ultimate-Collection-Godzillas-Mechagodzilla/dp/B00006FD9J"],
+            "PurchaseLinks": [
+                    {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Ultimate-Collection-Godzillas-Mechagodzilla/dp/B00006FD9J"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/51WPVGG7Z3L.jpg",
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"
         },
@@ -108,7 +114,9 @@
             "CatalogCode": "43689",
             "UPC": "043396436893",
             "ReleaseDate": "2014-05-06",
-            "PurchaseLinks": ["https://www.amazon.com/Godzilla-Final-Tokyo-S-O-S-Blu-ray/dp/B00IQAUO48/ref=sr_1_3?ie=UTF8&qid=1496467367&sr=8-3&keywords=Godzilla+Final+Wars"],
+            "PurchaseLinks": [
+                {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Final-S-S-Blu-ray/dp/B00IQAUO48?ie=UTF8&%2AVersion%2A=1&%2Aentries%2A=0"},
+                {"Vendor":"Best Buy", "Link":"http://www.bestbuy.com/site/godzilla-final-wars-godzilla-tokyo-s-o-s-blu-ray-2-discs/5953064.p?skuId=5953064"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/91g2I8EPOhL._SX466_.jpg",
             "Path": "Godzilla-Final-Wars-Toho-Blu-ray-2014-05-06"
         }

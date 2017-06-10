@@ -32,7 +32,7 @@ export class Media implements ISearchable{
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDate: Date,
-        public PurchaseLinks: Array<string>,
+        public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
         public BoxArt: string,
         public Path?: string
     ) {
@@ -53,7 +53,7 @@ export class Media implements ISearchable{
             this.Runtime,
             this.OriginalRuntime,
             this.Color.toString(),
-            //this.ChapterStops,
+            this.ChapterStops,
             this.AudioTracksDetails,
             this.SubtitlesDetails,
             // Medium Information
@@ -72,7 +72,6 @@ export class Media implements ISearchable{
             this.BoxArt,
             this.Screencaps
         );
-
         return mediaDetails;
     }
 

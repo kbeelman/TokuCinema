@@ -17,7 +17,11 @@
             <li *ngIf="this.mediaDetails.Runtime">Runtime: {{this.mediaDetails.Runtime}} minutes</li>
             <li *ngIf="this.mediaDetails.OriginalRuntime">Original Runtime: {{this.mediaDetails.OriginalRuntime}} minutes</li>
             <li *ngIf="this.mediaDetails.Color">Color: {{this.mediaDetails.Color}}</li>
-            <!--<li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops: {{this.mediaDetails.ChapterStops}}</li>-->
+            <li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops:
+              <ul>
+                <li *ngFor = "let item of mediaDetails.ChapterStops">{{item.Version}} Version: {{item.Count}}</li>
+              </ul>
+            </li>
             <li *ngIf="this.mediaDetails.AudioTracksDetails">Audio Tracks:
               <ul>
                 <li *ngFor = "let item of mediaDetails.AudioTracksDetails">{{item}}</li>
@@ -31,7 +35,7 @@
           </ul>
         </div>
         <div>
-          <h4>Disc Information:</h4>
+          <h4>Media Information:</h4>
           <ul>
             <li *ngIf="this.mediaDetails.Medium">Format Medium: {{this.mediaDetails.Medium}}</li>
             <li *ngIf="this.mediaDetails.Format">Format Details: {{this.mediaDetails.Format}}</li>
@@ -48,7 +52,7 @@
           <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock else elseBlock"></div>
           <ng-template #thenBlock>
             <ul>
-              <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item" target="_blank">Amazon</a></li>
+              <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item.Link" target="_blank">{{item.Vendor}}</a></li>
             </ul>
           </ng-template>
           <ng-template #elseBlock>
