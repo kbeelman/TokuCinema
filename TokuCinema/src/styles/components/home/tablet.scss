@@ -20,7 +20,12 @@
 
 .landing-paragraph {
   width: 50%;
-  padding: $tablet-gutter;
+
+  p {
+    padding-left: $mobile-gutter;
+    padding-top: $mobile-gutter;
+    padding-bottom: $mobile-gutter;
+  }
 }
 
 .align-right {
@@ -28,8 +33,13 @@
     position: relative;
     left: 50%;
   }
-  p {
+  .landing-paragraph {
     position: relative;
     right: 50%;
+
+    p {
+      padding-left: 0;
+      padding-right: $mobile-gutter;
+    }
   }
 }
