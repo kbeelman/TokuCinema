@@ -21,8 +21,8 @@ export class MovieTitleSearch implements PipeTransform {
 
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
-            let Itemresults = value.filter(item => item.OfficialTitle.toLowerCase().includes(element.toLowerCase()));
-            Itemresults.forEach(element => {
+            let titleResults = value.filter(item => item.OfficialTitle.toLowerCase().includes(element.toLowerCase()));
+            titleResults.forEach(element => {
               if(!results.includes(element)) {
                 results.push(element);
               }
