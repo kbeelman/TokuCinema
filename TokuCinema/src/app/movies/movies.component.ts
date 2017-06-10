@@ -19,41 +19,12 @@ export class MoviesComponent implements OnInit {
   moviesData: FirebaseListObservable<any[]>;
   showFilters: string = "Show filters +";
 
-  languages: Array<string> = [
-    "English",
-    "Japanese",
-    "German",
-    "French",
-    "Italian"
-  ];
-
-  distributors: Array<string> = [
-    "Toho",
-    "Legendary"
-  ];
-
-  directors: Array<string> = [
-    "Ishiro Honda",
-    "Gareth Edwards",
-    "Masaaki Tezuka"
-  ];
-
-  series: Array<string> = [
-    "Godzilla",
-    "Rodan",
-    "Mothra"
-  ];
-
-  eras: Array<string> = [
-    "Showa",
-    "Heisei",
-    "Millenium"
-  ];
-
-  productionCompanies: Array<string> = [
-    "Universal",
-    "TriStar"
-  ];
+  languages = new Array<string>();
+  distributors = new Array<string>();
+  directors = new Array<string>();
+  series = new Array<string>();
+  eras = new Array<string>();
+  productionCompanies = new Array<string>();
 
   constructor(db: AngularFireDatabase) { 
     this.moviesData = db.list('/movies');
@@ -65,6 +36,7 @@ export class MoviesComponent implements OnInit {
         let domainBuilder = new DomainBuilder(element[i], DataType.Movie);
         let domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
+        this.populateFiltersWithTheseOptions(domainObject);
         console.log(domainObject);
       }
     });
@@ -85,6 +57,29 @@ export class MoviesComponent implements OnInit {
     this.productionCompanyFilter = '';
     this.seriesFilter = '';
     this.spokenLanguageFilter = '';
+  }
+
+  populateFiltersWithTheseOptions(movie: Movie): void {
+    if (!this.directors.includes(movie.Director)) {
+      this.directors.push(movie.Director);
+    }
+    if (!this.distributors.includes(movie.Distributor)) {
+      this.distributors.push(movie.Distributor);
+    }
+    if (!this.eras.includes(movie.Era)) {
+      this.eras.push(movie.Era);
+    }
+    if (!this.series.includes(movie.Series)) {
+      this.series.push(movie.Series);
+    }
+    if (!this.productionCompanies.includes(movie.ProductionCompany)) {
+      this.productionCompanies.push(movie.ProductionCompany);
+    }
+    movie.Languages.forEach(element => {
+      if (!this.languages.includes(element)) {
+        this.languages.push(element);
+      }
+    });
   }
 
 }

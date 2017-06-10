@@ -20,29 +20,11 @@ export class MediaComponent implements OnInit {
   showFilters: string = "Show filters +";
 
   // Form use
-  mediums: Array<string> = [
-    "Blu-ray",
-    "DVD",
-    "Laser Disc",
-    "VHS"
-  ];
-
-  languages: Array<string> = [
-    "English",
-    "Japanese",
-    "German",
-    "French",
-    "Italian"
-  ];
-
-  countries: Array<string> = [
-    "Japan",
-    "United States"
-  ];
-
-  regions: Array<number> = [
-    1, 2, 3, 4
-  ];
+  mediums = new Array<string>();
+  spokenLanguages = new Array<string>();
+  subtitleLanguages = new Array<string>();
+  countries = new Array<string>();
+  regions = new Array<string>();
 
   constructor(db: AngularFireDatabase) { 
     this.mediaData = db.list('/media');
@@ -54,6 +36,7 @@ export class MediaComponent implements OnInit {
         let domainBuilder = new DomainBuilder(element[i], DataType.Media);
         let domainObject = domainBuilder.getDomainObject();
         this.mediaItems.push(domainObject);
+        this.populateFiltersWithTheseOptions(domainObject);
         console.log(domainObject);
       }
     });
@@ -73,6 +56,29 @@ export class MediaComponent implements OnInit {
     this.regionFilter = '';
     this.spokenLanguageFilter = '';
     this.subtitleLanguageFilter = '';
+  }
+
+  // Gurantees filters are only populated with viable options
+  private populateFiltersWithTheseOptions(media: Media): void {
+    if (!this.countries.includes(media.Country)) {
+      this.countries.push(media.Country);
+    }
+    if (!this.mediums.includes(media.Medium)) {
+      this.mediums.push(media.Medium);
+    }
+    if (!this.regions.includes(media.Region)) {
+      this.regions.push(media.Region);
+    }
+    media.AudioTracks.forEach(element => {
+      if (!this.spokenLanguages.includes(element)) {
+        this.spokenLanguages.push(element);
+      }
+    });
+    media.Subtitles.forEach(element => {
+      if (!this.subtitleLanguages.includes(element)) {
+        this.subtitleLanguages.push(element);
+      }
+    });
   }
 
 }

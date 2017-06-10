@@ -16,13 +16,13 @@
       <div class="filter-option">
         <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
           <option value="">Filter by spoken language</option>
-          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+          <option *ngFor="let language of this.spokenLanguages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
         <select id="subtitle-language-select" [(ngModel)]="this.subtitleLanguageFilter">
           <option value="">Filter by subtitle language</option>
-          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+          <option *ngFor="let language of this.subtitleLanguages" [value]="language">{{language}}</option>
         </select>
       </div>
       <div class="filter-option">
