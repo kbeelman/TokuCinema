@@ -9,6 +9,11 @@ $mobile-gutter: 40px;
   margin-right: $mobile-gutter;
 }
 
+.media-details-root h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
 .media-details-title h3 {
   margin-left: 15px;
 }
@@ -42,11 +47,15 @@ $mobile-gutter: 40px;
   margin-top: 20px;
 }
 
-h4 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+ul {
+  margin-bottom: 10px !important;
 }
 
-ul {
-  margin: 0px;
+ul ul {
+  margin-bottom: 0px !important;
+}
+
+li {
+  text-indent: -1em; 
+  padding-left: 1em;
 }

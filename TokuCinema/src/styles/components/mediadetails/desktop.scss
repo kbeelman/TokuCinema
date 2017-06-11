@@ -6,16 +6,38 @@
 }
 
 .media-information {
-  position: absolute;
-  right: $desktop-gutter;
-  top: $below-header + 40px;
-  display: flex;
+  display: inline-block;
+}
+
+.media-information div{
+  display: inline-block;
 }
 
 .media-poster {
-  display: block;
+  display: inline-block;
+  margin-right: 50px;
 }
 
-.media-information-parent {
-  height: 400px;
+.media-information-parent div {
+  vertical-align: top;
+}
+
+.left-information {
+  width: 300px;
+}
+
+.right-information {
+  width: 300px;
+}
+
+.left-information div{
+  display: inline;
+}
+
+.right-information div{
+  display: inline;
+}
+
+.media-review {
+  margin-top: 25px;
 }
