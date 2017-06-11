@@ -2,9 +2,8 @@
   class="media-details-root">
   <div class="media-details-title">
     <h2>{{mediaDetails.Title}} {{mediaDetails.Medium}}</h2>
-    <h3>{{mediaDetails.TitleJapanese}}</h3>
   </div>
-  <div>
+  <div class="media-information-parent">
     <div class="media-poster">
       <img [src]="mediaDetails.BoxArt">
     </div>
@@ -17,11 +16,20 @@
             <li *ngIf="this.mediaDetails.Runtime">Runtime: {{this.mediaDetails.Runtime}} minutes</li>
             <li *ngIf="this.mediaDetails.OriginalRuntime">Original Runtime: {{this.mediaDetails.OriginalRuntime}} minutes</li>
             <li *ngIf="this.mediaDetails.Color">Color: {{this.mediaDetails.Color}}</li>
-            <li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops:
-              <ul>
-                <li *ngFor = "let item of mediaDetails.ChapterStops">{{item.Version}} Version: {{item.Count}}</li>
-              </ul>
-            </li>
+            <div *ngIf="this.mediaDetails.ChapterStops; then thenBlock_Chapter_NullCheck"></div>
+              <ng-template #thenBlock_Chapter_NullCheck>
+                <div *ngIf="this.mediaDetails.ChapterStops.length>1; then thenBlock_Chapter else elseBlock_Chapter"></div>
+                <ng-template #thenBlock_Chapter>
+                  <li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops:
+                    <ul>
+                      <li *ngFor = "let item of mediaDetails.ChapterStops">{{item.Version}} Version: {{item.Count}}</li>
+                    </ul>
+                  </li>
+                </ng-template>
+                <ng-template #elseBlock_Chapter>
+                  <li *ngFor = "let item of mediaDetails.ChapterStops">Chapter Stops: {{item.Count}}</li>
+                </ng-template>
+              </ng-template>
             <li *ngIf="this.mediaDetails.AudioTracksDetails">Audio Tracks:
               <ul>
                 <li *ngFor = "let item of mediaDetails.AudioTracksDetails">{{item}}</li>
@@ -46,20 +54,28 @@
           </ul>
         </div>
       </div>
-      <div>
+      <div class="right-information">
         <div>
           <h4>Purchase Now:</h4>
-          <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock else elseBlock"></div>
-          <ng-template #thenBlock>
-            <ul>
-              <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item.Link" target="_blank">{{item.Vendor}}</a></li>
-            </ul>
-          </ng-template>
-          <ng-template #elseBlock>
-            <ul>
-              <li>Sorry, this item is unavailable for purchase.</li>
-            </ul>
-          </ng-template>
+          <div *ngIf="mediaDetails.PurchaseLinks; then thenBlock_Purchase_NullCheck else elseBlock_Purchase_NullCheck"></div>
+            <ng-template #thenBlock_Purchase_NullCheck>
+            <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock_Purchase else elseBlock_Purchase"></div>
+              <ng-template #thenBlock_Purchase>
+                <ul>
+                  <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item.Link" target="_blank">{{item.Vendor}}</a></li>
+                </ul>
+              </ng-template>
+              <ng-template #elseBlock_Purchase>
+                <ul>
+                  <li>Sorry, this item is unavailable for purchase.</li>
+                </ul>
+              </ng-template>
+            </ng-template>
+            <ng-template #elseBlock_Purchase_NullCheck>
+              <ul>
+                <li>Sorry, this item is unavailable for purchase.</li>
+              </ul>
+            </ng-template>
         </div>
         <div>
           <h4>Distributor Information:</h4>
@@ -75,35 +91,35 @@
   </div>
   <div class="media-review">
     <div><h2>{{mediaDetails.Medium}} Review</h2></div>
-    <div><h2>Video: 4/5</h2></div>
+    <div><h3>Overview</h3></div>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
     <img class="media-review-img" [src]="mediaDetails.Screencaps[0]">
-    <div><h2>Audio: 5/5</h2></div>
+    <div><h3>Video: 4/5</h3></div>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
     <img class="media-review-img" [src]="mediaDetails.Screencaps[1]">
-    <div><h2>Extras: 2/5</h2></div>
+    <div><h3>Audio: 5/5</h3></div>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
     <img class="media-review-img" [src]="mediaDetails.Screencaps[2]">
-    <div><h2>Packaging: 2/5</h2></div>
+    <div><h3>Extras: 2/5</h3></div>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
     <img class="media-review-img" [src]="mediaDetails.Screencaps[3]">
-    <div><h2>Overall: 3/5</h2></div>
+    <div><h3>Overall: 3/5</h3></div>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

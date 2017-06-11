@@ -679,6 +679,33 @@
                 {"Vendor":"Best Buy", "Link":"http://www.bestbuy.com/site/godzilla-final-wars-godzilla-tokyo-s-o-s-blu-ray-2-discs/5953064.p?skuId=5953064"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/91g2I8EPOhL._SX466_.jpg",
             "Path": "Godzilla-Final-Wars-Toho-Blu-ray-2014-05-06"
+        },
+        {
+            "Title": "Godzilla: Tokyo S.O.S.",
+            "JapaneseTitle": "Godzilla X Mothra X Mechagodzilla: Tokyo SOS",
+            "AspectRatio": "2.40:1",
+            "Runtime": "91",
+            "Color": "Color",
+            "OriginalRuntime": "91",
+            "ChapterStops": [{"Version":"Japanese", "Count": "12"}],
+            "Subtitles": ["Japanese"],
+            "SubtitlesDetails":["Japanese"],
+            "AudioTracks": ["Japanese"],
+            "AudioTracksDetails": ["Japanese 6.1", "Japanese 6.1", "Commentary 1", "Commentary 2"],
+            "Medium": "DVD",
+            "Format": "Dual Sided & Single Sided",
+            "Region": "2",
+            "Country": "Japan",
+            "DiskCount": "2",
+            "ColorSystem": "NTSC",
+            "Screencaps": [""],
+            "Distributor": "Toho Video",
+            "CatalogCode": "TDV2864D",
+            "UPC": "4988104022431",
+            "ReleaseDate": "2004-07-30",
+            "PurchaseLinks": [],
+            "BoxArt": "https://i.imgur.com/W53cX4o.png",
+            "Path": "Godzilla-Tokyo-SOS-Toho-DVD-2004-07-30"
         }
     ]
 }
