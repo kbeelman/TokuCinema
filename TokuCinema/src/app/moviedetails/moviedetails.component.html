@@ -1,3 +1,41 @@
-<div class="movie-details-root">
-  <h2 *ngIf="movie">Future page for the movie: {{this.movie.OfficialTitle}}</h2>
+<div *ngIf="movie"
+  class="movie-details-root">
+  <div class="movie-details-title">
+    <h2>{{this.movie.OfficialTitle}}</h2>
+  </div>
+  <div>
+    <div class="movie-poster">
+      <img [src]="this.movie.OriginalPoster">
+    </div>
+    <div class="movie-information">
+      <div class="movie-left-information">
+        <div>
+          <h4>Movie Information:</h4>
+          <ul>
+            <li *ngIf="this.movie.ReleaseYear">Release Date: {{this.movie.ReleaseYear}}</li>
+            <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
+            <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
+          </ul>
+        </div>
+        <div>
+          <h4><!-- --></h4>
+          <ul>
+            
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h4><!-- --></h4>
+          
+        </div>
+        <div>
+          <h4><!-- --></h4>
+          <ul>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

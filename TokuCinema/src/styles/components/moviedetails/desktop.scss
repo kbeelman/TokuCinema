@@ -1,1 +1,17 @@
 @import '../../globals.scss';
+
+.movie-details-root {
+  margin-left: $desktop-gutter;
+  margin-right: $desktop-gutter;
+}
+
+.movie-information {
+  position: absolute;
+  right: $desktop-gutter;
+  top: $below-header + 30px;
+  display: flex;
+}
+
+.movie-poster {
+  display: block;
+}
