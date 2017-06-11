@@ -1,7 +1,37 @@
 @import '../../globals.scss';
 
+$mobile-gutter: 40px;
+
 .movie-details-root {
-    margin-top: $below-header;
-    margin-left: $mobile-gutter;
-    margin-right: $mobile-gutter;
+  margin-top: $below-header;
+  margin-bottom: $mobile-gutter;
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+}
+
+.movie-information {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-poster {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.movie-poster img {
+  width: 200px;
+  height: 280px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin: 0px;
 }

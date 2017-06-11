@@ -1,0 +1,20 @@
+@import '../../globals.scss';
+
+.movie-details-root {
+  margin-bottom: $tablet-gutter;
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+}
+
+.movie-information {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-information div {
+  width: 300px;
+}
+
+.movie-left-information {
+  margin-right: 30px;
+}
