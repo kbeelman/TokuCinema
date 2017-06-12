@@ -6,7 +6,7 @@ import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
 import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
-import { Search } from './pipes/search.pipe';
+import { DeepSearch } from './pipes/deepSearch.pipe';
 import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
 import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
@@ -55,7 +55,7 @@ describe('AppComponent', () => {
         SearchResultsComponent,
         MoviesSearchResultsComponent,
         MediaSearchResultsComponent,
-        Search,
+        DeepSearch,
         MovieTitleSearch,
         MediaTitleSearch,
         MediaFiltersSearch,
