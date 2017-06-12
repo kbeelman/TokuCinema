@@ -60,22 +60,22 @@ export class MediaComponent implements OnInit {
 
   // Gurantees filters are only populated with viable options
   private populateFiltersWithTheseOptions(media: Media): void {
-    if (!this.countries.includes(media.Country)) {
+    if (!(this.countries.indexOf(media.Country) >= 0)) {
       this.countries.push(media.Country);
     }
-    if (!this.mediums.includes(media.Medium)) {
+    if (!(this.mediums.indexOf(media.Medium) >= 0)) {
       this.mediums.push(media.Medium);
     }
-    if (!this.regions.includes(media.Region)) {
+    if (!(this.regions.indexOf(media.Region) >= 0)) {
       this.regions.push(media.Region);
     }
     media.AudioTracks.forEach(element => {
-      if (!this.spokenLanguages.includes(element)) {
+      if (!(this.spokenLanguages.indexOf(element) >= 0)) {
         this.spokenLanguages.push(element);
       }
     });
     media.Subtitles.forEach(element => {
-      if (!this.subtitleLanguages.includes(element)) {
+      if (!(this.subtitleLanguages.indexOf(element) >= 0)) {
         this.subtitleLanguages.push(element);
       }
     });

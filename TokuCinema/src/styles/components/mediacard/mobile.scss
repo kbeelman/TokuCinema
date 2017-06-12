@@ -3,6 +3,7 @@
 .media-card {
   display: flex;
   max-height: 240px;
+  min-height: 240px;
   background-color: $secondary-background;
   text-decoration: none;
   margin-bottom: 10px;
@@ -10,7 +11,6 @@
 }
 
 .media-card-content {
-  width: 100%;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
@@ -24,6 +24,7 @@
 }
 
 .media-card-image {
-  max-height: 100%;
+  max-height: 240px;
   width: 160px;
+  min-width: 160px;
 }

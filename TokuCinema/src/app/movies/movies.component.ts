@@ -60,23 +60,23 @@ export class MoviesComponent implements OnInit {
   }
 
   populateFiltersWithTheseOptions(movie: Movie): void {
-    if (!this.directors.includes(movie.Director)) {
+    if (!(this.directors.indexOf(movie.Director) >= 0)) {
       this.directors.push(movie.Director);
     }
-    if (!this.distributors.includes(movie.Distributor)) {
+    if (!(this.distributors.indexOf(movie.Distributor) >= 0)) {
       this.distributors.push(movie.Distributor);
     }
-    if (!this.eras.includes(movie.Era)) {
+    if (!(this.eras.indexOf(movie.Era) >= 0)) {
       this.eras.push(movie.Era);
     }
-    if (!this.series.includes(movie.Series)) {
+    if (!(this.series.indexOf(movie.Series) >= 0)) {
       this.series.push(movie.Series);
     }
-    if (!this.productionCompanies.includes(movie.ProductionCompany)) {
+    if (!(this.productionCompanies.indexOf(movie.ProductionCompany) >= 0)) {
       this.productionCompanies.push(movie.ProductionCompany);
     }
     movie.Languages.forEach(element => {
-      if (!this.languages.includes(element)) {
+      if (!(this.languages.indexOf(element) >= 0)) {
         this.languages.push(element);
       }
     });
