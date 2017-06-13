@@ -14,6 +14,8 @@
   cursor: pointer;
   position: absolute;
   left: $mobile-gutter;
+  height: 30px;
+  bottom: 27px;
 
   svg {
     @extend %svg-icon;
@@ -31,6 +33,8 @@
   cursor: pointer;
   position: absolute;
   right: $mobile-gutter;
+  height: 30px;
+  bottom: 27px;
 
   svg {
     @extend %svg-icon;

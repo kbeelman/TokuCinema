@@ -1,6 +1,6 @@
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
-import { Search } from './../pipes/search.pipe';
+import { DeepSearch } from './../pipes/deepSearch.pipe';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SearchResultsComponent } from './search-results.component';
@@ -12,7 +12,7 @@ describe('SearchResultsComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ SearchResultsComponent,
-        Search 
+        DeepSearch 
       ],
       imports: [
         FormsModule,

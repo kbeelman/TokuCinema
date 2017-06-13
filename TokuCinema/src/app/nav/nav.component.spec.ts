@@ -1,4 +1,4 @@
-import { Search } from './../pipes/search.pipe';
+import { DeepSearch } from './../pipes/deepSearch.pipe';
 import { SearchResultsComponent } from './../search-results/search-results.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterTestingModule }   from '@angular/router/testing';
@@ -17,7 +17,7 @@ describe('NavComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ NavComponent,
         SearchResultsComponent,
-        Search
+        DeepSearch
       ],
       imports: [ 
         RouterTestingModule, 

@@ -21,9 +21,9 @@ export class DeepSearch implements PipeTransform {
 
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
-            let Itemresults = value.filter(item => item.name.toLowerCase().includes(element.toLowerCase()));
+            let Itemresults = value.filter(item => (item.name.toLowerCase().indexOf(element.toLowerCase()) >= 0));
             Itemresults.forEach(element => {
-              if(!results.includes(element)) {
+              if(!(results.indexOf(element) >= 0)) {
                 results.push(element);
               }
             });
