@@ -2,6 +2,7 @@ import { StringCleaner, StringType } from './StringCleaner';
 import { Country, Language, Series, Era } from './Types';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
+import { Keyword } from './Keyword';
 
 export class Movie implements ISearchable {
 
@@ -39,4 +40,43 @@ export class Movie implements ISearchable {
         return this.Path;
     }
 
+    public getKeywords(): Array<Keyword> {
+        let keywords = new Array<Keyword>();
+
+        // add title elements (if more than one word)
+        let titleElements = this.OfficialTitle.split(' ');
+        if (titleElements.length > 1) {
+            titleElements.forEach(element => {
+                keywords.push(new Keyword(element, false, true, false));
+            });
+        }
+
+        // add exact matches
+        keywords.push(new Keyword(this.OfficialTitle, true, false, false));
+        // alternate titles are exact matches as well
+        if (this.AlternateTitles && this.AlternateTitles.length) {
+            this.AlternateTitles.forEach(element => {
+                keywords.push(new Keyword(element, true, false, false));
+            });
+
+            this.AlternateTitles.forEach(element => {
+                let alternateTitleWords = element.split(' ');
+                if (alternateTitleWords.length > 1) {
+                    alternateTitleWords.forEach(element => {
+                        keywords.push(new Keyword(element, false, true, false));
+                    });
+                }
+            });
+        }
+
+
+
+        // add attribute keywords
+        keywords.push(new Keyword(this.CountryOfOrigin, false, false, true));
+        keywords.push(new Keyword(this.Director, false, false, true));
+        keywords.push(new Keyword(this.Distributor, false, false, true));
+        keywords.push(new Keyword(this.Director, false, false, true));
+
+        return keywords;
+    }
 }

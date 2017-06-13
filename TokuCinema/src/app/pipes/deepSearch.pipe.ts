@@ -20,13 +20,18 @@ export class DeepSearch implements PipeTransform {
         });
 
         // add results for each string to list
-        cleanedSubStrings.forEach(element => {
-            let Itemresults = value.filter(item => (item.name.toLowerCase().indexOf(element.toLowerCase()) >= 0));
-            Itemresults.forEach(element => {
-              if(!(results.indexOf(element) >= 0)) {
-                results.push(element);
-              }
-            });
+        cleanedSubStrings.forEach(searchElement => {
+            if (value) {
+              value.forEach(resultElement => {
+                resultElement.names.forEach(resultNameElement => {
+                  if (searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
+                    if (!(results.indexOf(resultElement) >= 0)) {
+                      results.push(resultElement);
+                    }
+                  }
+                });
+              });
+            }
         });
 
         // return list

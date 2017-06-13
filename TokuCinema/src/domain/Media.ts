@@ -3,6 +3,7 @@ import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from '.
 import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
+import { Keyword } from './Keyword';
 
 export class Media implements ISearchable{
 
@@ -85,6 +86,37 @@ export class Media implements ISearchable{
 
     public getPath(): string {
         return this.Path;
+    }
+
+    public getKeywords(): Array<Keyword> {
+        let keywords = new Array<Keyword>();
+
+        // add exact matches
+        keywords.push(new Keyword(this.Title, true, false, false));
+        keywords.push(new Keyword(this.OriginalTitle, true, false, false));
+
+        // add title elements (if more than one word)
+        let titleElements = this.Title.split(' ');
+        if (titleElements.length > 1) {
+            titleElements.forEach(element => {
+                keywords.push(new Keyword(element, false, true, false));
+            });
+        }
+        // treat original title elements as title elements
+        let originalTitleElements = this.OriginalTitle.split(' ');
+        if (originalTitleElements.length > 1) {
+            originalTitleElements.forEach(element => {
+                keywords.push(new Keyword(element, false, true, false));
+            });
+        }
+
+        // add attribute keywords
+        keywords.push(new Keyword(this.Medium, false, false, true));
+        keywords.push(new Keyword(this.Format, false, false, true));
+        keywords.push(new Keyword(this.Country, false, false, true));
+        keywords.push(new Keyword(this.Distributor, false, false, true));
+
+        return keywords;
     }
 
 }
