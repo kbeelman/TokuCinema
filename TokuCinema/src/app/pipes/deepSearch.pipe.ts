@@ -19,6 +19,8 @@ export class DeepSearch implements PipeTransform {
           }
         });
 
+        // Need to implement an exact match pass
+
         // add results for each string to list
         cleanedSubStrings.forEach(searchElement => {
             if (value) {
@@ -26,7 +28,7 @@ export class DeepSearch implements PipeTransform {
                 resultElement.names.forEach(resultNameElement => {
                   if (searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
                     if (!(results.indexOf(resultElement) >= 0)) {
-                      results.push(resultElement);
+                      results.push(resultElement); // need to add score
                     }
                   }
                 });

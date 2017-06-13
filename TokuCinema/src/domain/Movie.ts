@@ -69,13 +69,12 @@ export class Movie implements ISearchable {
             });
         }
 
-
-
         // add attribute keywords
         keywords.push(new Keyword(this.CountryOfOrigin, false, false, true));
         keywords.push(new Keyword(this.Director, false, false, true));
         keywords.push(new Keyword(this.Distributor, false, false, true));
         keywords.push(new Keyword(this.Director, false, false, true));
+        keywords.push(new Keyword(this.ReleaseYear.toString(), false, false, true));
 
         return keywords;
     }
