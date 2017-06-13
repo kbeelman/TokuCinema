@@ -67,43 +67,10 @@ Monster Movie Review Website
 
 ## Deploying to CI / Production
 1. Build the project         
-    - Run the below script to build the project in the root of the repo:
+    - Run the below script to build the project:
         - run cmd: `npm run build`
-    
-    2. Create the web.config file (if it's not       already there)  
-        - Add a file named "web.config" to the prod project with these contents:
-```xml
-<configuration>
-<system.webServer>
-    <rewrite>
-    <rules>
-            <rule name="AngularJS Routes" stopProcessing="true">
-                <match url=".*" />
-                <conditions logicalGrouping="MatchAll">
-                <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
-                <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
-                <add input="{REQUEST_URI}" pattern="^/(api)" negate="true" />
-                </conditions>
-                <action type="Rewrite" url="/" />
-            </rule>
-        </rules>
-    </rewrite>
-</system.webServer>
-</configuration>
-```
-3. Clean Root of Compile App (old build)
-    - Delete all files and folders in the root TokuCinema directory except for the below:
-        - .git (folder)
-        - node_modules (folder)
-        - TokuCinema (folder)
-        - INITIALSETUP.md (file)
-        - README.md (file)
-        - web.config (file)
 
-4. Copy Contents of Dist folder (new build) to Root directory
-    - Copy all contents of this directory: ```TokuCinema\TokuCinema\dist```, and paste them into the root of the repository.
-
-5. Commit/Push the changes
+2. Commit/Push the changes
     - Azure will automatically pull the changes and redploy the application. 
         - CI location:  [TokuCinema CI](http://tokuCinema-ci.azurewebsites.net/)
         - Prod location:  [TokuCinema Prod](http://tokuCinema.azurewebsites.net/)  

@@ -50,6 +50,28 @@ gulp.task('default', function() {
     ```
 - Add them if missing and run cmd: ```npm install```
 
+### Create the web.config file
+```xml
+<configuration>
+<system.webServer>
+    <rewrite>
+    <rules>
+            <rule name="AngularJS Routes" stopProcessing="true">
+                <match url=".*" />
+                <conditions logicalGrouping="MatchAll">
+                <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+                <add input="{REQUEST_URI}" pattern="^/(api)" negate="true" />
+                </conditions>
+                <action type="Rewrite" url="/" />
+            </rule>
+        </rules>
+    </rewrite>
+</system.webServer>
+</configuration>
+```
+  - This file is needed for Azure to handle routes properly
+
 ### Install AngularFire 2  
 Reference: [AngularFire2 Install Guide](https://github.com/angular/angularfire2/blob/master/docs/1-install-and-setup.md) 
 - run cmd: ```npm install angularfire2 firebase@^3.9.0 --save```
