@@ -15,9 +15,9 @@ export class MediaFiltersSearch implements PipeTransform {
         filteredResults = filteredResults.filter( item => (item.Subtitles.indexOf(args.SubtitleLanguages) >= 0));
       }
       // Filter for Country
-      filteredResults = filteredResults.filter( item => (item.Country.toLowerCase().indexOf(args.Country.toLowerCase() >= 0)));
+      filteredResults = filteredResults.filter( item => (item.Country.toLowerCase().indexOf(args.Country.toLowerCase()) >= 0));
       // Filter for Region
-      filteredResults = filteredResults.filter( item => (item.Region.toLowerCase().indexOf(args.Region.toLowerCase() >= 0)));
+      filteredResults = filteredResults.filter( item => (item.Region.toLowerCase().indexOf(args.Region.toLowerCase()) >= 0));
 
       return filteredResults;
     }
