@@ -14,8 +14,8 @@ export class NavComponent implements OnInit {
   searchOpen: boolean = false;
   menuItems: Array<{"text": string, "link": string}> = [
     {"text": 'Home', "link": '/home'},
-    {"text": 'Media', "link": '/media'},
-    {"text": 'Movies', "link": '/movies'},
+    {"text": 'Movie List', "link": '/movies'},
+    {"text": 'Home Media Releases', "link": '/media'},
     {"text": 'About', "link": '/about'}
   ];
   movieItems = new Array<Movie>();
