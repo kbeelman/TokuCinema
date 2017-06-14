@@ -1,6 +1,7 @@
 @import '../../globals.scss';
 
 .media-card {
+  cursor: pointer;
   display: flex;
   max-height: 240px;
   min-height: 240px;
