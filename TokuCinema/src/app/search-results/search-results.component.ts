@@ -13,8 +13,8 @@ import { Keyword } from '../../domain/Keyword';
 export class SearchResultsComponent implements OnInit {
   @Input() searchTerm: string;
   @Input() searchItems: Array<ISearchable>;
-  movieItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string}>();
-  mediaItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string}>();
+  movieItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number}>();
+  mediaItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number}>();
 
   constructor() { }
 
@@ -23,9 +23,9 @@ export class SearchResultsComponent implements OnInit {
     if(this.searchItems) {
       this.searchItems.forEach(element => {
         if (element.getType() === ItemType.Movie) {
-          this.movieItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Movie', path: element.getPath()});
+          this.movieItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Movie', path: element.getPath(), score: 0});
         } else if (element.getType() === ItemType.Media) {
-          this.mediaItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Media', path: element.getPath()});
+          this.mediaItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Media', path: element.getPath(), score: 0});
         }
       });
     }
