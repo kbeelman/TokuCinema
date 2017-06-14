@@ -8,9 +8,15 @@
 <!--Filters-->
     <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
       <div class="filter-option">
-        <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
-          <option value="">Choose a language</option>
-          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
+        <select id="series-select" [(ngModel)]="this.seriesFilter">
+          <option value="">Choose a series</option>
+          <option *ngFor="let seriesItem of series" [value]="seriesItem">{{seriesItem}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <select id="era-select" [(ngModel)]="this.eraFilter">
+          <option value="">Choose an era</option>
+          <option *ngFor="let era of eras" [value]="era">{{era}}</option>
         </select>
       </div>
       <div class="filter-option">
@@ -26,15 +32,9 @@
         </select>
       </div>
       <div class="filter-option">
-        <select id="series-select" [(ngModel)]="this.seriesFilter">
-          <option value="">Choose a series</option>
-          <option *ngFor="let seriesItem of series" [value]="seriesItem">{{seriesItem}}</option>
-        </select>
-      </div>
-      <div class="filter-option">
-        <select id="era-select" [(ngModel)]="this.eraFilter">
-          <option value="">Choose an era</option>
-          <option *ngFor="let era of eras" [value]="era">{{era}}</option>
+        <select id="spoken-language-select" [(ngModel)]="this.spokenLanguageFilter">
+          <option value="">Choose a language</option>
+          <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
       <!--<div class="filter-option">

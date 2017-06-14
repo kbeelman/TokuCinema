@@ -8,9 +8,21 @@
     <!--Filters-->
     <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
       <div class="filter-option">
+        <select id="country-select" [(ngModel)]="this.countryFilter">
+          <option value="">Filter by country</option>
+          <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
         <select id="medium-select" [(ngModel)]="mediumFilter">
           <option value="">Filter by medium</option>
           <option *ngFor="let medium of mediums" [value]="medium">{{medium}}</option>
+        </select>
+      </div>
+      <div class="filter-option">
+        <select id="region-select" [(ngModel)]="regionFilter">
+          <option value="">Filter by region</option>
+          <option *ngFor="let region of regions" [value]="region">{{region}}</option>
         </select>
       </div>
       <div class="filter-option">
@@ -23,18 +35,6 @@
         <select id="subtitle-language-select" [(ngModel)]="this.subtitleLanguageFilter">
           <option value="">Filter by subtitle language</option>
           <option *ngFor="let language of this.subtitleLanguages" [value]="language">{{language}}</option>
-        </select>
-      </div>
-      <div class="filter-option">
-        <select id="country-select" [(ngModel)]="this.countryFilter">
-          <option value="">Filter by country</option>
-          <option *ngFor="let country of countries" [value]="country">{{country}}</option>
-        </select>
-      </div>
-      <div class="filter-option">
-        <select id="region-select" [(ngModel)]="regionFilter">
-          <option value="">Filter by region</option>
-          <option *ngFor="let region of regions" [value]="region">{{region}}</option>
         </select>
       </div>
       <div class="filter-option clear-button">
