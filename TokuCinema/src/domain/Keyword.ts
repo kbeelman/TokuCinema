@@ -1,3 +1,10 @@
+// locked at 1 point
+const ignoreList: Array<string> = [
+    "of", 
+    "the",
+    "and"
+];
+
 export class Keyword {
     public score: number;
 
@@ -7,16 +14,24 @@ export class Keyword {
         public titleElement: boolean,
         public attribute: boolean
     ){
+        this.word = this.word.replace(/\W/g, '').toLowerCase();
         this.calculateScore();
+        this.negateIgnoreList();
     }
 
     private calculateScore(): void {
         if (this.exactMatch) {
-            this.score = 1000;
+            this.score = 10000;
         } else if (this.titleElement) {
-            this.score = 5 * this.word.length;
+            this.score = 100 * this.word.length;
         } else if (this.attribute) {
-            this.score = 3 * this.word.length;
+            this.score = 50 * this.word.length;
+        }
+    }
+
+    private negateIgnoreList(): void {
+        if (ignoreList.indexOf(this.word) >= 0) {
+            this.score = 1;
         }
     }
 
