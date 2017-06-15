@@ -58,7 +58,7 @@
         },
         {
             "OfficialTitle": "Ghidorah, the Three-Headed Monster",
-            "AlternateTitles": ["San Daikaiju: Chikyū Saidai no Kessen","Three Giant Monsters: The Greatest Battle on Earth"],
+            "AlternateTitles": ["San Daikaiju: Chikyū Saidai no Kessen","Three Giant Monsters: The Greatest Battle on Earth","Ghidrah the Three-Headed Monster"],
             "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/4/40/Ghidorah_the_Three-Headed_Monster_1965.jpg",
             "ReleaseYear": "1964",
             "ProductionCompany": "Toho",
@@ -211,8 +211,8 @@
             "Path": "Godzilla-Terror-Mechagodzilla-1975"   
         },
         {
-            "OfficialTitle": "Godzilla",
-            "AlternateTitles": ["Gojira","Godzilla 1984","Godzilla 1985"],
+            "OfficialTitle": "Return of Godzilla",
+            "AlternateTitles": ["Gojira","Godzilla","Godzilla 1984","Godzilla 1985"],
             "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/f/fb/Godzilla_1984.jpg",
             "ReleaseYear": "1984",
             "ProductionCompany": "Toho",
@@ -665,7 +665,7 @@
             "AudioTracksDetails": ["Japanese 5.1 DTS-HD MA", "English 5.1 DTS-HD MA"],
             "Medium": "Blu-ray",
             "Format": "Single Sided",
-            "Region": "1",
+            "Region": "A",
             "Country": "United States",
             "DiskCount": "1",
             "ColorSystem": "NTSC",
@@ -678,7 +678,7 @@
                 {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Final-S-S-Blu-ray/dp/B00IQAUO48?ie=UTF8&%2AVersion%2A=1&%2Aentries%2A=0"},
                 {"Vendor":"Best Buy", "Link":"http://www.bestbuy.com/site/godzilla-final-wars-godzilla-tokyo-s-o-s-blu-ray-2-discs/5953064.p?skuId=5953064"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/91g2I8EPOhL._SX466_.jpg",
-            "Path": "Godzilla-Final-Wars-Toho-Blu-ray-2014-05-06"
+            "Path": "Godzilla-Final-Wars-Sony-Blu-ray-2014-05-06"
         },
         {
             "Title": "Godzilla: Tokyo S.O.S.",
@@ -706,6 +706,33 @@
             "PurchaseLinks": [],
             "BoxArt": "https://i.imgur.com/W53cX4o.png",
             "Path": "Godzilla-Tokyo-SOS-Toho-DVD-2004-07-30"
+        },
+        {
+            "Title": "Godzilla",
+            "JapaneseTitle": "Godzilla",
+            "AspectRatio": "1.33:1",
+            "Runtime": "96",
+            "Color": "Black & White",
+            "OriginalRuntime": "96",
+            "ChapterStops": [{"Version":"Japanese", "Count": "12"}],
+            "Subtitles": ["English"],
+            "SubtitlesDetails":["English"],
+            "AudioTracks": ["Japanese"],
+            "AudioTracksDetails": ["Japanese", "Commentary"],
+            "Medium": "DVD",
+            "Format": "Dual Sided & Single Sided",
+            "Region": "2",
+            "Country": "United Kingdom",
+            "DiskCount": "2",
+            "ColorSystem": "PAL",
+            "Screencaps": [""],
+            "Distributor": "BFI",
+            "CatalogCode": "BFIVD680",
+            "UPC": "5035673006801",
+            "ReleaseDate": "2006-02-13",
+            "PurchaseLinks": [],
+            "BoxArt": "http://shop-cdn.bfi.org.uk/media/catalog/product/5/0/5035673006801_2.jpg",
+            "Path": "Godzilla-BFI-DVD-2006-02-13"
         }
     ]
 }
