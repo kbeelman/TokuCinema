@@ -37,6 +37,7 @@ export class MediaComponent implements OnInit {
         let domainObject = domainBuilder.getDomainObject();
         this.mediaItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
+        this.sortFilters();
         console.log(domainObject);
       }
     });
@@ -79,6 +80,10 @@ export class MediaComponent implements OnInit {
         this.subtitleLanguages.push(element);
       }
     });
+  }
+
+  private sortFilters(): void {
+    this.regions.sort();
   }
 
 }
