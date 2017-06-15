@@ -1,11 +1,11 @@
 <div *ngIf="this.movie" class="media-card" [routerLink]="['/movies', movie.Path]">
+  <img class="media-card-image" [src]="movie.OriginalPoster" alt="{{movie.OfficialTitle}} Title poster">
   <div class="movie-card-content">
     <div>
       <h3>{{movie.OfficialTitle}}</h3>
-      <p>{{movie.ReleaseYear}}</p>
-      <p>{{movie.ProductionCompany}}</p>
-      <p>{{movie.CountryOfOrigin}}</p>
+      <p><strong>Release Date:</strong> {{movie.ReleaseYear}}</p>
+      <p><strong>Production Company:</strong> {{movie.ProductionCompany}}</p>
+      <p><strong>Director:</strong> {{movie.Director}}</p>
     </div>
   </div>
-  <img class="media-card-image" [src]="movie.OriginalPoster" alt="{{movie.OfficialTitle}} Title poster">
 </div>
