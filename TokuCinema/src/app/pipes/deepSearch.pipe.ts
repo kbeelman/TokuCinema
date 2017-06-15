@@ -14,8 +14,8 @@ export class DeepSearch implements PipeTransform {
 
         // remove empty elements
         substrings.forEach(element => {
-          if (element !== '') {
-            cleanedSubStrings.push(element);
+          if (element !== '' || element !== ' ') {
+            cleanedSubStrings.push(element.trim().replace(/\W/g, ''));
           }
         });
 
@@ -23,19 +23,50 @@ export class DeepSearch implements PipeTransform {
         if (value) {
           value.forEach(element => {
             element.names.forEach(nameElement => {
-              if (nameElement.exactMatch && args.toLowerCase() === nameElement.word.toLowerCase()) {
-                results.push(
-                  {
-                      name: element.name,
-                      names: element.names,
-                      path: element.path,
-                      score: 1000
-                  }
-                )
+              let itAlreadExists: boolean = false;
+
+              let resultToAdd = {
+                name: element.name,
+                names: element.names,
+                path: element.path,
+                score: 1000
+              };
+
+              results.forEach(element => {
+                itAlreadExists = element.path === resultToAdd.path;
+              });
+
+              if (!itAlreadExists && nameElement.exactMatch && args.toLowerCase().trim().replace(/\W/g, '') === nameElement.word.toLowerCase()) {
+                results.push(resultToAdd);
               }
             });
           });
         }
+
+        // weight commonality of keyword
+        let words: Array<string> = [];
+        let counts: Array<number> = [];
+        value.forEach(elementToAudit => {
+          elementToAudit.names.forEach(element => {
+            let indexOfElement = words.indexOf(element.word);
+            if (!(indexOfElement >= 0)) {
+              words.push(element.word);
+              counts.push(1);
+            } else {
+              counts[indexOfElement] += 1;
+            }
+          });
+        });
+
+        // apply weightings at name level
+        value.forEach(elementToWeight => {
+          elementToWeight.names.forEach(element => {
+            let indexOfElement = words.indexOf(element.word);
+            if (indexOfElement >= 0) {
+              element.score = element.score / counts[indexOfElement];
+            }
+          });
+        });
 
         // add results for each string to list
         cleanedSubStrings.forEach(searchElement => {
@@ -57,6 +88,7 @@ export class DeepSearch implements PipeTransform {
                     results.forEach(element => {
                       if (element.path === resultToAdd.path) {
                         alreadyExists = true;
+                        element.score += resultToAdd.score;
                       }
                     });
 
