@@ -37,8 +37,24 @@ export class MediaComponent implements OnInit {
         let domainObject = domainBuilder.getDomainObject();
         this.mediaItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
-        this.sortFilters();
         console.log(domainObject);
+      }
+    });
+    this.sortFilters();
+    this.mediaItems.sort(function(a,b) {
+      let countryCompare: number = b.Country.localeCompare(a.Country);
+      if (countryCompare !== 0) {
+        return countryCompare;
+      }
+
+      if(a.ReleaseDate < b.ReleaseDate) {
+        return -1;
+      }
+      else if(a.ReleaseDate > b.ReleaseDate) {
+        return 1;
+      }
+      else {
+        return 0;
       }
     });
   }
