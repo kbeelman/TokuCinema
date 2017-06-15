@@ -10,3 +10,14 @@
     margin-right: 20px;
   }
 }
+
+.media-card {
+  max-height: 240px;
+}
+
+.media-card-content {
+  div {
+    font-size: medium;
+    padding: $mobile-gutter;
+  }
+}

@@ -3,7 +3,6 @@
 .media-card {
   cursor: pointer;
   display: flex;
-  max-height: 240px;
   min-height: 240px;
   background-color: $secondary-background;
   text-decoration: none;
@@ -19,8 +18,9 @@
   justify-content: center;
 
   div {
-    padding: $mobile-gutter;
+    padding: 5px;
     width: 100%;
+    font-size: 0.75em;
   }
 }
 
