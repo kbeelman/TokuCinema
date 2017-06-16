@@ -4,15 +4,15 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
   transform(value, args) {
-    if (args !== undefined && args !== '') {
+    let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
+    let worthSearching = (cleanSearchTerm !== undefined && args.length > 1 && value);
+
+    if (worthSearching) {
         let results = new Array<any>();
 
         // create search strings - deliminited by space
         let substrings = args.split(" ");
-
         let cleanedSubStrings = new Array<string>();
-
-        // remove empty elements
         substrings.forEach(element => {
           if (element !== '' || element !== ' ') {
             cleanedSubStrings.push(element.trim().replace(/\W/g, ''));
@@ -20,32 +20,32 @@ export class DeepSearch implements PipeTransform {
         });
 
         // exact match pass
-        if (value) {
           value.forEach(element => {
             element.names.forEach(nameElement => {
-              let itAlreadExists: boolean = false;
+              if (nameElement.exactMatch) {
+                let itAlreadExists: boolean = false;
 
-              let resultToAdd = {
-                name: element.name,
-                names: element.names,
-                path: element.path,
-                score: 1000
-              };
+                let resultToAdd = {
+                  name: element.name,
+                  names: element.names,
+                  path: element.path,
+                  score: 1000
+                };
 
-              results.forEach(element => {
-                itAlreadExists = element.path === resultToAdd.path;
-              });
+                results.forEach(element => {
+                  itAlreadExists = element.path === resultToAdd.path;
+                });
 
-              if (!itAlreadExists && nameElement.exactMatch && args.toLowerCase().trim().replace(/\W/g, '') === nameElement.word.toLowerCase()) {
-                results.push(resultToAdd);
+                if (!itAlreadExists && cleanSearchTerm === nameElement.word) {
+                  results.push(resultToAdd);
+                }
               }
             });
           });
-        }
 
         // weight commonality of keyword
-        let words: Array<string> = [];
-        let counts: Array<number> = [];
+        let words = new Array<string>();
+        let counts = new Array<number>();
         value.forEach(elementToAudit => {
           elementToAudit.names.forEach(element => {
             let indexOfElement = words.indexOf(element.word);
@@ -70,35 +70,33 @@ export class DeepSearch implements PipeTransform {
 
         // add results for each string to list
         cleanedSubStrings.forEach(searchElement => {
-            if (value) {
-              value.forEach(resultElement => {
-                resultElement.names.forEach(resultNameElement => {
-                  if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
+            value.forEach(resultElement => {
+              resultElement.names.forEach(resultNameElement => {
+                if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
 
-                    // create a result element with appropriate score
-                    let resultToAdd = {
-                      name: resultElement.name,
-                      names: resultElement.names,
-                      path: resultElement.path,
-                      score: resultNameElement.score
-                    };
+                  // create a result element with appropriate score
+                  let resultToAdd = {
+                    name: resultElement.name,
+                    names: resultElement.names,
+                    path: resultElement.path,
+                    score: resultNameElement.score
+                  };
 
-                    // add result to list if not already there - replace if already there
-                    let alreadyExists: boolean = false;
-                    results.forEach(element => {
-                      if (element.path === resultToAdd.path) {
-                        alreadyExists = true;
-                        element.score += resultToAdd.score;
-                      }
-                    });
-
-                    if (!alreadyExists) {
-                      results.push(resultToAdd);
+                  // add result to list if not already there - add to score if already there
+                  let alreadyExists: boolean = false;
+                  results.forEach(element => {
+                    if (element.path === resultToAdd.path) {
+                      alreadyExists = true;
+                      element.score += resultToAdd.score;
                     }
+                  });
+
+                  if (!alreadyExists) {
+                    results.push(resultToAdd);
                   }
-                });
+                }
               });
-            }
+            });
         });
 
         // sort results by score
@@ -110,7 +108,7 @@ export class DeepSearch implements PipeTransform {
         return results;
     }
     else {
-      return value;
+      return null;
     }
   }
 }
