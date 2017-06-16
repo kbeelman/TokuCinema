@@ -71,6 +71,7 @@ export class DomainBuilder {
             mediaData['UPC'],
             mediaData['ReleaseDate'],
             mediaData['PurchaseLinks'],
+            mediaData['MovieDetails'],
             mediaData['BoxArt'],
             mediaData['Path']
         );

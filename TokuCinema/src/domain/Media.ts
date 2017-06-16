@@ -34,6 +34,7 @@ export class Media implements ISearchable{
         public UPC: string,
         public ReleaseDate: Date,
         public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
+        public MovieDetails: Array<{"OfficialTitle": string, "Path": string}>,
         public BoxArt: string,
         public Path?: string
     ) {
@@ -70,6 +71,7 @@ export class Media implements ISearchable{
             this.UPC,
             this.ReleaseDate,
             this.PurchaseLinks,
+            this.MovieDetails,
             this.BoxArt,
             this.Screencaps
         );

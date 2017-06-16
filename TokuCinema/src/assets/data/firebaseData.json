@@ -648,11 +648,12 @@
             "ReleaseDate": "2002-09-17",
             "PurchaseLinks": [
                     {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Ultimate-Collection-Godzillas-Mechagodzilla/dp/B00006FD9J"}],
+            "MovieDetails": [{"OfficialTitle":"Mothra vs. Godzilla", "Path":"Godzilla-Mothra-1964"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/51WPVGG7Z3L.jpg",
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"
         },
         {
-            "Title": "Godzilla Final Wars",
+            "Title": "Godzilla: Tokyo S.O.S. & Godzilla Final Wars",
             "JapaneseTitle": "Godzilla Final Wars",
             "AspectRatio": "2.40:1",
             "Runtime": "125",
@@ -667,7 +668,7 @@
             "Format": "Single Sided",
             "Region": "A",
             "Country": "United States",
-            "DiskCount": "1",
+            "DiskCount": "2",
             "ColorSystem": "NTSC",
             "Screencaps": [""],
             "Distributor": "Sony Pictures Home Entertainment",
@@ -677,6 +678,9 @@
             "PurchaseLinks": [
                 {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Final-S-S-Blu-ray/dp/B00IQAUO48?ie=UTF8&%2AVersion%2A=1&%2Aentries%2A=0"},
                 {"Vendor":"Best Buy", "Link":"http://www.bestbuy.com/site/godzilla-final-wars-godzilla-tokyo-s-o-s-blu-ray-2-discs/5953064.p?skuId=5953064"}],
+            "MovieDetails": [
+                {"OfficialTitle":"Godzilla: Tokyo S.O.S.", "Path":"Godzilla-Tokyo-SOS-2003"},
+                {"OfficialTitle":"Godzilla Final Wars", "Path":"Godzilla-Final-Wars-2004"}],
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/91g2I8EPOhL._SX466_.jpg",
             "Path": "Godzilla-Final-Wars-Sony-Blu-ray-2014-05-06"
         },
@@ -704,6 +708,7 @@
             "UPC": "4988104022431",
             "ReleaseDate": "2004-07-30",
             "PurchaseLinks": [],
+            "MovieDetails": [{"OfficialTitle":"Godzilla: Tokyo S.O.S.", "Path":"Godzilla-Tokyo-SOS-2003"}],
             "BoxArt": "https://i.imgur.com/W53cX4o.png",
             "Path": "Godzilla-Tokyo-SOS-Toho-DVD-2004-07-30"
         },
@@ -731,6 +736,7 @@
             "UPC": "5035673006801",
             "ReleaseDate": "2006-02-13",
             "PurchaseLinks": [],
+            "MovieDetails": [{"OfficialTitle":"Godzilla", "Path":"Godzilla-1954"}],
             "BoxArt": "http://shop-cdn.bfi.org.uk/media/catalog/product/5/0/5035673006801_2.jpg",
             "Path": "Godzilla-BFI-DVD-2006-02-13"
         }
