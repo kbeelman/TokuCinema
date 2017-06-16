@@ -21,7 +21,7 @@ export class Keyword {
 
     private calculateScore(): void {
         if (this.exactMatch) {
-            this.score = 10000;
+            this.score = 1000;
         } else if (this.titleElement) {
             this.score = 100 * this.word.length;
         } else if (this.attribute) {

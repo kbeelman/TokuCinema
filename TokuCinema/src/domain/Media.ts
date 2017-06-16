@@ -111,9 +111,16 @@ export class Media implements ISearchable{
         }
 
         // add attribute keywords
-        keywords.push(new Keyword(this.Medium, false, false, true));
+        let mediumWords = this.Medium.split('-');
+        mediumWords.forEach(element => {
+            keywords.push(new Keyword(element, false, false, true));
+        });
         keywords.push(new Keyword(this.Format, false, false, true));
-        keywords.push(new Keyword(this.Country, false, false, true));
+
+        let countryWords = this.Country.split(' ');
+        countryWords.forEach(element => {
+            keywords.push(new Keyword(element, false, false, true));
+        });
         keywords.push(new Keyword(this.Distributor, false, false, true));
 
         return keywords;

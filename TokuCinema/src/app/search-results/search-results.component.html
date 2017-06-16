@@ -14,7 +14,7 @@
     <div>
       <h2>Media</h2>
       <ul class="result-list">
-        <li class="result-item" *ngFor="let item of mediaItems | deepSearch : searchTerm">
+        <li class="result-item" *ngFor="let item of mediaItems | deepSearch : searchTerm; let i = index">
           <a href="#" [routerLink]="['/media', item.path]">
             {{item.name}}
           </a>
