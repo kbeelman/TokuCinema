@@ -52,10 +52,16 @@ export class NavComponent implements OnInit {
 
   toggleNavMenu(): void {
     this.navMenuOpen = !this.navMenuOpen;
+    if(this.searchOpen) {
+      this.searchOpen = !this.searchOpen;
+    }
   }
 
   toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
+    if(this.navMenuOpen) {
+      this.navMenuOpen = !this.navMenuOpen;
+    }
   }
 
   closeNav(): void {
