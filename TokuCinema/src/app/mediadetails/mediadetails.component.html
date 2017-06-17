@@ -88,12 +88,12 @@
         </div>
         <div>
           <h4>Movie Information:</h4>
-          <div *ngIf="mediaDetails.MovieDetails; then thenBlock_MovieDetails_NullCheck"></div>
+          <div *ngIf="this.movieDetails; then thenBlock_MovieDetails_NullCheck"></div>
             <ng-template #thenBlock_MovieDetails_NullCheck>
-            <div *ngIf="mediaDetails.MovieDetails.length > 0; then thenBlock_MovieDetails"></div>
+            <div *ngIf="this.movieDetails.length > 0; then thenBlock_MovieDetails"></div>
               <ng-template #thenBlock_MovieDetails>
                 <ul>
-                  <li *ngFor = "let item of mediaDetails.MovieDetails"><a [routerLink]="['/movies', item.Path]">{{item.OfficialTitle}}</a></li>
+                  <li *ngFor = "let item of this.movieDetails"><a [routerLink]="['/movies', item.Path]">{{item.OfficialTitle}}</a></li>
                 </ul>
               </ng-template>
             </ng-template>

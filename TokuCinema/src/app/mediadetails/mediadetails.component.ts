@@ -6,6 +6,7 @@ import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
+import { Movie } from '../../domain/Movie';
 import { Media } from '../../domain/Media';
 import { MediaDetails } from '../../domain/MediaDetails';
 import { DomainBuilder, DataType } from './../../domain/Builder';
@@ -20,6 +21,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     mediaData: FirebaseListObservable<any[]>;
     media: Media;
     mediaDetails: MediaDetails;
+    movieDetails = new Array<Movie>();
 
     dataLoaded: boolean = false;
 
@@ -46,7 +48,23 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           let domainObject = domainBuilder.getDomainObject();
           this.media = domainObject;
           this.mediaDetails = this.media.GetMediaDetails();
-        }) 
+          
+          this.mediaDetails.MovieDetails.forEach(index => {
+            let movieData = db.list('/movies',
+              {
+                query: {
+                  orderByChild: 'Path',
+                  equalTo: index
+                }
+            });
+            movieData.forEach(movieElement => {
+              let domainBuilder = new DomainBuilder(movieElement[0], DataType.Movie);
+              let domainObject = domainBuilder.getDomainObject();
+              this.movieDetails.push(domainObject);
+              console.log(this.movieDetails);
+            })
+          })
+        })
       }
     });
   }

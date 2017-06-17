@@ -26,7 +26,7 @@ export class MediaDetails {
         public UPC: string,
         public ReleaseDate: Date,
         public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
-        public MovieDetails: Array<{"OfficialTitle": string, "Path": string}>,
+        public MovieDetails: Array<string>,
         public OriginalRelease: string,
         public BoxArt: string,
         public Screencaps: Array<string>
