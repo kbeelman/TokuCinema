@@ -1,4 +1,4 @@
-<a href="#" [routerLink]="['/' + this.pathRoot, resultItem.path]">
+<a *ngIf="this.resultItem" href="#" [routerLink]="['/' + this.pathRoot, resultItem.path]">
 
 <div class="tab-result-icon-wrapper">
     <div class="tab-result-icon">  

@@ -8,6 +8,7 @@ import { firebaseConfig } from '../app.component.spec';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { NavComponent } from './nav.component';
+import { SearchResultTabComponent } from '../search-result-tab/search-result-tab.component';
 
 describe('NavComponent', () => {
   let component: NavComponent;
@@ -17,7 +18,8 @@ describe('NavComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ NavComponent,
         SearchResultsComponent,
-        DeepSearch
+        DeepSearch,
+        SearchResultTabComponent
       ],
       imports: [ 
         RouterTestingModule, 
