@@ -4,10 +4,10 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
   public transform(value, args) {
-    let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
-    let worthSearching = (cleanSearchTerm !== undefined && args.length > 1 && value);
+    let worthSearching = (args !== undefined && args.length > 1 && value);
 
     if (worthSearching) {
+        let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
         let results = new Array<any>();
 
         // create search strings - deliminited by space

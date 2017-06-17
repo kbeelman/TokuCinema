@@ -1,8 +1,22 @@
 @import '../../globals.scss';
 
-.result-lists-wrapper {
+.results-root {
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+}
 
-  div {
-    margin-top: 0;
+.result-list {
+  display: flex;
+  flex-flow: wrap;
+
+  .result-item:nth-child(odd) {
+    margin-right: 40px;
   }
+}
+
+.result-item {
+  margin-top: $mobile-gutter;
+  margin-left: 0;
+  margin-right: 0;
+  width: calc((100% - 40px) / 2);
 }
