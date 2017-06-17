@@ -61,7 +61,6 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
               let domainBuilder = new DomainBuilder(movieElement[0], DataType.Movie);
               let domainObject = domainBuilder.getDomainObject();
               this.movieDetails.push(domainObject);
-              console.log(this.movieDetails);
             })
           })
         })
