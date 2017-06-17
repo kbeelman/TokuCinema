@@ -105,10 +105,15 @@ export class DeepSearch implements PipeTransform {
 
         // return list
         console.log(results);
-        return results;
+        // return deep search, if no results return standard search
+        return (results.length > 0)? results : this.standardSearch(value, cleanSearchTerm);
     }
     else {
       return null;
     }
+  }
+
+  standardSearch(value, args) {
+    return value.filter( item => (item.name.toLowerCase().indexOf(args.toLowerCase()) >= 0));
   }
 }
