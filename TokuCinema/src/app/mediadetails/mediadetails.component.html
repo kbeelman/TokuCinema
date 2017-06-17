@@ -5,7 +5,7 @@
   </div>
   <div class="media-information-parent">
     <div class="media-poster">
-      <img [src]="mediaDetails.BoxArt">
+      <img src="{{mediaDetails.BoxArt}}">
     </div>
     <div class="media-information">
       <div class="left-information">
@@ -103,40 +103,46 @@
   </div>
   <div class="media-review">
     <div><h2>{{mediaDetails.Medium}} Review</h2></div>
-    <div><h3>Overview</h3></div>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-    <img class="media-review-img" [src]="mediaDetails.Screencaps[0]">
-    <div><h3>Video: 4/5</h3></div>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-    <img class="media-review-img" [src]="mediaDetails.Screencaps[1]">
-    <div><h3>Audio: 5/5</h3></div>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-    <img class="media-review-img" [src]="mediaDetails.Screencaps[2]">
-    <div><h3>Extras: 2/5</h3></div>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-    <img class="media-review-img" [src]="mediaDetails.Screencaps[3]">
-    <div><h3>Overall: 3/5</h3></div>
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </div>
-    <img class="media-review-img" [src]="mediaDetails.Screencaps[4]">
+    <div *ngIf="mediaDetails.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
+    <ng-template #thenBlock_OriginalRelease_NullCheck>
+      <a [routerLink]="['/media', mediaDetails.OriginalRelease]">This {{mediaDetails.Medium}} is a re-release, click here to see the review for the original release.</a>
+    </ng-template>
+    <ng-template #elseBlock_OriginalRelease_NullCheck>
+      <div><h3>Overview</h3></div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img class="media-review-img" [src]="mediaDetails.Screencaps[0]">
+      <div><h3>Video: 4/5</h3></div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img class="media-review-img" [src]="mediaDetails.Screencaps[1]">
+      <div><h3>Audio: 5/5</h3></div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img class="media-review-img" [src]="mediaDetails.Screencaps[2]">
+      <div><h3>Extras: 2/5</h3></div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img class="media-review-img" [src]="mediaDetails.Screencaps[3]">
+      <div><h3>Overall: 3/5</h3></div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <img class="media-review-img" [src]="mediaDetails.Screencaps[4]">
+    </ng-template>
   </div>
 </div>

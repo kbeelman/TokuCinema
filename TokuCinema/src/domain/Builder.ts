@@ -72,6 +72,7 @@ export class DomainBuilder {
             mediaData['ReleaseDate'],
             mediaData['PurchaseLinks'],
             mediaData['MovieDetails'],
+            mediaData['OriginalRelease'],
             mediaData['BoxArt'],
             mediaData['Path']
         );
