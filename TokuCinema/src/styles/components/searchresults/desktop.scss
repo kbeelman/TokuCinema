@@ -1,1 +1,21 @@
 @import '../../globals.scss';
+
+.results-root {
+  margin-left: $desktop-gutter;
+  margin-right: $desktop-gutter;
+}
+
+.result-list {
+  .result-item:nth-child(odd) {
+    margin-right: 20px;
+  }
+
+  .result-item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.result-item {
+  margin-right: 20px;
+  width: calc((100% - 40px) / 3);
+}

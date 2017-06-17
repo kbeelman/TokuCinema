@@ -1,24 +1,24 @@
 <div class="results-root">
   <div class="result-lists-wrapper">
     <div>
-      <ul class="result-list">
-        <li class="result-item" *ngFor="let item of movieItems | deepSearch : searchTerm; let i = index;">
-          <h2 *ngIf="i === 0">Movie</h2>
-          <a href="#" [routerLink]="['/movies', item.path]">
+      <div class="result-list">
+        <a class="result-item" *ngFor="let item of movieItems | deepSearch : searchTerm; let i = index;"
+          href="#" [routerLink]="['/movies', item.path]">
+          <div>
             {{item.name}}
-          </a>
-        </li>
-      </ul>
+          </div>
+        </a>
+      </div>
     </div>
-    <div >
-      <ul class="result-list">
-        <li class="result-item" *ngFor="let item of mediaItems | deepSearch : searchTerm; let i = index;">
-          <h2 *ngIf="i === 0">Media</h2>
-          <a href="#" [routerLink]="['/media', item.path]">
+    <div>
+      <div class="result-list">
+        <a class="result-item" *ngFor="let item of mediaItems | deepSearch : searchTerm; let i = index;" 
+          href="#" [routerLink]="['/media', item.path]">
+          <div>
             {{item.name}}
-          </a>
-        </li>
-      </ul>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </div>
