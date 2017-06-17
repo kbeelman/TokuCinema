@@ -59,3 +59,11 @@ li {
   text-indent: -1em; 
   padding-left: 1em;
 }
+
+.media-information a {
+  text-decoration: none;
+  
+  &:link, &:visited, &:hover, &:active {
+    color: #caebf2;
+  }
+}
