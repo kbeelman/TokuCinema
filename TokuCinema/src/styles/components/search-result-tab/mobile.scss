@@ -1,0 +1,23 @@
+@import '../../globals.scss';
+
+.tab-result-icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tab-result-icon {
+  margin-left: 12px;
+
+  svg {
+    height: 40px;
+    width: 40px;
+    fill: $primary-foreground;
+  }
+}
+
+.result-item-name {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+}

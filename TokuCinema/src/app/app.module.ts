@@ -31,6 +31,7 @@ import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
 import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
+import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -62,7 +63,8 @@ export const firebaseConfig = {
     MediaFormComponent,
     MediaSearchResultsComponent,
     MoviesSearchResultsComponent,
-    DeepSearch
+    DeepSearch,
+    SearchResultTabComponent
   ],
   imports: [
     BrowserModule,
