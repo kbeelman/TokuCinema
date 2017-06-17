@@ -26,7 +26,6 @@ import { MediaSearchResultsComponent } from './media-search-results/media-search
 import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
 
 // Pipes
-import { Search } from './pipes/search.pipe';
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
 import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
 import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
@@ -56,7 +55,6 @@ export const firebaseConfig = {
     MovieCardComponent,
     MediaCardComponent,
     SearchResultsComponent,
-    Search,
     MediaTitleSearch,
     MovieTitleSearch,
     MediaFiltersSearch,
