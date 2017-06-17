@@ -106,8 +106,6 @@
   }
 }
 
-.result-lists-wrapper {
-  div:last-child {
-    margin-bottom: 100px;
-  }
+.result-lists-wrapper:last-child {
+  margin-bottom: 100px;
 }

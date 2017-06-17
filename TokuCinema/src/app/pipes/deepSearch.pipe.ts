@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
-  transform(value, args) {
+  public transform(value, args) {
     let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
     let worthSearching = (cleanSearchTerm !== undefined && args.length > 1 && value);
 
@@ -20,28 +20,28 @@ export class DeepSearch implements PipeTransform {
         });
 
         // exact match pass
-          value.forEach(element => {
-            element.names.forEach(nameElement => {
-              if (nameElement.exactMatch) {
-                let itAlreadExists: boolean = false;
+        value.forEach(element => {
+          element.names.forEach(nameElement => {
+            if (nameElement.exactMatch) {
+              let itAlreadExists: boolean = false;
 
-                let resultToAdd = {
-                  name: element.name,
-                  names: element.names,
-                  path: element.path,
-                  score: 1000
-                };
+              let resultToAdd = {
+                name: element.name,
+                names: element.names,
+                path: element.path,
+                score: 1000
+              };
 
-                results.forEach(element => {
-                  itAlreadExists = element.path === resultToAdd.path;
-                });
+              results.forEach(element => {
+                itAlreadExists = element.path === resultToAdd.path;
+              });
 
-                if (!itAlreadExists && cleanSearchTerm === nameElement.word) {
-                  results.push(resultToAdd);
-                }
+              if (!itAlreadExists && cleanSearchTerm === nameElement.word) {
+                results.push(resultToAdd);
               }
-            });
+            }
           });
+        });
 
         // weight commonality of keyword
         let words = new Array<string>();
