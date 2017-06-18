@@ -4,6 +4,7 @@ import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
+import { Movie } from './Movie';
 
 export class Media implements ISearchable{
 
@@ -37,7 +38,8 @@ export class Media implements ISearchable{
         public MoviePath: Array<string>,
         public OriginalRelease: string,
         public BoxArt: string,
-        public Path?: string
+        public Path?: string,
+        public Movies?: Array<Movie>
     ) {
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();

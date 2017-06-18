@@ -1,6 +1,8 @@
+import { element } from 'protractor';
 import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
 import { Component, OnInit } from '@angular/core';
 import { Media } from '../../domain/Media';
+import { Movie } from '../../domain/Movie';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from './../../domain/Builder';
 
@@ -17,6 +19,7 @@ export class MediaComponent implements OnInit {
   countryFilter: string = '';
   regionFilter: any = '';
   mediaData: FirebaseListObservable<any[]>;
+  movieData: FirebaseListObservable<any[]>;
   showFilters: string = "Show filters +";
 
   // Form use
@@ -27,6 +30,7 @@ export class MediaComponent implements OnInit {
   regions = new Array<string>();
 
   constructor(db: AngularFireDatabase) { 
+    this.movieData = db.list('/movies');
     this.mediaData = db.list('/media');
   }
 
@@ -35,6 +39,20 @@ export class MediaComponent implements OnInit {
       for (var i = 0; i < element.length; i++) {
         let domainBuilder = new DomainBuilder(element[i], DataType.Media);
         let domainObject = domainBuilder.getDomainObject();
+
+        // Shitty nested algorithm here
+        domainObject.MoviePath.forEach(mediaElement => {
+          this.movieData.forEach(moviesElement => {
+            moviesElement.forEach(movieElement => {
+              if(mediaElement === movieElement.Path) {
+                let newBuilder = new DomainBuilder(movieElement, DataType.Movie);
+                let movie = newBuilder.getDomainObject();
+                domainObject.Movies.push(movie);
+              }
+            });
+          });
+        });
+
         this.mediaItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
         console.log(domainObject);

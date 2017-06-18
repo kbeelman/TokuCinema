@@ -74,7 +74,8 @@ export class DomainBuilder {
             mediaData['MoviePath'],
             mediaData['OriginalRelease'],
             mediaData['BoxArt'],
-            mediaData['Path']
+            mediaData['Path'],
+            []
         );
 
         return media;
