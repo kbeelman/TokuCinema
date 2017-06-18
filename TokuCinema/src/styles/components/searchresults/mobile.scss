@@ -6,6 +6,10 @@
   margin-right: $mobile-gutter;
   margin-bottom: $mobile-gutter;
   text-align: center;
+
+  h3 {
+    margin-bottom: 0;
+  }
 }
 
 .result-list {

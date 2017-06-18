@@ -1,7 +1,9 @@
 <div class="results-root">
   <div class="result-lists-wrapper">
     <div>
+      <h3>Movies</h3>
       <div class="result-list">
+        
         <app-search-result-tab
           class="result-item"
           *ngFor="let item of movieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
@@ -11,6 +13,7 @@
       </div>
     </div>
     <div>
+      <h3>Home Media Releases</h3>
       <div class="result-list">
         <app-search-result-tab
           class="result-item"
