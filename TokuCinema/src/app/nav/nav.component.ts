@@ -1,5 +1,5 @@
 import { DomainBuilder, DataType } from './../../domain/Builder';
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, NgZone } from '@angular/core';
 import { Media } from '../../domain/Media';
 import { Movie } from '../../domain/Movie';
 import { ISearchable } from '../../domain/ISearchable';
@@ -25,7 +25,7 @@ export class NavComponent implements OnInit {
   moviesData: FirebaseListObservable<any[]>;
   mediaData: FirebaseListObservable<any[]>;
 
-  constructor(db: AngularFireDatabase) { 
+  constructor(db: AngularFireDatabase, private _ngZone: NgZone) {
     this.moviesData = db.list('/movies');
     this.mediaData = db.list('/media');
   }
@@ -59,7 +59,12 @@ export class NavComponent implements OnInit {
 
   toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
-    if(this.navMenuOpen) {
+    if (this.searchOpen) {
+      this._ngZone.runOutsideAngular(() => { 
+        setTimeout(() => document.getElementById('search-input').focus());
+      });
+    }
+    if (this.navMenuOpen) {
       this.navMenuOpen = !this.navMenuOpen;
     }
   }
