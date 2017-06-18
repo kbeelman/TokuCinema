@@ -76,10 +76,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           });
 
           reviewData.forEach(review => {
-            let domainBuilder = new DomainBuilder(review[0], DataType.MediaReview);
-            let domainObject = domainBuilder.getDomainObject();
-            this.mediaReview = domainObject;
-            console.log(this.mediaReview);
+            if(review.length > 0) {
+              let domainBuilder = new DomainBuilder(review[0], DataType.MediaReview);
+              let domainObject = domainBuilder.getDomainObject();
+              this.mediaReview = domainObject;
+            }
           })
         })
       }
