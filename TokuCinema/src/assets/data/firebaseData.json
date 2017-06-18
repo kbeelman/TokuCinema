@@ -803,6 +803,19 @@
     ],
     "mediaReviews": [
         {
+            "Path": "Gojira-Classic-Media-DVD-2006-09-05",
+            "Overview": "Lorem ipsum",
+            "Video": [{"Score":"3",
+                "Description":"Lorem ipsum"}],
+            "Audio": [{"Score":"3",
+                "Description":"Lorem ipsum"}],
+            "Extras": [{"Score":"4",
+                "Description":"Lorem ipsum"}],
+            "Overall": [{"Score":"3",
+                "Description":"Lorem ipsum"}],
+            "FeaturedScreenShots": [0,1,2,3,4]
+        },
+        {
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01",
             "Overview": "Lorem ipsum",
             "Video": [{"Score":"1",
