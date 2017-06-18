@@ -102,13 +102,14 @@
     </div>
   </div>
   <div class="media-review">
-    <div><h2>{{mediaDetails.Medium}} Review</h2></div>
     <div *ngIf="mediaDetails.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
     <ng-template #thenBlock_OriginalRelease_NullCheck>
+      <div><h2>{{mediaDetails.Medium}} Re-release Information</h2></div>
       <a [routerLink]="['/media', mediaDetails.OriginalRelease]">This {{mediaDetails.Medium}} is a re-release, click here to see the review for the original release.</a>
     </ng-template>
     <ng-template #elseBlock_OriginalRelease_NullCheck>
       <div *ngIf="this.mediaReview">
+        <div><h2>{{mediaDetails.Medium}} Review</h2></div>
         <div *ngIf="this.mediaReview.Overview">
           <div><h3>Overview</h3></div>
           <div>{{this.mediaReview.Overview}}</div>
