@@ -132,4 +132,8 @@ export class Media implements ISearchable{
         return keywords;
     }
 
+    getIconName(): string {
+        return this.Medium;
+    }
+
 }

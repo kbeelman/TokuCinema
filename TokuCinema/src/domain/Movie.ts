@@ -81,4 +81,8 @@ export class Movie implements ISearchable {
 
         return keywords;
     }
+
+    getIconName(): string {
+        return 'movies';
+    }
 }

@@ -6,4 +6,5 @@ export interface ISearchable {
     getType(): ItemType;
     getPath(): string;
     getKeywords(): Array<Keyword>;
+    getIconName(): string;
 }
