@@ -29,7 +29,8 @@ export class DeepSearch implements PipeTransform {
                 name: element.name,
                 names: element.names,
                 path: element.path,
-                score: 1000
+                score: 1000,
+                iconName: element.iconName
               };
 
               results.forEach(element => {
@@ -79,7 +80,8 @@ export class DeepSearch implements PipeTransform {
                     name: resultElement.name,
                     names: resultElement.names,
                     path: resultElement.path,
-                    score: resultNameElement.score
+                    score: resultNameElement.score,
+                    iconName: resultElement.iconName
                   };
 
                   // add result to list if not already there - add to score if already there

@@ -6,7 +6,7 @@ import { Keyword } from '../../domain/Keyword';
   templateUrl: './search-result-tab.component.html'
 })
 export class SearchResultTabComponent implements OnInit {
-  @Input() resultItem: {"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number};
+  @Input() resultItem: {"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number, 'iconName': string};
   @Input() pathRoot: string;
 
   constructor() { }
