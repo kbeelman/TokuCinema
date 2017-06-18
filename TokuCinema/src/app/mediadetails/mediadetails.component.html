@@ -108,41 +108,33 @@
       <a [routerLink]="['/media', mediaDetails.OriginalRelease]">This {{mediaDetails.Medium}} is a re-release, click here to see the review for the original release.</a>
     </ng-template>
     <ng-template #elseBlock_OriginalRelease_NullCheck>
-      <div><h3>Overview</h3></div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <div *ngIf="this.mediaReview">
+        <div *ngIf="this.mediaReview.Overview">
+          <div><h3>Overview</h3></div>
+          <div>{{this.mediaReview.Overview}}</div>
+          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[0]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[0]]">
+        </div>
+        <div *ngIf="this.mediaReview.Video[0]">
+          <div *ngIf="this.mediaReview.Video[0].Score"><h3>Video: {{this.mediaReview.Video[0].Score}}/5</h3></div>
+          <div *ngIf="this.mediaReview.Video[0].Description">{{this.mediaReview.Video[0].Description}}</div>
+          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[1]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[1]]">
+        </div>
+        <div *ngIf="this.mediaReview.Audio[0]">
+          <div *ngIf="this.mediaReview.Audio[0].Score"><h3>Audio: {{this.mediaReview.Audio[0].Score}}/5</h3></div>
+          <div *ngIf="this.mediaReview.Audio[0].Description">{{this.mediaReview.Audio[0].Description}}</div>
+          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[2]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[2]]">
+        </div>
+        <div *ngIf="this.mediaReview.Extras[0]">
+          <div *ngIf="this.mediaReview.Extras[0].Score"><h3>Extras: {{this.mediaReview.Extras[0].Score}}/5</h3></div>
+          <div *ngIf="this.mediaReview.Extras[0].Description">{{this.mediaReview.Extras[0].Description}}</div>
+          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[3]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[3]]">
+        </div>
+        <div *ngIf="this.mediaReview.Overall[0]">
+          <div *ngIf="this.mediaReview.Overall[0].Score"><h3>Overall: {{this.mediaReview.Overall[0].Score}}/5</h3></div>
+          <div *ngIf="this.mediaReview.Overall[0].Description">{{this.mediaReview.Overall[0].Description}}</div>
+          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[4]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[4]]">
+        </div>
       </div>
-      <img class="media-review-img" [src]="mediaDetails.Screencaps[0]">
-      <div><h3>Video: 4/5</h3></div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <img class="media-review-img" [src]="mediaDetails.Screencaps[1]">
-      <div><h3>Audio: 5/5</h3></div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <img class="media-review-img" [src]="mediaDetails.Screencaps[2]">
-      <div><h3>Extras: 2/5</h3></div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <img class="media-review-img" [src]="mediaDetails.Screencaps[3]">
-      <div><h3>Overall: 3/5</h3></div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-      <img class="media-review-img" [src]="mediaDetails.Screencaps[4]">
     </ng-template>
   </div>
 </div>
