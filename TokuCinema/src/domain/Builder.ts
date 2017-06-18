@@ -1,6 +1,7 @@
 // This is a helper class for converting raw data to domain classes
 import { Movie } from './Movie';
 import { Media } from './Media';
+import { MediaReview } from './MediaReview';
 
 export class DomainBuilder {
     public RawData: any;
@@ -19,6 +20,9 @@ export class DomainBuilder {
         }
         else if (this.DataType === DataType.Movie) {
             domainObject = this.buildMovie();
+        }
+        else if (this.DataType === DataType.MediaReview) {
+            domainObject = this.buildMediaReview();
         }
 
         return domainObject;
@@ -80,9 +84,25 @@ export class DomainBuilder {
 
         return media;
     }
+
+    private buildMediaReview(): MediaReview {
+        let mediaReviewData = this.RawData;
+
+        let mediaReview: MediaReview = new MediaReview(
+            mediaReviewData['Overview'],
+            mediaReviewData['Video'],
+            mediaReviewData['Audio'],
+            mediaReviewData['Extras'],
+            mediaReviewData['Overall'],
+            mediaReviewData['FeaturedScreenShots'],
+        );
+
+        return mediaReview;
+    }
 }
 
 export enum DataType {
     Movie,
-    Media
+    Media,
+    MediaReview
 }

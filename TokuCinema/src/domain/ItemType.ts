@@ -1,4 +1,5 @@
 export enum ItemType {
   Movie,
-  Media
+  Media,
+  MediaReview
 }

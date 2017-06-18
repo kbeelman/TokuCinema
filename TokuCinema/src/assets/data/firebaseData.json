@@ -800,5 +800,20 @@
             "BoxArt": "http://shop-cdn.bfi.org.uk/media/catalog/product/5/0/5035673006801_2.jpg",
             "Path": "Godzilla-BFI-DVD-2006-02-13"
         }
+    ],
+    "mediaReviews": [
+        {
+            "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01",
+            "Overview": "Lorem ipsum",
+            "Video": [{"Score":"1",
+                "Description":"Lorem ipsum"}],
+            "Audio": [{"Score":"1",
+                "Description":"Lorem ipsum"}],
+            "Extras": [{"Score":"1",
+                "Description":"Lorem ipsum"}],
+            "Overall": [{"Score":"1",
+                "Description":"Lorem ipsum"}],
+            "FeaturedScreenShots": [0,1,2,3,4]
+        }
     ]
 }

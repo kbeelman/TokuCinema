@@ -9,6 +9,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 import { Movie } from '../../domain/Movie';
 import { Media } from '../../domain/Media';
 import { MediaDetails } from '../../domain/MediaDetails';
+import { MediaReview } from '../../domain/MediaReview';
 import { DomainBuilder, DataType } from './../../domain/Builder';
 import { StringCleaner, StringType } from './../../domain/StringCleaner';
 
@@ -21,6 +22,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     mediaData: FirebaseListObservable<any[]>;
     media: Media;
     mediaDetails: MediaDetails;
+    mediaReview: MediaReview;
     movieDetails = new Array<Movie>();
 
     dataLoaded: boolean = false;
@@ -62,6 +64,22 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
               let domainObject = domainBuilder.getDomainObject();
               this.movieDetails.push(domainObject);
             })
+          })
+
+          // Get the review object
+          let reviewData = db.list('/mediaReviews',
+            {
+              query: {
+                  orderByChild: 'Path',
+                  equalTo: this.media.Path
+                }
+          });
+
+          reviewData.forEach(review => {
+            let domainBuilder = new DomainBuilder(review[0], DataType.MediaReview);
+            let domainObject = domainBuilder.getDomainObject();
+            this.mediaReview = domainObject;
+            console.log(this.mediaReview);
           })
         })
       }
