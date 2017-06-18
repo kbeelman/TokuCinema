@@ -1,5 +1,4 @@
-<div *ngIf="this.movie" class="media-card" [routerLink]="['/movies', movie.Path]">
-  <img class="media-card-image" [src]="movie.OriginalPoster" alt="{{movie.OfficialTitle}} Title poster">
+<div *ngIf="this.movie" class="media-card" [routerLink]="['/movies', movie.Path]" [style.background-image]="'url(' + movie.OriginalPoster + ')'">
   <div class="movie-card-content">
     <div>
       <h3>{{movie.OfficialTitle}}</h3>
