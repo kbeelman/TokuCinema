@@ -64,6 +64,15 @@ export class MediaComponent implements OnInit {
       if (countryCompare !== 0) {
         return countryCompare;
       }
+      if(a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear)
+      {
+        return -1;
+      }
+      else if(a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear)
+      {
+        return 1;
+      }
+
 
       if(a.ReleaseDate < b.ReleaseDate) {
         return -1;
