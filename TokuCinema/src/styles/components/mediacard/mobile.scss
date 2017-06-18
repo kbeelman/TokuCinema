@@ -10,6 +10,11 @@
   margin-top: 10px;
 }
 
+.media-card:hover {
+  background-color: $primary-foreground;
+  color: $primary-background;
+}
+
 .media-card-content {
   margin-left: 10px;
   margin-right: 10px;

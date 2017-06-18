@@ -29,4 +29,14 @@
     width: 100%;
     height: 80px;
   }
+
+  :hover {
+    background-color: $primary-foreground;
+    color: $primary-background;
+
+    svg {
+      fill: $primary-background;
+    }
+  }
+
 }
