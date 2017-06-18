@@ -4,7 +4,7 @@
       <div class="result-list">
         <app-search-result-tab
           class="result-item"
-          *ngFor="let item of movieItems | deepSearch : searchTerm; let i = index;"
+          *ngFor="let item of movieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
           [resultItem]="item"
           [pathRoot]="'movies'">
         </app-search-result-tab>
@@ -14,7 +14,7 @@
       <div class="result-list">
         <app-search-result-tab
           class="result-item"
-          *ngFor="let item of mediaItems | deepSearch : searchTerm; let i = index;"
+          *ngFor="let item of mediaItems | deepSearch : searchTerm | slice:0:6; let i = index;"
           [resultItem]="item"
           [pathRoot]="'media'">
         </app-search-result-tab>
