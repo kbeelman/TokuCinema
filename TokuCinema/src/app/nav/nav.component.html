@@ -49,7 +49,7 @@
   </div>
   <app-search-results
     (click)="clearSearch(); closeNav();"
-    *ngIf="searchTerm != ''"
+    *ngIf="searchTerm && searchTerm.length > 2"
     [searchItems]="this.getSearchItems()"
     [searchTerm]="searchTerm">
   </app-search-results>

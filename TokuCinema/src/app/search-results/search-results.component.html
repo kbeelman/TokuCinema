@@ -3,7 +3,6 @@
     <div>
       <h3>Movies</h3>
       <div class="result-list">
-        
         <app-search-result-tab
           class="result-item"
           *ngFor="let item of movieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
