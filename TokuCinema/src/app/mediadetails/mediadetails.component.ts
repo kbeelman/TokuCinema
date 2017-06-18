@@ -62,7 +62,17 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
             movieData.forEach(movieElement => {
               let domainBuilder = new DomainBuilder(movieElement[0], DataType.Movie);
               let domainObject = domainBuilder.getDomainObject();
-              this.movieDetails.push(domainObject);
+              let movie = domainObject;
+              let alreadyContainsMovie: boolean = false;
+              this.movieDetails.forEach(existingMovies => {
+                if(existingMovies.Path === movie.Path) {
+                  alreadyContainsMovie = true;
+                }
+              })
+              if(!alreadyContainsMovie){
+                this.movieDetails.push(movie);
+              }
+              
             })
           })
 
