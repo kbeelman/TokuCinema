@@ -17,9 +17,9 @@ export class Media implements ISearchable{
         public Color: ColorType,
         public OriginalRuntime: number,
         public ChapterStops: Array<{"Version": string, "Count": number}>,
-        public Subtitles: Array<Language>,
+        public Subtitles: Array<string>,
         public SubtitlesDetails: Array<Language>,
-        public AudioTracks: Array<Language>,
+        public AudioTracks: Array<string>,
         public AudioTracksDetails: Array<Language>,
         // Medium Information
         public Medium: Medium,

@@ -111,18 +111,21 @@ export class MediaComponent implements OnInit {
       this.mediums.push(media.Medium);
     }
     if (!(this.regions.indexOf(media.Region) >= 0)) {
-      this.regions.push(media.Region);
+      if(!(media.Region == "")) {
+        this.regions.push(media.Region);
+      }
     }
     media.AudioTracks.forEach(element => {
-      if (!(this.spokenLanguages.indexOf(element) >= 0)) {
+      if (!(this.spokenLanguages.indexOf(element) >= 0) && (!(element == ""))) {
         this.spokenLanguages.push(element);
       }
     });
     media.Subtitles.forEach(element => {
-      if (!(this.subtitleLanguages.indexOf(element) >= 0)) {
+      if (!(this.subtitleLanguages.indexOf(element) >= 0) && (!(element == ""))) {
         this.subtitleLanguages.push(element);
       }
     });
+    
   }
 
   private sortFilters(): void {
