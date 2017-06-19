@@ -35,8 +35,10 @@ $mobile-gutter: 40px;
 }
 
 .media-poster img {
-  width: 200px;
-  height: 280px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 200px;
+  height: 100%;
   margin-bottom: 15px;
 }
 
@@ -66,4 +68,12 @@ li {
   &:link, &:visited, &:hover, &:active {
     color: #caebf2;
   }
+}
+
+.right-information {
+  width: 100%;
+}
+
+.left-information {
+  width: 100%;
 }
