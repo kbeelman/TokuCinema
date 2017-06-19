@@ -15,10 +15,13 @@
   margin-top: $mobile-gutter;
   background-color: $secondary-background;
   padding-bottom: $mobile-gutter;
-  padding-top: $mobile-gutter;
 
   p {
     padding-left: $mobile-gutter;
     padding-right: $mobile-gutter;
+  }
+
+  img {
+    width: 100%;
   }
 }
