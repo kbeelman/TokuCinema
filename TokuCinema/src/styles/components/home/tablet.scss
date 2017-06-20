@@ -5,17 +5,49 @@
   margin-bottom: $tablet-gutter;
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
+  display: flex;
+  overflow: none;
+
+  .home-tile:last-child {
+    margin-right: 0;
+  }
+}
+
+.landing-page-card {
+  height: calc((100vh - 300px) / 3);
+  min-height: 200px;
+  max-height: 200px;
+
+  .home-tile-paragraph {
+    display: none;
+    padding: 30px;
+  }
+}
+
+.landing-page-card:hover {
+
+  div {
+    transition: .2s;
+    display: none;
+  }
+
+  .home-tile-paragraph {
+    display: block;
+  }
 }
 
 .home-tile {
   display: flex;
   margin-top: $tablet-gutter;
-}
+  width: calc(33% - 20px);
+  margin-right: 30px;
+  
+  a {
 
-.landing-page-card {
-  height: calc((100vh - 300px) / 3);
-  width: 50%;
-  min-height: 200px;
+    p {
+      font-size: 12px;
+    }
+  }
 }
 
 .landing-paragraph {
@@ -33,6 +65,7 @@
     position: relative;
     left: 50%;
   }
+
   .landing-paragraph {
     position: relative;
     right: 50%;
@@ -42,4 +75,19 @@
       padding-right: $mobile-gutter;
     }
   }
+}
+
+.hero-image {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 50vh;
+  max-height: 50vh;
+  filter: blur(3px) grayscale(1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("/~/../assets/images/Legendary-Godzilla-1.jpg");
 }

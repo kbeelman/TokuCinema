@@ -1,16 +1,14 @@
 <div class="home-root">
     <div 
       class="home-tile" 
-      *ngFor="let landingPage of landingPages; let i = index"
-      [ngClass]="{'align-right': i === 1}">
+      *ngFor="let landingPage of landingPages; let i = index">
       <a class="landing-page-card" 
         [routerLink]="[landingPage.link]">
-        {{landingPage.text}}
-      </a>
-      <div class="landing-paragraph">
-        <p>
+        <div>{{landingPage.text}}</div>
+        <p class="home-tile-paragraph">
           {{landingPage.body}}
         </p>
-      </div>
+      </a>
     </div>
 </div>
+<div class="hero-image"></div>

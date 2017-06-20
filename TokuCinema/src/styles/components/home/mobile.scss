@@ -9,13 +9,12 @@
 
 .landing-page-card {
   @extend %center-children;
-  height: calc((100vh - 300px) / 3);
+  height: calc((100vh - 200px) / 3);
   min-height: 120px;
   width: 100%;
   background-color: $secondary-background;
   text-decoration: none;
   font-size: 24px;
-
   transition: .2s;
 }
 
@@ -27,4 +26,12 @@
 
 .nav-title:focus {
   outline: none;
+}
+
+.home-tile-paragraph {
+  display: none;
+}
+
+.home-tile {
+  margin-bottom: 30px;
 }
