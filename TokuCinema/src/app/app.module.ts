@@ -16,6 +16,7 @@ import { NavComponent } from './nav/nav.component';
 import { MoviesComponent } from './movies/movies.component';
 import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
 import { MediaComponent } from './media/media.component';
+import { MediaBoxsetsComponent } from './media-boxsets/media-boxsets.component';
 import { MediadetailsComponent } from './mediadetails/mediadetails.component';
 import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
@@ -64,7 +65,8 @@ export const firebaseConfig = {
     MediaSearchResultsComponent,
     MoviesSearchResultsComponent,
     DeepSearch,
-    SearchResultTabComponent
+    SearchResultTabComponent,
+    MediaBoxsetsComponent
   ],
   imports: [
     BrowserModule,
@@ -100,6 +102,10 @@ export const firebaseConfig = {
       {
         path: 'media/:name',
         component: MediadetailsComponent
+      },
+      {
+        path: 'mediaboxsets',
+        component: MediaBoxsetsComponent
       }
       // {
       //   path: 'media-form',
