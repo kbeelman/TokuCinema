@@ -1,14 +1,16 @@
 <div class="home-root">
-    <div 
-      class="home-tile" 
-      *ngFor="let landingPage of landingPages; let i = index">
-      <a class="landing-page-card" 
-        [routerLink]="[landingPage.link]">
-        <div>{{landingPage.text}}</div>
-        <p class="home-tile-paragraph">
-          {{landingPage.body}}
-        </p>
-      </a>
+    <div class="home-tile-wrapper">
+      <div
+        class="home-tile" 
+        *ngFor="let landingPage of landingPages; let i = index">
+        <a class="landing-page-card" 
+          [routerLink]="[landingPage.link]">
+          <div>{{landingPage.text}}</div>
+          <p class="home-tile-paragraph">
+            {{landingPage.body}}
+          </p>
+        </a>
+      </div>
     </div>
 </div>
 <div class="hero-image"></div>

@@ -1,12 +1,12 @@
 @import '../../globals.scss';
 
 .home-root {
-  margin-top: $tablet-gutter + 80px;
+  margin-top: 80px;
   margin-bottom: $tablet-gutter;
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
   display: flex;
-  overflow: none;
+  height: calc(100vh - 120px);
 
   .home-tile:last-child {
     margin-right: 0;
@@ -83,11 +83,18 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 50vh;
-  max-height: 50vh;
+  min-height: 100vh;
+  max-height: 100vh;
   filter: blur(3px) grayscale(1);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center left;
   background-size: cover;
   background-image: url("/~/../assets/images/Legendary-Godzilla-1.jpg");
+}
+
+.home-tile-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
