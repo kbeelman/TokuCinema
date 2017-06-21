@@ -45,7 +45,7 @@
   a {
 
     p {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 }
@@ -85,7 +85,7 @@
   width: 100%;
   min-height: 100vh;
   max-height: 100vh;
-  filter: blur(3px) grayscale(1);
+  filter: blur(2px) sepia(1);
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
