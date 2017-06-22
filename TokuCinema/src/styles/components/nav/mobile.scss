@@ -63,6 +63,13 @@
   right: 100%;
   transition: .6s;
 
+  div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
   ul {
     padding: 0;
     padding-left: $mobile-gutter;
@@ -71,7 +78,7 @@
 
 }
 
-.left-slide-in {
+.global-nav-slide-in {
   transition: .6s;
   right: 20%;
 }

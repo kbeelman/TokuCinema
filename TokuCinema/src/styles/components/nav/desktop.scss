@@ -10,6 +10,14 @@
 
 .expanded-menu {
 
+  .nav-menu-wrapper:first-child {
+    margin-left: $desktop-gutter;
+  }
+
+  .nav-menu-wrapper:last-child {
+    margin-right: $desktop-gutter;
+  }
+
   ul {
     padding-left: $desktop-gutter;
     padding-right: $desktop-gutter;
