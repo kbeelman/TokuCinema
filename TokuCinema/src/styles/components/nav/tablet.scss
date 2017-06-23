@@ -28,16 +28,27 @@
   position: absolute;
   top: -15%;
 
+  .nav-menu-wrapper {
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .nav-menu-wrapper:first-child {
     margin-left: $tablet-gutter;
-    padding-left: 0;
-    justify-content: flex-start;
   }
 
   .nav-menu-wrapper:last-child {
     margin-right: $tablet-gutter;
-    padding-right: 0;
-    justify-content: flex-end;
+  }
+
+  .nav-menu-wrapper:hover {
+    color: $primary-background;
+    background-color: $primary-foreground;
+
+    svg {
+      fill: $primary-background;
+    }
   }
 
   div {
