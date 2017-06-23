@@ -25,6 +25,8 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { MediaFormComponent } from './media-form/media-form.component';
 import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
 import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
+import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 // Pipes
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
@@ -32,8 +34,6 @@ import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
 import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
-import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
