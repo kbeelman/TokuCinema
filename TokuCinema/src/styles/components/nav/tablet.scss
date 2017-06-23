@@ -68,4 +68,5 @@
 .nav-search {
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
+  width: calc(100% - 80px);
 }
