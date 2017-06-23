@@ -33,6 +33,7 @@ import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
 import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
@@ -66,7 +67,8 @@ export const firebaseConfig = {
     MoviesSearchResultsComponent,
     DeepSearch,
     SearchResultTabComponent,
-    MediaBoxsetsComponent
+    MediaBoxsetsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -106,6 +108,13 @@ export const firebaseConfig = {
       {
         path: 'mediaboxsets',
         component: MediaBoxsetsComponent
+      },
+      {
+        path: '404', 
+        component: NotFoundComponent
+      },
+      {
+        path: '**', redirectTo: '/404'
       }
       // {
       //   path: 'media-form',
