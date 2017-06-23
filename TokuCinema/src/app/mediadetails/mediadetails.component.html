@@ -12,10 +12,34 @@
         <div>
           <h4>Main Feature Information:</h4>
           <ul>
-            <li *ngIf="this.mediaDetails.AspectRatio">Aspect Ratio: {{this.mediaDetails.AspectRatio}}</li>
-            <li *ngIf="this.mediaDetails.Runtime">Runtime: {{this.mediaDetails.Runtime}} minutes</li>
-            <li *ngIf="this.mediaDetails.OriginalRuntime">Original Runtime: {{this.mediaDetails.OriginalRuntime}} minutes</li>
-            <li *ngIf="this.mediaDetails.Color">Color: {{this.mediaDetails.Color}}</li>
+            <!--<li *ngIf="this.mediaDetails.AspectRatio">Aspect Ratio: {{this.mediaDetails.AspectRatio}}</li>-->
+            <!--<li *ngIf="this.mediaDetails.Runtime">Runtime: {{this.mediaDetails.Runtime}} minutes</li>-->
+            <!-- Null Check -->
+            <div *ngIf="this.movieDetails; then thenBlock_OriginalRuntime_NullCheck"></div>
+              <ng-template #thenBlock_OriginalRuntime_NullCheck>
+              <!-- Verify we have at least 1 movie -->
+              <div *ngIf="this.movieDetails.length > 0; then thenBlock_OriginalRuntime"></div>
+                <ng-template #thenBlock_OriginalRuntime>
+                  <!-- Check for 1 or more movies -->
+                  <div *ngIf = "this.movieDetails.length > 1 then thenBlock_OriginalRuntime_movieLength else elseBlock_OriginalRuntime_movieLength"></div>
+                    <!-- More than 1 movie -->
+                    <ng-template #thenBlock_OriginalRuntime_movieLength>
+                      <!-- Checks that at least 1 movie has a runtime -->
+                      <li *ngIf = "hasRuntimes">Original Runtime:
+                        <ul>
+                          <div *ngFor = "let item of this.movieDetails">
+                            <li *ngIf = "item.Runtime">{{mediaDetails.Title}}: {{item.Runtime}}</li>
+                          </div>
+                        </ul>
+                      </li>
+                    </ng-template>
+                    <!-- Only 1 movie -->
+                    <ng-template #elseBlock_OriginalRuntime_movieLength>
+                      <li *ngIf = "this.movieDetails[0].Runtime">Original Runtime: {{this.movieDetails[0].Runtime}}</li>
+                    </ng-template>
+                </ng-template>
+              </ng-template>
+            <!--<li *ngIf="this.mediaDetails.Color">Color: {{this.mediaDetails.Color}}</li>-->
             <div *ngIf="this.mediaDetails.ChapterStops; then thenBlock_Chapter_NullCheck"></div>
               <ng-template #thenBlock_Chapter_NullCheck>
                 <div *ngIf="this.mediaDetails.ChapterStops.length>1; then thenBlock_Chapter else elseBlock_Chapter"></div>
@@ -45,9 +69,9 @@
         <div>
           <h4>Media Information:</h4>
           <ul>
-            <li *ngIf="this.mediaDetails.Medium">Format Medium: {{this.mediaDetails.Medium}}</li>
-            <li *ngIf="this.mediaDetails.Format">Format Details: {{this.mediaDetails.Format}}</li>
-            <li *ngIf="this.mediaDetails.MediumCount">{{this.mediaDetails.Medium}} Count: {{this.mediaDetails.MediumCount}}</li>
+            <!--<li *ngIf="this.mediaDetails.Medium">Format Medium: {{this.mediaDetails.Medium}}</li>-->
+            <!--<li *ngIf="this.mediaDetails.Format">Format Details: {{this.mediaDetails.Format}}</li>-->
+            <!--<li *ngIf="this.mediaDetails.MediumCount">{{this.mediaDetails.Medium}} Count: {{this.mediaDetails.MediumCount}}</li>-->
             <li *ngIf="this.mediaDetails.Region">Region: {{this.mediaDetails.Region}}</li>
             <li *ngIf="this.mediaDetails.Country">Release Country: {{this.mediaDetails.Country}}</li>
             <li *ngIf="this.mediaDetails.ColorSystem">Color System: {{this.mediaDetails.ColorSystem}}</li>

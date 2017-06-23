@@ -43,6 +43,7 @@ export class DomainBuilder {
             movieData['Director'],
             movieData['Series'],
             movieData['Era'],
+            movieData['Runtime'],
             movieData['Path']);
 
         return movie;
@@ -53,11 +54,9 @@ export class DomainBuilder {
         
         let media: Media = new Media(
             mediaData['Title'],
-            mediaData['JapaneseTitle'],
             mediaData['AspectRatio'],
             mediaData['Runtime'],
             mediaData['Color'],
-            mediaData['OriginalRuntime'],
             mediaData['ChapterStops'],
             mediaData['Subtitles'],
             mediaData['SubtitlesDetails'],
@@ -67,7 +66,7 @@ export class DomainBuilder {
             mediaData['Format'],
             mediaData['Region'],
             mediaData['Country'],
-            mediaData['DiskCount'],
+            mediaData['MediumCount'],
             mediaData['ColorSystem'],
             mediaData['Screencaps'],
             mediaData['Distributor'],

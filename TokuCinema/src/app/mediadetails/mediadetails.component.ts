@@ -24,6 +24,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     mediaDetails: MediaDetails;
     mediaReview: MediaReview;
     movieDetails = new Array<Movie>();
+    hasRuntimes: boolean = false;
 
     dataLoaded: boolean = false;
 
@@ -98,7 +99,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-
+    this.movieDetails.forEach(item => {
+      if(!(item.Runtime === null)) {
+        this.hasRuntimes = true;
+      }
+    })
   }
 
   ngOnDestroy() {

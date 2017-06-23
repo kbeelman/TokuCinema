@@ -107,9 +107,11 @@ export class MediaComponent implements OnInit {
     if (!(this.countries.indexOf(media.Country) >= 0)) {
       this.countries.push(media.Country);
     }
-    if (!(this.mediums.indexOf(media.Medium) >= 0)) {
-      this.mediums.push(media.Medium);
-    }
+    media.Medium.forEach(element => {
+      if (!(this.mediums.indexOf(element) >= 0) && (!(element == ""))) {
+        this.mediums.push(element);
+      }
+    })
     if (!(this.regions.indexOf(media.Region) >= 0)) {
       if(!(media.Region == "")) {
         this.regions.push(media.Region);

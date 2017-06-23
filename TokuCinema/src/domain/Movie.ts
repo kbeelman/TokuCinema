@@ -18,6 +18,7 @@ export class Movie implements ISearchable {
         public Director: string,
         public Series: Series,
         public Era: Era,
+        public Runtime: number,
         public Path?: string
     ) {
         // Assign default route if none given, clean either way

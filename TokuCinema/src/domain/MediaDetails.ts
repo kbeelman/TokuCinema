@@ -5,20 +5,18 @@ export class MediaDetails {
     constructor(
         // Main Feature Info
         public Title: string,
-        public OriginalTitle: string,
-        public AspectRatio: string,
-        public Runtime: number,
-        public OriginalRuntime: number,
-        public Color: string,
+        public AspectRatio: Array<{"Version": string, "AspectRatio": string}>,
+        public Runtime: Array<{"Version": string, "Runtime": number}>,
+        public Color: Array<{"Version": string, "Color": string}>,
         public ChapterStops: Array<{"Version": string, "Count": number}>,
         public AudioTracksDetails: Array<string>,
         public SubtitlesDetails: Array<string>,
         // Medium Information
-        public Medium: string,
-        public Format: string,
+        public Medium: Array<string>,
+        public Format: Array<{"Medium": string, "Format": number}>,
         public Region: string,
         public Country: string,
-        public MediumCount: number,
+        public MediumCount: Array<{"Medium": string, "Count": number}>,
         public ColorSystem: string,
         // Distribution Information
         public Distributor: string,
