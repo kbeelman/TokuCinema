@@ -41,14 +41,22 @@
   }
 }
 
-
-.nav-modal {
+%nav-modal {
   position: fixed;
   height: 100%;
   width: 100%;
   top: 80px;
   overflow: auto;
   z-index: 1;
+}
+
+.nav-menu-modal {
+  @extend %nav-modal;
+  background-color: transparent;
+}
+
+.nav-search-modal {
+  @extend %nav-modal;
   background-color: $modal-background;
 }
 
@@ -101,13 +109,13 @@
 
 .nav-search {
   margin-left: $mobile-gutter;
-  margin-right: $mobile-gutter;
-  position: relative;
-  margin-top: 20px;
+  position: fixed;
+  top: 80px;
   left: 0;
   z-index: 2;
   height: 40px;
   border: solid 1px black;
+  width: calc(100% - 40px);
 
   input {
     height: 100%;

@@ -1,7 +1,8 @@
 // Variables
 $mobile-gutter: 20px;
 $tablet-gutter: 40px;
-$desktop-gutter: calc((100% - 940px) / 2);
+$desktop-gutter: calc((100% - 1140px) / 2);
+$desktop-width: 1140px;
 $below-header: $mobile-gutter + 80px;
 
   // Colors

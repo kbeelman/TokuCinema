@@ -25,7 +25,7 @@
   right: 0;
   left: 0;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: -15%;
 
   .nav-menu-wrapper {
@@ -68,4 +68,5 @@
 .nav-search {
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
+  width: calc(100% - 80px);
 }
