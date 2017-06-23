@@ -2,6 +2,8 @@ import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 
 export class MediaDetails {
+    hasDifferentAspectRatios: boolean = false;
+    hasDifferentColors: boolean = false;
     constructor(
         // Main Feature Info
         public Title: string,
@@ -28,6 +30,87 @@ export class MediaDetails {
         public OriginalRelease: string,
         public BoxArt: string,
         public Screencaps: Array<string>
-    ) {}
+    ) {
+        let aspectCompArray: Array<string> = [];
+        this.AspectRatio.forEach(element => {
+            if(!(aspectCompArray.indexOf(element.AspectRatio) >= 0)) {
+                aspectCompArray.push(element.AspectRatio);
+            }
+        })
+        if(aspectCompArray.length > 1) {
+            this.hasDifferentAspectRatios = true;
+        }
 
+        let colorCompArray: Array<string> = [];
+        this.Color.forEach(element => {
+            if(!(colorCompArray.indexOf(element.Color) >= 0)) {
+                colorCompArray.push(element.Color);
+            }
+        })
+        if(colorCompArray.length > 1) {
+            this.hasDifferentColors = true;
+        }
+    }
+
+    public doesAspectRatioExist(): boolean {
+        if(typeof this.AspectRatio !== "undefined") {
+            if (this.AspectRatio.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public getHasDifferentAspectRatios(): boolean {
+        return this.hasDifferentAspectRatios;
+    }
+
+    public doesColorExist(): boolean {
+        if(typeof this.Color !== "undefined") {
+            if (this.Color.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public getHasDifferentColors(): boolean {
+        return this.hasDifferentColors;
+    }
+
+    public doesRuntimeExist(): boolean {
+        if(typeof this.Runtime !== "undefined") {
+            if (this.Runtime.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    public doesMediumExist(): boolean {
+        if(typeof this.Medium !== "undefined") {
+            if (this.Medium.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public doesFormatExist(): boolean {
+        if(typeof this.Format !== "undefined") {
+            if (this.Format.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public doesMediumCountExist(): boolean {
+        if(typeof this.MediumCount !== "undefined") {
+            if (this.MediumCount.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

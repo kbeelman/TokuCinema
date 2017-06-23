@@ -99,15 +99,19 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.movieDetails.forEach(item => {
-      if(!(item.Runtime === null)) {
-        this.hasRuntimes = true;
-      }
-    })
   }
 
   ngOnDestroy() {
     this.alive = false;
   }
 
+  public doesHaveRuntimes(): boolean {
+    this.movieDetails.forEach(item => {
+      if(!(item.Runtime === undefined)) {
+        this.hasRuntimes = true;
+      }
+    })
+
+    return this.hasRuntimes;
+  }
 }
