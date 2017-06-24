@@ -1,0 +1,44 @@
+@import '../../globals.scss';
+
+.not-found-root {
+    justify-content: center;
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.not-found-card {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.not-found-tool-options {
+    display: flex;
+    width: 100%;
+
+    a {
+        width: 50%;
+    }
+
+    .tool-link-wrapper {
+        justify-content: center;
+    }
+
+    .tool-link-wrapper:hover {
+        background-color: $secondary-foreground;
+        color: $primary-background;
+    }
+
+    .tool-link-icon {
+        display: none;
+    }
+}

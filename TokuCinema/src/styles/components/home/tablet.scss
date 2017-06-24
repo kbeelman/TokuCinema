@@ -77,19 +77,8 @@
   }
 }
 
-.hero-image {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100vh;
-  max-height: 100vh;
-  filter: blur(2px) sepia(1);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-size: cover;
-  background-image: url("/~/../assets/images/Legendary-Godzilla-1.jpg");
+.home-hero-image {
+  @include hero-image("/~/../assets/images/Legendary-Godzilla-1.jpg", center left, blur(2px) sepia(1));
 }
 
 .home-tile-wrapper {

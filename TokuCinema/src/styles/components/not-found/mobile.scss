@@ -1,0 +1,45 @@
+@import '../../globals.scss';
+
+.not-found-hero-image {
+    @include hero-image("/~/../assets/images/404.jpg", center center, '');
+}
+
+.not-found-root {
+    margin-left: $mobile-gutter;
+    margin-right: $mobile-gutter;
+    margin-top: $below-header;
+    text-align: center;
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+}
+
+.not-found-card {
+    background-color: $primary-transparant-background;
+    padding-top: $mobile-gutter;
+    padding-bottom: $mobile-gutter;
+}
+
+.not-found-tool-options {
+
+    .tool-link-wrapper {
+        margin-left: $mobile-gutter;
+        margin-right: $mobile-gutter;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        background-color: $primary-background;
+        height: 40px;
+        padding: 20px;
+    }
+
+    .tool-link-icon {
+        position: absolute;
+        right: 50px;
+
+        svg {
+            @extend %svg-icon;
+            fill: $primary-foreground;
+        }
+    }
+}

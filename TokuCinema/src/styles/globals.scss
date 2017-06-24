@@ -18,6 +18,7 @@ $primary-accent: #f22929;
 $secondary-accent: #00a810;
 
 $modal-background: rgba(33,34,34,.96);
+$primary-transparant-background: rgba(33,34,34,.5);
 
 // Placeholders
 %svg-icon {
@@ -49,6 +50,31 @@ $modal-background: rgba(33,34,34,.96);
 %desktop-frame {
   margin-left: $desktop-gutter;
   margin-right: $desktop-gutter;
+}
+
+// Mixins
+@mixin hero-image($imageUrl, $background-position, $filter) {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  filter: $filter;
+  background-repeat: no-repeat;
+  background-position: $background-position;
+  background-size: cover;
+  background-image: url($imageUrl);
+}
+
+@mixin stroke-me($fill-color, $stroke-color, $width) {
+  -moz-text-fill-color: $fill-color;
+  -webkit-text-fill-color: $fill-color;
+  -moz-text-stroke-color: $stroke-color;
+  -webkit-text-stroke-color: $stroke-color;
+  -moz-text-stroke-width: $width;  
+  -webkit-text-stroke-width: $width;
 }
 
 // Base
