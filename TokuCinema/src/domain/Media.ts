@@ -22,7 +22,7 @@ export class Media implements ISearchable{
         // Medium Information
         public Medium: Array<string>,
         public Format: Array<{"Medium": string, "Format": number}>,
-        public Region: string,
+        public Region: Array<{"Medium": string, "Region": string}>,
         public Country: string,
         public MediumCount: Array<{"Medium": string, "Count": number}>,
         public ColorSystem: ColorSystem,
