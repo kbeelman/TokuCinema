@@ -70,6 +70,7 @@
   border-right: 1px solid $primary-background;
   right: 100%;
   transition: .6s;
+  border-bottom: 1px solid $primary-background;
 
   div {
     width: 100%;
@@ -140,7 +141,6 @@
   min-height: 15%;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid $primary-background;
 
   svg {
     @extend %svg-icon;
