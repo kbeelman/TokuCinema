@@ -191,8 +191,24 @@
                     <li>{{this.mediaDetails.Medium}} Count: {{this.mediaDetails.MediumCount[0].Count}}</li>
                   </ng-template>
               </ng-template>
-            
-            <li *ngIf="this.mediaDetails.Region">Region: {{this.mediaDetails.Region}}</li>
+
+            <!-- Region Null Check -->
+            <div *ngIf="this.mediaDetails.doesRegionExist(); then thenBlock_Region_NullCheck"></div>
+              <ng-template #thenBlock_Region_NullCheck>
+                <!-- Do we have more than 1 Region? -->
+                <div *ngIf="this.mediaDetails.Region.length>1; then thenBlock_Region_multiple else elseBlock_Region_multiple"></div>
+                  <ng-template #thenBlock_Region_multiple>
+                    <li>Region:
+                      <ul>
+                        <li *ngFor="let item of this.mediaDetails.Region">{{item.Medium}}: {{item.Region}}</li>
+                      </ul>
+                    </li>
+                  </ng-template>
+                  <ng-template #elseBlock_Region_multiple>
+                    <li>Region: {{this.mediaDetails.Region[0].Region}}</li>
+                  </ng-template>
+              </ng-template>
+
             <li *ngIf="this.mediaDetails.Country">Release Country: {{this.mediaDetails.Country}}</li>
             <li *ngIf="this.mediaDetails.ColorSystem">Color System: {{this.mediaDetails.ColorSystem}}</li>
           </ul>

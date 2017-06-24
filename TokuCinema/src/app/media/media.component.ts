@@ -112,9 +112,13 @@ export class MediaComponent implements OnInit {
         this.mediums.push(element);
       }
     })
-    if (!(this.regions.indexOf(media.Region) >= 0)) {
-      if(!(media.Region == "")) {
-        this.regions.push(media.Region);
+    if(typeof media.Region !== 'undefined') {
+      if(media.Region.length > 0) {
+        media.Region.forEach(element => {
+          if (!(this.regions.indexOf(element.Region) >= 0) && (!(element.Region == ""))) {
+            this.regions.push(element.Region);
+          }
+        });
       }
     }
     media.AudioTracks.forEach(element => {

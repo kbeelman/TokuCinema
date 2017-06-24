@@ -16,7 +16,7 @@ export class MediaDetails {
         // Medium Information
         public Medium: Array<string>,
         public Format: Array<{"Medium": string, "Format": number}>,
-        public Region: string,
+        public Region: Array<{"Medium": string, "Region": string}>,
         public Country: string,
         public MediumCount: Array<{"Medium": string, "Count": number}>,
         public ColorSystem: string,
@@ -108,6 +108,15 @@ export class MediaDetails {
     public doesMediumCountExist(): boolean {
         if(typeof this.MediumCount !== "undefined") {
             if (this.MediumCount.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public doesRegionExist(): boolean {
+        if(typeof this.Region !== "undefined") {
+            if (this.Region.length > 0) {
                 return true;
             }
         }
