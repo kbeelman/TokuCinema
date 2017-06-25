@@ -30,7 +30,8 @@ Monster Movie Review Website
 ## Running the Application for Development
 1. Start Application and Typescript Transpilation  
     - cd into the inner "TokuCinema" folder  
-        - run cmd: `ng serve`  
+        - run cmd: `ng serve`
+        - to run the application using the production database run cmd `ng serve --env=prod`
     
     *You should now be able to hit the site at "localhost:4200"*
     
