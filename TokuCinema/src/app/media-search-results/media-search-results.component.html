@@ -1,6 +1,12 @@
 <div class="medias-results">
-  <app-media-card
-    *ngFor="let media of mediaItems | mediaFilters : this.mediaFilters | mediaTitle : searchTerm"
-    [media]="media">
-  </app-media-card>
+  <div class="movies-results-series" *ngFor="let country of this.countriesToIterate">
+  <h2>{{country}}</h2>
+  <div class="series-cards-wrapper">
+    <ng-container *ngFor="let media of mediaItems | mediaFilters : this.mediaFilters | mediaTitle : searchTerm">
+      <app-media-card
+        *ngIf="country === media.Country"
+        [media]="media">
+      </app-media-card>
+    </ng-container>
+  </div>
 </div>

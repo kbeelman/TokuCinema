@@ -1,16 +1,5 @@
 @import '../../globals.scss';
 
-.movies-results {
-
-  app-movie-card {
-    width: calc(50% - 10px);
-  }
-
-  app-movie-card:nth-child(odd) {
-    margin-right: 20px;
-  }
-}
-
 .movie-card-content {
   div {
     font-size: medium;

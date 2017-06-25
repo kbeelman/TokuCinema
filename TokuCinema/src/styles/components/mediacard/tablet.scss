@@ -3,11 +3,11 @@
 .medias-results {
 
   app-media-card {
-    width: calc(50% - 5px);
+    width: calc(50% - 10px);
   }
 
   app-media-card:nth-child(odd) {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 }
 

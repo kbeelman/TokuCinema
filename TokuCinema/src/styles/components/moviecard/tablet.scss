@@ -3,11 +3,11 @@
 .movies-results {
 
   app-movie-card {
-    width: calc(50% - 5px);
+    width: calc(50% - 10px);
   }
 
   app-movie-card:nth-child(odd) {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 }
 

@@ -16,6 +16,7 @@ export class MediaSearchResultsComponent implements OnChanges {
   @Input() subtitleLanguageFilter: string;
   @Input() countryFilter: string;
   @Input() regionFilter: number;
+  @Input() countriesToIterate: Array<string>;
   mediaFilters: MediaFilterPakage;
 
   constructor() { 

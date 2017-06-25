@@ -16,6 +16,7 @@ export class MoviesSearchResultsComponent implements OnChanges {
   @Input() series: string;
   @Input() era: string;
   @Input() productionCompany: string;
+  @Input() seriesToIterate: Array<string>;
   movieFiltersPackage: MovieFilterPackage;
 
   constructor() { }

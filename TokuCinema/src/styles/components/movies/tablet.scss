@@ -16,4 +16,20 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+
+}
+
+.movies-results-series {
+  width: 100%;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+}
+
+.series-cards-wrapper {
+  display: flex;
+  flex-flow: wrap;
+
 }
