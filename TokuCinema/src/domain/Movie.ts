@@ -8,7 +8,7 @@ export class Movie implements ISearchable {
 
     constructor(
         public OfficialTitle: string,
-        public AlternateTitles: Array<string>,
+        public AlternateTitles: Array<{"TitleType": string, "TitleValue": string}>,
         public OriginalPoster: string,
         public ReleaseYear: number,
         public ProductionCompany: string,
@@ -57,11 +57,11 @@ export class Movie implements ISearchable {
         // alternate titles are exact matches as well
         if (this.AlternateTitles && this.AlternateTitles.length) {
             this.AlternateTitles.forEach(element => {
-                keywords.push(new Keyword(element, true, false, false));
+                keywords.push(new Keyword(element.TitleValue, true, false, false));
             });
 
             this.AlternateTitles.forEach(element => {
-                let alternateTitleWords = element.split(' ');
+                let alternateTitleWords = element.TitleValue.split(' ');
                 if (alternateTitleWords.length > 1) {
                     alternateTitleWords.forEach(element => {
                         keywords.push(new Keyword(element, false, true, false));
