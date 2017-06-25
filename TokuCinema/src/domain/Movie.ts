@@ -86,4 +86,13 @@ export class Movie implements ISearchable {
     getIconName(): string {
         return 'movies';
     }
+
+    public doesAtlernateTitlesExist(): boolean {
+        if(typeof this.AlternateTitles !== "undefined") {
+            if (this.AlternateTitles.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
