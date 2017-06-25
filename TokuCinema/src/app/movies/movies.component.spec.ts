@@ -5,7 +5,7 @@ import { MoviesSearchResultsComponent } from './../movies-search-results/movies-
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { firebaseConfig } from '../app.component.spec';
+import { environment } from '../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MoviesComponent } from './movies.component';
@@ -25,7 +25,7 @@ describe('MoviesComponent', () => {
       imports: [
         FormsModule,
         RouterTestingModule,
-        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireDatabaseModule 
       ]
     })

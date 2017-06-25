@@ -27,14 +27,8 @@ import { SearchResultTabComponent } from './search-result-tab/search-result-tab.
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
-export const firebaseConfig = {
-    apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
-    authDomain: "tokucinema.firebaseapp.com",
-    databaseURL: "https://tokucinema.firebaseio.com",
-    projectId: "tokucinema",
-    storageBucket: "tokucinema.appspot.com",
-    messagingSenderId: "835457714346"
-};
+// Firebase config
+import { environment } from '../environments/environment';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -68,7 +62,7 @@ describe('AppComponent', () => {
       imports: [ 
         FormsModule,
         RouterTestingModule,
-        AngularFireModule.initializeApp(firebaseConfig),
+        AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireDatabaseModule, 
       ]
     }).compileComponents();

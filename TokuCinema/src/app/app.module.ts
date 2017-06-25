@@ -35,14 +35,8 @@ import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
 
-export const firebaseConfig = {
-    apiKey: "AIzaSyDlWyJc3dHgXcyQ2lsSDfMYWZ4SADS_HIE",
-    authDomain: "tokucinema.firebaseapp.com",
-    databaseURL: "https://tokucinema.firebaseio.com",
-    projectId: "tokucinema",
-    storageBucket: "tokucinema.appspot.com",
-    messagingSenderId: "835457714346"
-};
+// Firebase config
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -74,7 +68,7 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
     RouterModule.forRoot([
       { path: '',

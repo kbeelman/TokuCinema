@@ -4,5 +4,14 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebaseConfig: {
+      apiKey: "AIzaSyAqt9L2SJRNlcjI4RLfm3awmW4y7KnjWO8",
+      authDomain: "tokucinema-dev.firebaseapp.com",
+      databaseURL: "https://tokucinema-dev.firebaseio.com",
+      projectId: "tokucinema-dev",
+      storageBucket: "tokucinema-dev.appspot.com",
+      messagingSenderId: "490925242987"
+  }
 };

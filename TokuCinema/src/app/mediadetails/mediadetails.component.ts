@@ -34,7 +34,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
       private location: Location,
     ) { 
       this.path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
-    
+
     router.events.takeWhile(() => this.alive)
     .subscribe((val) => {
 

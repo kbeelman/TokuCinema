@@ -15,15 +15,17 @@ export class StringCleaner {
 
   // Clean if is part of a route - routing
   private cleanRouteName(routeName: string): string {
-    let cleanName = routeName.split('/')[2]
-      .replace(/[^A-Za-z]/, "-")
-      .split(' ');
+    if (routeName.split('/')[2]) {
+      let cleanName = routeName.split('/')[2]
+        .replace(/[^A-Za-z]/, "-")
+        .split(' ');
 
-    if(cleanName.length > 1){
-      return this.replaceSpaces(cleanName[0] + '-' + cleanName[cleanName.length-1]);
-    }
-    else {
-      return this.replaceSpaces(cleanName[0]);
+      if(cleanName.length > 1){
+        return this.replaceSpaces(cleanName[0] + '-' + cleanName[cleanName.length-1]);
+      }
+      else {
+        return this.replaceSpaces(cleanName[0]);
+      }
     }
   }
 
