@@ -7,6 +7,14 @@ $mobile-gutter: 40px;
   margin-bottom: $mobile-gutter;
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
+
+  a {
+    text-decoration: none;
+  
+    &:link, &:visited, &:hover, &:active {
+      border-bottom: 1px solid #67c9ff;
+    }
+  }
 }
 
 .media-details-root h4 {
@@ -60,14 +68,6 @@ ul ul {
 li {
   text-indent: -1em; 
   padding-left: 1em;
-}
-
-.media-information a {
-  text-decoration: none;
-  
-  &:link, &:visited, &:hover, &:active {
-    color: #caebf2;
-  }
 }
 
 .right-information {
