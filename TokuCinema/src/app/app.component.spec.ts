@@ -78,4 +78,8 @@ describe('AppComponent', () => {
     expect(component).toBeTruthy();
   }));
 
+  it('should break the build', async(() => {
+    expect(true).toEqual(false);
+  }));
+
 });
