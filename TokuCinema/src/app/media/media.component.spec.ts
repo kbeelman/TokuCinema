@@ -41,4 +41,28 @@ describe('MediaComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should clear filters', () => {
+    component.countryFilter = 'test';
+    component.mediumFilter = 'test';
+    component.regionFilter = 'test';
+    component.spokenLanguageFilter = 'test';
+    component.subtitleLanguageFilter = 'test';
+
+    component.clearFilters();
+
+    expect(component.countryFilter).toEqual('');
+    expect(component.mediumFilter).toEqual('');
+    expect(component.regionFilter).toEqual('');
+    expect(component.spokenLanguageFilter).toEqual('');
+    expect(component.subtitleLanguageFilter).toEqual('');
+  });
+
+  it('should toggle show filters', () => {
+    component.showFilters = 'Show filters +';
+    component.toggleShowFilters();
+    expect(component.showFilters).toEqual('Hide filters -');
+    component.toggleShowFilters();
+    expect(component.showFilters).toEqual('Show filters +');
+  });
 });

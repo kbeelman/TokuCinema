@@ -41,4 +41,30 @@ describe('MoviesComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should toggle show filters', () => {
+    component.showFilters = 'Show filters +';
+    component.toggleShowFilters();
+    expect(component.showFilters).toEqual('Hide filters -');
+    component.toggleShowFilters();
+    expect(component.showFilters).toEqual('Show filters +');
+  });
+
+  it('should clear filters', () => {
+    component.directorFilter = 'test';
+    component.distributorFilter = 'test';
+    component.eraFilter = 'test';
+    component.productionCompanyFilter = 'test';
+    component.seriesFilter = 'test';
+    component.spokenLanguageFilter = 'test';
+
+    component.clearFilters();
+
+    expect(component.directorFilter).toEqual('');
+    expect(component.distributorFilter).toEqual('');
+    expect(component.eraFilter).toEqual('');
+    expect(component.productionCompanyFilter).toEqual('');
+    expect(component.seriesFilter).toEqual('');
+    expect(component.spokenLanguageFilter).toEqual('');
+  });
 });
