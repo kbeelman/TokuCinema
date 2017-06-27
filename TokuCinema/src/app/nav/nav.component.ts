@@ -50,14 +50,14 @@ export class NavComponent implements OnInit {
     });
   }
 
-  toggleNavMenu(): void {
+  public toggleNavMenu(): void {
     this.navMenuOpen = !this.navMenuOpen;
     if(this.searchOpen) {
       this.searchOpen = !this.searchOpen;
     }
   }
 
-  toggleSearch(): void {
+  public toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
     if (this.searchOpen) {
       this._ngZone.runOutsideAngular(() => { 
@@ -69,7 +69,7 @@ export class NavComponent implements OnInit {
     }
   }
 
-  closeNav(): void {
+  public closeNav(): void {
     this.navMenuOpen = false;
     this.searchOpen = false;
   }
