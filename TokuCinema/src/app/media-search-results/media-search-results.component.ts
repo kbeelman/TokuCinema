@@ -24,9 +24,6 @@ export class MediaSearchResultsComponent implements OnChanges {
 
   ngOnChanges() {
     this.mediaFilters = new MediaFilterPakage(this.mediumFilter, this.spokenLanguageFilter, this.subtitleLanguageFilter, this.countryFilter, this.regionFilter);
-    console.log("Filtering by: ")
-    console.log(this.searchTerm);
-    console.log(this.mediaFilters);
   }
 
 }

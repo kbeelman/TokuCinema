@@ -37,7 +37,6 @@ export class MoviesComponent implements OnInit {
         let domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
-        console.log(domainObject);
       }
     });
   }

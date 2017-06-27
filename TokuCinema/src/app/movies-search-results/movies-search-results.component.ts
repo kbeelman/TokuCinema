@@ -28,10 +28,6 @@ export class MoviesSearchResultsComponent implements OnChanges {
       this.series,
       this.era,
       this.productionCompany);
-
-    console.log('Filtering results by: ');
-    console.log(this.searchTerm);
-    console.log(this.movieFiltersPackage);
   }
 
 }

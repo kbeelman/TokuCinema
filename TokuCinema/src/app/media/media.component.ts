@@ -55,7 +55,6 @@ export class MediaComponent implements OnInit {
 
         this.mediaItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
-        console.log(domainObject);
       }
     });
     this.sortFilters();
