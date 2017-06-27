@@ -66,16 +66,17 @@ Monster Movie Review Website
 }
 ```
 
-## Deploying to CI / Production
+## Deploying to Production
 1. Build the project         
     - Run the below script to build the project:
         - run cmd: `npm run build`
 
-2. Commit/Push the changes
+2. Merge master with development
+    - Checkout master branch
+        - run cmd: `git merge development`
+
+3. Commit/Push the changes
     - Azure will automatically pull the changes and redploy the application. 
-        - CI location:  [TokuCinema CI](http://tokuCinema-ci.azurewebsites.net/)
         - Prod location:  [TokuCinema Prod](http://tokuCinema.azurewebsites.net/)  
 
-*Currently the CI pulls from the development branch and Prod pulls from master*  
-
-**(Merging develop to master and pushing will deploy to Prod)**
+**(All commits to development branch trigger a CI build [checked in five minute intervals])**
