@@ -40,4 +40,24 @@ describe('NavComponent', () => {
   it('should be created', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should toggle nav menu', () => {
+    component.navMenuOpen = true;
+    component.toggleNavMenu();
+    expect(component.navMenuOpen).toEqual(false);
+  });
+
+  it('should toggle search', () => {
+    component.searchOpen = true;
+    component.toggleSearch();
+    expect(component.searchOpen).toEqual(false);
+  });
+
+  it('should close nav', () => {
+    component.navMenuOpen = true;
+    component.searchOpen = true;
+    component.closeNav();
+    expect(component.navMenuOpen).toEqual(false);
+    expect(component.searchOpen).toEqual(false);
+  });
 });
