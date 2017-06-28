@@ -5,10 +5,7 @@ import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable }
 
 @Injectable()
 export class FirebaseService {
-    constructor(
-        @Inject(Http) private http: Http,
-        private db: AngularFireDatabase
-    ) {}
+    constructor(private db: AngularFireDatabase) {}
 
     getMovies(): FirebaseListObservable<any> {
       let item: FirebaseListObservable<any>;
