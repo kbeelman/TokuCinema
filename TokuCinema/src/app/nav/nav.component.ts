@@ -1,13 +1,15 @@
 import { DomainBuilder, DataType } from './../../domain/Builder';
-import { Component, OnInit, Output, EventEmitter, NgZone } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angular/core';
 import { Media } from '../../domain/Media';
 import { Movie } from '../../domain/Movie';
 import { ISearchable } from '../../domain/ISearchable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-nav',
-  templateUrl: './nav.component.html'
+  templateUrl: './nav.component.html',
+  providers: [FirebaseService]
 })
 export class NavComponent implements OnInit {
   navMenuOpen: boolean = false;
@@ -25,9 +27,12 @@ export class NavComponent implements OnInit {
   moviesData: FirebaseListObservable<any[]>;
   mediaData: FirebaseListObservable<any[]>;
 
-  constructor(db: AngularFireDatabase, private _ngZone: NgZone) {
-    this.moviesData = db.list('/movies');
-    this.mediaData = db.list('/media');
+  constructor(
+    @Inject(FirebaseService) fdb: FirebaseService,
+    private _ngZone: NgZone
+  ) {
+    this.moviesData = fdb.getMovies();
+    this.mediaData = fdb.getMedia();
   }
 
   ngOnInit() {
@@ -60,7 +65,7 @@ export class NavComponent implements OnInit {
   public toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
     if (this.searchOpen) {
-      this._ngZone.runOutsideAngular(() => { 
+      this._ngZone.runOutsideAngular(() => {
         setTimeout(() => document.getElementById('search-input').focus());
       });
     }
