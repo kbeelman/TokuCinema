@@ -8,51 +8,30 @@
       <img [src]="this.movie.OriginalPoster">
     </div>
     <div class="movie-information">
-      <div class="movie-left-information">
-        <div>
-          <h4>Movie Information:</h4>
-          <ul>
-            <li *ngIf="this.movie.ReleaseYear">Release Date: {{this.movie.ReleaseYear}}</li>
-            <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
-            <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
-            
-            <!-- Atlernate Titles Null Check -->
-            <div *ngIf="this.movie.doesAtlernateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
-              <ng-template #thenBlock_AtlernateTitles_NullCheck>
-                <!-- Do we have more than 1 Atlernate Titles? -->
-                <div *ngIf="this.movie.AlternateTitles.length>1; then thenBlock_AtlernateTitles_multiple else elseBlock_AtlernateTitles_multiple"></div>
-                  <ng-template #thenBlock_AtlernateTitles_multiple>
-                    <li>Atlernate Titles:
-                      <ul>
-                        <li *ngFor="let item of this.movie.AlternateTitles">{{item.TitleType}}: {{item.TitleValue}}</li>
-                      </ul>
-                    </li>
-                  </ng-template>
-                  <ng-template #elseBlock_AtlernateTitles_multiple>
-                    <li>Atlernate Title: {{this.movie.AtlernateTitles[0].TitleValue}}</li>
-                  </ng-template>
-              </ng-template>
-
-          </ul>
-        </div>
-        <div>
-          <h4><!-- --></h4>
-          <ul>
-            
-          </ul>
-        </div>
-      </div>
       <div>
-        <div>
-          <h4><!-- --></h4>
+        <h4>Movie Information:</h4>
+        <ul>
+          <li *ngIf="this.movie.ReleaseYear">Release Date: {{this.movie.ReleaseYear}}</li>
+          <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
+          <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
           
-        </div>
-        <div>
-          <h4><!-- --></h4>
-          <ul>
-            
-          </ul>
-        </div>
+          <!-- Atlernate Titles Null Check -->
+          <div *ngIf="this.movie.doesAtlernateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
+            <ng-template #thenBlock_AtlernateTitles_NullCheck>
+              <!-- Do we have more than 1 Atlernate Titles? -->
+              <div *ngIf="this.movie.AlternateTitles.length>1; then thenBlock_AtlernateTitles_multiple else elseBlock_AtlernateTitles_multiple"></div>
+                <ng-template #thenBlock_AtlernateTitles_multiple>
+                  <li>Atlernate Titles:
+                    <ul>
+                      <li *ngFor="let item of this.movie.AlternateTitles">{{item.TitleType}}: {{item.TitleValue}}</li>
+                    </ul>
+                  </li>
+                </ng-template>
+                <ng-template #elseBlock_AtlernateTitles_multiple>
+                  <li>Atlernate Title: {{this.movie.AtlernateTitles[0].TitleValue}}</li>
+                </ng-template>
+            </ng-template>
+        </ul>
       </div>
     </div>
   </div>

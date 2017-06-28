@@ -6,12 +6,15 @@
 }
 
 .movie-information {
-  position: absolute;
-  right: $desktop-gutter;
-  top: $below-header + 30px;
-  display: flex;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.movie-information div {
+  display: inline-block;
 }
 
 .movie-poster {
-  display: block;
+  display: inline-block;
+  margin-right: 50px;
 }

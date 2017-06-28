@@ -7,12 +7,33 @@ $mobile-gutter: 40px;
   margin-bottom: $mobile-gutter;
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
+
+  a {
+    text-decoration: none;
+  
+    &:link, &:visited, &:hover, &:active {
+      border-bottom: 1px solid #67c9ff;
+    }
+  }
+}
+
+.movie-details-root h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.movie-details-title h3 {
+  margin-left: 15px;
 }
 
 .movie-information {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+.movie-information {
+  justify-content: center;
 }
 
 .movie-poster {
@@ -22,8 +43,10 @@ $mobile-gutter: 40px;
 }
 
 .movie-poster img {
-  width: 200px;
-  height: 280px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 200px;
+  height: 100%;
   margin-bottom: 15px;
 }
 
