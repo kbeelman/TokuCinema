@@ -1,11 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { Movie } from '../../domain/Movie';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from './../../domain/Builder';
+import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-movies',
-  templateUrl: './movies.component.html'
+  templateUrl: './movies.component.html',
+  providers: [FirebaseService]
 })
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
@@ -26,8 +28,8 @@ export class MoviesComponent implements OnInit {
   eras = new Array<string>();
   productionCompanies = new Array<string>();
 
-  constructor(db: AngularFireDatabase) { 
-    this.moviesData = db.list('/movies');
+  constructor(@Inject(FirebaseService) fdb: FirebaseService) {
+    this.moviesData = fdb.getMovies();
   }
 
   ngOnInit() {

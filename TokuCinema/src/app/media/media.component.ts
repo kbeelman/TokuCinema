@@ -1,14 +1,16 @@
 import { element } from 'protractor';
 import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { Media } from '../../domain/Media';
 import { Movie } from '../../domain/Movie';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from './../../domain/Builder';
+import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-media',
-  templateUrl: './media.component.html'
+  templateUrl: './media.component.html',
+  providers: [FirebaseService]
 })
 export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();
@@ -29,9 +31,9 @@ export class MediaComponent implements OnInit {
   countries = new Array<string>();
   regions = new Array<string>();
 
-  constructor(db: AngularFireDatabase) { 
-    this.movieData = db.list('/movies');
-    this.mediaData = db.list('/media');
+  constructor(@Inject(FirebaseService) fdb: FirebaseService) {
+    this.movieData = fdb.getMovies();
+    this.mediaData = fdb.getMedia();
   }
 
   ngOnInit() {
@@ -130,7 +132,7 @@ export class MediaComponent implements OnInit {
         this.subtitleLanguages.push(element);
       }
     });
-    
+
   }
 
   private sortFilters(): void {
