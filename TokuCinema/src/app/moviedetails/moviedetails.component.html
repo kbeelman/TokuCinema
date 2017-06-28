@@ -34,5 +34,15 @@
         </ul>
       </div>
     </div>
+    <div class="movie-cast-crew" *ngIf="this.movie.doesCastOrCrewExist()">
+      <div class="movie-cast-crew-left" *ngIf="this.movie.doesCastExist()">
+        <h2>Cast</h2>
+        <div *ngFor="let item of this.movie.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+      </div>
+      <div class="movie-cast-crew-right" *ngIf="this.movie.doesCrewExist()">
+        <h2>Crew</h2>
+        <div *ngFor="let item of this.movie.Crew"><strong>{{item.PositionTitle}}:</strong> {{item.Name}}</div>
+      </div>
+    </div>
   </div>
 </div>

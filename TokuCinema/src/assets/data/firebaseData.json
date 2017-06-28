@@ -13,7 +13,9 @@
             "Series": "Godzilla",
             "Era": "Showa",
             "Runtime": "96",
-            "Path": "Godzilla-1954"
+            "Path": "Godzilla-1954",
+            "Crew": [{"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"}],
+            "Cast": [{"ActorName":"Akira Takarada","RoleName":"Hideto Ogata"}]
         },
         {
             "OfficialTitle": "Mothra vs. Godzilla",
@@ -27,7 +29,9 @@
             "Director": "Ishiro Honda",
             "Series": "Godzilla",
             "Era": "Showa" ,
-            "Path": "Godzilla-Mothra-1964"   
+            "Path": "Godzilla-Mothra-1964",
+            "Crew": [],
+            "Cast": [] 
         },
         {
             "OfficialTitle": "Ghidorah, the Three-Headed Monster",
@@ -41,7 +45,9 @@
             "Director": "Ishiro Honda",
             "Series": "Godzilla",
             "Era": "Showa" ,
-            "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964"   
+            "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964",
+            "Crew": [{"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"}],
+            "Cast": []
         },
         {
             "OfficialTitle": "Destroy All Monsters",

@@ -44,6 +44,8 @@ export class DomainBuilder {
             movieData['Series'],
             movieData['Era'],
             movieData['Runtime'],
+            movieData['Crew'],
+            movieData['Cast'],
             movieData['Path']);
 
         return movie;

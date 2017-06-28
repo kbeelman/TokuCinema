@@ -19,6 +19,8 @@ export class Movie implements ISearchable {
         public Series: Series,
         public Era: Era,
         public Runtime: number,
+        public Crew: Array<{"PositionTitle": string, "Name": string}>,
+        public Cast: Array<{"ActorName": string, "RoleName": string}>,
         public Path?: string
     ) {
         // Assign default route if none given, clean either way
@@ -94,5 +96,32 @@ export class Movie implements ISearchable {
             }
         }
         return false;
+    }
+
+    public doesCastExist(): boolean {
+        if(typeof this.Cast !== "undefined") {
+            if (this.Cast.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public doesCrewExist(): boolean {
+        if(typeof this.Crew !== "undefined") {
+            if (this.Crew.length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public doesCastOrCrewExist(): boolean {
+        if(this.doesCastExist || this.doesCrewExist()) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
