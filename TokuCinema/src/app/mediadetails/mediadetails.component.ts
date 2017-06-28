@@ -5,6 +5,7 @@ import { ISubscription } from "rxjs/Subscription";
 import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { FirebaseService } from '../services/firebase.service';
 
 import { Movie } from '../../domain/Movie';
 import { Media } from '../../domain/Media';
@@ -15,7 +16,8 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
 
 @Component({
   selector: 'app-mediadetails',
-  templateUrl: './mediadetails.component.html'
+  templateUrl: './mediadetails.component.html',
+  providers: [FirebaseService]
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
     private alive: boolean = true;
@@ -32,7 +34,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
  constructor(db: AngularFireDatabase,
       private router: Router,
       private location: Location,
-    ) { 
+    ) {
       this.path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
 
     router.events.takeWhile(() => this.alive)
@@ -58,7 +60,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
             let domainObject = domainBuilder.getDomainObject();
             this.media = domainObject;
             this.mediaDetails = this.media.GetMediaDetails();
-            
+
             this.mediaDetails.MovieDetails.forEach(index => {
               let movieData = db.list('/movies',
                 {
@@ -80,7 +82,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
                 if(!alreadyContainsMovie){
                   this.movieDetails.push(movie);
                 }
-                
+
               })
             })
 

@@ -2,24 +2,34 @@ import { Injectable, Inject } from '@angular/core';
 import { Http, Response } from "@angular/http";
 import { Observable } from "rxjs/Rx";
 import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
+import { StringCleaner, StringType } from '../../domain/StringCleaner';
 
 @Injectable()
 export class FirebaseService {
     constructor(private db: AngularFireDatabase) {}
 
-    getMovies(): FirebaseListObservable<any> {
+    getBranch(branchName: string): FirebaseListObservable<any> {
       let item: FirebaseListObservable<any>;
 
-      item = this.db.list('/movies');
+      item = this.db.list('/' + branchName);
 
       return item;
     }
-    getMedia(): FirebaseListObservable<any> {
+
+    getMovieDetails(route: string): FirebaseListObservable<any> {
       let item: FirebaseListObservable<any>;
 
       item = this.db.list('/media');
 
       return item;
+    }
+
+    getPathFromRoute(route: string): string {
+      let path = '';
+
+      path = new StringCleaner(route, StringType.WithRoute).getCleanString();
+
+      return path;
     }
 
     /**

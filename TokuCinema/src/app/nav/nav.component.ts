@@ -31,8 +31,8 @@ export class NavComponent implements OnInit {
     @Inject(FirebaseService) fdb: FirebaseService,
     private _ngZone: NgZone
   ) {
-    this.moviesData = fdb.getMovies();
-    this.mediaData = fdb.getMedia();
+    this.moviesData = fdb.getBranch('movies');
+    this.mediaData = fdb.getBranch('media');
   }
 
   ngOnInit() {
