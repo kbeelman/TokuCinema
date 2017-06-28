@@ -29,89 +29,84 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
 
     dataLoaded: boolean = false;
 
- constructor(private db: AngularFireDatabase,
+ constructor(db: AngularFireDatabase,
       private router: Router,
       private location: Location,
-      private route: ActivatedRoute
-    ) {
+    ) { 
+      this.path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
+
+    router.events.takeWhile(() => this.alive)
+    .subscribe((val) => {
+
+      if(this.router.url.split('/')[1] === 'media' && this.router.url.split('/')[2]){
+        this.mediaData = db.list('/media',
+        {
+          query: {
+            orderByChild: 'Path',
+            equalTo: this.path
+          }
+        });
+
+        this.mediaData.forEach(element => {
+
+          if (!element[0]) {
+            // redirect to 404
+            this.router.navigate(['404']);
+          } else {
+
+            let domainBuilder = new DomainBuilder(element[0], DataType.Media);
+            let domainObject = domainBuilder.getDomainObject();
+            this.media = domainObject;
+            this.mediaDetails = this.media.GetMediaDetails();
+            
+            this.mediaDetails.MovieDetails.forEach(index => {
+              let movieData = db.list('/movies',
+                {
+                  query: {
+                    orderByChild: 'Path',
+                    equalTo: index
+                  }
+              });
+              movieData.forEach(movieElement => {
+                let domainBuilder = new DomainBuilder(movieElement[0], DataType.Movie);
+                let domainObject = domainBuilder.getDomainObject();
+                let movie = domainObject;
+                let alreadyContainsMovie: boolean = false;
+                this.movieDetails.forEach(existingMovies => {
+                  if(existingMovies.Path === movie.Path) {
+                    alreadyContainsMovie = true;
+                  }
+                })
+                if(!alreadyContainsMovie){
+                  this.movieDetails.push(movie);
+                }
+                
+              })
+            })
+
+            // Get the review object
+            let reviewData = db.list('/mediaReviews',
+              {
+                query: {
+                    orderByChild: 'Path',
+                    equalTo: this.media.Path
+                  }
+            });
+
+            reviewData.forEach(review => {
+              if(review.length > 0) {
+                let domainBuilder = new DomainBuilder(review[0], DataType.MediaReview);
+                let domainObject = domainBuilder.getDomainObject();
+                this.mediaReview = domainObject;
+              }
+            })
+          }
+        })
+      }
+    });
   }
 
   ngOnInit() {
-    this.route.params.subscribe(param => {
-      let id = param["id"];
-
-      this.path = new StringCleaner(this.router.url, StringType.WithRoute).getCleanString();
-
-      this.router.events.takeWhile(() => this.alive)
-      .subscribe((val) => {
-
-        if(this.router.url.split('/')[1] === 'media' && this.router.url.split('/')[2]){
-          this.mediaData = this.db.list('/media',
-          {
-            query: {
-              orderByChild: 'Path',
-              equalTo: this.path
-            }
-          });
-
-          this.mediaData.forEach(element => {
-
-            if (!element[0]) {
-              // redirect to 404
-              this.router.navigate(['404']);
-            } else {
-
-              let domainBuilder = new DomainBuilder(element[0], DataType.Media);
-              let domainObject = domainBuilder.getDomainObject();
-              this.media = domainObject;
-              this.mediaDetails = this.media.GetMediaDetails();
-              
-              this.mediaDetails.MovieDetails.forEach(index => {
-                let movieData = this.db.list('/movies',
-                  {
-                    query: {
-                      orderByChild: 'Path',
-                      equalTo: index
-                    }
-                });
-                movieData.forEach(movieElement => {
-                  let domainBuilder = new DomainBuilder(movieElement[0], DataType.Movie);
-                  let domainObject = domainBuilder.getDomainObject();
-                  let movie = domainObject;
-                  let alreadyContainsMovie: boolean = false;
-                  this.movieDetails.forEach(existingMovies => {
-                    if(existingMovies.Path === movie.Path) {
-                      alreadyContainsMovie = true;
-                    }
-                  })
-                  if(!alreadyContainsMovie){
-                    this.movieDetails.push(movie);
-                  }
-                  
-                })
-              })
-
-              // Get the review object
-              let reviewData = this.db.list('/mediaReviews',
-                {
-                  query: {
-                      orderByChild: 'Path',
-                      equalTo: this.media.Path
-                    }
-              });
-
-              reviewData.forEach(review => {
-                if(review.length > 0) {
-                  let domainBuilder = new DomainBuilder(review[0], DataType.MediaReview);
-                  let domainObject = domainBuilder.getDomainObject();
-                  this.mediaReview = domainObject;
-                }
-              })
-            }
-          })
-        }
-      });
-    })
   }
 
   ngOnDestroy() {
