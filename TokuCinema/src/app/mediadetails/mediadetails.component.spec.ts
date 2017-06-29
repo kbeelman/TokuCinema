@@ -35,7 +35,7 @@ describe('MediadetailsComponent', () => {
             "OfficialTitle": "Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Gojira"},{"TitleType":"Literal Translation","TitleValue":"Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla, King of the Monsters!"}],
             "OriginalPoster": "https://vignette4.wikia.nocookie.net/deathbattle/images/9/95/Movie-poster-shop-godzilla_-king-of-the-monsters-_1954_.jpg/revision/latest?cb=20161028143059",
-            "ReleaseYear": "1954",
+            "ReleaseDate": "1954-11-03",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese", "English"],
