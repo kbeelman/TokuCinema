@@ -29,7 +29,7 @@ export class MoviesComponent implements OnInit {
   productionCompanies = new Array<string>();
 
   constructor(@Inject(FirebaseService) fdb: FirebaseService) {
-    this.moviesData = fdb.getMovies();
+    this.moviesData = fdb.getBranch('movies');
   }
 
   ngOnInit() {

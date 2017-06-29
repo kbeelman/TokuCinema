@@ -32,8 +32,8 @@ export class MediaComponent implements OnInit {
   regions = new Array<string>();
 
   constructor(@Inject(FirebaseService) fdb: FirebaseService) {
-    this.movieData = fdb.getMovies();
-    this.mediaData = fdb.getMedia();
+    this.movieData = fdb.getBranch('movies');
+    this.mediaData = fdb.getBranch('media');
   }
 
   ngOnInit() {
