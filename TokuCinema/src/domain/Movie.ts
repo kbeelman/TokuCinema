@@ -5,12 +5,14 @@ import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
 
 export class Movie implements ISearchable {
+    public ReleaseYear: number;
+    public ReleaseDate: Date = new Date();
 
     constructor(
         public OfficialTitle: string,
         public AlternateTitles: Array<{"TitleType": string, "TitleValue": string}>,
         public OriginalPoster: string,
-        public ReleaseYear: number,
+        public ReleaseDateString: string,
         public ProductionCompany: string,
         public CountryOfOrigin: Country,
         public Languages: Array<Language>,
@@ -21,6 +23,8 @@ export class Movie implements ISearchable {
         public Runtime: number,
         public Crew: Array<{"PositionTitle": string, "Name": string}>,
         public Cast: Array<{"ActorName": string, "RoleName": string}>,
+        public MediaPath: Array<string>,
+        public AlternateVersionsPath: Array<string>,
         public Path?: string
     ) {
         // Assign default route if none given, clean either way
@@ -29,6 +33,15 @@ export class Movie implements ISearchable {
         } else {
             this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
         }
+        this.setReleaseDate();
+        this.ReleaseYear = this.ReleaseDate.getFullYear();
+    }
+
+    public setReleaseDate(): void {
+        this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
+        this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2)));
+        this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
+        this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
     }
 
     public getDisplayName(): string {

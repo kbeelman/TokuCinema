@@ -2,7 +2,7 @@
   <div class="movie-card-content">
     <div>
       <h3>{{movie.OfficialTitle}}</h3>
-      <p><strong>Release Date:</strong> {{movie.ReleaseYear}}</p>
+      <p><strong>Release Date:</strong> {{movie.ReleaseDate | date:'MMMM d, yyyy'}}</p>
       <p><strong>Production Company:</strong> {{movie.ProductionCompany}}</p>
       <p><strong>Director:</strong> {{movie.Director}}</p>
     </div>

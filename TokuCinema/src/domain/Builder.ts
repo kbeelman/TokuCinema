@@ -35,7 +35,7 @@ export class DomainBuilder {
             movieData['OfficialTitle'], 
             movieData['AlternateTitles'],
             movieData['OriginalPoster'],
-            movieData['ReleaseYear'],
+            movieData['ReleaseDate'],
             movieData['ProductionCompany'],
             movieData['CountryOfOrigin'],
             movieData['Languages'],
@@ -46,6 +46,8 @@ export class DomainBuilder {
             movieData['Runtime'],
             movieData['Crew'],
             movieData['Cast'],
+            movieData['MediaPath'],
+            movieData['AlternateVersionsPath'],
             movieData['Path']);
 
         return movie;

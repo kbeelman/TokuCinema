@@ -11,7 +11,7 @@
       <div>
         <h4>Movie Information:</h4>
         <ul>
-          <li *ngIf="this.movie.ReleaseYear">Release Date: {{this.movie.ReleaseYear}}</li>
+          <li *ngIf="this.movie.ReleaseDate">Release Date: {{this.movie.ReleaseDate | date:'MMMM d, yyyy'}}</li>
           <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
           
@@ -34,15 +34,15 @@
         </ul>
       </div>
     </div>
-    <div class="movie-cast-crew" *ngIf="this.movie.doesCastOrCrewExist()">
-      <div class="movie-cast-crew-left" *ngIf="this.movie.doesCastExist()">
-        <h2>Cast</h2>
-        <div *ngFor="let item of this.movie.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
-      </div>
-      <div class="movie-cast-crew-right" *ngIf="this.movie.doesCrewExist()">
-        <h2>Crew</h2>
-        <div *ngFor="let item of this.movie.Crew"><strong>{{item.PositionTitle}}:</strong> {{item.Name}}</div>
-      </div>
+  </div>
+  <div class="movie-cast-crew" *ngIf="this.movie.doesCastOrCrewExist()">
+    <div class="movie-cast-crew-left" *ngIf="this.movie.doesCastExist()">
+      <h2>Cast</h2>
+      <div *ngFor="let item of this.movie.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+    </div>
+    <div class="movie-cast-crew-right" *ngIf="this.movie.doesCrewExist()">
+      <h2>Crew</h2>
+      <div *ngFor="let item of this.movie.Crew"><strong>{{item.PositionTitle}}:</strong> {{item.Name}}</div>
     </div>
   </div>
 </div>
