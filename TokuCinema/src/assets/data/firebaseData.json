@@ -30,8 +30,25 @@
             "Series": "Godzilla",
             "Era": "Showa" ,
             "Path": "Godzilla-Mothra-1964",
-            "Crew": [],
-            "Cast": [] 
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Writer","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Cinematographer","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Takarada","RoleName":"Ichiro Sakai"},
+                {"ActorName":"Yuriko Hoshi","RoleName":"Junko Nakanishi"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Professor Shunsuke Miura"},
+                {"ActorName":"Yu Fujiki","RoleName":"Jiro Nakamura"},
+                {"ActorName":"The Peanuts - Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
+                {"ActorName":"Kenji Sahara","RoleName":"Jiro Torahata"},
+                {"ActorName":"Jun Tazaki","RoleName":"Murata"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Kumayama"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"}] 
         },
         {
             "OfficialTitle": "Ghidorah, the Three-Headed Monster",
