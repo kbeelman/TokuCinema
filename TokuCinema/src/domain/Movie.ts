@@ -7,6 +7,7 @@ import { Keyword } from './Keyword';
 export class Movie implements ISearchable {
     public ReleaseYear: number;
     public ReleaseDate: Date = new Date();
+    public CircaRelease: string;
 
     constructor(
         public OfficialTitle: string,
@@ -34,14 +35,24 @@ export class Movie implements ISearchable {
             this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
         }
         this.setReleaseDate();
-        this.ReleaseYear = this.ReleaseDate.getFullYear();
+        
     }
 
     public setReleaseDate(): void {
-        this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
-        this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2)));
-        this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
-        this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
+        if(isNaN(Number(this.ReleaseDateString.substr(0,4)))) {
+            this.ReleaseDate = null;
+            this.CircaRelease = this.ReleaseDateString;
+            this.ReleaseYear = Number(this.ReleaseDateString.substr(6,4));
+        }
+        else {
+            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
+            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2)));
+            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
+            this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
+
+            this.ReleaseYear = this.ReleaseDate.getFullYear();
+        }
+        
     }
 
     public getDisplayName(): string {

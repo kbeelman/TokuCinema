@@ -75,10 +75,10 @@ export class MediaComponent implements OnInit {
       }
 
 
-      if(a.ReleaseDate < b.ReleaseDate) {
+      if(a.ReleaseYear < b.ReleaseYear) {
         return -1;
       }
-      else if(a.ReleaseDate > b.ReleaseDate) {
+      else if(a.ReleaseYear > b.ReleaseYear) {
         return 1;
       }
       else {

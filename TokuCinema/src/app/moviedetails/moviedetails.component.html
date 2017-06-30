@@ -11,7 +11,14 @@
       <div>
         <h4>Movie Information:</h4>
         <ul>
-          <li *ngIf="this.movie.ReleaseDate">Release Date: {{this.movie.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+          <div *ngIf="this.movie.ReleaseDate then thenBlock_ReleaseDate_Date else elseBlock_ReleaseDate_Date"></div>
+            <ng-template #thenBlock_ReleaseDate_Date>
+              <li>Release Date: {{this.movie.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+            </ng-template>
+            <ng-template #elseBlock_ReleaseDate_Date>
+              <li>Release Date: {{this.movie.CircaRelease}}</li>
+            </ng-template>
+          
           <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
           

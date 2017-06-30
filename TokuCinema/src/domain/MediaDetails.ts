@@ -25,6 +25,8 @@ export class MediaDetails {
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDate: Date,
+        public CircaRelease: string,
+        public ReleaseYear: number,
         public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
         public MovieDetails: Array<string>,
         public OriginalRelease: string,

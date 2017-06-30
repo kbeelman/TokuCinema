@@ -219,7 +219,13 @@
             <li *ngIf="this.mediaDetails.Distributor">Distributor: {{this.mediaDetails.Distributor}}</li>
             <li *ngIf="this.mediaDetails.CatalogCode">Catalog Code: {{this.mediaDetails.CatalogCode}}</li>
             <li *ngIf="this.mediaDetails.UPC">UPC: {{this.mediaDetails.UPC}}</li>
-            <li *ngIf="this.mediaDetails.ReleaseDate">Release Date: {{this.mediaDetails.ReleaseDate}}</li>
+            <div *ngIf="this.mediaDetails.ReleaseDate then thenBlock_ReleaseDate_Date else elseBlock_ReleaseDate_Date"></div>
+              <ng-template #thenBlock_ReleaseDate_Date>
+                <li>Release Date: {{this.mediaDetails.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+              </ng-template>
+              <ng-template #elseBlock_ReleaseDate_Date>
+                <li>Release Date: {{this.mediaDetails.CircaRelease}}</li>
+              </ng-template>
           </ul>
         </div>
         <div>

@@ -2,7 +2,13 @@
   <div class="media-card-content">
     <div>
       <h3>{{media.Title}}</h3>
-      <p><strong>Release Date:</strong> {{media.ReleaseDate}}</p>
+      <div *ngIf="media.ReleaseDate then thenBlock_ReleaseDate_Date else elseBlock_ReleaseDate_Date"></div>
+            <ng-template #thenBlock_ReleaseDate_Date>
+              <p><strong>Release Date:</strong> {{media.ReleaseDate | date:'MMMM d, yyyy'}}</p>
+            </ng-template>
+            <ng-template #elseBlock_ReleaseDate_Date>
+              <p><strong>Release Date:</strong> {{media.CircaRelease}}</p>
+            </ng-template>
       <p><strong>Distributor:</strong> {{media.Distributor}}</p>
       <p>{{media.Medium}}</p>
     </div>
