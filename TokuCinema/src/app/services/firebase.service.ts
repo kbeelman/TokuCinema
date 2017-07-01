@@ -24,7 +24,7 @@ export class FirebaseService {
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       let itemString = itemIsRoute? this.getPathFromRoute(item) : item;
       
-      return this.db.list('/movies', 
+      return this.db.list('/' + branchName, 
       {
         query: {
           orderByChild: 'Path',

@@ -21,7 +21,6 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   private alive: boolean = true;
   private path: string = '';
   movie: Movie;
-  moviesData: FirebaseListObservable<any[]>;
 
   constructor(private router: Router,
       private location: Location,
