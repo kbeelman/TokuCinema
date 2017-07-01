@@ -1,3 +1,4 @@
+import { element } from 'protractor';
 import { Injectable, Inject } from '@angular/core';
 import { Observable } from "rxjs/Rx";
 import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
@@ -12,7 +13,7 @@ export class FirebaseService {
       private db: AngularFireDatabase
     ) {}
 
-    getBranch(branchName: string): FirebaseListObservable<any> {
+    public getBranch(branchName: string): FirebaseListObservable<any> {
       let item: FirebaseListObservable<any>;
 
       item = this.db.list('/' + branchName);
@@ -20,27 +21,34 @@ export class FirebaseService {
       return item;
     }
 
-    getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
-      let response: FirebaseListObservable<any>;
+    public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       let itemString = itemIsRoute? this.getPathFromRoute(item) : item;
+      
+      return this.db.list('/movies', 
+      {
+        query: {
+          orderByChild: 'Path',
+          equalTo: itemString
+        }
+      }).map(response => {
+        return this.extractDomainObject(response, buildType);
+      });
 
-      return this.db.list('/' + branchName,
-        {
-          query: {
-            orderByChild: 'Path',
-            equalTo: itemString
-          }
-        }).map((res: Response) => this.extractDomainObject(res, buildType))
-        .catch(this.handleError);
     }
 
-    extractDomainObject(res: Response, buildType: DataType): any {
-      let domainBuilder = new DomainBuilder(res[0], buildType);
-      let domainObject = domainBuilder.getDomainObject();
+    private extractDomainObject(res: FirebaseListObservable<any>, buildType: DataType): Observable<any> {
+      let domainObject: any;
+      res.forEach(element => {
+        if(element) {
+          let domainBuilder = new DomainBuilder(element, buildType);
+          domainObject = domainBuilder.getDomainObject();
+        }
+      });
+
       return domainObject;
     }
 
-    getPathFromRoute(route: string): string {
+    private getPathFromRoute(route: string): string {
       let path = '';
 
       path = new StringCleaner(route, StringType.WithRoute).getCleanString();
