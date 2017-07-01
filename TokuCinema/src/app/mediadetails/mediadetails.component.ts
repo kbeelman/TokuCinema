@@ -50,18 +50,21 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.mediaDetails = this.media.GetMediaDetails();
 
           this.mediaDetails.MovieDetails.forEach(element => {
-            let movie = fdb.getItemFromBranch(element, 'movies', false, DataType.Movie);
-            if (movie) {
-              let alreadyContainsMovie: boolean = false;
-              this.movieDetails.forEach(existingMovies => {
-                if(existingMovies.Path === movie["Path"]) {
-                  alreadyContainsMovie = true;
+            fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (data) => {
+              if (data) 
+              {
+                let alreadyContainsMovie: boolean = false;
+                this.movieDetails.forEach(existingMovies => {
+                  if(existingMovies.Path === data["Path"]) {
+                    alreadyContainsMovie = true;
+                  }
+                })
+                if (!alreadyContainsMovie) {
+                  this.movieDetails.push(data);
                 }
-              })
-              if (!alreadyContainsMovie) {
-                this.movieDetails.push(movie);
               }
-            }
+            });
+            
           });
 
           // Get the review object
