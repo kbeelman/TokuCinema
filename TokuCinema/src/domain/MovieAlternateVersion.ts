@@ -7,7 +7,7 @@ export class MovieAlternateVersion {
                 "Active": boolean,
                 "Versions":Array<
                     {
-                        "MainTitle":Array<string>,
+                        "MainTitle":Array<{"TitleType":string,"TitleValue":string}>,
                         "Cast":Array<string>,
                         "DubCast":Array<string>,
                         "Crew":Array<string>,
