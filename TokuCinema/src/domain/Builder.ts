@@ -2,6 +2,7 @@
 import { Movie } from './Movie';
 import { Media } from './Media';
 import { MediaReview } from './MediaReview';
+import { MovieAlternateVersion } from './MovieAlternateVersion';
 
 export class DomainBuilder {
     public RawData: any;
@@ -23,6 +24,9 @@ export class DomainBuilder {
         }
         else if (this.DataType === DataType.MediaReview) {
             domainObject = this.buildMediaReview();
+        }
+        else if (this.DataType === DataType.MovieAlternateVersion) {
+            domainObject = this.buildMovieAlternateVersion();
         }
 
         return domainObject;
@@ -51,6 +55,17 @@ export class DomainBuilder {
             movieData['Path']);
 
         return movie;
+    }
+
+    private buildMovieAlternateVersion(): MovieAlternateVersion {
+        let altVerData = this.RawData;
+
+        let movieAlternateVersion: MovieAlternateVersion = new MovieAlternateVersion(
+            altVerData['Path'],
+            altVerData['Countries']
+        );
+
+        return movieAlternateVersion;
     }
 
     private buildMedia(): Media {
@@ -107,5 +122,6 @@ export class DomainBuilder {
 export enum DataType {
     Movie,
     Media,
-    MediaReview
+    MediaReview,
+    MovieAlternateVersion
 }

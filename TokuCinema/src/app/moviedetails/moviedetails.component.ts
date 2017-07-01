@@ -9,6 +9,7 @@ import "rxjs/add/operator/takeWhile";
 import { FirebaseListObservable } from 'angularfire2/database';
 
 import { Movie } from '../../domain/Movie';
+import { MovieAlternateVersion } from '../../domain/MovieAlternateVersion';
 import { DomainBuilder, DataType } from './../../domain/Builder';
 import { StringCleaner, StringType } from './../../domain/StringCleaner';
 
@@ -21,6 +22,8 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   private alive: boolean = true;
   private path: string = '';
   movie: Movie;
+  movieAlternateVersion: MovieAlternateVersion;
+  moviesData: FirebaseListObservable<any[]>;
 
   constructor(private router: Router,
       private location: Location,
@@ -38,15 +41,31 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         }
       });
 
+      fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
+        if (!(data === undefined)) {
+          this.movieAlternateVersion = data;
+          this.movieAlternateVersion.Countries[0].Active = true;
+        }
+      });
     });
   }
 
   ngOnInit() {
-    
   }
 
   ngOnDestroy() {
     this.alive = false;
+  }
+
+  toggleCountries(country: string) {
+    this.movieAlternateVersion.Countries.forEach(element => {
+      if(element.Country === country) {
+        element.Active = true;
+      }
+      else {
+        element.Active = false;
+      }
+    });
   }
 
 }

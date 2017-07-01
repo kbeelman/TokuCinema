@@ -52,4 +52,13 @@
       <div *ngFor="let item of this.movie.Crew"><strong>{{item.PositionTitle}}</strong>: {{item.Name}}</div>
     </div>
   </div>
+  <div class="movie-alternate-versions" *ngIf="this.movieAlternateVersion">
+    <h2>Alternate Versions</h2>
+    <div class="movie-alt-countries" id="alt-countries">
+      <div *ngFor="let item of this.movieAlternateVersion.Countries" (click)="toggleCountries(item.Country)" [class.active]="item.Active" class="movie-alt-country"><h4>{{item.Country}}</h4></div>
+    </div>
+    <div *ngFor="let item of this.movieAlternateVersion.Countries" >
+      <div class="movie-alt-details" [class.active]="item.Active" *ngIf="item.Active">{{item.Country}}'s version placeholder.</div>
+    </div>
+  </div>
 </div>

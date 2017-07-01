@@ -68,3 +68,30 @@ ul {
   width: auto;
   vertical-align: top;
 }
+
+.movie-alternate-versions {
+  width: auto;
+  vertical-align: top;
+}
+
+.movie-alt-country {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  background-color: $tertiary-background;
+  cursor: pointer;
+
+  h4 {
+    margin-top: 5px;
+  }
+}
+
+.active {
+  background-color: $secondary-background;
+}
+
+.movie-alt-details {
+  background-color: $secondary-background;
+  padding: 10px;
+}
