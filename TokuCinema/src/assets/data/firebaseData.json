@@ -44,7 +44,7 @@
                 {"ActorName":"Yuriko Hoshi","RoleName":"Junko Nakanishi"},
                 {"ActorName":"Hiroshi Koizumi","RoleName":"Professor Shunsuke Miura"},
                 {"ActorName":"Yu Fujiki","RoleName":"Jiro Nakamura"},
-                {"ActorName":"The Peanuts - Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
+                {"ActorName":"Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
                 {"ActorName":"Kenji Sahara","RoleName":"Jiro Torahata"},
                 {"ActorName":"Jun Tazaki","RoleName":"Murata"},
                 {"ActorName":"Yoshifumi Tajima","RoleName":"Kumayama"},
@@ -336,14 +336,12 @@
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "",
+                            "ReleaseDate": "Circa 1970",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -368,8 +366,8 @@
                             "ProductionCompany": "",
                             "DistributionCompany": "American International Pictures",
                             "ReleaseDate": "1964-09-17",
-                            "Runtime":"",
-                            "Rating": "90:00",
+                            "Runtime":"90:00",
+                            "Rating": [],
                             "Iterations": [
                                 {
                                     "AlternateTitle": [],
@@ -394,7 +392,7 @@
                                 {
                                     "AlternateTitle": [{"TitleType":"Video","TitleValue":"Godzilla vs. Mothra"}],
                                     "Name": "UPA Master",
-                                    "MediaPath": ["Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"],
+                                    "MediaPath": [{"Descriptor":"2001 R1 Classic Media DVD","Path":"Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"}],
                                     "Runtime": "87:21",
                                     "ReleaseDate": "Circa 1983",
                                     "Notes": [
@@ -404,7 +402,7 @@
                                         "The Frontier Missile scene is missing over 2 seconds of footage of the second wave of missile impacts in UPA's master, abruptly beginning with the third explosion."]
                                 },
                                 {
-                                    "AlternateTitle": [{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
+                                    "AlternateTitle": [],
                                     "Name": "Simitar Master",
                                     "MediaPath": [],
                                     "Runtime": "87:21",
@@ -415,7 +413,7 @@
                                     ]
                                 },
                                 {
-                                    "AlternateTitle": [{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
+                                    "AlternateTitle": [],
                                     "Name": "Monsters HD Master",
                                     "MediaPath": [],
                                     "Runtime": "88:05",
@@ -444,7 +442,7 @@
                             "DistributionCompany": "Anglo Amalgamated",
                             "ReleaseDate": "1964-09-17",
                             "Runtime":"88:19",
-                            "Rating": {"RatingSystem":"BBFC Certified","RatingValue":"X"},
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"X"}],
                             "Iterations": [
                                 {
                                     "AlternateTitle": [],
@@ -473,12 +471,10 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "1974-04-05",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "Theatrical",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -486,9 +482,7 @@
                                     "Notes": ["Based on the US version with no cuts"]
                                 },
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "Marketing Film",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -516,12 +510,10 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "1967-02-27",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -531,7 +523,10 @@
                             ]
                         },
                         {
-                            "MainTitle":[{"TitleType":"","TitleValue":""}],
+                            "MainTitle":[
+                                {"TitleType":"Spanish","TitleValue":"Godzilla contra los Monstruos"},
+                                {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. The Monsters"}
+                            ],
                             "Cast": [],
                             "DubCast": [],
                             "Crew": [],
@@ -540,12 +535,10 @@
                             "DistributionCompany": "Filmax",
                             "ReleaseDate": "Circa 1998",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -571,12 +564,10 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "Circa 1967",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -597,12 +588,10 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "Circa 1995",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
@@ -626,12 +615,10 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "",
                             "Runtime":"",
-                            "Rating": "",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [
-                                        {"TitleType":"","TitleValue":""},
-                                        {"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",

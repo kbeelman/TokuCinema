@@ -68,4 +68,13 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
     });
   }
 
+  isCircaDate(releaseDate: string): boolean {
+    let response: boolean = false;
+    if(isNaN(Number(releaseDate.substr(0,4)))) {
+      response = true;
+    }
+
+    return response;
+  }
+
 }
