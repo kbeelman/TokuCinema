@@ -57,8 +57,85 @@
     <div class="movie-alt-countries" id="alt-countries">
       <div *ngFor="let item of this.movieAlternateVersion.Countries" (click)="toggleCountries(item.Country)" [class.active]="item.Active" class="movie-alt-country"><h4>{{item.Country}}</h4></div>
     </div>
-    <div *ngFor="let item of this.movieAlternateVersion.Countries" >
-      <div class="movie-alt-details" [class.active]="item.Active" *ngIf="item.Active">{{item.Country}}'s version placeholder.</div>
+    <div *ngFor="let country of this.movieAlternateVersion.Countries" >
+      <div class="movie-alt-details" [class.active]="country.Active" *ngIf="country.Active">
+        <div class="movie-alt-version-details" *ngFor="let version of country.Versions">
+          <h4 *ngIf="version.MainTitle">{{version.MainTitle[0].TitleValue}}</h4>
+          <ul>
+            <div *ngIf="version.ReleaseDate">
+             <div *ngIf="isCircaDate(version.ReleaseDate); then thenBlock_ReleaseCirca else elseBlock_ReleaseCirca"></div>
+                <ng-template #thenBlock_ReleaseCirca>
+                  <li>Release Date: {{version.ReleaseDate}}</li>
+                </ng-template>
+                <ng-template #elseBlock_ReleaseCirca>
+                  <li>Release Date: {{version.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+                </ng-template>
+            </div>
+            <li *ngIf="version.ProductionCompany">Production Company: {{version.ProductionCompany}}</li>
+            <li *ngIf="version.DistributionCompany">Distribution Company: {{version.DistributionCompany}}</li>
+            <li *ngIf="version.DubCompany">Dub Studio: {{version.DubCompany}}</li>
+            <li *ngIf="version.Runtime">Runtime: {{version.Runtime}}</li>
+            <li *ngIf="version.Rating">Rated: {{version.Rating[0].RatingSystem}} {{version.Rating[0].RatingValue}}</li>
+          </ul>
+          <div class="movie-cast-crew" *ngIf="version.Cast || version.DubCast || version.Crew">
+            <div class="movie-alt-cast-crew" *ngIf="version.Cast">
+              <h4>Cast</h4>
+              <div *ngFor="let item of version.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+            </div>
+            <div class="movie-alt-cast-crew" *ngIf="this.version.DubCast">
+              <h4>Dub Cast</h4>
+              <div *ngFor="let item of version.DubCast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+            </div>
+            <div class="movie-alt-cast-crew" *ngIf="this.version.Crew">
+              <h4>Crew</h4>
+              <div *ngFor="let item of version.Crew"><strong>{{item.PositionTitle}}</strong>: {{item.Name}}</div>
+            </div>
+          </div>
+          <h4 class="movie-alt-iterations-header">Iterations</h4>
+          <div class="movie-alt-iterations">
+            <div *ngFor="let iteration of version.Iterations">
+              <ul>
+                <li *ngIf="iteration.Name">{{iteration.Name}}</li>
+                  <ul>
+                    <div *ngIf="iteration.AlternateTitle">
+                      <div *ngIf="iteration.AlternateTitle.length>0">
+                        <div *ngIf="iteration.AlternateTitle.length>1; then thenBlock_Iteration_Titles else elseBlock_Iteration_Titles"></div>
+                          <ng-template #thenBlock_Iteration_Titles>
+                            <ul>
+                              <li *ngFor="let item of iteration.AlternateTitle">{{iteration.AlternateTitle.TitleType}} Title: {{iteration.AlternateTitle.TitleValue}}</li>
+                            </ul>
+                          </ng-template>
+                          <ng-template #elseBlock_Iteration_Titles><li>{{iteration.AlternateTitle[0].TitleType}} Title: {{iteration.AlternateTitle[0].TitleValue}}</li></ng-template>
+                      </div>
+                    </div>
+                    <li *ngIf="iteration.Runtime">Runtime: {{iteration.Runtime}}</li>
+                    <div *ngIf="iteration.ReleaseDate">
+                      <div *ngIf="isCircaDate(iteration.ReleaseDate); then thenBlock_ReleaseCirca_Iteration else elseBlock_ReleaseCirca_Iteration"></div>
+                          <ng-template #thenBlock_ReleaseCirca_Iteration>
+                            <li>Release Date: {{iteration.ReleaseDate}}</li>
+                          </ng-template>
+                          <ng-template #elseBlock_ReleaseCirca_Iteration>
+                            <li>Release Date: {{iteration.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+                          </ng-template>
+                    </div>
+                    <div *ngIf="iteration.MediaPath">
+                      <li>Released On:</li>
+                      <ul>
+                        <li *ngFor = "let item of iteration.MediaPath"><a [routerLink]="['/media', item.Path]">{{item.Descriptor}}</a></li>
+                      </ul>
+                    </div>
+                    <div *ngIf="iteration.Notes">
+                      <li>Notes:</li>
+                      <ul>
+                        <li *ngFor="let item of iteration.Notes">{{item}}</li>
+                      </ul>
+                    </div>
+                  </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

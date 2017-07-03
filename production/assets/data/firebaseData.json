@@ -44,7 +44,7 @@
                 {"ActorName":"Yuriko Hoshi","RoleName":"Junko Nakanishi"},
                 {"ActorName":"Hiroshi Koizumi","RoleName":"Professor Shunsuke Miura"},
                 {"ActorName":"Yu Fujiki","RoleName":"Jiro Nakamura"},
-                {"ActorName":"The Peanuts - Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
+                {"ActorName":"Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
                 {"ActorName":"Kenji Sahara","RoleName":"Jiro Torahata"},
                 {"ActorName":"Jun Tazaki","RoleName":"Murata"},
                 {"ActorName":"Yoshifumi Tajima","RoleName":"Kumayama"},
@@ -319,6 +319,317 @@
             "Series": "Gamera",
             "Era": "Millennium",
             "Path": "Gamera-Brave-2006"
+        }
+    ],
+    "alternateVersions": [
+        {
+            "Path": "Godzilla-Mothra-1964",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1970",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Original film negative was cut to conform to either the December 17, 1970 Toho Champion Matsuri (Toho Champion Festival) or to the 1980 reissue.",
+                                        "After the negative was cut, all Japanese-domestic and foreign releases of the Japanese version have since used an Internegative element."]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Titra Studios",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "1964-09-17",
+                            "Runtime":"90:00",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Teatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The pressbook listed a runtime of 90 minutes, but this is assumed to be an approximation.",
+                                        "Some sources claim the theatrical release featured a brief overture, consisting of the beginning portion of the main title cue that remains unheard in all English versions, playing over a black screen.",
+                                        "Contains an added missile assault sequence, dubbed the “Frontier Missile” scene, which is exclusive to AIP’s version of this movie, as it is not included in the Japanese version.",
+                                        "Some sound design has been reworked in several scenes, with louder explosions that replace Toho’s standard sound effects."]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm Television",
+                                    "MediaPath": [],
+                                    "Runtime": "90",
+                                    "ReleaseDate": "",
+                                    "Notes": ["While no copies have surfaced, it is believed that the TV versions were identical to their theatrical counterparts, with the exception of being cropped."]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Video","TitleValue":"Godzilla vs. Mothra"}],
+                                    "Name": "UPA Master",
+                                    "MediaPath": [{"Descriptor":"2001 R1 Classic Media DVD","Path":"Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"}],
+                                    "Runtime": "87:21",
+                                    "ReleaseDate": "Circa 1983",
+                                    "Notes": [
+                                        "The original title card has been replaced with a video generated “Godzilla vs. Mothra” title.",
+                                        "It is believed that the 35mm source that UPA used for this master was either damaged or incomplete.","Many lines were cut, and some scenes are sourced from a visibly inferior material, potentially a scope 16mm print.",
+                                        "The original \"An American International Picture\" end title is replaced by a black screen.",
+                                        "The Frontier Missile scene is missing over 2 seconds of footage of the second wave of missile impacts in UPA's master, abruptly beginning with the third explosion."]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Simitar Master",
+                                    "MediaPath": [],
+                                    "Runtime": "87:21",
+                                    "ReleaseDate": "Circa 1998",
+                                    "Notes": [
+                                        "Appears to use the same photochemical sources as the UPA master for the video, only aged by almost two more decades, resulting in some very interesting color malfunctions in some parts.",
+                                        "Follows the chronology of the UPA master precisely; omitting all the same frames, shots, and lines, but restored the original AIP opening and end titles."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Monsters HD Master",
+                                    "MediaPath": [],
+                                    "Runtime": "88:05",
+                                    "ReleaseDate": "Circa 2006",
+                                    "Notes": [
+                                        "This cropped 16:9 master has the benefit of being much closer to the theatrical experience, but still not entirely so.",
+                                        "While it has the “Godzilla vs. The Thing” exclusive credits, there is an added fade at the beginning of the AIP logo, which was not present on Simitar's widescreen master.",
+                                        "Several lines have been restored, though some reel changes are still a bit messy.",
+                                        "This version is missing several seconds from the beginning of the first explosion in the Frontier Missile scene."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Titra Studios",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Anglo Amalgamated",
+                            "ReleaseDate": "1964-09-17",
+                            "Runtime":"88:19",
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"X"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"German","TitleValue":"Godzilla und die Urweltraupen"},
+                                {"TitleType":"Literal Translation","TitleValue":"Godzilla and the Caterpillars"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1974-04-05",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["Based on the US version with no cuts"]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Marketing Film",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2004-07-29",
+                                    "Notes": [
+                                        "Combines Japanese version with US’s Frontier Missile scene.",
+                                        "This version contains two explosions in the Frontier Missile scene that are missing in several American releases, but is missing several frames before the third missiles optical effect."]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"Spanish","TitleValue":"Godzilla contra los Monstruos"},
+                                {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. The Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1967-02-27",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["Spanish theatrical version based on the US AIP cut, this dub is considered lost."]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[
+                                {"TitleType":"Spanish","TitleValue":"Godzilla contra los Monstruos"},
+                                {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. The Monsters"}
+                            ],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["A new dub produced for home video, released by Filmax on VHS in 1998."]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"French","TitleValue":"Godzilla affronte la Chose"},
+                                {"TitleType":"Literal Translation","TitleValue":"Godzilla Confronts The Thing"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1967",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["French theatrical version based on the US AIP cut, this dub is considered lost."]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[
+                                {"TitleType":"French","TitleValue":"Mothra contre Godzilla"},
+                                {"TitleType":"Literal Translation","TitleValue":"Mothra against Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1995",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["A new dub produced for TV and home video, it was made available on VHS and DVD."]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Italian","TitleValue":"Watang! Nel favoloso impero dei mostri "}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["Italian theatrical version based on the US AIP cut. This dub is available on DVD, but is missing the Frontier Missile Scene from the US version."]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "media": [
