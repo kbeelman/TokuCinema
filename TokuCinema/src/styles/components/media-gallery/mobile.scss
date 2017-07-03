@@ -70,7 +70,7 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
 
 .gallery-nav-button-left {
   @extend %gallery-nav-button;
-  left: 20px;
+  left: 40px;
 
   div {
 
@@ -83,7 +83,7 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
 
 .gallery-nav-button-right {
   @extend %gallery-nav-button;
-  right: 20px;
+  right: 40px;
 
   div {
 
