@@ -1,0 +1,51 @@
+@import '../../globals.scss';
+
+.about-gallery {
+  margin-bottom: 45px;
+  margin-top: 45px;
+
+
+  .focus-image {
+    div {
+      // height: 300px;
+    }
+  }
+}
+
+.gallery-nav-button-left {
+  left: auto;
+  margin-right: 420px;
+  left: $desktop-gutter;
+
+  div {
+    // height: 100px;
+  }
+}
+
+.gallery-nav-button-right {
+  right: $desktop-gutter;
+
+  div {
+    // height: 100px;
+  }
+}
+
+.slider-carousel-image {
+  // height: 100px;
+}
+
+.focsed-video {
+  // height: 300px;
+}
+
+.youtube-play-circle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: auto;
+
+  svg {
+    left: 0;
+    width: 30%;
+  }
+}

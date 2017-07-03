@@ -23,6 +23,7 @@ import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
 import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
+import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
 
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -57,13 +58,14 @@ describe('AppComponent', () => {
         MovieFiltersSearch,
         MovieCardComponent,
         MediaCardComponent,
-        SearchResultTabComponent
+        SearchResultTabComponent,
+        MediaGalleryComponent
       ],
-      imports: [ 
+      imports: [
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule, 
+        AngularFireDatabaseModule,
       ]
     }).compileComponents();
   }));
@@ -74,7 +76,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create the app', async(() => {    
+  it('should create the app', async(() => {
     expect(component).toBeTruthy();
   }));
 

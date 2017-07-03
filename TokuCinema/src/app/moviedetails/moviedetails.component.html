@@ -18,10 +18,10 @@
             <ng-template #elseBlock_ReleaseDate_Date>
               <li>Release Date: {{this.movie.CircaRelease}}</li>
             </ng-template>
-          
+
           <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
-          
+
           <!-- Atlernate Titles Null Check -->
           <div *ngIf="this.movie.doesAtlernateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
             <ng-template #thenBlock_AtlernateTitles_NullCheck>
@@ -61,4 +61,12 @@
       <div class="movie-alt-details" [class.active]="item.Active" *ngIf="item.Active">{{item.Country}}'s version placeholder.</div>
     </div>
   </div>
+
+  <media-gallery
+    [images]="['https://upload.wikimedia.org/wikipedia/en/b/b6/Shin_Godzilla_design_reveal.jpg',
+    'https://upload.wikimedia.org/wikipedia/en/6/67/Steve_Miner%27s_Godzilla.jpg']"
+    [imagesAlt]="['first example pic', 'second example pic']"
+    [videoIds]="['yQvKS1IvvpI', 'NYUdJ9WJ7n4']">
+  </media-gallery>
+
 </div>

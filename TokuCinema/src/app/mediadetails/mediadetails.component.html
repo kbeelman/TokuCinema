@@ -113,7 +113,7 @@
             </li>
           </ul>
         </div>
-        
+
       </div>
       <div class="right-information">
         <div>
@@ -157,7 +157,7 @@
                     <li>Medium: {{this.mediaDetails.Medium[0]}}</li>
                   </ng-template>
               </ng-template>
-            
+
             <!-- Format Details Null Check -->
             <div *ngIf="this.mediaDetails.doesFormatExist(); then thenBlock_Format_NullCheck"></div>
               <ng-template #thenBlock_Format_NullCheck>
@@ -174,7 +174,7 @@
                     <li>Format Details: {{this.mediaDetails.Format[0].Format}}</li>
                   </ng-template>
               </ng-template>
-            
+
             <!-- MediumCount Null Check -->
             <div *ngIf="this.mediaDetails.doesMediumCountExist(); then thenBlock_MediumCount_NullCheck"></div>
               <ng-template #thenBlock_MediumCount_NullCheck>
@@ -243,12 +243,13 @@
       </div>
     </div>
   </div>
+
   <div class="media-review">
     <div *ngIf="mediaDetails.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
     <ng-template #thenBlock_OriginalRelease_NullCheck>
       <div><h2>{{mediaDetails.Medium}} Re-release Information</h2></div>
-        This {{mediaDetails.Medium}} is a re-release, 
-        <a [routerLink]="['/media', mediaDetails.OriginalRelease]">click here</a> 
+        This {{mediaDetails.Medium}} is a re-release,
+        <a [routerLink]="['/media', mediaDetails.OriginalRelease]">click here</a>
         to see the review for the original release.
     </ng-template>
     <ng-template #elseBlock_OriginalRelease_NullCheck>

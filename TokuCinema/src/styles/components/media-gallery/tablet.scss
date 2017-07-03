@@ -1,0 +1,35 @@
+@import '../../globals.scss';
+
+.gallery-nav-button-left {
+  left: $tablet-gutter;
+}
+
+.gallery-nav-button-right {
+  right: $tablet-gutter;
+}
+
+.gallery-nav-button-left,
+.gallery-nav-button-right {
+  div {
+    height: 140px;
+  }
+}
+
+.about-gallery {
+
+  .focus-image {
+
+    div {
+      height: 800px;
+    }
+
+  }
+}
+
+.slider-carousel-image {
+  height: 140px;
+}
+
+.focsed-video {
+  height: 800px;
+}

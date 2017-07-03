@@ -37,6 +37,7 @@ import { DeepSearch } from './pipes/deepSearch.pipe';
 
 // Firebase config
 import { environment } from '../environments/environment';
+import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { environment } from '../environments/environment';
     DeepSearch,
     SearchResultTabComponent,
     MediaBoxsetsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    MediaGalleryComponent
   ],
   imports: [
     BrowserModule,

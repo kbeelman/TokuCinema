@@ -5,7 +5,11 @@ $desktop-gutter: calc((100% - 1140px) / 2);
 $desktop-width: 1140px;
 $below-header: $mobile-gutter + 80px;
 
-  // Colors
+// Viewports
+$viewport-tablet: 768px;
+$viewport-desktop: 1140px;
+
+// Colors
 $primary-background: #181818;
 $secondary-background: #222;
 $tertiary-background: #363636;
@@ -37,7 +41,7 @@ $primary-transparant-background: rgba(33,34,34,.5);
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
   margin-bottom: $mobile-gutter;
-  margin-top: $below-header;  
+  margin-top: $below-header;
 }
 
 %tablet-frame {
@@ -73,7 +77,7 @@ $primary-transparant-background: rgba(33,34,34,.5);
   -webkit-text-fill-color: $fill-color;
   -moz-text-stroke-color: $stroke-color;
   -webkit-text-stroke-color: $stroke-color;
-  -moz-text-stroke-width: $width;  
+  -moz-text-stroke-width: $width;
   -webkit-text-stroke-width: $width;
 }
 
@@ -87,7 +91,7 @@ body {
 
 a {
   text-decoration: none;
-  
+
   &:link, &:visited, &:hover, &:active {
     color: $primary-foreground;
   }
@@ -111,4 +115,27 @@ select {
 
 .display-none {
   display: none;
+}
+
+.half-container-width {
+  width: 50%;
+
+  &.centered {
+    margin: 0 auto;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: $mobile-gutter;
+  width: 100%;
+
+  @media ($viewport-tablet) {
+    padding: $tablet-gutter;
+  }
+
+  @media ($viewport-tablet) {
+    padding: $tablet-gutter;
+  }
 }

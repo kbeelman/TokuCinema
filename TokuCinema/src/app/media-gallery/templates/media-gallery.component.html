@@ -1,0 +1,86 @@
+<div *ngIf="activeItem" class="about-gallery">
+
+    <!--Active 'Focused' Content-->
+    <div *ngFor="let image of galleryImages" class="focus-image">
+
+        <!--If image-->
+        <div *ngIf="image.GetSource() === activeItem.GetSource()" [ngStyle]="{
+                'background-image': 'url(' + activeItem.Url + ')',
+                'alt': 'activeImage.Alt'
+            }">
+        </div>
+
+    </div>
+
+    <div *ngFor="let video of galleryVideos" class="focus-image">
+
+        <!--If video-->
+        <iframe
+            *ngIf="video.GetSource() === activeItem.GetSource()"
+            class="focsed-video"
+            [src]="activeItemSource"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+
+    <!--Carousel Content-->
+    <div *ngIf="this.itemCount > 1"
+        class="slider-image-carousel">
+
+        <ul>
+            <li
+                [ngStyle]="{
+                    'margin-left': currentCarouselMargin + '%'
+                }">
+
+            <!--Left arrow-->
+            <div *ngIf="canCarouselLeft()" class="gallery-nav-button-left" (click)="carouselLeft()">
+                <div>
+                    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Right Arrow-->
+            <div *ngIf="canCarouselRight()" class="gallery-nav-button-right" (click)="carouselRight()">
+                <div>
+                    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Videos-->
+            <div class="slider-carousel-image"
+                *ngFor="let video of galleryVideos; let i = index"
+                [ngStyle]="{
+                    'background-image': 'url(' + video.getThumbnailSource() + ')'
+                }"
+                (click)="setActiveItem(video)">
+                <div class="youtube-play-circle">
+                    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5-103 385.5-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103zm384 823q32-18 32-55t-32-55l-544-320q-31-19-64-1-32 19-32 56v640q0 37 32 56 16 8 32 8 17 0 32-9z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Images-->
+            <div class="slider-carousel-image carousel-images-section"
+                *ngFor="let pic of galleryImages; let i = index"
+                [ngStyle]="{
+                    'background-image': 'url(' + pic.Url + ')',
+                    'alt': pic.alt
+                }"
+                [ngClass]="{'carousel-less-margin': galleryVideos && galleryVideos.length && i === 0}"
+                (click)="setActiveItem(pic)">
+            </div>
+
+            </li>
+        </ul>
+
+    </div>
+</div>

@@ -1,0 +1,182 @@
+@import '../../globals.scss';
+
+@mixin transition($values...) {
+
+  $transitions: ();
+  @each $declaration in $values {
+    $prop: nth($declaration, 1);
+    $prop-opts: ();
+    $length: length($declaration);
+    @for $i from 2 through $length {
+      $prop-opts: append($prop-opts, nth($declaration, $i));
+    }
+
+    $trans: ($prop, $prop-opts);
+    $transitions: append($transitions, $trans, comma);
+  }
+
+  // $transitions = (opacity, (0.2s ease)), (transform, (0.5s ease-in))
+
+  -webkit-transition: trans-prefix($transitions, webkit);
+  -moz-transition: trans-prefix($transitions, moz);
+  -o-transition: trans-prefix($transitions, o);
+  transition: $values;
+}
+
+
+$white: #fff;
+
+.about-gallery {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+
+  .focus-image {
+    width: 100%;
+
+    div {
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+    }
+  }
+}
+
+.focsed-video {
+  height: 400px;
+  width: 100%;
+}
+
+$nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
+
+%gallery-nav-button {
+  position: absolute;
+  z-index: 10;
+
+  div {
+    background-color: $nav-button-transparent;
+    height: 80px;
+    position: relative;
+    width: 25px;
+
+    svg {
+      fill: $white;
+      height: 30px;
+      position: relative;
+      width: 30px;
+    }
+  }
+}
+
+.gallery-nav-button-left {
+  @extend %gallery-nav-button;
+  left: 20px;
+
+  div {
+
+    svg {
+      height: 100%;
+      left: 12px;
+    }
+  }
+}
+
+.gallery-nav-button-right {
+  @extend %gallery-nav-button;
+  right: 20px;
+
+  div {
+
+    svg {
+      height: 100%;
+      left: 14px;
+    }
+
+  }
+}
+
+.slider-image-carousel {
+  overflow: hidden;
+  white-space: nowrap;
+
+  ul {
+    margin-bottom: 0;
+    padding: 0;
+
+    li {
+      @include transition(all 800ms cubic-bezier(.770, 0, .175, 1));
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.carousel-less-margin {
+  margin-left: -3px;
+}
+
+.slider-carousel-image {
+  background-size: cover;
+  display: inline-block;
+  height: 80px;
+  margin-right: 3.5%;
+  width: 31%;
+}
+
+.image-slider {
+  list-style-type: none;
+  margin-bottom: 40px;
+  padding: 0;
+  text-align: center;
+
+  div {
+    // display: flex;
+  }
+
+  li {
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
+    height: 80px;
+    overflow: hidden;
+    width: 31%;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.slider-image-item {
+  margin-right: 3.5%;
+}
+
+.slider-image {
+  height: 100px;
+  width: 120px;
+}
+
+.slider-thumb {
+  height: 100%;
+  max-width: 100%;
+}
+
+.youtube-play-circle {
+  fill: $white;
+  height: inherit;
+  position: absolute;
+  width: 31%;
+
+  svg {
+    height: 100%;
+    left: 28%;
+    position: relative;
+    width: 33%;
+  }
+}
+

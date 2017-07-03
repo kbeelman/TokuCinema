@@ -5,6 +5,7 @@ import { environment } from '../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MoviedetailsComponent } from './moviedetails.component';
+import { MediaGalleryComponent } from '../media-gallery/media-gallery.component';
 
 describe('MoviedetailsComponent', () => {
   let component: MoviedetailsComponent;
@@ -12,12 +13,12 @@ describe('MoviedetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviedetailsComponent ],
+      declarations: [ MoviedetailsComponent, MediaGalleryComponent ],
       imports: [
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule 
+        AngularFireDatabaseModule
       ]
     })
     .compileComponents();
