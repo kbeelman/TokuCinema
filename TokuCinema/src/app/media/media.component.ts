@@ -9,8 +9,7 @@ import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-media',
-  templateUrl: './media.component.html',
-  providers: [FirebaseService]
+  templateUrl: './media.component.html'
 })
 export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();
@@ -31,7 +30,7 @@ export class MediaComponent implements OnInit {
   countries = new Array<string>();
   regions = new Array<string>();
 
-  constructor(@Inject(FirebaseService) fdb: FirebaseService) {
+  constructor(private fdb: FirebaseService) {
     this.movieData = fdb.getBranch('movies');
     this.mediaData = fdb.getBranch('media');
   }

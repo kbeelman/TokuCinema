@@ -7,6 +7,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MediadetailsComponent } from './mediadetails.component';
 import { Movie } from '../../domain/Movie';
 import { DomainBuilder, DataType } from '../../domain/Builder';
+import { FirebaseService } from '../services/firebase.service';
 
 describe('MediadetailsComponent', () => {
   let component: MediadetailsComponent;
@@ -20,7 +21,8 @@ describe('MediadetailsComponent', () => {
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireDatabaseModule
-      ]
+      ],
+      providers: [FirebaseService]
     })
     .compileComponents();
   }));

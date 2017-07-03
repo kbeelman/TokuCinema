@@ -9,6 +9,7 @@ import { environment } from '../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MoviesComponent } from './movies.component';
+import { FirebaseService } from '../services/firebase.service';
 
 describe('MoviesComponent', () => {
   let component: MoviesComponent;
@@ -26,8 +27,9 @@ describe('MoviesComponent', () => {
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule 
-      ]
+        AngularFireDatabaseModule
+      ],
+      providers: [FirebaseService]
     })
     .compileComponents();
   }));

@@ -9,6 +9,7 @@ import { MediaComponent } from './media.component';
 import { environment } from '../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FirebaseService } from '../services/firebase.service';
 
 describe('MediaComponent', () => {
   let component: MediaComponent;
@@ -17,7 +18,7 @@ describe('MediaComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ MediaComponent,
-        MediaSearchResultsComponent, 
+        MediaSearchResultsComponent,
         MediaCardComponent,
         MediaTitleSearch,
         MediaFiltersSearch
@@ -26,8 +27,9 @@ describe('MediaComponent', () => {
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule 
-      ]
+        AngularFireDatabaseModule
+      ],
+      providers: [FirebaseService]
     })
     .compileComponents();
   }));

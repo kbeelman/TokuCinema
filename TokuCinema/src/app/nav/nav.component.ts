@@ -8,8 +8,7 @@ import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-nav',
-  templateUrl: './nav.component.html',
-  providers: [FirebaseService]
+  templateUrl: './nav.component.html'
 })
 export class NavComponent implements OnInit {
   navMenuOpen: boolean = false;
@@ -28,7 +27,7 @@ export class NavComponent implements OnInit {
   mediaData: FirebaseListObservable<any[]>;
 
   constructor(
-    @Inject(FirebaseService) fdb: FirebaseService,
+    private fdb: FirebaseService,
     private _ngZone: NgZone
   ) {
     this.moviesData = fdb.getBranch('movies');

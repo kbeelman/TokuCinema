@@ -15,8 +15,7 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
 
 @Component({
   selector: 'app-moviedetails',
-  templateUrl: './moviedetails.component.html',
-  providers: [FirebaseService]
+  templateUrl: './moviedetails.component.html'
 })
 export class MoviedetailsComponent implements OnInit, OnDestroy {
   private alive: boolean = true;
@@ -27,9 +26,9 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
 
   constructor(private router: Router,
       private location: Location,
-      @Inject(FirebaseService) fdb: FirebaseService
-    ) { 
-    
+      private fdb: FirebaseService
+    ) {
+
     router.events.takeWhile(() => this.alive)
     .subscribe((val) => {
 

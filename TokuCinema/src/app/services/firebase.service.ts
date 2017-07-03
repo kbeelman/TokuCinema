@@ -12,10 +12,10 @@ export class FirebaseService {
     public cachedData: Array<
         {
           branchName: string,
-          data: Array<any>
+          data: FirebaseListObservable<any>
         }> = new Array<{
           branchName: string,
-          data: Array<any>
+          data: FirebaseListObservable<any>
         }>();
 
     constructor(
@@ -23,12 +23,18 @@ export class FirebaseService {
     ) {}
 
     public getBranch(branchName: string): FirebaseListObservable<any> {
-      if (!this.cachedData.find( item => item.branchName === branchName)) {
+      let cachedBranch = this.cachedData.find( item => item.branchName === branchName);
+      if (!cachedBranch) {
         let item: FirebaseListObservable<any>;
 
         item = this.db.list('/' + branchName);
 
+        // cache for future use
+        let branchToCache = {branchName: branchName, data: item};
+        this.cachedData.push(branchToCache);
         return item;
+      } else {
+        return cachedBranch.data;
       }
     }
 

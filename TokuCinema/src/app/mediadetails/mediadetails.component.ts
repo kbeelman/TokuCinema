@@ -15,14 +15,12 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
 
 @Component({
   selector: 'app-mediadetails',
-  templateUrl: './mediadetails.component.html',
-  providers: [FirebaseService]
+  templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
     private alive: boolean = true;
     private path: string = '';
     private sub: any;
-    private fdb: FirebaseService;
     mediaData: FirebaseListObservable<any[]>;
     media: Media;
     mediaDetails: MediaDetails;
@@ -31,7 +29,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     hasRuntimes: boolean = false;
 
 
- constructor(@Inject(FirebaseService) fdb: FirebaseService,
+ constructor(private fdb: FirebaseService,
       private router: Router,
       private location: Location,
       private route: ActivatedRoute
@@ -51,7 +49,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
 
           this.mediaDetails.MovieDetails.forEach(element => {
             fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (data) => {
-              if (data) 
+              if (data)
               {
                 let alreadyContainsMovie: boolean = false;
                 this.movieDetails.forEach(existingMovies => {
@@ -64,21 +62,21 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
                 }
               }
             });
-            
+
           });
 
           // Get the review object
           fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe( (data) => {
             this.mediaReview = data;
-            console.log(data);      
+            console.log(data);
           });
         });
       });
-       
+
     }
 
   ngOnInit() {
-    
+
   }
 
   ngOnDestroy() {

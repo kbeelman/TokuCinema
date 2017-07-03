@@ -6,8 +6,7 @@ import { FirebaseService } from '../services/firebase.service';
 
 @Component({
   selector: 'app-movies',
-  templateUrl: './movies.component.html',
-  providers: [FirebaseService]
+  templateUrl: './movies.component.html'
 })
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
@@ -28,7 +27,7 @@ export class MoviesComponent implements OnInit {
   eras = new Array<string>();
   productionCompanies = new Array<string>();
 
-  constructor(@Inject(FirebaseService) fdb: FirebaseService) {
+  constructor(fdb: FirebaseService) {
     this.moviesData = fdb.getBranch('movies');
   }
 

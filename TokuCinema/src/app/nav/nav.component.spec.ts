@@ -9,6 +9,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { NavComponent } from './nav.component';
 import { SearchResultTabComponent } from '../search-result-tab/search-result-tab.component';
+import { FirebaseService } from '../services/firebase.service';
 
 describe('NavComponent', () => {
   let component: NavComponent;
@@ -21,12 +22,13 @@ describe('NavComponent', () => {
         DeepSearch,
         SearchResultTabComponent
       ],
-      imports: [ 
-        RouterTestingModule, 
+      imports: [
+        RouterTestingModule,
         FormsModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule 
-      ]
+        AngularFireDatabaseModule
+      ],
+      providers: [FirebaseService]
     })
     .compileComponents();
   }));

@@ -24,7 +24,6 @@ export class MediaGalleryComponent implements OnInit{
     currentCarouselPosition: number = 0; // index of the left most item shown
 
     constructor (@Inject(DomSanitizer) private sanitizer: DomSanitizer) {
-      console.log("MediaGalleryComponent constructor");
     }
 
     ngOnInit(): any {

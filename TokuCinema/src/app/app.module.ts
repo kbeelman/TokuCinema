@@ -35,6 +35,9 @@ import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
 
+// Services
+import { FirebaseService } from './services/firebase.service';
+
 // Firebase config
 import { environment } from '../environments/environment';
 import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
@@ -106,7 +109,7 @@ import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
         component: MediaBoxsetsComponent
       },
       {
-        path: '404', 
+        path: '404',
         component: NotFoundComponent
       },
       {
@@ -118,7 +121,7 @@ import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
       // },
     ]),
   ],
-  providers: [],
+  providers: [FirebaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

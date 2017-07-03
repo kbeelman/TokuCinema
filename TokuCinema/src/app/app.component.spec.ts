@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { FirebaseService } from './services/firebase.service';
 import { MediaCardComponent } from './media-card/media-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
@@ -66,7 +66,8 @@ describe('AppComponent', () => {
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireDatabaseModule,
-      ]
+      ],
+      providers: [FirebaseService]
     }).compileComponents();
   }));
 
