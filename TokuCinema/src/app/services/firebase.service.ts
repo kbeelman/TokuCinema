@@ -9,22 +9,33 @@ import { Movie } from '../../domain/Movie';
 
 @Injectable()
 export class FirebaseService {
+    public cachedData: Array<
+        {
+          branchName: string,
+          data: Array<any>
+        }> = new Array<{
+          branchName: string,
+          data: Array<any>
+        }>();
+
     constructor(
       private db: AngularFireDatabase
     ) {}
 
     public getBranch(branchName: string): FirebaseListObservable<any> {
-      let item: FirebaseListObservable<any>;
+      if (!this.cachedData.find( item => item.branchName === branchName)) {
+        let item: FirebaseListObservable<any>;
 
-      item = this.db.list('/' + branchName);
+        item = this.db.list('/' + branchName);
 
-      return item;
+        return item;
+      }
     }
 
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       let itemString = itemIsRoute? this.getPathFromRoute(item) : item;
-      
-      return this.db.list('/' + branchName, 
+
+      return this.db.list('/' + branchName,
       {
         query: {
           orderByChild: 'Path',
