@@ -41,6 +41,7 @@ import { FirebaseService } from './services/firebase.service';
 // Firebase config
 import { environment } from '../environments/environment';
 import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
     SearchResultTabComponent,
     MediaBoxsetsComponent,
     NotFoundComponent,
-    MediaGalleryComponent
+    MediaGalleryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
