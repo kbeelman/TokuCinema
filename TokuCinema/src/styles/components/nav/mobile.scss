@@ -94,7 +94,7 @@
 
 .nav-menu-item {
   list-style: none;
-  
+
   a {
     height: auto;
     text-decoration: none;
@@ -111,18 +111,24 @@
 .nav-search {
   margin-left: $mobile-gutter;
   position: fixed;
-  top: 80px;
+  top: 0;
   left: 0;
   z-index: 2;
   height: 40px;
   border: solid 1px black;
   width: calc(100% - 40px);
+  transition: .1s;
 
   input {
     height: 100%;
     width: 100%;
     font-size: 24px;
   }
+}
+
+.nav-search-slide-in {
+  top: 80px;
+  transition: .6s;
 }
 
 .nav-hamburger-menu, .nav-search-icon {

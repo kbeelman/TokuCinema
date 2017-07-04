@@ -85,7 +85,7 @@
       </a>
 </div>
 
-<div *ngIf="searchOpen" class="nav-search">
+<div [ngClass]="{'nav-search-slide-in': this.searchOpen}" class="nav-search">
   <input id="search-input" class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Search">
 </div>
 
