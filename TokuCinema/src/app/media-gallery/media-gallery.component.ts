@@ -19,7 +19,7 @@ export class MediaGalleryComponent implements OnInit{
     galleryVideos: Array<GalleryVideo> = new Array<GalleryVideo>();
     itemCount: number = 0;
 
-    carouselInterval: number = 34.5;
+    carouselInterval: number = 100;
     currentCarouselMargin: number = 0;
     currentCarouselPosition: number = 0; // index of the left most item shown
 
@@ -98,18 +98,36 @@ export class MediaGalleryComponent implements OnInit{
     }
 
     carouselRight(): void {
-        let newMargin: number = this.currentCarouselMargin - this.carouselInterval;
         if(this.canCarouselRight()) {
-            this.currentCarouselMargin = newMargin;
-            this.currentCarouselPosition++;
+            let imageCount = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
+            let videoCount = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
+            let itemCount = imageCount + videoCount;
+
+            if ((this.currentCarouselPosition + 10) > itemCount) {
+                let marginMultiple = itemCount % 5;
+                this.currentCarouselMargin = (this.currentCarouselMargin - (marginMultiple * 20));
+                this.currentCarouselPosition = this.currentCarouselPosition + marginMultiple;
+            } else {
+                let newMargin: number = this.currentCarouselMargin - this.carouselInterval;
+                this.currentCarouselMargin = newMargin;
+                this.currentCarouselPosition = this.currentCarouselPosition + 5;
+            }
+
+            
         }
     }
 
     carouselLeft(): void {
-        let newMargin: number = this.currentCarouselMargin + this.carouselInterval;
         if(this.canCarouselLeft()) {
-            this.currentCarouselMargin = newMargin;
-            this.currentCarouselPosition--;
+            if(this.currentCarouselPosition < 5) {
+                let marginMultiple = this.currentCarouselPosition;
+                this.currentCarouselMargin = (this.currentCarouselMargin + (marginMultiple * 20));
+                this.currentCarouselPosition = this.currentCarouselPosition - marginMultiple;
+            } else {
+                let newMargin: number = this.currentCarouselMargin + this.carouselInterval;
+                this.currentCarouselMargin = newMargin;
+                this.currentCarouselPosition = this.currentCarouselPosition - 5;
+            }
         }
     }
 
@@ -121,7 +139,7 @@ export class MediaGalleryComponent implements OnInit{
         let imageCount = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
         let videoCount = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
         let itemCount = imageCount + videoCount;
-        return Math.abs((this.currentCarouselPosition - itemCount)) > 3 ? true : false;
+        return Math.abs((this.currentCarouselPosition - itemCount)) > 5 ? true : false;
     }
 
     canCarouselLeft(): boolean {
