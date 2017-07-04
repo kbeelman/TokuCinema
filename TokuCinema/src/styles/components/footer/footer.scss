@@ -1,0 +1,11 @@
+@import '../../globals.scss';
+
+@import 'mobile';
+
+@media ($viewport-tablet) {
+  @import 'tablet';
+}
+
+@media ($viewport-desktop) {
+  @import 'desktop';
+}

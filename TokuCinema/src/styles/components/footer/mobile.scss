@@ -1,0 +1,8 @@
+@import '../../globals.scss';
+
+.footer-root {
+  padding-bottom: $mobile-gutter;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
