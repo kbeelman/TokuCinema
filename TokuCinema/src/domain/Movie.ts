@@ -30,12 +30,12 @@ export class Movie implements ISearchable {
     ) {
         // Assign default route if none given, clean either way
         if (this.Path) {
-            this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();    
+            this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
         } else {
             this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
         }
         this.setReleaseDate();
-        
+
     }
 
     public setReleaseDate(): void {
@@ -52,7 +52,7 @@ export class Movie implements ISearchable {
 
             this.ReleaseYear = this.ReleaseDate.getFullYear();
         }
-        
+
     }
 
     public getDisplayName(): string {
@@ -106,11 +106,23 @@ export class Movie implements ISearchable {
         keywords.push(new Keyword(this.Distributor, false, false, true));
         keywords.push(new Keyword(this.ReleaseYear.toString(), false, false, true));
 
-        return keywords;
+        return this.cleanKeywords(keywords);
     }
 
     getIconName(): string {
         return 'movies';
+    }
+
+    private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
+      let cleanKeywords = new Array<Keyword>();
+
+      keywords.forEach(element => {
+        if (element.word !== "") {
+          cleanKeywords.push(element);
+        }
+      });
+
+      return cleanKeywords;
     }
 
     public doesAtlernateTitlesExist(): boolean {

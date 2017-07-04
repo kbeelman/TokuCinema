@@ -25,13 +25,13 @@
   </div>
 </div>
 
-<div *ngIf="this.navMenuOpen" 
+<div *ngIf="this.navMenuOpen"
   class="nav-menu-modal"
   (click)="this.closeNav()">
 </div>
 <!--Expanded Menu-->
 <div [ngClass]="{'global-nav-slide-in': this.navMenuOpen}" class="expanded-menu">
-      <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]" 
+      <a href="#" (click)="closeNav()" [routerLink]="[menuItem.link]"
         class="nav-menu-wrapper" *ngFor="let menuItem of menuItems; let i = index">
 
         <div class="tab-wrapper">
@@ -90,14 +90,14 @@
 </div>
 
 <!--Modal-->
-<div *ngIf="searchOpen" 
+<div *ngIf="searchOpen"
   class="nav-search-modal"
   (click)="this.closeNav()">
   <!--Search-->
     <app-search-results
       (click)="clearSearch(); closeNav();"
-      *ngIf="searchTerm && searchTerm.length > 2"
+      *ngIf="searchTerm && searchTerm.trim().length > 2"
       [searchItems]="this.getSearchItems()"
       [searchTerm]="searchTerm">
-    </app-search-results>  
+    </app-search-results>
 </div>

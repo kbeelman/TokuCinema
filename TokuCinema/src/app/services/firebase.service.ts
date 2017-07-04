@@ -9,8 +9,7 @@ import { Movie } from '../../domain/Movie';
 
 @Injectable()
 export class FirebaseService {
-    public cachedData: Array<
-        {
+    public cachedData: Array<{
           branchName: string,
           data: FirebaseListObservable<any>
         }> = new Array<{

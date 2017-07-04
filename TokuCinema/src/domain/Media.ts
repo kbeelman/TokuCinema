@@ -99,7 +99,7 @@ export class Media implements ISearchable{
 
             this.ReleaseYear = this.ReleaseDate.getFullYear();
         }
-        
+
     }
 
     public getDisplayName(): string {
@@ -119,7 +119,6 @@ export class Media implements ISearchable{
 
         // add exact matches
         keywords.push(new Keyword(this.Title, true, false, false));
-        //keywords.push(new Keyword(this.OriginalTitle, true, false, false));
 
         // add title elements (if more than one word)
         let titleElements = this.Title.split(' ');
@@ -128,28 +127,14 @@ export class Media implements ISearchable{
                 keywords.push(new Keyword(element, false, true, false));
             });
         }
-        // treat original title elements as title elements
-        // let originalTitleElements = this.OriginalTitle.split(' ');
-        // if (originalTitleElements.length > 1) {
-        //     originalTitleElements.forEach(element => {
-        //         keywords.push(new Keyword(element, false, true, false));
-        //     });
-        // }
 
         // add attribute keywords
-
         this.Medium.forEach(item => {
             let mediumWords = item.split('-');
             mediumWords.forEach(element => {
                 keywords.push(new Keyword(element, false, false, true));
             });
         })
-        // let mediumWords = this.Medium.split('-');
-        // mediumWords.forEach(element => {
-        //     keywords.push(new Keyword(element, false, false, true));
-        // });
-
-        //keywords.push(new Keyword(this.Format, false, false, true));
 
         let countryWords = this.Country.split(' ');
         countryWords.forEach(element => {
@@ -157,11 +142,23 @@ export class Media implements ISearchable{
         });
         keywords.push(new Keyword(this.Distributor, false, false, true));
 
-        return keywords;
+        return this.cleanKeywords(keywords);
     }
 
     getIconName(): string {
         return this.Medium[0];
+    }
+
+    private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
+      let cleanKeywords = new Array<Keyword>();
+
+      keywords.forEach(element => {
+        if (element.word !== "") {
+          cleanKeywords.push(element);
+        }
+      });
+
+      return cleanKeywords;
     }
 
 }

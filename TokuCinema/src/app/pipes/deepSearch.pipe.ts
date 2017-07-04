@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
   public transform(value, args) {
-    let worthSearching = (args !== undefined && args.length > 1 && value);
+    let worthSearching = (args !== undefined && args.trim().length > 1 && value);
 
     if (worthSearching) {
         let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
@@ -73,6 +73,7 @@ export class DeepSearch implements PipeTransform {
         cleanedSubStrings.forEach(searchElement => {
             value.forEach(resultElement => {
               resultElement.names.forEach(resultNameElement => {
+
                 if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
 
                   // create a result element with appropriate score
@@ -105,7 +106,6 @@ export class DeepSearch implements PipeTransform {
         results.sort(function(a, b){return a.score - b.score});
         results.reverse();
 
-        // return list
         // return deep search, if no results return standard search
         return (results.length > 0)? results : this.standardSearch(value, cleanSearchTerm);
     }
