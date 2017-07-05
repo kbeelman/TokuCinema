@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   year = new Date().getFullYear();
   footerMessage: Array<string> = [];
+  aboutLink: string = "/about";
 
   constructor() { }
 

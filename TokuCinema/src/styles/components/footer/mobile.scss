@@ -3,8 +3,14 @@
 .footer-root {
   padding-bottom: $mobile-gutter;
   display: inline;
+  font-size: small;
+  line-height: 1.3em;
 
   div {
     text-align: center;
+  }
+
+  a {
+    border-bottom: 1px solid #67c9ff;
   }
 }
