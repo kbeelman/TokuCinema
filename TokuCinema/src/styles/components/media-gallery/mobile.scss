@@ -195,6 +195,22 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
   left: 0;
   z-index: 6;
   background-color: $modal-background;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+
+  svg {
+    fill: white;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 340px;
+    left: 400px;
+  }
+}
+
+.appear-in-modal {
+  position: fixed;
+  z-index: 6;
+  bottom: 0;
+  width: 1140px;
 }
