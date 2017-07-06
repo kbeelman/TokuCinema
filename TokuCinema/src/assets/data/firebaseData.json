@@ -392,7 +392,7 @@
                                 {
                                     "AlternateTitle": [{"TitleType":"Video","TitleValue":"Godzilla vs. Mothra"}],
                                     "Name": "UPA Master",
-                                    "MediaPath": [{"Descriptor":"2001 R1 Classic Media DVD","Path":"Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"}],
+                                    "MediaPath": [{"Descriptor":"2001 R1 Classic Media DVD","Path":"Mothra-vs-Godzilla-Classic-Media-DVD-2002-09-17"}],
                                     "Runtime": "87:21",
                                     "ReleaseDate": "Circa 1983",
                                     "Notes": [
@@ -649,7 +649,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Classic Media",
             "CatalogCode": "",
             "UPC": "",
@@ -676,7 +676,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Classic Media",
             "CatalogCode": "03125OSL1",
             "UPC": "037117031252",
@@ -705,10 +705,16 @@
             "ColorSystem": "NTSC",
             "Screencaps": [
                 "https://i.imgur.com/EBne34b.png",
+                "https://i.imgur.com/Xi2uWSS.png",
+                "https://i.imgur.com/qfs4TyN.png",
                 "https://i.imgur.com/rqsa5I1.png",
+                "https://i.imgur.com/8iV2Xgc.png",
                 "https://i.imgur.com/61pReJL.png",
                 "https://i.imgur.com/f8X7iyA.png",
-                "https://i.imgur.com/e7w0tFH.png"],
+                "https://i.imgur.com/zuyi4nP.png",
+                "https://i.imgur.com/ltXVOrY.png",
+                "https://i.imgur.com/e7w0tFH.png",
+                "https://i.imgur.com/DCzcvs2.png"],
             "Distributor": "Classic Media",
             "CatalogCode": "LVD 54288",
             "UPC": "074645428895",
@@ -718,7 +724,7 @@
             "MoviePath": ["Godzilla-Mothra-1964"],
             "OriginalRelease": "",
             "BoxArt": "https://images-na.ssl-images-amazon.com/images/I/51WPVGG7Z3L.jpg",
-            "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01"
+            "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2002-09-17"
         },
         {
             "Title": "Godzilla: Tokyo S.O.S. & Godzilla Final Wars",
@@ -736,7 +742,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"Blu-ray", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Sony Pictures Home Entertainment",
             "CatalogCode": "43689",
             "UPC": "043396436893",
@@ -765,7 +771,7 @@
             "Country": "Japan",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Toho Video",
             "CatalogCode": "TDV2864D",
             "UPC": "4988104022431",
@@ -792,7 +798,7 @@
             "Country": "United Kingdom",
             "MediumCount": [{"Medium":"DVD", "Count": "1"}],
             "ColorSystem": "PAL",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "BFI",
             "CatalogCode": "BFIVD680",
             "UPC": "5035673006801",
@@ -819,7 +825,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"Super 8", "Count": "1"}],
             "ColorSystem": "",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Ken Films",
             "CatalogCode": "277",
             "UPC": "",
@@ -846,7 +852,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"LaserDisc", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [""],
+            "screencaps": [],
             "Distributor": "Image Entertainment",
             "CatalogCode": "ID6507NW",
             "UPC": "014381650761",
@@ -873,7 +879,7 @@
             "FeaturedScreenShots": [0,1,2,3,4]
         },
         {
-            "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2012-07-01",
+            "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2002-09-17",
             "Overview": "Lorem ipsum",
             "Video": [{"Score":"1",
                 "Description":"Lorem ipsum"}],
@@ -883,7 +889,7 @@
                 "Description":"Lorem ipsum"}],
             "Overall": [{"Score":"1",
                 "Description":"Lorem ipsum"}],
-            "FeaturedScreenShots": [0,1,2,3,4]
+            "FeaturedScreenShots": [0,3,5,6,7]
         }
     ]
 }

@@ -35,10 +35,10 @@ $white: #fff;
     width: 100%;
 
     div {
-      background-size: auto 400px;
+      background-size: 90% auto;
       background-repeat: no-repeat;
       background-position: center;
-      height: 400px;
+      height: 200px;
       width: 100%;
     }
   }
@@ -53,7 +53,7 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
 
 %gallery-nav-button {
   position: absolute;
-  z-index: 10;
+  z-index: 5;
   cursor: pointer;
 
   div {
