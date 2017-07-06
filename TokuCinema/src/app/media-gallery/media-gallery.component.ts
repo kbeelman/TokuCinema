@@ -18,6 +18,7 @@ export class MediaGalleryComponent implements OnInit{
     activeItemSource: string | SafeResourceUrl;
     galleryVideos: Array<GalleryVideo> = new Array<GalleryVideo>();
     itemCount: number = 0;
+    showItem: boolean = false;
 
     carouselInterval: number = 100;
     currentCarouselMargin: number = 0;
@@ -34,6 +35,10 @@ export class MediaGalleryComponent implements OnInit{
             this.setupVideos();
         }
         this.chooseDefaultActiveItem();
+    }
+
+    toggleShowItem() {
+        this.showItem = !this.showItem;
     }
 
     shouldInit(array: Array<any>) {
