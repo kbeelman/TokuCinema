@@ -244,11 +244,14 @@
     </div>
   </div>
 
-  <media-gallery *ngIf="mediaDetails.Screencaps"
-    [images]="mediaDetails.Screencaps"
-    [imagesAlt]="[]"
-    [videoIds]="[]">
-  </media-gallery>
+  <div *ngIf="mediaDetails.Screencaps">
+    <div><h2>{{mediaDetails.Medium}} Image Gallery</h2></div>
+    <media-gallery 
+      [images]="mediaDetails.Screencaps"
+      [imagesAlt]="[]"
+      [videoIds]="[]">
+    </media-gallery>
+  </div>
 
   <div class="media-review">
     <div *ngIf="mediaDetails.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
