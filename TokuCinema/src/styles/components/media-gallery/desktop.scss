@@ -1,41 +1,18 @@
 @import '../../globals.scss';
 
-.about-gallery {
+.gallery-wrapper {
   margin-bottom: 45px;
   margin-top: 45px;
-
-
-  .focus-image {
-    div {
-      // height: 300px;
-    }
-  }
 }
 
 .gallery-nav-button-left {
   left: auto;
   margin-right: 420px;
   left: $desktop-gutter;
-
-  div {
-    // height: 100px;
-  }
 }
 
 .gallery-nav-button-right {
   right: $desktop-gutter;
-
-  div {
-    // height: 100px;
-  }
-}
-
-.slider-carousel-image {
-  // height: 100px;
-}
-
-.focsed-video {
-  // height: 300px;
 }
 
 .youtube-play-circle {
@@ -48,4 +25,24 @@
     left: 0;
     width: 30%;
   }
+}
+
+.appear-in-modal {
+  width: 1140px;
+  left: auto;
+
+  .gallery-nav-button-right{
+    position: absolute;
+    right: $desktop-gutter;
+  }
+  .gallery-nav-button-left{
+    position: absolute;
+    left: $desktop-gutter;
+  }
+}
+
+.close-icon {
+  text-align: right;
+  margin-top: 0;
+  margin-right: calc((120% - 1140px) / 2);
 }

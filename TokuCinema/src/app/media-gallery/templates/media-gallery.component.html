@@ -1,29 +1,23 @@
-<div *ngIf="activeItem" class="about-gallery">
-
+<div *ngIf="activeItem" class="gallery-wrapper">
     <!--Modal-->
-    <div class="gallery-modal" 
-        *ngIf="this.showItem">
+    <div class="gallery-modal" *ngIf="this.showItem">
 
         <!--Close Icon-->
-        <svg (click)="this.toggleShowItem()" 
-            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/>
-        </svg>
+        <div class="close-icon">
+            <svg (click)="this.toggleShowItem()" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/>
+            </svg>
+        </div>
 
         <!--Active 'Focused' Content-->
         <div *ngFor="let image of galleryImages" class="focus-image">
-
             <!--If image-->
-            <div *ngIf="image.GetSource() === activeItem.GetSource()" [ngStyle]="{
-                    'background-image': 'url(' + activeItem.Url + ')',
-                    'alt': 'activeImage.Alt'
-                }">
+            <div *ngIf="image.GetSource() === activeItem.GetSource()">
+                <img [src]="activeItem.Url">
             </div>
-
         </div>
 
         <div *ngFor="let video of galleryVideos" class="focus-image">
-
             <!--If video-->
             <iframe
                 *ngIf="video.GetSource() === activeItem.GetSource()"
@@ -44,10 +38,7 @@
         [ngClass]="{'appear-in-modal': this.showItem}">
 
         <ul>
-            <li
-                [ngStyle]="{
-                    'margin-left': currentCarouselMargin + '%'
-                }">
+            <li [ngStyle]="{ 'margin-left': currentCarouselMargin + '%' }">
 
             <!--Left arrow-->
             <div *ngIf="canCarouselLeft()" class="gallery-nav-button-left" (click)="carouselLeft()">

@@ -15,8 +15,6 @@
     $transitions: append($transitions, $trans, comma);
   }
 
-  // $transitions = (opacity, (0.2s ease)), (transform, (0.5s ease-in))
-
   -webkit-transition: trans-prefix($transitions, webkit);
   -moz-transition: trans-prefix($transitions, moz);
   -o-transition: trans-prefix($transitions, o);
@@ -26,21 +24,22 @@
 
 $white: #fff;
 
-.about-gallery {
+.gallery-wrapper {
   margin-bottom: 40px;
   margin-top: 40px;
   width: 100%;
 
   .focus-image {
     width: 100%;
-    position: absolute;
+    text-align: center;
 
     div {
-      background-size: 90% auto;
-      background-repeat: no-repeat;
-      background-position: center;
       height: 200px;
-      width: 100%;
+    }
+
+    img {
+      width: auto;
+      height: 200px;
     }
   }
 }
@@ -137,10 +136,6 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
   padding: 0;
   text-align: center;
 
-  div {
-    // display: flex;
-  }
-
   li {
     background-size: cover;
     cursor: pointer;
@@ -189,10 +184,10 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
 }
 
 .gallery-modal {
-  @extend %center-children;
   position: fixed;
   top: 0;
   left: 0;
+  margin-top:80px;
   z-index: 6;
   background-color: $modal-background;
   height: 100%;
@@ -202,15 +197,30 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
     fill: white;
     height: 40px;
     width: 40px;
-    position: relative;
-    bottom: 340px;
-    left: 400px;
+    bottom: 125px;
+    left: 125px;
+    cursor: pointer;
   }
 }
 
 .appear-in-modal {
   position: fixed;
   z-index: 6;
-  bottom: 0;
-  width: 1140px;
+  bottom: 5%;
+  width: 80%;
+  left: 10%;
+  .gallery-nav-button-right{
+    position: fixed;
+    right: 3%;
+  }
+  .gallery-nav-button-left{
+    position: fixed;
+    left: 2.8%;
+  }
+}
+
+.close-icon {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 10%;
 }

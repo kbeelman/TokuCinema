@@ -15,15 +15,18 @@
   }
 }
 
-.about-gallery {
+.gallery-wrapper {
 
   .focus-image {
 
     div {
-      background-size: auto 600px;
       height: 600px;
     }
 
+    img {
+      width: auto;
+      height: 600px;
+    }
   }
 }
 
@@ -34,4 +37,11 @@
 
 .focsed-video {
   height: 800px;
+}
+
+.gallery-modal {
+  svg {
+    bottom: 340px;
+    left: 400px;
+  }
 }
