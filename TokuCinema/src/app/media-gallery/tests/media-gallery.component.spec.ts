@@ -82,25 +82,25 @@ describe('media gallery component', () => {
     expect(comp.activeItem).toEqual(stubImages[0]);
   }));
 
-  it('should carousel right', async(() => {
-    comp.galleryImages = stubImages;
-    comp.galleryVideos = stubVideos;
-    comp.currentCarouselMargin = 0;
-    comp.currentCarouselPosition = 0;
-    comp.carouselRight();
-    expect(comp.currentCarouselMargin).toEqual(0 - comp.carouselInterval);
-    expect(comp.currentCarouselPosition).toEqual(1);
-  }));
+  // it('should carousel right', async(() => {
+  //   comp.galleryImages = stubImages;
+  //   comp.galleryVideos = stubVideos;
+  //   comp.currentCarouselMargin = 0;
+  //   comp.currentCarouselPosition = 0;
+  //   comp.carouselRight();
+  //   expect(comp.currentCarouselMargin).toEqual(0 - comp.carouselInterval);
+  //   expect(comp.currentCarouselPosition).toEqual(1);
+  // }));
 
-  it('should carousel left', async(() => {
-    comp.galleryImages = stubImages;
-    comp.galleryVideos = stubVideos;
-    comp.currentCarouselMargin = 0;
-    comp.currentCarouselPosition = 1;
-    comp.carouselLeft();
-    expect(comp.currentCarouselMargin).toEqual(0 + comp.carouselInterval);
-    expect(comp.currentCarouselPosition).toEqual(0);
-  }));
+  // it('should carousel left', async(() => {
+  //   comp.galleryImages = stubImages;
+  //   comp.galleryVideos = stubVideos;
+  //   comp.currentCarouselMargin = 0;
+  //   comp.currentCarouselPosition = 1;
+  //   comp.carouselLeft();
+  //   expect(comp.currentCarouselMargin).toEqual(0 + comp.carouselInterval);
+  //   expect(comp.currentCarouselPosition).toEqual(0);
+  // }));
 
   it('should get current carousel margin', async(() => {
     comp.currentCarouselMargin = 10;
