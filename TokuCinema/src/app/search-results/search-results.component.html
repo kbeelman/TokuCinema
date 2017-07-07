@@ -1,26 +1,40 @@
 <div class="results-root">
   <div class="result-lists-wrapper">
-    <div>
-      <h3>Movies</h3>
-      <div class="result-list">
-        <app-search-result-tab
-          class="result-item"
-          *ngFor="let item of movieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
-          [resultItem]="item"
-          [pathRoot]="'movies'">
-        </app-search-result-tab>
+
+    <!--Movies Results-->
+    <div *ngIf="movieItems | deepSearch : searchTerm; let screenedMovieItems">
+      <div *ngIf="screenedMovieItems.length; else noresults">
+        <h3>Movies</h3>
+        <div class="result-list">
+          <app-search-result-tab
+            class="result-item"
+            *ngFor="let item of screenedMovieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
+            [resultItem]="item"
+            [pathRoot]="'movies'">
+          </app-search-result-tab>
+        </div>
       </div>
     </div>
-    <div>
-      <h3>Home Media Releases</h3>
-      <div class="result-list">
-        <app-search-result-tab
-          class="result-item"
-          *ngFor="let item of mediaItems | deepSearch : searchTerm | slice:0:6; let i = index;"
-          [resultItem]="item"
-          [pathRoot]="'media'">
-        </app-search-result-tab>
+    <ng-template #noresults>
+      <p>No movies found for the search "{{searchTerm}}"</p>
+    </ng-template>
+
+    <!--Media Results-->
+    <div *ngIf="mediaItems | deepSearch : searchTerm; let screenedMediaItems">
+      <div *ngIf="screenedMediaItems.length; else noresults">
+        <h3>Home Media Releases</h3>
+        <div class="result-list">
+          <app-search-result-tab
+            class="result-item"
+            *ngFor="let item of screenedMediaItems | deepSearch : searchTerm | slice:0:6; let i = index;"
+            [resultItem]="item"
+            [pathRoot]="'media'">
+          </app-search-result-tab>
+        </div>
       </div>
+      <ng-template #noresults>
+        <p>No home media releases found for the search "{{searchTerm}}"</p>
+      </ng-template>
     </div>
   </div>
 </div>
