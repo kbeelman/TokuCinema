@@ -23,7 +23,7 @@ export class SearchResultsComponent implements OnInit {
     if(this.searchItems) {
       this.searchItems.forEach(element => {
         if (element.getType() === ItemType.Movie) {
-          this.movieItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Movie', path: element.getPath(), score: 0, iconName: element.getIconName()});
+          this.movieItems.push({name: element.getDisplayName(this.searchTerm), names: element.getKeywords(), type: 'Movie', path: element.getPath(), score: 0, iconName: element.getIconName()});
         } else if (element.getType() === ItemType.Media) {
           this.mediaItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Media', path: element.getPath(), score: 0, iconName: element.getIconName()});
         }
