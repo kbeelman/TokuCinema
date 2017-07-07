@@ -35,9 +35,15 @@
   margin-top: $mobile-gutter;
   margin-bottom: $mobile-gutter;
   width: 100%;
+  position: fixed;
+  top: 60px;
+  height: 100vh;
+  left: 0;
+  background-color: $modal-background;
 
   .filter-option {
-
+    margin-left: $mobile-gutter;
+    margin-right: $mobile-gutter;
     margin-top: 20px;
 
     select {
@@ -52,7 +58,6 @@
 
 .clear-button {
   height: 40px;
-  width: 100%;
 
   input {
     height: 100%;

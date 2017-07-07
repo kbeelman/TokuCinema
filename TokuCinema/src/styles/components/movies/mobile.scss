@@ -11,3 +11,21 @@
   text-align: center;
 }
 
+.toggle-filters {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: $primary-foreground;
+  display: flex;
+  justify-content: center;
+
+  div {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: $primary-background;
+    height: 100%;
+  }
+}

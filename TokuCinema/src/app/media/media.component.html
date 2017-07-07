@@ -42,7 +42,11 @@
     </div>
   </div>
 
-  <a class="toggle-filters" (click)="this.toggleShowFilters()">{{this.showFilters}}</a>
+  <a class="toggle-filters" (click)="this.toggleShowFilters()">
+    <div>
+      {{this.showFilters}}
+    </div>
+  </a>
 
   <app-media-search-results
     [mediaItems]="this.mediaItems"

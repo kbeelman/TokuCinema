@@ -22,3 +22,16 @@
 .filter-option {
   margin-top: 0;
 }
+
+.filter-section {
+  position: relative;
+  top: auto;
+  height: auto;
+  left: auto;
+  background-color: inherit;
+
+  .filter-option {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
