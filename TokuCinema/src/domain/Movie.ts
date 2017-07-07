@@ -60,13 +60,17 @@ export class Movie implements ISearchable {
 
         if (this.AlternateTitles && this.AlternateTitles.length) {
             let relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0);
-            console.log(relaventAltTitle);
 
             if (relaventAltTitle) {
               displayName += "<p><em>" + relaventAltTitle.TitleValue + "</em></p>";
             } else {
               displayName += "<p><em>" + this.AlternateTitles[0].TitleValue + "</em></p>"
             }
+        }
+
+        if (displayName.length > 90) {
+          displayName = displayName.slice(0, 90);
+          displayName += '...';
         }
 
         return displayName;
