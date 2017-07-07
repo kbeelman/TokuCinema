@@ -59,7 +59,8 @@ export class Movie implements ISearchable {
         let displayName = this.OfficialTitle + " (" + this.ReleaseYear + ")";
 
         if (this.AlternateTitles && this.AlternateTitles.length) {
-            let relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0);
+            let relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().trim().replace(/\W/g, '')
+              .indexOf(searchTerm.toLowerCase().trim().replace(/\W/g, '')) >= 0);
 
             if (relaventAltTitle) {
               displayName += "<p><em>" + relaventAltTitle.TitleValue + "</em></p>";
@@ -68,8 +69,8 @@ export class Movie implements ISearchable {
             }
         }
 
-        if (displayName.length > 90) {
-          displayName = displayName.slice(0, 90);
+        if (displayName.length > 75) {
+          displayName = displayName.slice(0, 75);
           displayName += '...';
         }
 
