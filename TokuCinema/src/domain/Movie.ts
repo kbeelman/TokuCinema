@@ -60,7 +60,8 @@ export class Movie implements ISearchable {
 
         if (this.AlternateTitles && this.AlternateTitles.length) {
             let relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().trim().replace(/\W/g, '')
-              .indexOf(searchTerm.toLowerCase().trim().replace(/\W/g, '')) >= 0);
+              .indexOf(searchTerm.toLowerCase().trim().replace(/\W/g, '')) >= 0
+              && item.TitleType !== 'Literal Translation');
 
             if (relaventAltTitle) {
               displayName += "<p><em>" + relaventAltTitle.TitleValue + "</em></p>";
