@@ -56,7 +56,11 @@ export class Movie implements ISearchable {
     }
 
     public getDisplayName(): string {
-        return this.OfficialTitle + " (" + this.ReleaseYear + ")";
+        let displayName = this.OfficialTitle + " (" + this.ReleaseYear + ")";
+        if (this.AlternateTitles && this.OfficialTitle.length + this.AlternateTitles[0].TitleValue.length < 50) {
+            displayName += "<p><em>" + this.AlternateTitles[0].TitleValue + "</em></p>"
+        }
+        return displayName;
     }
 
     public getType(): ItemType {

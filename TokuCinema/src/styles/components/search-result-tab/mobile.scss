@@ -16,7 +16,8 @@
 }
 
 .result-item-name {
-  display: flex;
+  display: inline-block;
+  overflow: hidden;
   align-items: center;
   width: 100%;
   justify-content: center;
