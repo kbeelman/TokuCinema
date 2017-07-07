@@ -1,0 +1,82 @@
+// Variables
+$mobile-gutter: 20px;
+$tablet-gutter: 40px;
+$desktop-gutter: calc((100% - 1140px) / 2);
+$desktop-width: 1140px;
+$below-header: $mobile-gutter + 80px;
+
+// Viewports
+$viewport-tablet: 768px;
+$viewport-desktop: 1140px;
+
+// Colors
+$primary-background: #181818;
+$secondary-background: #222;
+$tertiary-background: #363636;
+
+$primary-foreground: #efefef;
+$secondary-foreground: #cccccc;
+$tertiary-foreground: #999999;
+
+$primary-accent: #f22929;
+$secondary-accent: #00a810;
+
+$modal-background: rgba(33,34,34,.96);
+$primary-transparant-background: rgba(33,34,34,.5);
+
+// Placeholders
+%svg-icon {
+  height: auto;
+  width: 30px;
+}
+
+%center-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+%mobile-frame {
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+  margin-bottom: $mobile-gutter;
+  margin-top: $below-header;
+}
+
+%tablet-frame {
+  margin-left: $tablet-gutter;
+  margin-right: $tablet-gutter;
+  margin-bottom: $tablet-gutter;
+  margin-top: $tablet-gutter + 80px;
+}
+
+%desktop-frame {
+  margin-left: $desktop-gutter;
+  margin-right: $desktop-gutter;
+}
+
+// Mixins
+@mixin hero-image($imageUrl, $background-position, $filter) {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  filter: $filter;
+  background-repeat: no-repeat;
+  background-position: $background-position;
+  background-size: cover;
+  background-image: url($imageUrl);
+}
+
+@mixin stroke-me($fill-color, $stroke-color, $width) {
+  -moz-text-fill-color: $fill-color;
+  -webkit-text-fill-color: $fill-color;
+  -moz-text-stroke-color: $stroke-color;
+  -webkit-text-stroke-color: $stroke-color;
+  -moz-text-stroke-width: $width;
+  -webkit-text-stroke-width: $width;
+}
