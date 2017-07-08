@@ -57,6 +57,7 @@ export class MoviesComponent implements OnInit {
     this.productionCompanyFilter = '';
     this.seriesFilter = '';
     this.spokenLanguageFilter = '';
+    this.searchTerm = '';
   }
 
   populateFiltersWithTheseOptions(movie: Movie): void {

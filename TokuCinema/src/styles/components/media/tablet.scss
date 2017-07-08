@@ -35,3 +35,11 @@
     margin-right: 0;
   }
 }
+
+.clear-button:hover {
+  input {
+    cursor: pointer;
+    background-color: $primary-foreground;
+    color: $primary-background;
+  }
+}
