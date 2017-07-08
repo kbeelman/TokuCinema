@@ -1,4 +1,5 @@
 {
+    "directory" : [ "movies", "media", "mediaReview", "alternateVersions" ],
     "movies": [
         {
             "OfficialTitle": "Godzilla",
