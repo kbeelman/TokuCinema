@@ -100,6 +100,7 @@ export class MediaComponent implements OnInit {
     this.regionFilter = '';
     this.spokenLanguageFilter = '';
     this.subtitleLanguageFilter = '';
+    this.searchTerm = '';
   }
 
   // Gurantees filters are only populated with viable options

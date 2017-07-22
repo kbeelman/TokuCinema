@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule }   from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 // External Dependencies
 import { AngularFireModule } from 'angularfire2';
@@ -27,6 +27,8 @@ import { MediaSearchResultsComponent } from './media-search-results/media-search
 import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
 import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
+import { FooterComponent } from './footer/footer.component';
 
 // Pipes
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';
@@ -40,8 +42,6 @@ import { FirebaseService } from './services/firebase.service';
 
 // Firebase config
 import { environment } from '../environments/environment';
-import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
-import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
