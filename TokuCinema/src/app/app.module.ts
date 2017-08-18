@@ -115,7 +115,8 @@ import { environment } from '../environments/environment';
         component: NotFoundComponent
       },
       {
-        path: '**', redirectTo: '/404'
+        path: '**', 
+        component: NotFoundComponent
       }
       // {
       //   path: 'media-form',
