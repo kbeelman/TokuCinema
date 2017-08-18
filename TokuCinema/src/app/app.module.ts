@@ -22,7 +22,6 @@ import { DevCardComponent } from './dev-card/dev-card.component';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 import { MediaCardComponent } from './media-card/media-card.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
-import { MediaFormComponent } from './media-form/media-form.component';
 import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
 import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
 import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
@@ -61,7 +60,6 @@ import { environment } from '../environments/environment';
     MovieTitleSearch,
     MediaFiltersSearch,
     MovieFiltersSearch,
-    MediaFormComponent,
     MediaSearchResultsComponent,
     MoviesSearchResultsComponent,
     DeepSearch,
@@ -118,10 +116,6 @@ import { environment } from '../environments/environment';
         path: '**', 
         component: NotFoundComponent
       }
-      // {
-      //   path: 'media-form',
-      //   component: MediaFormComponent
-      // },
     ]),
   ],
   providers: [FirebaseService],
