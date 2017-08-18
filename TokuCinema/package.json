@@ -1,6 +1,6 @@
 {
   "name": "toku-cinema",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,6 @@
     "test": "ng test --code-coverage",
     "test-once": "ng test --single-run",
     "lint": "ng lint",
-    "e2e": "ng e2e",
     "duplication": "jscpd --path ./src/ --languages typescript"
   },
   "private": true,
@@ -34,9 +33,6 @@
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.3.1",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",

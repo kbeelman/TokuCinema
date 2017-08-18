@@ -11,20 +11,20 @@ Monster Movie Review Website
         - Nodejs: 6.9.6   download Windows installer here: [Node](ttps://nodejs.org/en/download/) 
         - npm: 3.10.10 (bundled with Nodejs)
 
-2. Install Gulp.js
+<!-- 2. Install Gulp.js
     - Install Gulp globally on your machine  
-        - run cmd: `npm install -g gulp`
+        - run cmd: `npm install -g gulp` -->
 
-3. Install Angular CLI globally on your machine
+2. Install Angular CLI globally on your machine
     - Install Angular CLI version: "1.0.5" or greater  
         - run cmd: `npm install -g @angular/cli`
 
-4. Install project packages
+3. Install project packages
     - Clone this Repo
         - run cmd: `git clone https://github.com/bayes343/TokuCinema.git`
     - "cd" into the nested "TokuCinema" folder (The root of the repo is also named TokuCinema) and run the following commands: 
         - run cmd: `npm install`  
-        - run cmd: `npm install gulp`  
+        <!-- - run cmd: `npm install gulp`   -->
 
 
 ## Running the Application for Development
@@ -35,9 +35,9 @@ Monster Movie Review Website
     
     *You should now be able to hit the site at "localhost:4200"*
     
-2. Run Gulp to Compile Sass
+<!-- 2. Run Gulp to Compile Sass
     - cd into the inner "TokuCinema" folder if you're not already there  
-        - run cmd: `gulp`
+        - run cmd: `gulp` -->
 
 
 ## Debugging in VS Code
