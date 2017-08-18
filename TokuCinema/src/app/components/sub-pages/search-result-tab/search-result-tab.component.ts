@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Keyword } from '../../domain/Keyword';
+import { Keyword } from '../../../domain/Keyword';
 
 @Component({
   selector: 'app-search-result-tab',

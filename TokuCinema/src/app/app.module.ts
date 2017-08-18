@@ -10,24 +10,24 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 // Components
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './about/about.component';
-import { NavComponent } from './nav/nav.component';
-import { MoviesComponent } from './movies/movies.component';
-import { MoviedetailsComponent } from './moviedetails/moviedetails.component';
-import { MediaComponent } from './media/media.component';
-import { MediaBoxsetsComponent } from './media-boxsets/media-boxsets.component';
-import { MediadetailsComponent } from './mediadetails/mediadetails.component';
-import { DevCardComponent } from './dev-card/dev-card.component';
-import { MovieCardComponent } from './movie-card/movie-card.component';
-import { MediaCardComponent } from './media-card/media-card.component';
-import { SearchResultsComponent } from './search-results/search-results.component';
-import { MediaSearchResultsComponent } from './media-search-results/media-search-results.component';
-import { MoviesSearchResultsComponent } from './movies-search-results/movies-search-results.component';
-import { SearchResultTabComponent } from './search-result-tab/search-result-tab.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { NavComponent } from './components/global/nav/nav.component';
+import { MoviesComponent } from './components/pages/movies/movies.component';
+import { MoviedetailsComponent } from './components/pages/moviedetails/moviedetails.component';
+import { MediaComponent } from './components/pages/media/media.component';
+import { MediaBoxsetsComponent } from './components/sub-pages/media-boxsets/media-boxsets.component';
+import { MediadetailsComponent } from './components/pages/mediadetails/mediadetails.component';
+import { DevCardComponent } from './components/sub-pages/dev-card/dev-card.component';
+import { MovieCardComponent } from './components/sub-pages/movie-card/movie-card.component';
+import { MediaCardComponent } from './components/sub-pages/media-card/media-card.component';
+import { SearchResultsComponent } from './components/sub-pages/search-results/search-results.component';
+import { MediaSearchResultsComponent } from './components/sub-pages/media-search-results/media-search-results.component';
+import { MoviesSearchResultsComponent } from './components/sub-pages/movies-search-results/movies-search-results.component';
+import { SearchResultTabComponent } from './components/sub-pages/search-result-tab/search-result-tab.component';
+import { NotFoundComponent } from './components/pages/not-found/not-found.component';
 import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/global/footer/footer.component';
 
 // Pipes
 import { MediaTitleSearch } from './pipes/media/mediaTitle.pipe';

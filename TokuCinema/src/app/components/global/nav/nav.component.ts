@@ -1,10 +1,10 @@
-import { DomainBuilder, DataType } from './../../domain/Builder';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angular/core';
-import { Media } from '../../domain/Media';
-import { Movie } from '../../domain/Movie';
-import { ISearchable } from '../../domain/ISearchable';
+import { Media } from '../../../domain/Media';
+import { Movie } from '../../../domain/Movie';
+import { ISearchable } from '../../../domain/ISearchable';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
-import { FirebaseService } from '../services/firebase.service';
+import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-nav',

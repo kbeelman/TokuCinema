@@ -1,6 +1,6 @@
-import { MovieFilterPackage } from './../../domain/MovieFilterPackage';
-import { MovieTitleSearch } from './../pipes/movies/movieTitle.pipe';
-import { Movie } from './../../domain/Movie';
+import { MovieFilterPackage } from '../../../domain/MovieFilterPackage';
+import { MovieTitleSearch } from '../../../pipes/movies/movieTitle.pipe';
+import { Movie } from '../../../domain/Movie';
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
 
 @Component({

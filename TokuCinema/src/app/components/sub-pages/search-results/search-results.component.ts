@@ -1,10 +1,10 @@
 import { element } from 'protractor';
 import { Component, OnInit, Input } from '@angular/core';
-import { ISearchable } from '../../domain/ISearchable';
-import { DeepSearch } from '../pipes/deepSearch.pipe';
-import { MediaDetails } from '../../domain/MediaDetails';
-import { ItemType } from '../../domain/ItemType';
-import { Keyword } from '../../domain/Keyword';
+import { ISearchable } from '../../../domain/ISearchable';
+import { DeepSearch } from '../../../pipes/deepSearch.pipe';
+import { MediaDetails } from '../../../domain/MediaDetails';
+import { ItemType } from '../../../domain/ItemType';
+import { Keyword } from '../../../domain/Keyword';
 
 @Component({
   selector: 'app-search-results',

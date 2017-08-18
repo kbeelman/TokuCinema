@@ -2,10 +2,10 @@ import { element } from 'protractor';
 import { Injectable, Inject } from '@angular/core';
 import { Observable } from "rxjs/Rx";
 import { AngularFireDatabase, FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
-import { StringCleaner, StringType } from '../../domain/StringCleaner';
-import { DomainBuilder, DataType } from '../../domain/Builder';
-import { Media } from '../../domain/Media';
-import { Movie } from '../../domain/Movie';
+import { StringCleaner, StringType } from '../domain/StringCleaner';
+import { DomainBuilder, DataType } from '../domain/Builder';
+import { Media } from '../domain/Media';
+import { Movie } from '../domain/Movie';
 
 @Injectable()
 export class FirebaseService {

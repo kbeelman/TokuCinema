@@ -1,7 +1,7 @@
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
-import { MovieFiltersSearch } from './../pipes/movies/movieFilters.pipe';
-import { MovieTitleSearch } from './../pipes/movies/movieTitle.pipe';
+import { MovieFiltersSearch } from '../../../pipes/movies/movieFilters.pipe';
+import { MovieTitleSearch } from '../../../pipes/movies/movieTitle.pipe';
 import { MovieCardComponent } from './../movie-card/movie-card.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 

@@ -1,8 +1,8 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { Movie } from '../../domain/Movie';
+import { Movie } from '../../../domain/Movie';
 import { FirebaseListObservable } from 'angularfire2/database';
-import { DomainBuilder, DataType } from './../../domain/Builder';
-import { FirebaseService } from '../services/firebase.service';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-movies',

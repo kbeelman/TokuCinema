@@ -1,8 +1,8 @@
-import { MediaFiltersSearch } from './../pipes/media/mediaFilters.pipe';
-import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
-import { MediaTitleSearch } from '../pipes/media/mediaTitle.pipe';
+import { MediaFiltersSearch } from '../../../pipes/media/mediaFilters.pipe';
+import { MediaFilterPakage } from '../../../domain/MediaFilterPackage';
+import { MediaTitleSearch } from '../../../pipes/media/mediaTitle.pipe';
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
-import { Media } from '../../domain/Media';
+import { Media } from '../../../domain/Media';
 
 @Component({
   selector: 'app-media-search-results',

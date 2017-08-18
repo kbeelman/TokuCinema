@@ -1,15 +1,15 @@
 import { NotFoundComponent } from './../not-found/not-found.component';
-import { MediaGalleryComponent } from './../media-gallery/media-gallery.component';
+import { MediaGalleryComponent } from '../../../media-gallery/media-gallery.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { MediadetailsComponent } from './mediadetails.component';
-import { Movie } from '../../domain/Movie';
-import { DomainBuilder, DataType } from '../../domain/Builder';
-import { FirebaseService } from '../services/firebase.service';
+import { Movie } from '../../../domain/Movie';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { FirebaseService } from '../../../services/firebase.service';
 
 describe('MediadetailsComponent', () => {
   let component: MediadetailsComponent;

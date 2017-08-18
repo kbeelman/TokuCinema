@@ -1,4 +1,4 @@
-import { FirebaseService } from './../services/firebase.service';
+import { FirebaseService } from '../../../services/firebase.service';
 import { element } from 'protractor';
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { ISubscription } from "rxjs/Subscription";
@@ -8,10 +8,10 @@ import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
 import { FirebaseListObservable } from 'angularfire2/database';
 
-import { Movie } from '../../domain/Movie';
-import { MovieAlternateVersion } from '../../domain/MovieAlternateVersion';
-import { DomainBuilder, DataType } from './../../domain/Builder';
-import { StringCleaner, StringType } from './../../domain/StringCleaner';
+import { Movie } from '../../../domain/Movie';
+import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { StringCleaner, StringType } from '../../../domain/StringCleaner';
 
 @Component({
   selector: 'app-moviedetails',

@@ -5,13 +5,13 @@ import { ISubscription } from "rxjs/Subscription";
 import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
-import { FirebaseService } from '../services/firebase.service';
-import { Movie } from '../../domain/Movie';
-import { Media } from '../../domain/Media';
-import { MediaDetails } from '../../domain/MediaDetails';
-import { MediaReview } from '../../domain/MediaReview';
-import { DomainBuilder, DataType } from './../../domain/Builder';
-import { StringCleaner, StringType } from './../../domain/StringCleaner';
+import { FirebaseService } from '../../../services/firebase.service';
+import { Movie } from '../../../domain/Movie';
+import { Media } from '../../../domain/Media';
+import { MediaDetails } from '../../../domain/MediaDetails';
+import { MediaReview } from '../../../domain/MediaReview';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { StringCleaner, StringType } from '../../../domain/StringCleaner';
 
 @Component({
   selector: 'app-mediadetails',

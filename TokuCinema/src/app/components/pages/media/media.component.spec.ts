@@ -1,15 +1,15 @@
 import { RouterTestingModule } from '@angular/router/testing';
-import { MediaFiltersSearch } from './../pipes/media/mediaFilters.pipe';
-import { MediaTitleSearch } from './../pipes/media/mediaTitle.pipe';
-import { MediaCardComponent } from './../media-card/media-card.component';
-import { MediaSearchResultsComponent } from './../media-search-results/media-search-results.component';
+import { MediaFiltersSearch } from '../../../pipes/media/mediaFilters.pipe';
+import { MediaTitleSearch } from '../../../pipes/media/mediaTitle.pipe';
+import { MediaCardComponent } from '../../sub-pages/media-card/media-card.component';
+import { MediaSearchResultsComponent } from '../../sub-pages/media-search-results/media-search-results.component';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { MediaComponent } from './media.component';
-import { environment } from '../../environments/environment';
+import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { FirebaseService } from '../services/firebase.service';
+import { FirebaseService } from '../../../services/firebase.service';
 
 describe('MediaComponent', () => {
   let component: MediaComponent;

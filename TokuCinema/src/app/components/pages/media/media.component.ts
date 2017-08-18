@@ -1,11 +1,11 @@
 import { element } from 'protractor';
-import { MediaFilterPakage } from './../../domain/MediaFilterPackage';
+import { MediaFilterPakage } from '../../../domain/MediaFilterPackage';
 import { Component, OnInit, Inject } from '@angular/core';
-import { Media } from '../../domain/Media';
-import { Movie } from '../../domain/Movie';
+import { Media } from '../../../domain/Media';
+import { Movie } from '../../../domain/Movie';
 import { FirebaseListObservable } from 'angularfire2/database';
-import { DomainBuilder, DataType } from './../../domain/Builder';
-import { FirebaseService } from '../services/firebase.service';
+import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-media',
