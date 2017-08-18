@@ -26,7 +26,7 @@ import { MediaSearchResultsComponent } from './components/sub-pages/media-search
 import { MoviesSearchResultsComponent } from './components/sub-pages/movies-search-results/movies-search-results.component';
 import { SearchResultTabComponent } from './components/sub-pages/search-result-tab/search-result-tab.component';
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
-import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
+import { MediaGalleryComponent } from './components/sub-pages/media-gallery/media-gallery.component';
 import { FooterComponent } from './components/global/footer/footer.component';
 
 // Pipes
