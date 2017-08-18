@@ -20,6 +20,7 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
 export class MoviedetailsComponent implements OnInit, OnDestroy {
   private alive: boolean = true;
   private path: string = '';
+  public pageNotFound: boolean = false;
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: FirebaseListObservable<any[]>;
@@ -36,7 +37,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         this.movie = data;
         if (this.movie === undefined) {
           // redirect to 404
-          this.router.navigate(['404']);
+          this.pageNotFound = true;
         }
       });
 

@@ -18,15 +18,16 @@ import { StringCleaner, StringType } from './../../domain/StringCleaner';
   templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
-    private alive: boolean = true;
-    private path: string = '';
-    private sub: any;
-    mediaData: FirebaseListObservable<any[]>;
-    media: Media;
-    mediaDetails: MediaDetails;
-    mediaReview: MediaReview;
-    movieDetails: any = [];
-    hasRuntimes: boolean = false;
+  mediaData: FirebaseListObservable<any[]>;
+  media: Media;
+  mediaDetails: MediaDetails;
+  mediaReview: MediaReview;
+  movieDetails: any = [];
+  hasRuntimes: boolean = false;
+  public pageNotFound: boolean = false;
+  private alive: boolean = true;
+  private path: string = '';
+  private sub: any;
 
 
  constructor(private fdb: FirebaseService,
@@ -42,7 +43,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.media = data;
           if (this.media === undefined) {
             // redirect to 404
-            this.router.navigate(['404']);
+            this.pageNotFound = true;
           }
 
           this.mediaDetails = this.media.GetMediaDetails();
