@@ -1,4 +1,4 @@
-import { DevCardComponent } from './../dev-card/dev-card.component';
+import { DevCardComponent } from '../../sub-pages/dev-card/dev-card.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { AboutComponent } from './about.component';
 

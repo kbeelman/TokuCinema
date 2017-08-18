@@ -21,10 +21,10 @@ import { MediadetailsComponent } from './components/pages/mediadetails/mediadeta
 import { MediaComponent } from './components/pages/media/media.component';
 import { MoviesComponent } from './components/pages/movies/movies.component';
 import { MoviedetailsComponent } from './components/pages/moviedetails/moviedetails.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/pages/about/about.component';
 import { NavComponent } from './components/global/nav/nav.component';
 import { SearchResultTabComponent } from './components/sub-pages/search-result-tab/search-result-tab.component';
-import { MediaGalleryComponent } from './media-gallery/media-gallery.component';
+import { MediaGalleryComponent } from './components/sub-pages/media-gallery/media-gallery.component';
 import { FooterComponent } from './components/global/footer/footer.component';
 
 import { AngularFireModule } from 'angularfire2';

@@ -1,5 +1,5 @@
 import { NotFoundComponent } from './../not-found/not-found.component';
-import { MediaGalleryComponent } from '../../../media-gallery/media-gallery.component';
+import { MediaGalleryComponent } from '../../sub-pages/media-gallery/media-gallery.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';

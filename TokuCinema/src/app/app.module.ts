@@ -11,7 +11,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 // Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/pages/home/home.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/pages/about/about.component';
 import { NavComponent } from './components/global/nav/nav.component';
 import { MoviesComponent } from './components/pages/movies/movies.component';
 import { MoviedetailsComponent } from './components/pages/moviedetails/moviedetails.component';
