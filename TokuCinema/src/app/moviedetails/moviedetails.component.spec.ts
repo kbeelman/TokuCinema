@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './../not-found/not-found.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
@@ -14,7 +15,7 @@ describe('MoviedetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviedetailsComponent, MediaGalleryComponent ],
+      declarations: [ MoviedetailsComponent, MediaGalleryComponent, NotFoundComponent ],
       imports: [
         FormsModule,
         RouterTestingModule,

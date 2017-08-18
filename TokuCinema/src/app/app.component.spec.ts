@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './not-found/not-found.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FirebaseService } from './services/firebase.service';
 import { MediaCardComponent } from './media-card/media-card.component';
@@ -61,7 +62,8 @@ describe('AppComponent', () => {
         MediaCardComponent,
         SearchResultTabComponent,
         MediaGalleryComponent,
-        FooterComponent
+        FooterComponent,
+        NotFoundComponent
       ],
       imports: [
         FormsModule,

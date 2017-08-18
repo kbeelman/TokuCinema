@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './../not-found/not-found.component';
 import { MediaGalleryComponent } from './../media-gallery/media-gallery.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
@@ -16,7 +17,7 @@ describe('MediadetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediadetailsComponent, MediaGalleryComponent ],
+      declarations: [ MediadetailsComponent, MediaGalleryComponent, NotFoundComponent ],
       imports: [
         FormsModule,
         RouterTestingModule,
