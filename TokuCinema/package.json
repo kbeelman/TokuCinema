@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build --prod --env=prod --aot --sm --output-path=../production/",
     "test": "ng test --code-coverage",
     "test-once": "ng test --single-run",
