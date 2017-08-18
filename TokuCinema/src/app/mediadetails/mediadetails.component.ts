@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
-import { Router, Params, ActivatedRoute }   from '@angular/router';
-import { Location }                 from '@angular/common';
+import { Router, Params, ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 import { ISubscription } from "rxjs/Subscription";
 import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";

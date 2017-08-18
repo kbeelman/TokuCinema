@@ -60,28 +60,30 @@ export class MediaComponent implements OnInit {
     });
     this.sortFilters();
     this.mediaItems.sort(function(a,b) {
-      let countryCompare: number = b.Country.localeCompare(a.Country);
-      if (countryCompare !== 0) {
-        return countryCompare;
-      }
-      if(a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear)
-      {
-        return -1;
-      }
-      else if(a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear)
-      {
-        return 1;
-      }
-
-
-      if(a.ReleaseYear < b.ReleaseYear) {
-        return -1;
-      }
-      else if(a.ReleaseYear > b.ReleaseYear) {
-        return 1;
-      }
-      else {
-        return 0;
+      if (a.Movies[0] && b.Movies[0]) {
+        let countryCompare: number = b.Country.localeCompare(a.Country);
+        if (countryCompare !== 0) {
+          return countryCompare;
+        }
+        if(a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear)
+        {
+          return -1;
+        }
+        else if(a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear)
+        {
+          return 1;
+        }
+  
+  
+        if(a.ReleaseYear < b.ReleaseYear) {
+          return -1;
+        }
+        else if(a.ReleaseYear > b.ReleaseYear) {
+          return 1;
+        }
+        else {
+          return 0;
+        }
       }
     });
   }
