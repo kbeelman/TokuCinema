@@ -1,0 +1,11 @@
+@import '../../../../styles/sassisms.scss';;
+
+@import './styles/mobile';
+
+@media ($viewport-tablet) {
+  @import './styles/tablet';
+}
+
+@media ($viewport-desktop) {
+  @import './styles/desktop';
+}
