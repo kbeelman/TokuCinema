@@ -33,3 +33,30 @@
 .home-tile {
   margin-bottom: 30px;
 }
+
+
+.full-width-tile {
+  .landing-page-card {
+    justify-content: baseline;
+ 
+    .mobile-only-content {
+      justify-content: center;
+      min-width: 50%;
+    }
+
+    .tablet-plus-content {
+      display: none;
+    }
+
+    div {
+      height: 100%;
+      width: auto;
+      display: flex;
+      align-items: center;
+    } 
+    
+    img {
+      height: 100%;
+    }
+  }
+}

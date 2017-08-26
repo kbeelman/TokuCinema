@@ -1,9 +1,33 @@
 <div class="home-root">
 
-    <div class="home-tile-wrapper">
+  <section> 
+    <div class="home-tile-wrapper"
+      *ngIf="this.randomContent">
+      
+      <div class="home-tile full-width-tile">
+        <a class="landing-page-card" [routerLink]="['/media', this.randomContent.Path]">
+          <div class="tablet-plus-content">{{this.randomContent.Title}}</div>
+          <div>
+            <img [src]="this.randomContent.BoxArt" alt="Box art for {{this.randomContent.Title}}">
+          </div>
+          <div class="mobile-only-content">{{this.randomContent.Title}}</div>
+          <div class="tablet-plus-content">{{this.randomContent.ReleaseYear}} {{this.randomContent.Distributor}}</div>
+          <p class="home-tile-paragraph">
+            The {{this.randomContent.ReleaseYear}} release of {{this.randomContent.Title}} was
+            distributed by {{this.randomContent.Distributor}}. It is sold in the following format(s): 
 
-      <div
-        class="home-tile"
+            <span *ngFor="let format of this.randomContent.Format"><br>{{format.Format}} {{format.Medium}}</span>
+
+            <strong>Click this tile to view all details</strong>
+          </p>
+        </a>
+      </div>
+  
+    </div>
+  
+    <div class="home-tile-wrapper">
+  
+      <div class="home-tile"
         *ngFor="let landingPage of landingPages; let i = index">
         <a class="landing-page-card"
           [routerLink]="[landingPage.link]">
@@ -13,8 +37,7 @@
           </p>
         </a>
       </div>
-
     </div>
-
-  </div>
+  </section>
+    
 <div class="home-hero-image"></div>
