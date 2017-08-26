@@ -1,0 +1,11 @@
+@import '../../../../styles/sassisms.scss';
+
+@import './styles/mobile';
+
+@media (min-width: 768px) {
+  @import './styles/tablet';
+}
+
+@media (min-width: 1140px) {
+  @import './styles/desktop';
+}
