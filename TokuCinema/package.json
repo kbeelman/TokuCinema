@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build --prod --env=prod --aot --sm --output-path=../production/",
+    "build": "ng build --prod --env=prod --aot --sm",
     "test": "ng test --code-coverage",
     "test-once": "ng test --single-run",
     "lint": "ng lint",
@@ -28,7 +28,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.5",
+    "@angular/cli": "^1.6.5",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
