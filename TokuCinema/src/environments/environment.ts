@@ -11,7 +11,7 @@ export const environment = {
       authDomain: "tokucinema-dev.firebaseapp.com",
       databaseURL: "https://tokucinema-dev.firebaseio.com",
       projectId: "tokucinema-dev",
-      storageBucket: "tokucinema-dev.appspot.com",
+      storageBucket: "tokucinema.appspot.com",
       messagingSenderId: "490925242987"
   }
 };
