@@ -1,40 +1,4 @@
 {
-    "directory" : {
-        "pages": [ 
-            {
-                "page": "movies",
-                "alias": "Movies",
-                "dataCipher": {
-                    "idField": "Path",
-                    "aliasField": "OfficialTitle"
-                } 
-            },
-            {
-                "page": "media",
-                "alias": "Media",
-                "dataCipher": {
-                    "idField": "Path",
-                    "aliasField": "Title"
-                } 
-            },
-            {
-                "page": "mediaReviews",
-                "alias": "Media Reviews",
-                "dataCipher": {
-                    "idField": "Path",
-                    "aliasField": "Path"
-                } 
-            },
-            {
-                "page": "alternateVersions",
-                "alias": "Alternate Versions",
-                "dataCipher": {
-                    "idField": "Path",
-                    "aliasField": "Path"
-                } 
-            }
-        ]
-     },
     "movies": [
         {
             "OfficialTitle": "Godzilla",
