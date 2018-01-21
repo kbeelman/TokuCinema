@@ -38,10 +38,9 @@ export class Movie implements ISearchable {
             this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
         }
         this.setReleaseDate();
-        var storageRef = firebase.storage().ref().child('images/movies/' + this.Path + '/thumb-card.png');
-        storageRef.getDownloadURL().then(url => this.ImageCard = url);
-        storageRef = firebase.storage().ref().child('images/movies/' + this.Path + '/thumb-details.png');
-        storageRef.getDownloadURL().then(url => this.ImageDetails = url);
+        var storageRef = firebase.storage().ref();
+        storageRef.child('images/movies/' + this.Path + '/thumb-card.png').getDownloadURL().then(url => this.ImageCard = url);
+        storageRef.child('images/movies/' + this.Path + '/thumb-details.png').getDownloadURL().then(url => this.ImageDetails = url);
     }
 
     public setReleaseDate(): void {
