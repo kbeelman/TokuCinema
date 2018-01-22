@@ -76,12 +76,8 @@ import { environment } from '../environments/environment';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
     RouterModule.forRoot([
-      { path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
-      },
       {
-        path: 'home',
+        path: '',
         component: HomeComponent
       },
       {

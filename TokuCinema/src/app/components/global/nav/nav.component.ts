@@ -14,7 +14,7 @@ export class NavComponent implements OnInit {
   navMenuOpen: boolean = false;
   searchOpen: boolean = false;
   menuItems: Array<{"text": string, "link": string}> = [
-    {"text": 'Home', "link": '/home'},
+    {"text": 'Home', "link": '/'},
     {"text": 'Movie List', "link": '/movies'},
     {"text": 'Home Media Releases', "link": '/media'},
     {"text": 'About', "link": '/about'}
