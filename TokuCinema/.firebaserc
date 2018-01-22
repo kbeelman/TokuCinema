@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "tokucinema"
+    "default": "tokucinema",
+    "dev": "tokucinema-dev"
   }
 }
