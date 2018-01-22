@@ -5,11 +5,14 @@ import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
 import { Movie } from './Movie';
+import * as firebase from 'firebase';
 
 export class Media implements ISearchable{
     public ReleaseYear: number;
     public ReleaseDate: Date = new Date();
     public CircaRelease: string;
+    public ImageCard: string;
+    public ImageDetails: string;
 
     constructor(
         // Main Feature Info
@@ -44,6 +47,9 @@ export class Media implements ISearchable{
     ) {
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
+            var storageRef = firebase.storage().ref();
+            storageRef.child('images/media/' + this.Path + '/thumb-card.png').getDownloadURL().then(url => this.ImageCard = url);
+            storageRef.child('images/media/' + this.Path + '/thumb-details.png').getDownloadURL().then(url => this.ImageDetails = url);
         } else {
             let path = this.Title + "-" + this.Distributor + "-" + this.Medium + "-" + this.ReleaseDate;
             this.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
