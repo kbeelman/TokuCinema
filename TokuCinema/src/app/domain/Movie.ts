@@ -51,7 +51,7 @@ export class Movie implements ISearchable {
         }
         else {
             this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
-            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2)));
+            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2))-1);
             this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
             this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
 
