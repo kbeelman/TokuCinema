@@ -31,24 +31,52 @@
             "Era": "Showa" ,
             "Path": "Godzilla-Mothra-1964",
             "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Sanezumi Fujimoto"},
                 {"PositionTitle":"Director","Name":"Ishiro Honda"},
-                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
-                {"PositionTitle":"Writer","Name":"Shinichi Sekizawa"},
-                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
-                {"PositionTitle":"Cinematographer","Name":"Hajime Koizumi"},
-                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
-                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"}
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fuji"},
+                {"PositionTitle":"Assistant Director","Name":"Ken Sano"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Sound","Name":"Hisashi Shimonaga, Cho Tomahisa"},
+                {"PositionTitle":"Sound Recording","Name":"Fumio Yanaguchi"},
+                {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Goichi Araki"}
             ],
             "Cast": [
                 {"ActorName":"Akira Takarada","RoleName":"Ichiro Sakai"},
                 {"ActorName":"Yuriko Hoshi","RoleName":"Junko Nakanishi"},
-                {"ActorName":"Hiroshi Koizumi","RoleName":"Professor Shunsuke Miura"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Dr. Miura"},
                 {"ActorName":"Yu Fujiki","RoleName":"Jiro Nakamura"},
                 {"ActorName":"Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
-                {"ActorName":"Kenji Sahara","RoleName":"Jiro Torahata"},
-                {"ActorName":"Jun Tazaki","RoleName":"Murata"},
                 {"ActorName":"Yoshifumi Tajima","RoleName":"Kumayama"},
-                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"}] 
+                {"ActorName":"Kenji Sahara","RoleName":"Jiro Torahata"},
+                {"ActorName":"Jun Tazaki","RoleName":"Editor"},
+                {"ActorName":"Susumu Fujita","RoleName":"JSDF Officer"},
+                {"ActorName":"Akira Tani","RoleName":"Head Villager Amimoto"},
+                {"ActorName":"Senkichi Omura","RoleName":"Fisherman #1"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"Fisherman #2"},
+                {"ActorName":"Koji Iwamoto","RoleName":"Fisherman #3"},
+                {"ActorName":"Koji Uno","RoleName":"Fisherman #4"},
+                {"ActorName":"Takuzo Kumagai","RoleName":"Fisherman #5"},
+                {"ActorName":"Shiro Tsuchiya","RoleName":"Fisherman #6"},
+                {"ActorName":"Hiroshi Akitsu","RoleName":"Fisherman #7"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Shinto Priest"},
+                {"ActorName":"Kenzo Tabu","RoleName":"Local Politician"},
+                {"ActorName":"Shin Otomo","RoleName":"Police Officer"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"}
+            ] 
         },
         {
             "OfficialTitle": "Ghidorah, the Three-Headed Monster",
@@ -120,7 +148,70 @@
             "Director": "Koji Hashimoto",
             "Series": "Godzilla",
             "Era": "Heisei" ,
-            "Path": "Godzilla-1984"   
+            "Path": "Godzilla-1984",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Fumio Tanaka"},
+                {"PositionTitle":"Director","Name":"Koji Hashimoto"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Shuichi Nagahara, Tomoyuki Tanaka (story)"},
+                {"PositionTitle":"Cinematography","Name":"Kazutami Hara"},
+                {"PositionTitle":"Music","Name":"Reijiro Koroku"},
+                {"PositionTitle":"Editor","Name":"Yoshitami Kuroiwa"},
+                {"PositionTitle":"Assistant Directors","Name":"Takao Okawara, Kensho Yamashita"},
+                {"PositionTitle":"Art Director","Name":"Akira Sakuragi"},
+                {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
+                {"PositionTitle":"Sound Recording","Name":"Nobuyuki Tanaka"},
+                {"PositionTitle":"Production Manager","Name":"Takehide Morichi"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
+                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Toshimitsu Oneda"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Kohei Mikami"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Modeling and Godzilla Design","Name":"Nobuyuki Yasumaru"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishitsuki"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Takashi Nakao"}
+            ],
+            "Cast": [
+                {"ActorName":"Keiji Kobayashi","RoleName":"Prime Minister Mitamura"}, 
+                {"ActorName":"Ken Tanaka","RoleName":"Goro Maki"}, 
+                {"ActorName":"Yasuko Sawaguchi","RoleName":"Naoko Okamura"}, 
+                {"ActorName":"Shin Takuma","RoleName":"Hiroshi Okamura"}, 
+                {"ActorName":"Yosuke Natsuki","RoleName":"Professor Hayashida"}, 
+                {"ActorName":"Taketoshi Naito","RoleName":"Chief Cabinet Secretary Takegami"}, 
+                {"ActorName":"Mizuho Suzuki","RoleName":"Minister of Foreign Affairs Emori"}, 
+                {"ActorName":"Eitaro Ozawa","RoleName":"Finance Minister Kazaki"}, 
+                {"ActorName":"Junkichi Orimoto","RoleName":"Defense Secretary Mori"}, 
+                {"ActorName":"Shinsuke Mikimoto","RoleName":"Joint Chief of Staff Kakurai"}, 
+                {"ActorName":"Kanta Mori","RoleName":"National Land Agency Secretary Okochi"}, 
+                {"ActorName":"Nobuo Kaneko","RoleName":"Minister of Home Affairs Isomura"}, 
+                {"ActorName":"Kiyoshi Yamamoto","RoleName":"Science Minister Kajita"}, 
+                {"ActorName":"Takeshi Kato","RoleName":"Trade Minister Kasaoka"}, 
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Environment Minister Hidaka"}, 
+                {"ActorName":"Kunio Murai","RoleName":"Secretary Henmei"}, 
+                {"ActorName":"Tetsuya Takeda","RoleName":"Vagrant"}, 
+                {"ActorName":"Kenichi Urata","RoleName":"Ishimaru"}, 
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Minami"}, 
+                {"ActorName":"Kei Sato","RoleName":"Chief Editor Godo"}, 
+                {"ActorName":"Takenori Emoto","RoleName":"Desk Editor Kitagawa"}, 
+                {"ActorName":"Takero Morimoto","RoleName":"Newscaster"}, 
+                {"ActorName":"Takashi Ebata","RoleName":"Yahata Maru Captain"}, 
+                {"ActorName":"Senoishi Tahara","RoleName":"Fisherman"}, 
+                {"ActorName":"Shigeo Kato","RoleName":"Radioman"}, 
+                {"ActorName":"Walter Nichols","RoleName":"U.S. Ambassador Rosenberg"}, 
+                {"ActorName":"Alexandre Kyris","RoleName":"Soviet Ambassador Chevsky"}, 
+                {"ActorName":"Shinpei Hayashiya","RoleName":"Camerman Kamijo"}, 
+                {"ActorName":"Isao Hashimoto","RoleName":"Super-X Captain Akiyama"}, 
+                {"ActorName":"Kenji Fukuda","RoleName":"Super-X Lieutenant"}, 
+                {"ActorName":"Yumiko Tanaka","RoleName":"Akemi"}, 
+                {"ActorName":"Shin Kazenaka","RoleName":"Uno"}, 
+                {"ActorName":"Luke Johnston","RoleName":"Captain Kathren"}, 
+                {"ActorName":"Dennis Falt","RoleName":"Soviet Submarine Captain"}, 
+                {"ActorName":"Koji Ishizaka","RoleName":"Power Plant Guard"}, 
+                {"ActorName":"Hiroshi Kamayatsu","RoleName":"Bullet Train Passenger"}, 
+                {"ActorName":"Godzilla","RoleName":"Kenpachiro Satsuma"}
+            ]    
         },
         {
             "OfficialTitle": "Godzilla vs. Destoroyah",
@@ -319,6 +410,245 @@
             "Series": "Gamera",
             "Era": "Millennium",
             "Path": "Gamera-Brave-2006"
+        },
+        {
+            "OfficialTitle": "Atragon",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"}],
+            "ReleaseDate": "1963-12-22",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Path": "Atragon-1963",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenplay","Name":"Shinichi Sekizawa, Shigeru Komatsuzaki (story), Shunro Oshikawa (novel)"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Cinematographer","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Sound","Name":"Hisashi Shimonaga"},
+                {"PositionTitle":"Sound Recording","Name":"Masanao Uehara"},
+                {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Conceptual Designs","Name":"Shigeru Komatsuzaki"},
+                {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"}
+            ],
+            "Cast": [
+                {"ActorName":"Tadao Takashima","RoleName":"Susumu Hatanaka"},
+                {"ActorName":"Yoko Fujiyama","RoleName":"Makoto Jinguji"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Detective Ito"},
+                {"ActorName":"Ken Uehara ","RoleName":"Kusumi"},
+                {"ActorName":"Yu Fujiki","RoleName":"Yoshito Nishibe"},
+                {"ActorName":"Kenji Sahara","RoleName":"Uoto Uono"},
+                {"ActorName":"Jun Tazaki","RoleName":"Captain Hachiro Jinguji"},
+                {"ActorName":"Yoshifumi Tajima ","RoleName":"Officer Amano"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Agent No. 23"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Mu High Priest"},
+                {"ActorName":"Tetsuko Kobayashi","RoleName":"Mu Empress"},
+                {"ActorName":"Michio Minami","RoleName":"Lt. Fuji"},
+                {"ActorName":"Haruya Sakamoto","RoleName":"Sergeant Yamada"},
+                {"ActorName":"Akemi Kita","RoleName":"Rimako"},
+                {"ActorName":"Minoru Takada","RoleName":"Defense Secretary"},
+                {"ActorName":"Susumu Fujita","RoleName":"Defense Commander"},
+                {"ActorName":"Mitsuo Tsuda","RoleName":"Defense Agency Executive"},
+                {"ActorName":"Shin Otomo","RoleName":"Government Official"},
+                {"ActorName":"Hisaya Ito","RoleName":"Shindo"},
+                {"ActorName":"Nadao Kirino","RoleName":"Kidnapped Engineer"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Taxi Driver"},
+                {"ActorName":"Tetsu Nakamura","RoleName":"Ship's Captain"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"Sailor"},
+                {"ActorName":"Sadako Amemiya","RoleName":"Memoko"}
+            ] 
+        },
+        {
+            "OfficialTitle": "Dogora",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"宇宙大怪獣ドゴラ"},{"TitleType":"Hepburn","TitleValue":"Uchu Dai kaiju Dogora"},{"TitleType":"Literal Translation","TitleValue":"Giant Space Monster Dogora"}],
+            "ReleaseDate": "1964-08-11",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Path": "Dogora-1964",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Yasuyoshi Tajitsu"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Shinichi Sekizawa, Jojiro Okami (story Space Mammoth)"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fuji"},
+                {"PositionTitle":"Assistant Director","Name":"Ken Sano"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Sound","Name":"Hisashi Shimonaga, Cho Tomahisa"},
+                {"PositionTitle":"Sound Recording","Name":"Fumio Yanaguchi"},
+                {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Goichi Araki"}
+            ],
+            "Cast": [
+                {"ActorName":"Yosuke Natsuki","RoleName":"Inspector Komai"},
+                {"ActorName":"Yoko Fujiyama","RoleName":"Masayo Kirino"},
+                {"ActorName":"Nobuo Nakamura","RoleName":"Dr. Munekata"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Kirino"},
+                {"ActorName":"Robert Dunham","RoleName":"Mark Jackson; as Dan Yuma"},
+                {"ActorName":"Akiko Wakabayashi","RoleName":"Hamako"},
+                {"ActorName":"Susumu Fujita","RoleName":"General Iwasa"},
+                {"ActorName":"Seizaburo Kawazu","RoleName":"Gangster Boss"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Maki"},
+                {"ActorName":"Haruya Kato","RoleName":"Sabu"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Tada"},
+                {"ActorName":"Jun Tazaki","RoleName":"Chief Inspector"},
+                {"ActorName":"Jun Funato","RoleName":"Inspector Nitta"},
+                {"ActorName":"Nadao Kirino","RoleName":"Gangster #1"},
+                {"ActorName":"Akira Wakamatsu","RoleName":"Gangster #2"},
+                {"ActorName":"Hideyo Shibuya","RoleName":"Reporter"},
+                {"ActorName":"Haruya Sakamoto","RoleName":"Wagon Driver"},
+                {"ActorName":"Yutaka Oka","RoleName":"Transportation Company Chief"},
+                {"ActorName":"Chotaro Togin","RoleName":"Coal Truck Driver"},
+                {"ActorName":"Tadashi Okabe","RoleName":"Policeman"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"Drunk"}
+            ] 
+        },
+        {
+            "OfficialTitle": "ESPY",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"エスパイ"},{"TitleType":"Hepburn","TitleValue":"Esupai"}],
+            "ReleaseDate": "1974-12-28",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Jun Fukuda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Path": "Espy-1974",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Fumio Tanaka"},
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Ei Ogawa, Sakyo Komatsu (novel)"},
+                {"PositionTitle":"Second Unit Director","Name":"Kenjiro Omori"},
+                {"PositionTitle":"Cinematography","Name":"Shoji Ueda"},
+                {"PositionTitle":"Music","Name":"Masaki Hirao"},
+                {"PositionTitle":"Editor","Name":"Michiko Ikeda"},
+                {"PositionTitle":"Assistant Director","Name":"Tsunesaboro Nishikawa"},
+                {"PositionTitle":"Art Director","Name":"Yoshiro Muraki"},
+                {"PositionTitle":"Lighting","Name":"Masakuni Morimoto"},
+                {"PositionTitle":"Sound Recording","Name":"Toshiya Ban"},
+                {"PositionTitle":"Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"Stunts","Name":"Japan Action Club"},
+                {"PositionTitle":"SFX Cinematography","Name":"Mototaka Tomioka"},
+                {"PositionTitle":"SFX Lighting","Name":"Yoshio Oguchi"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"SFX Continunity","Name":"Kazunobu Sanpei "},
+                {"PositionTitle":"Costume Design","Name":"Masahisa Shimura"},
+                {"PositionTitle":"Still Photographer","Name":"Takashi Nakao"}
+            ],
+            "Cast": [
+                {"ActorName":"Hiroshi Fujioka","RoleName":"Yoshio Tamura"},
+                {"ActorName":"Kaoru Yumi","RoleName":"Maria Harada"},
+                {"ActorName":"Masao Kusakari","RoleName":"Jiro Miki"},
+                {"ActorName":"Yuzo Kayama","RoleName":"Hojo"},
+                {"ActorName":"Tomisaburo Wakayama","RoleName":"Wolf"},
+                {"ActorName":"Katsumasa Uchida","RoleName":"Goro Tatsumi"},
+                {"ActorName":"Eiji Okada","RoleName":"Salabad"},
+                {"ActorName":"Goro Mutsumi","RoleName":"Teraoka"},
+                {"ActorName":"Luna Takemura","RoleName":"Judy"},
+                {"ActorName":"Yamaya Hatsuo","RoleName":"Ball"},
+                {"ActorName":"Steve Green","RoleName":"Baltonian Prime Minister"},
+                {"ActorName":"Jimmy Shaw","RoleName":"Godonov"},
+                {"ActorName":"Andrew Hughes","RoleName":"P.B."},
+                {"ActorName":"Willie Dorsey","RoleName":"Abdullah"},
+                {"ActorName":"Rolf Jesser","RoleName":"Counter ESPY Agent #1"},
+                {"ActorName":"Franz Gruber","RoleName":"Counter ESPY Agent #2"},
+                {"ActorName":"Gelmal Reiner","RoleName":"Counter ESPY Agent #3"},
+                {"ActorName":"Burt Johansson","RoleName":"Counter ESPY Agent #4"},
+                {"ActorName":"Robert Dunham","RoleName":"Plane Captain"}
+            ] 
+        },
+        {
+            "OfficialTitle": "Magnitude 7.9",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地震列島"},{"TitleType":"Hepburn","TitleValue":"Jishin Retto"},{"TitleType":"U.S. Title","TitleValue":"Deathquake"}],
+            "ReleaseDate": "1980-08-30",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Kenjiro Omori",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Path": "Deathquake-1980",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Assistant Producer","Name":"Hideyuki Takai"},
+                {"PositionTitle":"Director","Name":"Kenjiro Omori"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Kaneto Shindo"},
+                {"PositionTitle":"Cinematography","Name":"Rokuro Nishigaki"},
+                {"PositionTitle":"Music","Name":"Toshiaki Tsushima"},
+                {"PositionTitle":"Editor","Name":"Nobuo Ogawa"},
+                {"PositionTitle":"Assistant Director","Name":"Masahiro Nara"},
+                {"PositionTitle":"Art Director","Name":"Iwao Akune"},
+                {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
+                {"PositionTitle":"Sound Recording","Name":"Kenshiro Hayashi"},
+                {"PositionTitle":"Production Manager","Name":"Takehide Morichi"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
+                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Masukuni Morimoto"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishitsuki"}
+            ],
+            "Cast": [
+                {"ActorName":"Hiroshi Katsuno","RoleName":"Dr. Yoichi Kawazu"},
+                {"ActorName":"Kayo Matsuo","RoleName":"Yuko Kawazu"},
+                {"ActorName":"Toshiyuki Nagashima","RoleName":"Masayuki Hashizume"},
+                {"ActorName":"Yumi Takigawa","RoleName":"Tomiko Ashida"},
+                {"ActorName":"Shuji Otaki","RoleName":"Professor Marumo"},
+                {"ActorName":"Shin Saburi","RoleName":"Prime Minister"},
+                {"ActorName":"Chiaki Matsubara","RoleName":"Kazue Umejima"},
+                {"ActorName":"Sachiko Murase","RoleName":"Fusae Kawazu"},
+                {"ActorName":"Kei Sato","RoleName":"Chief Cabinet Secretary"},
+                {"ActorName":"Tatsuo Matsumura","RoleName":"Hiroshizo Ashida"},
+                {"ActorName":"Yoshita Inaba","RoleName":"National Land Agency Secretary"},
+                {"ActorName":"Tsutomu Yamazaki","RoleName":"Meteorological Agency Secretary"},
+                {"ActorName":"Eiji Okada","RoleName":"Professor Watanabe"},
+                {"ActorName":"Kazuo Kato","RoleName":"Professor Ichinoe"},
+                {"ActorName":"Torahiko Hamada","RoleName":"Professor Shimura"},
+                {"ActorName":"Mizuho Suzuki","RoleName":"Chief of Staff"},
+                {"ActorName":"Norihei Miki","RoleName":"Sukegawa"},
+                {"ActorName":"Yusuke Takita","RoleName":"Salaryman"},
+                {"ActorName":"Daigo Kusano","RoleName":"Hige"},
+                {"ActorName":"Toshie Kobayashi","RoleName":"Woman"},
+                {"ActorName":"Toshitaka Ito","RoleName":"Subway Driver"},
+                {"ActorName":"Yoji Matsuda","RoleName":"Ryuji Kawazu"},
+                {"ActorName":"Ken Kazami","RoleName":"TV Producer"}
+            ] 
         }
     ],
     "alternateVersions": [
@@ -360,7 +690,15 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [
+                                {"ActorName":"Bernard Grant","RoleName":"Ichiro Sakai"},
+                                {"ActorName":"Kenneth Harvey","RoleName":"Dr. Miura"},
+                                {"ActorName":"Lucy Martin","RoleName":"Junko Nakanishi"},
+                                {"ActorName":"Larry Robinson","RoleName":"Jiro Nakamura"},
+                                {"ActorName":"Paulette Rubinstein and Terry Van Tell","RoleName":"The Shobijin"},
+                                {"ActorName":"Bret Morrison","RoleName":"Kumayama"},
+                                {"ActorName":"Jack Curtis","RoleName":"Jiro Torahata"}
+                            ],
                             "Crew": [],
                             "DubCompany": "Titra Studios",
                             "ProductionCompany": "",
@@ -378,7 +716,7 @@
                                     "Notes": [
                                         "The pressbook listed a runtime of 90 minutes, but this is assumed to be an approximation.",
                                         "Some sources claim the theatrical release featured a brief overture, consisting of the beginning portion of the main title cue that remains unheard in all English versions, playing over a black screen.",
-                                        "Contains an added missile assault sequence, dubbed the “Frontier Missile” scene, which is exclusive to AIP’s version of this movie, as it is not included in the Japanese version.",
+                                        "Contains an added missile assault sequence, dubbed the “Frontier Missile” scene, which is exclusive to AIP’s version of this movie, as it is not included in the Japanese version. This scene was actually filmed by Tsuburaya's FX unit in Japan but was deleted from the Japanese version, apparently because Japanese audiences were not comfortable with seeing the use of American naval force on Japanese soil. Originally, the Americans were to be the Rolisicans from Mothra. This sequence is one of the best scenes in the movie from an FX standpoint and its deletion is unfortunate. A scene where Susumu Fujita's military official goes over defense plans is used in place of the scene in the Japanese version. However, American International Pictures decided to reinstate this sequence for their version.",
                                         "Some sound design has been reworked in several scenes, with louder explosions that replace Toho’s standard sound effects."]
                                 },
                                 {
@@ -387,7 +725,7 @@
                                     "MediaPath": [],
                                     "Runtime": "90",
                                     "ReleaseDate": "",
-                                    "Notes": ["Aside from cropping and a shot of the Shobijin greeting our leads during the battle with the Adult Mothra, which has been shortened from the theatrical version, the 16mm reduction TV versions were otherwise identical to their theatrical counterparts."]
+                                    "Notes": ["Aside from cropping and a shot of the Shobijin greeting the leads during the battle with the Adult Mothra, which has been shortened from the theatrical version, the 16mm reduction TV versions were otherwise identical to their theatrical counterparts."]
                                 },
                                 {
                                     "AlternateTitle": [{"TitleType":"Video","TitleValue":"Godzilla vs. Mothra"}],
@@ -624,6 +962,329 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": ["Italian theatrical version based on the US AIP cut. This dub is available on DVD, but is missing the Frontier Missile Scene from the US version."]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Atragon-1963",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Makoto Jinguji"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1963",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international export English version was produced. The film was dubbed into English in Hong Kong. The full international dub can be heard on the Region 1 Media Blasters DVD."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bernard Grant","RoleName":"Susumu Hatanaka"},
+                                {"ActorName":"Lucy Martin","RoleName":"Makoto Jinguji"},
+                                {"ActorName":"Larry Robinson","RoleName":"Yoshito Nishibe"},
+                                {"ActorName":"Bret Morrison","RoleName":"Admiral Kosumi"},
+                                {"ActorName":"Kenneth Harvey","RoleName":"Detective Ito"},
+                                {"ActorName":"Jack Curtis","RoleName":"Agent No. 23"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Titra",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1965-03-11",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In this U.S., the film was released by American International Pictures to theaters on March 11th.",
+                                        "This version has several small sequences cut and the opening credits moved to the end of the picture.",
+                                        "In the United States, despite being popular on TV syndication, Atragon was never released on VHS. The AIP version and Titra dub are nowhere to be found on home media. It is alleged that Media Blasters had plans to feature the Titra dub on their Region 1 DVD, but Toho vetoed them."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Dogora-1964",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Dogora"}],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Dr. Munekata"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international export English version was produced. The full international dub can be heard on the 2005 Region 1 Media Blasters DVD.",
+                                        "In 2005, Media Blasters released a Region 1 DVD licensed from Toho. This version, unlike their other Toho DVDs, is not a port of the Toho Region 2 DVD which had not been released yet at the time. The disc features both the Japanese dialog with subtitles and the export dub."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"US TV","TitleValue":"Dagora"}],
+                                    "Name": "US TV",
+                                    "MediaPath": [],
+                                    "Runtime": "80",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US in 1965. Unlike most of AIP's releases, the film was not redubbed and the original Hong Kong dubbing was left intact, probably owing to the fact that it wasn't going to be released theatrically.",
+                                        "The monster's name and film's title has been changed to Dagora, though it is still pronounced Dogora in the dub. The only editorial alteration in the AIP-TV version is the excision of the opening credits which takes the run time down to around 80 minutes.",
+                                        "In the United States, a most likely unlicensed version was released on VHS in the early 1980s by grey market outlet Video Yesteryear. This tape utilized a badly faded 16mm print and obviously went out of print once Yesteryear folded from a lawsuit."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Espy-1974",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"International","TitleValue":"ESPY"}],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Matthew Oram","RoleName":"Hojo"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An export version was made with English dubbing done in Hong Kong. The full international version was not made available anywhere that we know of."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"US TV","TitleValue":"E.S.P./SPY"}],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Matthew Oram","RoleName":"Hojo"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"US TV","TitleValue":"E.S.P./SPY"}],
+                                    "Name": "US TV",
+                                    "MediaPath": [],
+                                    "Runtime": "87",
+                                    "ReleaseDate": "Circa 1981",
+                                    "Notes": [
+                                        "In the U.S. the film was released directly to television by UPA in 1981 and retains the Hong Kong dubbing.",
+                                        "The Hong Kong dubbing is kept but the film cuts all violence and nudity, often times in a very choppy way. The dance sequence with Kaoru Yumi where Abdullah has his tongue ripped out psychically by Tamura is removed almost completely and no explanation is given as to why the character wears a surgical mask for the rest of the movie. The \"Bondian\" open credits sequence is also removed, as is the opening narration. Most of the film's gory shootings (including the death of Katsumasa Uchida's character) is cut and also some character development and dialog is also cut, including Andrew Hughes' short sequence.",
+                                        "In the United States the film was released on VHS by Paramount/Gateway in 1994."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Deathquake-1980",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Deathquake"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Hilton","RoleName":"Dr. Yoichi Kawazu"},
+                                {"ActorName":"Rik Thomas","RoleName":"Professor Marumo"},
+                                {"ActorName":"Warren Rooke","RoleName":"Masayuki Hashizume"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"103",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international English version was made with dubbing done in Hong Kong. This is a rare Toho dub from the period done with the classic \"A group\" of kung fu dubbers as opposed to Matthew Oram's group which Toho usually outsourced its dubs to at this time.",
+                                        "This international version is cut by about 25 minutes to around 103 minutes, most of the material cut out is character development in the first hour of the picture, most notably a scene where Hashizume visits a farmer who claims that his pheasants are acting funny which means an earthquake is about to happen and a scene with Tomiko and her father. Also cut out is a subplot where Hashizume tries to get Kawazu on a TV show and a scene where Kawazu meets with the Prime Minister in their underground bunker which the Prime Minister hopes \"will never be used\". The end credits are also cut and replaced with an opening credit sequence superimposed over the aerial footage of Tokyo early in the film.",
+                                        "This version was released on VHS in a several countries. In the United States, it was available on VHS from MNTEX Entertainment"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-1984",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Return of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"John Culkin","RoleName":"Goro Maki"},
+                                {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Original",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This is an exact, cut for cut dub of the Japanese version. The Russian dialog is dubbed into English as well as the Japanese, unlike in the American cut, Godzilla 1985.",
+                                        "Godzilla's infamous scream as he falls into Mt. Mihara is actually present in this version when it was previously thought to be one of the many sound design tweaks made to Godzilla 1985. The answer behind the mysterious scream being present is that it apparently was originally included in the Japanese cinema version of The Return of Godzilla but removed from the film for the stereo video release. As the international version is in mono and based on the cinema version, the scream managed to make it in.",
+                                        "This version was released on PAL VHS in Britain."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "American DVD & Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 and replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred new scream."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 1985"}],
+                            "Cast": [
+                                {"ActorName":"Raymond Burr","RoleName":"Steve Martin"},
+                                {"ActorName":"Warren J. Kemmerling","RoleName":"General Goodhoe"},
+                                {"ActorName":"James Hess","RoleName":"Colonel Raschen"},
+                                {"ActorName":"Travis Swords","RoleName":"Major McDonough"},
+                                {"ActorName":"Crawford Binion","RoleName":"Lieutenant"},
+                                {"ActorName":"Justin Gocke","RoleName":"Kyle Martin"}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Tony Plana","RoleName":"Goro Maki"},
+                                {"ActorName":"Paul Wilson","RoleName":"Professor Hayashida"},
+                                {"ActorName":"Andy Goldberg","RoleName":"Hiroshi Okumura"},
+                                {"ActorName":"Lara Cody","RoleName":"Naoko Okumura"},
+                                {"ActorName":"Gregory Snegoff","RoleName":"Newscaster/Pilot/Government Official"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"R.J. Kizer"},
+                                {"PositionTitle":"Composer (Added Music)","Name":"Christopher Young"}
+                            ],
+                            "DubCompany": "Ryder Sound",
+                            "ProductionCompany": "New World Pictures, Toho Pictures",
+                            "DistributionCompany": "New World Pictures",
+                            "ReleaseDate": "1985-08-23",
+                            "Runtime":"87",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Like Godzilla King of the Monsters, additional American shot footage is added with a now grey Raymond Burr. While the first few scenes are effective, much of this footage is more comedic than serious and the scenes with Burr at the military base feature heavy product placement for the soft drink Dr. Pepper.",
+                                        "While a good amount of Reijiro Koroku's score was kept, some music from Christopher Young (originally from the movie Def Con 4) was added and there are other sound design changes as well.",
+                                        "Shortened scenes include: Goro's fight with the sea louse, the scenes where Goro tells Naoko that Hiroshi is still alive and when the two are reunite; as well as the meeting between the Prime Minister, the American ambassador, and the Russian ambassador is heavily shortened and moved to take place prior to Godzilla’s attack on the nuclear power plant.",
+                                        "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
+                                        "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
+                                        "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
+                                    ]
                                 }
                             ]
                         }
