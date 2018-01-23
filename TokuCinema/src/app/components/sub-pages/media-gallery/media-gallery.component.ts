@@ -2,6 +2,7 @@ import { Component, Input, Inject, OnInit } from "@angular/core";
 import { iGalleryItem } from "./domain/iGalleryItem";
 import { GalleryImage } from "./domain/GalleryImage";
 import { GalleryVideo } from "./domain/GalleryVideo";
+import { ItemType } from './domain/ItemType';
 import { DomSanitizer, SafeResourceUrl, SafeUrl} from '@angular/platform-browser';
 
 @Component({
@@ -157,9 +158,4 @@ export class MediaGalleryComponent implements OnInit{
         return safeUrl;
     }
 
-}
-
-export enum ItemType {
-    Image,
-    Video
 }

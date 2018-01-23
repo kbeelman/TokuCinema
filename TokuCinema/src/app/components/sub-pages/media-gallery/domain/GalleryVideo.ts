@@ -1,4 +1,4 @@
-import { ItemType } from '../media-gallery.component';
+import { ItemType } from './ItemType';
 import { iGalleryItem } from "./iGalleryItem";
 
 export class GalleryVideo implements iGalleryItem {

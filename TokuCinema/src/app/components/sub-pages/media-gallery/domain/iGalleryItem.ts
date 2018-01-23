@@ -1,4 +1,4 @@
-import { ItemType } from '../media-gallery.component';
+import { ItemType } from './ItemType';
 
 export interface iGalleryItem {
     Index: number;
