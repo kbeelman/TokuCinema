@@ -413,7 +413,7 @@
         },
         {
             "OfficialTitle": "Atragon",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"}],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"},{"TitleType":"Literal Translation","TitleValue":"Undersea Warship"}],
             "ReleaseDate": "1963-12-22",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -591,7 +591,7 @@
         },
         {
             "OfficialTitle": "Magnitude 7.9",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地震列島"},{"TitleType":"Hepburn","TitleValue":"Jishin Retto"},{"TitleType":"U.S. Title","TitleValue":"Deathquake"}],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地震列島"},{"TitleType":"Hepburn","TitleValue":"Jishin Retto"},{"TitleType":"Literal Translation","TitleValue":"Earthquake Archipelago"},{"TitleType":"U.S. Title","TitleValue":"Deathquake"}],
             "ReleaseDate": "1980-08-30",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -1526,19 +1526,6 @@
         }
     ],
     "mediaReviews": [
-        {
-            "Path": "Gojira-Classic-Media-DVD-2006-09-05",
-            "Overview": "Lorem ipsum",
-            "Video": [{"Score":"3",
-                "Description":"Lorem ipsum"}],
-            "Audio": [{"Score":"3",
-                "Description":"Lorem ipsum"}],
-            "Extras": [{"Score":"4",
-                "Description":"Lorem ipsum"}],
-            "Overall": [{"Score":"3",
-                "Description":"Lorem ipsum"}],
-            "FeaturedScreenShots": [0,1,2,3,4]
-        },
         {
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2002-09-17",
             "Overview": "Lorem ipsum",
