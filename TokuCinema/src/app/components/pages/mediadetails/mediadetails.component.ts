@@ -69,7 +69,6 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           // Get the review object
           fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe( (data) => {
             this.mediaReview = data;
-            console.log(data);
           });
         });
       });

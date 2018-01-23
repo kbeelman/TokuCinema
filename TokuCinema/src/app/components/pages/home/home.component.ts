@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
       
       let builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
       this.randomContent = builder.getDomainObject();
-      console.log(this.randomContent);
     });
   }
 
