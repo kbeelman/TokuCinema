@@ -29,6 +29,7 @@
             "Director": "Ishiro Honda",
             "Series": "Godzilla",
             "Era": "Showa" ,
+            "Runtime": "88",
             "Path": "Godzilla-Mothra-1964",
             "Crew": [
                 {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Sanezumi Fujimoto"},
@@ -90,6 +91,7 @@
             "Director": "Ishiro Honda",
             "Series": "Godzilla",
             "Era": "Showa" ,
+            "Runtime": "93",
             "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964",
             "Crew": [{"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"}],
             "Cast": []
@@ -105,7 +107,8 @@
             "Distributor": "Toho",
             "Director": "Ishiro Honda",
             "Series": "Godzilla",
-            "Era": "Showa" ,
+            "Era": "Showa",
+            "Runtime": "89",
             "Path": "Godzilla-Destroy-All-Monsters-1968"   
         },
         {
@@ -119,7 +122,8 @@
             "Distributor": "Toho",
             "Director": "Jun Fukuda",
             "Series": "Godzilla",
-            "Era": "Showa" ,
+            "Era": "Showa",
+            "Runtime": "89",
             "Path": "Godzilla-Gigan-1972"   
         },
         {
@@ -133,7 +137,8 @@
             "Distributor": "Toho",
             "Director": "Jun Fukuda",
             "Series": "Godzilla",
-            "Era": "Showa" ,
+            "Era": "Showa",
+            "Runtime": "84",
             "Path": "Godzilla-Mechagodzilla-1974"   
         },
         {
@@ -147,7 +152,8 @@
             "Distributor": "Toho",
             "Director": "Koji Hashimoto",
             "Series": "Godzilla",
-            "Era": "Heisei" ,
+            "Era": "Heisei",
+            "Runtime": "103",
             "Path": "Godzilla-1984",
             "Crew": [
                 {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Fumio Tanaka"},
@@ -210,7 +216,7 @@
                 {"ActorName":"Dennis Falt","RoleName":"Soviet Submarine Captain"}, 
                 {"ActorName":"Koji Ishizaka","RoleName":"Power Plant Guard"}, 
                 {"ActorName":"Hiroshi Kamayatsu","RoleName":"Bullet Train Passenger"}, 
-                {"ActorName":"Godzilla","RoleName":"Kenpachiro Satsuma"}
+                {"ActorName":"Kenpachiro Satsuma","RoleName":"Godzilla"}
             ]    
         },
         {
@@ -224,7 +230,8 @@
             "Distributor": "Toho",
             "Director": "Takao Okawara",
             "Series": "Godzilla",
-            "Era": "Heisei" ,
+            "Era": "Heisei",
+            "Runtime": "103",
             "Path": "Godzilla-Destoroyah-1995"   
         },
         {
@@ -238,7 +245,8 @@
             "Distributor": "Tristar",
             "Director": "Roland Emmerich",
             "Series": "Godzilla",
-            "Era": "Tristar" ,
+            "Era": "Tristar",
+            "Runtime": "140",
             "Path": "Godzilla-1998"   
         },
         {
@@ -253,6 +261,7 @@
             "Director": "Takao Okawara",
             "Series": "Godzilla",
             "Era": "Millennium",
+            "Runtime": "107",
             "Path": "Godzilla-2000-Millennium-1999"
         },
         {
@@ -297,6 +306,7 @@
             "Director": "Gareth Edwards",
             "Series": "Godzilla",
             "Era": "MonsterVerse",
+            "Runtime": "123",
             "Path": "Godzilla-2014"
         },
         {
@@ -311,6 +321,7 @@
             "Director": "Hideaki Anno",
             "Series": "Godzilla",
             "Era": "Reboot",
+            "Runtime": "119",
             "Path": "Godzilla-Shin-2016"
         },
         {
@@ -325,6 +336,7 @@
             "Director": "Kobun Shizuno",
             "Series": "Godzilla",
             "Era": "Reboot",
+            "Runtime": "89",
             "Path": "Godzilla-Monster-Planet-2016"
         },
         {
@@ -339,6 +351,7 @@
             "Director": "Noriaki Yuasa",
             "Series": "Gamera",
             "Era": "Showa",
+            "Runtime": "86",
             "Path": "Gamera-Giant-Monster-1965"
         },
         {
@@ -353,6 +366,7 @@
             "Director": "Shigeo Tanaka",
             "Series": "Gamera",
             "Era": "Showa",
+            "Runtime": "100",
             "Path": "Gamera-Barugon-1966"
         },
         {
@@ -367,6 +381,7 @@
             "Director": "Shusuke Kaneko",
             "Series": "Gamera",
             "Era": "Heisei",
+            "Runtime": "96",
             "Path": "Gamera-Guardian-Universe-1995"
         },
         {
@@ -381,6 +396,7 @@
             "Director": "Shusuke Kaneko",
             "Series": "Gamera",
             "Era": "Heisei",
+            "Runtime": "99",
             "Path": "Gamera-Attack-Legion-1996"
         },
         {
@@ -395,6 +411,7 @@
             "Director": "Shusuke Kaneko",
             "Series": "Gamera",
             "Era": "Heisei",
+            "Runtime": "107",
             "Path": "Gamera-Revenge-Iris-1999"
         },
         {
@@ -409,6 +426,7 @@
             "Director": "Ryuta Tasaki",
             "Series": "Gamera",
             "Era": "Millennium",
+            "Runtime": "96",
             "Path": "Gamera-Brave-2006"
         },
         {
@@ -422,6 +440,7 @@
             "Director": "Ishiro Honda",
             "Series": "Tokusatsu",
             "Era": "Showa",
+            "Runtime": "94",
             "Path": "Atragon-1963",
             "Crew": [
                 {"PositionTitle":"Director","Name":"Ishiro Honda"},
@@ -484,6 +503,7 @@
             "Director": "Ishiro Honda",
             "Series": "Tokusatsu",
             "Era": "Showa",
+            "Runtime": "81",
             "Path": "Dogora-1964",
             "Crew": [
                 {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Yasuyoshi Tajitsu"},
@@ -544,6 +564,7 @@
             "Director": "Jun Fukuda",
             "Series": "Tokusatsu",
             "Era": "Showa",
+            "Runtime": "94",
             "Path": "Espy-1974",
             "Crew": [
                 {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Fumio Tanaka"},
@@ -600,6 +621,7 @@
             "Director": "Kenjiro Omori",
             "Series": "Tokusatsu",
             "Era": "Showa",
+            "Runtime": "127",
             "Path": "Deathquake-1980",
             "Crew": [
                 {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
@@ -697,7 +719,8 @@
                                 {"ActorName":"Larry Robinson","RoleName":"Jiro Nakamura"},
                                 {"ActorName":"Paulette Rubinstein and Terry Van Tell","RoleName":"The Shobijin"},
                                 {"ActorName":"Bret Morrison","RoleName":"Kumayama"},
-                                {"ActorName":"Jack Curtis","RoleName":"Jiro Torahata"}
+                                {"ActorName":"Jack Curtis","RoleName":"Jiro Torahata"},
+                                {"ActorName":"Peter Fernandez","RoleName":"Villager"}
                             ],
                             "Crew": [],
                             "DubCompany": "Titra Studios",
@@ -976,11 +999,11 @@
                     "Country": "International",
                     "Versions": [
                         {
-                            "MainTitle":[],
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Atragon"}],
                             "Cast": [],
                             "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Makoto Jinguji"}],
                             "Crew": [],
-                            "DubCompany": "",
+                            "DubCompany": "Axis International",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "Circa 1963",
@@ -1005,7 +1028,7 @@
                     "Country": "United States",
                     "Versions": [
                         {
-                            "MainTitle":[],
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Atragon"}],
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Bernard Grant","RoleName":"Susumu Hatanaka"},
@@ -1018,7 +1041,7 @@
                             "Crew": [],
                             "DubCompany": "Titra",
                             "ProductionCompany": "",
-                            "DistributionCompany": "",
+                            "DistributionCompany": "American International Pictures",
                             "ReleaseDate": "1965-03-11",
                             "Runtime":"",
                             "Rating": [],
@@ -1028,9 +1051,9 @@
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "1965-03-11",
                                     "Notes": [
-                                        "In this U.S., the film was released by American International Pictures to theaters on March 11th.",
+                                        "In this U.S., the film was released by American International Pictures to theaters.",
                                         "This version has several small sequences cut and the opening credits moved to the end of the picture.",
                                         "In the United States, despite being popular on TV syndication, Atragon was never released on VHS. The AIP version and Titra dub are nowhere to be found on home media. It is alleged that Media Blasters had plans to feature the Titra dub on their Region 1 DVD, but Toho vetoed them."
                                     ]
@@ -1052,7 +1075,7 @@
                             "Cast": [],
                             "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Dr. Munekata"}],
                             "Crew": [],
-                            "DubCompany": "",
+                            "DubCompany": "Axis International",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "",
@@ -1097,7 +1120,10 @@
                         {
                             "MainTitle":[{"TitleType":"International","TitleValue":"ESPY"}],
                             "Cast": [],
-                            "DubCast": [{"ActorName":"Matthew Oram","RoleName":"Hojo"}],
+                            "DubCast": [
+                                {"ActorName":"Matthew Oram","RoleName":"Hojo"},
+                                {"ActorName":"Barry Haigh","RoleName":"Yoshio Tamura"}
+                            ],
                             "Crew": [],
                             "DubCompany": "",
                             "ProductionCompany": "",
@@ -1115,26 +1141,7 @@
                                     "Notes": [
                                         "An export version was made with English dubbing done in Hong Kong. The full international version was not made available anywhere that we know of."
                                     ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "United States",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"US TV","TitleValue":"E.S.P./SPY"}],
-                            "Cast": [],
-                            "DubCast": [{"ActorName":"Matthew Oram","RoleName":"Hojo"}],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
+                                },
                                 {
                                     "AlternateTitle": [{"TitleType":"US TV","TitleValue":"E.S.P./SPY"}],
                                     "Name": "US TV",
@@ -1168,7 +1175,7 @@
                                 {"ActorName":"Warren Rooke","RoleName":"Masayuki Hashizume"}
                             ],
                             "Crew": [],
-                            "DubCompany": "",
+                            "DubCompany": "Omni Productions",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "",
@@ -1204,6 +1211,9 @@
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"John Culkin","RoleName":"Goro Maki"},
+                                {"ActorName":"Barry Haigh","RoleName":"Prime Minister Mitamura"},
+                                {"ActorName":"Elizabeth Oram","RoleName":"Naoko Okumura"},
+                                {"ActorName":"Warwick Paul Evans","RoleName":"Hiroshi Okamura"},
                                 {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida"}
                             ],
                             "Crew": [],
