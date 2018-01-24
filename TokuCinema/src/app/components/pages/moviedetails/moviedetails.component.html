@@ -101,8 +101,9 @@
                       <div *ngIf="iteration.AlternateTitle.length>0">
                         <div *ngIf="iteration.AlternateTitle.length>1; then thenBlock_Iteration_Titles else elseBlock_Iteration_Titles"></div>
                           <ng-template #thenBlock_Iteration_Titles>
+                            <h4>Alternate Titles</h4>
                             <ul>
-                              <li *ngFor="let item of iteration.AlternateTitle">{{iteration.AlternateTitle.TitleType}} Title: {{iteration.AlternateTitle.TitleValue}}</li>
+                              <li *ngFor="let item of iteration.AlternateTitle">{{item.TitleType}}: {{item.TitleValue}}</li>
                             </ul>
                           </ng-template>
                           <ng-template #elseBlock_Iteration_Titles><li>{{iteration.AlternateTitle[0].TitleType}} Title: {{iteration.AlternateTitle[0].TitleValue}}</li></ng-template>
