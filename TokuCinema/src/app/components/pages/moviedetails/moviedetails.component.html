@@ -74,7 +74,7 @@
             <li *ngIf="version.ProductionCompany">Production Company: {{version.ProductionCompany}}</li>
             <li *ngIf="version.DistributionCompany">Distribution Company: {{version.DistributionCompany}}</li>
             <li *ngIf="version.DubCompany">Dub Studio: {{version.DubCompany}}</li>
-            <li *ngIf="version.Runtime">Runtime: {{version.Runtime}}</li>
+            <li *ngIf="version.Runtime">Runtime: {{version.Runtime}} minutes</li>
             <li *ngIf="version.Rating">Rated: {{version.Rating[0].RatingSystem}} {{version.Rating[0].RatingValue}}</li>
           </ul>
           <div class="movie-cast-crew" *ngIf="version.Cast || version.DubCast || version.Crew">
@@ -109,7 +109,7 @@
                           <ng-template #elseBlock_Iteration_Titles><li>{{iteration.AlternateTitle[0].TitleType}} Title: {{iteration.AlternateTitle[0].TitleValue}}</li></ng-template>
                       </div>
                     </div>
-                    <li *ngIf="iteration.Runtime">Runtime: {{iteration.Runtime}}</li>
+                    <li *ngIf="iteration.Runtime">Runtime: {{iteration.Runtime}} minutes</li>
                     <div *ngIf="iteration.ReleaseDate">
                       <div *ngIf="isCircaDate(iteration.ReleaseDate); then thenBlock_ReleaseCirca_Iteration else elseBlock_ReleaseCirca_Iteration"></div>
                           <ng-template #thenBlock_ReleaseCirca_Iteration>
