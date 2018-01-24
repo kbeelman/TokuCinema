@@ -262,7 +262,24 @@
             "Series": "Godzilla",
             "Era": "Millennium",
             "Runtime": "107",
-            "Path": "Godzilla-2000-Millennium-1999"
+            "Path": "Godzilla-2000-Millennium-1999",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Shogo Tomiyama"},
+                {"PositionTitle":"Director","Name":"Takao Okawara"},
+                {"PositionTitle":"Writers","Name":"Hiroshi Kashiwabara, Wataru Mimura"},
+                {"PositionTitle":"Composer","Name":"Takayuki Hattori"},
+                {"PositionTitle":"Cinematographer","Name":"Katsuhiro Kato"},
+                {"PositionTitle":"Editor","Name":"Yoshiyuki Okuhara"}
+            ],
+            "Cast": [
+                {"ActorName":"Takehiro Murata","RoleName":"Yuji Shinoda"},
+                {"ActorName":"Naomi Nishida","RoleName":"Yuki Ichinose"},
+                {"ActorName":"Hiroshi Abe","RoleName":"Mitsuo Katagiri"},
+                {"ActorName":"Shiro Sano","RoleName":"Shiro Miyasaka"},
+                {"ActorName":"Mayu Suzuki","RoleName":"Io Shinoda"},
+                {"ActorName":"Tsutomu Kitagawa","RoleName":"Godzilla"},
+                {"ActorName":"Makoto Ito","RoleName":"Orga"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla Tokyo S.O.S.",
@@ -1294,6 +1311,102 @@
                                         "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
                                         "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
                                         "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-2000-Millennium-1999",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Francois Chau","RoleName":"Yuji Shinoda"},
+                                {"ActorName":"Denise Iketani","RoleName":"Yuki Ichinose"},
+                                {"ActorName":"Jack Ong","RoleName":"Shiro Miyasaka"},
+                                {"ActorName":"Ron Yuan","RoleName":"Mitsuo Katagiri"},
+                                {"ActorName":"Rachel Crane","RoleName":"Io Shinoda"},
+                                {"ActorName":"Jim Ishida","RoleName":"General Takada"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Dubbing Director","Name":"Mike Schlesinger"},
+                                {"PositionTitle":"Additional Music","Name":"J. Peter Robinson"},
+                                {"PositionTitle":"Film Editor","Name":"Michael Hahoney"},
+                                {"PositionTitle":"Supervising Sound Editor","Name":"Darren Paskal"},
+                                {"PositionTitle":"Assistant Film Editor","Name":"Ryan Quigley"},
+                                {"PositionTitle":"Re-recording Mixers","Name":"Jon Taylor, Greg Orloff, Carlos Delarios"},
+                                {"PositionTitle":"Music Editor","Name":"Lisé Richardson"},
+                                {"PositionTitle":"Sound Editors","Name":"Nicolas James, Greg Schorer, Richard S. Steele, Brian Reisner, John K. Adams"},
+                                {"PositionTitle":"Voice Casting","Name":"Glen Chin"},
+                                {"PositionTitle":"ADR Mixer","Name":"Matt Beville"},
+                                {"PositionTitle":"Foley Artist","Name":"Dan O’Connell"}
+                            ],
+                            "DubCompany": "Tristar Pictures/Sony Pictures Entertainment",
+                            "ProductionCompany": "TriStar Pictures",
+                            "DistributionCompany": "TriStar Pictures",
+                            "ReleaseDate": "2000-08-18",
+                            "Runtime":"98",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Roughly nine minutes of footage is removed in this cut of the film, mostly to improve pacing. Some dialog is rewritten to make the film more lighthearted, and the sound design is also reworked.",
+                                        "J. Peter Robinson composed additional music for this version of the movie, which supplements the original music by Takayuki Hattori.",
+                                        "This version ends with a \"THE ? END\" title card. During production, the wrong font was used for the ending card, resulting in a cartoony font being mistakenly used. Toho and Tristar mutually agreed to remove this card from future releases."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2000-12-06",
+                                    "Notes": [
+                                        "This version is almost entirely the same as the Theatrical version, but the \"THE ? END\" ending title card has been removed."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000: Millennium"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho originally had an English dub produced in Hong Kong, but it has never been released in any form, as it was supplanted by Tristar's Godzilla 2000 dub, which is now Toho's preferred English version of the film.",
+                                        "Parts of the International dub can be heard in the trailer for Tristar's Godzilla 2000.",
+                                        "One line from the International dub remains in Tristar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
                                     ]
                                 }
                             ]
