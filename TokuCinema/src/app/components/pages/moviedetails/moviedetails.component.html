@@ -21,7 +21,7 @@
 
           <li *ngIf="this.movie.ProductionCompany">Production Company: {{this.movie.ProductionCompany}}</li>
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
-
+          <li *ngIf="this.movie.Runtime">Original Runtime: {{this.movie.Runtime}}</li>
           <!-- Atlernate Titles Null Check -->
           <div *ngIf="this.movie.doesAtlernateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
             <ng-template #thenBlock_AtlernateTitles_NullCheck>
