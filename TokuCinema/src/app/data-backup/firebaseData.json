@@ -14,8 +14,31 @@
             "Era": "Showa",
             "Runtime": "96",
             "Path": "Godzilla-1954",
-            "Crew": [{"PositionTitle":"Producer","Name":["Tomoyuki Tanaka"]},{"PositionTitle":"Writers","Name":["Takeo Murata"," Ishiro Honda"]}],
-            "Cast": [{"ActorName":"Akira Takarada","RoleName":"Hideto Ogata"}]
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Writers","Name":["Takeo Murata"," Ishiro Honda"]},
+                {"PositionTitle":"Story","Name":"Shigeru Kayama"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Cinematographer","Name":"Masao Tamai"},
+                {"PositionTitle":"Editor","Name":"Kazuji Taira"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Takarada","RoleName":"Hideto Ogata"},
+                {"ActorName":"Takashi Shimura","RoleName":"Dr. Kyohei Yamane"},
+                {"ActorName":"Momoko Kochi","RoleName":"Emiko Yamane"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Dr. Daisuke Serizawa"},
+                {"ActorName":"Sachio Sakai","RoleName":"Hagiwara"},
+                {"ActorName":"Fuyuki Murakami","RoleName":"Dr. Tanabe"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Masaji Yamada"},
+                {"ActorName":"Toyoaki Suzuki","RoleName":"Shinkichi Yamada"},
+                {"ActorName":"Tadashi Okabe","RoleName":"Dr. Tanabe's Assistant"},
+                {"ActorName":"Toranosuke Ogawa","RoleName":"President of the Nankai Shipping Company"},
+                {"ActorName":"Kenji Sahara","RoleName":"Partygoer"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Katsumi Tezuka","RoleName":"Godzilla"}
+            ]
         },
         {
             "OfficialTitle": "Mothra vs. Godzilla",
@@ -327,8 +350,8 @@
             "Path": "Godzilla-2014"
         },
         {
-            "OfficialTitle": "Godzilla Resurgence",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"シン・ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Shin Gojira"},{"TitleType":"Literal Translation","TitleValue":"New Godzilla"}],
+            "OfficialTitle": "Shin Godzilla",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"シン・ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Shin Gojira"},{"TitleType":"Literal Translation","TitleValue":"New/God/True Godzilla"},{"TitleType":"Original English Title","TitleValue":"Godzilla Resurgence"}],
             "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/1/17/Godzilla_Resurgence_Theatrical_Poster.jpg",
             "ReleaseDate": "2016-07-29",
             "ProductionCompany": "Toho",
@@ -692,6 +715,104 @@
     ],
     "alternateVersions": [
         {
+            "Path": "Godzilla-1954",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters!"}],
+                            "Cast": [
+                                {"ActorName":"Raymond Burr","RoleName":"Steve Martin"},
+                                {"ActorName":"Frank Iwanaga","RoleName":"Security Officer"},
+                                {"ActorName":"Mikel Conrad","RoleName":"George Lawrence"}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"James Hong","RoleName":"Ogata and Dr. Serizawa"},
+                                {"ActorName":"Sammee Tong","RoleName":"Dr. Yamane"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producers","Name":"Richard Kay, Harry Rybnick, Edward B. Barison"},
+                                {"PositionTitle":"Director","Name":"Terry Morse"},
+                                {"PositionTitle":"Writer","Name":"Al C. Ward"},
+                                {"PositionTitle":"Editor","Name":"Terry Morse"},
+                                {"PositionTitle":"Cinematographer","Name":"Guy Roe"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "Jewell Enterprises",
+                            "DistributionCompany": "TransWorld Releasing Corporation & Embassy Pictures",
+                            "ReleaseDate": "1956-04-27",
+                            "Runtime":"80",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters!"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "Jewell Enterprises",
+                            "DistributionCompany": "Toho",
+                            "ReleaseDate": "1957-05-29",
+                            "Runtime":"80",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Japanese","TitleValue":"怪獣王ゴジラ"},
+                                        {"TitleType":"Hepburn","TitleValue":"Kaiju O Gojira"},
+                                        {"TitleType":"Literal Translation","TitleValue":"Monster King Godzilla"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Emilio Cigoli","RoleName":"Steve Martin"},
+                                {"ActorName":"Rita Savagnone","RoleName":"Emiko Yamane"},
+                                {"ActorName":"Guiseppe Rinaldi","RoleName":"Ogata"},
+                                {"ActorName":"Vittorio Kramer","RoleName":"George Lawrence"},
+                                {"ActorName":"Pino Locchi","RoleName":"Frank Iwanaga/Ywanga"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Gianni Hecht Lucari"},
+                                {"PositionTitle":"Executive Producer","Name":"Renato Barbieri"},
+                                {"PositionTitle":"Director","Name":"Luigi Cozzi"},
+                                {"PositionTitle":"Colorization Effects","Name":"Armando Valcauda"},
+                                {"PositionTitle":"Editor","Name":"Alberto Moro"},
+                                {"PositionTitle":"Composers","Name":"Vince Tempera, Franco Bixio, and Fabio Frizzi"}
+                            ],
+                            "DubCompany": "Fonolux with the participation of C.D.C.",
+                            "ProductionCompany": "Cozzilla s.r.l.",
+                            "DistributionCompany": "Paramount",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"105",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Godzilla-Mothra-1964",
             "Countries": [
                 {
@@ -705,13 +826,13 @@
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1970",
+                            "ReleaseDate": "1970-12-19",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [
                                 {
                                     "AlternateTitle": [],
-                                    "Name": "",
+                                    "Name": "Toho Champion Festival",
                                     "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
@@ -964,7 +1085,7 @@
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1995",
+                            "ReleaseDate": "1995-01-25",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [
@@ -1010,6 +1131,29 @@
             ]
         },
         {
+            "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ghidrah the Three-Headed Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Belucci Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Continental Film Distributors",
+                            "ReleaseDate": "1965-09-13",
+                            "Runtime":"85",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Atragon-1963",
             "Countries": [
                 {
@@ -1023,7 +1167,7 @@
                             "DubCompany": "Axis International",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1963",
+                            "ReleaseDate": "2006-01-10",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [
@@ -1095,7 +1239,7 @@
                             "DubCompany": "Axis International",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "",
+                            "ReleaseDate": "Circa 1965",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [
@@ -1195,7 +1339,7 @@
                             "DubCompany": "Omni Productions",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "",
+                            "ReleaseDate": "1982-02-05",
                             "Runtime":"103",
                             "Rating": [],
                             "Iterations": [
@@ -1488,17 +1632,19 @@
             "MediumCount": [{"Medium":"DVD", "Count": "1"}],
             "ColorSystem": "NTSC",
             "Screencaps": [
-                "https://i.imgur.com/EBne34b.png",
-                "https://i.imgur.com/Xi2uWSS.png",
-                "https://i.imgur.com/qfs4TyN.png",
-                "https://i.imgur.com/rqsa5I1.png",
-                "https://i.imgur.com/8iV2Xgc.png",
-                "https://i.imgur.com/61pReJL.png",
-                "https://i.imgur.com/f8X7iyA.png",
-                "https://i.imgur.com/zuyi4nP.png",
-                "https://i.imgur.com/ltXVOrY.png",
-                "https://i.imgur.com/e7w0tFH.png",
-                "https://i.imgur.com/DCzcvs2.png"],
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F01.png?alt=media&token=bd145c14-a040-40ee-a04a-64e5c9630dd4",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F02.png?alt=media&token=f1fcaa30-64f4-417c-9ba3-3fa627ca3c8d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F03.png?alt=media&token=b5bce12b-0970-472d-8d72-629f5a9278bf",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F04.png?alt=media&token=1dfb2363-6531-4714-803e-6cdc3fffbb24",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F05.png?alt=media&token=863fb434-ad0c-4999-8956-70ae553af9ca",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F06.png?alt=media&token=39a24dcb-b9dd-4b3a-b8d5-17089ca67eb8",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F07.png?alt=media&token=1c70cfec-ad9b-4f2b-90db-3605fd8d4b08",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F08.png?alt=media&token=9c82e9e4-2540-4986-ad0f-d9b20b831c4d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F09.png?alt=media&token=b9e6bc53-930c-44d0-9444-e2d22672d4d0",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F10.png?alt=media&token=fde7b614-1fbe-447a-a5b7-c9c163fa9c7e",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F11.png?alt=media&token=3965ad42-a068-4d24-a339-b3db27fdd2a6",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2F12.png?alt=media&token=8d352b0f-1cf8-4149-9cb3-4a627806e090"
+            ],
             "Distributor": "Classic Media",
             "CatalogCode": "LVD 54288",
             "UPC": "074645428895",
