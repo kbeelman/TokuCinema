@@ -119,7 +119,7 @@ section {
 }
 
 .home-hero-image {
-  @include hero-image("/~/../assets/images/Legendary-Godzilla-1.jpg", center left, blur(2px) sepia(1));
+  @include hero-image("https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2FLegendary-Godzilla-1.jpg?alt=media&token=7acef0f6-e497-4cd7-a837-d42ab73ee195", center left, blur(2px) sepia(1));
 }
 
 .home-tile-wrapper {

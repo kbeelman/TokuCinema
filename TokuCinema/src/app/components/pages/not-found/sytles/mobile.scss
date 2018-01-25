@@ -1,5 +1,5 @@
 .not-found-hero-image {
-    @include hero-image("/~/../assets/images/404.jpg", center center, '');
+    @include hero-image("https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2F404.jpg?alt=media&token=a9ea157c-96af-4192-8851-fa7cb2284ead", center center, '');
 }
 
 .not-found-root {
