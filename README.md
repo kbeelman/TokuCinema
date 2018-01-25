@@ -11,20 +11,18 @@ Monster Movie Review Website
         - Nodejs: 6.9.6   download Windows installer here: [Node](ttps://nodejs.org/en/download/) 
         - npm: 3.10.10 (bundled with Nodejs)
 
-<!-- 2. Install Gulp.js
-    - Install Gulp globally on your machine  
-        - run cmd: `npm install -g gulp` -->
-
 2. Install Angular CLI globally on your machine
     - Install Angular CLI version: "1.0.5" or greater  
         - run cmd: `npm install -g @angular/cli`
 
-3. Install project packages
+3. Install the Firebase CLI globally on your machine
+    - run cmd: `npm install -g firebase-tools`
+
+4. Install project packages
     - Clone this Repo
-        - run cmd: `git clone https://github.com/bayes343/TokuCinema.git`
+        - run cmd: `git clone https://github.com/kbeelman/TokuCinema.git`
     - "cd" into the nested "TokuCinema" folder (The root of the repo is also named TokuCinema) and run the following commands: 
-        - run cmd: `npm install`  
-        <!-- - run cmd: `npm install gulp`   -->
+        - run cmd: `npm install`
 
 
 ## Running the Application for Development
@@ -34,10 +32,6 @@ Monster Movie Review Website
         - to run the application using the production database run cmd `ng serve --env=prod`
     
     *You should now be able to hit the site at "localhost:4200"*
-    
-<!-- 2. Run Gulp to Compile Sass
-    - cd into the inner "TokuCinema" folder if you're not already there  
-        - run cmd: `gulp` -->
 
 
 ## Debugging in VS Code
@@ -66,17 +60,31 @@ Monster Movie Review Website
 }
 ```
 
-## Deploying to Production
-1. Build the project         
+## Deploying to the Dev Server
+1. Build & Deploy the project         
     - Run the below script to build the project:
-        - run cmd: `npm run build`
+        - run cmd: `npm run build-dev`
+    - Run the below script to deploy the project:
+        - run cmd: `npm run deploy-dev`
+    - Alternatively, you can build and deploy with one command:
+        - run cmd: `npm run build-deploy-dev`
+    - Dev location:  [TokuCinema Dev](http://dev.tokucinema.com/)   
 
-2. Merge master with development
+2. Commit/Push the changes
+
+## Deploying to Production
+1. Merge master with development
     - Checkout master branch
+        - run cmd: `git checkout master`
         - run cmd: `git merge development`
 
-3. Commit/Push the changes
-    - Azure will automatically pull the changes and redploy the application. 
-        - Prod location:  [TokuCinema Prod](http://tokuCinema.azurewebsites.net/)  
+2. Build & Deploy the project         
+    - Run the below script to build the project:
+        - run cmd: `npm run build`
+    - Run the below script to deploy the project:
+        - run cmd: `npm run deploy`
+    - Alternatively, you can build and deploy with one command:
+        - run cmd: `npm run build-deploy`
+    - Prod location:  [TokuCinema Prod](http://tokucinema.com/)  
 
-**(All commits to development branch trigger a CI build [checked in five minute intervals])**
+3. Commit/Push the changes
