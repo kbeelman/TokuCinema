@@ -60,7 +60,7 @@
     <div *ngFor="let country of this.movieAlternateVersion.Countries" >
       <div class="movie-alt-details" [class.active]="country.Active" *ngIf="country.Active">
         <div class="movie-alt-version-details" *ngFor="let version of country.Versions">
-          <h4 *ngIf="version.MainTitle">{{version.MainTitle[0].TitleValue}}</h4>
+          <h3 *ngIf="version.MainTitle">{{version.MainTitle[0].TitleValue}}</h3>
           <ul>
             <div *ngIf="version.ReleaseDate">
              <div *ngIf="isCircaDate(version.ReleaseDate); then thenBlock_ReleaseCirca else elseBlock_ReleaseCirca"></div>
