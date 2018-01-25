@@ -91,8 +91,9 @@
               <div *ngFor="let item of version.Crew"><strong>{{item.PositionTitle}}</strong>: {{item.Name}}</div>
             </div>
           </div>
-          <h4 class="movie-alt-iterations-header">Iterations</h4>
-          <div class="movie-alt-iterations">
+          
+          <div *ngIf="version.Iterations" class="movie-alt-iterations">
+            <h4 class="movie-alt-iterations-header">Iterations</h4>
             <div *ngFor="let iteration of version.Iterations">
               <ul>
                 <li *ngIf="iteration.Name">{{iteration.Name}}</li>
