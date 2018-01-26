@@ -32,6 +32,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 // Firebase config
 import { environment } from '../environments/environment';
+import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -63,7 +64,8 @@ describe('AppComponent', () => {
         SearchResultTabComponent,
         MediaGalleryComponent,
         FooterComponent,
-        NotFoundComponent
+        NotFoundComponent,
+        ReleaseYearSortPipe
       ],
       imports: [
         FormsModule,

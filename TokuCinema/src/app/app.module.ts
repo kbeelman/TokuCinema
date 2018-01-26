@@ -35,6 +35,7 @@ import { MovieTitleSearch } from './pipes/movies/movieTitle.pipe';
 import { MediaFiltersSearch } from './pipes/media/mediaFilters.pipe';
 import { MovieFiltersSearch } from './pipes/movies/movieFilters.pipe';
 import { DeepSearch } from './pipes/deepSearch.pipe';
+import { ReleaseYearSortPipe } from './pipes/release-year-sort.pipe';
 
 // Services
 import { FirebaseService } from './services/firebase.service';
@@ -67,7 +68,8 @@ import { environment } from '../environments/environment';
     MediaBoxsetsComponent,
     NotFoundComponent,
     MediaGalleryComponent,
-    FooterComponent
+    FooterComponent,
+    ReleaseYearSortPipe
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { MediaFiltersSearch } from '../../../pipes/media/mediaFilters.pipe';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MediaSearchResultsComponent } from './media-search-results.component';
+import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
 
 describe('MediaSearchResultsComponent', () => {
   let component: MediaSearchResultsComponent;
@@ -13,10 +14,12 @@ describe('MediaSearchResultsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediaSearchResultsComponent, 
+      declarations: [ 
+        MediaSearchResultsComponent, 
         MediaTitleSearch, 
         MediaFiltersSearch,
-        MediaCardComponent
+        MediaCardComponent,
+        ReleaseYearSortPipe
       ],
       imports: [
         FormsModule,

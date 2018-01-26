@@ -10,6 +10,7 @@ import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FirebaseService } from '../../../services/firebase.service';
+import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
 
 describe('MediaComponent', () => {
   let component: MediaComponent;
@@ -17,11 +18,13 @@ describe('MediaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediaComponent,
+      declarations: [ 
+        MediaComponent,
         MediaSearchResultsComponent,
         MediaCardComponent,
         MediaTitleSearch,
-        MediaFiltersSearch
+        MediaFiltersSearch,
+        ReleaseYearSortPipe
       ],
       imports: [
         FormsModule,

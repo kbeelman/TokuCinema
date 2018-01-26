@@ -4,7 +4,8 @@
       <h2>{{country}}</h2>
     </ng-container>
   <div class="series-cards-wrapper">
-    <ng-container *ngFor="let media of mediaItems | mediaFilters : this.mediaFilters | mediaTitle : searchTerm">
+    <ng-container *ngFor="let media of mediaItems | releaseYearSort : true | 
+      mediaFilters : this.mediaFilters | mediaTitle : searchTerm">
       <app-media-card
         *ngIf="country === media.Country"
         [media]="media">
