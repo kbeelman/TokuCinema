@@ -171,7 +171,7 @@
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Format_multiple>
-                    <li>Format Details: {{this.mediaDetails.Format[0].Format}}</li>
+                    <li *ngIf="this.mediaDetails.Format[0].Format">Format Details: {{this.mediaDetails.Format[0].Format}}</li>
                   </ng-template>
               </ng-template>
 
