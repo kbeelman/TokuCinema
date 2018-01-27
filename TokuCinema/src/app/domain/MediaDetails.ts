@@ -30,7 +30,7 @@ export class MediaDetails {
         public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
         public MovieDetails: Array<string>,
         public OriginalRelease: string,
-        public BoxArt: string,
+        public BoxArt: Array<string>,
         public Screencaps: Array<string>
     ) {
         let aspectCompArray: Array<string> = [];

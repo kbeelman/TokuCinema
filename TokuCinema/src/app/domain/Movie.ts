@@ -3,7 +3,6 @@ import { Country, Language, Series, Era } from './Types';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
-import * as firebase from 'firebase';
 
 export class Movie implements ISearchable {
     public ReleaseYear: number;
@@ -15,7 +14,7 @@ export class Movie implements ISearchable {
     constructor(
         public OfficialTitle: string,
         public AlternateTitles: Array<{"TitleType": string, "TitleValue": string}>,
-        public OriginalPoster: string,
+        public OriginalPoster: Array<string>,
         public ReleaseDateString: string,
         public ProductionCompany: string,
         public CountryOfOrigin: Country,
@@ -38,9 +37,6 @@ export class Movie implements ISearchable {
             this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
         }
         this.setReleaseDate();
-        var storageRef = firebase.storage().ref();
-        storageRef.child('images/movies/' + this.Path + '/thumb-card.png').getDownloadURL().then(url => this.ImageCard = url);
-        storageRef.child('images/movies/' + this.Path + '/thumb-details.png').getDownloadURL().then(url => this.ImageDetails = url);
     }
 
     public setReleaseDate(): void {

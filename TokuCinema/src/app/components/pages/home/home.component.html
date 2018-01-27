@@ -8,7 +8,7 @@
         <a class="landing-page-card" [routerLink]="['/media', this.randomContent.Path]">
           <div class="tablet-plus-content">{{this.randomContent.Title}}</div>
           <div>
-            <img [src]="this.randomContent.ImageDetails" alt="Box art for {{this.randomContent.Title}}">
+            <img [src]="this.randomContent.BoxArt[1]" alt="Box art for {{this.randomContent.Title}}">
           </div>
           <div class="mobile-only-content">{{this.randomContent.Title}}</div>
           <div class="tablet-plus-content">{{this.randomContent.ReleaseYear}} {{this.randomContent.Distributor}}</div>

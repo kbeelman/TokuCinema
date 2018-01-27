@@ -3,7 +3,9 @@
         {
             "OfficialTitle": "Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Gojira"},{"TitleType":"Literal Translation","TitleValue":"Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla, King of the Monsters!"}],
-            "OriginalPoster": "https://vignette4.wikia.nocookie.net/deathbattle/images/9/95/Movie-poster-shop-godzilla_-king-of-the-monsters-_1954_.jpg/revision/latest?cb=20161028143059",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1954%2Fthumb-card.png?alt=media&token=e52a3601-9be7-48b4-9d61-65be673cb97d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1954%2Fthumb-details.png?alt=media&token=8423e0d4-f58f-4151-9f37-a40d0f31e827"],
             "ReleaseDate": "1954-11-03",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -43,7 +45,10 @@
         {
             "OfficialTitle": "Mothra vs. Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"モスラ対ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Mosura tai Gojira"},{"TitleType":"Literal Translation","TitleValue":"Mothra vs. Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla vs. The Thing"},{"TitleType":"U.S. Home Release Alternate Title","TitleValue":"Godzilla vs. Mothra"}],
-            "OriginalPoster": "http://vignette4.wikia.nocookie.net/godzilla/images/d/da/Mothra_vs._Godzilla_Poster_A.png/revision/latest?cb=20140514004544",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mothra-1964%2Fthumb-card.png?alt=media&token=5b648364-b84f-4c45-a5e0-df878774701b",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mothra-1964%2Fthumb-details.png?alt=media&token=e243bfdc-022e-4e50-969e-c6ef1e2b6744"
+            ],
             "ReleaseDate": "1964-04-29",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -105,7 +110,10 @@
         {
             "OfficialTitle": "Ghidorah, the Three-Headed Monster",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"三大怪獣　地球最大の決戦"},{"TitleType":"Hepburn","TitleValue":"San Daikaiju: Chikyū Saidai no Kessen"},{"TitleType":"Literal Translation","TitleValue":"Three Giant Monsters: The Greatest Battle on Earth"},{"TitleType":"Original U.S. Title","TitleValue":"Ghidrah the Three-Headed Monster"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/4/40/Ghidorah_the_Three-Headed_Monster_1965.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Ghidorah-Three-Headed-Monster-1964%2Fthumb-card.png?alt=media&token=84ebf328-704d-4c99-aae8-5801659d6b2e",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Ghidorah-Three-Headed-Monster-1964%2Fthumb-details.png?alt=media&token=be6266a1-e9be-4a70-8a18-b89d48a41522"
+            ],
             "ReleaseDate": "1964-12-20",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -122,7 +130,10 @@
         {
             "OfficialTitle": "Destroy All Monsters",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"怪獣総進撃"},{"TitleType":"Hepburn","TitleValue":"Kaiju Soshingeki"},{"TitleType":"Literal Translation","TitleValue":"Charge of the Monsters"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/c/c9/Destroy_All_Monsters_1968.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Destroy-All-Monsters-1968%2Fthumb-card.png?alt=media&token=2f71857d-a99c-4e51-8276-7693286dc60c",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Destroy-All-Monsters-1968%2Fthumb-details.png?alt=media&token=7ae881c1-cfdd-4211-bccc-ef01589dc966"
+            ],
             "ReleaseDate": "1968-08-01",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -137,7 +148,10 @@
         {
             "OfficialTitle": "Godzilla vs. Gigan",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地球攻撃命令 ゴジラ対ガイガン"},{"TitleType":"Hepburn","TitleValue":"Chikyu Kogeki Meirei: Gojira tai Gaigan"},{"TitleType":"Literal Translation","TitleValue":"Earth Destruction Directive: Godzilla vs. Gigan"},{"TitleType":"Original U.S. Title","TitleValue":"Godzilla on Monster Island"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/b/b3/Godzilla_vs_Gigan_1972.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Gigan-1972%2Fthumb-card.png?alt=media&token=70b9ba1f-dbe4-4351-9adb-815c794842d8",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Gigan-1972%2Fthumb-details.png?alt=media&token=5751fa89-6289-463f-ac1c-4fff5ec11dda"
+            ],
             "ReleaseDate": "1972-03-12",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -152,7 +166,10 @@
         {
             "OfficialTitle": "Godzilla vs. Mechagodzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ対メカゴジラ"},{"TitleType":"Hepburn","TitleValue":"Gojira Tai Mekagojira"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/4/41/Godzilla_vs_Mechagodzilla_1974.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mechagodzilla-1974%2Fthumb-card.png?alt=media&token=500f9f0e-6766-40f4-b1ae-3735170da12b",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mechagodzilla-1974%2Fthumb-details.png?alt=media&token=48ee7673-cca3-416f-8bb6-12aac1798b01"
+            ],
             "ReleaseDate": "1974-03-21",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -167,7 +184,10 @@
         {
             "OfficialTitle": "Return of Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Gojira"},{"TitleType":"Literal Translation","TitleValue":"Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla 1985"},{"TitleType":"U.S. Home Release Alternate Title","TitleValue":"Godzilla 1984"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/f/fb/Godzilla_1984.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1984%2Fthumb-card.png?alt=media&token=ee59ab4b-095b-407d-acc3-1d4a47416ce2",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1984%2Fthumb-details.png?alt=media&token=6e60998a-be3f-4cb0-b4b9-ff9b1fe7e508"
+            ],
             "ReleaseDate": "1984-12-15",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -245,7 +265,10 @@
         {
             "OfficialTitle": "Godzilla vs. Destoroyah",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラvsデストロイア"},{"TitleType":"Hepburn","TitleValue":"Gojira tai Desutoroia"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/c/c9/Godzilla_vs._Destoroyah_%281995%29_Japanese_theatrical_poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Destoroyah-1995%2Fthumb-card.png?alt=media&token=a7c740e4-957e-40e3-996c-28b66dc701fe",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Destoroyah-1995%2Fthumb-details.png?alt=media&token=439f781e-2e0e-4d3e-8d71-038869cf6fbd"
+            ],
             "ReleaseDate": "1995-12-09",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -260,7 +283,10 @@
         {
             "OfficialTitle": "Godzilla",
             "AlternateTitles": [],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/2/2e/Godzilla_%281998_Movie_Poster%29.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1998%2Fthumb-card.png?alt=media&token=9d1caa0b-fb9b-4ee8-aae5-c497c6690278",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1998%2Fthumb-details.png?alt=media&token=934cdeb2-bb05-497e-b844-0526d42c56c0"
+            ],
             "ReleaseDate": "1998-04-20",
             "ProductionCompany": "Tristar",
             "CountryOfOrigin": "United States",
@@ -275,7 +301,10 @@
         {
             "OfficialTitle": "Godzilla 2000: Millennium",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ2000 ミレニアム"},{"TitleType":"Hepburn","TitleValue":"Gojira Nisen: Mireniamu"},{"TitleType":"U.S. Title","TitleValue":"Godzilla 2000"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/f/f0/Godzilla2000jap.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-2000-Millennium-1999%2Fthumb-card.png?alt=media&token=a2a3371a-76a9-40d4-adc9-68837f43e7b2",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-2000-Millennium-1999%2Fthumb-details.png?alt=media&token=2b6415e4-2f35-47e0-9932-2c9a89636104"
+            ],
             "ReleaseDate": "1999-12-11",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -307,7 +336,10 @@
         {
             "OfficialTitle": "Godzilla Tokyo S.O.S.",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ×モスラ×メカゴジラ 東京SOS"},{"TitleType":"Hepburn","TitleValue":"Gojira Mosura Mekagojira Tokyo Esu O Esu"},{"TitleType":"Literal Translation","TitleValue":"Godzilla x Mothra x Mechagodzilla: Tokyo SOS"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Godzilla_-_Tokyo_S.O.S._%282003%29_Japanese_theatrical_poster.jpg/220px-Godzilla_-_Tokyo_S.O.S._%282003%29_Japanese_theatrical_poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Tokyo-SOS-2003%2Fthumb-card.png?alt=media&token=7764a145-124d-4273-a6a8-5c2ed6f6cc6f",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Tokyo-SOS-2003%2Fthumb-details.png?alt=media&token=8eb6074b-a24d-47b1-8688-b8cbdeb46b4b"
+            ],
             "ReleaseDate": "2003-12-13",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -322,7 +354,10 @@
         {
             "OfficialTitle": "Godzilla: Final Wars",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ ファイナルウォーズ"},{"TitleType":"Hepburn","TitleValue":"Gojira: Fainaru Wozu"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/0/06/GodzillaFinalWarsPoster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Final-Wars-2004%2Fthumb-card.png?alt=media&token=ec71b639-2f36-4213-8a98-1b76ebbb03c1",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Final-Wars-2004%2Fthumb-details.png?alt=media&token=0adeb95e-5e54-43c4-afc4-d28e06cf0db5"
+            ],
             "ReleaseDate": "2004-11-29",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -337,7 +372,10 @@
         {
             "OfficialTitle": "Godzilla",
             "AlternateTitles": [],
-            "OriginalPoster": "http://vignette1.wikia.nocookie.net/godzilla/images/b/b6/Spanish_Godzilla_2014_Poster.jpg/revision/latest?cb=20140313055712",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-2014%2Fthumb-card.png?alt=media&token=a2f40cc7-be62-4dd6-94d7-eaa67febed69",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-2014%2Fthumb-details.png?alt=media&token=082fcedf-9bae-4b9a-b25f-f56856eda8c4"
+            ],
             "ReleaseDate": "2014-05-16",
             "ProductionCompany": "Legendary",
             "CountryOfOrigin": "United States",
@@ -352,7 +390,10 @@
         {
             "OfficialTitle": "Shin Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"シン・ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Shin Gojira"},{"TitleType":"Literal Translation","TitleValue":"New/God/True Godzilla"},{"TitleType":"Original English Title","TitleValue":"Godzilla Resurgence"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/1/17/Godzilla_Resurgence_Theatrical_Poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Shin-2016%2Fthumb-card.png?alt=media&token=44b0b76c-8f9a-4339-a72b-4a36d6a2f6e8",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Shin-2016%2Fthumb-details.png?alt=media&token=41039d6b-d559-43df-9eb3-197fdaa13f8c"
+            ],
             "ReleaseDate": "2016-07-29",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -367,7 +408,10 @@
         {
             "OfficialTitle": "Godzilla: Planet of the Monsters",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA -怪獣惑星"},{"TitleType":"Hepburn","TitleValue":"Gojira: Kaijū Wakusei"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/b/bf/Godzilla_anime_design_reveal.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Monster-Planet-2016%2Fthumb-card.png?alt=media&token=a301137c-84b1-43b2-a4e0-545ba57833d1",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Monster-Planet-2016%2Fthumb-details.png?alt=media&token=9e16b6c8-111e-48c3-92c8-8ab0c22b0904"
+            ],
             "ReleaseDate": "2017-11-17",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -382,7 +426,10 @@
         {
             "OfficialTitle": "Gamera: The Giant Monster",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"大怪獣ガメラ"},{"TitleType":"Hepburn","TitleValue":"Daikaijū Gamera"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/8/85/Gamera_%281965%29_Japanese_theatrical_poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Giant-Monster-1965%2Fthumb-card.png?alt=media&token=9d9cdebc-d649-4aba-a0bc-5a317c134d61",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Giant-Monster-1965%2Fthumb-details.png?alt=media&token=329a8519-8d9e-4b2b-abb2-cffab2f25203"
+            ],
             "ReleaseDate": "1965-11-27",
             "ProductionCompany": "Daiei",
             "CountryOfOrigin": "Japan",
@@ -397,7 +444,10 @@
         {
             "OfficialTitle": "Gamera vs. Barugon",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"大怪獣決闘 ガメラ対バルゴン"},{"TitleType":"Hepburn","TitleValue":"Daikaiju Ketto: Gamera Tai Barugon"},{"TitleType":"Literal Translation","TitleValue":"Duel of the Giant Monsters: Gamera vs. Barugon"},{"TitleType":"Original U.S. Title","TitleValue":"War of the Monsters"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/7/7c/Gamera_vs_barugon_poster.gif",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Barugon-1966%2Fthumb-card.png?alt=media&token=f812997b-a758-45d6-97d2-249a47c5b7dd",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Barugon-1966%2Fthumb-details.png?alt=media&token=5d6ae5a8-1782-40d5-98d9-9b9ef7905376"
+            ],
             "ReleaseDate": "1966-04-17",
             "ProductionCompany": "Daiei",
             "CountryOfOrigin": "Japan",
@@ -412,7 +462,10 @@
         {
             "OfficialTitle": "Gamera: Guardian of the Universe",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガメラ 大怪獣空中決戦"},{"TitleType":"Hepburn","TitleValue":"Gamera: Daikaiju Kuchu Kessen"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/2/29/Gamera_Theatrical_Poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guardian-Universe-1995%2Fthumb-card.png?alt=media&token=1e25f96d-3ce9-4b71-a878-f1c69b21ed4b",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guardian-Universe-1995%2Fthumb-details.png?alt=media&token=e4d2e87a-3f60-4678-ac93-659774b6212d"
+            ],
             "ReleaseDate": "1995-03-11",
             "ProductionCompany": "Daiei",
             "CountryOfOrigin": "Japan",
@@ -427,7 +480,10 @@
         {
             "OfficialTitle": "Gamera 2: Attack of Legion",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガメラ2 レギオン襲来"},{"TitleType":"Hepburn","TitleValue":"Gamera Tsu: Region Shurai"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/d/d9/Gamera_2_Theatrical_Poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Attack-Legion-1996%2Fthumb-card.png?alt=media&token=5823a28b-8b55-47ae-835f-3042d7b51e25",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Attack-Legion-1996%2Fthumb-details.png?alt=media&token=e6d48540-2ac8-4a54-bdfb-5eeb2c6019f0"
+            ],
             "ReleaseDate": "1996-07-13",
             "ProductionCompany": "Daiei",
             "CountryOfOrigin": "Japan",
@@ -442,7 +498,10 @@
         {
             "OfficialTitle": "Gamera 3: The Revenge of Iris",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガメラ3 邪神〈イリス〉覚醒"},{"TitleType":"Hepburn","TitleValue":"Gamera Suri Jyashin Irisu Kakusei"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/a/ac/Gamera-3-poster.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Revenge-Iris-1999%2Fthumb-card.png?alt=media&token=7af674b8-cb4f-4b7f-94b9-6b1a3f513798",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Revenge-Iris-1999%2Fthumb-details.png?alt=media&token=3c3b4c9c-111a-4c44-a8a9-a920edca5961"
+            ],
             "ReleaseDate": "1999-03-03",
             "ProductionCompany": "Daiei",
             "CountryOfOrigin": "Japan",
@@ -457,7 +516,10 @@
         {
             "OfficialTitle": "Gamera the Brave",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"小さき勇者たち～ガメラ～"},{"TitleType":"Hepburn","TitleValue":"Chiisaki Yūsha-tachi ~Gamera~"}],
-            "OriginalPoster": "https://upload.wikimedia.org/wikipedia/en/2/21/Gamerthebraveposter.jpg",
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Brave-2006%2Fthumb-card.png?alt=media&token=41acb8c5-8c02-42eb-93af-89ada7a98d2d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Brave-2006%2Fthumb-details.png?alt=media&token=c4d91636-09a6-4e2d-8e61-a2261c9949ad"
+            ],
             "ReleaseDate": "2006-04-29",
             "ProductionCompany": "Kadokawa",
             "CountryOfOrigin": "Japan",
@@ -472,6 +534,10 @@
         {
             "OfficialTitle": "Atragon",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"},{"TitleType":"Literal Translation","TitleValue":"Undersea Warship"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAtragon-1963%2Fthumb-card.png?alt=media&token=4c5fdb92-302c-4740-87f0-9eadf43bfb5f",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAtragon-1963%2Fthumb-details.png?alt=media&token=63315f4d-c1a5-4b82-8e87-91d21a9f43a1"
+            ],
             "ReleaseDate": "1963-12-22",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -535,6 +601,10 @@
         {
             "OfficialTitle": "Dogora",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"宇宙大怪獣ドゴラ"},{"TitleType":"Hepburn","TitleValue":"Uchu Dai kaiju Dogora"},{"TitleType":"Literal Translation","TitleValue":"Giant Space Monster Dogora"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDogora-1964%2Fthumb-card.png?alt=media&token=41be6de2-d83d-4017-b5e0-86d04c787d93",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDogora-1964%2Fthumb-details.png?alt=media&token=910ff016-cfc1-4fd2-9d6e-ff5c176236ca"
+            ],
             "ReleaseDate": "1964-08-11",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -596,6 +666,10 @@
         {
             "OfficialTitle": "ESPY",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"エスパイ"},{"TitleType":"Hepburn","TitleValue":"Esupai"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FEspy-1974%2Fthumb-card.png?alt=media&token=f19a303b-e8c2-41ec-b9fe-d62236064df8",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FEspy-1974%2Fthumb-details.png?alt=media&token=8d00983e-821d-46b3-b209-d7a403b2cc04"
+            ],
             "ReleaseDate": "1974-12-28",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -653,6 +727,10 @@
         {
             "OfficialTitle": "Magnitude 7.9",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地震列島"},{"TitleType":"Hepburn","TitleValue":"Jishin Retto"},{"TitleType":"Literal Translation","TitleValue":"Earthquake Archipelago"},{"TitleType":"U.S. Title","TitleValue":"Deathquake"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDeathquake-1980%2Fthumb-card.png?alt=media&token=4bb2edf8-14f6-4bfe-ae90-d4e9d511a631",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDeathquake-1980%2Fthumb-details.png?alt=media&token=b9cde9e1-1709-46f2-bfe8-9db8ead34e25"
+            ],
             "ReleaseDate": "1980-08-30",
             "ProductionCompany": "Toho",
             "CountryOfOrigin": "Japan",
@@ -1585,7 +1663,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-1954"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGojira-Classic-Media-DVD-2006-09-05%2Fthumb-card.png?alt=media&token=5fa35f3f-2266-44bc-b3bb-63ddfbe18fa5",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGojira-Classic-Media-DVD-2006-09-05%2Fthumb-details.png?alt=media&token=ee0b1db9-9a8a-440b-ac65-b0cea044a5c0"
+            ],
             "Path": "Gojira-Classic-Media-DVD-2006-09-05"
         },
         {
@@ -1612,7 +1693,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-1954"],
             "OriginalRelease": "Gojira-Classic-Media-DVD-2006-09-05",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Classic-Media-DVD-2014-05-13%2Fthumb-card.png?alt=media&token=d5db8504-3aad-4091-913a-dbedd436b3b8",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Classic-Media-DVD-2014-05-13%2Fthumb-details.png?alt=media&token=51d65321-eff9-4e3c-92e3-2c2853bdc8ca"
+            ],
             "Path": "Godzilla-Classic-Media-DVD-2014-05-13"
         },
         {
@@ -1652,7 +1736,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-Mothra-1964"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fthumb-card.png?alt=media&token=0f6bf297-25fc-4ca9-a334-182c4be06312",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fthumb-details.png?alt=media&token=73677ab7-8f35-45a3-9020-a1847dd4dc4a"
+            ],
             "Path": "Mothra-vs-Godzilla-Classic-Media-DVD-2002-09-17"
         },
         {
@@ -1680,7 +1767,10 @@
                 {"Vendor":"Amazon", "Link":"https://www.amazon.com/Godzilla-Final-S-S-Blu-ray/dp/B00IQAUO48?ie=UTF8&%2AVersion%2A=1&%2Aentries%2A=0"},
                 {"Vendor":"Best Buy", "Link":"http://www.bestbuy.com/site/godzilla-final-wars-godzilla-tokyo-s-o-s-blu-ray-2-discs/5953064.p?skuId=5953064"}],
             "MoviePath": ["Godzilla-Tokyo-SOS-2003","Godzilla-Final-Wars-2004"],
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Final-Wars-Sony-Blu-ray-2014-05-06%2Fthumb-card.png?alt=media&token=4ec8409b-531d-4eb2-b81f-40a4bfb0704d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Final-Wars-Sony-Blu-ray-2014-05-06%2Fthumb-details.png?alt=media&token=e813efa5-7e0f-4d48-9ef9-41c03c4e3612"
+            ],
             "OriginalRelease": "",
             "Path": "Godzilla-Final-Wars-Sony-Blu-ray-2014-05-06"
         },
@@ -1708,7 +1798,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-Tokyo-SOS-2003"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Tokyo-SOS-Toho-DVD-2004-07-30%2Fthumb-card.png?alt=media&token=497c5d8b-0157-4fb8-945d-2c885210248e",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Tokyo-SOS-Toho-DVD-2004-07-30%2Fthumb-details.png?alt=media&token=469ed42d-5e4d-4cbe-9d32-cdbe2d76b701"
+            ],
             "Path": "Godzilla-Tokyo-SOS-Toho-DVD-2004-07-30"
         },
         {
@@ -1735,7 +1828,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-1954"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-BFI-DVD-2006-02-13%2Fthumb-card.png?alt=media&token=f788d20a-2bb4-4194-9215-811dd8de0c71",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-BFI-DVD-2006-02-13%2Fthumb-details.png?alt=media&token=cd5c8ecf-dd01-4586-8bdb-ced56af63552"
+            ],
             "Path": "Godzilla-BFI-DVD-2006-02-13"
         },
         {
@@ -1762,7 +1858,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-Destroy-All-Monsters-1968"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FDestroy-All-Monsters-Ken-Films-Super-8-1970-01-01%2Fthumb-card.png?alt=media&token=5cadb412-eb47-4d86-be95-330d221f54be",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FDestroy-All-Monsters-Ken-Films-Super-8-1970-01-01%2Fthumb-details.png?alt=media&token=e9efa378-44af-4bb1-b1bc-ecd0342cd1c6"
+            ],
             "Path": "Destroy-All-Monsters-Ken-Films-Super-8-1970-01-01"
         },
         {
@@ -1789,7 +1888,10 @@
             "PurchaseLinks": [],
             "MoviePath": ["Godzilla-Gigan-1972","Godzilla-Mechagodzilla-1974"],
             "OriginalRelease": "",
-            "BoxArt": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGigan-Mechagodzilla-Image-LaserDisc-1988-01-01%2Fthumb-card.png?alt=media&token=e4534a17-f8a4-44bf-8357-189867211e0d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGigan-Mechagodzilla-Image-LaserDisc-1988-01-01%2Fthumb-details.png?alt=media&token=d82860cd-12be-4b67-aca1-2a36207ec982"
+            ],
             "Path": "Gigan-Mechagodzilla-Image-LaserDisc-1988-01-01"
         }
     ],
