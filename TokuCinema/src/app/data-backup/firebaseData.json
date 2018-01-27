@@ -263,6 +263,80 @@
             ]    
         },
         {
+            "OfficialTitle": "Godzilla vs. Biollante",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラvsビオランテ"},{"TitleType":"Hepburn","TitleValue":"Gojira tai Biorante"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Biollante-1989%2Fthumb-card.png?alt=media&token=a09d6129-d6c5-443c-b870-60a01f6c5cab",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Biollante-1989%2Fthumb-details.png?alt=media&token=e4a4e061-81be-4f2b-a256-0d9c990a41a1"
+            ],
+            "ReleaseDate": "1989-12-16",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Kazuki Omori",
+            "Series": "Godzilla",
+            "Era": "Heisei" ,
+            "Runtime": "105",
+            "Path": "Godzilla-Biollante-1989",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Shogo Tomiyama"},
+                {"PositionTitle":"Director","Name":"Kazuki Omori"},
+                {"PositionTitle":"Special Effects Director","Name":"Koichi Kawakita"},
+                {"PositionTitle":"Screenplay","Name":"Kazuki Omori, Shinichiro Kobayashi (original story)"},
+                {"PositionTitle":"Cinematography","Name":"Yudai Kato"},
+                {"PositionTitle":"Music","Name":"Koichi Sugiyama, Akira Ifukube (Godzilla theme)"},
+                {"PositionTitle":"Editor","Name":"Michiko Ikeda"},
+                {"PositionTitle":"Assistant Director","Name":"Masahiro Nara"},
+                {"PositionTitle":"Art Director","Name":"Shigekazu Ikuno"},
+                {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
+                {"PositionTitle":"Sound Recording","Name":"Kenshiro Hayashi"},
+                {"PositionTitle":"Production Manager","Name":"Kishi Morichi"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
+                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Masukuni Morimoto"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishizuki"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Takashi Nakao"}
+            ],
+            "Cast": [
+                {"ActorName":"Kunihiko Mitamura","RoleName":"Kazuhito Kirishima"},
+                {"ActorName":"Yoshiko Tanaka","RoleName":"Asuka Okochi"},
+                {"ActorName":"Masanobu Takashima","RoleName":"Col. Sho Kuroki"},
+                {"ActorName":"Megumi Odaka","RoleName":"Miki Saegusa"},
+                {"ActorName":"Toru Minegishi","RoleName":"Col. Goro Gondo"},
+                {"ActorName":"Ryunosuke Kaneda","RoleName":"Seizo Okochi"},
+                {"ActorName":"Koji Takahashi","RoleName":"Dr. Genichiro Shiragami"},
+                {"ActorName":"Yasuko Sawaguchi","RoleName":"Erika Shiragami"},
+                {"ActorName":"Koichi Ueda","RoleName":"Chief of Staff Hyodo"},
+                {"ActorName":"Toshiyuki Nagashima","RoleName":"Technical Director Yamamoto"},
+                {"ActorName":"Yoshiko Kuga","RoleName":"Cabinet Secretary Owada"},
+                {"ActorName":"Manjot Boei","RoleName":"Saradian Agent SSS9"},
+                {"ActorName":"Aydin Yamanlar","RoleName":"Abdul Zaulman"},
+                {"ActorName":"Kosuke Toyohara","RoleName":"Super X-2 Operator"},
+                {"ActorName":"Kyoka Suzuki","RoleName":"Assistant Super X-2 Operator"},
+                {"ActorName":"Takashi Hunt","RoleName":"Biomajor Spy Lee"},
+                {"ActorName":"Derrick Holmes","RoleName":"Biomajor Spy Low"},
+                {"ActorName":"Hirohisa Nakata","RoleName":"Defense Secretary Koyama"},
+                {"ActorName":"Katsuhiko Sasaki","RoleName":"Research Director Takeda"},
+                {"ActorName":"Kenzo Hagiwara","RoleName":"Ground Force Official"},
+                {"ActorName":"Kazuyuki Senba","RoleName":"Maritime Official"},
+                {"ActorName":"Koji Yamanaka","RoleName":"Air Force Official"},
+                {"ActorName":"Abdullah Helal","RoleName":"Saradian Scientist"},
+                {"ActorName":"Beth Blatt","RoleName":"American Reporter"},
+                {"ActorName":"Makiyo Kuroiwa","RoleName":"Nurse"},
+                {"ActorName":"Shin Tatsuma","RoleName":"Plant Monitoring Director Akiyama"},
+                {"ActorName":"Haruko Sagara","RoleName":"TV Reporter"},
+                {"ActorName":"Hiromi Matsukawa","RoleName":"News Anchor"},
+                {"ActorName":"Demon Kogure","RoleName":"Himself"},
+                {"ActorName":"Kenpachiro Satsuma","RoleName":"Godzilla"},
+                {"ActorName":"Masashi Takegumi","RoleName":"Biollante"}
+            ]
+        },
+        {
             "OfficialTitle": "Godzilla vs. Destoroyah",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラvsデストロイア"},{"TitleType":"Hepburn","TitleValue":"Gojira tai Desutoroia"}],
             "OriginalPoster": [
@@ -385,7 +459,32 @@
             "Series": "Godzilla",
             "Era": "MonsterVerse",
             "Runtime": "123",
-            "Path": "Godzilla-2014"
+            "Path": "Godzilla-2014",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Gareth Edwards"},
+                {"PositionTitle":"Producers","Name":"Thomas Tull, Jon Jashni, Mary Parent, Brian Rogers"},
+                {"PositionTitle":"Co-producer","Name":"Bob Duscay"},
+                {"PositionTitle":"Executive Producers","Name":"Patricia Whitcher, Alex Garcia, Yoshimitsu Banno, Kenji Okuhira"},
+                {"PositionTitle":"Writer","Name":"David Callaham"},
+                {"PositionTitle":"Screenwriter","Name":"Max Borenstein"},
+                {"PositionTitle":"Cinematographer","Name":"Seamus McGarvey"},
+                {"PositionTitle":"Production Designer","Name":"Owen Paterson"},
+                {"PositionTitle":"Costume Designer","Name":"Sharen Davis"},
+                {"PositionTitle":"Visual Effects Suppervisor","Name":"Jim Rygiel"},
+                {"PositionTitle":"Music Composer","Name":"Alexandre Desplat"}
+            ],
+            "Cast": [
+                {"ActorName":"Aaron Taylor-Johnson","RoleName":"Ford Brody"},
+                {"ActorName":"Ken Watanabe","RoleName":"Doctor Ishiro Serizawa"},
+                {"ActorName":"Elizabeth Olsen","RoleName":"Elle Brody"},
+                {"ActorName":"Juliette Binoche","RoleName":"Sandra Brody"},
+                {"ActorName":"Sally Hawkins","RoleName":"Doctor Vivienne Graham"},
+                {"ActorName":"David Strathairn","RoleName":"Rear Admiral William Stenz, USN"},
+                {"ActorName":"Bryan Cranston","RoleName":"Joe Brody"},
+                {"ActorName":"Richard T. Jones","RoleName":"Captain Russell Hampton, USN"},
+                {"ActorName":"Victor Rasuk","RoleName":"Sergeant Tre Morales, USAF"},
+                {"ActorName":"Carson Bolde","RoleName":"Sam Brody"}
+            ]
         },
         {
             "OfficialTitle": "Shin Godzilla",
@@ -469,7 +568,28 @@
             "Series": "Godzilla",
             "Era": "MonsterVerse",
             "Runtime": "",
-            "Path": "Godzilla-King-Monsters-2019"
+            "Path": "Godzilla-King-Monsters-2019",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Michael Dougherty"},
+                {"PositionTitle":"Producers","Name":"Mary Parent, Alex Garcia, Brian Rogers, Thomas Tull"},
+                {"PositionTitle":"Co-producer","Name":"Alexandra Mendes"},
+                {"PositionTitle":"Editor","Name":"Roger Barton"},
+                {"PositionTitle":"Executive Producers","Name":"Zach Shields, Barry H. Waldman, Yoshimitsu Banno, Kenji Okuhira"},
+                {"PositionTitle":"Screenwriters","Name":"Michael Dougherty, Zach Shields, Max Borenstein"},
+                {"PositionTitle":"Cinematographer","Name":"Lawrence Sher"},
+                {"PositionTitle":"Production Designer","Name":"Scott Chambliss"},
+                {"PositionTitle":"Costume Designer","Name":"Louise Mingenbach"},
+                {"PositionTitle":"Visual Effects Suppervisor","Name":"Guillaume Rocheron"}
+            ],
+            "Cast": [
+                {"ActorName":"Vera Farmiga","RoleName":"Doctor Emma Russell"},
+                {"ActorName":"Ken Watanabe","RoleName":"Doctor Ishiro Serizawa"},
+                {"ActorName":"Sally Hawkins","RoleName":"Doctor Vivienne Graham"},
+                {"ActorName":"Kyle Chandler","RoleName":"Mark Russell"},
+                {"ActorName":"Millie Bobby Brown","RoleName":"Madison Russell"},
+                {"ActorName":"Bradley Whitford","RoleName":"Doctor Stanton"},
+                {"ActorName":"Anthony Ramos","RoleName":"Colonel Martinez"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla vs. Kong",
@@ -869,7 +989,36 @@
             "Series": "King Kong",
             "Era": "MonsterVerse",
             "Runtime": "118",
-            "Path": "Kong-Skull-Island-2017"
+            "Path": "Kong-Skull-Island-2017",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Jordan Vogt-Roberts"},
+                {"PositionTitle":"Producers","Name":"Thomas Tull, Mary Parent, Jon Jashni, Alex Garcia"},
+                {"PositionTitle":"Co-producers","Name":"Jennifer Conroy, Tom C. Peitzman"},
+                {"PositionTitle":"Editor","Name":"Richard Pearson"},
+                {"PositionTitle":"Executive Producers","Name":"Edward Cheng, Eric McLeod"},
+                {"PositionTitle":"Screenwriters","Name":"Dan Gilroy, Max Borenstein, Derek Connolly"},
+                {"PositionTitle":"Writer","Name":"John Gatins"},
+                {"PositionTitle":"Cinematographer","Name":"Larry Fong"},
+                {"PositionTitle":"Production Designer","Name":"Stefan Dechant"},
+                {"PositionTitle":"Costume Designer","Name":"Mary E. Vogt"},
+                {"PositionTitle":"Visual Effects Suppervisor","Name":"Stephen Rosenbaum"},
+                {"PositionTitle":"Composer","Name":"Henry Jackman"}
+            ],
+            "Cast": [
+                {"ActorName":"Tom Hiddleston","RoleName":"James Conrad"},
+                {"ActorName":"Samuel L. Jackson","RoleName":"Preston Packard"},
+                {"ActorName":"John Goodman","RoleName":"William \"Bill\" Randa"},
+                {"ActorName":"Brie Larson","RoleName":"Mason Weaver"},
+                {"ActorName":"Jing Tian","RoleName":"San Lin"},
+                {"ActorName":"Toby Kebbell","RoleName":"Jack Chapman, Kong (Motion Capture Performance"},
+                {"ActorName":"John Ortiz","RoleName":"Victor Nieves"},
+                {"ActorName":"Corey Hawkins","RoleName":"Houston Brooks"},
+                {"ActorName":"Jason Mitchell","RoleName":"Glenn Mills"},
+                {"ActorName":"Shea Whigham","RoleName":"Earl Cole"},
+                {"ActorName":"Thomas Mann","RoleName":"Reg Slivko"},
+                {"ActorName":"Terry Notary","RoleName":"Kong (Motion Capture Performance"},
+                {"ActorName":"John C. Reilly","RoleName":"Hank Marlow"}
+            ]
         }
     ],
     "alternateVersions": [
@@ -1307,6 +1456,46 @@
                             "Runtime":"85",
                             "Rating": [],
                             "Iterations": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Biollante-1989",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Biollante"}],
+                            "Cast": [
+                                {"ActorName":"Chris Hilton ","RoleName":"Kirishima"},
+                                {"ActorName":"Rik Thomas","RoleName":"Col. Gondo"},
+                                {"ActorName":"Warren Rooke","RoleName":"Dr. Shiragami"},
+                                {"ActorName":"Simon Broad","RoleName":"Mr. Okochi"}
+                            ],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Omni Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1992",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international English version was made with dubbing done in Hong Kong.",
+                                        "The only difference from the Japanese version is that the background screen goes black in the middle of the credits whereas in the Japanese version the credits stay on Biollante's rose form in the sky."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
