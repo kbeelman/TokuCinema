@@ -377,10 +377,10 @@
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-2014%2Fthumb-details.png?alt=media&token=082fcedf-9bae-4b9a-b25f-f56856eda8c4"
             ],
             "ReleaseDate": "2014-05-16",
-            "ProductionCompany": "Legendary",
+            "ProductionCompany": "Legendary Pictures",
             "CountryOfOrigin": "United States",
             "Languages": ["English"],
-            "Distributor": "Legendary",
+            "Distributor": "Warner Bros. Pictures",
             "Director": "Gareth Edwards",
             "Series": "Godzilla",
             "Era": "MonsterVerse",
@@ -399,29 +399,92 @@
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese","English"],
             "Distributor": "Toho",
-            "Director": "Hideaki Anno",
+            "Director": "Hideaki Anno, Shinji Higuchi",
             "Series": "Godzilla",
-            "Era": "Reboot",
+            "Era": "New Generation",
             "Runtime": "119",
             "Path": "Godzilla-Shin-2016"
         },
         {
             "OfficialTitle": "Godzilla: Planet of the Monsters",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA -怪獣惑星"},{"TitleType":"Hepburn","TitleValue":"Gojira: Kaijū Wakusei"}],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA -怪獣惑星"},{"TitleType":"Hepburn","TitleValue":"Gojira: Kaijū Wakusei"},{"TitleType":"Literal Translation","TitleValue":"Godzilla: Monster Planet"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Monster-Planet-2016%2Fthumb-card.png?alt=media&token=a301137c-84b1-43b2-a4e0-545ba57833d1",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Monster-Planet-2016%2Fthumb-details.png?alt=media&token=9e16b6c8-111e-48c3-92c8-8ab0c22b0904"
             ],
             "ReleaseDate": "2017-11-17",
-            "ProductionCompany": "Toho",
+            "ProductionCompany": "Polygon Pictures, Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho, Netflix",
+            "Director": "Kobun Shizuno, Hiroyuki Seshita",
+            "Series": "Godzilla",
+            "Era": "New Generation",
+            "Runtime": "89",
+            "Path": "Godzilla-Monster-Planet-2017"
+        },
+        {
+            "OfficialTitle": "Godzilla: 決戦機動増殖都市",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA 決戦機動増殖都市"},{"TitleType":"Hepburn","TitleValue":"Gojira: Kessen Kido Zoshoku Toshi"},{"TitleType":"Literal Translation","TitleValue":"Godzilla: The City Mechanized for the Final Battle"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-City-2018%2Fthumb-card.png?alt=media&token=2dda3ad2-6928-4b82-9477-38a64403317c",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-City-2018%2Fthumb-details.png?alt=media&token=1c732cd2-3368-4d9f-91b3-84b9b1178510"
+            ],
+            "ReleaseDate": "May 2018",
+            "ProductionCompany": "Polygon Pictures, Toho",
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese","English"],
             "Distributor": "Toho",
-            "Director": "Kobun Shizuno",
+            "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
-            "Era": "Reboot",
-            "Runtime": "89",
-            "Path": "Godzilla-Monster-Planet-2016"
+            "Era": "New Generation",
+            "Runtime": "",
+            "Path": "Godzilla-City-2018"
+        },
+        {
+            "OfficialTitle": "Godzilla - Untitled Anime Sequel",
+            "AlternateTitles": [],
+            "OriginalPoster": [],
+            "ReleaseDate": "2018",
+            "ProductionCompany": "Polygon Pictures, Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Kobun Shizuno, Hiroyuki Seshita",
+            "Series": "Godzilla",
+            "Era": "New Generation",
+            "Runtime": "",
+            "Path": "Godzilla-Third-Anime-2018"
+        },
+        {
+            "OfficialTitle": "Godzilla: King of the Monsters",
+            "AlternateTitles": [],
+            "OriginalPoster": [],
+            "ReleaseDate": "2019-03-22",
+            "ProductionCompany": "Legendary Entertainment",
+            "CountryOfOrigin": "United States",
+            "Languages": ["English"],
+            "Distributor": "Warner Bros. Pictures",
+            "Director": "Michael Dougherty",
+            "Series": "Godzilla",
+            "Era": "MonsterVerse",
+            "Runtime": "",
+            "Path": "Godzilla-King-Monsters-2019"
+        },
+        {
+            "OfficialTitle": "Godzilla vs. Kong",
+            "AlternateTitles": [],
+            "OriginalPoster": [],
+            "ReleaseDate": "2020-05-22",
+            "ProductionCompany": "Legendary Entertainment",
+            "CountryOfOrigin": "United States",
+            "Languages": ["English"],
+            "Distributor": "Warner Bros. Pictures",
+            "Director": "Adam Wingard",
+            "Series": "Godzilla",
+            "Era": "MonsterVerse",
+            "Runtime": "",
+            "Path": "Godzilla-Kong-2020"
         },
         {
             "OfficialTitle": "Gamera: The Giant Monster",
@@ -789,6 +852,24 @@
                 {"ActorName":"Yoji Matsuda","RoleName":"Ryuji Kawazu"},
                 {"ActorName":"Ken Kazami","RoleName":"TV Producer"}
             ] 
+        },
+        {
+            "OfficialTitle": "Kong: Skull Island",
+            "AlternateTitles": [],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FKong-Skull-Island-2017%2Fthumb-card.png?alt=media&token=3472c5f3-179c-4635-9092-d46c398bec20",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FKong-Skull-Island-2017%2Fthumb-details.png?alt=media&token=a455c62b-76bd-4598-ad61-4af8133f4f8e"
+            ],
+            "ReleaseDate": "2017-02-17",
+            "ProductionCompany": "Legendary Pictures, Tencent Pictures",
+            "CountryOfOrigin": "United States",
+            "Languages": ["English"],
+            "Distributor": "Warner Bros. Pictures",
+            "Director": "Jordan Vogt-Roberts",
+            "Series": "King Kong",
+            "Era": "MonsterVerse",
+            "Runtime": "118",
+            "Path": "Kong-Skull-Island-2017"
         }
     ],
     "alternateVersions": [
