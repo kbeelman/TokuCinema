@@ -40,7 +40,7 @@ export class Movie implements ISearchable {
     }
 
     public setReleaseDate(): void {
-        if(isNaN(Number(this.ReleaseDateString.substr(0,4)))) {
+        if(isNaN(Number(this.ReleaseDateString.substr(0,4))) || (this.ReleaseDateString.length !== 10)) {
             this.ReleaseDate = null;
             this.CircaRelease = this.ReleaseDateString;
             this.ReleaseYear = Number(this.ReleaseDateString.substr(6,4));
