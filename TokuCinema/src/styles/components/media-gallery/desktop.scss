@@ -1,13 +1,12 @@
-@import '../../sassisms.scss';;
-
-.gallery-wrapper {
-  margin-bottom: 45px;
-  margin-top: 45px;
+.gallery-nav-button-right,
+.gallery-nav-button-left {
+  
+  div {
+    height: 15vh;
+  }
 }
 
-.gallery-nav-button-left {
-  left: auto;
-  margin-right: 420px;
+.gallery-nav-button-left { 
   left: $desktop-gutter;
 }
 
@@ -15,34 +14,31 @@
   right: $desktop-gutter;
 }
 
-.youtube-play-circle {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: auto;
+.slider-image-carousel {
 
-  svg {
-    left: 0;
-    width: 30%;
+  ul {
+    width: 1120px;
+
+    li {
+      height: 15vh;
+    }
+  }
+}
+
+.gallery-modal {
+
+  .close-icon {
+    right: $desktop-gutter;
   }
 }
 
 .appear-in-modal {
-  width: 1140px;
-  left: auto;
+  margin-bottom: 10px;
 
   .gallery-nav-button-right{
-    position: absolute;
     right: $desktop-gutter;
   }
   .gallery-nav-button-left{
-    position: absolute;
     left: $desktop-gutter;
   }
-}
-
-.close-icon {
-  text-align: right;
-  margin-top: 0;
-  margin-right: calc((120% - 1140px) / 2);
 }

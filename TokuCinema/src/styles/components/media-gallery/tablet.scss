@@ -1,47 +1,64 @@
-@import '../../sassisms.scss';;
+.gallery-wrapper {
+  
+  .focus-image {
 
-.gallery-nav-button-left {
-  left: $tablet-gutter;
-}
-
-.gallery-nav-button-right {
-  right: $tablet-gutter;
-}
-
-.gallery-nav-button-left,
-.gallery-nav-button-right {
-  div {
-    height: 140px;
+    img {
+      max-height: 100%;
+    }
   }
 }
 
-.gallery-wrapper {
+.gallery-nav-button-right,
+.gallery-nav-button-left {
+  
+  div {
+    height: 10vh;
+  }
+}
 
-  .focus-image {
+.gallery-nav-button-left { 
+  left: 25px;
+}
 
-    div {
-      height: 600px;
-    }
+.gallery-nav-button-right {
+  right: 25px;
+}
 
-    img {
-      width: auto;
-      height: 600px;
+.slider-image-carousel {
+  
+  ul {
+
+    li {
+      height: 10vh;
     }
   }
 }
 
 .slider-carousel-image {
-  height: 140px;
-  background-size: auto 140px;
-}
-
-.focsed-video {
-  height: 800px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  margin-right: 1.75%;
+  margin-left: 1.75%;
+  width: 16.5%;
 }
 
 .gallery-modal {
-  svg {
-    bottom: 340px;
-    left: 400px;
+  
+  .close-icon {
+    right: $tablet-gutter
+  }
+}
+
+.appear-in-modal {
+
+  .gallery-nav-button-right{
+    right: $tablet-gutter;
+  }
+  .gallery-nav-button-left{
+    left: $tablet-gutter;
   }
 }
