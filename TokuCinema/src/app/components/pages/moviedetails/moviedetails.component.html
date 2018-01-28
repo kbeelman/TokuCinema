@@ -56,12 +56,12 @@
   <div class="movie-alternate-versions" *ngIf="this.movieAlternateVersion">
     <h2>Alternate Versions</h2>
 
-    <!-- Tablet and Desktop Selector -->
-    <div class="movie-alt-countries tablet-and-up" id="alt-countries">
+    <!-- Desktop Selector -->
+    <div class="movie-alt-countries desktop-only" id="alt-countries">
       <div *ngFor="let item of this.movieAlternateVersion.Countries" (click)="toggleCountries(item.Country)" [class.active]="item.Active" class="movie-alt-country"><h4>{{item.Country}}</h4></div>
     </div>
 
-    <!-- Mobile Selector -->
+    <!-- Mobile and Tablet Selector -->
     <select class="mobile-alt-countries" name="altVersionSelector"
       [(ngModel)]="this.activeAltCountry"
       (ngModelChange)="this.toggleCountries(this.activeAltCountry);">

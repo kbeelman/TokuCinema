@@ -3,6 +3,14 @@
 .movie-details-root {
   margin-left: $desktop-gutter;
   margin-right: $desktop-gutter;
+
+  .desktop-only {
+    display: block;
+  }
+}
+
+.mobile-alt-countries {
+  display: none;
 }
 
 .movie-information {

@@ -4,22 +4,10 @@
   margin-bottom: $tablet-gutter;
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
-
-  .tablet-and-up {
-    display: block;
-  }
-
-  .mobile-only {
-    display: none;
-  }
 }
 
 .movie-alt-details {
   border-radius: 7px 7px 0px 0px;
-}
-
-.mobile-alt-countries {
-  display: none;
 }
 
 .movie-information {
