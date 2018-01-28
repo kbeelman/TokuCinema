@@ -52,11 +52,25 @@
       <div *ngFor="let item of this.movie.Crew"><strong>{{item.PositionTitle}}</strong>: {{item.Name}}</div>
     </div>
   </div>
+
   <div class="movie-alternate-versions" *ngIf="this.movieAlternateVersion">
     <h2>Alternate Versions</h2>
-    <div class="movie-alt-countries" id="alt-countries">
+
+    <!-- Tablet and Desktop Selector -->
+    <div class="movie-alt-countries tablet-and-up" id="alt-countries">
       <div *ngFor="let item of this.movieAlternateVersion.Countries" (click)="toggleCountries(item.Country)" [class.active]="item.Active" class="movie-alt-country"><h4>{{item.Country}}</h4></div>
     </div>
+
+    <!-- Mobile Selector -->
+    <select class="mobile-alt-countries" name="altVersionSelector"
+      [(ngModel)]="this.activeAltCountry"
+      (ngModelChange)="this.toggleCountries(this.activeAltCountry);">
+      <option 
+        *ngFor="let item of this.movieAlternateVersion.Countries; let i = index"
+        [ngValue]="item.Country">{{item.Country}}
+      </option>
+    </select>
+
     <div *ngFor="let country of this.movieAlternateVersion.Countries" >
       <div class="movie-alt-details" [class.active]="country.Active" *ngIf="country.Active">
         <div class="movie-alt-version-details" *ngFor="let version of country.Versions">

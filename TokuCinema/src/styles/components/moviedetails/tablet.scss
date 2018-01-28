@@ -4,6 +4,18 @@
   margin-bottom: $tablet-gutter;
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
+
+  .tablet-and-up {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+.mobile-alt-countries {
+  display: none;
 }
 
 .movie-information {

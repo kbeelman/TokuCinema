@@ -15,6 +15,14 @@ $mobile-gutter: 40px;
       border-bottom: 1px solid #67c9ff;
     }
   }
+
+  .tablet-and-up {
+    display: none;
+  }
+}
+
+.mobile-alt-countries {
+  width: 100%;
 }
 
 .movie-details-root h4 {
