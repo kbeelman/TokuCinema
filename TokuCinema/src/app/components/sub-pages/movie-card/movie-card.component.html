@@ -1,4 +1,4 @@
-<div *ngIf="this.movie" class="media-card" [routerLink]="['/movies', movie.Path]">
+<a *ngIf="this.movie" class="media-card" [routerLink]="['/movies', movie.Path]">
   <img *ngIf="this.movie.OriginalPoster" src="{{movie.OriginalPoster[0]}}" />
   <div class="movie-card-content">
     <div>
@@ -15,4 +15,4 @@
       <p><strong>Director:</strong> {{movie.Director}}</p>
     </div>
   </div>
-</div>
+</a>

@@ -1,4 +1,4 @@
-<div *ngIf="this.media" class="media-card" [routerLink]="['/media', media.Path]">
+<a *ngIf="this.media" class="media-card" [routerLink]="['/media', media.Path]">
   <img src="{{media.BoxArt[0]}}"/>
   <div class="media-card-content">
     <div>
@@ -14,4 +14,4 @@
       <p>{{media.Medium}}</p>
     </div>
   </div>
-</div>
+</a>
