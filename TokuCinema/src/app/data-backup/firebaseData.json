@@ -471,7 +471,7 @@
                 {"PositionTitle":"Production Designer","Name":"Owen Paterson"},
                 {"PositionTitle":"Costume Designer","Name":"Sharen Davis"},
                 {"PositionTitle":"Visual Effects Suppervisor","Name":"Jim Rygiel"},
-                {"PositionTitle":"Music Composer","Name":"Alexandre Desplat"}
+                {"PositionTitle":"Composer","Name":"Alexandre Desplat"}
             ],
             "Cast": [
                 {"ActorName":"Aaron Taylor-Johnson","RoleName":"Ford Brody"},
@@ -498,11 +498,61 @@
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese","English"],
             "Distributor": "Toho",
-            "Director": "Hideaki Anno, Shinji Higuchi",
+            "Director": "Hideaki Anno",
             "Series": "Godzilla",
             "Era": "New Generation",
             "Runtime": "119",
-            "Path": "Godzilla-Shin-2016"
+            "Path": "Godzilla-Shin-2016",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Hideaki Anno"},
+                {"PositionTitle":"Co-director","Name":"Shinji Higuchi"},
+                {"PositionTitle":"Visual Effects Director","Name":"Shinji Higuchi"},
+                {"PositionTitle":"Associate Director, Visual Effects Creative Director","Name":"Katsuro Onoe"},
+                {"PositionTitle":"Chief Producer","Name":"Minami Ichikawa"},
+                {"PositionTitle":"Producers","Name":"Taichi Ueda, Yoshihiro Sato, Masaya Shibusawa, Kazutoshi Wadakura"},
+                {"PositionTitle":"Executive Producer","Name":"Akihiro Yamauchi"},
+                {"PositionTitle":"Writer","Name":"Hideaki Anno"},
+                {"PositionTitle":"Production Managers","Name":"Minami Ichikawa, Takeshi Sato, Masato Inatsuki"},
+                {"PositionTitle":"Line Producer","Name":"Kensei Mori "},
+                {"PositionTitle":"Cinematographer","Name":"Kosuke Yamada"},
+                {"PositionTitle":"Editors","Name":"Hideaki Anno, Atsuki Sato"},
+                {"PositionTitle":"Visual Effects Supervisor","Name":"Atsuki Sato"},
+                {"PositionTitle":"Visual Effects Producer","Name":"Tetsuo Ohya"},
+                {"PositionTitle":"Composer","Name":"Shiro Sagisu"},
+                {"PositionTitle":"Casting","Name":"Tsuyoshi Sugino"}
+            ],
+            "Cast": [
+                {"ActorName":"Hiroki Hasegawa","RoleName":"Rando Yaguchi"},
+                {"ActorName":"Satomi Ishihara","RoleName":"Kayoco Anne Patterson"},
+                {"ActorName":"Yutaka Takenouchi","RoleName":"Akasaka Akasaka"},
+                {"ActorName":"Ren Osugi","RoleName":"Seiji Okochi"},
+                {"ActorName":"Kengo Kora","RoleName":"Yusuke Shimura"},
+                {"ActorName":"Mikako Ichikawa","RoleName":"Hiromi Ogashira"},
+                {"ActorName":"Akira Emoto","RoleName":"Ryuta Azuma"},
+                {"ActorName":"Kimiko Yo","RoleName":"Reiko Hanamori"},
+                {"ActorName":"Jun Kunimura","RoleName":"Masao Zaizen"},
+                {"ActorName":"Pierre Taki","RoleName":"Saigo"},
+                {"ActorName":"Takumi Saito","RoleName":"Ikeda"},
+                {"ActorName":"Keisuke Koide","RoleName":"Fire Brigade Chief"},
+                {"ActorName":"Arata Furuta","RoleName":"National Police Agency Commissioner General"},
+                {"ActorName":"Sei Hiraizumi","RoleName":"Minister of Agriculture, Forestry and Fisheries"},
+                {"ActorName":"Kenichi Yajima","RoleName":"Minister of Land, Infrastructure, Transport and Tourism"},
+                {"ActorName":"Tetsu Watanabe","RoleName":"Deputy Chief Cabinet Secretary for Crisis Management"},
+                {"ActorName":"Ken Mitsuishi","RoleName":"Kozuka, Governor of Tokyo"},
+                {"ActorName":"Kyusaku Shimada","RoleName":"Katayama, Minister of Foreign Affairs"},
+                {"ActorName":"Kanji Tsuda","RoleName":"Bureaucrat of Ministry of Health, Labour, and Welfare"},
+                {"ActorName":"Issei Takahashi","RoleName":"Bureaucrat of The Ministry of Education, Culture, Sports, Science and Technology"},
+                {"ActorName":"Shinya Tsukamoto","RoleName":"Biologist"},
+                {"ActorName":"Kazuo Hara","RoleName":"Biologist"},
+                {"ActorName":"Isshin Inudo","RoleName":"Ancient Organism Scholar"},
+                {"ActorName":"Akira Ogata","RoleName":"Marine Biologist"},
+                {"ActorName":"Shingo Tsurumi","RoleName":"Yajima, Joint Staff Deputy"},
+                {"ActorName":"Suzuki Matsuo","RoleName":"Journalist"},
+                {"ActorName":"Takashi (Kreva) Hatakeyama","RoleName":"Official of Japan Self-Defense Forces"},
+                {"ActorName":"Katsuhiko Yokomitsu","RoleName":"Minister of the Environment"},
+                {"ActorName":"Atsuko Maeda","RoleName":"Refugee"},
+                {"ActorName":"Mansai Nomura","RoleName":"Godzilla"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla: Planet of the Monsters",
@@ -1127,7 +1177,7 @@
                     "Country": "Japan",
                     "Versions": [
                         {
-                            "MainTitle":[],
+                            "MainTitle":[{"TitleType":"Toho Champion Festival","TitleValue":"Mothra vs. Godzilla"}],
                             "Cast": [],
                             "DubCast": [],
                             "Crew": [],
@@ -1135,7 +1185,7 @@
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "1970-12-19",
-                            "Runtime":"",
+                            "Runtime":"73",
                             "Rating": [],
                             "Iterations": [
                                 {
@@ -1415,7 +1465,13 @@
                         {
                             "MainTitle":[{"TitleType":"Italian","TitleValue":"Watang! Nel favoloso impero dei mostri "}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [
+                                {"ActorName":"Mimmo Palmara","RoleName":"Dr. Miura"},
+                                {"ActorName":"Gigi Reder","RoleName":"Jiro Nakamura"},
+                                {"ActorName":"Stefano Carraro","RoleName":"Manzo Torahata"},
+                                {"ActorName":"Anna Teresa Eugeni and Liliana Jovino","RoleName":"The Shobijin"},
+                                {"ActorName":"Ivano Staccioli","RoleName":"Kumayama"}
+                            ],
                             "Crew": [],
                             "DubCompany": "",
                             "ProductionCompany": "",
@@ -1493,6 +1549,171 @@
                                     "Notes": [
                                         "An international English version was made with dubbing done in Hong Kong.",
                                         "The only difference from the Japanese version is that the background screen goes black in the middle of the credits whereas in the Japanese version the credits stay on Biollante's rose form in the sky."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Shin-2016",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Shin Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Toho",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This is the original version that was shown in Japanese theaters."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2017-03-22",
+                                    "Notes": [
+                                        "When Shin Godzilla was released to DVD and Blu-ray in Japan, it included some minor changes. Two visual effects scenes were slightly modified. In a shot of the helicopters approaching Godzilla in his fourth form, heat distortion was added to the exhaust of the helicopters. Additionally, a shot showing a profile view of Godzilla's head was updated."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Shin Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Todd Haberkorn","RoleName":"Rando Yaguchi"},
+                                {"ActorName":"Trina Nishimura","RoleName":"Kayoko Ann Kayoco"},
+                                {"ActorName":"J. Michael Tatum","RoleName":"Hideki Akasaka"},
+                                {"ActorName":"Kent Williams","RoleName":"Seiji Okochi"},
+                                {"ActorName":"Ian Sinclair","RoleName":"Tatsuhiko Yasuda"},
+                                {"ActorName":"Micah Solusod","RoleName":"Yusuke Shimura"},
+                                {"ActorName":"Kate Oxley","RoleName":"Hiromi Ogashira"},
+                                {"ActorName":"Christopher Bevins","RoleName":"Manabu Mori"},
+                                {"ActorName":"Ed Blaylock","RoleName":"Ryuta Azuma"},
+                                {"ActorName":"Jeremy Inman","RoleName":"Shuichi Izumi"},
+                                {"ActorName":"Jeremy Schwartz","RoleName":"Kunio Hazama"},
+                                {"ActorName":"Charlie Campbell","RoleName":"Yusuke Satomi"},
+                                {"ActorName":"R. Bruce Elliot","RoleName":"Kunihiro Yanagihara"},
+                                {"ActorName":"Rachel Robinson","RoleName":"Reiko Hanamori"},
+                                {"ActorName":"Barry Yandell","RoleName":"Hajime Koriyama"},
+                                {"ActorName":"David Wald","RoleName":"Tanba"},
+                                {"ActorName":"John Burgmeier","RoleName":"Goro Sekiguchi"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Cris George"},
+                                {"PositionTitle":"Writer","Name":"Sean Whitley"},
+                                {"PositionTitle":"Head of Publicity","Name":"Scott Barretto"},
+                                {"PositionTitle":"Dialogue Coach","Name":"Sean Muramatsu"}
+                                
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Funimation",
+                            "ReleaseDate": "2016-10-11",
+                            "Runtime":"119",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This is the same as the version that was shown in Japanese theaters, including Japanese spoken language, Japanese on-screen text for the characters names and titles, as well as the original visual effects shots."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2017-08-01",
+                                    "Notes": [
+                                        "Shin Godzilla's American DVD and Blu-ray release contains the updated Japanese home video version, which contains slightly updated visual effects. Additionally, the Japanese captions have been removed, opting instead to utilize subtitles to show characters names and titles."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Hong Kong",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Shin Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2017-04-21",
+                                    "Notes": [
+                                        "Shin Godzilla's DVD and Blu-ray release in Hong Kong is based off of the Japanese theatrical version with the original special effects shots, but does contain a few modifications. These modifications are limited to the removal of the color filter, and replacing the Japanese on-screen text with Chinese titles. However, only about half of the character's names and titles have been translated to Chinese."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Shin Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Manga Entertainment",
+                            "ReleaseDate": "2017-08-10",
+                            "Runtime":"119",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2017-12-04",
+                                    "Notes": [
+                                        "The UK release of Shin Godzilla contains two discs; one with the Japanese version, and one with Funimation's English dub. The Japanese version presented is the same as the Japanese theatrical version, complete with the original visual effects and Japanese on-screen text. The English version is the updated home video version, complete with updated visual effects and localized English on-screen text."
                                     ]
                                 }
                             ]
