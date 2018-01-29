@@ -70,11 +70,15 @@ ul {
 .movie-cast-crew-left {
   width: auto;
   vertical-align: top;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .movie-cast-crew-right {
   width: auto;
   vertical-align: top;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .movie-alternate-versions {
@@ -128,7 +132,7 @@ ul {
 }
 
 .movie-alt-iterations {
-  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   div {
     ul {
@@ -138,7 +142,6 @@ ul {
 }
 
 .movie-alt-iterations-header {
-  margin-top: 10px !important;
   margin-bottom: 0px !important;
   margin-left: -5px;
 }
