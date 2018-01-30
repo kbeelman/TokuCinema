@@ -3,15 +3,11 @@
 .about-root {
   margin-left: $tablet-gutter;
   margin-right: $tablet-gutter;
-  margin-bottom: $tablet-gutter;
-  margin-top: $tablet-gutter + 80px;
 
   app-dev-card:first-child {
     margin-right: 5%;
   }
 }
-
-$tablet-gutter: 40px;
 
 .dev-card-wrapper {
   display: flex;
@@ -19,7 +15,6 @@ $tablet-gutter: 40px;
 
 .dev-card {
   margin-top: 0;
-  padding-bottom: $tablet-gutter;
 
   p {
     padding-left: $tablet-gutter;

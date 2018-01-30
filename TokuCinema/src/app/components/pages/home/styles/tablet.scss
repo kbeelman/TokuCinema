@@ -5,7 +5,7 @@
   margin-right: $tablet-gutter;
   display: flex;
   flex-flow: wrap;
-  min-height: calc(100vh - 80px);
+  min-height: $header-content-footer;
 
   .home-tile:last-child {
     margin-right: 0;
@@ -19,7 +19,7 @@ section {
 }
 
 .landing-page-card {
-  height: calc((100vh - 300px) / 3);
+  height: 40%;
   min-height: 200px;
   max-height: 200px;
   background-color: $barely-transparant-background;
@@ -71,7 +71,7 @@ section {
   width: 100%;
   
   .landing-page-card {
-    min-height: 400px;
+    min-height: 300px;
 
     div {
       justify-content: center;

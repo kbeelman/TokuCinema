@@ -1,3 +1,10 @@
+// Root
+main {
+  min-height: $header-content-footer;
+  margin-top: $below-header;
+  margin-bottom: $mobile-gutter;
+}
+
 // Movies and Media list pages
 .detail-search {
   position: relative;

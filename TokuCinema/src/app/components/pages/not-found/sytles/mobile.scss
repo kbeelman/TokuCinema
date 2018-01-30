@@ -7,9 +7,9 @@
     margin-right: $mobile-gutter;
     margin-top: $below-header;
     text-align: center;
-    height: calc(100vh - 102px);
     display: flex;
     align-items: center;
+    height: $header-content-footer;
 }
 
 .not-found-card {
