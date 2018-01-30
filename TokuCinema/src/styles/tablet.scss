@@ -1,16 +1,4 @@
-@import '../../sassisms.scss';;
-
-.medias-results {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-}
-
-.medias-root {
-  margin-left: $tablet-gutter;
-  margin-right: $tablet-gutter;
-}
-
+// Movies and Media list pages
 .toggle-filters {
   display: none;
 }

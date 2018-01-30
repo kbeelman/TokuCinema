@@ -6,7 +6,8 @@ import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-movies',
-  templateUrl: './movies.component.html'
+  styleUrls: ['./movies.scss'],
+  templateUrl: './movies.component.html'  
 })
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();

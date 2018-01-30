@@ -9,6 +9,7 @@ import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-media',
+  styleUrls: ['./media.scss'],
   templateUrl: './media.component.html'
 })
 export class MediaComponent implements OnInit {

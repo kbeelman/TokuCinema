@@ -1,0 +1,12 @@
+// Use for styles that should affect the entire application, not just a specific component
+@import '../styles/sassisms.scss';
+
+@import '../styles/mobile';
+
+@media (min-width: $viewport-tablet) {
+  @import '../styles/tablet';
+}
+
+@media (min-width: $viewport-desktop) {
+  @import '../styles/desktop';
+}
