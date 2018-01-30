@@ -20,3 +20,15 @@
 .clear-button {
   width: 33%;
 }
+
+
+.medias-results {
+
+  app-media-card {
+    width: calc(50% - 10px);
+  }
+
+  app-media-card:nth-child(odd) {
+    margin-right: 20px;
+  }
+}

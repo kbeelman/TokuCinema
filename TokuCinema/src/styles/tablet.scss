@@ -31,3 +31,56 @@
     color: $primary-background;
   }
 }
+
+.movies-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.medias-results {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.movies-results-series {
+  width: 100%;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+}
+
+.series-cards-wrapper {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.toggle-filters {
+  display: none;
+}
+
+.movies-results {
+
+  app-movie-card {
+    width: calc(50% - 10px);
+  }
+
+  app-movie-card:nth-child(odd) {
+    margin-right: 20px;
+  }
+}
+
+.medias-results {
+
+  app-media-card {
+    width: calc(50% - 10px);
+  }
+
+  app-media-card:nth-child(odd) {
+    margin-right: 20px;
+  }
+}

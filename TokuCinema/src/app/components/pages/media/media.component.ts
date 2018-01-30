@@ -1,6 +1,6 @@
 import { element } from 'protractor';
 import { MediaFilterPakage } from '../../../domain/MediaFilterPackage';
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
 import { FirebaseListObservable } from 'angularfire2/database';
@@ -10,7 +10,8 @@ import { FirebaseService } from '../../../services/firebase.service';
 @Component({
   selector: 'app-media',
   styleUrls: ['./media.scss'],
-  templateUrl: './media.component.html'
+  templateUrl: './media.component.html',
+  encapsulation: ViewEncapsulation.None
 })
 export class MediaComponent implements OnInit {
   mediaItems = new Array<Media>();

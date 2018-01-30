@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { Movie } from '../../../domain/Movie';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
@@ -7,7 +7,8 @@ import { FirebaseService } from '../../../services/firebase.service';
 @Component({
   selector: 'app-movies',
   styleUrls: ['./movies.scss'],
-  templateUrl: './movies.component.html'  
+  templateUrl: './movies.component.html',
+  encapsulation: ViewEncapsulation.None
 })
 export class MoviesComponent implements OnInit {
   movieItems = new Array<Movie>();
