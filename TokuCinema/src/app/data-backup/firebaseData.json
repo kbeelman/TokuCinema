@@ -1122,7 +1122,58 @@
                             "ReleaseDate": "1956-04-27",
                             "Runtime":"80",
                             "Rating": [],
-                            "Iterations": []
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Godzilla, King of the Monsters! was released in the western US by Godzilla Releasing Corp. and in the eastern US by Embassy Pictures. Raymond Burr was prominently added to the film, the nuclear message was softened but still present, and many other edits were made. The film opened with a \"Trans World\" logo and featured an original \"The End\" card and ending credits."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Early 16mm TV prints began with a single opening credit title placed between the main title card and the start of Burr's narration, reading \"STARRING RAYMOND BURR\" and \"DIRECTED BY TERRY MORSE AND I. HONDA,\" with Godzilla's stomps heard in the background."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television & Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A master created in the 1980s features a black screen in place of the Trans World logo and cuts out all of the ending credits but the \"The End\" card. All home media releases in the United States, ranging from releases in the 1980s to the 2002 Classic Media DVD, exclusively used this version of the movie."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media 2006 DVD",
+                                    "MediaPath": [{"Descriptor":"2006 R1 Classic Media DVD","Path":"Gojira-Classic-Media-DVD-2006-09-05"}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2006-09-05",
+                                    "Notes": [
+                                        "Largely the same as the previous home video master, this version reinserts the ending credits sourced from cropped 16mm film elements, though they were placed out of order with the ending shots of the movie."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Criterion Restoration",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2012-01-24",
+                                    "Notes": [
+                                        "Criterion’s release of Godzilla, King of the Monsters! was sourced from a 35mm fine-grain print. This version features the \"Trans World\" logo and the ending credits placed correctly into the film."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1151,7 +1202,9 @@
                                     "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
-                                    "Notes": []
+                                    "Notes": [
+                                        "The American version of the film, starring Raymond Burr, was released in Japanese theaters in 1957 complete with Japanese subtitles. It has been released in Japan on VHS, LaserDisc, and DVD throughout the years."
+                                    ]
                                 }
                             ]
                         }
@@ -1184,7 +1237,18 @@
                             "ReleaseDate": "Circa 1977",
                             "Runtime":"97",
                             "Rating": [],
-                            "Iterations": []
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Italian director Luigi Cozzi released a colorized and edited version of Godzilla, based off of the American version, to Italian theaters in 1977. Initially wanting to colorize the original Japanese version of the film, Toho was only able to license him a copy of the American version. The film was reedited, stock footage from other movies was inserted into the film, and a new soundtrack was created. This version of Godzilla has never been officially released to home video."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1255,7 +1319,7 @@
                                     "Notes": [
                                         "The pressbook listed a runtime of 90 minutes, but this is assumed to be an approximation.",
                                         "Some sources claim the theatrical release featured a brief overture, consisting of the beginning portion of the main title cue that remains unheard in all English versions, playing over a black screen.",
-                                        "Contains an added missile assault sequence, dubbed the “Frontier Missile” scene, which is exclusive to AIP’s version of this movie, as it is not included in the Japanese version. This scene was actually filmed by Tsuburaya's FX unit in Japan but was deleted from the Japanese version, apparently because Japanese audiences were not comfortable with seeing the use of American naval force on Japanese soil. Originally, the Americans were to be the Rolisicans from Mothra. This sequence is one of the best scenes in the movie from an FX standpoint and its deletion is unfortunate. A scene where Susumu Fujita's military official goes over defense plans is used in place of the scene in the Japanese version. However, American International Pictures decided to reinstate this sequence for their version.",
+                                        "Contains an added missile assault sequence, dubbed the \"Frontier Missile\" scene, which is exclusive to AIP’s version of this movie, as it is not included in the Japanese version. This scene was actually filmed by Tsuburaya's FX unit in Japan but was deleted from the Japanese version, apparently because Japanese audiences were not comfortable with seeing the use of American naval force on Japanese soil. Originally, the Americans were to be the Rolisicans from Mothra. This sequence is one of the best scenes in the movie from an FX standpoint and its deletion is unfortunate. A scene where Susumu Fujita's military official goes over defense plans is used in place of the scene in the Japanese version. However, American International Pictures decided to reinstate this sequence for their version.",
                                         "Some sound design has been reworked in several scenes, with louder explosions that replace Toho’s standard sound effects."]
                                 },
                                 {
@@ -1273,7 +1337,7 @@
                                     "Runtime": "87:21",
                                     "ReleaseDate": "Circa 1983",
                                     "Notes": [
-                                        "The original title card has been replaced with a video generated “Godzilla vs. Mothra” title.",
+                                        "The original title card has been replaced with a video generated \"Godzilla vs. Mothra\" title.",
                                         "It is believed that the 35mm source that UPA used for this master was either damaged or incomplete.","Many lines were cut, and some scenes are sourced from a visibly inferior material, potentially a scope 16mm print.",
                                         "The original \"An American International Picture\" end title is replaced by a black screen.",
                                         "The Frontier Missile scene is missing over 2 seconds of footage of the second wave of missile impacts in UPA's master, abruptly beginning with the third explosion."]
@@ -1297,7 +1361,7 @@
                                     "ReleaseDate": "Circa 2006",
                                     "Notes": [
                                         "This cropped 16:9 master has the benefit of being much closer to the theatrical experience, but still not entirely so.",
-                                        "While it has the “Godzilla vs. The Thing” exclusive credits, there is an added fade at the beginning of the AIP logo, which was not present on Simitar's widescreen master.",
+                                        "While it has the \"Godzilla vs. The Thing\" exclusive credits, there is an added fade at the beginning of the AIP logo, which was not present on Simitar's widescreen master.",
                                         "Several lines have been restored, though some reel changes are still a bit messy.",
                                         "This version is missing several seconds from the beginning of the first explosion in the Frontier Missile scene."
                                     ]
@@ -1531,7 +1595,48 @@
                             "ReleaseDate": "1965-09-13",
                             "Runtime":"85",
                             "Rating": [],
-                            "Iterations": []
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This version features fairly extensive editing, with shots and scenes rearranged or cut, additional library cues, and more. A shot of Infant Island in this cut runs several frames longer than what is available on current Japanese sources, which appear to be damaged around this instance. This version also featured a Walter Reade Organization logo at the beginning of the movie, as well as an ending \"The End\" title card that was in the same font as the opening \"Ghidrah\" logo."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television & Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Various copies of the US version are missing either the Walter Reade Organization logo, the original ending title, or both. The \"The End\" title card used on Classic Media’s DVD was first seen in the 1980s, and appeared on TV airings as well as the Video Treasures VHS release from 1989."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media Rough Draft",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "During production of Classic Media’s DVD release of Ghidrah, a rough draft reconstruction aired on CBC before the Classic Media DVD came out. This version of the reconstruction is unfinished, with poorly synchronized sound and shots in the wrong order."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media Reconstruction",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2007-06-05",
+                                    "Notes": [
+                                        "Classic Media revised their reconstruction of the US version and released it on region 1 DVD alongside the Japanese version. This version contains the US dub’s audio synchronized up to a Japanese source for almost the entirety of the picture. The opening credits are sourced from the video master of the US version made in the 1980s or 1990s, and are stretched back to widescreen from squeezed fullscreen. This version features a very brief Toho logo in place of the Walter Reade Organization logo, digital fades in place of the optical fades, and different ending titles from the original. In an effort to preserve a textless ending shot, the ending shot is slowed down to hide the Japanese owari."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
