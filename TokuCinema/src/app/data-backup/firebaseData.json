@@ -523,7 +523,7 @@
             ],
             "Cast": [
                 {"ActorName":"Hiroki Hasegawa","RoleName":"Rando Yaguchi"},
-                {"ActorName":"Satomi Ishihara","RoleName":"Kayoco Anne Patterson"},
+                {"ActorName":"Satomi Ishihara","RoleName":"Kayoko Anne Patterson"},
                 {"ActorName":"Yutaka Takenouchi","RoleName":"Akasaka Akasaka"},
                 {"ActorName":"Ren Osugi","RoleName":"Seiji Okochi"},
                 {"ActorName":"Kengo Kora","RoleName":"Yusuke Shimura"},
@@ -1607,7 +1607,7 @@
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Todd Haberkorn","RoleName":"Rando Yaguchi"},
-                                {"ActorName":"Trina Nishimura","RoleName":"Kayoko Ann Kayoco"},
+                                {"ActorName":"Trina Nishimura","RoleName":"Kayoko Anne Patterson"},
                                 {"ActorName":"J. Michael Tatum","RoleName":"Hideki Akasaka"},
                                 {"ActorName":"Kent Williams","RoleName":"Seiji Okochi"},
                                 {"ActorName":"Ian Sinclair","RoleName":"Tatsuhiko Yasuda"},
@@ -1766,7 +1766,8 @@
                                 {"ActorName":"Larry Robinson","RoleName":"Yoshito Nishibe"},
                                 {"ActorName":"Bret Morrison","RoleName":"Admiral Kosumi"},
                                 {"ActorName":"Kenneth Harvey","RoleName":"Detective Ito"},
-                                {"ActorName":"Jack Curtis","RoleName":"Agent No. 23"}
+                                {"ActorName":"Jack Curtis","RoleName":"Agent No. 23"},
+                                {"ActorName":"Peter Fernandez","RoleName":""}
                             ],
                             "Crew": [],
                             "DubCompany": "Titra",
@@ -2047,7 +2048,21 @@
                                 {"ActorName":"Jack Ong","RoleName":"Shiro Miyasaka"},
                                 {"ActorName":"Ron Yuan","RoleName":"Mitsuo Katagiri"},
                                 {"ActorName":"Rachel Crane","RoleName":"Io Shinoda"},
-                                {"ActorName":"Jim Ishida","RoleName":"General Takada"}
+                                {"ActorName":"Jim Ishida","RoleName":"General Takada"},
+                                {"ActorName":"Yoshio Be","RoleName":""},
+                                {"ActorName":"Glen Chin","RoleName":""},
+                                {"ActorName":"John Cho","RoleName":""},
+                                {"ActorName":"Micael Hagiwara","RoleName":""},
+                                {"ActorName":"Amy Hill","RoleName":""},
+                                {"ActorName":"Rodney Kageyama","RoleName":""},
+                                {"ActorName":"Denice Kumagai","RoleName":""},
+                                {"ActorName":"Jim Lau","RoleName":""},
+                                {"ActorName":"Dana Lee","RoleName":""},
+                                {"ActorName":"Lucy Lin","RoleName":""},
+                                {"ActorName":"Sachiko","RoleName":""},
+                                {"ActorName":"Marilyn Tokuda","RoleName":""},
+                                {"ActorName":"Jerry Tondo","RoleName":""},
+                                {"ActorName":"Ping Wu","RoleName":""}
                             ],
                             "Crew": [
                                 {"PositionTitle":"Dubbing Director","Name":"Mike Schlesinger"},
