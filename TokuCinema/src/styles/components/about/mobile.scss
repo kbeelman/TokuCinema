@@ -8,13 +8,17 @@
 }
 
 .about-section {
-  text-align: center;
+  text-align: justify;
 }
 
 .dev-card {
   margin-top: $mobile-gutter;
   background-color: $secondary-background;
   padding-bottom: $mobile-gutter;
+
+  h3 {
+    margin-left: $mobile-gutter;
+  }
 
   p {
     padding-left: $mobile-gutter;

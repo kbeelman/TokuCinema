@@ -21,6 +21,10 @@ $tablet-gutter: 40px;
   margin-top: 0;
   padding-bottom: $tablet-gutter;
 
+  h3 {
+    margin-left: $tablet-gutter;
+  }
+
   p {
     padding-left: $tablet-gutter;
     padding-right: $tablet-gutter;
