@@ -7,9 +7,9 @@ Monster Movie Review Website
 *Note - Commands were run using powershell for Windows and Bash for Mac OSX*
 
 1. Nodejs and npm
-    - Install these versions or greater of Nodejs and npm:  
-        - Nodejs: 6.9.6   download Windows installer here: [Node](ttps://nodejs.org/en/download/) 
-        - npm: 3.10.10 (bundled with Nodejs)
+    - Install latest versions of Nodejs and npm:  
+        - Nodejs: download Windows installer here: [Node](https://nodejs.org/en/download/) 
+        - npm: (bundled with Nodejs)
 
 2. Install Angular CLI globally on your machine
     - Install Angular CLI version: "1.0.5" or greater  
