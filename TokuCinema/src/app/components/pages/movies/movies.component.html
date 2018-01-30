@@ -5,7 +5,7 @@
       <input class="text-input" [(ngModel)]="searchTerm" type="text" placeholder="Filter by title">
     </div>
 
-<!--Filters-->
+    <!--Filters-->
     <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
       <div class="filter-option">
         <select id="series-select" [(ngModel)]="this.seriesFilter">
@@ -37,12 +37,6 @@
           <option *ngFor="let language of languages" [value]="language">{{language}}</option>
         </select>
       </div>
-      <!--<div class="filter-option">
-        <select id="production-company-select" [(ngModel)]="this.productionCompanyFilter">
-          <option value="">Choose a production company</option>
-          <option *ngFor="let productionCompany of productionCompanies" [value]="productionCompany">{{productionCompany}}</option>
-        </select>
-      </div>-->
       <div class="filter-option clear-button">
         <input type="button" value="Clear Filters" (click)="clearFilters()">
       </div>

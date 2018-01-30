@@ -3,8 +3,6 @@
 .about-root {
   margin-left: $mobile-gutter;
   margin-right: $mobile-gutter;
-  margin-bottom: $mobile-gutter;
-  margin-top: $below-header;
 }
 
 .about-section {
@@ -14,7 +12,6 @@
 .dev-card {
   margin-top: $mobile-gutter;
   background-color: $secondary-background;
-  padding-bottom: $mobile-gutter;
 
   h3 {
     margin-left: $mobile-gutter;

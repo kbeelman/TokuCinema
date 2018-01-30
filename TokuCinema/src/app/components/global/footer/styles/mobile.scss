@@ -1,11 +1,12 @@
 footer {
   background-color: $secondary-background;
-  height: 35px;
   width: 100%;
-  padding-top: $mobile-gutter;
-  padding-bottom: $mobile-gutter;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 
-  // display: inline;
   font-size: small;
   line-height: 1.3em;
 

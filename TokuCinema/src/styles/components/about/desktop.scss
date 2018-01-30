@@ -4,3 +4,19 @@
   margin-left: $desktop-gutter;
   margin-right: $desktop-gutter;
 }
+
+.dev-card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-root {
+  app-dev-card:first-child {
+    margin-right: 0;
+  }
+}
+
+.dev-card {
+  max-width: 400px;
+}

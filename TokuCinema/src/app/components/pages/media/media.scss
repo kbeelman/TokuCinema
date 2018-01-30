@@ -1,0 +1,11 @@
+@import '../../../app.component.scss';
+
+@import 'styles/mobile';
+
+@media (min-width: $viewport-tablet) {
+  @import 'styles/tablet';
+}
+
+@media (min-width: $viewport-desktop) {
+  @import 'styles/desktop';
+}
