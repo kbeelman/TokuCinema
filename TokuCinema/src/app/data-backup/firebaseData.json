@@ -570,7 +570,27 @@
             "Series": "Godzilla",
             "Era": "New Generation",
             "Runtime": "89",
-            "Path": "Godzilla-Monster-Planet-2017"
+            "Path": "Godzilla-Monster-Planet-2017",
+            "Crew": [
+                {"PositionTitle":"Directors","Name":"Kobun Shizuno and Hiroyuki Seshita"},
+                {"PositionTitle":"Producer","Name":"Takashi Yoshizawa"},
+                {"PositionTitle":"Executive Producer","Name":"Yoshihiro Furusawa"},
+                {"PositionTitle":"Writer","Name":"Gen Urobuchi"},
+                {"PositionTitle":"Composer","Name":"Takayuki Hattori"}
+            ],
+            "Cast": [
+                {"ActorName":"Mamoru Miyano","RoleName":"Haruo Sakaki"},
+                {"ActorName":"Takahiro Sakurai","RoleName":"Metphies"},
+                {"ActorName":"Tomokazu Sugita","RoleName":"Martin Lazzari"},
+                {"ActorName":"Junichi Suwabe","RoleName":"Mulu Elu Galu Gu"},
+                {"ActorName":"Kenta Miyake","RoleName":"Rilu-Elu Belu-be"},
+                {"ActorName":"Kana Hanazawa","RoleName":"Yuko Tani"},
+                {"ActorName":"Yuki Kaji","RoleName":"Adam Bindewald"},
+                {"ActorName":"Daisuke Ono","RoleName":"Eliott Leland"},
+                {"ActorName":"Kenyu Horiuchi","RoleName":"Unberto Mori"},
+                {"ActorName":"Kazuya Nakai","RoleName":"Halu-Elu Dolu-do"},
+                {"ActorName":"Kazuhiro Yamaji","RoleName":"Endurphe"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla: 決戦機動増殖都市",
@@ -2135,6 +2155,64 @@
                                         "Toho originally had an English dub produced in Hong Kong, but it has never been released in any form, as it was supplanted by Tristar's Godzilla 2000 dub, which is now Toho's preferred English version of the film.",
                                         "Parts of the International dub can be heard in the trailer for Tristar's Godzilla 2000.",
                                         "One line from the International dub remains in Tristar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Monster-Planet-2017",
+            "Countries": [      
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla: Planet of the Monsters"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
+                                {"ActorName":"Rachelle Heger","RoleName":"Young Haruo"},
+                                {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
+                                {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
+                                {"ActorName":"Taylor Henry","RoleName":"Mulu Elu Galu Gu"},
+                                {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
+                                {"ActorName":"Cristina Valenzuela","RoleName":"Yuko Tani"},
+                                {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
+                                {"ActorName":"Danny Boston","RoleName":"Eliott Leland"},
+                                {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
+                                {"ActorName":"Doug Stone","RoleName":"Halu-Elu Dolu-do"},
+                                {"ActorName":"Joe Ochman","RoleName":"Endurphe"},
+                                {"ActorName":"Martin Billany","RoleName":""},
+                                {"ActorName":"Chris Hackney","RoleName":""},
+                                {"ActorName":"Roy Lee Pitts III","RoleName":""},
+                                {"ActorName":"Laura Post","RoleName":""},
+                                {"ActorName":"Bill Rogers","RoleName":""},
+                                {"ActorName":"Paul St. Peter","RoleName":""},
+                                {"ActorName":"David Sylvain","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Directors","Name":"Laura Post, Shannon Wilson"},
+                                {"PositionTitle":"Production Manager","Name":"Mary Kay De Guzman"},
+                                {"PositionTitle":"ADR Engineers","Name":"Ally Hustings, Tony McVann, Erik Karsen Puhm"}
+                            ],
+                            "DubCompany": "Post Haste Digital",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "2017-01-17",
+                            "Runtime":"88",
+                            "Rating": [{"RatingSystem":"TV Parental Guidelines Monitoring Board","RatingValue":"TV-14"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "English Dub",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The English dubbed version, released by Netflix, is identical to the Japanese theatrical version of the movie."
                                     ]
                                 }
                             ]
