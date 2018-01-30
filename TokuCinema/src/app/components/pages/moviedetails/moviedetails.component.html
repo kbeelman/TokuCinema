@@ -45,7 +45,15 @@
   <div class="movie-cast-crew" *ngIf="this.movie.doesCastOrCrewExist()">
     <div class="movie-cast-crew-left" *ngIf="this.movie.doesCastExist()">
       <h2>Cast</h2>
-      <div *ngFor="let item of this.movie.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+      <div *ngFor="let item of this.movie.Cast">
+        <div *ngIf="item.RoleName then thenBlock_CastRoleName else elseBlock_CastRoleName"></div>
+          <ng-template #thenBlock_CastRoleName>
+            <strong>{{item.ActorName}}</strong> as {{item.RoleName}}
+          </ng-template>
+          <ng-template #elseBlock_CastRoleName>
+            <strong>{{item.ActorName}}</strong>
+          </ng-template>
+      </div>
     </div>
     <div class="movie-cast-crew-right" *ngIf="this.movie.doesCrewExist()">
       <h2>Crew</h2>
@@ -94,11 +102,27 @@
           <div class="movie-cast-crew" *ngIf="version.Cast || version.DubCast || version.Crew">
             <div class="movie-alt-cast-crew" *ngIf="version.Cast">
               <h4>Cast</h4>
-              <div *ngFor="let item of version.Cast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+              <div *ngFor="let item of version.Cast">
+                <div *ngIf="item.RoleName then thenBlock_DubCastRoleName else elseBlock_DubCastRoleName"></div>
+                  <ng-template #thenBlock_DubCastRoleName>
+                    <strong>{{item.ActorName}}</strong> as {{item.RoleName}}
+                  </ng-template>
+                  <ng-template #elseBlock_DubCastRoleName>
+                    <strong>{{item.ActorName}}</strong>
+                  </ng-template>
+              </div>
             </div>
             <div class="movie-alt-cast-crew" *ngIf="this.version.DubCast">
               <h4>Dub Cast</h4>
-              <div *ngFor="let item of version.DubCast"><strong>{{item.ActorName}}</strong> as {{item.RoleName}}</div>
+              <div *ngFor="let item of version.DubCast">
+                <div *ngIf="item.RoleName then thenBlock_DubVoiceCastRoleName else elseBlock_DubVoiceCastRoleName"></div>
+                  <ng-template #thenBlock_DubVoiceCastRoleName>
+                    <strong>{{item.ActorName}}</strong> as {{item.RoleName}}
+                  </ng-template>
+                  <ng-template #elseBlock_DubVoiceCastRoleName>
+                    <strong>{{item.ActorName}}</strong>
+                  </ng-template>
+              </div>
             </div>
             <div class="movie-alt-cast-crew" *ngIf="this.version.Crew">
               <h4>Crew</h4>

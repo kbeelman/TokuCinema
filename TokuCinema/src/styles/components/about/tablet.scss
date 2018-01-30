@@ -16,6 +16,10 @@
 .dev-card {
   margin-top: 0;
 
+  h3 {
+    margin-left: $tablet-gutter;
+  }
+
   p {
     padding-left: $tablet-gutter;
     padding-right: $tablet-gutter;
