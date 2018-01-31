@@ -1216,6 +1216,30 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
                             "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1957-04-05",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original theatrical release of Godzilla in Italy was based off of the American version, Godzilla, King of the Monsters. This version adds new opening credits set against footage from later in the film, as well as some audio differences."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Emilio Cigoli","RoleName":"Steve Martin"},
                                 {"ActorName":"Rita Savagnone","RoleName":"Emiko Yamane"},
@@ -1246,6 +1270,156 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Italian director Luigi Cozzi released a colorized and edited version of Godzilla, based off of the American version, to Italian theaters in 1977. Initially wanting to colorize the original Japanese version of the film, Toho was only able to license him a copy of the American version. The film was reedited, stock footage from other movies was inserted into the film, and a new soundtrack was created. This version of Godzilla has never been officially released to home video."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Eros Films",
+                            "ReleaseDate": "1956-09-04",
+                            "Runtime":"80",
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"X"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British release of Godzilla was based on the American version, Godzilla, King of the Mosnters!"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany and Austria",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Atrium / Lehmacher Film",
+                            "ReleaseDate": "August 1956",
+                            "Runtime":"84",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German and Austrian version of Godzilla was based on the Japanese version, but had roughly 12 minutes cut out."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German and Austrian television version of Godzilla has the same cuts as the theatrical version, but contains a different opening title sequence."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1956-05-11",
+                            "Runtime":"96",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Records say that the original Spanish version of Godzilla was uncut, but this version is unfortunately lost."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla Japon bajo el terror del monstruo"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Japan under the terror of the monster"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Filmax produced a new dub for Godzilla in 1998 and released it onto VHS."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [{"PositionTitle":"Director","Name":"Robert Noel"}],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Les Films du Verseau",
+                            "ReleaseDate": "1957-03-14",
+                            "Runtime":"92",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Theatrical version of Godzilla in France was dubbed, and was a hybrid of the original Japanese version and footage shot for the American version. The film has been reedited, and story details are altered through dialog. Some altered story details include: Ogata is now written to be Dr. Yamane's student, and Steve Martin works for the \"New York Herald\" out of New York instead of United World News in Chicago."
                                     ]
                                 }
                             ]
@@ -1639,6 +1813,93 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Frankensteins Monster im Kampf gegen Ghidorah"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "8-Films",
+                            "ReleaseDate": "2011-09-13",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Frankenstein's Monsters Fighting Against Ghidorah"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Up until 2011, Ghidorah, the Three-Headed Monster was one of two Godzilla films not to have been released in Germany at that time. When 8-Films released it on DVD in 2011, they opted to include Frankenstein's name in the title, as a tribute to previous Godzilla releases which had been retitled and rewritten to include the Frankenstein character. "
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Turkey",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gidorah Canavarlar Canavari"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Fono Film",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Ghidorah Monsters Monster"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While this version of Ghidorah is lost, it is the only known theatrical release of the film in Europe."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla contra Ghidorah - El dragón de tres cabezas"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "",
+                            "Runtime":"Circa 1998",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla against Ghidorah - The Three-Headed Dragon"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Filmax produced a dub for VHS in 1998. Venus is redubbed to be Mars, and some of the sound effects suffer in quality throughout the film."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -1651,10 +1912,11 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Biollante"}],
                             "Cast": [
-                                {"ActorName":"Chris Hilton ","RoleName":"Kirishima"},
-                                {"ActorName":"Rik Thomas","RoleName":"Col. Gondo"},
-                                {"ActorName":"Warren Rooke","RoleName":"Dr. Shiragami"},
-                                {"ActorName":"Simon Broad","RoleName":"Mr. Okochi"}
+                                {"ActorName":"Chris Hilton ","RoleName":"Kazuhito Kirishima"},
+                                {"ActorName":"Rik Thomas","RoleName":"Col. Goro Gondo"},
+                                {"ActorName":"Warren Rooke","RoleName":"Dr. Genichiro Shiragami"},
+                                {"ActorName":"Simon Broad","RoleName":"Seizo  Okochi, Saradian Lab Director, Super X2 Controller, and Demon Kogure"},
+                                {"ActorName":"Suzanne Vale","RoleName":"Asuka Okochi and Newscaster"}
                             ],
                             "DubCast": [],
                             "Crew": [],
@@ -1917,6 +2179,71 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Atragon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1965-12-07",
+                            "Runtime":"89",
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"U"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"U 2000 - Tauchfahrt des Grauens"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin Film",
+                            "ReleaseDate": "1965-11-12",
+                            "Runtime":"87",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"U 2000 - Diving Trip of Horror"}],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German version of Atragon is based on the Japanese version, but is shortened by several minutes."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ataragon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [{"PositionTitle":"Director","Name":"Martine Cohen and Gerard Cohen"}],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1966-02-23",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
                 }
             ]
         },
@@ -1960,6 +2287,62 @@
                                         "The monster's name and film's title has been changed to Dagora, though it is still pronounced Dogora in the dub. The only editorial alteration in the AIP-TV version is the excision of the opening credits which takes the run time down to around 80 minutes.",
                                         "In the United States, a most likely unlicensed version was released on VHS in the early 1980s by grey market outlet Video Yesteryear. This tape utilized a badly faded 16mm print and obviously went out of print once Yesteryear folded from a lawsuit."
                                     ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"X 3000 - Fantome gegen Gangster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Ceres",
+                            "ReleaseDate": "1966-22-12",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"X 3000 - Phantoms versus Gangsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German release of Dogora was based on Toho's international version, and has never been released on German home video."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Dogora - Il mostro della grande palude"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Dogora - The Monster of the Great Swamp"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
                                 }
                             ]
                         }
@@ -2026,8 +2409,8 @@
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Deathquake"}],
                             "Cast": [],
                             "DubCast": [
-                                {"ActorName":"Chris Hilton","RoleName":"Dr. Yoichi Kawazu"},
-                                {"ActorName":"Rik Thomas","RoleName":"Professor Marumo"},
+                                {"ActorName":"Chris Hilton","RoleName":"Dr. Yoichi Kawazu and Chief Cabinet Secretary"},
+                                {"ActorName":"Rik Thomas","RoleName":"Professor Marumo, Joint Staff Chairman, and Bearded Man"},
                                 {"ActorName":"Warren Rooke","RoleName":"Masayuki Hashizume"}
                             ],
                             "Crew": [],
@@ -2067,10 +2450,10 @@
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"John Culkin","RoleName":"Goro Maki"},
-                                {"ActorName":"Barry Haigh","RoleName":"Prime Minister Mitamura"},
+                                {"ActorName":"Barry Haigh","RoleName":"Prime Minister Mitamura, Chief Editor Gondo, The Bum, Submarine Captain, and Power Plant Guard"},
                                 {"ActorName":"Elizabeth Oram","RoleName":"Naoko Okumura"},
-                                {"ActorName":"Warwick Paul Evans","RoleName":"Hiroshi Okamura"},
-                                {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida"}
+                                {"ActorName":"Warwick Paul Evans","RoleName":"Hiroshi Okamura, Defense Minister, and Environmental Director"},
+                                {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida, Chief of Staff, Russian Ambassador, and Photographer Kamiya"}
                             ],
                             "Crew": [],
                             "DubCompany": "",
@@ -2150,6 +2533,248 @@
                                         "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
                                         "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
                                         "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Australia",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Village Roadshow Corp.",
+                            "ReleaseDate": "1986-03-13",
+                            "Runtime":"87",
+                            "Rating": [{"RatingSystem":"","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Australian theatrical release was based on the United States' version, Godzilla 1985."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1986",
+                            "Runtime":"87",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British theatrical release was based on the United States' version, Godzilla 1985, but approximately 17 seconds of footage from the giant sea louse's assault on Maki were excised to meet BBFC standards."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1987",
+                                    "Notes": [
+                                        "The home video version was reevaluated by the BBFC and given an uncensored release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Delta Video",
+                            "ReleaseDate": "Circa 1990",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In France, the international version of Return of Godzilla was given a French dub that was released direct to video. This version uses the updated sound effects track, so Godzilla’s roar is modified at the end of the movie. The Russians and Americans are dubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Yamato Video",
+                            "ReleaseDate": "Circa 1996",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Italy, the international version of Return of Godzilla was given an Italian dub that was released direct to video. However, this version bases its dialog from the American Godzilla 1985 script. For example, just as the character Hiroshi Okamura is renamed to Ken in Godzilla 1985, he is renamed to Ken in this version as well. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Manga Video",
+                            "ReleaseDate": "Circa 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Spain, the international version of Return of Godzilla was given a Spanish dub that was released direct to video. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Taiwan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"擊滅日本國"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Power Multimedia",
+                            "ReleaseDate": "Circa 1999",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Destruction of Japan"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Taiwan, the international version of Return of Godzilla was given a direct to video dub. This version refers to Godzilla as \"Kǒnglóng\", meaning \"dinosaur.\" 13 minutes of footage is cut from the film, and the video is sourced from Japanese TV pan-and-scan elements."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "China",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"哥斯拉之怪獸王復活"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Universe Laser",
+                            "ReleaseDate": "Circa 2006",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Monster King Resurrection"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In China, the international version of Return of Godzilla was given a Cantonese dub that was released direct to video. The audio track is culled from several sources, resulting in varying audio quality throughout the film. The Russian and American characters are dubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Thailand",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"คืนชีพก็อตซิลล่า ถล่ม โตเกียว"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 2012",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Revival Collapses Tokyo"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Thailand, the international version of Return of Godzilla was given a Thai dub that was released direct to video. This dub is based off of the Japanese 5.1 audio track with the Japanese dialog removed, and dubs the American and Russian characters."
                                     ]
                                 }
                             ]
