@@ -84,10 +84,10 @@
         <div class="movie-alt-version-details" *ngFor="let version of country.Versions">
           <div *ngIf="country.Versions.length>1 then thenBlock_MainTitle else elseBlock_MainTitle"></div>
             <ng-template #thenBlock_MainTitle>
-                <h3>{{version.MainTitle[0].TitleType}} title: {{version.MainTitle[0].TitleValue}}</h3>
+                <h3 *ngIf="version.MainTitle">{{version.MainTitle[0].TitleType}} title: {{version.MainTitle[0].TitleValue}}</h3>
             </ng-template>
             <ng-template #elseBlock_MainTitle>
-              <h3>{{version.MainTitle[0].TitleValue}}</h3>
+              <h3 *ngIf="version.MainTitle">{{version.MainTitle[0].TitleValue}}</h3>
             </ng-template>
           <ul>
             <div *ngIf="version.ReleaseDate">
