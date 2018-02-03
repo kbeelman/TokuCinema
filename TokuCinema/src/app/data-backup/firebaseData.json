@@ -1046,6 +1046,69 @@
             ] 
         },
         {
+            "OfficialTitle": "Message from Space",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"宇宙からのメッセージ"},
+                {"TitleType":"Hepburn","TitleValue":"Uchu Kara no Messeji"},
+                {"TitleType":"Literal Translation","TitleValue":"Message from the Universe"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMessage-Space-1978%2Fthumb-card.png?alt=media&token=aed2e2b8-9487-43ce-bb53-f48e887dae17",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMessage-Space-1978%2Fthumb-details.png?alt=media&token=eecb0b1e-ceb7-453f-b881-60efb146fb34"
+            ],
+            "ReleaseDate": "1978-04-29",
+            "ProductionCompany": "Toei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese","English"],
+            "Distributor": "Toho",
+            "Director": "Kinji Fukasaku",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "105",
+            "Path": "Message-Space-1978",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tan Takaiwa, Toru Hirayama, Akira Ito, Yusuke Okada, Naoyuki Sugimoto, Simon Tse, Banjiro Uemura, Yoshinori Watanabe"},
+                {"PositionTitle":"Director","Name":"Kinji Fukasaku"},
+                {"PositionTitle":"SFX Director","Name":"Nobuo Yajima"},
+                {"PositionTitle":"Screenplay","Name":"Hiro Matsuda, Kinji Fukasaku, Shotaro Ishinomori (story), Masahiro Noda (story)"},
+                {"PositionTitle":"Cinematography","Name":"Toru Nakajima"},
+                {"PositionTitle":"Music","Name":"Kenichiro Morioka"},
+                {"PositionTitle":"Editor","Name":"Isamu Ichida"},
+                {"PositionTitle":"Assistant Director","Name":"Akiyasu Tawarazaka"},
+                {"PositionTitle":"Art Director","Name":"Michio Mikami"},
+                {"PositionTitle":"Lighting","Name":"Tokuji Wakaki"},
+                {"PositionTitle":"Sound Recording","Name":"Teruhiko Arakawa"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Kiyotaka Matsumoto"},
+                {"PositionTitle":"SFX Cinematography","Name":"Noboru Takanashi"},
+                {"PositionTitle":"VFX","Name":"Minoru Nakano"},
+                {"PositionTitle":"Conceptual Design","Name":"Shotaro Ishinomori, Akira Hio"}
+            ],
+            "Cast": [
+                {"ActorName":"Vic Morrow","RoleName":"General Garuda"},
+                {"ActorName":"Sonny Chiba","RoleName":"Prince Hans"},
+                {"ActorName":"Philip Casnoff","RoleName":"Aaron"},
+                {"ActorName":"Peggy Lee Brennan","RoleName":"Meia"},
+                {"ActorName":"Hiroyuki Sanada","RoleName":"Shiro"},
+                {"ActorName":"Masazumi Okabe","RoleName":"Jack"},
+                {"ActorName":"Etsuko Shihomi","RoleName":"Emeralida"},
+                {"ActorName":"Makoto Sato","RoleName":"Urocco"},
+                {"ActorName":"Mikio Narita","RoleName":"Emperor Rockseia XII"},
+                {"ActorName":"Junkichi Orimoto","RoleName":"Kido"},
+                {"ActorName":"Tetsuro Tanba","RoleName":"President Ernest Noguchi"},
+                {"ActorName":"Noburo Mitani","RoleName":"Kamesasa"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Empress Dowager Dark"},
+                {"ActorName":"Isamu Shimizu","RoleName":"Beba 2"},
+                {"ActorName":"Masataka Naruse","RoleName":"Hikiroku"},
+                {"ActorName":"Thunder Sugiyama","RoleName":"Big Sam"},
+                {"ActorName":"Nenji Kobayashi","RoleName":"Patrol Officer"},
+                {"ActorName":"Jerry Ito","RoleName":"Earth Federation Forces Commander"},
+                {"ActorName":"Shotaru Hayashi","RoleName":"Earth Federation Forces Captain"},
+                {"ActorName":"Seizo Fukumoto","RoleName":"Guerilla Fighter"},
+                {"ActorName":"William Ross","RoleName":"Spaceship Captain"},
+                {"ActorName":"Takayuki Akutagawa","RoleName":"Narrator"}
+            ] 
+        },
+        {
             "OfficialTitle": "Magnitude 7.9",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地震列島"},{"TitleType":"Hepburn","TitleValue":"Jishin Retto"},{"TitleType":"Literal Translation","TitleValue":"Earthquake Archipelago"},{"TitleType":"U.S. Title","TitleValue":"Deathquake"}],
             "OriginalPoster": [
@@ -2034,8 +2097,18 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "The version that was shown in the 1980s on television, and used for most American home video releases, was based from the television print of the Bob Conn edit.",
+                                        "The version that was shown in the 1980s on television, and used for most American home video releases, was based from UPA's television print of the Bob Conn edit.",
                                         "At least three versions of this cut exist. One contains a video generated title card at the same point as the Japanese and international title card. The second version places a video generated title card after Mechagodzilla sheds his Fake Godzilla coating. The last version contains no title card at all."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "1986 Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Several TV stations in 1986 showed a version based on the Bob Conn Enterprises version, but also had the older UPA TV version's prologue and credits added to the beginning of the movie."
                                     ]
                                 }
                             ]
@@ -2047,7 +2120,7 @@
                             "Crew": [],
                             "DubCompany": "",
                             "ProductionCompany": "",
-                            "DistributionCompany": "UPA",
+                            "DistributionCompany": "United Productions of America",
                             "ReleaseDate": "Circa 1978",
                             "Runtime":"89",
                             "Rating": [],
@@ -2597,6 +2670,40 @@
                                         "In the U.S. the film was released directly to television by UPA in 1981 and retains the Hong Kong dubbing.",
                                         "The Hong Kong dubbing is kept but the film cuts all violence and nudity, often times in a very choppy way. The dance sequence with Kaoru Yumi where Abdullah has his tongue ripped out psychically by Tamura is removed almost completely and no explanation is given as to why the character wears a surgical mask for the rest of the movie. The \"Bondian\" open credits sequence is also removed, as is the opening narration. Most of the film's gory shootings (including the death of Katsumasa Uchida's character) is cut and also some character development and dialog is also cut, including Andrew Hughes' short sequence.",
                                         "In the United States the film was released on VHS by Paramount/Gateway in 1994."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Message-Space-1978",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Message from Space"}],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Norman Rose","RoleName":"Narrator"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "United Artists",
+                            "ReleaseDate": "1978-10-30",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "No export version was made that we know of as the film was sold to United Artists fairly quickly for an American theatrical release. The U.S. dubbing was likely done in New York, as it bears similarities to the Titan dubs. Like Nick Adams and Russ Tamblyn in the past, Vic Morrow and Philip Casnoff (and likely Peggy Lee Brennan as well) have their voices and English performances, which were dubbed in Japanese in the Japanese version, reinstated in the U.S. cut. The film is otherwise nearly cut for cut the same as the Japanese version, with the United Artists logo playing over the Toei fanfare."
                                     ]
                                 }
                             ]
