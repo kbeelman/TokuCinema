@@ -182,6 +182,74 @@
             "Path": "Godzilla-Mechagodzilla-1974"   
         },
         {
+            "OfficialTitle": "Terror of Mechagodzilla",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"メカゴジラの逆襲"},
+                {"TitleType":"Hepburn","TitleValue":"Mekagojira no Gyakushu"},
+                {"TitleType":"Literal Translation","TitleValue":"Counterattack of Mechagodzilla"},
+                {"TitleType":"US Theatrical Title","TitleValue":"The Terror of Godzilla"},
+                {"TitleType":"UK Theatrical Title","TitleValue":"Monsters from an Unknown Planet"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Terror-Mechagodzilla-1975%2Fthumb-card.png?alt=media&token=1e2e1192-3fb1-4f10-b8a7-d9bf15b00e08",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Terror-Mechagodzilla-1975%2Fthumb-details.png?alt=media&token=271fffaf-7f6f-4c8a-9e9f-d677dddacc41"
+            ],
+            "ReleaseDate": "1974-03-15",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "83",
+            "Path": "Godzilla-Terror-Mechagodzilla-1975",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Yukiko Takayama"},
+                {"PositionTitle":"Cinematography","Name":"Mototaka Tomioka"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Yoshitami Kuroiwa"},
+                {"PositionTitle":"Assistant Director","Name":"Kensho Yamashita"},
+                {"PositionTitle":"Art Director","Name":"Yoshifumi Honda"},
+                {"PositionTitle":"Lighting","Name":"Toshio Takashima"},
+                {"PositionTitle":"Sound Recording","Name":"Fumio Yanoguchi"},
+                {"PositionTitle":"Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Yoshio Tabuchi"},
+                {"PositionTitle":"SFX Art Director","Name":"Toshiro Aoki"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Yoshikazu Shinoda"},
+                {"PositionTitle":"VFX Opticals","Name":"Yoshio Ishii"},
+                {"PositionTitle":"Mechanical FX","Name":"Tadaki Watanabe"},
+                {"PositionTitle":"Still Photographer","Name":"Kazukiyo Tanaka"}
+            ],
+            "Cast": [
+                {"ActorName":"Katsuhiko Sasaki","RoleName":"Akira Ichinose"},
+                {"ActorName":"Tomoko Ai","RoleName":"Katsura Mafune"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Dr. Shinzo Mafune"},
+                {"ActorName":"Katsumasa Uchida","RoleName":"Jiro Murakoshi"},
+                {"ActorName":"Tomoe Mari","RoleName":"Lily Yamamoto"},
+                {"ActorName":"Goro Mutsumi","RoleName":"Mugal"},
+                {"ActorName":"Toru Ibuki","RoleName":"Tsuda"},
+                {"ActorName":"Shin Roppongi","RoleName":"Yuichi Wakayama"},
+                {"ActorName":"Tadao Nakamaru","RoleName":"Tagawa"},
+                {"ActorName":"Kotaro Tomita","RoleName":"Professor Ota"},
+                {"ActorName":"Masaki Daimon","RoleName":"Kusakari"},
+                {"ActorName":"Kazuo Suzuki","RoleName":"Black Hole Alien #1"},
+                {"ActorName":"Yoshio Kirishima","RoleName":"Black Hole Alien #2"},
+                {"ActorName":"Masayoshi Kikuchi","RoleName":"Black Hole Alien #3"},
+                {"ActorName":"Takuya Yuki","RoleName":"Black Hole Alien #4"},
+                {"ActorName":"Jun Nishihara","RoleName":"Black Hole Alien #5"},
+                {"ActorName":"Akinori Umezu","RoleName":"Schoolboy"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Mafune's Butler"},
+                {"ActorName":"Kenji Sahara","RoleName":"Defense Force Commander"},
+                {"ActorName":"Toru Kawai","RoleName":"Godzilla"},
+                {"ActorName":"Kazunari Mori","RoleName":"Mechagodzilla"},
+                {"ActorName":"Tatsumi Nikimoto","RoleName":"Titanosaurus"}
+            ]    
+        },
+        {
             "OfficialTitle": "Return of Godzilla",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Gojira"},{"TitleType":"Literal Translation","TitleValue":"Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla 1985"},{"TitleType":"U.S. Home Release Alternate Title","TitleValue":"Godzilla 1984"}],
             "OriginalPoster": [
@@ -1558,16 +1626,7 @@
                             "ReleaseDate": "1964-09-17",
                             "Runtime":"88:19",
                             "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"X"}],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Theatrical",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": []
-                                }
-                            ]
+                            "Iterations": []
                         }
                     ]
                 },
@@ -1895,6 +1954,153 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Filmax produced a dub for VHS in 1998. Venus is redubbed to be Mars, and some of the sound effects suffer in quality throughout the film."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Terror-Mechagodzilla-1975",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Terror of Mechagodzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Matthew Oram","RoleName":"Dr. Shinzo Mafune, Defense Corps Commander, Prof. Ota, and Agent Kusakari"},
+                                {"ActorName":"Barry Haigh","RoleName":"Ichinose"},
+                                {"ActorName":"Michael Ross (unconfirmed)","RoleName":"Mugal and Murakoshi"},
+                                {"ActorName":"Esma Wilson (unconfirmed)","RoleName":"Katsura Mafune"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"83",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An English international dub was made in Hong Kong. This version was released on PAL VHS in the United Kingdom which was cropped to a 1.85:1 aspect ratio, and on DVD in Hong Kong in a pan and scan format.",
+                                        "In 2017, it was released onto the FilmStruck streaming service in the United States."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Terror of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Bob Conn Enterprises",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"78",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Licensed to Bob Conn Enterprises from UPA, the US theatrical version utilizes the international dub provided by Toho. This version shown in theaters between 1977 and 1980. It is believed that the movie was shown in a roadshow format over several years, but the exact details and dates are unknown.",
+                                        "This version of the film was heavily edited to achieve a G rating. All of the film's more graphic violence and darker elements are gone, including, but not limited to: Kusakari's execution at the hands of Tsuda, Mugal whipping his subordinates and sentencing them to death, Katsura being shot the first time, the topless shots of Katsura, Ichinose strangling Tsuda and revealing a deformed face underneath and Mafune's shooting. Also cut is Titanosaurus stomping on the two schoolboys, which this version makes it look as if Godzilla saves them. These edits are choppy, resulting in jumps in Ifukube's score. Worst of all, the essential plot point of Katsura committing suicide to stop Mechagodzilla was completely removed, leading the viewer to believe that she survived.",
+                                        "This version of the film would ultimately serve as the basis for most home video releases in the US."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Television and Home Video","TitleValue":"Terror of Mechagodzilla"}],
+                                    "Name": "Television and Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The version that was shown in the 1980s on television, and used for most American home video releases, was based from the television print of the Bob Conn edit.",
+                                        "At least three versions of this cut exist. One contains a video generated title card at the same point as the Japanese and international title card. The second version places a video generated title card after Mechagodzilla sheds his Fake Godzilla coating. The last version contains no title card at all."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"TV","TitleValue":"Terror of Mechagodzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "UPA",
+                            "ReleaseDate": "Circa 1978",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "1970s Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "UPA syndicated Terror of Mechagodzilla to American television, and utilized the international dub provided by Toho.",
+                                        "Unlike the theatrical version this version is almost entirely uncut, but is cropped to fit a television screen. The only shots cut are shots of Katsura's breasts while she is on the operating table.",
+                                        "UPA also added a prologue with stock footage from Monster Zero and Godzilla's Revenge, pulled from UPA's catalog. The prologue explains Godzilla's history with a narration, albeit inaccurately. The narration plays over the prologue and into the opening credits. This prologue results in this version having a longer runtime than its original Japanese counterpart."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "2007 Classic Media DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Classic Media's 2007 DVD has a widescreen reconstruction of the UPA TV edit. The prologue, which was originally cropped to 1.37:1, was further cropped to 1.78:1. The rest of the video is sourced from Toho's transfer of the Japanese version, with a video generated ending title placed onto the Japanese ending title."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Monsters from an Unknown Planet"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Miracle Films, Ltd.",
+                            "ReleaseDate": "",
+                            "Runtime":"81",
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"A"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The UK theatrical release utilized Toho's international dub. The opening credits show the \"Monsters from an Unknown Planet\" title card, and new credits that are mostly textless."
                                     ]
                                 }
                             ]
