@@ -1238,7 +1238,7 @@
                             ]
                         },
                         {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "MainTitle":[{"TitleType":"Theatrical Re-release","TitleValue":"Godzilla"}],
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Emilio Cigoli","RoleName":"Steve Martin"},
@@ -1615,7 +1615,7 @@
                     "Versions": [
                         {
                             "MainTitle":[
-                                {"TitleType":"Spanish","TitleValue":"Godzilla contra los Monstruos"},
+                                {"TitleType":"Theatrical","TitleValue":"Godzilla contra los Monstruos"},
                                 {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. The Monsters"}],
                             "Cast": [],
                             "DubCast": [],
@@ -1639,7 +1639,7 @@
                         },
                         {
                             "MainTitle":[
-                                {"TitleType":"Spanish","TitleValue":"Godzilla contra los Monstruos"},
+                                {"TitleType":"Home Video","TitleValue":"Godzilla contra los Monstruos"},
                                 {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. The Monsters"}
                             ],
                             "Cast": [],
@@ -1669,7 +1669,7 @@
                     "Versions": [
                         {
                             "MainTitle":[
-                                {"TitleType":"French","TitleValue":"Godzilla affronte la Chose"},
+                                {"TitleType":"Theatrical","TitleValue":"Godzilla affronte la Chose"},
                                 {"TitleType":"Literal Translation","TitleValue":"Godzilla Confronts The Thing"}],
                             "Cast": [],
                             "DubCast": [],
@@ -1693,7 +1693,7 @@
                         },
                         {
                             "MainTitle":[
-                                {"TitleType":"French","TitleValue":"Mothra contre Godzilla"},
+                                {"TitleType":"Home Video","TitleValue":"Mothra contre Godzilla"},
                                 {"TitleType":"Literal Translation","TitleValue":"Mothra against Godzilla"}],
                             "Cast": [],
                             "DubCast": [],
@@ -2897,19 +2897,19 @@
             "Path": "Godzilla-Monster-Planet-2017",
             "Countries": [      
                 {
-                    "Country": "United States",
+                    "Country": "International",
                     "Versions": [
                         {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla: Planet of the Monsters"}],
+                            "MainTitle":[{"TitleType":"English","TitleValue":"Godzilla: Planet of the Monsters"}],
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
                                 {"ActorName":"Rachelle Heger","RoleName":"Young Haruo"},
                                 {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
                                 {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
-                                {"ActorName":"Taylor Henry","RoleName":"Mulu Elu Galu Gu"},
+                                {"ActorName":"Jamieson Price (as Taylor Henry)","RoleName":"Mulu Elu Galu Gu"},
                                 {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
-                                {"ActorName":"Cristina Valenzuela","RoleName":"Yuko Tani"},
+                                {"ActorName":"Cristina Valenzuela (as Cristina Vee)","RoleName":"Yuko Tani"},
                                 {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
                                 {"ActorName":"Danny Boston","RoleName":"Eliott Leland"},
                                 {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
@@ -2946,6 +2946,239 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"German","TitleValue":"Godzilla: Planet der Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Jesse Grimm","RoleName":"Haruo"},
+                                {"ActorName":"Marcus Just","RoleName":"Martin"},
+                                {"ActorName":"Daniel Schutter","RoleName":"Metphies"},
+                                {"ActorName":"Robert Knorr","RoleName":"Leland"},
+                                {"ActorName":"Martin Sabel","RoleName":"Galugu"},
+                                {"ActorName":"Franciska Friede","RoleName":"Yuko"},
+                                {"ActorName":"Henrik Moller","RoleName":"Belube Kai"},
+                                {"ActorName":"Patrick Back","RoleName":"Adam"},
+                                {"ActorName":"Wolfgang Berger","RoleName":"Mori"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Arlette Stanschus"},
+                                {"PositionTitle":"Writer","Name":"Andreas Barz"},
+                                {"PositionTitle":"Production Manager","Name":"Jenny Buch"},
+                                {"PositionTitle":"Sound Engineer","Name":"Johannes Marguere"},
+                                {"PositionTitle":"Editor","Name":"Norman Nodop"}
+                            ],
+                            "DubCompany": "CSC-Studio",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Spanish","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Carles Teruel Borras","RoleName":"Haruo"},
+                                {"ActorName":"Daniel Gonzalez Lillo","RoleName":"Metphies"},
+                                {"ActorName":"Alejandro Moreno Blanco","RoleName":"Martin"},
+                                {"ActorName":"Pau Ferrer Ramon","RoleName":"Leland"},
+                                {"ActorName":"Boris Sanz Garcia","RoleName":"Galu-Gu"},
+                                {"ActorName":"Greta Ruiz Ybarra","RoleName":"Yuko"},
+                                {"ActorName":"Paco Alegre Senent","RoleName":"Belu-Be"},
+                                {"ActorName":"Rafa Ordonez Arrieta","RoleName":"Mori"},
+                                {"ActorName":"Ruben Felis Borja","RoleName":"Adam"},
+                                {"ActorName":"Jose Luis Siurana Gil","RoleName":"Takeshi"},
+                                {"ActorName":"Jose Luis Molina Tornero","RoleName":"Dolu-Do"},
+                                {"ActorName":"Jose Manuel Oliva Castillo","RoleName":"Gunner"},
+                                {"ActorName":"Maria Jose Chabrera Carda","RoleName":"Controller A"},
+                                {"ActorName":"Nina Romero Fabra","RoleName":"Controller B"},
+                                {"ActorName":"Jose Manuel Casany Lluesma","RoleName":"Endurph"},
+                                {"ActorName":"Omar Lozano Legaz","RoleName":"Infantry"},
+                                {"ActorName":"Jose Vte. Marzo Gimeno","RoleName":"Grandpa Tani"},
+                                {"ActorName":"Alvaro Esteve Jimenez","RoleName":"Marco"},
+                                {"ActorName":"Pablo Chico Bautista","RoleName":"Tank Driver A and Soldier F"},
+                                {"ActorName":"Aida Baida Gil","RoleName":"Pilot A"},
+                                {"ActorName":"Enric Puig Sapina","RoleName":"Hover Pilot A"},
+                                {"ActorName":"Jose Dario Torrent Orti","RoleName":"Hover Pilot"},
+                                {"ActorName":"Jaime Vicedo Garrido","RoleName":"Reporter A, Worker A, and Hover Driver C"},
+                                {"ActorName":"Marina Vinals Colubi","RoleName":"Reporter B"},
+                                {"ActorName":"Gabriel Pareja Llorens","RoleName":"Male New A"},
+                                {"ActorName":"Enric Lencina Peris","RoleName":"Male New B"},
+                                {"ActorName":"Fran De La Torre Lopez","RoleName":"Worker B"},
+                                {"ActorName":"Juan Catala Hernandez","RoleName":"Soldier A and Sentry B"},
+                                {"ActorName":"Jesus Motos Lopez","RoleName":"Soldier B"},
+                                {"ActorName":"Jesus Gimenez Torres","RoleName":"Soldier C"},
+                                {"ActorName":"Ruben Aranda Sanchis","RoleName":"Soldier D"},
+                                {"ActorName":"Rafael Albert Gabaldön","RoleName":"Soldier E"},
+                                {"ActorName":"Quique Fernandez Regatillo","RoleName":"Soldier G"},
+                                {"ActorName":"Cristina Oliva Redrejo","RoleName":"Boy"},
+                                {"ActorName":"Alba Torrubia","RoleName":"Chica"},
+                                {"ActorName":"Mabel Jimeznez Perez","RoleName":"Anciana"},
+                                {"ActorName":"Ernest Sendin Baquero","RoleName":"Sentry A and Hover Driver D"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director and Casting Director","Name":"Rafa Ordonez Arrieta"},
+                                {"PositionTitle":"Assistant Producer","Name":"Dina Romero Fabra"},
+                                {"PositionTitle":"Production Manager","Name":"Lola Diaz Pastrana"},
+                                {"PositionTitle":"Sound Supervisor and Editor","Name":"Javier Fernanez"},
+                                {"PositionTitle":"Re-recording Mixer","Name":"Ricardo Suarez"},
+                                {"PositionTitle":"Recording Engineer","Name":"Antonio Castillejo Lopez"}
+                            ],
+                            "DubCompany": "International Dubbing Group",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Standard Spanish","TitleValue":""}],
+                            "Cast": [
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Alberto Bernal","RoleName":"Haruo"},
+                                {"ActorName":"Azul Valadez","RoleName":"Yuko"},
+                                {"ActorName":"Armando Guerrero","RoleName":"Metphies"},
+                                {"ActorName":"Gabriel Basurto","RoleName":"Martin"},
+                                {"ActorName":"Arturo Mercado Jr.","RoleName":"Mori"},
+                                {"ActorName":"Jesus Cortes","RoleName":"Takeshi"},
+                                {"ActorName":"Gabriel Ortiz","RoleName":"Leland"},
+                                {"ActorName":"Victor Delgado","RoleName":"Dolu Do"},
+                                {"ActorName":"Raul Solo","RoleName":"Galu Gu"},
+                                {"ActorName":"Santos Alberto","RoleName":"Belu Be"},
+                                {"ActorName":"Alejandra Delint","RoleName":"Controller A"},
+                                {"ActorName":"Erika Langarica","RoleName":"Controller B"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Cristina Flores"},
+                                {"PositionTitle":"Director and Casting Director","Name":"Arturo Catano"},
+                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
+                                {"PositionTitle":"Translation Studio","Name":"Kora Studio-Mexico"},
+                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
+                                {"PositionTitle":"Sound Supervisor","Name":"Guillermo Lopez"},
+                                {"PositionTitle":"Sound Mixer","Name":"Ivan Chorne"},
+                                {"PositionTitle":"Dialog Operator","Name":"Chachu Gilabert"},
+                                {"PositionTitle":"Editor","Name":"Daniel Macias"}
+                            ],
+                            "DubCompany": "Dubbing House Mexico",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"French","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Alessandro Bevilacqua","RoleName":"Adam and Marco"},
+                                {"ActorName":"Franck Dacquin","RoleName":"Galu-Gu"},
+                                {"ActorName":"Maxime Donnay","RoleName":"Martin"},
+                                {"ActorName":"Simon Duprez","RoleName":"Takeshi"},
+                                {"ActorName":"Alain Eloy","RoleName":"Endurph and Grandpa Tani"},
+                                {"ActorName":"Sophie Frison","RoleName":"Yuko"},
+                                {"ActorName":"Michel Hinderyckx","RoleName":"Mori"},
+                                {"ActorName":"Quinton Minon","RoleName":"Belu-Be"},
+                                {"ActorName":"Gregory Praet","RoleName":"Haruo"},
+                                {"ActorName":"Oliver Premel","RoleName":"Dolu-Do"},
+                                {"ActorName":"Maxime Van Santfoort","RoleName":"Metphies"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director and Casting Director","Name":"Laurence Stevenne"},
+                                {"PositionTitle":"Production Manager","Name":"Melanie Gabant"},
+                                {"PositionTitle":"Adaptation","Name":"Justine Rouze"},
+                                {"PositionTitle":"Sound Mixing Engineer","Name":"Jean-Michel Beranger"},
+                                {"PositionTitle":"Sound Engineer","Name":"Denis Portal"}
+                            ],
+                            "DubCompany": "Lylo Media Group",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Italian","TitleValue":"Godzilla: Il pianeta dei mostri"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Federico Viola","RoleName":"Haruo"},
+                                {"ActorName":"Alessandro Germano","RoleName":"Adam"},
+                                {"ActorName":"Martina Tamburello","RoleName":"Yuko"},
+                                {"ActorName":"Roberto Accornero","RoleName":"Endurph"},
+                                {"ActorName":"Domenico Brioschi","RoleName":"Dolu-Do"},
+                                {"ActorName":"Claudio Moneta","RoleName":"Belu-Be"},
+                                {"ActorName":"Donato Sbodio","RoleName":"Galu-Gu"},
+                                {"ActorName":"Omar Maestroni","RoleName":"Metphies"},
+                                {"ActorName":"Matteo Brusamonti","RoleName":"Martin"},
+                                {"ActorName":"Massimiliano Lotti","RoleName":"Mori"},
+                                {"ActorName":"Luca Sandri","RoleName":"Takeshi"},
+                                {"ActorName":"Gigi Rosa","RoleName":"Leland"},
+                                {"ActorName":"Maura Marenghi","RoleName":"Controller A"},
+                                {"ActorName":"Giuliana Atepi","RoleName":"Controller B"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director & Translation and Adaptation","Name":"Gigi Rosa"},
+                                {"PositionTitle":"Sound Engineer and Syncronization","Name":"Valerio De Grandis"},
+                                {"PositionTitle":"Mixing Engineer","Name":"Michele Conti"}
+                            ],
+                            "DubCompany": "Arte e Comunicazione International srl",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Portugese","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Roberto Rodrigues","RoleName":"Haruo"},
+                                {"ActorName":"Fernanda Moraes","RoleName":"Yuko"},
+                                {"ActorName":"Rodrigo Nanal","RoleName":"Metphies"},
+                                {"ActorName":"Tiaggo Guimaraes","RoleName":"Martin"},
+                                {"ActorName":"Mario Spatizziani","RoleName":"Mori"},
+                                {"ActorName":"Fernando Ferraz","RoleName":"Takeshi"},
+                                {"ActorName":"Douglas Monteiro","RoleName":"Leland"},
+                                {"ActorName":"Edu Castilho","RoleName":"Dolu Do"},
+                                {"ActorName":"Enio Vivono","RoleName":"Galu Gu"},
+                                {"ActorName":"Paulo Olyva","RoleName":"Belu Be"},
+                                {"ActorName":"Tulio Hopper","RoleName":"Adam"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producers","Name":"Cristina Flores and Marina Esposito"},
+                                {"PositionTitle":"Director and Casting Director","Name":"Conrado Sotero"},
+                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
+                                {"PositionTitle":"Translator","Name":"Joao Rodrigo"},
+                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
+                                {"PositionTitle":"Sound Supervisor","Name":"Eduardo Araujo (Jimmi)"},
+                                {"PositionTitle":"Mixing and Sound Engineer","Name":"Guillermo Marghetich"}
+                            ],
+                            "DubCompany": "Dubbing House Brazil",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Chinese","TitleValue":"哥吉拉 怪獸行星"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
                         }
                     ]
                 }
