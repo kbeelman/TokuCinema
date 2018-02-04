@@ -73,15 +73,15 @@
                 {"PositionTitle":"Sound","Name":"Hisashi Shimonaga, Cho Tomahisa"},
                 {"PositionTitle":"Sound Recording","Name":"Fumio Yanaguchi"},
                 {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
-                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
-                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
-                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
-                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
                 {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"},
-                {"PositionTitle":"SFX Still Photographer","Name":"Goichi Araki"}
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Goichi Araki"}
             ],
             "Cast": [
                 {"ActorName":"Akira Takarada","RoleName":"Ichiro Sakai"},
@@ -217,10 +217,10 @@
                 {"PositionTitle":"Lighting","Name":"Toshio Takashima"},
                 {"PositionTitle":"Sound Recording","Name":"Fumio Yanoguchi"},
                 {"PositionTitle":"Production Manager","Name":"Keisuke Shinoda"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Yoshio Tabuchi"},
-                {"PositionTitle":"SFX Art Director","Name":"Toshiro Aoki"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Yoshikazu Shinoda"},
-                {"PositionTitle":"VFX Opticals","Name":"Yoshio Ishii"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Yoshio Tabuchi"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Toshiro Aoki"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Yoshikazu Shinoda"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Yoshio Ishii"},
                 {"PositionTitle":"Mechanical FX","Name":"Tadaki Watanabe"},
                 {"PositionTitle":"Still Photographer","Name":"Kazukiyo Tanaka"}
             ],
@@ -279,16 +279,16 @@
                 {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
                 {"PositionTitle":"Sound Recording","Name":"Nobuyuki Tanaka"},
                 {"PositionTitle":"Production Manager","Name":"Takehide Morichi"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
-                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Toshimitsu Oneda"},
-                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
-                {"PositionTitle":"SFX Lighting","Name":"Kohei Mikami"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
-                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Eichi Asada"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Takeshi Yamamoto, Toshimitsu Oneda"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kohei Mikami"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Tadashi Watanbe"},
                 {"PositionTitle":"Modeling and Godzilla Design","Name":"Nobuyuki Yasumaru"},
                 {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishitsuki"},
-                {"PositionTitle":"SFX Still Photographer","Name":"Takashi Nakao"}
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Takashi Nakao"}
             ],
             "Cast": [
                 {"ActorName":"Keiji Kobayashi","RoleName":"Prime Minister Mitamura"}, 
@@ -360,15 +360,15 @@
                 {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
                 {"PositionTitle":"Sound Recording","Name":"Kenshiro Hayashi"},
                 {"PositionTitle":"Production Manager","Name":"Kishi Morichi"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
-                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
-                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
-                {"PositionTitle":"SFX Lighting","Name":"Masukuni Morimoto"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
-                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Eichi Asada"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Masukuni Morimoto"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Tadashi Watanbe"},
                 {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishizuki"},
-                {"PositionTitle":"SFX Still Photographer","Name":"Takashi Nakao"}
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Takashi Nakao"}
             ],
             "Cast": [
                 {"ActorName":"Kunihiko Mitamura","RoleName":"Kazuhito Kirishima"},
@@ -419,8 +419,50 @@
             "Director": "Takao Okawara",
             "Series": "Godzilla",
             "Era": "Heisei",
-            "Runtime": "103",
-            "Path": "Godzilla-Destoroyah-1995"   
+            "Runtime": "102",
+            "Path": "Godzilla-Destoroyah-1995",
+            "Crew": [
+                {"PositionTitle":"Executive Producers","Name":"Tomoyuki Tanaka and Shogo Tomiyama"},
+                {"PositionTitle":"Associate Producer","Name":"Ritsuko Suzuki"},
+                {"PositionTitle":"Director","Name":"Takao Okawara"},
+                {"PositionTitle":"Special Effects Director","Name":"Koichi Kawakita"},
+                {"PositionTitle":"Writer","Name":"Kazaku Omori"},
+                {"PositionTitle":"Cinematographer","Name":"Yoshinori Sekiguchi"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Chizuko Nagata"},
+                {"PositionTitle":"Assistant Director","Name":"Kunio Miyoshi"},
+                {"PositionTitle":"Art Director","Name":"Yoshio Suzuki"},
+                {"PositionTitle":"Lighting","Name":"Hideki Mochizuki"},
+                {"PositionTitle":"Sound Recording","Name":"Kazuo Miyauchi"},
+                {"PositionTitle":"Production Manager","Name":"Mitsuharu Maeda"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Kenji Suzuki"},
+                {"PositionTitle":"Special Effects Cinematographers","Name":"Keiichi Eguchi and Toshimitsu Ohneda"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Tetsuzo Ohsawa"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kazo Mihashi"},
+                {"PositionTitle":"Special Effects Unit Production Managers","Name":"Keisuke Shinoda and Taro Kojima"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Yoshiyuici Kishimoto, Masaharu Matasuura, Nobuioo Nakamura, Keiji Yigarashi, Yoshio Yoshimura, and Atsushi Sasaki"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishikawa"},
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Takashi Nakao"}
+            ],
+            "Cast":[
+                {"ActorName":"Takuro Tatsumi","RoleName":"Doctor Kensaku Ijuin"},
+                {"ActorName":"Yoko Ishino","RoleName":"Yukari Yaman"},
+                {"ActorName":"Megumi Odaka","RoleName":"Miki Saegusa"},
+                {"ActorName":"Yasufumi Hayashi (as Yasubumi Hayashi)","RoleName":"Kenkichi Yamane"},
+                {"ActorName":"Sayaka Oshawa","RoleName":"Meru Ozawa"},
+                {"ActorName":"Masahiro Takashima","RoleName":"Major Sho Kuroki"},
+                {"ActorName":"Shigeru Kohyama","RoleName":"Army General"},
+                {"ActorName":"Akira Nakao","RoleName":"Commander Takaaki Aso"},
+                {"ActorName":"Momoko Kochi","RoleName":"Emiko Yamane"},
+                {"ActorName":"Saburo Shinoda","RoleName":"Professor Fukazawa"},
+                {"ActorName":"Takehiro Murata","RoleName":"Soichiro Hayami"},
+                {"ActorName":"Koichi Ueda","RoleName":"Night Watchman at Aquarium"},
+                {"ActorName":"Kenpachiro Satsuma (as Kenhachiro Satsuma)","RoleName":"Godzilla"},
+                {"ActorName":"Ryu Hariken","RoleName":"Godzilla Junior"},
+                {"ActorName":"Ryo Hariya","RoleName":"Destoroyah II"},
+                {"ActorName":"Eiichi Yanagida","RoleName":"Destoroyah"}
+
+            ]
         },
         {
             "OfficialTitle": "Godzilla",
@@ -430,15 +472,66 @@
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-1998%2Fthumb-details.png?alt=media&token=934cdeb2-bb05-497e-b844-0526d42c56c0"
             ],
             "ReleaseDate": "1998-04-20",
-            "ProductionCompany": "Tristar",
+            "ProductionCompany": "Centropolis Entertainment, Fried Films, and Independent Pictures",
             "CountryOfOrigin": "United States",
             "Languages": ["Japanese", "English"],
-            "Distributor": "Tristar",
+            "Distributor": "TriStar Pictures",
             "Director": "Roland Emmerich",
             "Series": "Godzilla",
             "Era": "Tristar",
-            "Runtime": "140",
-            "Path": "Godzilla-1998"   
+            "Runtime": "138",
+            "Path": "Godzilla-1998",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Dean Devlin"},
+                {"PositionTitle":"Co-executive Producers","Name":"Rob Fried and Cary Woods"},
+                {"PositionTitle":"Co-producers","Name":"Peter Winther and Kelly Van Horn"},
+                {"PositionTitle":"Executive Producers","Name":"Roland Emmerich, Ute Emmerich, and William Fay"},
+                {"PositionTitle":"Director","Name":"Roland Emmerich"},
+                {"PositionTitle":"Special Effects Director","Name":""},
+                {"PositionTitle":"Writers","Name":"Ted Elliot, Terry Rossio, Dean Devlin, and Roland Emmerich"},
+                {"PositionTitle":"Cinematographer","Name":"Ueli Steiger"},
+                {"PositionTitle":"Composer","Name":"David Arnold"},
+                {"PositionTitle":"Editors","Name":"Peter Amundson and David Siegelrel"},
+                {"PositionTitle":"Assistant Director","Name":"Kim Winther"},
+                {"PositionTitle":"Art Director","Name":"William Ladd Skinner and Robert Woodruff"},
+                {"PositionTitle":"Sound Recording","Name":"Mickey Caputo and eter McCabe"},
+                {"PositionTitle":"Production Manager","Name":"Carl Clifford"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":""},
+                {"PositionTitle":"Visual Effects Optical Photographer","Name":"Anna Foerster"},
+                {"PositionTitle":"Conceptual Designs","Name":"Patrick Tatopoulos"},
+                {"PositionTitle":"Still Photographer","Name":"Claudette Barius"}
+            ],
+            "Cast": [
+                {"ActorName":"Matthew Broderick","RoleName":"Doctor Niko Tatopoulos"},
+                {"ActorName":"Jean Reno","RoleName":"Philippe Roache"},
+                {"ActorName":"Mario Pitillo","RoleName":"Audrey Timmonds"},
+                {"ActorName":"Hank Azaria","RoleName":"Victor \"Animal\" Palotti"},
+                {"ActorName":"Kevin Dunn","RoleName":"Colonel Hicks"},
+                {"ActorName":"Michael Lerner","RoleName":"Mayor Ebert"},
+                {"ActorName":"Harry Shearer","RoleName":"Charles Caiman"},
+                {"ActorName":"Arabella Field","RoleName":"Lucy Palotti"},
+                {"ActorName":"Vicki Lewis","RoleName":"Doctor Elise Chapman"},
+                {"ActorName":"Doug Savant","RoleName":"Sergeant O'Neal"},
+                {"ActorName":"Malcolm Danare","RoleName":"Doctor Mendel Craven"},
+                {"ActorName":"Lorry Goldman","RoleName":"Gene - Mayor's Aide"},
+                {"ActorName":"Christian Aubert","RoleName":"Jean-Luc"},
+                {"ActorName":"Philippe Bergeron","RoleName":"Jean-Claude"},
+                {"ActorName":"Frank Bruynbroek","RoleName":"Jean-Pierre"},
+                {"ActorName":"Francois Giroday","RoleName":"Jean-Philippe"},
+                {"ActorName":"Nicholas J. Gianguilio","RoleName":"Ed"},
+                {"ActorName":"Robert Lesser","RoleName":"Murray"},
+                {"ActorName":"Ralph Manza","RoleName":"Old Fisherman"},
+                {"ActorName":"Greg Callahan","RoleName":"Governor"},
+                {"ActorName":"Chris Ellis","RoleName":"General Anderson"},
+                {"ActorName":"Nancy Cartwright","RoleName":"Caiman's Secretary"},
+                {"ActorName":"Richard E. Gant","RoleName":"Admiral Phelps"},
+                {"ActorName":"Jack Moore","RoleName":"Leonard"},
+                {"ActorName":"Steve Giannelli","RoleName":"Jules"},
+                {"ActorName":"Brian Farabaugh","RoleName":"Arthur"},
+                {"ActorName":"Stephen Xavier Lee","RoleName":"Lt. Anderson"},
+                {"ActorName":"Bodhi Elfman","RoleName":"Freddie"},
+                {"ActorName":"Rich Grosso (as Rich Battista)","RoleName":"Jimmy"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla 2000: Millennium",
@@ -477,7 +570,11 @@
         },
         {
             "OfficialTitle": "Godzilla Tokyo S.O.S.",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ×モスラ×メカゴジラ 東京SOS"},{"TitleType":"Hepburn","TitleValue":"Gojira Mosura Mekagojira Tokyo Esu O Esu"},{"TitleType":"Literal Translation","TitleValue":"Godzilla x Mothra x Mechagodzilla: Tokyo SOS"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ゴジラ×モスラ×メカゴジラ 東京SOS"},
+                {"TitleType":"Hepburn","TitleValue":"Gojira Mosura Mekagojira Tokyo Esu O Esu"},
+                {"TitleType":"Literal Translation","TitleValue":"Godzilla x Mothra x Mechagodzilla: Tokyo SOS"}
+            ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Tokyo-SOS-2003%2Fthumb-card.png?alt=media&token=7764a145-124d-4273-a6a8-5c2ed6f6cc6f",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Tokyo-SOS-2003%2Fthumb-details.png?alt=media&token=8eb6074b-a24d-47b1-8688-b8cbdeb46b4b"
@@ -491,7 +588,46 @@
             "Series": "Godzilla",
             "Era": "Millennium",
             "Runtime": "90",
-            "Path": "Godzilla-Tokyo-SOS-2003"
+            "Path": "Godzilla-Tokyo-SOS-2003",
+            "Crew":[
+                {"PositionTitle":"Producer","Name":"Shogo Tomiyama"},
+                {"PositionTitle":"Co-producer","Name":"Kazunari Yamanaka"},
+                {"PositionTitle":"Director","Name":"Masaaki Tezuka"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiichi Asada"},
+                {"PositionTitle":"Writers","Name":"Masahiro Yokotani and Masaaki Tezuka"},
+                {"PositionTitle":"Cinematographer","Name":"Yoshinori Sekiguchi"},
+                {"PositionTitle":"Composer","Name":"Michiru Oshima"},
+                {"PositionTitle":"Editor","Name":"Shinichi Fushima"},
+                {"PositionTitle":"Assistant Director","Name":"Hideaki Murakami"},
+                {"PositionTitle":"Art Director","Name":"Yukiharu Seshimo"},
+                {"PositionTitle":"Lighting","Name":"Hideki Mochizuku"},
+                {"PositionTitle":"Sound Recording","Name":"Teiichi Saito"},
+                {"PositionTitle":"Production Manager","Name":"Takashi Mirayama"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Akira Kato"},
+                {"PositionTitle":"Special Effects Cinematographer","Name":"Kenichi Eguchi"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Toshio Miike"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kaoru Saito"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Daisuke Saito and Ariake Sekine"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Keiji Igarashi, Atsushi Sasaki, Yoshio Yoshimura, and Masaharu Matsuura"},
+                {"PositionTitle":"Conceptual Designs","Name":"Shinji Nishikawa"},
+                {"PositionTitle":"Still Photographers","Name":"Katsuhiko Kudo and Atsuo Nishimoto"}
+            ],
+            "Cast":[
+                {"ActorName":"Noboru Kaneko","RoleName":"Yoshito Chujo"},
+                {"ActorName":"Miho Yoshioka","RoleName":"Lieutenant Azusa Kisaragi"},
+                {"ActorName":"Mitsuki Koga","RoleName":"Kiryu Operator Kyosuke Akiba"},
+                {"ActorName":"Masami Nagasawa and Chihiro Otsuka","RoleName":"The Shobijin"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Doctor Shinichi Chujo"},
+                {"ActorName":"Yumiko Shaku","RoleName":"First Lieutenant Akane Yashiro"},
+                {"ActorName":"Ko Takasugi","RoleName":"Colonel Togashi"},
+                {"ActorName":"Kenta Suga","RoleName":"Shun Chujo"},
+                {"ActorName":"Akira Nakao","RoleName":"Prime Minister Hayato Igarashi"},
+                {"ActorName":"Koichi Ueda","RoleName":"General Dobashi"},
+                {"ActorName":"Naomasa Rokudaira","RoleName":"Goro Kanno"},
+                {"ActorName":"Yusuke Tomoi","RoleName":"Lieutenant Susumu Hayama"},
+                {"ActorName":"Tsutomu Kitagawa","RoleName":"Godzilla"},
+                {"ActorName":"Motokuni Nakagawa","RoleName":"Mechagodzilla/Kiryu"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla: Final Wars",
@@ -509,7 +645,55 @@
             "Series": "Godzilla",
             "Era": "Millennium",
             "Runtime": "125",
-            "Path": "Godzilla-Final-Wars-2004"
+            "Path": "Godzilla-Final-Wars-2004",
+            "Crew":[
+                {"PositionTitle":"Producer","Name":"Shogo Tomiyama"},
+                {"PositionTitle":"Assistant Producer","Name":"Kazunari Yamanaka"},
+                {"PositionTitle":"Director","Name":"Ryuhei Kitamura"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiichi Asada"},
+                {"PositionTitle":"Writers","Name":"Isao Kiriyama, Ryuhei Kitamura, Wataru Mimura, and Shogo Tomiyama"},
+                {"PositionTitle":"Cinematographer","Name":"Takumi Furuya"},
+                {"PositionTitle":"Composers","Name":"Keith Emerson, Nobuhiko Morino, Daisuke Yano, and Sum 41"},
+                {"PositionTitle":"Editor","Name":"Shuichi Kakesu"},
+                {"PositionTitle":"Assistant Director","Name":"Hiroshi Saito"},
+                {"PositionTitle":"Art Director","Name":"Deborah Riley"},
+                {"PositionTitle":"Lighting","Name":"Toshihide Kosaka"},
+                {"PositionTitle":"Sound Recording","Name":"Teiichi Saito"},
+                {"PositionTitle":"Production Manager","Name":"Takuma Hayashi"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Toshifumi Shimizu"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Fujio Okawa"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Toshio Miike"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Takayuki Kawabe"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Toshimasa Oura"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Keiji Igarashi, Atsushi Sasaki, Yoshio Yosimura, and Masaharu Matsuura"},
+                {"PositionTitle":"Conceptual Designs","Name":"Yasushi Nirasawa, Shinji Nishikawa, Yoji Shinkawa, Patrick Tatopoulos, and Katsuya Terada"},
+                {"PositionTitle":"Still Photographer","Name":"Katsuhiko Kudo"},
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Atsuo Nishimoto"}
+            ],
+            "Cast":[
+                {"ActorName":"Masahiro Matsuoka","RoleName":"Shinichi Ozaki"},
+                {"ActorName":"Rei Kikukawa","RoleName":"Miyuki Otonashi"},
+                {"ActorName":"Don Frye","RoleName":"Captain Douglas Gordon"},
+                {"ActorName":"Maki Mizuno","RoleName":"Anna Otonashi"},
+                {"ActorName":"Kazuki Kitamura","RoleName":"Xillian Controller"},
+                {"ActorName":"Kane Kosugi","RoleName":"Katsunori Kazama"},
+                {"ActorName":"Masakatsu Funaki","RoleName":"Commander Kumasaka"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Akiko Namikawa"},
+                {"ActorName":"Kenji Sahara","RoleName":"Hachiro Jinguji"},
+                {"ActorName":"Masami Nagasawa","RoleName":"the Shobijin"},
+                {"ActorName":"Chihiro Otsuka","RoleName":"the Shobijin"},
+                {"ActorName":"Shigeru Izumiya","RoleName":"Samon Taguchi"},
+                {"ActorName":"Masatō Ibu","RoleName":"the Xilien General"},
+                {"ActorName":"Jun Kunimura","RoleName":"Major Kumoro"},
+                {"ActorName":"Akira Takarada","RoleName":"Naotaro Daigo"},
+                {"ActorName":"Kenta Suga","RoleName":"Kenta Taguchi"},
+                {"ActorName":"Koichi Yamadera","RoleName":"Narrator"},
+                {"ActorName":"Tsutomu Kitagawa","RoleName":"Godzilla"},
+                {"ActorName":"Naoko Kamio","RoleName":"Minilla and Rodan"},
+                {"ActorName":"Kazuhiro Yoshida","RoleName":"Gigan and Hedorah"},
+                {"ActorName":"Toshihiro Ogura","RoleName":"Keizer Ghidorah, Anguirus, and Ebirah"},
+                {"ActorName":"Motokuni Nakagawa","RoleName":"Monster X and King Caesar"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla",
@@ -883,12 +1067,12 @@
                 {"PositionTitle":"Sound","Name":"Hisashi Shimonaga"},
                 {"PositionTitle":"Sound Recording","Name":"Masanao Uehara"},
                 {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
-                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
-                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
-                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
                 {"PositionTitle":"Conceptual Designs","Name":"Shigeru Komatsuzaki"},
                 {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"}
             ],
@@ -896,11 +1080,11 @@
                 {"ActorName":"Tadao Takashima","RoleName":"Susumu Hatanaka"},
                 {"ActorName":"Yoko Fujiyama","RoleName":"Makoto Jinguji"},
                 {"ActorName":"Hiroshi Koizumi","RoleName":"Detective Ito"},
-                {"ActorName":"Ken Uehara ","RoleName":"Kusumi"},
+                {"ActorName":"Ken Uehara","RoleName":"Kusumi"},
                 {"ActorName":"Yu Fujiki","RoleName":"Yoshito Nishibe"},
                 {"ActorName":"Kenji Sahara","RoleName":"Uoto Uono"},
                 {"ActorName":"Jun Tazaki","RoleName":"Captain Hachiro Jinguji"},
-                {"ActorName":"Yoshifumi Tajima ","RoleName":"Officer Amano"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Officer Amano"},
                 {"ActorName":"Akihiko Hirata","RoleName":"Agent No. 23"},
                 {"ActorName":"Hideyo Amamoto","RoleName":"Mu High Priest"},
                 {"ActorName":"Tetsuko Kobayashi","RoleName":"Mu Empress"},
@@ -950,15 +1134,15 @@
                 {"PositionTitle":"Sound","Name":"Hisashi Shimonaga, Cho Tomahisa"},
                 {"PositionTitle":"Sound Recording","Name":"Fumio Yanaguchi"},
                 {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
-                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
-                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
-                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
-                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
                 {"PositionTitle":"Still Photographer","Name":"Jiro Tsuchiya"},
-                {"PositionTitle":"SFX Still Photographer","Name":"Goichi Araki"}
+                {"PositionTitle":"Special Effects Still Photographer","Name":"Goichi Araki"}
             ],
             "Cast": [
                 {"ActorName":"Yosuke Natsuki","RoleName":"Inspector Komai"},
@@ -1016,10 +1200,10 @@
                 {"PositionTitle":"Sound Recording","Name":"Toshiya Ban"},
                 {"PositionTitle":"Production Manager","Name":"Keisuke Shinoda"},
                 {"PositionTitle":"Stunts","Name":"Japan Action Club"},
-                {"PositionTitle":"SFX Cinematography","Name":"Mototaka Tomioka"},
-                {"PositionTitle":"SFX Lighting","Name":"Yoshio Oguchi"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
-                {"PositionTitle":"SFX Continunity","Name":"Kazunobu Sanpei "},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Mototaka Tomioka"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Yoshio Oguchi"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"Special Effects Continunity","Name":"Kazunobu Sanpei "},
                 {"PositionTitle":"Costume Design","Name":"Masahisa Shimura"},
                 {"PositionTitle":"Still Photographer","Name":"Takashi Nakao"}
             ],
@@ -1069,7 +1253,7 @@
             "Crew": [
                 {"PositionTitle":"Producers","Name":"Tan Takaiwa, Toru Hirayama, Akira Ito, Yusuke Okada, Naoyuki Sugimoto, Simon Tse, Banjiro Uemura, Yoshinori Watanabe"},
                 {"PositionTitle":"Director","Name":"Kinji Fukasaku"},
-                {"PositionTitle":"SFX Director","Name":"Nobuo Yajima"},
+                {"PositionTitle":"Special Effects Director","Name":"Nobuo Yajima"},
                 {"PositionTitle":"Screenplay","Name":"Hiro Matsuda, Kinji Fukasaku, Shotaro Ishinomori (story), Masahiro Noda (story)"},
                 {"PositionTitle":"Cinematography","Name":"Toru Nakajima"},
                 {"PositionTitle":"Music","Name":"Kenichiro Morioka"},
@@ -1078,9 +1262,9 @@
                 {"PositionTitle":"Art Director","Name":"Michio Mikami"},
                 {"PositionTitle":"Lighting","Name":"Tokuji Wakaki"},
                 {"PositionTitle":"Sound Recording","Name":"Teruhiko Arakawa"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Kiyotaka Matsumoto"},
-                {"PositionTitle":"SFX Cinematography","Name":"Noboru Takanashi"},
-                {"PositionTitle":"VFX","Name":"Minoru Nakano"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Kiyotaka Matsumoto"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Noboru Takanashi"},
+                {"PositionTitle":"Visual Effects","Name":"Minoru Nakano"},
                 {"PositionTitle":"Conceptual Design","Name":"Shotaro Ishinomori, Akira Hio"}
             ],
             "Cast": [
@@ -1139,13 +1323,13 @@
                 {"PositionTitle":"Lighting","Name":"Shinji Kojima "},
                 {"PositionTitle":"Sound Recording","Name":"Kenshiro Hayashi"},
                 {"PositionTitle":"Production Manager","Name":"Takehide Morichi"},
-                {"PositionTitle":"Assistant SFX Director","Name":"Eichi Asada"},
-                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
-                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
-                {"PositionTitle":"SFX Lighting","Name":"Masukuni Morimoto"},
-                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
-                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
-                {"PositionTitle":"VFX Opticals","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Assistant Special Effects Director","Name":"Eichi Asada"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Takeshi Yamamoto, Mitsuhiro Hasegawa"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Masukuni Morimoto"},
+                {"PositionTitle":"Special Effects Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"Visual Effects Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"Visual Effects Opticals","Name":"Tadashi Watanbe"},
                 {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishitsuki"}
             ],
             "Cast": [
@@ -2191,7 +2375,7 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Biollante"}],
                             "Cast": [
-                                {"ActorName":"Chris Hilton ","RoleName":"Kazuhito Kirishima"},
+                                {"ActorName":"Chris Hilton","RoleName":"Kazuhito Kirishima"},
                                 {"ActorName":"Rik Thomas","RoleName":"Col. Goro Gondo"},
                                 {"ActorName":"Warren Rooke","RoleName":"Dr. Genichiro Shiragami"},
                                 {"ActorName":"Simon Broad","RoleName":"Seizo  Okochi, Saradian Lab Director, Super X2 Controller, and Demon Kogure"},
@@ -2215,6 +2399,183 @@
                                     "Notes": [
                                         "An international English version was made with dubbing done in Hong Kong.",
                                         "The only difference from the Japanese version is that the background screen goes black in the middle of the credits whereas in the Japanese version the credits stay on Biollante's rose form in the sky."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Destoroyah-1995",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Destoroyah"}],
+                            "Cast": [
+                                {"ActorName":"Andrea Kwan","RoleName":"Meru Ozawa"},
+                                {"ActorName":"Rik Thomas","RoleName":"Takaaki Aso"}
+                            ],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international English version was made with dubbing done in Hong Kong. Tristar eventually showed this version on Crackle and on Television."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Destoroyah"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1999-01-19",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The US version was released on tape in 1999 and later that year on DVD by Tristar. This version features the international dubbing. The Toho logo and Toho Eiga title replaced by \"Tristar Pictures Presents\" and \"A Toho Co., Ltd. Presentation of a Toho Pictures Inc. Production\", respectively. The Japanese title card is present, but the film's title is subtitled in English under it, via video-generated subtitles. The opening credits before the title card are textless, but has credits after the opening title. The rest of film is uncut, except for the end credits, which begin with scrolling copyright information and then the film fades out."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Tokyo-SOS-2003",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla Tokyo S.O.S."}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Rik Thomas","RoleName":"Prime Minister Hayato Igarashi"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho produced an international version of Godzilla: Tokyo S.O.S. with a dub made in Hong Kong. This version was released in its entirety by Sony in the United States on DVD and Blu-ray."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Final-Wars-2004",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla: Final Wars"}],
+                            "Cast": [
+                                {"ActorName":"Rik Thomas","RoleName":"Gotengo Commander and UN Secretary General Naotaro"}
+                            ],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Red Angel Media",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho produced an international version of Godzilla Final Wars with a dub from the Hong Kong studio Red Angel Media. This version's opening \"A Toho Co., Ltd. Presentation\" title card, and all location titles, are rendered in English."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla: Final Wars"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Sony Pictures Home Entertainment",
+                            "ReleaseDate": "2005-13-12",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Sony's home video release of Godzilla: Final Wars uses the Japanese master, with Japanese audio and Toho's international English dub available, paired with the end credits from the International version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Sony's current edited-for-TV version has new English location titles."
                                     ]
                                 }
                             ]
