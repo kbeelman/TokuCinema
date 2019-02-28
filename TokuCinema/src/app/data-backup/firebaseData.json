@@ -930,7 +930,12 @@
         },
         {
             "OfficialTitle": "Gamera: The Giant Monster",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"大怪獣ガメラ"},{"TitleType":"Hepburn","TitleValue":"Daikaijū Gamera"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大怪獣ガメラ"},
+                {"TitleType":"Hepburn","TitleValue":"Daikaijū Gamera"},
+                {"TitleType":"Literal Translation","TitleValue":"Giant Monster Gamera"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Gammera the Invincible"}
+            ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Giant-Monster-1965%2Fthumb-card.png?alt=media&token=9d9cdebc-d649-4aba-a0bc-5a317c134d61",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Giant-Monster-1965%2Fthumb-details.png?alt=media&token=329a8519-8d9e-4b2b-abb2-cffab2f25203"
