@@ -1,8 +1,9 @@
-import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Movie } from '../../../domain/Movie';
-import { FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { FirebaseService } from '../../../services/firebase.service';
+import 'rxjs-compat';
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-movies',
@@ -19,7 +20,7 @@ export class MoviesComponent implements OnInit {
   seriesFilter: string = '';
   eraFilter: string = '';
   productionCompanyFilter: string = '';
-  moviesData: FirebaseListObservable<any[]>;
+  moviesData: Observable<any[]>;
   showFilters: string = "Show filters +";
 
   languages = new Array<string>();

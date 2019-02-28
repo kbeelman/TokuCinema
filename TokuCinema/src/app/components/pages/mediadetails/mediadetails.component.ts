@@ -1,24 +1,22 @@
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
-import { Router, Params, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { ISubscription } from "rxjs/Subscription";
-import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireList  } from '@angular/fire/database';
 import { FirebaseService } from '../../../services/firebase.service';
-import { Movie } from '../../../domain/Movie';
 import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
-import { DomainBuilder, DataType } from '../../../domain/Builder';
-import { StringCleaner, StringType } from '../../../domain/StringCleaner';
+import { DataType } from '../../../domain/Builder';
+
+import 'rxjs-compat';
 
 @Component({
   selector: 'app-mediadetails',
   templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
-  mediaData: FirebaseListObservable<any[]>;
+  mediaData: AngularFireList<any[]>;
   media: Media;
   mediaDetails: MediaDetails;
   mediaReview: MediaReview;

@@ -1,11 +1,8 @@
-import { element } from 'protractor';
-import { MediaFilterPakage } from '../../../domain/MediaFilterPackage';
 import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
 import { Media } from '../../../domain/Media';
-import { Movie } from '../../../domain/Movie';
-import { FirebaseListObservable } from 'angularfire2/database';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { FirebaseService } from '../../../services/firebase.service';
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-media',
@@ -21,8 +18,8 @@ export class MediaComponent implements OnInit {
   subtitleLanguageFilter: string = '';
   countryFilter: string = '';
   regionFilter: any = '';
-  mediaData: FirebaseListObservable<any[]>;
-  movieData: FirebaseListObservable<any[]>;
+  mediaData: Observable<any[]>;
+  movieData: Observable<any[]>;
   showFilters: string = "Show filters +";
 
   // Form use

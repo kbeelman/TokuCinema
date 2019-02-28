@@ -1,17 +1,15 @@
 import { FirebaseService } from '../../../services/firebase.service';
-import { element } from 'protractor';
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
-import { ISubscription } from "rxjs/Subscription";
-import { ActivatedRoute, Params, Router }   from '@angular/router';
+import { Router }   from '@angular/router';
 import { Location }                 from '@angular/common';
-import 'rxjs/add/operator/switchMap';
 import "rxjs/add/operator/takeWhile";
-import { FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireList } from '@angular/fire/database';
 
 import { Movie } from '../../../domain/Movie';
 import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
-import { DomainBuilder, DataType } from '../../../domain/Builder';
-import { StringCleaner, StringType } from '../../../domain/StringCleaner';
+import { DataType } from '../../../domain/Builder';
+
+import 'rxjs-compat';
 
 @Component({
   selector: 'app-moviedetails',
@@ -24,7 +22,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   public activeAltCountry: any; // used for mobile alt version selector
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
-  moviesData: FirebaseListObservable<any[]>;
+  moviesData: AngularFireList<any[]>;
 
   constructor(private router: Router,
       private location: Location,

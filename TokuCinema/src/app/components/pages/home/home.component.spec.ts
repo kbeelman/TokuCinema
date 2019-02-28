@@ -3,8 +3,8 @@ import { FormsModule } from '@angular/forms';
 import { FirebaseService } from '../../../services/firebase.service';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { HomeComponent } from './home.component';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from '../../../../environments/environment';
 
 describe('HomeComponent', () => {

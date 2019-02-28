@@ -27,8 +27,8 @@ import { SearchResultTabComponent } from './components/sub-pages/search-result-t
 import { MediaGalleryComponent } from './components/sub-pages/media-gallery/media-gallery.component';
 import { FooterComponent } from './components/global/footer/footer.component';
 
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 // Firebase config
 import { environment } from '../environments/environment';

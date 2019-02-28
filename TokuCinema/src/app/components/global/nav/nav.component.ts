@@ -3,8 +3,9 @@ import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angula
 import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
 import { ISearchable } from '../../../domain/ISearchable';
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from '../../../services/firebase.service';
+import 'rxjs-compat';
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-nav',
@@ -23,8 +24,8 @@ export class NavComponent implements OnInit {
   mediaItems = new Array<Media>();
   searchTerm: string = '';
 
-  moviesData: FirebaseListObservable<any[]>;
-  mediaData: FirebaseListObservable<any[]>;
+  moviesData: Observable<any[]>;
+  mediaData: Observable<any[]>;
 
   constructor(
     private fdb: FirebaseService,

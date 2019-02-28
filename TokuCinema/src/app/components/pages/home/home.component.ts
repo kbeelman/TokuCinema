@@ -1,5 +1,4 @@
 import { DataType } from '../../../domain/Builder';
-import { FirebaseListObservable } from 'angularfire2/database';
 import { FirebaseService } from './../../../services/firebase.service';
 import { Media } from '../../../domain/Media';
 import { Component, OnInit } from '@angular/core';
