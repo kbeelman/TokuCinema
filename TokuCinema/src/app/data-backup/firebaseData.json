@@ -124,8 +124,32 @@
             "Era": "Showa" ,
             "Runtime": "93",
             "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964",
-            "Crew": [{"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"}],
-            "Cast": []
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fuji"}
+
+            ],
+            "Cast": [
+                {"ActorName":"Yosuke Natsuki","RoleName":"Detective Shindo"},
+                {"ActorName":"Yuriko Hoshi","RoleName":"Naoko Shindo"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Assistant Professor Murai"},
+                {"ActorName":"Akiko Wakabayashi","RoleName":"Princess Selina Salno of Selgina"},
+                {"ActorName":"Emi Ito and Yumi Ito","RoleName":"The Shobijin"},
+                {"ActorName":"Takashi Shimura","RoleName":"Dr. Tsukamoto"},
+                {"ActorName":"Hisaya Ito","RoleName":"Malmess, Chief Assassin"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Chief Detective Okita"},
+                {"ActorName":"Kenji Sahara","RoleName":"Kanamaki"},
+                {"ActorName":"Susumu Kurobe","RoleName":"Assassin"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Fisherman"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Masanori Shinohara","RoleName":"Rodan"},
+                {"ActorName":"Shoichi Hirose","RoleName":"King Ghidorah"}
+            ]
         },
         {
             "OfficialTitle": "Destroy All Monsters",
@@ -143,7 +167,33 @@
             "Series": "Godzilla",
             "Era": "Showa",
             "Runtime": "89",
-            "Path": "Godzilla-Destroy-All-Monsters-1968"   
+            "Path": "Godzilla-Destroy-All-Monsters-1968",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Sadamasa Arikawa"},
+                {"PositionTitle":"Special Effects Supervisor","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Kaoru Mabuchi and Ishiro Honda"},
+                {"PositionTitle":"Cinematography","Name":"Taiichi Kankura"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fuji"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Kubo","RoleName":"Captain Katsuo Yamabe"},
+                {"ActorName":"Jun Tazaki","RoleName":"Dr. Yoshido"},
+                {"ActorName":"Yukiko Kobayashi","RoleName":"Kyoko Manabe"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Dr. Otani"},
+                {"ActorName":"Kyoko Ai","RoleName":"Queen of the Kilaaks"},
+                {"ActorName":"Andrew Hughes","RoleName":"Dr. Stevenson"},
+                {"ActorName":"Kenji Sahara","RoleName":"Nishikawa, Moon Base Commander"},
+                {"ActorName":"Chotaro Togin","RoleName":"Astronaut Ogata"},
+                {"ActorName":"Yoshibumi Tajima","RoleName":"General Sugiyama Tada"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Susumu Utsumi","RoleName":"King Ghidorah"},
+                {"ActorName":"Hiroshi Sekita","RoleName":"Anguirus"},
+                {"ActorName":"Marchan the Dwarf","RoleName":"Minilla"},
+                {"ActorName":"Teruoshi Nigaki","RoleName":"Rodan"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla vs. Gigan",
@@ -161,7 +211,32 @@
             "Series": "Godzilla",
             "Era": "Showa",
             "Runtime": "89",
-            "Path": "Godzilla-Gigan-1972"   
+            "Path": "Godzilla-Gigan-1972",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Special Effects Director","Name":" Teruyoshi Nakano"},
+                {"PositionTitle":"Writers","Name":"Takeshi Kimura and Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematography","Name":"Kiyoshi Hasegawa"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube and Kunio Miyauchi"}
+            ],
+            "Cast": [
+                {"ActorName":"Hiroshi Ishikawa","RoleName":"Gengo Kotaka"},
+                {"ActorName":"Tomoko Umeda","RoleName":"Machiko Shima"},
+                {"ActorName":"Yuriko Hishimi","RoleName":"Tomoko Tomoe"},
+                {"ActorName":"Minoru Takashima","RoleName":"Shosaku Takasugi"},
+                {"ActorName":"Zan Fujita","RoleName":"Fumio Sudo, the Chairman of World Children's Land"},
+                {"ActorName":"Toshiaki Nishizawa","RoleName":"Kubota, Secretary of World Children's Land"},
+                {"ActorName":"Kunio Murai","RoleName":"Takashi Shima"},
+                {"ActorName":"Gen Shimizu","RoleName":"Defense Forces Commander"},
+                {"ActorName":"Kuniko Ashihara","RoleName":"Middle-aged Woman"},
+                {"ActorName":"Zeko Nakamura","RoleName":"Priest"},
+                {"ActorName":"Akio Muto","RoleName":"Editor of Comics Magazine"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Kenpachiro Satsuma","RoleName":"Gigan"},
+                {"ActorName":"Koetsu Omiya","RoleName":"Anguirus"},
+                {"ActorName":"Kanta Ina","RoleName":"King Ghidorah"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla vs. Mechagodzilla",
@@ -179,7 +254,35 @@
             "Series": "Godzilla",
             "Era": "Showa",
             "Runtime": "84",
-            "Path": "Godzilla-Mechagodzilla-1974"   
+            "Path": "Godzilla-Mechagodzilla-1974",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Special Effects Director","Name":" Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Hiroyasu Yamamura and Jun Fukuda"},
+                {"PositionTitle":"Story","Name":"Shinichi Sekizawa and Masami Fukushima"},
+                {"PositionTitle":"Cinematography","Name":"Yuzuru Aizawa"},
+                {"PositionTitle":"Music","Name":"Masaru Sato"},
+                {"PositionTitle":"Editor","Name":"Michiko Ikeda"}
+            ],
+            "Cast": [
+                {"ActorName":"Masaaki Daimon","RoleName":"Keisuke Shimizu"},
+                {"ActorName":"Kazuya Aoyama","RoleName":"Masahiko Shimizu"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Professor Hideto Miyajima"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Professor Wagura"},
+                {"ActorName":"Reiko Tajima","RoleName":"Saeko Kanagusuku"},
+                {"ActorName":"Hiromi Matsushita","RoleName":"Ikuko Miyajima"},
+                {"ActorName":"Goro Mutsumi","RoleName":"Kuronuma, Black Hole Alien Leader"},
+                {"ActorName":"Shin Kishida","RoleName":"Nanbara, Interpol Agent"},
+                {"ActorName":"Takayasu Torii","RoleName":"Tamura, Interpol Agent"},
+                {"ActorName":"Beru-Bera Lin","RoleName":"Princess Nami"},
+                {"ActorName":"Masao Imafuku","RoleName":"Azumi High Priest"},
+                {"ActorName":"Daigo Kusano","RoleName":"Yanagawa, Alien Agent #1"},
+                {"ActorName":"Kenji Sahara","RoleName":"Ship Captain"},
+                {"ActorName":"Isao Zushi","RoleName":"Godzilla"},
+                {"ActorName":"Kazunari Mori","RoleName":"Mechagodzilla"},
+                {"ActorName":"Kinichi Kusumi","RoleName":"Anguirus and King Caesar"}
+            ]
         },
         {
             "OfficialTitle": "Terror of Mechagodzilla",
@@ -845,7 +948,7 @@
             ]
         },
         {
-            "OfficialTitle": "Godzilla: 決戦機動増殖都市",
+            "OfficialTitle": "Godzilla: City on the Edge of Battle",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA 決戦機動増殖都市"},{"TitleType":"Hepburn","TitleValue":"Gojira: Kessen Kido Zoshoku Toshi"},{"TitleType":"Literal Translation","TitleValue":"Godzilla: The City Mechanized for the Final Battle"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-City-2018%2Fthumb-card.png?alt=media&token=2dda3ad2-6928-4b82-9477-38a64403317c",
@@ -859,11 +962,11 @@
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
             "Era": "New Generation",
-            "Runtime": "",
+            "Runtime": "100",
             "Path": "Godzilla-City-2018"
         },
         {
-            "OfficialTitle": "Godzilla - Untitled Anime Sequel",
+            "OfficialTitle": "Godzilla: The Planet Eater",
             "AlternateTitles": [],
             "OriginalPoster": [],
             "ReleaseDate": "2018",
@@ -2206,6 +2309,128 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Filmax produced a dub for VHS in 1998. Venus is redubbed to be Mars, and some of the sound effects suffer in quality throughout the film."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Mechagodzilla-1974",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Mechagodzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Matthew Kaye","RoleName":"Dr. Miyajima, Tamura, Ship's Captain"},
+                                {"ActorName":"Linda Masson","RoleName":"Saeko"},
+                                {"ActorName":"Matthew Oram","RoleName":"Shimizu, Radio Announcer"},
+                                {"ActorName":"Michael Ross (unconfirmed)","RoleName":"Kuronuma, Hotel Clerk"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"84",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "84",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An English international dub was made in Hong Kong."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "New World Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "New World Home Video released Godzilla vs. Mechagodzilla to VHS and LaserDisc, and was identical to the original international version, aside from copyright information swapped out with the end title."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sci-Fi Channel",
+                                    "MediaPath": [],
+                                    "Runtime": "84",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Initially airing on the Sci-Fi Channel with a Toho-authorized \"Godzilla vs. The Cosmic Monster\" title card in the same font as the original international version, the title was changed back to the official international title for later airings.",
+                                        "This version was completely uncut, and featured previously missing lines."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sony",
+                                    "MediaPath": [],
+                                    "Runtime": "84",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Sony released Godzilla vs. Mechagodzilla on DVD in 2004, they made a new video master for Toho. This version was mostly uncut, but was oddly missing a few lines. Copyright information was added to the opening and ending titles, and the original Toho logo was replaced with a CGI logo."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Cosmic Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Cinema Shares",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Bionic Monster"}],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Utilizing Toho's International dub, this version may be uncut aside from the opening credits.",
+                                        "Theatrical prints feature the title card in white text on a red background with Basil Gogos' poster artwork for the film on the side.",
+                                        "This version was likely distributed for a very short period of time before being pulled and replaced with an identical version titled \"Godzilla vs. The Cosmic Monster\"."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical and Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Aside from the film's title, it is identical to the previously released \"Godzilla vs. The Bionic Monster\".",
+                                        "Television prints crop out Basil Gogos' artwork completely."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television and Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Some Television prints and home video releases of Cosmic Monster feature cuts to violence and language. Other releases suffer from more extensive cuts that also cut out exposition."
                                     ]
                                 }
                             ]
