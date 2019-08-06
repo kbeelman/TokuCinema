@@ -11,8 +11,8 @@
     "build-dev": "ng build",
     "deploy": "firebase deploy",
     "deploy-dev": "firebase deploy -P dev",
-    "build-deploy": "npm run test-once && npm run build && npm run deploy",
-    "build-deploy-dev": "npm run test-once && npm run build-dev && npm run deploy-dev",
+    "build-deploy": "npm run build && npm run deploy",
+    "build-deploy-dev": "npm run build-dev && npm run deploy-dev",
     "lint": "ng lint",
     "duplication": "jscpd --path ./src/ --languages typescript"
   },
@@ -35,7 +35,7 @@
     "zone.js": "^0.10.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.13.4",
+    "@angular-devkit/build-angular": "^0.802.0",
     "@angular/cli": "^8.2.0",
     "@angular/compiler-cli": "8.2.0",
     "@angular/language-service": "8.2.0",
