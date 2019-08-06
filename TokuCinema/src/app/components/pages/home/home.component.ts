@@ -1,15 +1,19 @@
-import { DataType } from '../../../domain/Builder';
-import { FirebaseService } from './../../../services/firebase.service';
+import { DataType, DomainBuilder } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
-import { Component, OnInit } from '@angular/core';
-import { DomainBuilder } from "../../../domain/Builder";
+import { FirebaseService } from './../../../services/firebase.service';
+
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-home',
   styleUrls: ['./home.scss'],
   templateUrl: './home.component.html'
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
+  title = 'Toku Cinema';
+  private sub: Subscription;
   public randomContent: Media;
   public landingPages: Array<{"text": string, "link": string, "body": string}> = [
     {"text": 'Movie List', "link": '/movies', 
@@ -18,10 +22,14 @@ export class HomeComponent implements OnInit {
       "body": 'Details on home media releases across a wide range of formats, as well as reviews capturing everything from video quality to special features.'}
   ]
 
-  constructor(private fdb: FirebaseService) {}
+  constructor(
+    private fdb: FirebaseService,
+    private titleService: Title
+  ) {}
 
   ngOnInit() {
-    this.fdb.getBranch("media").subscribe((data) => {
+    this.titleService.setTitle(this.title);
+    this.sub = this.fdb.getBranch("media").subscribe((data) => {
       
       // Select a random index in the media branch to display in the content tile
       let winningNumber = Math.floor(Math.random() * data.length) + 0;
@@ -29,6 +37,10 @@ export class HomeComponent implements OnInit {
       let builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
       this.randomContent = builder.getDomainObject();
     });
+  }
+
+  ngOnDestroy() {
+    this.sub.unsubscribe();
   }
 
 }

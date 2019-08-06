@@ -1,21 +1,20 @@
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
-import { Location } from '@angular/common';
-import "rxjs/add/operator/takeWhile";
-import { AngularFireList  } from '@angular/fire/database';
-import { FirebaseService } from '../../../services/firebase.service';
+import { DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
-import { DataType } from '../../../domain/Builder';
+import { FirebaseService } from '../../../services/firebase.service';
 
-import 'rxjs-compat';
+import { Component, OnChanges, OnInit, OnDestroy, SimpleChanges } from '@angular/core';
+import { AngularFireList  } from '@angular/fire/database';
+import { Title } from '@angular/platform-browser';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-mediadetails',
   templateUrl: './mediadetails.component.html'
 })
-export class MediadetailsComponent implements OnInit, OnDestroy {
+export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
   mediaData: AngularFireList<any[]>;
   media: Media;
   mediaDetails: MediaDetails;
@@ -23,15 +22,14 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   movieDetails: any = [];
   hasRuntimes: boolean = false;
   public pageNotFound: boolean = false;
-  private alive: boolean = true;
   private path: string = '';
-  private sub: any;
+  private sub: Subscription;
 
 
  constructor(private fdb: FirebaseService,
       private router: Router,
-      private location: Location,
-      private route: ActivatedRoute
+      private route: ActivatedRoute,
+      private titleService: Title
     ) {
 
     this.sub = this.route.params.subscribe(params => {
@@ -45,6 +43,8 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           }
 
           this.mediaDetails = this.media.GetMediaDetails();
+
+          this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
 
           this.mediaDetails.MovieDetails.forEach(element => {
             fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (data) => {
@@ -71,14 +71,25 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
         });
       });
 
+      
     }
 
   ngOnInit() {
-
   }
 
   ngOnDestroy() {
     this.sub.unsubscribe();
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    for (let propName in changes) {
+      let change = changes[propName];
+      let curVal  = JSON.stringify(change.currentValue);
+	    let prevVal = JSON.stringify(change.previousValue);
+
+      console.log(curVal);
+      console.log(prevVal);
+    }
   }
 
   public doesHaveRuntimes(): boolean {

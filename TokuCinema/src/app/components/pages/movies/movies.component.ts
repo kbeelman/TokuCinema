@@ -1,9 +1,10 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Movie } from '../../../domain/Movie';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
-import 'rxjs-compat';
-import { Observable } from 'rxjs/Rx';
+
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-movies',
@@ -12,6 +13,7 @@ import { Observable } from 'rxjs/Rx';
   encapsulation: ViewEncapsulation.None
 })
 export class MoviesComponent implements OnInit {
+  title = 'Movies - Toku Cinema';
   movieItems = new Array<Movie>();
   searchTerm: string = '';
   spokenLanguageFilter: string = '';
@@ -30,11 +32,15 @@ export class MoviesComponent implements OnInit {
   eras = new Array<string>();
   productionCompanies = new Array<string>();
 
-  constructor(fdb: FirebaseService) {
+  constructor(
+    fdb: FirebaseService,
+    private titleService: Title
+  ) {
     this.moviesData = fdb.getBranch('movies');
   }
 
   ngOnInit() {
+    this.titleService.setTitle(this.title);
     this.moviesData.forEach(element => {
     for (var i = 0; i < element.length; i++) {
         let domainBuilder = new DomainBuilder(element[i], DataType.Movie);

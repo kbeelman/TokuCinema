@@ -1,8 +1,10 @@
-import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
-import { Media } from '../../../domain/Media';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
+import { Media } from '../../../domain/Media';
 import { FirebaseService } from '../../../services/firebase.service';
-import { Observable } from 'rxjs/Rx';
+
+import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-media',
@@ -11,6 +13,7 @@ import { Observable } from 'rxjs/Rx';
   encapsulation: ViewEncapsulation.None
 })
 export class MediaComponent implements OnInit {
+  title = 'Media - Toku Cinema';
   mediaItems = new Array<Media>();
   searchTerm: string = '';
   mediumFilter: string = '';
@@ -29,7 +32,10 @@ export class MediaComponent implements OnInit {
   countries = new Array<string>();
   regions = new Array<string>();
 
-  constructor(private fdb: FirebaseService) {
+  constructor(
+    private fdb: FirebaseService,
+    private titleService: Title
+  ) {
     this.movieData = fdb.getBranch('movies');
     this.mediaData = fdb.getBranch('media');
   }
@@ -85,6 +91,8 @@ export class MediaComponent implements OnInit {
         }
       }
     });
+
+    this.titleService.setTitle(this.title);
   }
 
   public toggleShowFilters(): void {

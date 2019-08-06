@@ -1,15 +1,13 @@
-import { FirebaseService } from '../../../services/firebase.service';
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
-import { Router }   from '@angular/router';
-import { Location }                 from '@angular/common';
-import "rxjs/add/operator/takeWhile";
-import { AngularFireList } from '@angular/fire/database';
-
+import { DataType } from '../../../domain/Builder';
 import { Movie } from '../../../domain/Movie';
 import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
-import { DataType } from '../../../domain/Builder';
+import { FirebaseService } from '../../../services/firebase.service';
 
-import 'rxjs-compat';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { AngularFireList } from '@angular/fire/database';
+import { Title } from '@angular/platform-browser';
+import { Router, ActivatedRoute }   from '@angular/router';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-moviedetails',
@@ -18,19 +16,23 @@ import 'rxjs-compat';
 export class MoviedetailsComponent implements OnInit, OnDestroy {
   private alive: boolean = true;
   private path: string = '';
+  private sub: Subscription;
   public pageNotFound: boolean = false;
   public activeAltCountry: any; // used for mobile alt version selector
+  
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: AngularFireList<any[]>;
 
-  constructor(private router: Router,
-      private location: Location,
-      private fdb: FirebaseService
-    ) {
+  constructor(
+    private router: Router,
+    private fdb: FirebaseService,
+    private route: ActivatedRoute,
+    private titleService: Title
+  ) {
 
-    router.events.takeWhile(() => this.alive)
-    .subscribe((val) => {
+    this.sub = this.route.params.subscribe(params => {
+      this.path = params["name"];
 
       fdb.getItemFromBranch(this.router.url, 'movies', true, DataType.Movie).subscribe( (data) => {
         this.movie = data;
@@ -38,6 +40,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           // redirect to 404
           this.pageNotFound = true;
         }
+        this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
       });
 
       fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
@@ -54,7 +57,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.alive = false;
+    this.sub.unsubscribe();
   }
 
   toggleCountries(country: string) {

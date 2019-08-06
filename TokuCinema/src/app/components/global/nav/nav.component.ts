@@ -1,11 +1,11 @@
 import { DomainBuilder, DataType } from '../../../domain/Builder';
-import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angular/core';
+import { ISearchable } from '../../../domain/ISearchable';
 import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
-import { ISearchable } from '../../../domain/ISearchable';
 import { FirebaseService } from '../../../services/firebase.service';
-import 'rxjs-compat';
-import { Observable } from 'rxjs/Rx';
+
+import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-nav',

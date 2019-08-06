@@ -1,12 +1,10 @@
-import 'rxjs-compat';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import { Observable } from 'rxjs/Rx';
+import { DomainBuilder, DataType } from '../domain/Builder';
+import { StringCleaner, StringType } from '../domain/StringCleaner';
 
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
-import { StringCleaner, StringType } from '../domain/StringCleaner';
-import { DomainBuilder, DataType } from '../domain/Builder';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class FirebaseService {
@@ -44,9 +42,9 @@ export class FirebaseService {
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       let itemString = itemIsRoute? this.getPathFromRoute(item) : item;
 
-      let branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().map(response => {
+      let branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(map(response => {
         return this.extractDomainObject(response, buildType);
-      });
+      }));
 
       return branchItem;
     }
