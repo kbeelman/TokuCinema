@@ -13,7 +13,7 @@ export class Movie implements ISearchable {
 
     constructor(
         public OfficialTitle: string,
-        public AlternateTitles: Array<{"TitleType": string, "TitleValue": string}>,
+        public AlternateTitles: Array<{'TitleType': string, 'TitleValue': string}>,
         public OriginalPoster: Array<string>,
         public ReleaseDateString: string,
         public ProductionCompany: string,
@@ -24,8 +24,8 @@ export class Movie implements ISearchable {
         public Series: Series,
         public Era: Era,
         public Runtime: number,
-        public Crew: Array<{"PositionTitle": string, "Name": string}>,
-        public Cast: Array<{"ActorName": string, "RoleName": string}>,
+        public Crew: Array<{'PositionTitle': string, 'Name': string}>,
+        public Cast: Array<{'ActorName': string, 'RoleName': string}>,
         public MediaPath: Array<string>,
         public AlternateVersionsPath: Array<string>,
         public Path?: string
@@ -34,22 +34,21 @@ export class Movie implements ISearchable {
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
         } else {
-            this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + "-" + this.ReleaseYear;
+            this.Path = new StringCleaner(this.OfficialTitle, StringType.WithoutRoute).getCleanString() + '-' + this.ReleaseYear;
         }
         this.setReleaseDate();
     }
 
     public setReleaseDate(): void {
-        if(isNaN(Number(this.ReleaseDateString.substr(0,4))) || (this.ReleaseDateString.length !== 10)) {
+        if (isNaN(Number(this.ReleaseDateString.substr(0, 4))) || (this.ReleaseDateString.length !== 10)) {
             this.ReleaseDate = null;
             this.CircaRelease = this.ReleaseDateString;
-            this.ReleaseYear = Number(this.ReleaseDateString.substr(6,4));
-        }
-        else {
-            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
-            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2))-1);
-            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
-            this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
+            this.ReleaseYear = Number(this.ReleaseDateString.substr(6, 4));
+        } else {
+            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0, 4)));
+            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5, 2)) - 1);
+            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8, 2)));
+            this.ReleaseDate.setHours(0, 0, 0, 0); // Zero-out the time
 
             this.ReleaseYear = this.ReleaseDate.getFullYear();
         }
@@ -57,17 +56,17 @@ export class Movie implements ISearchable {
     }
 
     public getDisplayName(searchTerm: string): string {
-        let displayName = this.OfficialTitle + " (" + this.ReleaseYear + ")";
+        let displayName = this.OfficialTitle + ' (' + this.ReleaseYear + ')';
 
         if (this.AlternateTitles && this.AlternateTitles.length) {
-            let relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().trim().replace(/\W/g, '')
+            const relaventAltTitle = this.AlternateTitles.find( item => item.TitleValue.toLowerCase().trim().replace(/\W/g, '')
               .indexOf(searchTerm.toLowerCase().trim().replace(/\W/g, '')) >= 0
               && item.TitleType !== 'Literal Translation');
 
             if (relaventAltTitle) {
-              displayName += "<p><em>" + relaventAltTitle.TitleValue + "</em></p>";
+              displayName += '<p><em>' + relaventAltTitle.TitleValue + '</em></p>';
             } else {
-              displayName += "<p><em>" + this.AlternateTitles[0].TitleValue + "</em></p>"
+              displayName += '<p><em>' + this.AlternateTitles[0].TitleValue + '</em></p>'
             }
         }
 
@@ -88,10 +87,10 @@ export class Movie implements ISearchable {
     }
 
     public getKeywords(): Array<Keyword> {
-        let keywords = new Array<Keyword>();
+        const keywords = new Array<Keyword>();
 
         // add title elements (if more than one word)
-        let titleElements = this.OfficialTitle.split(' ');
+        const titleElements = this.OfficialTitle.split(' ');
         if (titleElements.length > 1) {
             titleElements.forEach(element => {
                 keywords.push(new Keyword(element, false, true, false));
@@ -107,10 +106,10 @@ export class Movie implements ISearchable {
             });
 
             this.AlternateTitles.forEach(element => {
-                let alternateTitleWords = element.TitleValue.split(' ');
+                const alternateTitleWords = element.TitleValue.split(' ');
                 if (alternateTitleWords.length > 1) {
-                    alternateTitleWords.forEach(element => {
-                        keywords.push(new Keyword(element, false, true, false));
+                    alternateTitleWords.forEach(subElement => {
+                        keywords.push(new Keyword(subElement, false, true, false));
                     });
                 }
             });
@@ -119,7 +118,7 @@ export class Movie implements ISearchable {
         // add attribute keywords
         keywords.push(new Keyword(this.CountryOfOrigin, false, false, true));
 
-        let directorNames = this.Director.split(' ');
+        const directorNames = this.Director.split(' ');
         directorNames.forEach(element => {
             keywords.push(new Keyword(element, false, false, true));
         });
@@ -134,19 +133,19 @@ export class Movie implements ISearchable {
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
-      let cleanKeywords = new Array<Keyword>();
+        const cleanKeywords = new Array<Keyword>();
 
-      keywords.forEach(element => {
-        if (element.word !== "") {
-          cleanKeywords.push(element);
-        }
-      });
+        keywords.forEach(element => {
+            if (element.word !== '') {
+                cleanKeywords.push(element);
+            }
+        });
 
       return cleanKeywords;
     }
 
     public doesAtlernateTitlesExist(): boolean {
-        if(typeof this.AlternateTitles !== "undefined") {
+        if (typeof this.AlternateTitles !== 'undefined') {
             if (this.AlternateTitles.length > 0) {
                 return true;
             }
@@ -155,7 +154,7 @@ export class Movie implements ISearchable {
     }
 
     public doesCastExist(): boolean {
-        if(typeof this.Cast !== "undefined") {
+        if (typeof this.Cast !== 'undefined') {
             if (this.Cast.length > 0) {
                 return true;
             }
@@ -164,7 +163,7 @@ export class Movie implements ISearchable {
     }
 
     public doesCrewExist(): boolean {
-        if(typeof this.Crew !== "undefined") {
+        if (typeof this.Crew !== 'undefined') {
             if (this.Crew.length > 0) {
                 return true;
             }
@@ -173,10 +172,9 @@ export class Movie implements ISearchable {
     }
 
     public doesCastOrCrewExist(): boolean {
-        if(this.doesCastExist || this.doesCrewExist()) {
+        if (this.doesCastExist || this.doesCrewExist()) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }

@@ -19,11 +19,17 @@ export class MediaSearchResultsComponent implements OnChanges {
   @Input() countriesToIterate: Array<string>;
   mediaFilters: MediaFilterPakage;
 
-  constructor() { 
+  constructor() {
   }
 
   ngOnChanges() {
-    this.mediaFilters = new MediaFilterPakage(this.mediumFilter, this.spokenLanguageFilter, this.subtitleLanguageFilter, this.countryFilter, this.regionFilter);
+    this.mediaFilters = new MediaFilterPakage(
+      this.mediumFilter,
+      this.spokenLanguageFilter,
+      this.subtitleLanguageFilter,
+      this.countryFilter,
+      this.regionFilter
+    );
   }
 
 }

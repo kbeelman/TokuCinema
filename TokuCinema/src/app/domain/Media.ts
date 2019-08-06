@@ -6,7 +6,7 @@ import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
 import { Movie } from './Movie';
 
-export class Media implements ISearchable{
+export class Media implements ISearchable {
     public ReleaseYear: number;
     public ReleaseDate: Date = new Date();
     public CircaRelease: string;
@@ -16,20 +16,20 @@ export class Media implements ISearchable{
     constructor(
         // Main Feature Info
         public Title: string,
-        public AspectRatio: Array<{"Version": string, "AspectRatio": string}>,
-        public Runtime: Array<{"Version": string, "Runtime": number}>,
-        public Color: Array<{"Version": string, "Color": string}>,
-        public ChapterStops: Array<{"Version": string, "Count": number}>,
+        public AspectRatio: Array<{'Version': string, 'AspectRatio': string}>,
+        public Runtime: Array<{'Version': string, 'Runtime': number}>,
+        public Color: Array<{'Version': string, 'Color': string}>,
+        public ChapterStops: Array<{'Version': string, 'Count': number}>,
         public Subtitles: Array<string>,
         public SubtitlesDetails: Array<Language>,
         public AudioTracks: Array<string>,
         public AudioTracksDetails: Array<Language>,
         // Medium Information
         public Medium: Array<string>,
-        public Format: Array<{"Medium": string, "Format": number}>,
-        public Region: Array<{"Medium": string, "Region": string}>,
+        public Format: Array<{'Medium': string, 'Format': number}>,
+        public Region: Array<{'Medium': string, 'Region': string}>,
         public Country: string,
-        public MediumCount: Array<{"Medium": string, "Count": number}>,
+        public MediumCount: Array<{'Medium': string, 'Count': number}>,
         public ColorSystem: ColorSystem,
         public Screencaps: Array<string>,
         // Distributor Information
@@ -37,7 +37,7 @@ export class Media implements ISearchable{
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDateString: string,
-        public PurchaseLinks: Array<{"Vendor": string, "Link": string}>,
+        public PurchaseLinks: Array<{'Vendor': string, 'Link': string}>,
         public MoviePath: Array<string>,
         public OriginalRelease: string,
         public BoxArt: Array<string>,
@@ -47,7 +47,7 @@ export class Media implements ISearchable{
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
         } else {
-            let path = this.Title + "-" + this.Distributor + "-" + this.Medium + "-" + this.ReleaseDate;
+            const path = this.Title + '-' + this.Distributor + '-' + this.Medium + '-' + this.ReleaseDate;
             this.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
         }
 
@@ -56,7 +56,7 @@ export class Media implements ISearchable{
 
     // Draft method for exposing this class without affecting current media details page
     public GetMediaDetails(): MediaDetails {
-        let mediaDetails = new MediaDetails(
+        const mediaDetails = new MediaDetails(
             this.Title,
             this.AspectRatio,
             this.Runtime,
@@ -88,16 +88,15 @@ export class Media implements ISearchable{
     }
 
     public setReleaseDate(): void {
-        if(isNaN(Number(this.ReleaseDateString.substr(0,4)))) {
+        if (isNaN(Number(this.ReleaseDateString.substr(0, 4)))) {
             this.ReleaseDate = null;
             this.CircaRelease = this.ReleaseDateString;
-            this.ReleaseYear = Number(this.ReleaseDateString.substr(6,4));
-        }
-        else {
-            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0,4)));
-            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5,2))-1);
-            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8,2)));
-            this.ReleaseDate.setHours(0,0,0,0); // Zero-out the time
+            this.ReleaseYear = Number(this.ReleaseDateString.substr(6, 4));
+        } else {
+            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0, 4)));
+            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5, 2)) - 1);
+            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8, 2)));
+            this.ReleaseDate.setHours(0, 0, 0 , 0); // Zero-out the time
 
             this.ReleaseYear = this.ReleaseDate.getFullYear();
         }
@@ -105,7 +104,7 @@ export class Media implements ISearchable{
     }
 
     public getDisplayName(): string {
-        return this.Title + " | " + this.Distributor + " " + this.Medium;
+        return this.Title + ' | ' + this.Distributor + ' ' + this.Medium;
     }
 
     public getType(): ItemType {
@@ -117,13 +116,13 @@ export class Media implements ISearchable{
     }
 
     public getKeywords(): Array<Keyword> {
-        let keywords = new Array<Keyword>();
+        const keywords = new Array<Keyword>();
 
         // add exact matches
         keywords.push(new Keyword(this.Title, true, false, false));
 
         // add title elements (if more than one word)
-        let titleElements = this.Title.split(' ');
+        const titleElements = this.Title.split(' ');
         if (titleElements.length > 1) {
             titleElements.forEach(element => {
                 keywords.push(new Keyword(element, false, true, false));
@@ -132,13 +131,13 @@ export class Media implements ISearchable{
 
         // add attribute keywords
         this.Medium.forEach(item => {
-            let mediumWords = item.split('-');
+            const mediumWords = item.split('-');
             mediumWords.forEach(element => {
                 keywords.push(new Keyword(element, false, false, true));
             });
         })
 
-        let countryWords = this.Country.split(' ');
+        const countryWords = this.Country.split(' ');
         countryWords.forEach(element => {
             keywords.push(new Keyword(element, false, false, true));
         });
@@ -152,13 +151,13 @@ export class Media implements ISearchable{
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
-      let cleanKeywords = new Array<Keyword>();
+        const cleanKeywords = new Array<Keyword>();
 
-      keywords.forEach(element => {
-        if (element.word !== "") {
-          cleanKeywords.push(element);
-        }
-      });
+        keywords.forEach(element => {
+            if (element.word !== '') {
+                cleanKeywords.push(element);
+            }
+        });
 
       return cleanKeywords;
     }

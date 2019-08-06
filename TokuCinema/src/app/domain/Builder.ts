@@ -18,14 +18,11 @@ export class DomainBuilder {
 
         if (this.DataType === DataType.Media) {
             domainObject = this.buildMedia();
-        }
-        else if (this.DataType === DataType.Movie) {
+        } else if (this.DataType === DataType.Movie) {
             domainObject = this.buildMovie();
-        }
-        else if (this.DataType === DataType.MediaReview) {
+        } else if (this.DataType === DataType.MediaReview) {
             domainObject = this.buildMediaReview();
-        }
-        else if (this.DataType === DataType.MovieAlternateVersion) {
+        } else if (this.DataType === DataType.MovieAlternateVersion) {
             domainObject = this.buildMovieAlternateVersion();
         }
 
@@ -33,10 +30,10 @@ export class DomainBuilder {
     }
 
     private buildMovie(): Movie {
-        let movieData = this.RawData;
-        
-        let movie: Movie = new Movie(
-            movieData['OfficialTitle'], 
+        const movieData = this.RawData;
+
+        const movie: Movie = new Movie(
+            movieData['OfficialTitle'],
             movieData['AlternateTitles'],
             movieData['OriginalPoster'],
             movieData['ReleaseDate'],
@@ -58,9 +55,9 @@ export class DomainBuilder {
     }
 
     private buildMovieAlternateVersion(): MovieAlternateVersion {
-        let altVerData = this.RawData;
+        const altVerData = this.RawData;
 
-        let movieAlternateVersion: MovieAlternateVersion = new MovieAlternateVersion(
+        const movieAlternateVersion: MovieAlternateVersion = new MovieAlternateVersion(
             altVerData['Path'],
             altVerData['Countries']
         );
@@ -69,9 +66,9 @@ export class DomainBuilder {
     }
 
     private buildMedia(): Media {
-        let mediaData = this.RawData;
-        
-        let media: Media = new Media(
+        const mediaData = this.RawData;
+
+        const media: Media = new Media(
             mediaData['Title'],
             mediaData['AspectRatio'],
             mediaData['Runtime'],
@@ -104,9 +101,9 @@ export class DomainBuilder {
     }
 
     private buildMediaReview(): MediaReview {
-        let mediaReviewData = this.RawData;
+        const mediaReviewData = this.RawData;
 
-        let mediaReview: MediaReview = new MediaReview(
+        const mediaReview: MediaReview = new MediaReview(
             mediaReviewData['Overview'],
             mediaReviewData['Video'],
             mediaReviewData['Audio'],

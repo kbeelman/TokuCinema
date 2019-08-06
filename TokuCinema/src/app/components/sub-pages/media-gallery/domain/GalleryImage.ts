@@ -1,7 +1,7 @@
 import { ItemType } from './ItemType';
-import { iGalleryItem } from "./iGalleryItem";
+import { IGalleryItem } from './IGalleryItem';
 
-export class GalleryImage implements iGalleryItem{
+export class GalleryImage implements IGalleryItem {
     Url: string;
     Alt: string;
     Index: number;

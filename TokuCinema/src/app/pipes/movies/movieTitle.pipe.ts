@@ -1,16 +1,15 @@
-import { element } from 'protractor';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'movieTitle' })
 export class MovieTitleSearch implements PipeTransform {
   transform(value, args) {
     if (args && this.getCleanString(args).length >= 3) {
-        let results = new Array<any>();
+        const results = new Array<any>();
 
         // create search strings - deliminited by space
-        let substrings = args.split(" ");
+        const substrings = args.split(' ');
 
-        let cleanedSubStrings = new Array<string>();
+        const cleanedSubStrings = new Array<string>();
 
         // remove empty elements
         substrings.forEach(element => {
@@ -22,10 +21,10 @@ export class MovieTitleSearch implements PipeTransform {
         // Official titles
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
-            let titleResults = value.filter(item => (this.getCleanString(item.OfficialTitle).indexOf(element) >= 0));
-            titleResults.forEach(element => {
-              if(!(results.indexOf(element) >= 0)) {
-                results.push(element);
+            const titleResults = value.filter(item => (this.getCleanString(item.OfficialTitle).indexOf(element) >= 0));
+            titleResults.forEach(subElement => {
+              if (!(results.indexOf(subElement) >= 0)) {
+                results.push(subElement);
               }
             });
         });
@@ -33,7 +32,7 @@ export class MovieTitleSearch implements PipeTransform {
         // Alt titles
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
-          if (element != 'the') {
+          if (element !== 'the') {
             value.forEach(movie => {
               if (movie.AlternateTitles && movie.AlternateTitles.length) {
                 movie.AlternateTitles.forEach(altTitle => {
@@ -62,8 +61,7 @@ export class MovieTitleSearch implements PipeTransform {
 
         // return list
         return results;
-    }
-    else {
+    } else {
       return value;
     }
   }

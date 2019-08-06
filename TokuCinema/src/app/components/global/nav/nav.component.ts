@@ -12,13 +12,14 @@ import { Observable } from 'rxjs';
   templateUrl: './nav.component.html'
 })
 export class NavComponent implements OnInit {
+  @Output() searchEvent = new EventEmitter();
   navMenuOpen: boolean = false;
   searchOpen: boolean = false;
-  menuItems: Array<{"text": string, "link": string}> = [
-    {"text": 'Home', "link": '/'},
-    {"text": 'Movie List', "link": '/movies'},
-    {"text": 'Home Media Releases', "link": '/media'},
-    {"text": 'About', "link": '/about'}
+  menuItems: Array<{'text': string, 'link': string}> = [
+    {'text': 'Home', 'link': '/'},
+    {'text': 'Movie List', 'link': '/movies'},
+    {'text': 'Home Media Releases', 'link': '/media'},
+    {'text': 'About', 'link': '/about'}
   ];
   movieItems = new Array<Movie>();
   mediaItems = new Array<Media>();
@@ -38,18 +39,18 @@ export class NavComponent implements OnInit {
   ngOnInit() {
     // Transform Movies
     this.moviesData.forEach(element => {
-      for (var i = 0; i < element.length; i++) {
-        let domainBuilder = new DomainBuilder(element[i], DataType.Movie);
-        let domainObject = domainBuilder.getDomainObject();
+      for (let i = 0; i < element.length; i++) {
+        const domainBuilder = new DomainBuilder(element[i], DataType.Movie);
+        const domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
       }
     });
 
     // Transform Media
     this.mediaData.forEach(element => {
-      for (var i = 0; i < element.length; i++) {
-        let domainBuilder = new DomainBuilder(element[i], DataType.Media);
-        let domainObject = domainBuilder.getDomainObject();
+      for (let i = 0; i < element.length; i++) {
+        const domainBuilder = new DomainBuilder(element[i], DataType.Media);
+        const domainObject = domainBuilder.getDomainObject();
         this.mediaItems.push(domainObject);
       }
     });
@@ -57,7 +58,7 @@ export class NavComponent implements OnInit {
 
   public toggleNavMenu(): void {
     this.navMenuOpen = !this.navMenuOpen;
-    if(this.searchOpen) {
+    if (this.searchOpen) {
       this.searchOpen = !this.searchOpen;
     }
   }
@@ -79,13 +80,12 @@ export class NavComponent implements OnInit {
     this.searchOpen = false;
   }
 
-  @Output() searchEvent = new EventEmitter();
   clearSearch(): void {
     this.searchEvent.emit(this.searchTerm = '');
   }
 
   getSearchItems(): Array<ISearchable> {
-    let result: Array<ISearchable> = new Array<ISearchable>();
+    const result: Array<ISearchable> = new Array<ISearchable>();
     // Add Movies
     this.movieItems.forEach(element => {
       result.push(element);

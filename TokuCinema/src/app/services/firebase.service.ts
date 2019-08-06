@@ -21,7 +21,7 @@ export class FirebaseService {
     ) {}
 
     public getBranch(branchName: string): Observable<any> {
-      let cachedBranch = this.cachedData.find( item => item.branchName === branchName);
+      const cachedBranch = this.cachedData.find( item => item.branchName === branchName);
       if (!cachedBranch) {
 
         let itemRef: AngularFireList<any>;
@@ -31,7 +31,7 @@ export class FirebaseService {
         item = itemRef.valueChanges();
 
         // cache for future use
-        let branchToCache = {branchName: branchName, data: item};
+        const branchToCache = {branchName: branchName, data: item};
         this.cachedData.push(branchToCache);
         return item;
       } else {
@@ -40,10 +40,11 @@ export class FirebaseService {
     }
 
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
-      let itemString = itemIsRoute? this.getPathFromRoute(item) : item;
+      const itemString = itemIsRoute ? this.getPathFromRoute(item) : item;
 
-      let branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(map(response => {
-        return this.extractDomainObject(response, buildType);
+      const branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
+        map(response => {
+          return this.extractDomainObject(response, buildType);
       }));
 
       return branchItem;
@@ -52,8 +53,8 @@ export class FirebaseService {
     private extractDomainObject(res: any, buildType: DataType): Observable<any> {
       let domainObject: any;
       res.forEach(element => {
-        if(element) {
-          let domainBuilder = new DomainBuilder(element, buildType);
+        if (element) {
+          const domainBuilder = new DomainBuilder(element, buildType);
           domainObject = domainBuilder.getDomainObject();
         }
       });

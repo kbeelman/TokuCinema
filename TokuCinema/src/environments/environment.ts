@@ -7,11 +7,11 @@ export const environment = {
   production: false,
 
   firebaseConfig: {
-      apiKey: "AIzaSyAqt9L2SJRNlcjI4RLfm3awmW4y7KnjWO8",
-      authDomain: "tokucinema-dev.firebaseapp.com",
-      databaseURL: "https://tokucinema-dev.firebaseio.com",
-      projectId: "tokucinema-dev",
-      storageBucket: "tokucinema.appspot.com",
-      messagingSenderId: "490925242987"
+      apiKey: 'AIzaSyAqt9L2SJRNlcjI4RLfm3awmW4y7KnjWO8',
+      authDomain: 'tokucinema-dev.firebaseapp.com',
+      databaseURL: 'https://tokucinema-dev.firebaseio.com',
+      projectId: 'tokucinema-dev',
+      storageBucket: 'tokucinema.appspot.com',
+      messagingSenderId: '490925242987'
   }
 };

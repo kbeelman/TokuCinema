@@ -12,7 +12,7 @@ import { MediaSearchResultsComponent } from './components/sub-pages/media-search
 import { MoviesSearchResultsComponent } from './components/sub-pages/movies-search-results/movies-search-results.component';
 import { SearchResultsComponent } from './components/sub-pages/search-results/search-results.component';
 import { DevCardComponent } from './components/sub-pages/dev-card/dev-card.component';
-import { RouterTestingModule }   from '@angular/router/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';

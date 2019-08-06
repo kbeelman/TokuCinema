@@ -16,7 +16,7 @@ describe('MoviesSearchResultsComponent', () => {
       declarations: [ MoviesSearchResultsComponent,
         MovieCardComponent,
         MovieTitleSearch,
-        MovieFiltersSearch 
+        MovieFiltersSearch
       ],
       imports: [
         FormsModule,

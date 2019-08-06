@@ -13,19 +13,35 @@ import { Keyword } from '../../../domain/Keyword';
 export class SearchResultsComponent implements OnInit {
   @Input() searchTerm: string;
   @Input() searchItems: Array<ISearchable>;
-  movieItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number, 'iconName': string}>();
-  mediaItems = new Array<{"name": string, "names": Array<Keyword>, "type": string, "path": string, "score": number, 'iconName': string}>();
+  movieItems = new Array<{'name': string, 'names': Array<Keyword>, 'type': string, 'path': string, 'score': number, 'iconName': string}>();
+  mediaItems = new Array<{'name': string, 'names': Array<Keyword>, 'type': string, 'path': string, 'score': number, 'iconName': string}>();
 
   constructor() { }
 
   ngOnInit() {
     // Populate movies
-    if(this.searchItems) {
-      this.searchItems.forEach(element => {
-        if (element.getType() === ItemType.Movie) {
-          this.movieItems.push({name: element.getDisplayName(this.searchTerm), names: element.getKeywords(), type: 'Movie', path: element.getPath(), score: 0, iconName: element.getIconName()});
-        } else if (element.getType() === ItemType.Media) {
-          this.mediaItems.push({name: element.getDisplayName(), names: element.getKeywords(), type: 'Media', path: element.getPath(), score: 0, iconName: element.getIconName()});
+    if (this.searchItems) {
+      this.searchItems.forEach(subElement => {
+        if (subElement.getType() === ItemType.Movie) {
+          this.movieItems.push(
+            {
+              name: subElement.getDisplayName(this.searchTerm),
+              names: subElement.getKeywords(),
+              type: 'Movie',
+              path: subElement.getPath(),
+              score: 0,
+              iconName: subElement.getIconName()
+            });
+        } else if (subElement.getType() === ItemType.Media) {
+          this.mediaItems.push(
+            {
+              name: subElement.getDisplayName(),
+              names: subElement.getKeywords(),
+              type: 'Media',
+              path: subElement.getPath(),
+              score: 0,
+              iconName: subElement.getIconName()
+            });
         }
       });
     }

@@ -15,11 +15,12 @@ export class HomeComponent implements OnInit, OnDestroy {
   title = 'Toku Cinema';
   private sub: Subscription;
   public randomContent: Media;
-  public landingPages: Array<{"text": string, "link": string, "body": string}> = [
-    {"text": 'Movie List', "link": '/movies', 
-      "body": 'Information on all of your favorite Tokusatsu, Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.'},
-    {"text": 'Home Media Releases', "link": '/media', 
-      "body": 'Details on home media releases across a wide range of formats, as well as reviews capturing everything from video quality to special features.'}
+  public landingPages: Array<{'text': string, 'link': string, 'body': string}> = [
+    {'text': 'Movie List', 'link': '/movies',
+      'body': 'Information on all of your favorite Tokusatsu, Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.'},
+    {'text': 'Home Media Releases', 'link': '/media',
+      'body': 'Details on home media releases across a wide range of formats, ' +
+        'as well as reviews capturing everything from video quality to special features.'}
   ]
 
   constructor(
@@ -29,12 +30,12 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
-    this.sub = this.fdb.getBranch("media").subscribe((data) => {
-      
+    this.sub = this.fdb.getBranch('media').subscribe((data) => {
+
       // Select a random index in the media branch to display in the content tile
-      let winningNumber = Math.floor(Math.random() * data.length) + 0;
-      
-      let builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
+      const winningNumber = Math.floor(Math.random() * data.length) + 0;
+
+      const builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
       this.randomContent = builder.getDomainObject();
     });
   }

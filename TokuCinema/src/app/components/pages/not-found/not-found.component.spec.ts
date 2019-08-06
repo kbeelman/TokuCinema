@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { RouterTestingModule }   from '@angular/router/testing';
+import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
 
 import { NotFoundComponent } from './not-found.component';
@@ -11,7 +11,7 @@ describe('NotFoundComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ NotFoundComponent ],
-      imports: [ 
+      imports: [
         FormsModule,
         RouterTestingModule
       ]

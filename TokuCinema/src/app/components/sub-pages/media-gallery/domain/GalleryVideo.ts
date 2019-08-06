@@ -1,7 +1,7 @@
 import { ItemType } from './ItemType';
-import { iGalleryItem } from "./iGalleryItem";
+import { IGalleryItem } from './IGalleryItem';
 
-export class GalleryVideo implements iGalleryItem {
+export class GalleryVideo implements IGalleryItem {
     VideoId: string;
     Index: number;
     ItemType: ItemType;
@@ -17,7 +17,7 @@ export class GalleryVideo implements iGalleryItem {
     }
 
     public getThumbnailSource(): string {
-        let thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/1.jpg';
+        const thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/1.jpg';
         return thumbNailUrl;
     }
 }

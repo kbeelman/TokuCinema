@@ -1,3 +1,8 @@
+export enum StringType {
+  WithRoute,
+  WithoutRoute
+}
+
 export class StringCleaner {
     public CleanString: string;
 
@@ -16,14 +21,13 @@ export class StringCleaner {
   // Clean if is part of a route - routing
   private cleanRouteName(routeName: string): string {
     if (routeName.split('/')[2]) {
-      let cleanName = routeName.split('/')[2]
-        .replace(/[^A-Za-z]/, "-")
+      const cleanName = routeName.split('/')[2]
+        .replace(/[^A-Za-z]/, '-')
         .split(' ');
 
-      if(cleanName.length > 1){
-        return this.replaceSpaces(cleanName[0] + '-' + cleanName[cleanName.length-1]);
-      }
-      else {
+      if (cleanName.length > 1) {
+        return this.replaceSpaces(cleanName[0] + '-' + cleanName[cleanName.length - 1]);
+      } else {
         return this.replaceSpaces(cleanName[0]);
       }
     }
@@ -37,10 +41,4 @@ export class StringCleaner {
   private replaceSpaces(string: string): string {
     return string.replace(/\s+/g, '-');
   }
-}
-
-
-export enum StringType {
-    WithRoute,
-    WithoutRoute
 }

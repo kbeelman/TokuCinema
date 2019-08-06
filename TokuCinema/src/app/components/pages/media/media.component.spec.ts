@@ -18,7 +18,7 @@ describe('MediaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ 
+      declarations: [
         MediaComponent,
         MediaSearchResultsComponent,
         MediaCardComponent,

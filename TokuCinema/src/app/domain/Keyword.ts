@@ -1,8 +1,8 @@
 // locked at 1 point
 const ignoreList: Array<string> = [
-    "of", 
-    "the",
-    "and"
+    'of',
+    'the',
+    'and'
 ];
 
 export class Keyword {
@@ -13,7 +13,7 @@ export class Keyword {
         public exactMatch: boolean,
         public titleElement: boolean,
         public attribute: boolean
-    ){
+    ) {
         this.word = this.word.replace(/\W/g, '').toLowerCase();
         this.calculateScore();
         this.negateIgnoreList();

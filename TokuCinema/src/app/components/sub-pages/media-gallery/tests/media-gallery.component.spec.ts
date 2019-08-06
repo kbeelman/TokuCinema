@@ -1,10 +1,9 @@
-import { Component, DebugElement } from '@angular/core';
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
 import { MediaGalleryComponent } from '../media-gallery.component';
 import { GalleryImage } from '../domain/GalleryImage';
 import { GalleryVideo } from '../domain/GalleryVideo';
 
-let stubImages = [
+const stubImages = [
     new GalleryImage('http://www.branch-associates.com/wp-content/uploads/2015/04/carilion-4.jpg',
         'test 1', 0),
     new GalleryImage('http://lpa-inc.com/wp-content/uploads/2012/10/CrystalSpring_MOB.jpg',
@@ -15,7 +14,7 @@ let stubImages = [
         'test 4', 3)
 ]
 
-let stubVideos = [
+const stubVideos = [
     new GalleryVideo('5Z2zzeNn1Jc', 0),
     new GalleryVideo('BtHxdKxzSOQ', 1),
     new GalleryVideo('kGz1x9IIZEA', 2)
@@ -23,8 +22,6 @@ let stubVideos = [
 
 let comp: MediaGalleryComponent;
 let fixture: ComponentFixture<MediaGalleryComponent>;
-let de: DebugElement;
-let el: HTMLElement;
 
 describe('media gallery component', () => {
   beforeEach(async(() => {
@@ -67,15 +64,15 @@ describe('media gallery component', () => {
     expect(comp.activeItem).toEqual(comp.galleryVideos[0]);
   }));
 
-  it('should know if active item is an image', async(() => {
+  it('should know if active item is an image', () => {
     comp.activeItem = stubImages[0];
-    expect(comp.activeItemIsImage).toBeTruthy;
-  }));
+    expect(comp.activeItemIsImage()).toBeTruthy();
+  });
 
-  it('should know if active item is a video', async(() => {
+  it('should know if active item is a video', () => {
     comp.activeItem = stubVideos[0];
-    expect(comp.activeItemIsVideo).toBeTruthy;
-  }));
+    expect(comp.activeItemIsVideo()).toBeTruthy();
+  });
 
   it('should set active item', async(() => {
     comp.setActiveItem(stubImages[0]);
@@ -102,21 +99,21 @@ describe('media gallery component', () => {
   //   expect(comp.currentCarouselPosition).toEqual(0);
   // }));
 
-  it('should get current carousel margin', async(() => {
+  it('should get current carousel margin', () => {
     comp.currentCarouselMargin = 10;
     expect(comp.getCurrentCarouselMargin()).toEqual('10%');
-  }));
+  });
 
-  it('should know when it can carousel right', async(() => {
+  it('should know when it can carousel right', () => {
     comp.galleryImages = stubImages;
     comp.galleryVideos = stubVideos;
     comp.currentCarouselPosition = 0;
-    expect(comp.canCarouselRight()).toBeTruthy;
-  }));
+    expect(comp.canCarouselRight()).toBeTruthy();
+  });
 
-  it('should know when it can carousel left', async(() => {
+  it('should know when it can carousel left', () => {
     comp.currentCarouselPosition = 1;
-    expect(comp.canCarouselLeft()).toBeTruthy;
-  }));
+    expect(comp.canCarouselLeft()).toBeTruthy();
+  });
 
 });

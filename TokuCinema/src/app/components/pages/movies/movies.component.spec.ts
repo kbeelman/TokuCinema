@@ -17,12 +17,13 @@ describe('MoviesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviesComponent,
-      MoviesSearchResultsComponent,
-      MovieFiltersSearch,
-      MovieTitleSearch,
-      MovieCardComponent
-    ],
+      declarations: [
+        MoviesComponent,
+        MoviesSearchResultsComponent,
+        MovieFiltersSearch,
+        MovieTitleSearch,
+        MovieCardComponent
+      ],
       imports: [
         FormsModule,
         RouterTestingModule,

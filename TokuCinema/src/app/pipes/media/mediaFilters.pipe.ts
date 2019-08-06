@@ -7,11 +7,10 @@ export class MediaFiltersSearch implements PipeTransform {
       // Filter for Country
       let filteredResults = value.filter( item => (item.Country.toLowerCase().indexOf(args.Country.toLowerCase()) >= 0));
       // Filter for Region
-      if (args.Region != '') {
-        filteredResults = filteredResults.filter( item => 
-          {
+      if (args.Region !== '') {
+        filteredResults = filteredResults.filter( item => {
             let result: boolean = false;
-            if(item.Region !== undefined) {
+            if (item.Region !== undefined) {
               (item.Region.forEach(element => {
                 if (element.Region.indexOf(args.Region) >= 0) {
                   result = true;
@@ -23,21 +22,20 @@ export class MediaFiltersSearch implements PipeTransform {
         )
       }
       // Filter for Medium
-      if (args.Medium != '') {
+      if (args.Medium !== '') {
         filteredResults = filteredResults.filter( item => (item.Medium.indexOf(args.Medium) >= 0));
       }
       // Filter for Spoken language
-      if (args.SpokenLanguages != '') {
+      if (args.SpokenLanguages !== '') {
         filteredResults = filteredResults.filter( item => (item.AudioTracks.indexOf(args.SpokenLanguages) >= 0));
       }
       // Filter for Subtitle language
-      if (args.SubtitleLanguages != '') {
+      if (args.SubtitleLanguages !== '') {
         filteredResults = filteredResults.filter( item => (item.Subtitles.indexOf(args.SubtitleLanguages) >= 0));
       }
 
       return filteredResults;
-    }
-    else {
+    } else {
       return value;
     }
   }

@@ -23,7 +23,7 @@ export class MoviesComponent implements OnInit {
   eraFilter: string = '';
   productionCompanyFilter: string = '';
   moviesData: Observable<any[]>;
-  showFilters: string = "Show filters +";
+  showFilters: string = 'Show filters +';
 
   languages = new Array<string>();
   distributors = new Array<string>();
@@ -42,9 +42,9 @@ export class MoviesComponent implements OnInit {
   ngOnInit() {
     this.titleService.setTitle(this.title);
     this.moviesData.forEach(element => {
-    for (var i = 0; i < element.length; i++) {
-        let domainBuilder = new DomainBuilder(element[i], DataType.Movie);
-        let domainObject = domainBuilder.getDomainObject();
+    for (let i = 0; i < element.length; i++) {
+        const domainBuilder = new DomainBuilder(element[i], DataType.Movie);
+        const domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
       }
@@ -52,7 +52,7 @@ export class MoviesComponent implements OnInit {
   }
 
   public toggleShowFilters(): void {
-    if(this.showFilters === 'Show filters +') {
+    if (this.showFilters === 'Show filters +') {
       this.showFilters = 'Hide filters -';
     } else {
       this.showFilters = 'Show filters +';

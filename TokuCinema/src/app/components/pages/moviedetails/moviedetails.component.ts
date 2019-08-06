@@ -6,7 +6,7 @@ import { FirebaseService } from '../../../services/firebase.service';
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
-import { Router, ActivatedRoute }   from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -19,7 +19,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   private sub: Subscription;
   public pageNotFound: boolean = false;
   public activeAltCountry: any; // used for mobile alt version selector
-  
+
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: AngularFireList<any[]>;
@@ -32,7 +32,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   ) {
 
     this.sub = this.route.params.subscribe(params => {
-      this.path = params["name"];
+      this.path = params['name'];
 
       fdb.getItemFromBranch(this.router.url, 'movies', true, DataType.Movie).subscribe( (data) => {
         this.movie = data;
@@ -62,10 +62,9 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
 
   toggleCountries(country: string) {
     this.movieAlternateVersion.Countries.forEach(element => {
-      if(element.Country === country) {
+      if (element.Country === country) {
         element.Active = true;
-      }
-      else {
+      } else {
         element.Active = false;
       }
     });
@@ -73,7 +72,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
 
   isCircaDate(releaseDate: string): boolean {
     let response: boolean = false;
-    if(isNaN(Number(releaseDate.substr(0,4)))) {
+    if (isNaN(Number(releaseDate.substr(0, 4)))) {
       response = true;
     }
 

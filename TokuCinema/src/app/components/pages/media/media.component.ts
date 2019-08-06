@@ -23,7 +23,7 @@ export class MediaComponent implements OnInit {
   regionFilter: any = '';
   mediaData: Observable<any[]>;
   movieData: Observable<any[]>;
-  showFilters: string = "Show filters +";
+  showFilters: string = 'Show filters +';
 
   // Form use
   mediums = new Array<string>();
@@ -42,17 +42,17 @@ export class MediaComponent implements OnInit {
 
   ngOnInit() {
     this.mediaData.forEach(element => {
-      for (var i = 0; i < element.length; i++) {
-        let domainBuilder = new DomainBuilder(element[i], DataType.Media);
-        let domainObject = domainBuilder.getDomainObject();
+      for (let i = 0; i < element.length; i++) {
+        const domainBuilder = new DomainBuilder(element[i], DataType.Media);
+        const domainObject = domainBuilder.getDomainObject();
 
         // Shitty nested algorithm here
         domainObject.MoviePath.forEach(mediaElement => {
           this.movieData.forEach(moviesElement => {
             moviesElement.forEach(movieElement => {
-              if(mediaElement === movieElement.Path) {
-                let newBuilder = new DomainBuilder(movieElement, DataType.Movie);
-                let movie = newBuilder.getDomainObject();
+              if (mediaElement === movieElement.Path) {
+                const newBuilder = new DomainBuilder(movieElement, DataType.Movie);
+                const movie = newBuilder.getDomainObject();
                 domainObject.Movies.push(movie);
               }
             });
@@ -64,29 +64,23 @@ export class MediaComponent implements OnInit {
       }
     });
     this.sortFilters();
-    this.mediaItems.sort(function(a,b) {
+    this.mediaItems.sort(function(a, b) {
       if (a.Movies[0] && b.Movies[0]) {
-        let countryCompare: number = b.Country.localeCompare(a.Country);
+        const countryCompare: number = b.Country.localeCompare(a.Country);
         if (countryCompare !== 0) {
           return countryCompare;
         }
-        if(a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear)
-        {
+        if (a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear) {
           return -1;
-        }
-        else if(a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear)
-        {
+        } else if (a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear) {
           return 1;
         }
-  
-  
-        if(a.ReleaseYear < b.ReleaseYear) {
+
+        if (a.ReleaseYear < b.ReleaseYear) {
           return -1;
-        }
-        else if(a.ReleaseYear > b.ReleaseYear) {
+        } else if (a.ReleaseYear > b.ReleaseYear) {
           return 1;
-        }
-        else {
+        } else {
           return 0;
         }
       }
@@ -96,7 +90,7 @@ export class MediaComponent implements OnInit {
   }
 
   public toggleShowFilters(): void {
-    if(this.showFilters === 'Show filters +') {
+    if (this.showFilters === 'Show filters +') {
       this.showFilters = 'Hide filters -';
     } else {
       this.showFilters = 'Show filters +';
@@ -118,26 +112,26 @@ export class MediaComponent implements OnInit {
       this.countries.push(media.Country);
     }
     media.Medium.forEach(element => {
-      if (!(this.mediums.indexOf(element) >= 0) && (!(element == ""))) {
+      if (!(this.mediums.indexOf(element) >= 0) && (!(element === ''))) {
         this.mediums.push(element);
       }
     })
-    if(typeof media.Region !== 'undefined') {
-      if(media.Region.length > 0) {
+    if (typeof media.Region !== 'undefined') {
+      if (media.Region.length > 0) {
         media.Region.forEach(element => {
-          if (!(this.regions.indexOf(element.Region) >= 0) && (!(element.Region == ""))) {
+          if (!(this.regions.indexOf(element.Region) >= 0) && (!(element.Region === ''))) {
             this.regions.push(element.Region);
           }
         });
       }
     }
     media.AudioTracks.forEach(element => {
-      if (!(this.spokenLanguages.indexOf(element) >= 0) && (!(element == ""))) {
+      if (!(this.spokenLanguages.indexOf(element) >= 0) && (!(element === ''))) {
         this.spokenLanguages.push(element);
       }
     });
     media.Subtitles.forEach(element => {
-      if (!(this.subtitleLanguages.indexOf(element) >= 0) && (!(element == ""))) {
+      if (!(this.subtitleLanguages.indexOf(element) >= 0) && (!(element === ''))) {
         this.subtitleLanguages.push(element);
       }
     });

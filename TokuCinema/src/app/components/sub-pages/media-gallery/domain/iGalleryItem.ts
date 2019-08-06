@@ -1,6 +1,6 @@
 import { ItemType } from './ItemType';
 
-export interface iGalleryItem {
+export interface IGalleryItem {
     Index: number;
     ItemType: ItemType;
 

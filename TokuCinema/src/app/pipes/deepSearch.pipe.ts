@@ -1,18 +1,17 @@
-import { element } from 'protractor';
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
   public transform(value, args) {
-    let worthSearching = (args !== undefined && args.trim().length > 1 && value);
+    const worthSearching = (args !== undefined && args.trim().length > 1 && value);
 
     if (worthSearching) {
-        let cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
-        let results = new Array<any>();
+        const cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
+        const results = new Array<any>();
 
         // create search strings - deliminited by space
-        let substrings = args.split(" ");
-        let cleanedSubStrings = new Array<string>();
+        const substrings = args.split(' ');
+        const cleanedSubStrings = new Array<string>();
         substrings.forEach(element => {
           if (element !== '' || element !== ' ') {
             cleanedSubStrings.push(element.trim().replace(/\W/g, ''));
@@ -25,7 +24,7 @@ export class DeepSearch implements PipeTransform {
             if (nameElement.exactMatch) {
               let itAlreadExists: boolean = false;
 
-              let resultToAdd = {
+              const resultToAdd = {
                 name: element.name,
                 names: element.names,
                 path: element.path,
@@ -33,8 +32,8 @@ export class DeepSearch implements PipeTransform {
                 iconName: element.iconName
               };
 
-              results.forEach(element => {
-                itAlreadExists = element.path === resultToAdd.path;
+              results.forEach(subElement => {
+                itAlreadExists = subElement.path === resultToAdd.path;
               });
 
               if (!itAlreadExists && cleanSearchTerm === nameElement.word) {
@@ -45,13 +44,13 @@ export class DeepSearch implements PipeTransform {
         });
 
         // weight commonality of keyword
-        let words = new Array<string>();
-        let counts = new Array<number>();
+        const words = new Array<string>();
+        const counts = new Array<number>();
         value.forEach(elementToAudit => {
-          elementToAudit.names.forEach(element => {
-            let indexOfElement = words.indexOf(element.word);
+          elementToAudit.names.forEach(subElement => {
+            const indexOfElement = words.indexOf(subElement.word);
             if (!(indexOfElement >= 0)) {
-              words.push(element.word);
+              words.push(subElement.word);
               counts.push(1);
             } else {
               counts[indexOfElement] += 1;
@@ -61,10 +60,10 @@ export class DeepSearch implements PipeTransform {
 
         // apply weightings at name level
         value.forEach(elementToWeight => {
-          elementToWeight.names.forEach(element => {
-            let indexOfElement = words.indexOf(element.word);
+          elementToWeight.names.forEach(subElement => {
+            const indexOfElement = words.indexOf(subElement.word);
             if (indexOfElement >= 0) {
-              element.score = element.score / counts[indexOfElement];
+              subElement.score = subElement.score / counts[indexOfElement];
             }
           });
         });
@@ -77,7 +76,7 @@ export class DeepSearch implements PipeTransform {
                 if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
 
                   // create a result element with appropriate score
-                  let resultToAdd = {
+                  const resultToAdd = {
                     name: resultElement.name,
                     names: resultElement.names,
                     path: resultElement.path,
@@ -87,10 +86,10 @@ export class DeepSearch implements PipeTransform {
 
                   // add result to list if not already there - add to score if already there
                   let alreadyExists: boolean = false;
-                  results.forEach(element => {
-                    if (element.path === resultToAdd.path) {
+                  results.forEach(subElement => {
+                    if (subElement.path === resultToAdd.path) {
                       alreadyExists = true;
-                      element.score += resultToAdd.score;
+                      subElement.score += resultToAdd.score;
                     }
                   });
 
@@ -103,13 +102,12 @@ export class DeepSearch implements PipeTransform {
         });
 
         // sort results by score
-        results.sort(function(a, b){return a.score - b.score});
+        results.sort(function(a, b) {return a.score - b.score});
         results.reverse();
 
         // return deep search, if no results return standard search
-        return (results.length > 0)? results : this.standardSearch(value, cleanSearchTerm);
-    }
-    else {
+        return (results.length > 0) ? results : this.standardSearch(value, cleanSearchTerm);
+    } else {
       return null;
     }
   }

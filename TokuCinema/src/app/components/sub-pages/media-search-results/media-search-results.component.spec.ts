@@ -14,9 +14,9 @@ describe('MediaSearchResultsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ 
-        MediaSearchResultsComponent, 
-        MediaTitleSearch, 
+      declarations: [
+        MediaSearchResultsComponent,
+        MediaTitleSearch,
         MediaFiltersSearch,
         MediaCardComponent,
         ReleaseYearSortPipe

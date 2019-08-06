@@ -22,7 +22,7 @@ describe('MoviedetailsComponent', () => {
         AngularFireModule.initializeApp(environment.firebaseConfig),
         AngularFireDatabaseModule
       ],
-      providers:[FirebaseService]
+      providers: [FirebaseService]
     })
     .compileComponents();
   }));

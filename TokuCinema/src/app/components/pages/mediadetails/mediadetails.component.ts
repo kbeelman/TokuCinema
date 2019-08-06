@@ -4,7 +4,7 @@ import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
 import { FirebaseService } from '../../../services/firebase.service';
 
-import { Component, OnChanges, OnInit, OnDestroy, SimpleChanges } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AngularFireList  } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -14,7 +14,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-mediadetails',
   templateUrl: './mediadetails.component.html'
 })
-export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
+export class MediadetailsComponent implements OnInit, OnDestroy {
   mediaData: AngularFireList<any[]>;
   media: Media;
   mediaDetails: MediaDetails;
@@ -33,10 +33,10 @@ export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
     ) {
 
     this.sub = this.route.params.subscribe(params => {
-      this.path = params["name"];
+      this.path = params['name'];
 
-        fdb.getItemFromBranch(this.router.url, 'media', true, DataType.Media).subscribe( (data) => {
-          this.media = data;
+        fdb.getItemFromBranch(this.router.url, 'media', true, DataType.Media).subscribe( (mediaData) => {
+          this.media = mediaData;
           if (this.media === undefined) {
             // redirect to 404
             this.pageNotFound = true;
@@ -47,17 +47,16 @@ export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
           this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
 
           this.mediaDetails.MovieDetails.forEach(element => {
-            fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (data) => {
-              if (data)
-              {
+            fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (movieData) => {
+              if (movieData) {
                 let alreadyContainsMovie: boolean = false;
                 this.movieDetails.forEach(existingMovies => {
-                  if(existingMovies.Path === data["Path"]) {
+                  if (existingMovies.Path === movieData['Path']) {
                     alreadyContainsMovie = true;
                   }
                 })
                 if (!alreadyContainsMovie) {
-                  this.movieDetails.push(data);
+                  this.movieDetails.push(movieData);
                 }
               }
             });
@@ -65,13 +64,11 @@ export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
           });
 
           // Get the review object
-          fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe( (data) => {
-            this.mediaReview = data;
+          fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe( (mediaReviewData) => {
+            this.mediaReview = mediaReviewData;
           });
         });
       });
-
-      
     }
 
   ngOnInit() {
@@ -81,20 +78,9 @@ export class MediadetailsComponent implements OnChanges, OnInit, OnDestroy {
     this.sub.unsubscribe();
   }
 
-  ngOnChanges(changes: SimpleChanges) {
-    for (let propName in changes) {
-      let change = changes[propName];
-      let curVal  = JSON.stringify(change.currentValue);
-	    let prevVal = JSON.stringify(change.previousValue);
-
-      console.log(curVal);
-      console.log(prevVal);
-    }
-  }
-
   public doesHaveRuntimes(): boolean {
     this.movieDetails.forEach(item => {
-      if(!(item.Runtime === undefined)) {
+      if (!(item.Runtime === undefined)) {
         this.hasRuntimes = true;
       }
     })

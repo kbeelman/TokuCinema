@@ -246,11 +246,11 @@
 
   <div *ngIf="mediaDetails.Screencaps">
     <div><h2>{{mediaDetails.Medium}} Image Gallery</h2></div>
-    <media-gallery 
+    <app-media-gallery 
       [images]="mediaDetails.Screencaps"
       [imagesAlt]="[]"
       [videoIds]="[]">
-    </media-gallery>
+    </app-media-gallery>
   </div>
 
   <div class="media-review">

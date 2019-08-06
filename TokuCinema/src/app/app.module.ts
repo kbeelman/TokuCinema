@@ -111,7 +111,7 @@ import { environment } from '../environments/environment';
         component: NotFoundComponent
       },
       {
-        path: '**', 
+        path: '**',
         component: NotFoundComponent
       }
     ]),

@@ -7,7 +7,7 @@ export class MovieFiltersSearch implements PipeTransform {
       // Filter for Distributor
       let filteredResults = value.filter( item => (item.Distributor.toLowerCase().indexOf(args.Distributor.toLowerCase()) >= 0));
       // Filter for Spoken Language
-      if (args.SpokenLanguage != '') {
+      if (args.SpokenLanguage !== '') {
         filteredResults = filteredResults.filter( item => (item.Languages.indexOf(args.SpokenLanguage) >= 0));
       }
       // Filter for Director
@@ -17,11 +17,12 @@ export class MovieFiltersSearch implements PipeTransform {
       // Filter for Era
       filteredResults = filteredResults.filter( item => (item.Era.toLowerCase().indexOf(args.Era.toLowerCase()) >= 0));
       // Filter for Production Company
-      filteredResults = filteredResults.filter( item => (item.ProductionCompany.toLowerCase().indexOf(args.ProductionCompany.toLowerCase()) >= 0));
-      
+      filteredResults = filteredResults.filter( item =>
+        (item.ProductionCompany.toLowerCase().indexOf(args.ProductionCompany.toLowerCase()) >= 0)
+      );
+
       return filteredResults;
-    }
-    else {
+    } else {
       return value;
     }
   }
