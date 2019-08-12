@@ -49,7 +49,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.meta.addTags([
             { name: 'twitter:card', content: 'summary' },
             { property: 'og:type', content: 'website' },
-            { property: 'og:url', content: this.router.url },
+            { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
             { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' Information'},
             { property: 'og:description', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' from ' +
               this.mediaDetails.Distributor + ' Information.' },

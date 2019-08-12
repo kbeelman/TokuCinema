@@ -91,7 +91,7 @@ export class MediaComponent implements OnInit {
     this.meta.addTags([
       { name: 'twitter:card', content: 'summary' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'media' },
+      { property: 'og:url', content: 'https://tokucinema.com/media' },
       { property: 'og:title', content: 'Home Media Releases'},
       { property: 'og:description', content: 'Details on home media releases across a wide range of formats, ' +
         'as well as reviews capturing everything from video quality to special features.' },

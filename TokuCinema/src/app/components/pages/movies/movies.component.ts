@@ -45,7 +45,7 @@ export class MoviesComponent implements OnInit {
     this.meta.addTags([
       { name: 'twitter:card', content: 'summary' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'movies' },
+      { property: 'og:url', content: 'https://tokucinema.com/movies' },
       { property: 'og:title', content: 'Movie List'},
       { property: 'og:description', content: 'Information on all of your favorite Tokusatsu, ' +
         'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.' },

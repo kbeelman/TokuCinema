@@ -45,7 +45,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         this.meta.addTags([
           { name: 'twitter:card', content: 'summary' },
           { property: 'og:type', content: 'website' },
-          { property: 'og:url', content: this.router.url },
+          { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
           { property: 'og:title', content: this.movie.OfficialTitle },
           { property: 'og:description', content: this.movie.OfficialTitle },
           { property: 'og:image', content: this.movie.OriginalPoster[1] }

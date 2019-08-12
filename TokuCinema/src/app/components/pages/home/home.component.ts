@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.meta.addTags([
       { name: 'twitter:card', content: 'summary' },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'home' },
+      { property: 'og:url', content: 'https://tokucinema.com' },
       { property: 'og:title', content: 'Toku Cinema'},
       { property: 'og:description', content: 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
        '\"special effects\") cinema and television, as well as media influenced by tokusatsu, and media that provided ' +
