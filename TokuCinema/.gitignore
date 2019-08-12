@@ -2,12 +2,12 @@
 
 # compiled output
 /src/css
-dist
+/dist
 /tmp
 /out-tsc
 
 # dependencies
-node_modules
+/node_modules
 
 # IDEs and editors
 /.idea
@@ -28,7 +28,7 @@ node_modules
 # misc
 /.sass-cache
 /connect.lock
-coverage
+/coverage
 /libpeerconnection.log
 npm-debug.log
 testem.log
@@ -44,3 +44,10 @@ Thumbs.db
 
 # Don't ignore styles.css
 /src/css/styles/styles.css
+
+# Firebase dist
+/functions/dist
+/functions/node_modules
+/functions/**/*.js
+/functions/**/*.js.map
+/functions/typings/
