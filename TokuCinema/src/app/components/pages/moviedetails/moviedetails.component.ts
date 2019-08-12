@@ -5,7 +5,7 @@ import { FirebaseService } from '../../../services/firebase.service';
 
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -28,7 +28,8 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
     private router: Router,
     private fdb: FirebaseService,
     private route: ActivatedRoute,
-    private titleService: Title
+    private titleService: Title,
+    private meta: Meta
   ) {
 
     this.sub = this.route.params.subscribe(params => {
@@ -41,6 +42,14 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           this.pageNotFound = true;
         }
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
+        this.meta.addTags([
+          { name: 'twitter:card', content: 'summary' },
+          { property: 'og:type', content: 'website' },
+          { property: 'og:url', content: this.router.url },
+          { property: 'og:title', content: this.movie.OfficialTitle },
+          { property: 'og:description', content: this.movie.OfficialTitle },
+          { property: 'og:image', content: this.movie.OriginalPoster[1] }
+        ]);
       });
 
       fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {

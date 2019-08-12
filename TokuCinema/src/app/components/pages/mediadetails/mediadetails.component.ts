@@ -6,7 +6,7 @@ import { FirebaseService } from '../../../services/firebase.service';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AngularFireList  } from '@angular/fire/database';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -29,7 +29,8 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
  constructor(private fdb: FirebaseService,
       private router: Router,
       private route: ActivatedRoute,
-      private titleService: Title
+      private titleService: Title,
+      private meta: Meta
     ) {
 
     this.sub = this.route.params.subscribe(params => {
@@ -45,6 +46,15 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.mediaDetails = this.media.GetMediaDetails();
 
           this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
+          this.meta.addTags([
+            { name: 'twitter:card', content: 'summary' },
+            { property: 'og:type', content: 'website' },
+            { property: 'og:url', content: this.router.url },
+            { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' Information'},
+            { property: 'og:description', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' from ' +
+              this.mediaDetails.Distributor + ' Information.' },
+            { property: 'og:image', content: this.mediaDetails.BoxArt[1] }
+          ]);
 
           this.mediaDetails.MovieDetails.forEach(element => {
             fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (movieData) => {

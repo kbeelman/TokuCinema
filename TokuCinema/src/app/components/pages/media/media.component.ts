@@ -3,7 +3,7 @@ import { Media } from '../../../domain/Media';
 import { FirebaseService } from '../../../services/firebase.service';
 
 import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -34,7 +34,8 @@ export class MediaComponent implements OnInit {
 
   constructor(
     private fdb: FirebaseService,
-    private titleService: Title
+    private titleService: Title,
+    private meta: Meta
   ) {
     this.movieData = fdb.getBranch('movies');
     this.mediaData = fdb.getBranch('media');
@@ -87,6 +88,15 @@ export class MediaComponent implements OnInit {
     });
 
     this.titleService.setTitle(this.title);
+    this.meta.addTags([
+      { name: 'twitter:card', content: 'summary' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'media' },
+      { property: 'og:title', content: 'Home Media Releases'},
+      { property: 'og:description', content: 'Details on home media releases across a wide range of formats, ' +
+        'as well as reviews capturing everything from video quality to special features.' },
+      // { property: 'og:image', content: '' }
+    ]);
   }
 
   public toggleShowFilters(): void {

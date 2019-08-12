@@ -3,7 +3,7 @@ import { Media } from '../../../domain/Media';
 import { FirebaseService } from './../../../services/firebase.service';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Title, Meta } from '@angular/platform-browser';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -25,11 +25,22 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   constructor(
     private fdb: FirebaseService,
-    private titleService: Title
+    private titleService: Title,
+    private meta: Meta
   ) {}
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
+    this.meta.addTags([
+      { name: 'twitter:card', content: 'summary' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'home' },
+      { property: 'og:title', content: 'Toku Cinema'},
+      { property: 'og:description', content: 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
+       '\"special effects\") cinema and television, as well as media influenced by tokusatsu, and media that provided ' +
+       'influence to the tokusatsu genre.' },
+      // { name: 'og:image', content: '' }
+    ]);
     this.sub = this.fdb.getBranch('media').subscribe((data) => {
 
       // Select a random index in the media branch to display in the content tile
