@@ -3,10 +3,11 @@ import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
 import { FirebaseService } from '../../../services/firebase.service';
+import { MetatagService } from 'app/services/metatag.service';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AngularFireList  } from '@angular/fire/database';
-import { Title, Meta } from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -30,7 +31,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
       private router: Router,
       private route: ActivatedRoute,
       private titleService: Title,
-      private meta: Meta
+      private metatagService: MetatagService
     ) {
 
     this.sub = this.route.params.subscribe(params => {
@@ -46,7 +47,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.mediaDetails = this.media.GetMediaDetails();
 
           this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
-          this.meta.addTags([
+          this.metatagService.updateTags([
             { name: 'twitter:card', content: 'summary' },
             { property: 'og:type', content: 'website' },
             { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },

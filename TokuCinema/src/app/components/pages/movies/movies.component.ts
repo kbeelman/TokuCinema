@@ -1,9 +1,10 @@
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
+import { MetatagService } from 'app/services/metatag.service';
 
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Title, Meta } from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -35,21 +36,21 @@ export class MoviesComponent implements OnInit {
   constructor(
     fdb: FirebaseService,
     private titleService: Title,
-    private meta: Meta
+    private metatagService: MetatagService
   ) {
     this.moviesData = fdb.getBranch('movies');
   }
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
-    this.meta.addTags([
+    this.metatagService.updateTags([
       { name: 'twitter:card', content: 'summary' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://tokucinema.com/movies' },
       { property: 'og:title', content: 'Movie List'},
       { property: 'og:description', content: 'Information on all of your favorite Tokusatsu, ' +
         'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.' },
-      // { property: 'og:image', content: '' }
+      { property: 'og:image', content: '' }
     ]);
     this.moviesData.forEach(element => {
     for (let i = 0; i < element.length; i++) {

@@ -2,6 +2,7 @@ import { DataType } from '../../../domain/Builder';
 import { Movie } from '../../../domain/Movie';
 import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 import { FirebaseService } from '../../../services/firebase.service';
+import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
@@ -29,7 +30,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
     private fdb: FirebaseService,
     private route: ActivatedRoute,
     private titleService: Title,
-    private meta: Meta
+    private metatagService: MetatagService
   ) {
 
     this.sub = this.route.params.subscribe(params => {
@@ -42,7 +43,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           this.pageNotFound = true;
         }
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
-        this.meta.addTags([
+        this.metatagService.updateTags([
           { name: 'twitter:card', content: 'summary' },
           { property: 'og:type', content: 'website' },
           { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
