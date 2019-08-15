@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 // External Dependencies
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 
 // Components
 import { AppComponent } from './app.component';
@@ -77,6 +78,7 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
+    AngularFireStorageModule,
     RouterModule.forRoot([
       {
         path: '',

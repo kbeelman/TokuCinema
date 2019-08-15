@@ -15,8 +15,6 @@ import { Subscription } from 'rxjs';
   templateUrl: './moviedetails.component.html'
 })
 export class MoviedetailsComponent implements OnInit, OnDestroy {
-  private alive: boolean = true;
-  private path: string = '';
   private sub: Subscription;
   public pageNotFound: boolean = false;
   public activeAltCountry: any; // used for mobile alt version selector
@@ -34,7 +32,6 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   ) {
 
     this.sub = this.route.params.subscribe(params => {
-      this.path = params['name'];
 
       fdb.getItemFromBranch(this.router.url, 'movies', true, DataType.Movie).subscribe( (data) => {
         this.movie = data;
