@@ -2,6 +2,7 @@ import { DomainBuilder, DataType } from '../domain/Builder';
 import { StringCleaner, StringType } from '../domain/StringCleaner';
 
 import { Injectable } from '@angular/core';
+import { AngularFireStorage} from '@angular/fire/storage';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -17,7 +18,8 @@ export class FirebaseService {
         }>();
 
     constructor(
-      private db: AngularFireDatabase
+      private db: AngularFireDatabase,
+      private fireStorage: AngularFireStorage
     ) {}
 
     public getBranch(branchName: string): Observable<any> {
@@ -41,13 +43,21 @@ export class FirebaseService {
 
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       const itemString = itemIsRoute ? this.getPathFromRoute(item) : item;
-
       const branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
         map(response => {
           return this.extractDomainObject(response, buildType);
       }));
 
       return branchItem;
+    }
+
+    public getImageUrl(path: string, branchName: string): Observable<any> {
+      const storage = this.fireStorage.ref('images/' + branchName + '/'  + path);
+      return storage.child('thumb-details.png').getDownloadURL();
+    }
+
+    public getImageMetadata(path: string, branchName: string): Observable<any> {
+      return this.fireStorage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
     }
 
     private extractDomainObject(res: any, buildType: DataType): Observable<any> {

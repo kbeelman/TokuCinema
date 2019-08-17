@@ -56,6 +56,17 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
               this.mediaDetails.Distributor + ' Information.' },
             { property: 'og:image', content: this.mediaDetails.BoxArt[1] }
           ]);
+          fdb.getImageMetadata(this.media.Path, 'media').subscribe((metadata) => {
+            const customMetadata = metadata.customMetadata;
+            if (customMetadata) {
+              if (customMetadata.width && customMetadata.height) {
+                this.metatagService.updateTags([
+                  { property: 'og:image:width', content: customMetadata.width },
+                  { property: 'og:image:height', content: customMetadata.height }
+                ]);
+              }
+            }
+          });
 
           this.mediaDetails.MovieDetails.forEach(element => {
             fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (movieData) => {

@@ -97,7 +97,7 @@ export class MediaGalleryComponent implements OnInit {
         if (item.ItemType === ItemType.Image) {
             this.activeItemSource = item.GetSource();
         }
-        if (item.ItemType = ItemType.Video) {
+        if (item.ItemType === ItemType.Video) {
             this.activeItemSource = this.getTrustedUrl('https://www.youtube.com/embed/' + this.activeItem.GetSource());
         }
     }

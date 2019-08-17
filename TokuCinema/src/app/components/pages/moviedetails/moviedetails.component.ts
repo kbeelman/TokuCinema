@@ -48,6 +48,17 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           { property: 'og:description', content: this.movie.OfficialTitle },
           { property: 'og:image', content: this.movie.OriginalPoster[1] }
         ]);
+        fdb.getImageMetadata(this.movie.Path, 'movies').subscribe((metadata) => {
+          const customMetadata = metadata.customMetadata;
+          if (customMetadata) {
+            if (customMetadata.width && customMetadata.height) {
+              this.metatagService.updateTags([
+                { property: 'og:image:width', content: customMetadata.width },
+                { property: 'og:image:height', content: customMetadata.height }
+              ]);
+            }
+          }
+        });
       });
 
       fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
