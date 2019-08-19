@@ -47,14 +47,17 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.mediaDetails = this.media.GetMediaDetails();
 
           this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
+          const imageAltTextTag = 'Image showing a movie poster for ' + this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0];
+          const descriptionTag = this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' from ' +
+          this.mediaDetails.Distributor + ' Information.';
           this.metatagService.updateTags([
-            { name: 'twitter:card', content: 'summary' },
-            { property: 'og:type', content: 'website' },
             { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
             { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' Information'},
-            { property: 'og:description', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' from ' +
-              this.mediaDetails.Distributor + ' Information.' },
-            { property: 'og:image', content: this.mediaDetails.BoxArt[1] }
+            { property: 'og:description', content: descriptionTag },
+            { name: 'description', content: descriptionTag },
+            { property: 'og:image', content: this.mediaDetails.BoxArt[1] },
+            { property: 'og:image:alt', content: imageAltTextTag },
+            { name: 'twitter:image:alt', content: imageAltTextTag }
           ]);
           fdb.getImageMetadata(this.media.Path, 'media').subscribe((metadata) => {
             const customMetadata = metadata.customMetadata;

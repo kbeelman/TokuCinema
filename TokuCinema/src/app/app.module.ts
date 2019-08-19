@@ -85,6 +85,14 @@ import { environment } from '../environments/environment';
         component: HomeComponent
       },
       {
+        path: 'home',
+        component: HomeComponent
+      },
+      {
+        path: 'index',
+        component: HomeComponent
+      },
+      {
         path: 'about',
         component: AboutComponent
       },

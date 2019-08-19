@@ -40,13 +40,16 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           this.pageNotFound = true;
         }
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
+        const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
+        const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').'
         this.metatagService.updateTags([
-          { name: 'twitter:card', content: 'summary' },
-          { property: 'og:type', content: 'website' },
           { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
           { property: 'og:title', content: this.movie.OfficialTitle },
-          { property: 'og:description', content: this.movie.OfficialTitle },
-          { property: 'og:image', content: this.movie.OriginalPoster[1] }
+          { property: 'og:description', content: descriptionTag },
+          { name: 'description', content: descriptionTag },
+          { property: 'og:image', content: this.movie.OriginalPoster[1] },
+          { property: 'og:image:alt', content: imageAltTextTag },
+          { name: 'twitter:image:alt', content: imageAltTextTag }
         ]);
         fdb.getImageMetadata(this.movie.Path, 'movies').subscribe((metadata) => {
           const customMetadata = metadata.customMetadata;

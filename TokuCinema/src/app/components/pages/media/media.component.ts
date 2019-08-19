@@ -89,13 +89,13 @@ export class MediaComponent implements OnInit {
     });
 
     this.titleService.setTitle(this.title);
+    const descriptionTag = 'Details on home media releases across a wide range of formats, ' +
+    'as well as reviews capturing everything from video quality to special features.'
     this.metatagService.updateTags([
-      { name: 'twitter:card', content: 'summary' },
-      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://tokucinema.com/media' },
       { property: 'og:title', content: 'Home Media Releases'},
-      { property: 'og:description', content: 'Details on home media releases across a wide range of formats, ' +
-        'as well as reviews capturing everything from video quality to special features.' },
+      { property: 'og:description', content: descriptionTag },
+      { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
   }

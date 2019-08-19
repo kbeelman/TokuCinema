@@ -32,14 +32,14 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
+    const descriptionTag = 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
+    '\"special effects\") cinema and television, as well as media influenced by tokusatsu, and media that provided ' +
+    'influence to the tokusatsu genre.';
     this.metatagService.updateTags([
-      { name: 'twitter:card', content: 'summary' },
-      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://tokucinema.com' },
       { property: 'og:title', content: 'Toku Cinema'},
-      { property: 'og:description', content: 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
-       '\"special effects\") cinema and television, as well as media influenced by tokusatsu, and media that provided ' +
-       'influence to the tokusatsu genre.' },
+      { property: 'og:description', content: descriptionTag },
+      { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
     this.sub = this.fdb.getBranch('media').subscribe((data) => {

@@ -43,13 +43,13 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
+    const descriptionTag = 'Information on all of your favorite Tokusatsu, ' +
+    'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.';
     this.metatagService.updateTags([
-      { name: 'twitter:card', content: 'summary' },
-      { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://tokucinema.com/movies' },
       { property: 'og:title', content: 'Movie List'},
-      { property: 'og:description', content: 'Information on all of your favorite Tokusatsu, ' +
-        'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.' },
+      { property: 'og:description', content: descriptionTag },
+      { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
     this.moviesData.forEach(element => {

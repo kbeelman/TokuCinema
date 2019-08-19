@@ -1,3 +1,5 @@
+import { MetatagService } from 'app/services/metatag.service';
+
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
@@ -11,28 +13,42 @@ export class AboutComponent implements OnInit {
       name: 'Kiefer',
       imgUrl: 'https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/' +
         'images%2Fabout%2Fkiefer.png?alt=media&token=c35652cf-4eab-4597-8320-d1b6a0fd792f',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-        'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ' +
-        'exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      bio: 'Kiefer has been a fan of Godzilla since 1998 when he first saw GODZILLA, KING OF THE MONSTERS! (1956). ' +
+      'Over the next decade, he became a fan of home video and the Tokusatsu genre as a whole, with the help of home ' +
+      'video releases from ADV and Media Blasters. Over the years, Kiefer has repeadedly come accross questions relating ' +
+      'to what the special features of a partiular DVD are, or what version of a movie was included on a Blu-ray, ' +
+      'so he has striven to collect this information in a singular and accessible location, which has manifested itself as ' +
+      'Toku Cinema. Kiefer helps with the software development and content generation of the Toku Cinema website.',
       url: 'https://www.linkedin.com/in/kbeelman/'
     },
     {
       name: 'Joey',
       imgUrl: 'https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/' +
         'images%2Fabout%2Fjoseph.png?alt=media&token=2054f594-d96c-4573-a285-abe24ec4caee',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ' +
-      'incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ' +
-      'exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      bio: 'Joey has been a fan of the Godzilla series since childhood, and was helped by his grandfather who would record ' +
+      'TV airings of Godzilla movies onto VHS tapes. As a skilled Software Engineer, Joey lends his talents to assisting with the ' +
+      'software development of the Toku Cinema website.',
       url: 'https://www.linkedin.com/in/josephwbayes/'
     }
   ];
 
   title = 'About - Toku Cinema';
 
-  constructor(private titleService: Title) { }
+  constructor(
+    private metatagService: MetatagService,
+    private titleService: Title
+  ) { }
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
+    const descriptionTag = 'About the developers of the Toku Cinema website.';
+    this.metatagService.updateTags([
+      { property: 'og:url', content: 'https://tokucinema.com/about' },
+      { property: 'og:title', content: 'About - Toku Cinema'},
+      { property: 'og:description', content: descriptionTag },
+      { name: 'description', content: descriptionTag },
+      { property: 'og:image', content: '' }
+    ]);
   }
 
 }
