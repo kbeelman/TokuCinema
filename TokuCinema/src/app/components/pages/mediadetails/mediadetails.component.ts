@@ -43,8 +43,6 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
           this.pageNotFound = true;
         }
 
-        this.getImageUrls();
-
         this.mediaDetails = this.media.GetMediaDetails();
 
         this.setMetaTags();
@@ -130,14 +128,5 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     })
 
     return this.hasRuntimes;
-  }
-
-  /**
-   * @description Gets the image URLs that this Media Details uses.
-   */
-  private getImageUrls(): void {
-    this.fdb.getImageUrl('media', this.media.Path, 'THUMB_DETAILS').subscribe((imageUrl) => {
-      this.coverUrl = imageUrl;
-    });
   }
 }
