@@ -855,7 +855,7 @@
             "Distributor": "Toho",
             "Director": "Hideaki Anno",
             "Series": "Godzilla",
-            "Era": "New Generation",
+            "Era": "Reiwa",
             "Runtime": "119",
             "Path": "Godzilla-Shin-2016",
             "Crew": [
@@ -923,7 +923,7 @@
             "Distributor": "Toho, Netflix",
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
-            "Era": "New Generation",
+            "Era": "Reiwa",
             "Runtime": "89",
             "Path": "Godzilla-Monster-Planet-2017",
             "Crew": [
@@ -961,14 +961,17 @@
             "Distributor": "Toho",
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
-            "Era": "New Generation",
+            "Era": "Reiwa",
             "Runtime": "100",
             "Path": "Godzilla-City-2018"
         },
         {
             "OfficialTitle": "Godzilla: The Planet Eater",
             "AlternateTitles": [],
-            "OriginalPoster": [],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-card.png?alt=media&token=bc3dc28f-4a4f-4764-b104-9652f08b225b",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-details.png?alt=media&token=971dfee5-5416-4465-8029-4d24d2281b48"
+            ],
             "ReleaseDate": "2018",
             "ProductionCompany": "Polygon Pictures, Toho",
             "CountryOfOrigin": "Japan",
@@ -976,14 +979,17 @@
             "Distributor": "Toho",
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
-            "Era": "New Generation",
+            "Era": "Reiwa",
             "Runtime": "",
-            "Path": "Godzilla-Third-Anime-2018"
+            "Path": "Godzilla-Planet-Eater-2018"
         },
         {
             "OfficialTitle": "Godzilla: King of the Monsters",
             "AlternateTitles": [],
-            "OriginalPoster": [],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-King-Monsters-2019%2Fthumb-card.png?alt=media&token=99f433e6-0556-42a9-b2c8-49863f14b337",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-King-Monsters-2019%2Fthumb-details.png?alt=media&token=0eb885ab-1ac7-4435-9ae0-52bed92de536"
+            ],
             "ReleaseDate": "2019-03-22",
             "ProductionCompany": "Legendary Entertainment",
             "CountryOfOrigin": "United States",
