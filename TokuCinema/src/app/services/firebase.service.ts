@@ -6,6 +6,7 @@ import { AngularFireStorage} from '@angular/fire/storage';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { ImageTypes } from 'app/domain/Types';
 
 @Injectable()
 export class FirebaseService {
@@ -51,9 +52,21 @@ export class FirebaseService {
       return branchItem;
     }
 
-    public getImageUrl(path: string, branchName: string): Observable<any> {
-      const storage = this.fireStorage.ref('images/' + branchName + '/'  + path);
-      return storage.child('thumb-details.png').getDownloadURL();
+    public getImageUrl(branchName: string, path: string, imageType: ImageTypes, subDirectory?: string): Observable<any> {
+      let filename: string;
+      if (imageType === 'THUMB_CARD') {
+        filename = 'thumb-card.png';
+      } else if (imageType === 'THUMB_DETAILS') {
+        filename = 'thumb-details.png'
+      }
+      let storageDirectory;
+      if (subDirectory) {
+        storageDirectory = 'images/' + branchName + '/'  + path + '/' + subDirectory;
+      } else {
+        storageDirectory = 'images/' + branchName + '/'  + path;
+      }
+      const storage = this.fireStorage.ref(storageDirectory);
+      return storage.child(filename).getDownloadURL();
     }
 
     public getImageMetadata(path: string, branchName: string): Observable<any> {

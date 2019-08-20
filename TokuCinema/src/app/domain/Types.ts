@@ -16,3 +16,4 @@ export type Series = 'Godzilla' | 'Gamera' | 'Universal';
 
 export type Era = 'Showa' | 'Heisei';
 
+export type ImageTypes = 'THUMB_CARD' | 'THUMB_DETAILS' | 'FULL_RES';
