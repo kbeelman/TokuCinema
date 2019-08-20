@@ -1,17 +1,17 @@
-export type AspectRatio = '4:3' |  '16:9' | '2.35:1' | '2.40:1';
+export type AspectRatioType = '4:3' |  '16:9' | '2.35:1' | '2.40:1';
 
 export type ColorType = 'Black & White' | 'Color';
 
-export type Language = 'English' | 'Japanese' | 'German' | 'French' | 'Korean';
+export type LanguageType = 'English' | 'Japanese' | 'German' | 'French' | 'Korean';
 
-export type Medium = 'DVD' | 'VHS' | 'Blu-Ray';
+export type MediumType = 'DVD' | 'VHS' | 'Blu-Ray';
 
-export type Format = 'Single Sided' | 'Dual-Layer';
+export type FormatType = 'Single Sided' | 'Dual-Layer';
 
-export type ColorSystem = 'NTSC';
+export type ColorSystemType = 'NTSC';
 
-export type Country = 'Japan' | 'UnitedStates';
+export type CountryType = 'Japan' | 'UnitedStates';
 
-export type Series = 'Godzilla' | 'Gamera' | 'Universal';
+export type SeriesType = 'Godzilla' | 'Gamera' | 'Universal';
 
-export type Era = 'Showa' | 'Heisei';
+export type EraType = 'Showa' | 'Heisei';

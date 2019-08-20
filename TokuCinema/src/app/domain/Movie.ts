@@ -1,5 +1,5 @@
 import { StringCleaner, StringType } from './StringCleaner';
-import { Country, Language, Series, Era } from './Types';
+import { CountryType, LanguageType, SeriesType, EraType } from './Types';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
@@ -17,12 +17,12 @@ export class Movie implements ISearchable {
         public OriginalPoster: Array<string>,
         public ReleaseDateString: string,
         public ProductionCompany: string,
-        public CountryOfOrigin: Country,
-        public Languages: Array<Language>,
+        public CountryOfOrigin: CountryType,
+        public Languages: Array<LanguageType>,
         public Distributor: string,
         public Director: string,
-        public Series: Series,
-        public Era: Era,
+        public Series: SeriesType,
+        public Era: EraType,
         public Runtime: number,
         public Crew: Array<{'PositionTitle': string, 'Name': string}>,
         public Cast: Array<{'ActorName': string, 'RoleName': string}>,

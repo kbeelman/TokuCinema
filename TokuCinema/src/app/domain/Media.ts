@@ -1,5 +1,5 @@
 import { StringCleaner, StringType } from './StringCleaner';
-import { AspectRatio, ColorSystem, ColorType, Language, Medium, Format } from './Types';
+import { ColorSystemType, LanguageType } from './Types';
 import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
@@ -21,16 +21,16 @@ export class Media implements ISearchable {
         public Color: Array<{'Version': string, 'Color': string}>,
         public ChapterStops: Array<{'Version': string, 'Count': number}>,
         public Subtitles: Array<string>,
-        public SubtitlesDetails: Array<Language>,
+        public SubtitlesDetails: Array<LanguageType>,
         public AudioTracks: Array<string>,
-        public AudioTracksDetails: Array<Language>,
+        public AudioTracksDetails: Array<LanguageType>,
         // Medium Information
         public Medium: Array<string>,
         public Format: Array<{'Medium': string, 'Format': number}>,
         public Region: Array<{'Medium': string, 'Region': string}>,
         public Country: string,
         public MediumCount: Array<{'Medium': string, 'Count': number}>,
-        public ColorSystem: ColorSystem,
+        public ColorSystem: ColorSystemType,
         public Screencaps: Array<string>,
         // Distributor Information
         public Distributor: string,
