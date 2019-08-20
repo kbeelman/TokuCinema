@@ -2318,6 +2318,265 @@
             ]
         },
         {
+            "Path": "Godzilla-Gigan-1972",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Gigan"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Hilton","RoleName":"Fumio Sudo"},
+                                {"ActorName":"Michael Kaye","RoleName":"Shosaku"},
+                                {"ActorName":"Linda Masson","RoleName":"Tomoko Tomoe"},
+                                {"ActorName":"Ted Thomas","RoleName":"Kubota, Radio Announcer, Godzilla"},
+                                {"ActorName":"Esma Wilson","RoleName":"Machiko Shima"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "89",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An English international dub was made in Hong Kong. The international version omits the comic book bubbles when Godzilla and Anguirus are speaking to each other, instead opting to dub them."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "New World Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "89",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "New World Home Video's release of the film to VHS and LaserDisc contains the international version, but utilizes a video-generated ending title featuring copyright information."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sony",
+                                    "MediaPath": [],
+                                    "Runtime": "89",
+                                    "ReleaseDate": "2004-10-19",
+                                    "Notes": [
+                                        "When Sony released Godzilla vs. Gigan on DVD in 2004, they made a new video master for Toho.",
+                                        "This version features a new video-generated title card, which is strangely tinted green. This version also has new video-generated opening credits which fix a mistranslation of Teruyoshi Nakano's name. The ending title is video generated and features copyright information below it.",
+                                        "Sony tried to correct a recurring audio glitch in the original dub by cutting it out, however this causes the dub to occasionally go off-sync."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Revised International",
+                                    "MediaPath": [],
+                                    "Runtime": "89",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A newer revised international version exists, which has only aired on the Sci-Fi channel and has never been released on home video, notably retains the comic book bubbles. The dub is the same as the previous international dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla on Monster Island"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Cinema Shares",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The US theatrical version utilized Toho's international dub, but retitled the movie to Godzilla on Monster Island.",
+                                        "There are conflicting accounts as to whether or not the theatrical version of the movie was uncut. What is known is that Cinema Shares' TV prints cut the \"hard bitch\" line, along with some bloody scenes."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla in \"War of the Monsters\""}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Miracle Films",
+                            "ReleaseDate": "1977-02-21",
+                            "Runtime":"88:57",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"A"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Australia",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmways Australasia Distribution",
+                            "ReleaseDate": "Circa June 1974",
+                            "Runtime":"88:57",
+                            "Rating": [{"RatingSystem":"","RatingValue":"PG"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Objectif Terre, Mission Apocalypse"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1973-08-09",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "VHS",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "Initially released on VHS with the original title by Fantastic Video."
+                                ]
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankensteins Höllenbrut"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin",
+                            "ReleaseDate": "1973-11-01",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla contra Gigan"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "This dub has never been released on home video, and is considered to be lost."
+                                ]
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Galien, el monstruo de las galaxias ataca la Tierra"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1980-04-28",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "This dub has never been released on home video, and is considered to be lost."
+                                ]
+                            }]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla contra Gigan"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "A new Spanish dub produced for the home video release."
+                                ]
+                            }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Godzilla-Mechagodzilla-1974",
             "Countries": [
                 {
@@ -2434,6 +2693,34 @@
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Hungary",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla a Mechagodzilla Ellen"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1989-06-01",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "Theatrical",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "This is the only Japanese Godzilla film to be released in Hungary, and is possibly the only major dub of a kaiju film in a Uralic language.",
+                                    "This version was released on home video by Mokép Rt. in 1994."
+                                ]
+                            }]
                         }
                     ]
                 }
