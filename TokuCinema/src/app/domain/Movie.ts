@@ -144,6 +144,15 @@ export class Movie implements ISearchable {
       return cleanKeywords;
     }
 
+    public doesPosterExist(): boolean {
+        if (typeof this.OriginalPoster !== 'undefined') {
+            if (this.OriginalPoster.length > 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public doesAtlernateTitlesExist(): boolean {
         if (typeof this.AlternateTitles !== 'undefined') {
             if (this.AlternateTitles.length > 0) {

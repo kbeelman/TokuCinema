@@ -42,26 +42,29 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
         const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
         const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').'
+        const imageUrlTag = this.movie.doesPosterExist() ? this.movie.OriginalPoster[1] : '';
         this.metatagService.updateTags([
           { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
           { property: 'og:title', content: this.movie.OfficialTitle },
           { property: 'og:description', content: descriptionTag },
           { name: 'description', content: descriptionTag },
-          { property: 'og:image', content: this.movie.OriginalPoster[1] },
-          { property: 'og:image:alt', content: imageAltTextTag },
-          { name: 'twitter:image:alt', content: imageAltTextTag }
+          { property: 'og:image', content: imageUrlTag }
         ]);
-        fdb.getImageMetadata(this.movie.Path, 'movies').subscribe((metadata) => {
-          const customMetadata = metadata.customMetadata;
-          if (customMetadata) {
-            if (customMetadata.width && customMetadata.height) {
-              this.metatagService.updateTags([
-                { property: 'og:image:width', content: customMetadata.width },
-                { property: 'og:image:height', content: customMetadata.height }
-              ]);
+        if (this.movie.doesPosterExist()) {
+          fdb.getImageMetadata(this.movie.Path, 'movies').subscribe((metadata) => {
+            const customMetadata = metadata.customMetadata;
+            if (customMetadata) {
+              if (customMetadata.width && customMetadata.height) {
+                this.metatagService.updateTags([
+                  { property: 'og:image:width', content: customMetadata.width },
+                  { property: 'og:image:height', content: customMetadata.height },
+                  { property: 'og:image:alt', content: imageAltTextTag },
+                  { name: 'twitter:image:alt', content: imageAltTextTag }
+                ]);
+              }
             }
-          }
-        });
+          });
+        }
       });
 
       fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
