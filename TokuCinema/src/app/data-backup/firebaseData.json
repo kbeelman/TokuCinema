@@ -1073,7 +1073,10 @@
         {
             "OfficialTitle": "Godzilla vs. Kong",
             "AlternateTitles": [],
-            "OriginalPoster": [],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fcoming-soon%2Fthumb-card.png?alt=media&token=f349945b-05ec-483e-9cfa-9f91d53ed277",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fcoming-soon%2Fthumb-details.png?alt=media&token=947e071f-3d0d-407b-b0ac-25dcf14797f7"
+            ],
             "ReleaseDate": "2020-03-13",
             "ProductionCompany": "Legendary Entertainment",
             "CountryOfOrigin": "United States",
