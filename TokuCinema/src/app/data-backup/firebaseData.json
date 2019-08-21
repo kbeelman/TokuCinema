@@ -954,16 +954,36 @@
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-City-2018%2Fthumb-card.png?alt=media&token=2dda3ad2-6928-4b82-9477-38a64403317c",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-City-2018%2Fthumb-details.png?alt=media&token=1c732cd2-3368-4d9f-91b3-84b9b1178510"
             ],
-            "ReleaseDate": "May 2018",
+            "ReleaseDate": "2018-05-18",
             "ProductionCompany": "Polygon Pictures, Toho",
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese","English"],
-            "Distributor": "Toho",
+            "Distributor": "Toho, Netflix",
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
             "Era": "Reiwa",
             "Runtime": "100",
-            "Path": "Godzilla-City-2018"
+            "Path": "Godzilla-City-2018",
+            "Crew": [
+                {"PositionTitle":"Directors","Name":"Kobun Shizuno and Hiroyuki Seshita"},
+                {"PositionTitle":"Producer","Name":"Takashi Yoshizawa"},
+                {"PositionTitle":"Writer","Name":"Gen Urobuchi"},
+                {"PositionTitle":"Composer","Name":"Takayuki Hattori"}
+            ],
+            "Cast": [
+                {"ActorName":"Mamoru Miyano","RoleName":"Haruo Sakaki"},
+                {"ActorName":"Takahiro Sakurai","RoleName":"Metphies"},
+                {"ActorName":"Tomokazu Sugita","RoleName":"Martin Lazzari"},
+                {"ActorName":"Junichi Suwabe","RoleName":"Mulu Elu Galu Gu"},
+                {"ActorName":"Reina Ueda","RoleName":"Maina"},
+                {"ActorName":"Ari Ozawa","RoleName":"Miana"},
+                {"ActorName":"Kenta Miyake","RoleName":"Rilu-Elu Belu-be"},
+                {"ActorName":"Kana Hanazawa","RoleName":"Yuko Tani"},
+                {"ActorName":"Yuki Kaji","RoleName":"Adam Bindewald"},
+                {"ActorName":"Kenyu Horiuchi","RoleName":"Unberto Mori"},
+                {"ActorName":"Kazuya Nakai","RoleName":"Halu-Elu Dolu-do"},
+                {"ActorName":"Kazuhiro Yamaji","RoleName":"Endurphe"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla: The Planet Eater",
@@ -972,16 +992,44 @@
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-card.png?alt=media&token=bc3dc28f-4a4f-4764-b104-9652f08b225b",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-details.png?alt=media&token=971dfee5-5416-4465-8029-4d24d2281b48"
             ],
-            "ReleaseDate": "2018",
+            "ReleaseDate": "2018-11-09",
             "ProductionCompany": "Polygon Pictures, Toho",
             "CountryOfOrigin": "Japan",
             "Languages": ["Japanese","English"],
-            "Distributor": "Toho",
+            "Distributor": "Toho, Netflix",
             "Director": "Kobun Shizuno, Hiroyuki Seshita",
             "Series": "Godzilla",
             "Era": "Reiwa",
-            "Runtime": "",
-            "Path": "Godzilla-Planet-Eater-2018"
+            "Runtime": "90",
+            "Path": "Godzilla-Planet-Eater-2018",
+            "Crew": [
+                {"PositionTitle":"Directors","Name":"Kobun Shizuno and Hiroyuki Seshita"},
+                {"PositionTitle":"Producer","Name":"Takashi Yoshizawa"},
+                {"PositionTitle":"Writer","Name":"Gen Urobuchi"},
+                {"PositionTitle":"Composer","Name":"Takayuki Hattori"}
+            ],
+            "Cast": [
+                {"ActorName":"Mamoru Miyano","RoleName":"Haruo Sakaki"},
+                {"ActorName":"Takahiro Sakurai","RoleName":"Metphies"},
+                {"ActorName":"Kana Hanazawa","RoleName":"Yuko Tani"},
+                {"ActorName":"Tomokazu Sugita","RoleName":"Martin Lazzari"},
+                {"ActorName":"Yuki Kaji","RoleName":"Adam Bindewald"},
+                {"ActorName":"Reina Ueda","RoleName":"Maina"},
+                {"ActorName":"Ari Ozawa","RoleName":"Miana"},
+                {"ActorName":"Daisuke Ono","RoleName":"Eliott Leland"},
+                {"ActorName":"Kenyu Horiuchi","RoleName":"Unberto Mori"},
+                {"ActorName":"Kazuya Nakai","RoleName":"Halu-Elu Dolu-do"},
+                {"ActorName":"Kazuhiro Yamaji","RoleName":"Endurphe"},
+                {"ActorName":"Kazuhiro Yamaji","RoleName":"Munaku"},
+                {"ActorName":"Saori Hayami","RoleName":"Haruka Sakaki"},
+                {"ActorName":"Kenichi Suzumura","RoleName":"Akira Sakaki"},
+                {"ActorName":"Haruki Ishiya","RoleName":"Josh Emerson"},
+                {"ActorName":"Junichi Yanagita","RoleName":"Marco Gione"},
+                {"ActorName":"Kanehiro Yamamoto","RoleName":"Takeshi J. Hamamoto"},
+                {"ActorName":"Tomisaburō Horikoshi","RoleName":"Daichi Tani"},
+                {"ActorName":"Junichi Suwabe","RoleName":"Mulu Elu Galu Gu"},
+                {"ActorName":"Kenta Miyake","RoleName":"Rilu-Elu Belu-be"}
+            ]
         },
         {
             "OfficialTitle": "Godzilla: King of the Monsters",
@@ -1026,7 +1074,7 @@
             "OfficialTitle": "Godzilla vs. Kong",
             "AlternateTitles": [],
             "OriginalPoster": [],
-            "ReleaseDate": "2020-05-22",
+            "ReleaseDate": "2020-03-13",
             "ProductionCompany": "Legendary Entertainment",
             "CountryOfOrigin": "United States",
             "Languages": ["English"],
@@ -3264,6 +3312,129 @@
                                     "ReleaseDate": "2017-12-04",
                                     "Notes": [
                                         "The UK release of Shin Godzilla contains two discs; one with the Japanese version, and one with Funimation's English dub. The Japanese version presented is the same as the Japanese theatrical version, complete with the original visual effects and Japanese on-screen text. The English version is the updated home video version, complete with updated visual effects and localized English on-screen text."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-City-2018",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"English","TitleValue":"Godzilla: City on the Edge of Battle"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
+                                {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
+                                {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
+                                {"ActorName":"Jamieson Price (as Taylor Henry)","RoleName":"Mulu Elu Galu Gu"},
+                                {"ActorName":"Kendall Gimbi","RoleName":"Maina"},
+                                {"ActorName":"Rachelle Heger","RoleName":"Miana"},
+                                {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
+                                {"ActorName":"Cristina Vee","RoleName":"Yuko Tani"},
+                                {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
+                                {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
+                                {"ActorName":"Doug Stone","RoleName":"Halu-Elu Dolu-do"},
+                                {"ActorName":"Joe Ochman","RoleName":"Endurphe"},
+                                {"ActorName":"Frank Gerrish","RoleName":""},
+                                {"ActorName":"E Bentley","RoleName":""},
+                                {"ActorName":"David Sylvain","RoleName":""},
+                                {"ActorName":"Paul St. Peter","RoleName":""},
+                                {"ActorName":"Chris Hackney","RoleName":""},
+                                {"ActorName":"Kristine De Los Santos","RoleName":""},
+                                {"ActorName":"Bill Rogers","RoleName":""},
+                                {"ActorName":"Micahel Vasque","RoleName":""},
+                                {"ActorName":"Roy Lee Pitts III","RoleName":""},
+                                {"ActorName":"Alexey Strekalov","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Artistic Director","Name":"Tyler Rhoads"},
+                                {"PositionTitle":"Adapter","Name":"Tyler Rhoads"},
+                                {"PositionTitle":"Production Manager","Name":"Mary Kay De Guzman"},
+                                {"PositionTitle":"Production Coordinator","Name":"Kristine De Los Santos"},
+                                {"PositionTitle":"ADR Engineers","Name":"Eli Hauschel, Tony McVann, Erik Karsen Puhm"}
+                            ],
+                            "DubCompany": "Post Haste Digital",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "2018-07-18",
+                            "Runtime":"100",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "English Dub",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The English dubbed version, released by Netflix, is identical to the Japanese theatrical version of the movie."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Planet-Eater-2018",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"English","TitleValue":"Godzilla: The Planet Eater"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
+                                {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
+                                {"ActorName":"Cristina Vee","RoleName":"Yuko Tani"},
+                                {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
+                                {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
+                                {"ActorName":"Kendall Gimbi","RoleName":"Maina"},
+                                {"ActorName":"Rachelle Heger","RoleName":"Miana"},
+                                {"ActorName":"Danny Boston","RoleName":"Eliott Leland"},
+                                {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
+                                {"ActorName":"Doug Stone","RoleName":"Halu-Elu Dolu-do"},
+                                {"ActorName":"Joe Ochman","RoleName":"Endurphe"},
+                                {"ActorName":"Laura Post","RoleName":"Haruka Sakaki"},
+                                {"ActorName":"Danny Boston","RoleName":"Akira Sakaki"},
+                                {"ActorName":"Bill Rogers","RoleName":"Josh Emerson"},
+                                {"ActorName":"Paul St. Peter","RoleName":"Takeshi J. Hamamoto"},
+                                {"ActorName":"Paul St. Peter","RoleName":"Daichi Tani"},
+                                {"ActorName":"Jamieson Price (as Taylor Henry)","RoleName":"Mulu Elu Galu Gu"},
+                                {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
+                                {"ActorName":"Kristine De Los Santos","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Artistic Director","Name":"Tyler Rhoads"},
+                                {"PositionTitle":"Adapter","Name":"Rachelle Heger"},
+                                {"PositionTitle":"Production Manager","Name":"Mary Kay De Guzman"},
+                                {"PositionTitle":"Production Coordinator","Name":"Kristine De Los Santos"},
+                                {"PositionTitle":"ADR Engineer","Name":"Manuele Pepe"}
+                            ],
+                            "DubCompany": "Post Haste Digital",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "201-01-09",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "English Dub",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The English dubbed version, released by Netflix, is identical to the Japanese theatrical version of the movie."
                                     ]
                                 }
                             ]
