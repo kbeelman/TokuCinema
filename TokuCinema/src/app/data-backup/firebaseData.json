@@ -987,7 +987,7 @@
         },
         {
             "OfficialTitle": "Godzilla: The Planet Eater",
-            "AlternateTitles": [],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"GODZILLA 星を喰う者"},{"TitleType":"Hepburn","TitleValue":"Gojira: Hoshi o Ku Mono"},{"TitleType":"Literal Translation","TitleValue":"Godzilla: The City Mechanized for the Final Battle"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-card.png?alt=media&token=bc3dc28f-4a4f-4764-b104-9652f08b225b",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Planet-Eater-2018%2Fthumb-details.png?alt=media&token=971dfee5-5416-4465-8029-4d24d2281b48"
@@ -1033,7 +1033,7 @@
         },
         {
             "OfficialTitle": "Godzilla: King of the Monsters",
-            "AlternateTitles": [],
+            "AlternateTitles": [{"TitleType":"International","TitleValue":"Godzilla II: King of the Monsters"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-King-Monsters-2019%2Fthumb-card.png?alt=media&token=99f433e6-0556-42a9-b2c8-49863f14b337",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-King-Monsters-2019%2Fthumb-details.png?alt=media&token=0eb885ab-1ac7-4435-9ae0-52bed92de536"
@@ -1046,28 +1046,38 @@
             "Director": "Michael Dougherty",
             "Series": "Godzilla",
             "Era": "MonsterVerse",
-            "Runtime": "",
+            "Runtime": "132",
             "Path": "Godzilla-King-Monsters-2019",
             "Crew": [
                 {"PositionTitle":"Director","Name":"Michael Dougherty"},
-                {"PositionTitle":"Producers","Name":"Mary Parent, Alex Garcia, Brian Rogers, Thomas Tull"},
+                {"PositionTitle":"Producers","Name":"Mary Parent, Alex Garcia, Brian Rogers, Thomas Tull, Jon Jashini"},
                 {"PositionTitle":"Co-producer","Name":"Alexandra Mendes"},
-                {"PositionTitle":"Editor","Name":"Roger Barton"},
-                {"PositionTitle":"Executive Producers","Name":"Zach Shields, Barry H. Waldman, Yoshimitsu Banno, Kenji Okuhira"},
-                {"PositionTitle":"Screenwriters","Name":"Michael Dougherty, Zach Shields, Max Borenstein"},
+                {"PositionTitle":"Executive Producers","Name":"Zach Shields, Barry H. Waldman, Dan Lin, Yoshimitsu Banno, Kenji Okuhira"},
+                {"PositionTitle":"Editors","Name":"Roger Barton, Richard Pearson, Bob Ducsay"},
+                {"PositionTitle":"Writers","Name":"Max Borenstein, Michael Dougherty, Zach Shields"},
+                {"PositionTitle":"Screenwriters","Name":"Michael Dougherty, Zach Shields"},
                 {"PositionTitle":"Cinematographer","Name":"Lawrence Sher"},
+                {"PositionTitle":"Composer","Name":"Bear McCreary"},
                 {"PositionTitle":"Production Designer","Name":"Scott Chambliss"},
                 {"PositionTitle":"Costume Designer","Name":"Louise Mingenbach"},
-                {"PositionTitle":"Visual Effects Suppervisor","Name":"Guillaume Rocheron"}
+                {"PositionTitle":"Casting Director","Name":"Sarah Finn"},
+                {"PositionTitle":"Effects and Creature Designer","Name":"Tom Woodruff Jr."},
+                {"PositionTitle":"Visual Effects Supervisor","Name":"Guillaume Rocheron"}
             ],
             "Cast": [
+                {"ActorName":"Kyle Chandler","RoleName":"Doctor Mark Russell"},
                 {"ActorName":"Vera Farmiga","RoleName":"Doctor Emma Russell"},
-                {"ActorName":"Ken Watanabe","RoleName":"Doctor Ishiro Serizawa"},
-                {"ActorName":"Sally Hawkins","RoleName":"Doctor Vivienne Graham"},
-                {"ActorName":"Kyle Chandler","RoleName":"Mark Russell"},
                 {"ActorName":"Millie Bobby Brown","RoleName":"Madison Russell"},
-                {"ActorName":"Bradley Whitford","RoleName":"Doctor Stanton"},
-                {"ActorName":"Anthony Ramos","RoleName":"Colonel Martinez"}
+                {"ActorName":"Alexandra Rachael Rabe","RoleName":"Young Madison Russell"},
+                {"ActorName":"Bradley Whitford","RoleName":"Doctor Rick Stanton"},
+                {"ActorName":"Sally Hawkins","RoleName":"Doctor Vivienne Graham"},
+                {"ActorName":"Charles Dance","RoleName":"Alan Jonah"},
+                {"ActorName":"Thomas Middleditch","RoleName":"Doctor Sam Coleman"},
+                {"ActorName":"Aisha Hinds","RoleName":"Colonel Diane Foster"},
+                {"ActorName":"O'Shea Jackson Jr.","RoleName":"Jackson Barnes"},
+                {"ActorName":"David Strathairn","RoleName":"Admiral William Stenz"},
+                {"ActorName":"Ken Watanabe","RoleName":"Doctor Ishirō Serizawa"},
+                {"ActorName":"Zhang Ziyi","RoleName":"Doctor Ilene Chen and Doctor Ling Chen"}
             ]
         },
         {
@@ -1086,7 +1096,33 @@
             "Series": "Godzilla",
             "Era": "MonsterVerse",
             "Runtime": "",
-            "Path": "Godzilla-Kong-2020"
+            "Path": "Godzilla-Kong-2020",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Adam Wingard"},
+                {"PositionTitle":"Producers","Name":"Mary Parent, Alex Garcia, Eric McLeod, Brian Rogers"},
+                {"PositionTitle":"Co-producer","Name":"Jay Ashenfelter, Jen Conroy, Tamara Kent"},
+                {"PositionTitle":"Executive Producers","Name":"Kenji Okuhira, Yoshimitsu Banno, Jon Jashni, Thonas Tull"},
+                {"PositionTitle":"Editor","Name":"Josh Schaeffer"},
+                {"PositionTitle":"Screenwriters","Name":"Terry Rossio"},
+                {"PositionTitle":"Cinematographer","Name":"Ben Seresin"},
+                {"PositionTitle":"Production Designer","Name":"Owen Patterson, Tom Hammock, Ann Foley"},
+                {"PositionTitle":"Visual Effects Supervisor","Name":"John \"DJ\" DesJardin"}
+            ],
+            "Cast": [
+                {"ActorName":"Kyle Chandler","RoleName":"Doctor Mark Russell"},
+                {"ActorName":"Millie Bobby Brown","RoleName":"Madison Russell"},
+                {"ActorName":"Zhang Ziyi","RoleName":"Doctor Ilene Chen and Doctor Ling Chen"},
+                {"ActorName":"Alexander Skarsgård","RoleName":""},
+                {"ActorName":"Rebecca Hall","RoleName":""},
+                {"ActorName":"Brian Tyree Henry","RoleName":""},
+                {"ActorName":"Shun Oguri","RoleName":""},
+                {"ActorName":"Eiza González","RoleName":""},
+                {"ActorName":"Jessica Henwick","RoleName":""},
+                {"ActorName":"Julian Dennison","RoleName":""},
+                {"ActorName":"Demián Bichir","RoleName":""},
+                {"ActorName":"Van Marten","RoleName":""},
+                {"ActorName":"Lance Reddick","RoleName":""}
+            ]
         },
         {
             "OfficialTitle": "Gamera: The Giant Monster",
