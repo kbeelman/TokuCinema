@@ -2411,6 +2411,245 @@
             ]
         },
         {
+            "Path": "Godzilla-Destroy-All-Monsters-1968",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Destroy All Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Champion Festival (Japanese)","TitleValue":"ゴジラ電撃大作戦"},{"TitleType":"Champion Festival (Hepburn)","TitleValue":"Gojira Dengeki Dai Sakusen"},{"TitleType":"Champion Festival (Literal Translation)","TitleValue":"Godzilla Blitz Operation"}],
+                                    "Name": "Champion Festival",
+                                    "MediaPath": [],
+                                    "Runtime": "72",
+                                    "ReleaseDate": "Circa 1972",
+                                    "Notes": [
+                                        "The original film negative was cut in order to produce the shortend version for Toho's Champion Festival."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"International","TitleValue":"Destroy All Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Frontier Enterprises",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The international dub was created by Frontier Enterprises in Tokyo and conforms to the Japanese version without any alterations."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Destroy All Monsters"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Jack Curtis","RoleName":"News Reader, UNSC Technician, SY-3 Astronaut"},
+                                {"ActorName":"Bernard Grant","RoleName":"Doctor Otani"},
+                                {"ActorName":"Kenneth Harvey","RoleName":"Major Sugiyama Tada"},
+                                {"ActorName":"Hal Linden","RoleName":"Katsuo Yamabe"},
+                                {"ActorName":"Lucy Martin","RoleName":"Kilaak Queen"},
+                                {"ActorName":"Bret Morrison","RoleName":"Dr. Yoshido"},
+                                {"ActorName":"Larry Robinson","RoleName":"Moonlight SY-3 Countdown"},
+                                {"ActorName":"Norman Rose","RoleName":"Narrator"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Titan Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "1969-04-23",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "98",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "AIP's release of Destroy All Monster only contains minor edits:",
+                                        "The Toho logo is replaced with the AIP logo.",
+                                        "The opening credits are moved to the end of the movie, where they are shown on a black background.",
+                                        "The scene transition with Dr. Otani on the SY-3 leaving Monsterland to the scene with him riding in back of a car with Katsuo and Dr. Yoshida was altered from an optical wipe to a close-up from Otani.",
+                                        "In the aftermath of Godzilla, Rodan, Mothra, and Manda's rampage through Tokyo, a quick zoom-in shot of a Japanese sign on a bunker is cut out.",
+                                        "A shot of the SY-3 landing in the Kilaaks base on the moon is longer.",
+                                        "Two shots of Minilla are cut from the final battle. One when Mothra and Kumonga spray Godzilla with silk, and the other is when Angilas loses his grip on King Ghidorah and falls to the ground."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Media Blasters",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2011-11-08",
+                                    "Notes": [
+                                        "When Media Blasters released Destroy All Monsters to DVD and Blu-ray in 2011 they included the AIP dub, which was the first time the AIP dub had been released on home video. The dub was sourced from a 16mm print, and recut to conform to Toho's Japanese version of the film. The dub was pitched incorrectly, and there are some other audio glitches as well, most notably in the beginning durying the SY-3 countdown.",
+                                        "Due to the inclusion of unauthorized special features, Media Blasters' DVD and Blu-ray releases were pulled from the market very shortly after they were released. When the Blu-ray was finally re-released in 2014, it was a barebones release that only included the international dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Destroy All Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1969-09-04",
+                            "Runtime":"88:19",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"X"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankenstein und die Monster aus dem All"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin",
+                            "ReleaseDate": "1971-01-27",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Les envahisseurs attaquent"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Cosmopolis Films",
+                            "ReleaseDate": "Circa September 1970",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical version still exists, but has never been released on home video."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gli eredi di King Kong"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical dub was released on home video by Video Più Entertainment, but was synced to newer a international/textless film source with video generated titles."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Invasión Extraterrestre"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1978-06-16",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Television","TitleValue":"La invasión de lost monstruos"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Godzilla-Gigan-1972",
             "Countries": [
                 {
