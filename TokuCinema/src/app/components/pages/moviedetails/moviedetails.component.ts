@@ -6,7 +6,7 @@ import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
-import { Title, Meta } from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -68,7 +68,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
       });
 
       fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
-        if (!(data === undefined)) {
+        if (data) {
           this.movieAlternateVersion = data;
           this.movieAlternateVersion.Countries[0].Active = true;
           this.activeAltCountry = this.movieAlternateVersion.Countries[0].Country;

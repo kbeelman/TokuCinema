@@ -6,7 +6,7 @@ import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from 'app/services/metatag.service';
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { AngularFireList  } from '@angular/fire/database';
+import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
@@ -27,16 +27,16 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   private sub: Subscription;
 
 
- constructor(private fdb: FirebaseService,
-      private router: Router,
-      private route: ActivatedRoute,
-      private titleService: Title,
-      private metatagService: MetatagService
-    ) {}
+  constructor(private fdb: FirebaseService,
+    private router: Router,
+    private route: ActivatedRoute,
+    private titleService: Title,
+    private metatagService: MetatagService
+  ) { }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(() => {
-      this.fdb.getItemFromBranch(this.router.url, 'media', true, DataType.Media).subscribe( (mediaData) => {
+      this.fdb.getItemFromBranch(this.router.url, 'media', true, DataType.Media).subscribe((mediaData) => {
         this.media = mediaData;
         if (this.media === undefined) {
           // redirect to 404
@@ -61,7 +61,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    */
   subscribeToMediaDetails(): void {
     this.mediaDetails.MovieDetails.forEach(element => {
-      this.fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe( (movieData) => {
+      this.fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe((movieData) => {
         if (movieData) {
           let alreadyContainsMovie: boolean = false;
           this.movieDetails.forEach(existingMovies => {
@@ -81,7 +81,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    * @description Gathers the information for the review object.
    */
   subscribeToReview(): void {
-    this.fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe( (mediaReviewData) => {
+    this.fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe((mediaReviewData) => {
       this.mediaReview = mediaReviewData;
     });
   }
@@ -91,12 +91,12 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    */
   setMetaTags(): void {
     this.titleService.setTitle(this.mediaDetails.Title + ' ' + this.mediaDetails.Medium + ' - Toku Cinema');
-    const imageAltTextTag = 'Image showing a movie poster for ' + this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0];
-    const descriptionTag = this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' from ' +
-    this.mediaDetails.Distributor + ' Information.';
+    const imageAltTextTag = 'Image showing a movie poster for ' + this.mediaDetails.Title + ' ' + this.mediaDetails.getFirstMedium();
+    const descriptionTag = this.mediaDetails.Title + ' ' + this.mediaDetails.getFirstMedium() + ' from ' +
+      this.mediaDetails.Distributor + ' Information.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
-      { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.Medium[0] + ' Information'},
+      { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.getFirstMedium() + ' Information' },
       { property: 'og:description', content: descriptionTag },
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: this.mediaDetails.BoxArt[1] },
@@ -128,5 +128,23 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     })
 
     return this.hasRuntimes;
+  }
+
+  /**
+   * @description Safely retrieves the featured screen cap at the given index
+   * @returns {string} Returns the featured screen cap when available, otherwise an empty string
+   * @param index featured screen cap to retrieve
+   */
+  public getFeaturedScreenCapAtIndex(index: number): string {
+    let screenCap = '';
+
+    if (this.mediaDetails &&
+      this.mediaReview &&
+      this.mediaReview.FeaturedScreenShots &&
+      this.mediaReview.FeaturedScreenShots.length > index) {
+      screenCap = this.mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[index]];
+    }
+
+    return screenCap;
   }
 }

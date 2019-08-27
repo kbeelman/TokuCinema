@@ -7,7 +7,7 @@
     "start": "ng serve -o",
     "build": "ng build --prod",
     "test": "ng test --code-coverage",
-    "test-once": "ng test --single-run --code-coverage",
+    "test-once": "ng test --watch=false --code-coverage",
     "build-dev": "ng build",
     "deploy": "firebase deploy",
     "deploy-dev": "firebase deploy -P dev",

@@ -10,6 +10,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { MoviesComponent } from './movies.component';
 import { FirebaseService } from '../../../services/firebase.service';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { MockFirebaseService } from 'app/services/mock.firebase.service';
 
 describe('MoviesComponent', () => {
   let component: MoviesComponent;
@@ -28,11 +30,17 @@ describe('MoviesComponent', () => {
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule
+        AngularFireDatabaseModule,
+        AngularFireStorageModule
       ],
-      providers: [FirebaseService]
-    })
-    .compileComponents();
+    }).overrideComponent(MoviesComponent,
+      {
+        set: {
+          providers: [
+            { provide: FirebaseService, useClass: MockFirebaseService },
+          ]
+        }
+      }).compileComponents();
   }));
 
   beforeEach(() => {

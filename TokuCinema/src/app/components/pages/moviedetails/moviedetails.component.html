@@ -23,7 +23,7 @@
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
           <li *ngIf="this.movie.Runtime">Original Runtime: {{this.movie.Runtime}} minutes</li>
           <!-- Atlernate Titles Null Check -->
-          <div *ngIf="this.movie.doesAtlernateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
+          <div *ngIf="this.movie.doesAlternateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
             <ng-template #thenBlock_AtlernateTitles_NullCheck>
               <!-- Do we have more than 1 Atlernate Titles? -->
               <div *ngIf="this.movie.AlternateTitles.length>1; then thenBlock_AtlernateTitles_multiple else elseBlock_AtlernateTitles_multiple"></div>
@@ -103,7 +103,7 @@
             <li *ngIf="version.DistributionCompany">Distribution Company: {{version.DistributionCompany}}</li>
             <li *ngIf="version.DubCompany">Dub Studio: {{version.DubCompany}}</li>
             <li *ngIf="version.Runtime">Runtime: {{version.Runtime}} minutes</li>
-            <li *ngIf="version.Rating">Rated: {{version.Rating[0].RatingSystem}} {{version.Rating[0].RatingValue}}</li>
+            <li *ngIf="version.Rating && version.Rating[0]">Rated: {{version.Rating[0].RatingSystem}} {{version.Rating[0].RatingValue}}</li>
           </ul>
           <div class="movie-cast-crew" *ngIf="version.Cast || version.DubCast || version.Crew">
             <div class="movie-alt-cast-crew" *ngIf="version.Cast">
