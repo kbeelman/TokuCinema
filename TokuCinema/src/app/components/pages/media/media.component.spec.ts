@@ -11,6 +11,8 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { FirebaseService } from '../../../services/firebase.service';
 import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { MockFirebaseService } from 'app/services/mock.firebase.service';
 
 describe('MediaComponent', () => {
   let component: MediaComponent;
@@ -30,11 +32,17 @@ describe('MediaComponent', () => {
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule
+        AngularFireDatabaseModule,
+        AngularFireStorageModule
       ],
-      providers: [FirebaseService]
-    })
-    .compileComponents();
+    }).overrideComponent(MediaComponent,
+      {
+        set: {
+          providers: [
+            { provide: FirebaseService, useClass: MockFirebaseService },
+          ]
+        }
+      }).compileComponents();
   }));
 
   beforeEach(() => {

@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from '../../../../environments/environment';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -18,7 +19,8 @@ describe('HomeComponent', () => {
         RouterTestingModule,
         FormsModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule
+        AngularFireDatabaseModule,
+        AngularFireStorageModule
       ],
       providers: [FirebaseService]
     })

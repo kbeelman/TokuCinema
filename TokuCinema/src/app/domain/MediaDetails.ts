@@ -124,4 +124,8 @@ export class MediaDetails {
         }
         return false;
     }
+
+    public getFirstMedium(): string {
+      return this.Medium && this.Medium.length >= 1 ? this.Medium[0] : '';
+    }
 }

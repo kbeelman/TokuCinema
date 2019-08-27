@@ -153,7 +153,7 @@ export class Movie implements ISearchable {
         return false;
     }
 
-    public doesAtlernateTitlesExist(): boolean {
+    public doesAlternateTitlesExist(): boolean {
         if (typeof this.AlternateTitles !== 'undefined') {
             if (this.AlternateTitles.length > 0) {
                 return true;

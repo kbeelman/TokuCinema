@@ -10,6 +10,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { NavComponent } from './nav.component';
 import { SearchResultTabComponent } from '../../sub-pages/search-result-tab/search-result-tab.component';
 import { FirebaseService } from '../../../services/firebase.service';
+import { AngularFireStorageModule } from '@angular/fire/storage';
 
 describe('NavComponent', () => {
   let component: NavComponent;
@@ -26,7 +27,8 @@ describe('NavComponent', () => {
         RouterTestingModule,
         FormsModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule
+        AngularFireDatabaseModule,
+        AngularFireStorageModule
       ],
       providers: [FirebaseService]
     })

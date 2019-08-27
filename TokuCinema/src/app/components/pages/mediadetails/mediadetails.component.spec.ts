@@ -9,6 +9,8 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { MediadetailsComponent } from './mediadetails.component';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { FirebaseService } from '../../../services/firebase.service';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { MockFirebaseService } from 'app/services/mock.firebase.service';
 
 describe('MediadetailsComponent', () => {
   let component: MediadetailsComponent;
@@ -16,16 +18,22 @@ describe('MediadetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MediadetailsComponent, MediaGalleryComponent, NotFoundComponent ],
+      declarations: [MediadetailsComponent, MediaGalleryComponent, NotFoundComponent],
       imports: [
         FormsModule,
         RouterTestingModule,
         AngularFireModule.initializeApp(environment.firebaseConfig),
-        AngularFireDatabaseModule
+        AngularFireDatabaseModule,
+        AngularFireStorageModule
       ],
-      providers: [FirebaseService]
-    })
-    .compileComponents();
+    }).overrideComponent(MediadetailsComponent,
+      {
+        set: {
+          providers: [
+            { provide: FirebaseService, useClass: MockFirebaseService },
+          ]
+        }
+      }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -35,26 +43,26 @@ describe('MediadetailsComponent', () => {
 
     component.movieDetails = [
       new DomainBuilder({
-            'OfficialTitle': 'Godzilla',
-            'AlternateTitles': [
-              {'TitleType': 'Japanese', 'TitleValue': 'ゴジラ'},
-              {'TitleType': 'Hepburn', 'TitleValue': 'Gojira'},
-              {'TitleType': 'Literal Translation', 'TitleValue': 'Godzilla'},
-              {'TitleType': 'U.S. Title', 'TitleValue': 'Godzilla, King of the Monsters!'}
-            ],
-            'OriginalPoster': 'https://vignette4.wikia.nocookie.net/deathbattle/images/9/95/' +
-              'Movie-poster-shop-godzilla_-king-of-the-monsters-_1954_.jpg/revision/latest?cb=20161028143059',
-            'ReleaseDate': '1954-11-03',
-            'ProductionCompany': 'Toho',
-            'CountryOfOrigin': 'Japan',
-            'Languages': ['Japanese', 'English'],
-            'Distributor': 'Toho',
-            'Director': 'Ishiro Honda',
-            'Series': 'Godzilla',
-            'Era': 'Showa',
-            'Runtime': '96',
-            'Path': 'Godzilla-1954'
-        }, DataType.Movie).getDomainObject()
+        'OfficialTitle': 'Godzilla',
+        'AlternateTitles': [
+          { 'TitleType': 'Japanese', 'TitleValue': 'ゴジラ' },
+          { 'TitleType': 'Hepburn', 'TitleValue': 'Gojira' },
+          { 'TitleType': 'Literal Translation', 'TitleValue': 'Godzilla' },
+          { 'TitleType': 'U.S. Title', 'TitleValue': 'Godzilla, King of the Monsters!' }
+        ],
+        'OriginalPoster': 'https://vignette4.wikia.nocookie.net/deathbattle/images/9/95/' +
+          'Movie-poster-shop-godzilla_-king-of-the-monsters-_1954_.jpg/revision/latest?cb=20161028143059',
+        'ReleaseDate': '1954-11-03',
+        'ProductionCompany': 'Toho',
+        'CountryOfOrigin': 'Japan',
+        'Languages': ['Japanese', 'English'],
+        'Distributor': 'Toho',
+        'Director': 'Ishiro Honda',
+        'Series': 'Godzilla',
+        'Era': 'Showa',
+        'Runtime': '96',
+        'Path': 'Godzilla-1954'
+      }, DataType.Movie).getDomainObject()
     ];
   });
 

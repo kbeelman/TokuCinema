@@ -267,27 +267,27 @@
         <div *ngIf="this.mediaReview.Overview">
           <div><h3>Overview</h3></div>
           <div>{{this.mediaReview.Overview}}</div>
-          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[0]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[0]]">
+          <img class="media-review-img" [src]="getFeaturedScreenCapAtIndex(0)">
         </div>
-        <div *ngIf="this.mediaReview.Video[0]">
+        <div *ngIf="this.mediaReview.Video && this.mediaReview.Video[0]">
           <div *ngIf="this.mediaReview.Video[0].Score"><h3>Video: {{this.mediaReview.Video[0].Score}}/5</h3></div>
           <div *ngIf="this.mediaReview.Video[0].Description">{{this.mediaReview.Video[0].Description}}</div>
-          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[1]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[1]]">
+          <img class="media-review-img" [src]="getFeaturedScreenCapAtIndex(1)">
         </div>
-        <div *ngIf="this.mediaReview.Audio[0]">
+        <div *ngIf="this.mediaReview.Audio && this.mediaReview.Audio[0]">
           <div *ngIf="this.mediaReview.Audio[0].Score"><h3>Audio: {{this.mediaReview.Audio[0].Score}}/5</h3></div>
           <div *ngIf="this.mediaReview.Audio[0].Description">{{this.mediaReview.Audio[0].Description}}</div>
-          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[2]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[2]]">
+          <img class="media-review-img" [src]="getFeaturedScreenCapAtIndex(2)">
         </div>
-        <div *ngIf="this.mediaReview.Extras[0]">
+        <div *ngIf="this.mediaReview.Extras && this.mediaReview.Extras[0]">
           <div *ngIf="this.mediaReview.Extras[0].Score"><h3>Extras: {{this.mediaReview.Extras[0].Score}}/5</h3></div>
           <div *ngIf="this.mediaReview.Extras[0].Description">{{this.mediaReview.Extras[0].Description}}</div>
-          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[3]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[3]]">
+          <img class="media-review-img" [src]="getFeaturedScreenCapAtIndex(3)">
         </div>
-        <div *ngIf="this.mediaReview.Overall[0]">
+        <div *ngIf="this.mediaReview.Overall && this.mediaReview.Overall[0]">
           <div *ngIf="this.mediaReview.Overall[0].Score"><h3>Overall: {{this.mediaReview.Overall[0].Score}}/5</h3></div>
           <div *ngIf="this.mediaReview.Overall[0].Description">{{this.mediaReview.Overall[0].Description}}</div>
-          <img *ngIf="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[4]]" class="media-review-img" [src]="mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[4]]">
+          <img class="media-review-img" [src]="getFeaturedScreenCapAtIndex(4)">
         </div>
       </div>
     </ng-template>
