@@ -51,3 +51,6 @@ Thumbs.db
 /functions/**/*.js
 /functions/**/*.js.map
 /functions/typings/
+
+# Firebase hosting
+/.firebase
