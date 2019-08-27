@@ -2463,9 +2463,7 @@
                                     "MediaPath": [],
                                     "Runtime": "72",
                                     "ReleaseDate": "Circa 1972",
-                                    "Notes": [
-                                        "The original film negative was cut in order to produce the shortend version for Toho's Champion Festival."
-                                    ]
+                                    "Notes": []
                                 }
                             ]
                         }
@@ -2477,7 +2475,12 @@
                         {
                             "MainTitle":[{"TitleType":"International","TitleValue":"Destroy All Monsters"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [
+                                {"ActorName":"Burr Middleton","RoleName":"Captain Katsuo Yamabe"},
+                                {"ActorName":"Bud Widom","RoleName":"Dr. Yoshido"},
+                                {"ActorName":"Patricia Kobayashi","RoleName":"Kyoko Manabe, Queen of the Kilaaks"},
+                                {"ActorName":"Robert Dunham","RoleName":"Astronaut Ogata, General Sugiyama Tada"}
+                            ],
                             "Crew": [],
                             "DubCompany": "Frontier Enterprises",
                             "ProductionCompany": "",
