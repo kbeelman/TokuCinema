@@ -2263,6 +2263,35 @@
             "Path": "Godzilla-Ghidorah-Three-Headed-Monster-1964",
             "Countries": [
                 {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ghidorah, the Three-Headed Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"93",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Champion Festival (Japanese)","TitleValue":"ゴジラ・モスラ・キングギドラ 地球最大の決戦"},{"TitleType":"Champion Festival (Hepburn)","TitleValue":"Ggojira・Mosura・Kingu Gidora, Chikyu Saidai No Kessen"},{"TitleType":"Champion Festival (Literal Translation)","TitleValue":"Godzilla, Mothra, King Ghidorah, The World's Largest Decisive Battle"}],
+                                    "Name": "Champion Festival",
+                                    "MediaPath": [],
+                                    "Runtime": "74",
+                                    "ReleaseDate": "Circa 1971",
+                                    "Notes": [
+                                        "The original film negative was cut in order to produce the shortend version for Toho's Champion Festival."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "Country": "United States",
                     "Versions": [
                         {
@@ -2505,7 +2534,6 @@
                                         "AIP's release of Destroy All Monster only contains minor edits:",
                                         "The Toho logo is replaced with the AIP logo.",
                                         "The opening credits are moved to the end of the movie, where they are shown on a black background.",
-                                        "The scene transition with Dr. Otani on the SY-3 leaving Monsterland to the scene with him riding in back of a car with Katsuo and Dr. Yoshida was altered from an optical wipe to a close-up from Otani.",
                                         "In the aftermath of Godzilla, Rodan, Mothra, and Manda's rampage through Tokyo, a quick zoom-in shot of a Japanese sign on a bunker is cut out.",
                                         "A shot of the SY-3 landing in the Kilaaks base on the moon is longer.",
                                         "Two shots of Minilla are cut from the final battle. One when Mothra and Kumonga spray Godzilla with silk, and the other is when Angilas loses his grip on King Ghidorah and falls to the ground."
