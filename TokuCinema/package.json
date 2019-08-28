@@ -11,14 +11,16 @@
     "build-dev": "ng build",
     "deploy": "firebase deploy",
     "deploy-dev": "firebase deploy -P dev",
-    "build-deploy": "npm run build && npm run deploy",
-    "build-deploy-dev": "npm run build-dev && npm run deploy-dev",
     "lint": "ng lint",
     "duplication": "jscpd --path ./src/ --languages typescript",
     "compile:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:ssr": "node dist/server",
-    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
-    "build:client-and-server-bundles": "ng build --prod && ng run toku-cinema:server:production"
+    "build:client-and-server-bundles": "ng build --prod && ng run toku-cinema:server:production",
+    "build-dev:client-and-server-bundles": "ng build && ng run toku-cinema:server:production",
+    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server && cd functions/ && npm run build && cd ..",
+    "build-dev:ssr": "npm run build-dev:client-and-server-bundles && npm run compile:server && cd functions/ && npm run build && cd ..",
+    "build-deploy": "npm run build:ssr && npm run deploy",
+    "build-deploy-dev": "npm run build-dev:ssr && npm run deploy-dev"
   },
   "private": true,
   "dependencies": {
