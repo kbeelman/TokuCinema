@@ -1,0 +1,116 @@
+{
+    "movies": [
+        {
+            "OfficialTitle": "",
+            "AlternateTitles": [{"TitleType":"","TitleValue":""}],
+            "OriginalPoster": [
+                "thumb-card",
+                "thumb-details"],
+            "ReleaseDate": "YYYY-MM-DD",
+            "ProductionCompany": "",
+            "CountryOfOrigin": "",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "",
+            "Director": "",
+            "Series": "",
+            "Era": "",
+            "Runtime": "",
+            "Path": "",
+            "Crew": [
+                {"PositionTitle":"","Name":""}
+            ],
+            "Cast": [
+                {"ActorName":"","RoleName":""}
+            ]
+        }
+    ],
+    "alternateVersions": [
+        {
+            "Path": "",
+            "Countries": [
+                {
+                    "Country": "",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":""}],
+                            "Cast": [
+                                {"ActorName":"","RoleName":""}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"","Name":""}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "YYYY-MM-DD",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"","TitleValue":""}],
+                                    "Name": "",
+                                    "MediaPath": [{"Descriptor":"","Path":""}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "media": [
+        {
+            "Title": "",
+            "AspectRatio": [{"Version":"", "AspectRatio": ""}],
+            "Runtime": [{"Version":"", "Runtime": ""}],
+            "Color": [{"Version":"", "Color": ""}],
+            "ChapterStops": [{"Version":"", "Count": ""}],
+            "Subtitles": [""],
+            "SubtitlesDetails":[""],
+            "AudioTracks": [""],
+            "AudioTracksDetails": [""],
+            "Medium": [""],
+            "Format": [{"Medium":"", "Format": ""}],
+            "Region": [{"Medium":"", "Region":""}],
+            "Country": "",
+            "MediumCount": [{"Medium":"", "Count": ""}],
+            "ColorSystem": "",
+            "screencaps": [""],
+            "Distributor": "",
+            "CatalogCode": "",
+            "UPC": "",
+            "ReleaseDate": "",
+            "PurchaseLinks": [{"Vendor":"", "Link":""}],
+            "MoviePath": [""],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "thumb-card",
+                "thumb-details"
+            ],
+            "Path": ""
+        }
+    ],
+    "mediaReviews": [
+        {
+            "Path": "",
+            "Overview": "",
+            "Video": [{"Score":"1",
+                "Description":""}],
+            "Audio": [{"Score":"1",
+                "Description":""}],
+            "Extras": [{"Score":"1",
+                "Description":""}],
+            "Overall": [{"Score":"1",
+                "Description":""}],
+            "FeaturedScreenShots": [1,1,1,1,1]
+        }
+    ]
+}
