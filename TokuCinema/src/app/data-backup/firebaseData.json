@@ -196,6 +196,57 @@
             ]
         },
         {
+            "OfficialTitle": "Godzilla vs. Hedorah",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ゴジラ対ヘドラ"},
+                {"TitleType":"Hepburn","TitleValue":"Gojira tai Hedora"},
+                {"TitleType":"Literal Translation","TitleValue":"Godzilla vs. Hedorah"},
+                {"TitleType":"U.S. Title","TitleValue":"Godzilla vs. The Smog Monster"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Hedorah-1971%2Fthumb-card.png?alt=media&token=4a1cbaf0-268a-462a-b891-3300ac32e7c1",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Hedorah-1971%2Fthumb-details.png?alt=media&token=0389bfa5-a25f-4078-98b0-d5d0548acbd3"],
+            "ReleaseDate": "1971-07-24",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Yoshimitsu Banno",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "85",
+            "Path": "Godzilla-Hedorah-1971",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Yoshimitsu Banno"},
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Writers","Name":"Yoshimitsu Banno, Takeshi Kimura"},
+                {"PositionTitle":"Screenriters","Name":"Kaoru Mabuchi, Yoshimitsu Banno"},
+                {"PositionTitle":"Composer","Name":"Riichiro Manabe"},
+                {"PositionTitle":"Cinematographer","Name":"Yoichi Manoda"},
+                {"PositionTitle":"Editor","Name":"Yoshitami Kuroiwa"},
+                {"PositionTitle":"Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"Sound Recordist","Name":"Masao Fujiyoshi"},
+                {"PositionTitle":"Lighting","Name":"Fumiyoshi Hara"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Optical Photographer","Name":"Yoshiyuki Tokumasa"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Yamauchi","RoleName":"Doctor Toru Yano"},
+                {"ActorName":"Hiroyuki Kawase","RoleName":"Ken Yano"},
+                {"ActorName":"Toshie Kimura","RoleName":"Toshie Yano"},
+                {"ActorName":"Keiko Mari","RoleName":"Miki Fujinomiya"},
+                {"ActorName":"Toshio Shiba","RoleName":"Yukio Keuchi"},
+                {"ActorName":"Yoshio Yoshida","RoleName":"Gohei"},
+                {"ActorName":"Haruo Suzuki","RoleName":"JSDF officer"},
+                {"ActorName":"Yoshio Katsube","RoleName":"JSDF engineer"},
+                {"ActorName":"Tadashi Okabe","RoleName":"Scholar"},
+                {"ActorName":"Yasuzo Ogawa","RoleName":"Rioter"},
+                {"ActorName":"Wataru Omae","RoleName":"Policeman"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Kenpachiro Satsuma (as Kengo Nakayama)","RoleName":"Hedorah"}
+            ]
+        },
+        {
             "OfficialTitle": "Godzilla vs. Gigan",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地球攻撃命令 ゴジラ対ガイガン"},{"TitleType":"Hepburn","TitleValue":"Chikyu Kogeki Meirei: Gojira tai Gaigan"},{"TitleType":"Literal Translation","TitleValue":"Earth Destruction Directive: Godzilla vs. Gigan"},{"TitleType":"Original U.S. Title","TitleValue":"Godzilla on Monster Island"}],
             "OriginalPoster": [
@@ -236,6 +287,53 @@
                 {"ActorName":"Kenpachiro Satsuma","RoleName":"Gigan"},
                 {"ActorName":"Koetsu Omiya","RoleName":"Anguirus"},
                 {"ActorName":"Kanta Ina","RoleName":"King Ghidorah"}
+            ]
+        },
+        {
+            "OfficialTitle": "Godzilla vs. Megalon",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":""},{"TitleType":"Hepburn","TitleValue":"Gojira tai Megaro"},{"TitleType":"Literal Translation","TitleValue":"Godzilla vs. Megalon"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Megalon-1973%2Fthumb-card.png?alt=media&token=c9e5575c-123d-4fee-ba05-c29744f11a01",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Megalon-1973%2Fthumb-details.png?alt=media&token=d3860283-7aee-4730-bfab-b463b3c728c7"],
+            "ReleaseDate": "1973-03-17",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Jun Fukuda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "81",
+            "Path": "Godzilla-Megalon-1973",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Writers","Name":"Jun Fukuda, Takeshi Kimura, Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematographer","Name":"Yuzuru Aizawa"},
+                {"PositionTitle":"Art Director","Name":"Yoshibumi Honda"},
+                {"PositionTitle":"Sound Recorder","Name":"Teishiro Hayashi"},
+                {"PositionTitle":"Lighting","Name":"Masakuni Morimoto"},
+                {"PositionTitle":"Composer","Name":"Riichiro Manabe"},
+                {"PositionTitle":"Editor","Name":"Michiko Ikeda"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Unit Production Manager","Name":"Keisuke Shinoda"}
+            ],
+            "Cast": [
+                {"ActorName":"Katsuhiko Sasaki","RoleName":"Goro Ibuki"},
+                {"ActorName":"Yutaka Hayashi","RoleName":"Hiroshi Jinkawa"},
+                {"ActorName":"Hiroyuki Kawase","RoleName":"Rokuro Ibuki"},
+                {"ActorName":"Kanta Mori","RoleName":"JSDF Commander"},
+                {"ActorName":"Kotaro Tomita","RoleName":"Lead Seatopian Agent"},
+                {"ActorName":"Wolf Ohtsuki","RoleName":"Seatopian Agent"},
+                {"ActorName":"Sakyo Mikami","RoleName":"Truck Driver's Assistant"},
+                {"ActorName":"Gentaro Nakajima","RoleName":"Truck Driver"},
+                {"ActorName":"Robert Dunham","RoleName":"Emperor Antonio of Seatopia"},
+                {"ActorName":"Shinji Takagi","RoleName":"Godzilla"},
+                {"ActorName":"Hedeto Odachi (as Hideto Date)","RoleName":"Megalon"},
+                {"ActorName":"Tsugutoshi Komada","RoleName":"Jet Jaguar"},
+                {"ActorName":"Kenpachiro Satsuma (as Kengo Nakayama)","RoleName":"Gigan"},
+                {"ActorName":"Fumio Ikeda","RoleName":""},
+                {"ActorName":"Masachika Mori","RoleName":""}
             ]
         },
         {
@@ -2673,6 +2771,303 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Hedorah-1971",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Hedorah"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Linda Masson","RoleName":"Miki Fujinomiya"},
+                                {"ActorName":"Barry Haigh","RoleName":"Yukio Keuchi"},
+                                {"ActorName":"Chris Hilton","RoleName":"JSDF officer"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The international version of Godzilla vs. Hedorah was dubbed in Hong Kong and conforms to the Japanese version without any major alterations. One of the only Godzilla dubs to feature an obscenity, a faint sounding \"Fuck you\" can be heard when the hippies are seen throwing torches at Hedorah.",
+                                        "The original international version was released by Power Multimedia on DVD.",
+                                        "In an example of the haphazard standard of duplication inherent to these versions, the English film source used for the fullscreen Italian DVD features the English poem, but at the same time omits the remaining supers seen in every other copy of the international version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sci-Fi Channel",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The version that aired on the Sci-Fi Channel between 1996 and 2006 features added copyright information below the end title, but is otherwise identical to the original international version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Revised International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Some copies struck from the late-'90s onwards feature a repositioned ending title, with the same text size and font, and with copyright info above.",
+                                        "The UK VHS released by Carlton in 1998 featuring this variant leaves the text for Ken's poem in Japanese for some reason."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sony",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Sony DVD version is mostly the same as the revised international version, but is missing any sort of on-screen text for Ken's haiku.",
+                                        "\"Restored\" audio is also missing a few dubbed vocalizations heard in every other version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Smog Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bernard Grant","RoleName":"Doctor Toru Yano"},
+                                {"ActorName":"Lucy Martin","RoleName":"Toshie Yano"},
+                                {"ActorName":"Peter Fernandez","RoleName":"Yukio Keuchi"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Lee Kresel"},
+                                {"PositionTitle":"Supervisor","Name":"Salvatore Billitteri"},
+                                {"PositionTitle":"Editor","Name":"Eli Haviv"},
+                                {"PositionTitle":"Save The Earth singer","Name":"Adryan Russ"},
+                                {"PositionTitle":"Save The Earth lyrics","Name":"Guy Hemric, Adryan Russ"}
+                            ],
+                            "DubCompany": "Titan Productions, Inc.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "Circa April 1972",
+                            "Runtime":"85",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "American International Pictures' theatrical release was retitled to \"Godzilla vs. The Smog Monster\" was released on a double bill with \"Frogs\" in 1972.",
+                                        "The American version features an English dub of the opening song, retitled to \"Save the Earth\".",
+                                        "The text in the credits sequence was redone, and includes some credits for the American version of the film",
+                                        "The on-screen text is removed in the animated segments, Ken's poem, Dr. Yano's astronomy and nuclear fission lectures, and the March of One Million shots.",
+                                        "The animated segment with Hedorah drinking from an oil tanker was modified so \"ヘドラ\" in the factory exhaust now read \"Hedorah\" (possibly \"Hedora\").",
+                                        "The map of Godzilla and Hedorah's battle zone in Fuji City was carefully recreated and translated.",
+                                        "As the movie closes, the shots of the Great Wave, the \"And Yet Another One?\" text, and Hedorah rising from the deep were replaced by a \"The End\" card.",
+                                        "35mm elements (presumably the same as the theatrical version) were used for Orion's SP mode VHS. Orion's transfer features a varying aspect ratio. The main title is letterboxed. The opening credits are slightly cropped, squeezed, and letterboxed. The rest of the film is squeezed to 4:3 from a ratio somewhere between 1.66:1 and 1.85:1"
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The 16mm version of Godzilla vs. The Smog Monster does not utilize many of the modifications from the theatrical version.",
+                                        "The Hedorah animation is the same as in the Japanese version, although it's pan & scanned so the Japanese characters are obscured until the last moment.",
+                                        "The lectures aren't textless anymore, although Ken's poem still is.",
+                                        "The battle zone map of Fuji City is in Japanese again. This shot is interesting because in the Japanese version the focus shifts from the map to the news anchor sitting at a desk. Obviously that anchor isn't visible in the newly filmed AIP footage, however, Titan's dubbing perfectly matches the anchor's lip flaps, confirming they dubbed that shot and not AIP's replacement.",
+                                        "This version was used for Simitars EP mode VHS."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Smog Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Brent Walker Film Dist.",
+                            "ReleaseDate": "Circa April 1975",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"A"}],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "Theatrical",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "The UK version was based on American International Pictures' version, although it is unknown if there were any further alterations made."
+                                ]
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankensteins Kampf gegen die Teufelsmonster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin Film",
+                            "ReleaseDate": "1971-12-10",
+                            "Runtime":"82",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"German Theatrical (Literal Translation)","TitleValue":"Frankenstein's Fight Against the Devil Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla contra Monstruos del Smog"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Organization Apolo, S.A.",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Mexican Theatrical (Literal Translation)","TitleValue":"Godzilla vs. The Smog Monster"}],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A version of the movie bearing this name was released on Beta, but it is unknown if it was the theatrical version, or the dub produced for home video."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "It is unknown which country the M&E-less TV & video dub originated from, though it likely came from Mexico."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla - Furia dei mostri"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Titanus Films",
+                            "ReleaseDate": "Circa 1972",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Italian Theatrical (Literal Translation)","TitleValue":"Godzilla - Fury of the Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical dub has been made available on DVD. It notably renames Hedorah to Hidrax, and replaces post-night club instances of Give Back the Sun with music from elsewhere in the film, however no other sound effects are heard in these sequences."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Hedorah, la burbuja tóxica"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa June 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Spanish Theatrical (Literal Translation)","TitleValue":"Hedorah, the Toxic Bubble"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Spanish dub of Godzilla vs. Hedorah was released direct-to-video by Filmax in June 1998."
+                                    ]
                                 }
                             ]
                         }
