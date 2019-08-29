@@ -291,7 +291,7 @@
         },
         {
             "OfficialTitle": "Godzilla vs. Megalon",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":""},{"TitleType":"Hepburn","TitleValue":"Gojira tai Megaro"},{"TitleType":"Literal Translation","TitleValue":"Godzilla vs. Megalon"}],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ゴジラ対メガロ"},{"TitleType":"Hepburn","TitleValue":"Gojira tai Megaro"},{"TitleType":"Literal Translation","TitleValue":"Godzilla vs. Megalon"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Megalon-1973%2Fthumb-card.png?alt=media&token=c9e5575c-123d-4fee-ba05-c29744f11a01",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Megalon-1973%2Fthumb-details.png?alt=media&token=d3860283-7aee-4730-bfab-b463b3c728c7"],
@@ -3316,7 +3316,7 @@
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "Filmax",
-                            "ReleaseDate": "Circa 1998",
+                            "ReleaseDate": "Circa October 1998",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [{
@@ -3329,6 +3329,369 @@
                                     "A new Spanish dub produced for the home video release."
                                 ]
                             }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Megalon-1973",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Megalon"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Hilton","RoleName":"Goro Ibuki"},
+                                {"ActorName":"Warren Rooke","RoleName":"Hiroshi Jinkawa"},
+                                {"ActorName":"Linda Masson","RoleName":"Rokuro Ibuki"},
+                                {"ActorName":"Ted Thomas","RoleName":"Emperor Antonio of Seatopia, Narrator, Radio Announcer"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Original International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The international version was dubbed in Hong Kong. All English versions of the movie utilize the same dub.",
+                                        "The text of the opening and ending credits are in red.",
+                                        "This version was released on DVD by Power Multimedia."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Alternate International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An alternate internation version exists where the opening and ending credits have white text, with the same font and size.",
+                                        "This version was released on a British PAL VHS tape."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Revised International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho produced a \"revised\" international version which, as with copies of Cinema Shares' versions, has the extended ending shot, showing the actors waiting for their cue to follow Jet Jaguar.",
+                                        "Features smaller ending title with copyright info under it (a la the revised Godzilla vs. Gigan international version).",
+                                        "This version was never released on home video and not known to have been screened, but aired on the Sci-Fi Channel from 2002 to 2007."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Second Revised International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An alternate, possibly newer \"revised\" print exists. This version opens with Toho's current international logo, features \"Toho Eizo\" card in red, has white opening credits and ends with the same ending title as the other revised print, but without the extended beginning to the montage preceding it."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Megalon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa April 1976",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "First Run Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Cinema Shares utilized Toho's international dub for their release.",
+                                        "The initial release only cut the opening credits."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Second Run Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Cinema Shares released a revised version, presumably to appease the MPAA.",
+                                        "Features many cuts to violence and language that were later duplicated in 16mm TV prints circulated during the late '70s and early '80s. These 16mm prints were used for the many VHS releases when Godzilla vs. Megalon was mistakenly believed to be in the Public Domain.",
+                                        "This version has the extended ending shot, showing the actors waiting for their cue to follow Jet Jaguar."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "NBC Primetime",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1977",
+                                    "Notes": [
+                                        "NBC debuted Godzilla vs. Megalon to television with host segments featuring John Belushi in a Godzilla suit.",
+                                        "Features a heavily edited version of the film, but includes some scenes cut from the second run theatrical/edited TV print."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm TV Print #1",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Used in Video Treasures' 1986 SP mode VHS, this is the basic video master used by most VHS releases, however, it has a very ugly yellow tint.",
+                                        "The title plays over the same few repeated frames before the Toho Eizo credit fades in. "
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm TV Print #2",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Used in UAV Corp's 1991 and 1994 EP mode VHS releases, they used a different video master made from a 16mm print.",
+                                        "The end of the tape has all several of end-of-reel marks missing from other copies, and has the original Cinema Shares International Distribution Corporation logo.",
+                                        "The title plays over neither repeated frames nor manipulated footage. "
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm TV Print #3",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The master that Alpha Video used in their 1994 EP mode VHS and subsequent DVD release, this video master was made from a badly damaged print.",
+                                        "The title is not squeezed like in other prints, so it is cropped, resulting in the movie title showing as \"ODZILA VS MEGALO\"",
+                                        "Like the print that UAV Corp used, the title plays over neither repeated frames nor manipulated footage."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm TV Print #4",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Anchor Bay's 1997 SP mode VHS is, as far as edits go, identical to the master used in the Video Treasures release up until the title. Instead of repeated frames, the explosion footage is slowed down.",
+                                        "This master was used by BBI for its Mystery Science Theater 3000 episode in 1991."
+                                    ]
+                                }
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Australia",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Megalon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmways Australasia Distribution",
+                            "ReleaseDate": "Circa October 1976",
+                            "Runtime":"82",
+                            "Rating": [{"RatingSystem":"","RatingValue":"G"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong – Dämonen aus dem Weltall"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "Arnold & Richter KG",
+                            "DistributionCompany": "Constantin Films",
+                            "ReleaseDate": "1973-12-14",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"King Kong - Demons from Outer Space"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German theatrical version renames Jet Jaguar to King Kong.",
+                                        "The Toho Eizo logo has a red background, and follows the Constantin Films logo."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gorgo y Superman ce citan en Tokio"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1974-12-12",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Gorgo and Superman meet in Tokyo"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The theatrical Spanish version of Godzilla vs. Megalon has never been released on home video, and is believed to be lost."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gorgo y Superman ce citan en Tokio"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa October 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A new Spanish dub was produced for the home video release. This dub renames Jet Jaguar to Superman, in line with the theatrical title."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Titanos Planetarios"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Planetary Titans"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The theatrical Mexican version of Godzilla vs. Megalon has never been released on home video, and is believed to be lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ai confini della realtà"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1976",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"At the Border of Reality"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical verision replaces the ending Jet Jaguar song with instrumental music.",
+                                        "This version was released on DVD with most of the credits intact, although the image is cropped."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 1980"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1976-10-27",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The theatrical French version of Godzilla vs. Megalon has never been released on home video."
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }
