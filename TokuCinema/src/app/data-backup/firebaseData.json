@@ -152,6 +152,88 @@
             ]
         },
         {
+            "OfficialTitle": "Invasion of Astro-Monster",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"怪獣大戦争"},
+                {"TitleType":"Hepburn","TitleValue":"Kaiju Daisenso"},
+                {"TitleType":"Literal Translation","TitleValue":"The Giant Monster War"},
+                {"TitleType":"US Theatrical Title","TitleValue":"Monster Zero"},
+                {"TitleType":"International Title","TitleValue":"Invasion of the Astro-Monsters"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FInvasion-Astro-Monster-1965%2Fthumb-card.png?alt=media&token=ef4cd00c-4a56-4672-8612-6c5d889c37c9",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FInvasion-Astro-Monster-1965%2Fthumb-details.png?alt=media&token=20abc145-dff0-4c7f-bf89-9c891d92a81f"],
+            "ReleaseDate": "1965-10-19",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japanese",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "94",
+            "Path": "Invasion-Astro-Monster-1965",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenwriter","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematographer","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Recording","Name":"Wataru Konuma"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Music Arrangement","Name":"Takashi Shimonaga"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Sound Effects","Name":"Sadamasa Nishimoto"},
+                {"PositionTitle":"Image Composition","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"Production Managers","Name":"Masao Suzuki, Tadashi Koike"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Special Effects Assistant Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Special Effects Cinematographers","Name":"Sadamasa Arikawa, Motonari Tomioka"},
+                {"PositionTitle":"Optical Photographers","Name":"Yukio Manoda, Sadao Iizuka"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"Physical Effects","Name":"Fumio Nakadai"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Takarada","RoleName":"Astronaut Kazuo Fuji"},
+                {"ActorName":"Nick Adams","RoleName":"Astronaut Glenn"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Namikawa"},
+                {"ActorName":"Keiko Sawai","RoleName":"Funi Harno"},
+                {"ActorName":"Jun Tazaki","RoleName":"Doctor Sakurai"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Controller of Planet X"},
+                {"ActorName":"Akira Kubo","RoleName":"Tatsuo Torii"},
+                {"ActorName":"Takamaru Sasaki","RoleName":"Chairman of Earth Committee"},
+                {"ActorName":"Fuyuki Murakami","RoleName":""},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"General"},
+                {"ActorName":"Kenzo Tabu","RoleName":"Commander from Planet X, Earth Unit"},
+                {"ActorName":"Noriko Sengoku","RoleName":""},
+                {"ActorName":"Somemasu Matsumoto","RoleName":"Buddhist Priest"},
+                {"ActorName":"Gen Shimizu","RoleName":"Minister of Defense"},
+                {"ActorName":"Toru Ibuki","RoleName":"Xilien, Earth Unit"},
+                {"ActorName":"Kazuo Suzuki","RoleName":"Xilien, Earth Unit"},
+                {"ActorName":"Yasuhisa Tsutsumi","RoleName":""},
+                {"ActorName":"Hiroo Kirino","RoleName":"Military Aide"},
+                {"ActorName":"Toki Shiozawa","RoleName":""},
+                {"ActorName":"Mitsuo Tsuda","RoleName":"Xilien"},
+                {"ActorName":"Takuzou Kumagai","RoleName":"Xilien"},
+                {"ActorName":"Koji Uno","RoleName":"Namikawa's Associate"},
+                {"ActorName":"Masaaki Tachibana","RoleName":"Xilien"},
+                {"ActorName":"Yutaka Oka","RoleName":""},
+                {"ActorName":"Rinsaku Ogata","RoleName":""},
+                {"ActorName":"Tadashi Okabe","RoleName":""},
+                {"ActorName":"Ryouji Shimizu","RoleName":"Xilien"},
+                {"ActorName":"Hideki Furukawa","RoleName":"Xilien"},
+                {"ActorName":"Kamayuki Tsubono","RoleName":""},
+                {"ActorName":"Minoru Ito","RoleName":"Xilien"},
+                {"ActorName":"Goro Naya","RoleName":"Voice of Nick Adams"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Masanori Shinohara","RoleName":"Rodan"},
+                {"ActorName":"Shoichi Hirose","RoleName":"King Ghidorah"}
+            ]
+        },
+        {
             "OfficialTitle": "Destroy All Monsters",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"怪獣総進撃"},{"TitleType":"Hepburn","TitleValue":"Kaiju Soshingeki"},{"TitleType":"Literal Translation","TitleValue":"Charge of the Monsters"}],
             "OriginalPoster": [
@@ -377,6 +459,7 @@
                 {"ActorName":"Masao Imafuku","RoleName":"Azumi High Priest"},
                 {"ActorName":"Daigo Kusano","RoleName":"Yanagawa, Alien Agent #1"},
                 {"ActorName":"Kenji Sahara","RoleName":"Ship Captain"},
+                {"ActorName":"Shinya Kashima","RoleName":"Hotel Clerk (uncredited)"}, 
                 {"ActorName":"Isao Zushi","RoleName":"Godzilla"},
                 {"ActorName":"Kazunari Mori","RoleName":"Mechagodzilla"},
                 {"ActorName":"Kinichi Kusumi","RoleName":"Anguirus and King Caesar"}
@@ -528,6 +611,7 @@
                 {"ActorName":"Dennis Falt","RoleName":"Soviet Submarine Captain"}, 
                 {"ActorName":"Koji Ishizaka","RoleName":"Power Plant Guard"}, 
                 {"ActorName":"Hiroshi Kamayatsu","RoleName":"Bullet Train Passenger"}, 
+                {"ActorName":"Shinya Kashima","RoleName":"Head Interpreter Officer (uncredited)"}, 
                 {"ActorName":"Kenpachiro Satsuma","RoleName":"Godzilla"}
             ]    
         },
@@ -2376,7 +2460,11 @@
                             "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [{"TitleType":"Champion Festival (Japanese)","TitleValue":"ゴジラ・モスラ・キングギドラ 地球最大の決戦"},{"TitleType":"Champion Festival (Hepburn)","TitleValue":"Ggojira・Mosura・Kingu Gidora, Chikyu Saidai No Kessen"},{"TitleType":"Champion Festival (Literal Translation)","TitleValue":"Godzilla, Mothra, King Ghidorah, The World's Largest Decisive Battle"}],
+                                    "AlternateTitle": [
+                                        {"TitleType":"Champion Festival (Japanese)","TitleValue":"ゴジラ・モスラ・キングギドラ 地球最大の決戦"},
+                                        {"TitleType":"Champion Festival (Hepburn)","TitleValue":"Gojira・Mosura・Kingu Gidora, Chikyu Saidai No Kessen"},
+                                        {"TitleType":"Champion Festival (Literal Translation)","TitleValue":"Godzilla, Mothra, King Ghidorah, The World's Largest Decisive Battle"}
+                                    ],
                                     "Name": "Champion Festival",
                                     "MediaPath": [],
                                     "Runtime": "74",
@@ -2529,6 +2617,474 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Filmax produced a dub for VHS in 1998. Venus is redubbed to be Mars, and some of the sound effects suffer in quality throughout the film."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Invasion-Astro-Monster-1965",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Giant Monster War"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1965-10-19",
+                            "Runtime":"94",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In 1971, Toho edited the Japanese version of Invasion of Astro-Monster for the Champion Festival release, and this edit was done on the original film negatives. Sometime in the 1970’s or early 1980’s, Toho lost unedited interpositive and internegative elements for Invasion of Astro-Monster, along with similar elements for other films."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Reconstructed",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1986",
+                                    "Notes": [
+                                        "Sometime between 1983 and 1986, Toho rediscovered foreign duplicate negative picture elements and the original Japanese audio, and used these elements to reconstruct the Japanese version."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Champion Festival","TitleValue":"The Giant Monster War King Ghidroah vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1971",
+                            "Runtime":"73",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Champion Festival (Japanese)","TitleValue":"怪獣大戦争 キングギドラ対ゴジラ"},
+                                        {"TitleType":"Champion Festival (Hepburn)","TitleValue":"Kaiju Daisenso Kingu Gidora tai Gojira"},
+                                        {"TitleType":"Champion Festival (Literal Translation)","TitleValue":"The Giant Monster War King Ghidroah vs. Godzilla"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original film negative was cut in order to produce the shortend version for Toho's Champion Festival.",
+                                        "The Champion Festival version changes the opening text that dates the movie as taking place in \"196X\" to \"197X\"."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Monster Zero"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Executive Producers","Name":"Henry G. Saperstein, Reuben Bercovitch"},
+                                {"PositionTitle":"Production Supervisor","Name":"Richard Krown"}
+                            ],
+                            "DubCompany": "Glen Glenn Sound Company",
+                            "ProductionCompany": "United Productions of America",
+                            "DistributionCompany": "Maron Films",
+                            "ReleaseDate": "1970-07-29",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Alternate","TitleValue":"Invasion of the Astros"}],
+                                    "Name": "U.S. Army Version",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1969",
+                                    "Notes": [
+                                        "The US Theatrical version was created by Henry Saperstein’s UPA, and was distributed by Maron Films on a double bill with \"War of the Gargantuas\" in 1970. The film was originally going to be released by AIP, but that deal fell through.",
+                                        "This version has few edits worth noting.",
+                                        "Prior to it’s wide theatrical release, the film was shown at U.S. Army bases with the title \"Invasion of the Astros\"."
+
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "1970-07-29",
+                                    "Notes": [
+                                        "The wide release of the U.S. Theatrical version was the same version shown at U.S. Army bases, but retitled to \"Monster Zero\"."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Television & Home Video","TitleValue":"Godzilla vs. Monster Zero"}],
+                                    "Name": "Television and Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Monster Zero came to television, it was given a video-generated title \"Godzilla vs. Monster Zero\" and opening credits."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Monsters HD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 2006",
+                                    "Notes": [
+                                        "Monsters HD aired a new transfer of Monster Zero, however, like with all of the films they showed, this print was cropped to a 1.78:1 aspect-ratio."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2007-06-05",
+                                    "Notes": [
+                                        "Classic Media’s 2007 reconstruction mostly uses Toho's transfer of the Japanese version.",
+                                        "The U.S. version elements are sourced from the Monsters HD airing. Aside from the opening credits which are squeezed to 1.78:1 from 2.35:1, and the ending titles that are stretched to 2.35:1 from squeezed 1.78:1, all other Monsters HD elements are cropped. Some, like the shots of Namikawa's letter in the cell, are cropped and stretched.",
+                                        "The location titles are video-generated.",
+                                        "The sound goes a bit off-sync during the Planet X battle."
+
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Invasion of the Astro-Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho’s international dub simply the U.S.-produced dub conformed to the uncut Japanese version, with a music and effects track. This version has the on-screen title \"Invasion of the Astro-Monsters\".",
+                                        "This version bears a 1966 Benedict Pictures copyright, possibly a leftover from a planned 1966 American release through American International Pictures.",
+                                        "Yoshio Tsuchiya's Planet X language is retained in some places, while other instances of it are silenced with the M&E track. This version also leaves one of Akira Takarada's lines in Japanese. On-set audio of Nick Adams is used to fill in for audio for a line that was cut from the American dub.",
+                                        "The newspaper headline and Lake Myojin/Washigasawa sequences are textless in accordance with the foreign negative.",
+                                        "It is unknown when the current international version was created. In 1971, Toho edited the Japanese version of Invasion of Astro-Monster for the Champion Festival release, and this edit was done on the original film negatives. Sometime in the 1970’s or early 1980’s, Toho lost unedited interpositive and internegative elements for Invasion of Astro-Monster, along with similar elements for other films. Sometime between 1983 and 1986, Toho rediscovered foreign duplicate negative picture elements and the original Japanese audio, and used these elements to reconstruct the Japanese version. The current international dub surfaced after Toho reconstructed the Japanese version.",
+                                        "This version of the dub was finally released in the U.S. in 2017 through Janus Films/Criterion via STARZ and FilmStruck, constrained to the picture of Toho's HD version (with its Blu-Ray alterations)."
+
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Invasion of Astro-Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Hypothesized Lost International Dub",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While no Toho-produced international dub of Invasion of Astro-Monster exists, there are many documents and hints that one may have existed. This section will focus on a timeline of these documents and clues to this dub’s existence.",
+                                        "1962-1964: Toho began making dubs of their films available, which were advertised through their English language Toho Films catalog. Most special effects films released between 1958 and 1962 were included in the selections, with the notable exception of the Columbia titles and Gorath. Dubs weren’t normally listed for films released the year of the catalog, hence why all the dubs known of ‘63 films weren’t advertised in the ‘63 catalog, including Samurai Pirate, Atragon, Matango, and Attack Squadron (Secret of the Telegian, dated 1963 on the international ending title, also isn’t listed in the ‘63 catalog). The few complete dubs and dubbed trailers from this era that are available present a mix of both Tokyo and Hong Kong voicework. It isn’t known what decisions caused different films during this early era to be dubbed in Tokyo or Hong Kong, but it has been noted that most of the horror and science fiction films appear to have been dubbed in HK, with the rest (like war films) being dubbed in Tokyo.",
+                                        "1966-1970: English Toho posters, lobby cards, and other print advertising materials for the film began to be issued, all consistently featuring a stylized \"Invasion of Astro-Monster\" logo. The posters feature a unique illustration while the lobby cards were adapted from the original Japanese lobby cards. The title cards in Toho's international versions (before the 1990’s) tended to be based on title logos appearing on posters and other paper materials, which is not the case with the current international copy. For this film, the title that has been used on and mentioned in paper materials for 50 years isn't even the same title, Toho has opted to use \"Invasion of the Astro-Monsters\" in their current international dub. These materials can be dated to before 1970 due to the crediting of Toho Company, Ltd. and the inclusion of the terms Eastmancolor and Tohoscope (while from 1970 and onward, Toho English advertising credits Toho International Co., Ltd. and instead includes the terms color and widescreen). Another thing constraining the Toho English materials’ creation to 1966 to 1970 is the fact that many non-American, foreign releases from those years utilize the international poster art and adaptations of the international logo in the releasing country’s language. For example, the February 1967 German release is the first known release to feature heavy adaptation of the English Toho materials in its posters and other materials.",
+                                        "Circa 1970: The advertising campaign for the Turkish version of the film, apparently released in 1970, included a trailer whose picture element is based on the original Japanese trailer and features English text, including the aforementioned \"Invasion of Astro-Monster\" logo (This trailer is available on Anolis’ German metal-pak DVD). This Turkish trailer is assumed to be based on an international trailer. The English text in the trailer utilizes typefaces seen in Toho advertising material used for some of their other 1960's films and a typeface similar to the one used in Saperstein’s American version of Astro-Monster. This trailer is not adequate proof that a complete international dub was created, since it was not uncommon for Toho to commission a dubbed trailer for a movie and nothing else. For example, an international trailer for Gorath is known to exist, but there is no evidence that a complete dub was created.",
+                                        "May 1966: The Glen Glenn dub of \"Invasion of the Astro-Monsters\" is completed.",
+                                        "March 1967: Although it was not listed with other English titles in any presently-digitized Toho Films catalogs, an English version running 96 minutes was included alongside The War of the Gargantuas in Indian censor records in early 1967. (March 1, 1967 for War of the Gargantuas, and March 2 for Invasion of Astro-Monster.) Since this is after the completion of the Glen Glenn-recorded American version, it is still possible (if unlikely) that the version mentioned in the Indian log is the same as the current International version.",
+                                        "April 1967: The first documentation available and archived of a Toho dub produced after 1963, where UniJapan listings of Ebirah, Horror of the Deep and Killing Bottle are available. The former is a Frontier dub made in Tokyo, and the latter is a co-production with an American company.",
+                                        "1967-1968: The film was not offered as an English dubbed picture in Toho's '67/'68 catalog. If Toho had a dub on hand at that time, readers wouldn't have been aware of it.",
+                                        "1968: The first known evidence of an international dub of one of Toho’s co-productions with Saperstein, War of the Gargantuas, appears in the 1968 edition of Toho Films, making two American co-productions so far confirmed, with Toho-commissioned international dubs.",
+                                        "1971: Toho releases an edited, child-focused matinee version of Invasion of Astro-Monster for the Champion Festival, cutting the original negatives in the process.",
+                                        "Circa Early 1970’s - Mid 1980’s: Toho lost a number of unedited interpositive and internegative elements for films whose negatives were conformed to the Champion Festival version, including Invasion of Astro-Monster. Without access to any high quality materials of the original cut, Toho would have been unable to construct new international prints. Prints dating back to before these losses could have remained, as well as a track negative or some other kind of external audio source. Toho's foreign offices could have housed prints for some time.",
+                                        "Circa 1970’s: Greek-subtitled prints of the Glen Glenn dub featuring the Monster Zero opening title are created. (A heavily faded 35mm print was sold on eBay around ten years ago.)",
+                                        "1983: Toho released the Champion Festival version of Astro-Monster on VHS, since the original version was still missing at this point.",
+                                        "May 1986: Toho released the original version on VHS and LaserDisc, using a then recently discovered foreign duplicate negative picture element and the original Japanese audio. Foreign negatives such as this can be thought of as the skeletons from which Toho’s international English subtitled and dubbed prints are based. This version features an English Toho logo at the beginning instead of the Japanese logo, and the Japanese location titles and newspaper headlines are left textless.",
+                                        "Circa post-1986: Copies surface featuring Saperstein’s original \"Invasion of the Astro-Monsters\" opening credits and the American ending title spliced into an uncut print struck from the newly found foreign negative. The copies that are in English feature the Glen Glenn dubbing, with original music, sound effects and on-set audio filling in all of the segments edited out from the Glen Glenn dub. In the English copies, the splices before and after the English inserts can be heard as well as seen, so they are definitely Toho international prints.",
+                                        "Present: If an alternate international dub was produced, and if it still exists, it has probably been suppressed in favor of the current international dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Invasion Planète X"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Michel Luckin"}
+                            ],
+                            "DubCompany": "E.D.P.S.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "AudiFilm",
+                            "ReleaseDate": "1967-01-27",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Planet X Invasion"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical dub translates Planet X as the more astronomically accurate Satellite X, but the dub also mistranslates Jupiter as Saturn.",
+                                        "Rodan is referred to by his Japanese name, Radon (which also appears in the export trailer).",
+                                        "The segments with Xilien language are translated in this version.",
+                                        "This version cuts at least the extended Diet conference scene after the P-1's initial return to Earth.",
+                                        "This dub features the first known instance of the \"Godziya\" pronunciation in the French dubs.",
+                                        "The French theatrical dub was released on VHS in 1982 by Topodis Video, but the print used for the tape is so heavily spliced and damaged, the runtime is reduced much further."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Befehl aus dem Dunkel"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Erik Schumann","RoleName":"Astronaut Kazuo Fuji"},
+                                {"ActorName":"Klaus Kindler","RoleName":"Astronaut Glenn"},
+                                {"ActorName":"Klaus W. Krause","RoleName":"Doctor Sakurai"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin Films",
+                            "ReleaseDate": "1967-02-17",
+                            "Runtime":"81",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Command from the Darkness"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Numerous scenes were removed from the German version, including the scene with Godzilla dancing after his victory against King Ghidorah."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"La invasión de los Astromonstruos"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1968-05-23",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Literal Translation","TitleValue":"The Invasion of the Astros Monsters"},
+                                        {"TitleType":"Alternate","TitleValue":"Monstruos de las Galaxias"},
+                                        {"TitleType":"Literal Translation (Alternate)","TitleValue":"Monsters of the Galaxies"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Mexican theatrical dub has never been released on home video, and is believed to be lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Los monstruos invaden la Tierra"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Izaro Films S.A.",
+                            "ReleaseDate": "1968-06-17",
+                            "Runtime":"91",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Monsters Invade Earth"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Brazil",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"A Invasão dos Astro-Monstros"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Mundial Filmes",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Invasion of the Astro-Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "It is unknown if this was released, or if it exists. However, Mundial Filmes did distribute advertising materials."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"L'invasione degli astromostri"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Titanus Films",
+                            "ReleaseDate": "Circa 1970",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Literal Translation","TitleValue":"Invasion of the Astromonsters"},
+                                        {"TitleType":"Reissue","TitleValue":"Anno 2000 - L'invasione degli astromostri"},
+                                        {"TitleType":"Literal Translation (Reissue)","TitleValue":"Year 2000 - Invasion of the Astromonsters"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1980's",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television and Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A new Italian dub was made for Television and home video with an M&E-less audio track, and was released sometime in the 1980's or 1990's. It is based on the conformed, uncut version of the U.S. Glen Glenn dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "China",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A Chinese dub was released on VCD based on an M&E-less audio track."
                                     ]
                                 }
                             ]
@@ -4519,7 +5075,10 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Atragon"}],
                             "Cast": [],
-                            "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Makoto Jinguji"}],
+                            "DubCast": [
+                                {"ActorName":"Ted Thomas","RoleName":"Makoto Jinguji"},
+                                {"ActorName":"John Wallace","RoleName":"Admiral Kusumi"}
+                            ],
                             "Crew": [],
                             "DubCompany": "Axis International",
                             "ProductionCompany": "",
@@ -4657,7 +5216,10 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Dogora"}],
                             "Cast": [],
-                            "DubCast": [{"ActorName":"Ted Thomas","RoleName":"Dr. Munekata"}],
+                            "DubCast": [
+                                {"ActorName":"Ted Thomas","RoleName":"Dr. Munekata"},
+                                {"ActorName":"Nick Kendall","RoleName":"Mark Jackson"}
+                            ],
                             "Crew": [],
                             "DubCompany": "Axis International",
                             "ProductionCompany": "",
