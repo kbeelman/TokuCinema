@@ -278,6 +278,73 @@
             ]
         },
         {
+            "OfficialTitle": "All Monsters Attack",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ゴジラ・ミニラ・ガバラ オール怪獣大進撃"},
+                {"TitleType":"Hepburn","TitleValue":"Gojira-Minira-Gabara: Oru Kaiju Daishingeki"},
+                {"TitleType":"Literal Translation","TitleValue":"Godzilla, Minilla, and Gabara: All Monsters Attack"},
+                {"TitleType":"U.S. Theatrical Title","TitleValue":"Godzilla's Revenge"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAll-Monsters-Attack-1969%2Fthumb-card.png?alt=media&token=3162849d-deab-42ea-84fd-1d30cd9a1d4d",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAll-Monsters-Attack-1969%2Fthumb-details.png?alt=media&token=de419873-d928-400b-abe8-09182dd2d95e"],
+            "ReleaseDate": "1969-12-20",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "69",
+            "Path": "All-Monsters-Attack-1969",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenwriter","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematographer","Name":"Sokei Tomioka"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Sound Recording","Name":"Norio Tone"},
+                {"PositionTitle":"Lighting","Name":"Fumiyoshi Hara"},
+                {"PositionTitle":"Voicing","Name":"Hisashi Simonaga"},
+                {"PositionTitle":"Composer","Name":"Kunio Miyauchi"},
+                {"PositionTitle":"Theme Song Writer","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Theme Song Composer","Name":"Genta Kano"},
+                {"PositionTitle":"Theme Song Arrangement","Name":"Jinzo Kosugi"},
+                {"PositionTitle":"Theme Song Singer","Name":"Risato Sasaki"},
+                {"PositionTitle":"Assistant Directors","Name":"Masaaki Hisamatsu, Teruyoshi Nakano"},
+                {"PositionTitle":"Editor","Name":"Masahisa Himi"},
+                {"PositionTitle":"Image Composition","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"Physical Effects","Name":"Fumio Nakadai"},
+                {"PositionTitle":"Production Manager","Name":"Yasushi Sakai"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"}
+            ],
+            "Cast": [
+                {"ActorName":"Kenji Sahara","RoleName":""},
+                {"ActorName":"Machiko Naka","RoleName":""},
+                {"ActorName":"Tomonori Yazaki","RoleName":""},
+                {"ActorName":"Hideyo Amamoto","RoleName":""},
+                {"ActorName":"Sachio Sakai","RoleName":""},
+                {"ActorName":"Kazuo Suzuki","RoleName":""},
+                {"ActorName":"Ikio Sawamura","RoleName":""},
+                {"ActorName":"Shigeki Ishida","RoleName":""},
+                {"ActorName":"Yutaka Sada","RoleName":""},
+                {"ActorName":"Chotaro Togin","RoleName":""},
+                {"ActorName":"Yutaka Nakayama","RoleName":""},
+                {"ActorName":"Yoshifumi Tajima","RoleName":""},
+                {"ActorName":"Junichi Ito","RoleName":""},
+                {"ActorName":"Toru Mori","RoleName":""},
+                {"ActorName":"Toshiya Kurokawa","RoleName":""},
+                {"ActorName":"Hiroyuki Miyaoka","RoleName":""},
+                {"ActorName":"Nobuto Takahashi","RoleName":""},
+                {"ActorName":"Hidemi Ito","RoleName":""},
+                {"ActorName":"Ma-chan the Midget","RoleName":""},
+                {"ActorName":"Yasuhiko Kakuyuki","RoleName":""},
+                {"ActorName":"Haruo Nakajima","RoleName":""},
+                {"ActorName":"Midori Yamauchi","RoleName":"Voice of Minilla"}
+            ]
+        },
+        {
             "OfficialTitle": "Godzilla vs. Hedorah",
             "AlternateTitles": [
                 {"TitleType":"Japanese","TitleValue":"ゴジラ対ヘドラ"},
@@ -3328,6 +3395,151 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "All-Monsters-Attack-1969",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla's Revenge"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Theme Song Writers","Name":"Crown Records"},
+                                {"PositionTitle":"Theme Song Artist (Uncredited)","Name":"Ervin Jereb"},
+                                {"PositionTitle":"Titles","Name":"CFI"},
+                                {"PositionTitle":"Post Production","Name":"Riley Jackson"}
+                            ],
+                            "DubCompany": "Ryder Sound Services, Inc.",
+                            "ProductionCompany": "UPA Productions of America",
+                            "DistributionCompany": "Maron Films",
+                            "ReleaseDate": "1971-10-08",
+                            "Runtime":"69",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Theatrical","TitleValue":"Minya, Son of Godzilla"}],
+                                    "Name": "Initial Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Maron Films initially distributed the film with the title \"Minya, Son of Godzilla\" in 1971.",
+                                        "The only significant change is this version of the film, is the usage of Ervin Jereb's stock song, titled \"Crime Fiction\", used during the opening title sequence and a few other parts of the movie."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Retitled Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Later in 1971, Maron Films re-released the film with the title \"Godzilla's Revenge\" on a double bill with \"Island of the Burning Damned\".",
+                                        "This version of the film also features no significant edits from the previous version.",
+                                        "This version is the only version that has been released on Television or Home Video."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Godzilla's Revenge was brought to television and home video, the opening credits and end titles were squeezed to fit a 4:3 aspect ratio. The rest of the film is pan-and-scan."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Monsters HD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 2006",
+                                    "Notes": [
+                                        "Monsters HD aired a new transfer of Godzilla's Revenge, however, like with all of the films they showed, this print was cropped to a 1.78:1 aspect-ratio."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media Reconstruction",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2007-11-20",
+                                    "Notes": [
+                                        "Classic Media's reconstruction of the film mostly utlizes Toho's contemporary transfer of the Japanese version.",
+                                        "The opening credits are in widescreen, and feature no significant cropping.",
+                                        "Strangely, the video source falls back to footage from the MonstersHD master for the ending title, which is further cropped to roughly 2.35:1 from 1.78:1."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla: Attack All Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Shock Entertainment",
+                            "ReleaseDate": "2013-06-27",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"FSK","RatingValue":"12"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Alternate","TitleValue":"Frankensteins Monster jagen wieder Godzillas Sohn"},
+                                        {"TitleType":"Alternate (Literal Translation)","TitleValue":"Frankenstein's Monsters Chase Godzilla's Son Again"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While All Monsters Attack was never released theatrically in Germany, it was released on DVD in 2014 with a German dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Argentina",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla en la isla de los monstruos"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla on the Island of Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Advertising materials for an Argentine version of this film exist, indicating a potential release."
+                                    ]
                                 }
                             ]
                         }
