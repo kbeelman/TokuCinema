@@ -234,6 +234,119 @@
             ]
         },
         {
+            "OfficialTitle": "Ebirah, Horror of the Deep",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ゴジラ・エビラ・モスラ　南海の大決闘"},
+                {"TitleType":"Hepburn","TitleValue":" Gojira, Ebira, Mosura Nankai no Daiketto"},
+                {"TitleType":"Literal Translation","TitleValue":"Godzilla, Ebirah, Mothra: Big Duel in the South Seas"},
+                {"TitleType":"U.S. Theatrical Title","TitleValue":"Godzilla vs. The Sea Monster"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FEbirah-Horror-Deep-1966%2Fthumb-card.png?alt=media&token=220970cc-3839-4da5-b146-ac60529e72cd",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FEbirah-Horror-Deep-1966%2Fthumb-details.png?alt=media&token=8483fd19-14fb-4174-9446-995dc754c6d1"],
+            "ReleaseDate": "1966-10-17",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Jun Fukuda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "87",
+            "Path": "Ebirah-Horror-Deep-1966",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenwriter","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematographer","Name":"Kazuo Yamada"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Sound Recording","Name":"Shoichi Yoshizawa"},
+                {"PositionTitle":"Lighting","Name":"Kiichi Onda"},
+                {"PositionTitle":"Assistant Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Composer","Name":"Masaru Sato"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Takarada","RoleName":"Yoshimura (Bank Robber)"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Daiyo"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Red Bamboo Captain Ryuui"},
+                {"ActorName":"Jun Tazaki","RoleName":"Red Bamboo Commander"},
+                {"ActorName":"Hideo Sunazuka","RoleName":"Nita"},
+                {"ActorName":"Chotaro Togin","RoleName":"Ichino"},
+                {"ActorName":"Toru Watanabe","RoleName":"Ryota Kane"},
+                {"ActorName":"Toru Ibuki","RoleName":"Yata Kane"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Red Bamboo Captain Naval Officer"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Elderly Slave"},
+                {"ActorName":"Hisaya Ito","RoleName":"Red Bamboo Scientist"},
+                {"ActorName":"Chieko Nakakita","RoleName":"Mrs. Kane"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Hiroshi Sekita","RoleName":"Ebirah"},
+                {"ActorName":"Pair Bambi","RoleName":"Shibijin"},
+                {"ActorName":"Studio No. 1 Dancers","RoleName":""},
+                {"ActorName":"Yutaka Sada (uncredited)","RoleName":"Farmer"},
+                {"ActorName":"Tadashi Okabe (uncredited)","RoleName":"Red Bamboo Scientist"},
+                {"ActorName":"Shoichi Hirose (uncredited)","RoleName":"Escaped Slave"},
+                {"ActorName":"Kazuo Suzuki (uncredited)","RoleName":"Escaped Slave"}
+            ]
+        },
+        {
+            "OfficialTitle": "Son of Godzilla",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"怪獣島の決戦 ゴジラの息子"},
+                {"TitleType":"Hepburn","TitleValue":"Kaiju-to no Kessen: Gojira no Musuko"},
+                {"TitleType":"Literal Translation","TitleValue":"Monster Island's Decisive Battle: Son of Godzilla"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FSon-Godzilla-1967%2Fthumb-card.png?alt=media&token=698cc28b-b41b-468b-a17a-6ccca032ad87",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FSon-Godzilla-1967%2Fthumb-details.png?alt=media&token=4f8cee88-9cf9-4f7f-aa22-3dc788ddcf87"],
+            "ReleaseDate": "1967-12-16",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Jun Fukuda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "86",
+            "Path": "Son-Godzilla-1967",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenwriters","Name":"Shinichi Sekizawa, Kazue Shiba"},
+                {"PositionTitle":"Cinematographer","Name":"Kazuo Yamada"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Recording","Name":"Shin Watarai, Toshiya Ban"},
+                {"PositionTitle":"Lighting","Name":"Eiji Yamaguchi, Shoshichi Kojima"},
+                {"PositionTitle":"Assistant Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Sound Effects","Name":"Minoru Kanyama"},
+                {"PositionTitle":"Production Manager","Name":"Yasuaki Sakamoto"},
+                {"PositionTitle":"Composer","Name":"Masaru Sato"},
+                {"PositionTitle":"Special Effects Director","Name":"Sadamasa Arikawa"},
+                {"PositionTitle":"Special Effects Supervisor","Name":"Eiji Tsuburaya"}
+            ],
+            "Cast": [
+                {"ActorName":"Tadao Takashima","RoleName":"Professor Kusumi"},
+                {"ActorName":"Bibari Maeda (as Beverly Maeda)","RoleName":"Saeko Matsumiya"},
+                {"ActorName":"Akira Kubo","RoleName":"Goro Maki (reporter)"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Fujisaki"},
+                {"ActorName":"Kenji Sahara","RoleName":"Morio"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Furukawa"},
+                {"ActorName":"Susumu Kurobe","RoleName":"Navigator"},
+                {"ActorName":"Kazuo Suzuki","RoleName":"Pilot"},
+                {"ActorName":"Kenichiro Maruyama","RoleName":"Ozawa"},
+                {"ActorName":"Seishiro Kuno","RoleName":"Tashiro"},
+                {"ActorName":"Yasuhiko Saijo","RoleName":"Suzuki"},
+                {"ActorName":"Chotaro Togin","RoleName":"Surveyor"},
+                {"ActorName":"Wataru Omae","RoleName":"Radio Operator"},
+                {"ActorName":"Seiji Onaka","RoleName":"Godzilla (land scenes)"},
+                {"ActorName":"Hiroshi Sekida","RoleName":"Godzilla (land scenes)"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla (water scenes)"},
+                {"ActorName":"Marchan the Dwarf (uncredited)","RoleName":"Minilla"},
+                {"ActorName":"Osman Yusuf (uncredited)","RoleName":"Submarine Captain"}
+            ]
+        },
+        {
             "OfficialTitle": "Destroy All Monsters",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"怪獣総進撃"},{"TitleType":"Hepburn","TitleValue":"Kaiju Soshingeki"},{"TitleType":"Literal Translation","TitleValue":"Charge of the Monsters"}],
             "OriginalPoster": [
@@ -320,27 +433,27 @@
                 {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"}
             ],
             "Cast": [
-                {"ActorName":"Kenji Sahara","RoleName":""},
-                {"ActorName":"Machiko Naka","RoleName":""},
-                {"ActorName":"Tomonori Yazaki","RoleName":""},
-                {"ActorName":"Hideyo Amamoto","RoleName":""},
-                {"ActorName":"Sachio Sakai","RoleName":""},
-                {"ActorName":"Kazuo Suzuki","RoleName":""},
-                {"ActorName":"Ikio Sawamura","RoleName":""},
-                {"ActorName":"Shigeki Ishida","RoleName":""},
-                {"ActorName":"Yutaka Sada","RoleName":""},
-                {"ActorName":"Chotaro Togin","RoleName":""},
-                {"ActorName":"Yutaka Nakayama","RoleName":""},
-                {"ActorName":"Yoshifumi Tajima","RoleName":""},
-                {"ActorName":"Junichi Ito","RoleName":""},
-                {"ActorName":"Toru Mori","RoleName":""},
-                {"ActorName":"Toshiya Kurokawa","RoleName":""},
-                {"ActorName":"Hiroyuki Miyaoka","RoleName":""},
-                {"ActorName":"Nobuto Takahashi","RoleName":""},
-                {"ActorName":"Hidemi Ito","RoleName":""},
-                {"ActorName":"Ma-chan the Midget","RoleName":""},
-                {"ActorName":"Yasuhiko Kakuyuki","RoleName":""},
-                {"ActorName":"Haruo Nakajima","RoleName":""},
+                {"ActorName":"Kenji Sahara","RoleName":"Kenkichi Miki"},
+                {"ActorName":"Machiko Naka","RoleName":"Tamiko Mitsuki"},
+                {"ActorName":"Tomonori Yazaki","RoleName":"Ichiro Miki"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Shinpei Minami"},
+                {"ActorName":"Sachio Sakai","RoleName":"Bank Robber Senbayashi"},
+                {"ActorName":"Kazuo Suzuki","RoleName":"Bank Robber Okuda"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Bartender"},
+                {"ActorName":"Shigeki Ishida","RoleName":"Landlord"},
+                {"ActorName":"Yutaka Sada","RoleName":"Trainman"},
+                {"ActorName":"Chotaro Togin","RoleName":"Assistant Detective"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"Billboard Painter"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Detective"},
+                {"ActorName":"Junichi Ito","RoleName":"Gabara (the boy)"},
+                {"ActorName":"Toru Mori","RoleName":"Friend of Gabara"},
+                {"ActorName":"Toshiya Kurokawa","RoleName":"Friend of Gabara"},
+                {"ActorName":"Hiroyuki Miyaoka","RoleName":"Friend of Gabara"},
+                {"ActorName":"Nobuto Takahashi","RoleName":"Friend of Gabara"},
+                {"ActorName":"Hidemi Ito","RoleName":"Sachiko"},
+                {"ActorName":"Ma-chan the Midget","RoleName":"Minilla"},
+                {"ActorName":"Yasuhiko Kakuyuki","RoleName":"Gabara"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
                 {"ActorName":"Midori Yamauchi","RoleName":"Voice of Minilla"}
             ]
         },
@@ -3153,6 +3266,585 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "A Chinese dub was released on VCD based on an M&E-less audio track."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Ebirah-Horror-Deep-1966",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah, Horror of the Deep"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bill Ross","RoleName":"Yoshimura (Bank Robber)"},
+                                {"ActorName":"Patricia Kobayashi","RoleName":"Daiyo"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Frontier Enterprises",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA (USA)","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original international version was released on VHS in the U.K. in the 1990's."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Home Video","TitleValue":"Godzilla vs. The Sea Monster"}],
+                                    "Name": "Sony",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Sony released Ebirah, Horror of the Deep on DVD in 2004, they made a new video master for Toho.",
+                                        "Sony's new international version features a new title card and video-generated ending title, along with new video-generated credits that resemble the original international credits.",
+                                        "This version replaces the original Toho logo with a new CGI Toho logo."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Godzilla vs. The Sea Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Hal Linden","RoleName":"Yoshimura (Bank Robber)"},
+                                {"ActorName":"Lucy Martin","RoleName":"Daiyo"},
+                                {"ActorName":"Jack Curtis","RoleName":"Red Bamboo Commander"},
+                                {"ActorName":"Larry Robinson","RoleName":"Nita"},
+                                {"ActorName":"Peter Fernandez","RoleName":"Ryota Kane"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Titan Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Walter-Reade Organization",
+                            "ReleaseDate": "Circa 1967",
+                            "Runtime":"83",
+                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The U.S. version moves the scene of the \"giant claw\" destroying the Yahlen to the beginning of the film.",
+                                        "This version cuts out a scene of Ryota at the Maritime Safety office, and removes a stock cue from \"High and Low\" from the fighter jet battle. Additionally, several short and redundant scenes of the Infant Islanders' prayer during the climax are cut."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Alan Enterprises/CST",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1980's",
+                                    "Notes": [
+                                        "While almost entirely the same as the original U.S. television version, home video releases derived from the 1980's Alan Enterprises/CST video master are missing the original ending title in the same font as the opening title card."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Film Ventures International",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1980's",
+                                    "Notes": [
+                                        "This specific version featured a brand new title sequence comprised of stock footage from \"Son of Godzilla\" and a new main title track by Karl Michael Demer. The same music plays over the scene of Mothra flying home to Infant Island.",
+                                        "This version was featured in episode 213 of \"Mystery Science Theater 3000\". "
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah Terror of the Deep"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Orb",
+                            "ReleaseDate": "Circa August 1969",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"U"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British theatrical version of Ebirah, Horror of the Deep was shown on a double bill with Son of Godzilla.",
+                                        "This version was based on Toho's international version without any significant edits."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankenstein und die Ungeheuer aus dem Meer"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "Berliner Union Film GmbH & Co, Studio KG",
+                            "DistributionCompany": "Constantin Films",
+                            "ReleaseDate": "1969-05-16",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Frankenstein and the Monsters from the Sea"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla contra el terror de los mares"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1969-05-22",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Literal Translation","TitleValue":"Godzilla Against the Terror of the Seas"},
+                                        {"TitleType":"Alternate Title","TitleValue":"Ebirah - Terror de los mares vs. Godzilla"},
+                                        {"TitleType":"Literal Translation (Alternate)","TitleValue":"Ebirah - Terror of the Seas vs. Godzilla"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Mexican theatrical dub has never been released on home video, and is considered lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Il Ritorno di Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1972",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Return of Godzilla"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical dub has been released on DVD."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Portugal",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah, Horror dos Oceanos"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Ebirah, Horror of the Oceans"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Portuguese advertising materials exist, indicating a potential theatrical release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Los monstruos del mar"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1975-07-31",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Sea Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Spanish theatrical version of Ebirah, Horror of the Deep was released on VHS tape in Spain.",
+                                        "This version has a typo for Hideyo Amamoto, crediting him as \"Hideko Amamoto\"."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah contre Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"André Chelossi"}
+                            ],
+                            "DubCompany": "DR Films",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Cosmopolis Films, Rex International Distribution",
+                            "ReleaseDate": "1981-07-19",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Ebirah vs. Godzilla"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical version of Ebirah, Horror of the Deep was released on VHS by Super Vidéo Productions around the time of its release and later reissued in 1985.",
+                                        "This version keeps the majority of the credits in English, taken from the international version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Son-Godzilla-1967",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Son of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bill Ross","RoleName":"Professor Kusumi"},
+                                {"ActorName":"Patricia Kobayashi","RoleName":"Saeko Matsumiya"},
+                                {"ActorName":"Burr Middleton","RoleName":"Goro Maki (reporter)"},
+                                {"ActorName":"Robert Dunham","RoleName":"Fujisaki"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Frontier Enterprises",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA (USA)","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original international version was released on VHS in the U.K. in the 1990's."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Sony",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Sony released Son of Godzilla on DVD in 2004, they made a new video master for Toho.",
+                                        "Sony's new international version features a video-generated title card and ending title, which is a bit small in comparisson to the original. New credits that resemble the original international credits were added, which replace Bibari Maeda's name with the more common \"Beverly Maeda\" rendering.",
+                                        "This version replaces the original Toho logo with a new CGI Toho logo."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Televison","TitleValue":"Son of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Jack Curtis","RoleName":"Professor Kusumi"},
+                                {"ActorName":"Lucy Martin","RoleName":"Saeko Matsumiya"},
+                                {"ActorName":"Peter Fernandez","RoleName":"Goro Maki (reporter)"},
+                                {"ActorName":"Larry Robinson","RoleName":"Ozawa"},
+                                {"ActorName":"Narrator","RoleName":"Jack Curtis"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Titan Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Walter-Reade Organization",
+                            "ReleaseDate": "Circa 1968",
+                            "Runtime":"84",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The U.S. television version of Son of Godzilla only cut out pre-credit opening sequence.",
+                                        "Some home video copies are missing the Walter-Reade logo at the end"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Son of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Orb",
+                            "ReleaseDate": "Circa August 1969",
+                            "Runtime":"71",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"U"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British theatrical version of Son of Godzilla was shown on a double bill with Ebirah, Horror of the Deep.",
+                                        "This version utilized Toho's international dub, but cut the film down to 71 minutes."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankensteins Monster jagen Godzillas Sohn"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Constantin Films",
+                            "ReleaseDate": "1971-07-15",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Frankenstein's Monsters Are Hunting Godzilla's Son"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Il figlio di Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1969",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Literal Translation","TitleValue":"The Son of Godzilla"},
+                                        {"TitleType":"Re-release Title","TitleValue":"Il Ritorno di Gorgo"},
+                                        {"TitleType":"Literal Translation (Re-release)","TitleValue":"The Return of Gorgo"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical dub has been released on DVD.",
+                                        "This version was later reissued with the title \"Il Ritorno di Gorgo\"."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"La Planète des monstres"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"André Chelossi"},
+                                {"PositionTitle":"Writer","Name":"P. Severac"}
+                            ],
+                            "DubCompany": "DR Films",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Cosmopolis Films, Rex International Distribution",
+                            "ReleaseDate": "1978-03-01",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Planet of the Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical version has a number of fake anglicized credits that also appear in the Italian reissue credits. This version also miscredits director Jun Fukuda as Ishiro Honda."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"El hijo de Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1979-11-04",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla's Son"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Spanish theatrical dub of Son of Godzilla has never been released on video, and is considered to be lost."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"El hijo de Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1980's or 1990's",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla's Son"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A new Spanish dub was made for home video in the 1980's or 1990's, and used an M&E-less audio track.",
+                                        "This version is based on an Italian re-issue print, complete with splices. This means that this version went through several generations: Japanese, to English, to Italian, and finally to Castilian Spanish."
                                     ]
                                 }
                             ]
