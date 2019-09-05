@@ -43,8 +43,172 @@
             ]
         },
         {
+            "OfficialTitle": "Godzilla Raids Again",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ゴジラの逆襲"},
+                {"TitleType":"Hepburn","TitleValue":"Gojira no gyakushu"},
+                {"TitleType":"Literal Translation","TitleValue":"Godzilla's Counterattack"},
+                {"TitleType":"U.S. Title","TitleValue":"Gigantis, The Fire Monster"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Raids-Again-1955%2Fthumb-card.png?alt=media&token=41deb508-37d0-4b1c-90a7-0eda3f8d3730",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Raids-Again-1955%2Fthumb-details.png?alt=media&token=0f441538-0cbd-4d2c-953a-b4419d6a8d4e"],
+            "ReleaseDate": "1955-04-24",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Motoyoshi Oda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "81",
+            "Path": "Godzilla-Raids-Again-1955",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Motoyoshi Oda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Writer","Name":"Shigeru Kayama"},
+                {"PositionTitle":"Screenwriters","Name":"Takeo Murata, Shigeaki Hidaka"},
+                {"PositionTitle":"Cinematographer","Name":"Seiichi Endo"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Art","Name":"Teruaki Abe"},
+                {"PositionTitle":"Sound Recording","Name":"Masanobu Miyazaki"},
+                {"PositionTitle":"Lighting","Name":"Masaki Onuma"},
+                {"PositionTitle":"Composer","Name":"Masaru Sato"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Sound Effects","Name":"Ichiro Minawa"},
+                {"PositionTitle":"Special Technicians","Name":"Akira Watanabe, Hiroshi Mukouyama, Masao Shirota"},
+                {"PositionTitle":"Assistant Director","Name":"Eiji Iwashiro"},
+                {"PositionTitle":"Editor","Name":"Kazuji Taira"},
+                {"PositionTitle":"Production Manager","Name":"Kazuo Baba"}
+            ],
+            "Cast": [
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Shoichi Tsukioka"},
+                {"ActorName":"Setsuko Wakayama","RoleName":"Hidemi Yamaji"},
+                {"ActorName":"Minoru Chiaki","RoleName":"Koji Kobayashi"},
+                {"ActorName":"Takashi Shimura","RoleName":"Doctor Kyohei Yamane"},
+                {"ActorName":"Masao Shimizu","RoleName":"Zoologist Doctor Tadokoro"},
+                {"ActorName":"Seijiro Onda","RoleName":"Captain Terasawa, JASDF"},
+                {"ActorName":"Sonosuke Sawamura","RoleName":"Hokkaido Branch Manager Shingo Shibeki"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Tajima, JASDF"},
+                {"ActorName":"Mayuri Kitakumi","RoleName":"Radio Operator Yasuko Inouye"},
+                {"ActorName":"Tatsunosuke Yamada","RoleName":"Chief of Civil Defense"},
+                {"ActorName":"Yukio Kasama","RoleName":"Kohei Yamaji, President of the Fishery"},
+                {"ActorName":"Senkichi Omura","RoleName":"Escaped Convict"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Commander of Landing Craft"},
+                {"ActorName":"Shin Otomo","RoleName":"Convict Leader"},
+                {"ActorName":"Hirostoshi Tsuchiya","RoleName":"Fishery Manager"},
+                {"ActorName":"Takeo Oikawa","RoleName":"Osaka Metropolitan Chief of Police"},
+                {"ActorName":"Sokichi Maki","RoleName":"Prisoner"},
+                {"ActorName":"Shoichi Hirose","RoleName":"Prisoner"},
+                {"ActorName":"Shin Yoshida","RoleName":"Prisoner"},
+                {"ActorName":"Junpei Natsuki","RoleName":"Prisoner & Marine Fishery Branch Employee"},
+                {"ActorName":"Teruko Mita","RoleName":"Landlady"},
+                {"ActorName":"Katsumi Tezuka","RoleName":"Anguirus"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla"},
+                {"ActorName":"Miyoko Hoshino","RoleName":"Cabaret Singer"}
+            ]
+        },
+        {
+            "OfficialTitle": "King Kong vs. Godzilla",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"キングコング対ゴジラ"},
+                {"TitleType":"Hepburn","TitleValue":"Kingu Kongu tai Gojira"},
+                {"TitleType":"Literal Translation","TitleValue":"King Kong vs. Godzilla"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FKing-Kong-Godzilla-1962%2Fthumb-card.png?alt=media&token=94c8c3a3-ee35-479d-9bfb-71f2727ec835",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FKing-Kong-Godzilla-1962%2Fthumb-details.png?alt=media&token=e255baba-0396-4519-ab92-66067f2f3972"],
+            "ReleaseDate": "1962-08-11",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Godzilla",
+            "Era": "Showa",
+            "Runtime": "97",
+            "Path": "King-Kong-Godzilla-1962",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Executive Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Screenwriter","Name":"Shinichi Sekizawa"},
+                {"PositionTitle":"Cinematographers","Name":"Hajime Koizumi, Kenji Aoki"},
+                {"PositionTitle":"Art Directors","Name":"Takeo Kita, Teruaki Abe"},
+                {"PositionTitle":"Sound Recording","Name":"Masao Fujiyoshi"},
+                {"PositionTitle":"Lighting","Name":"Toshio Takashima"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Voicing","Name":"Hisashi Shiimonaga"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Editor","Name":"Reiko Kaneko"},
+                {"PositionTitle":"Sound Effects","Name":"Sadamasa Nishimoto"},
+                {"PositionTitle":"Production Liason","Name":"Shigeru Nakamura"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Special Effects Cinematographers","Name":"Sadamasa Arikawa, Motoyoshi Tomioka"},
+                {"PositionTitle":"Optical Effects","Name":"Takao Saiwai"},
+                {"PositionTitle":"Optical Photography","Name":"Yukio Manoda"},
+                {"PositionTitle":"Special Effects Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kyuichiro Kishida"},
+                {"PositionTitle":"Matte Processing","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"Special Effects Production Liason","Name":"Takashi Narita"}
+            ],
+            "Cast": [
+                {"ActorName":"Tadao Takashima","RoleName":"Osamu Sakurai"},
+                {"ActorName":"Kenji Sahara","RoleName":"Kazuo Fujita"},
+                {"ActorName":"Yu Fujiki","RoleName":"Kinsaburo Furue"},
+                {"ActorName":"Ichiro Arishima","RoleName":"Mr. Tako"},
+                {"ActorName":"Jun Tazaki","RoleName":"General Masami Shinzo"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Doctor Shigesawa"},
+                {"ActorName":"Mie Hama","RoleName":"Fumiko Sakurai"},
+                {"ActorName":"Akiko Wakabayashi","RoleName":"Tamie"},
+                {"ActorName":"Akemi Negishi","RoleName":"Chikiro's Mother, Faro Island Native"},
+                {"ActorName":"Yoshio Kosugi","RoleName":"Faro Island Chief"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Yukichi Yamamoto (Captain No. 2 Shinmori-maru)"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Faro Island Prayer Master"},
+                {"ActorName":"Somematsu Matsumoto","RoleName":"Doctor Onuki"},
+                {"ActorName":"Ko Mishima","RoleName":"Maritime Self-Defense Forces Executive"},
+                {"ActorName":"Sachio Sakai","RoleName":"Obayashi, Mr. Takao's Assistant"},
+                {"ActorName":"Tatsuo Matsumura","RoleName":"Doctor Makioka"},
+                {"ActorName":"Senkichi Omura","RoleName":"Konno, TTV Translator"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Self-Defense Forces Blast Manager"},
+                {"ActorName":"Haruya Kato","RoleName":"Obayashi's Assistant"},
+                {"ActorName":"Shin Otomo","RoleName":"Captain Oyasumaru"},
+                {"ActorName":"Nadao Kirino","RoleName":"Eastern Army Division II General"},
+                {"ActorName":"Yasuhisa Tsutsumi","RoleName":"Yukichi Yamamoto, Eastern Army First Division"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"2nd Shinmori-maru Correspondent"},
+                {"ActorName":"Yoshihiko Furata","RoleName":"Police Officer on Alert"},
+                {"ActorName":"Naoya Kusakawa","RoleName":"News Reporter"},
+                {"ActorName":"Mitsuo Tsuda","RoleName":"JGSDF executive"},
+                {"ActorName":"Haruko Togo","RoleName":"Evacuating Resident"},
+                {"ActorName":"Kenzo Tabu","RoleName":"World Wonder Series Commentator"},
+                {"ActorName":"Jiro Kumagai","RoleName":"Police Officer"},
+                {"ActorName":"Shiro Tsuchiya","RoleName":"Evacuation Man"},
+                {"ActorName":"Yasuzo Ogawa","RoleName":""},
+                {"ActorName":"Kazuo Suzuki","RoleName":""},
+                {"ActorName":"Shintaira Mitsui","RoleName":"News Reporter"},
+                {"ActorName":"Masaaki Tachibana","RoleName":"News Reporter"},
+                {"ActorName":"Haruya Sakamoto","RoleName":"Eastern Military Facility Soldier"},
+                {"ActorName":"Hiromi Meneoka","RoleName":"Express Passenger"},
+                {"ActorName":"Haruo Hirano","RoleName":"Chikiro (Faro Island boy)"},
+                {"ActorName":"Terumi Oka","RoleName":"Pacific Pharmaceutical Employee"},
+                {"ActorName":"Ichiro Chiba","RoleName":"Pacific Pharmaceutical Advertising Department"},
+                {"ActorName":"Mieko Kurenai","RoleName":"Pacific Pharmaceutical Employee"},
+                {"ActorName":"Douglas Fehn","RoleName":"Captain Roberts of the Seahawk"},
+                {"ActorName":"Harold Conway","RoleName":"Scientist on Submarine"},
+                {"ActorName":"Osman Yusef","RoleName":"Scientist on Submarine"},
+                {"ActorName":"Shoichi Hirose","RoleName":"King Kong"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Godzilla, Faro Islander on the Monitoring Platform"},
+                {"ActorName":"Katsumi Tezuka","RoleName":"Godzilla"},
+                {"ActorName":"Toho School of Performing Arts","RoleName":""}
+            ]
+        },
+        {
             "OfficialTitle": "Mothra vs. Godzilla",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"モスラ対ゴジラ"},{"TitleType":"Hepburn","TitleValue":"Mosura tai Gojira"},{"TitleType":"Literal Translation","TitleValue":"Mothra vs. Godzilla"},{"TitleType":"U.S. Title","TitleValue":"Godzilla vs. The Thing"},{"TitleType":"U.S. Home Release Alternate Title","TitleValue":"Godzilla vs. Mothra"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"モスラ対ゴジラ"},
+                {"TitleType":"Hepburn","TitleValue":"Mosura tai Gojira"},
+                {"TitleType":"Literal Translation","TitleValue":"Mothra vs. Godzilla"},
+                {"TitleType":"U.S. Title","TitleValue":"Godzilla vs. The Thing"},
+                {"TitleType":"U.S. Home Release Alternate Title","TitleValue":"Godzilla vs. Mothra"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mothra-1964%2Fthumb-card.png?alt=media&token=5b648364-b84f-4c45-a5e0-df878774701b",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGodzilla-Mothra-1964%2Fthumb-details.png?alt=media&token=e243bfdc-022e-4e50-969e-c6ef1e2b6744"
@@ -286,7 +450,9 @@
                 {"ActorName":"Yutaka Sada (uncredited)","RoleName":"Farmer"},
                 {"ActorName":"Tadashi Okabe (uncredited)","RoleName":"Red Bamboo Scientist"},
                 {"ActorName":"Shoichi Hirose (uncredited)","RoleName":"Escaped Slave"},
-                {"ActorName":"Kazuo Suzuki (uncredited)","RoleName":"Escaped Slave"}
+                {"ActorName":"Kazuo Suzuki (uncredited)","RoleName":"Escaped Slave"},
+                {"ActorName":"Shigeki Ishida (uncredited)","RoleName":"Newspaper Editor"},
+                {"ActorName":"Kenichiro Maruyama","RoleName":"Reporter"}
             ]
         },
         {
@@ -2307,6 +2473,276 @@
             ]
         },
         {
+            "Path": "Godzilla-Raids-Again-1955",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gigantis The Fire Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Keye Luke","RoleName":"Shoichi Tsukioka"},
+                                {"ActorName":"Paul Frees","RoleName":""},
+                                {"ActorName":"George Takei","RoleName":"Commander of Landing Craft"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Paul Schreibman"},
+                                {"PositionTitle":"Associate Producer","Name":"Edmund Goldman"},
+                                {"PositionTitle":"Director","Name":"Hugo Grimaldi"},
+                                {"PositionTitle":"Editor","Name":"Hugo Grimaldi"},
+                                {"PositionTitle":"Music Editor","Name":"Rex Lipton"},
+                                {"PositionTitle":"Sound Effects Editor","Name":"Al Sarno"}
+                            ],
+                            "DubCompany": "Ryder Sound Services, Inc.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Pacific Theaters (local), Warner Bros. Pictures (U.S. & Latin America)",
+                            "ReleaseDate": "1959-06-02",
+                            "Runtime":"78",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Classic Media",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "King-Kong-Godzilla-1962",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1962-08-11",
+                            "Runtime":"97",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "VHS & Beta",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Misprint LaserDisc",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "LaserDisc",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Digital Remaster LaserDisc & DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "2008 Broadcast",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "4K Restoration",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Champion Festival","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1970-03-21",
+                            "Runtime":"74",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [
+                                {"ActorName":"Michael Keith","RoleName":"Eric Carter"},
+                                {"ActorName":"Harry Halcombe","RoleName":"Doctor Arnold Johnson"},
+                                {"ActorName":"James Yagi","RoleName":"Yutaka Omura"},
+                                {"ActorName":"Victor Millan","RoleName":"Rodrigo Infante"}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Les Tremayne","RoleName":"Narrator"},
+                                {"ActorName":"Bruce Howard","RoleName":""},
+                                {"ActorName":"Paul Mason","RoleName":""}
+
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"John Beck"},
+                                {"PositionTitle":"Director","Name":"Thomas Montgomery"},
+                                {"PositionTitle":"Writers","Name":"Paul Mason, Bruce Howard"},
+                                {"PositionTitle":"Editorial Supervision","Name":"Peter Zinner"},
+                                {"PositionTitle":"Sound Effects","Name":"William Stevenson"},
+                                {"PositionTitle":"Musical Supervision","Name":"Peter Zinner"},
+                                {"PositionTitle":"Composers (Uncredited)","Name":"Henry Mancini, Hans J. Salter"}
+                            ],
+                            "DubCompany": "Ryder Sound Services, Inc.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1963-06-26",
+                            "Runtime":"90",
+                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "VHS",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Godzilla-Mothra-1964",
             "Countries": [
                 {
@@ -2648,7 +3084,7 @@
                                     "Name": "Champion Festival",
                                     "MediaPath": [],
                                     "Runtime": "74",
-                                    "ReleaseDate": "Circa 1971",
+                                    "ReleaseDate": "1971-12-12",
                                     "Notes": [
                                         "The original film negative was cut in order to produce the shortend version for Toho's Champion Festival."
                                     ]
@@ -2853,7 +3289,7 @@
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1971",
+                            "ReleaseDate": "1971-03-17",
                             "Runtime":"73",
                             "Rating": [],
                             "Iterations": [
@@ -3284,8 +3720,9 @@
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah, Horror of the Deep"}],
                             "Cast": [],
                             "DubCast": [
-                                {"ActorName":"Bill Ross","RoleName":"Yoshimura (Bank Robber)"},
-                                {"ActorName":"Patricia Kobayashi","RoleName":"Daiyo"}
+                                {"ActorName":"Bill Ross","RoleName":"Yoshimura (Bank Robber), Newspaper Editor"},
+                                {"ActorName":"Patricia Kobayashi","RoleName":"Daiyo"},
+                                {"ActorName":"Burr Middleton","RoleName":"Red Bamboo Commander, Ichino, Reporter, Radio Announcer"}
                             ],
                             "Crew": [],
                             "DubCompany": "Frontier Enterprises",
@@ -3602,8 +4039,9 @@
                             "DubCast": [
                                 {"ActorName":"Bill Ross","RoleName":"Professor Kusumi"},
                                 {"ActorName":"Patricia Kobayashi","RoleName":"Saeko Matsumiya"},
-                                {"ActorName":"Burr Middleton","RoleName":"Goro Maki (reporter)"},
-                                {"ActorName":"Robert Dunham","RoleName":"Fujisaki"}
+                                {"ActorName":"Burr Middleton","RoleName":"Goro Maki (reporter), Navigator, Suzuki"},
+                                {"ActorName":"Robert Dunham","RoleName":"Fujisaki"},
+                                {"ActorName":"Bud Widom","RoleName":"Ozawa"}
                             ],
                             "Crew": [],
                             "DubCompany": "Frontier Enterprises",
@@ -6416,7 +6854,7 @@
                                 {"PositionTitle":"Director","Name":"R.J. Kizer"},
                                 {"PositionTitle":"Composer (Added Music)","Name":"Christopher Young"}
                             ],
-                            "DubCompany": "Ryder Sound",
+                            "DubCompany": "Ryder Sound Services, Inc.",
                             "ProductionCompany": "New World Pictures, Toho Pictures",
                             "DistributionCompany": "New World Pictures",
                             "ReleaseDate": "1985-08-23",
