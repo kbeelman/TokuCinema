@@ -4084,11 +4084,11 @@
                             "MainTitle":[{"TitleType":"Televison","TitleValue":"Son of Godzilla"}],
                             "Cast": [],
                             "DubCast": [
-                                {"ActorName":"Jack Curtis","RoleName":"Professor Kusumi"},
+                                {"ActorName":"William Kiehl","RoleName":"Professor Kusumi"},
                                 {"ActorName":"Lucy Martin","RoleName":"Saeko Matsumiya"},
                                 {"ActorName":"Peter Fernandez","RoleName":"Goro Maki (reporter)"},
                                 {"ActorName":"Larry Robinson","RoleName":"Ozawa"},
-                                {"ActorName":"Narrator","RoleName":"Jack Curtis"}
+                                {"ActorName":"Jack Curtis","RoleName":"Narrator"}
                             ],
                             "Crew": [],
                             "DubCompany": "Titan Productions",
