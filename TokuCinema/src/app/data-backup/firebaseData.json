@@ -1898,6 +1898,258 @@
             ] 
         },
         {
+            "OfficialTitle": "The X from Outer Space",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"宇宙大怪獣ギララ"},
+                {"TitleType":"Hepburn","TitleValue":"Uchu Daikaiju Girara"},
+                {"TitleType":"Literal Translation","TitleValue":"Space Monster Guilala"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FX-Outer-Space-1967%2Fthumb-card.png?alt=media&token=ee65ca57-32b1-4d8a-bd9e-530abdbbf2fa",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FX-Outer-Space-1967%2Fthumb-details.png?alt=media&token=75ebe60a-fdcf-428f-8048-b005821bb320"],
+            "ReleaseDate": "1967-03-25",
+            "ProductionCompany": "Shochiku",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Shochiku",
+            "Director": "Kazui Nihomatsu",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "88",
+            "Path": "X-Outer-Space-1967",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Akihiko Shimada"},
+                {"PositionTitle":"Director","Name":"Kazui Nihomatsu"},
+                {"PositionTitle":"SFX Director","Name":"Hiroshi Ikeda"},
+                {"PositionTitle":"Screenplay","Name":"Kazui Nihonmatsu, Eibi Motomuchi, Moriyoshi Ishida"},
+                {"PositionTitle":"Cinematography","Name":"Shizuo Hirase"},
+                {"PositionTitle":"Music","Name":"Taku Izumi"},
+                {"PositionTitle":"Editor","Name":"Yoshi Sugihara"},
+                {"PositionTitle":"Assistant Director","Name":"Keiji Shiraki"},
+                {"PositionTitle":"Art Director","Name":"Shigemori Shigeta"},
+                {"PositionTitle":"Lighting","Name":"Toshifumi Takahashi, Tadashi Tsubuki"},
+                {"PositionTitle":"Sound Recording","Name":"Hiroshi Nakamura"},
+                {"PositionTitle":"Production Manager","Name":"Makoto Naito"},
+                {"PositionTitle":"Special Effects Supervisor","Name":"Keiji Kawakami"},
+                {"PositionTitle":"SFX Cinematography","Name":"Chitora Okoshi"},
+                {"PositionTitle":"Continuity","Name":"Tatsuo Hagiwara"},
+                {"PositionTitle":"Production Stills","Name":"Jusan Kajimoto"},
+                {"PositionTitle":"Songwriters","Name":"\"Guilala Rock\" by Bonny Jacks and \"Ballad of the Moon and Stars\" by Chieko Baisho, both composed by Taku Izumi"}
+            ],
+            "Cast": [
+                {"ActorName":"Toshiya Wazaki","RoleName":"Captain Sano"},
+                {"ActorName":"Peggy Neal","RoleName":"Lisa Schneider"},
+                {"ActorName":"Itoko Harada","RoleName":"Michiko Taki"},
+                {"ActorName":"Shinichi Yanagisawa","RoleName":"H. Miyamoto"},
+                {"ActorName":"Eiji Okada","RoleName":"Dr. Kato"},
+                {"ActorName":"Franz Gruber","RoleName":"Dr. Berman"},
+                {"ActorName":"Keisuke Sonoi","RoleName":"Dr. M. Shioda"},
+                {"ActorName":"Mike Daneen","RoleName":"Dr. Stein"},
+                {"ActorName":"Torahiko Hamada","RoleName":"Kimura"},
+                {"ActorName":"Ryuji Kita","RoleName":"Military Official"},
+                {"ActorName":"Hiroshi Fujioka","RoleName":"Moon Station Worker"},
+                {"ActorName":"Takanobu Hozumi","RoleName":"FAFC Technian"},
+                {"ActorName":"Wataru Nakajima","RoleName":"Defense Secretary"},
+                {"ActorName":"Masatsugu Hashimoto","RoleName":"Chief Cabinet Secretary"},
+                {"ActorName":"Koji Nakata","RoleName":"Police Commissioner"},
+                {"ActorName":"Reiko Muto","RoleName":"Lisa Schneider (voice)"},
+                {"ActorName":"Tamio Oki","RoleName":"Dr. Berman (voice)"},
+                {"ActorName":"Teiji Omiya","RoleName":"Dr. Stein (voice)"}
+            ]
+        },
+        {
+            "OfficialTitle": "Goke, Body Snatcher from Hell",
+            "AlternateTitles": [
+                {"TitleType":"吸血鬼ゴケミドロ","TitleValue":"Japanese"},
+                {"TitleType":"Kyuketsuki Gokemidoro","TitleValue":"Hepburn"},
+                {"TitleType":"Vampire Gokemidoro","TitleValue":"Literal Translation"},
+                {"TitleType":"Body Snatcher from Hell","TitleValue":"U.S. Title"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGoke-1968%2Fthumb-card.png?alt=media&token=4ba89704-f24a-4e08-8524-321efb1a6edc",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGoke-1968%2Fthumb-details.png?alt=media&token=8bc0f260-a6d8-478c-9f1d-5a5d3eec4c87"],
+            "ReleaseDate": "1968-08-14",
+            "ProductionCompany": "Shochiku",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Shochiku",
+            "Director": "Hajime Sato",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "84",
+            "Path": "Goke-1968",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Takeshi Inomata"},
+                {"PositionTitle":"Director","Name":"Hajime Sato"},
+                {"PositionTitle":"Screenplay","Name":"Susumu Takaku, Kyuzu Kobayashi"},
+                {"PositionTitle":"Cinematography","Name":"Shizuo Hirase"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"},
+                {"PositionTitle":"Editor","Name":"Akimitsu Terada"},
+                {"PositionTitle":"Assistant Director","Name":"Keiji Shiraki"},
+                {"PositionTitle":"Art Director","Name":"Tadataka Yoshino"},
+                {"PositionTitle":"Lighting","Name":"Yoshifumi Aoki"},
+                {"PositionTitle":"Sound Recording","Name":"Hiroshi Nakamura"},
+                {"PositionTitle":"Production Manager","Name":"Masoyuki Fukuyama"},
+                {"PositionTitle":"Special Effects","Name":"Michio Mikami"}
+            ],
+            "Cast": [
+                {"ActorName":"Teruo Yoshida","Name":"Ei Sugisaka"},
+                {"ActorName":"Tomomi Sato","Name":"Kazumi Asakura"},
+                {"ActorName":"Hideo Ko","Name":"Hirofumi Teraoka"},
+                {"ActorName":"Masaya Takahashi","Name":"Toshiyuki Saga"},
+                {"ActorName":"Nobuo Kaneko","Name":"Tokuyasu"},
+                {"ActorName":"Eizo Kitamura","Name":"Gozo Mano"},
+                {"ActorName":"Yuko Kusonoki","Name":"Noriko Tokuyasu"},
+                {"ActorName":"Kazuo Kato","Name":"Dr. Momotake"},
+                {"ActorName":"Hiroyuki Nishimoto","Name":"Airplane Captain"},
+                {"ActorName":"Norihiko Yamamoto","Name":"Matsumiya"},
+                {"ActorName":"Cathy Horan","Name":"Mrs. Neil"},
+                {"ActorName":"Keichi Noda","Name":"Gokemidoro, voice"},
+                {"ActorName":"Harold Conway","Name":"Ambassador"}
+            ]
+        },
+        {
+            "OfficialTitle": "Genocide",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"昆虫大戦争"},
+                {"TitleType":"Hepburn","TitleValue":"Konchu Daisenso"},
+                {"TitleType":"Literal Translation","TitleValue":"Great Insect War"},
+                {"TitleType":"U.S. Title","TitleValue":"The War of the Insects"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGenocide-1968%2Fthumb-card.png?alt=media&token=def536b3-962a-4908-ad71-a78d18cfe09c",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGenocide-1968%2Fthumb-details.png?alt=media&token=30fd4495-46a6-43d6-8614-7094142e125e"],
+            "ReleaseDate": "1968-11-09",
+            "ProductionCompany": "Shochiku",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Shochiku",
+            "Director": "Kazui Nihonmatsu",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "84",
+            "Path": "Genocide-1968",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tsuneo Kosumi"},
+                {"PositionTitle":"Director","Name":"Kazui Nihonmatsu"},
+                {"PositionTitle":"Screenplay","Name":"Susumu Takaku, Kingen Amada (story)"},
+                {"PositionTitle":"Cinematography","Name":"Shizuo Hirase"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"},
+                {"PositionTitle":"Editor","Name":"Akimitsu Terada"},
+                {"PositionTitle":"Assistant Director","Name":"Keiji Shiraki"},
+                {"PositionTitle":"Art Director","Name":"Tadataka Yoshino"},
+                {"PositionTitle":"Lighting","Name":"Yoshifumi Aoki"},
+                {"PositionTitle":"Sound Recording","Name":"Hiroshi Nakamura"},
+                {"PositionTitle":"Production Manager","Name":"Masoyuki Fukuyama"},
+                {"PositionTitle":"Special Effects","Name":"Keiji Kawakami, Shun Suganuma"}
+            ],
+            "Cast": [
+                {"ActorName":"Keisuke Sonoi","RoleName":"Dr. Yoshito Nagumo"},
+                {"ActorName":"Yusuke Kawazu","RoleName":"Joji Akiyama"},
+                {"ActorName":"Emi Shindo","RoleName":"Yukari Akiyama"},
+                {"ActorName":"Reiko Hitomi","RoleName":"Junko Komuro"},
+                {"ActorName":"Cathy Horan","RoleName":"Annabelle"},
+                {"ActorName":"Chico Roland","RoleName":"Charlie"},
+                {"ActorName":"Rolf Jesser","RoleName":"Lieutenant Colonel Gordon"},
+                {"ActorName":"Franz Gruber","RoleName":"U.S. Army Surgeon"},
+                {"ActorName":"Mike Daneen","RoleName":"B-52 Captain"},
+                {"ActorName":"Harold Conway","RoleName":"U.S. Military Commander"},
+                {"ActorName":"William Douyuak","RoleName":"B-52 Pilot"},
+                {"ActorName":"Tadayoshi Ueda","RoleName":"Matsunaga"},
+                {"ActorName":"Toshiyuki Ichimura","RoleName":"Kudo"},
+                {"ActorName":"Hiroshi Aoyama","RoleName":"Fuji"},
+                {"ActorName":"Saburo Aonuma","RoleName":"Police Inspector"}
+            ]
+        },
+        {
+            "OfficialTitle": "Prophecies of Nostradamus",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ノストラダムスの大予言: Catastrophe 1999"},
+                {"TitleType":"Hepburn","TitleValue":"Nosutoradamusu no Daiyogen: Catastrophe 1999"},
+                {"TitleType":"Literal Translation","TitleValue":"The Great Prophecies of Noastradamus: Catastrophe 1999"},
+                {"TitleType":"U.S. Title","TitleValue":"The Last Days of Planet Earth"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FProphecies-Nostradamus-1974%2Fthumb-card.png?alt=media&token=f49898c5-3be9-4413-a811-49a51d8c78af",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FProphecies-Nostradamus-1974%2Fthumb-details.png?alt=media&token=38d39148-506f-49bc-8ab8-109e6b81bc64"],
+            "ReleaseDate": "1974-08-03",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Toshio Masuda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "114",
+            "Path": "Prophecies-Nostradamus-1974",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Osamu Tanaka"},
+                {"PositionTitle":"Director","Name":"Toshio Masuda"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Yoshimitsu Banno, Toshio Masuda, Toshio Yasumi (script The Last War), Ben Goto (book Great Prophecies of Nostradamus)"},
+                {"PositionTitle":"Second Unit Director","Name":"Yoshimitsu Banno"},
+                {"PositionTitle":"Cinematographers","Name":"Rokuro Nishigaki, Kaoru Washio"},
+                {"PositionTitle":"Music","Name":"Isao Tomita"},
+                {"PositionTitle":"Editor","Name":"Nobuo Ogawa"},
+                {"PositionTitle":"Assistant Director","Name":"Fumisake Okada"},
+                {"PositionTitle":"Art Director","Name":"Yoshiro Muraki"},
+                {"PositionTitle":"Lighting","Name":"Shinji Kojima"},
+                {"PositionTitle":"Sound Recording","Name":"Kanae Masuo"},
+                {"PositionTitle":"Production Manager","Name":"Hisayuki Murakami"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Koichi Kawakita"},
+                {"PositionTitle":"SFX Cinematography","Name":"Mototaka Tomioka, Takeshi Yamamoto"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Masakuni Morimoto"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"VFX Opticals","Name":"Yoshio Ishii"},
+                {"PositionTitle":"Monster Design (Soft-Bodied Humans)","Name":"Toru Narita"},
+                {"PositionTitle":"Stunts","Name":"Chihiro Mitsuishi"},
+                {"PositionTitle":"Choreography (Dance)","Name":"Kiyohiko Kawanishi"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishitsuki"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Kazukiyo Tanaka"}
+            ],
+            "Cast": [
+                {"ActorName":"Tetsuro Tanba","RoleName":"Dr. Ryogen Nishiyama/Genkei Nishiyama/Gengaku Nishiyama"},
+                {"ActorName":"Toshio Kurosawa","RoleName":"Akira Nakagawa"},
+                {"ActorName":"Yoko Tsukasa","RoleName":"Nobuo Nishiyama"},
+                {"ActorName":"Kaoru Yumi","RoleName":"Mariko Nishiyama"},
+                {"ActorName":"Kaori Taniguchi","RoleName":"Orin"},
+                {"ActorName":"Yoshiro Aoki","RoleName":"Military Police"},
+                {"ActorName":"Masaru Ryuzaki","RoleName":"Oone"},
+                {"ActorName":"Katsuhiko Sasaki","RoleName":"Yoshihama"},
+                {"ActorName":"Shosei Muto","RoleName":"Ihara"},
+                {"ActorName":"Jun Hamamura","RoleName":"Kida"},
+                {"ActorName":"Kumeko Otowa","RoleName":"Mrs. Kida"},
+                {"ActorName":"Tomoe Mari","RoleName":"Kida's daughter"},
+                {"ActorName":"Tappei Shimokawa","RoleName":"Captain of Self Defense Force"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Botanist"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Zoologist"},
+                {"ActorName":"So Yamamura","RoleName":"Prime Minister"},
+                {"ActorName":"Mizuho Suzuki","RoleName":"Director of Environmental Agency"},
+                {"ActorName":"Taketoshi Naito","RoleName":"Chief Cabinet Secretary"},
+                {"ActorName":"Sayoko Kato","RoleName":"Bus Girl"},
+                {"ActorName":"Mikizo Hirata","RoleName":"Sanji Nakagawa"},
+                {"ActorName":"Tatsuo Nakamura","RoleName":"Katsuko Nakagawa"},
+                {"ActorName":"Takashi Shimura","RoleName":"Hospital Director"},
+                {"ActorName":"Masahiko Tanimura","RoleName":"Tayama"},
+                {"ActorName":"Kazuko Inano","RoleName":"Hamako"},
+                {"ActorName":"Kazuo Kato","RoleName":"Scholar"},
+                {"ActorName":"George F. Flymm","RoleName":"US Representative"},
+                {"ActorName":"Willie Dorsey","RoleName":"African Representative"},
+                {"ActorName":"Franz Gruber","RoleName":"Dr. Wilson"},
+                {"ActorName":"Tony Cetera","RoleName":"Research Scientist"},
+                {"ActorName":"Rolf Jesser","RoleName":"Research Scientist #2"},
+                {"ActorName":"Osman Yusuf","RoleName":"Research Scientist #3"},
+                {"ActorName":"Isamu Sugii","RoleName":"Soft-Bodied Human"},
+                {"ActorName":"Nobuyuki Nakano","RoleName":"Soft-Bodied Human #2"},
+                {"ActorName":"Shunsuke Kariya","RoleName":"Leader of Rioters"},
+                {"ActorName":"Goro Naya","RoleName":"TV Newscaster"},
+                {"ActorName":"Kyoko Kishida","RoleName":"Prophetess, voice"},
+                {"ActorName":"Shinji Nakai","RoleName":"Narrator, voice"}
+            ]
+        },
+        {
             "OfficialTitle": "ESPY",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"エスパイ"},{"TitleType":"Hepburn","TitleValue":"Esupai"}],
             "OriginalPoster": [
@@ -2666,6 +2918,36 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
+                                        ""
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "Frontier Enterprises",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While no Toho-produced international dub of King Kong vs. Godzilla exists, there are many documents and hints that one may have existed. This section will focus on a timeline of these documents and clues to this dub’s existence.",
                                         ""
                                     ]
                                 }
@@ -6650,6 +6932,260 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "X-Outer-Space-1967",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The X from Outer Space"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1967",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international export English version was made, and the film was dubbed into English in Japan. The firm used is not officially known, it was certainly not Frontier as William Ross and others' voices are absent. It could well have been Pedro Production, a competing Japanese English dubbing house known best for the atrocious export dub of Gamera vs. Guiron, as the dub’s quality standard typical of Pedro. The voice cast is completely unknown, though Mike Daneen, who apparently dubbed for Pedro, may have dubbed himself."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The X from Outer Space"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Robert Sommer","RoleName":"Captain Sano"},
+                                {"ActorName":"Susan Spafford","RoleName":"Lisa"},
+                                {"ActorName":"Mel Welles","RoleName":"Dr. Berman"},
+                                {"ActorName":"Edward Mannix","RoleName":"Dr. Stein"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "ELDA",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "Circa 1968",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was released stateside directly to television by American International Pictures in 1968.",
+                                        "This version's cuts are minor. The credits were truncated, shots are trimmed and a line or two of dialog is excised, along with the whole \"newsflash\" montage after Guilala's first rampage.",
+                                        "The English dubbing was redone in Rome by ELDA."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Goke-1968",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Goke, Body Snatcher from Hell"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Ted Thomas","RoleName":"Airplane Captain, Noriko Tokuyasu"},
+                                {"ActorName":"Barry Haigh","RoleName":"Toshiyuki Saga"},
+                                {"ActorName":"Michael Kaye","RoleName":"Gozo Mano"},
+                                {"ActorName":"Esma Wilson","RoleName":"Kazumi Asakura"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1968",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international export English version was made. The film was dubbed into English in Hong Kong. The full international version was never released anywhere on video that we know of, but Pacemaker's 1977 U.S. version is quite faithful to it."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Body Snatcher From Hell "}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Pacemaker Films",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In 1977, exploitation outlet Pacemaker Films bought the rights to the film and released it in theaters on a double bill with a previous release of theirs: dubbed Italian exploitation flick Bloody Pit of Horror.",
+                                        "The film was rated PG and Pacemaker's print uses the original Hong Kong export dub.",
+                                        "The film is almost completely uncut save for one single excision which are the film's opening credits. The US version has a title card that plays over the Shochiku logo's fanfare and only credits Pacemaker and TFC with the film, no members of the cast or crew or even Shochiku Studios are credited."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Genocide-1968",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Genocide"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Ted Thomas","RoleName":"Lieutenant Colonel Gordon"},
+                                {"ActorName":"Barry Haigh","RoleName":"Joji Akiyama"},
+                                {"ActorName":"Esma Wilson","RoleName":"Yukari Akiyama, Annabelle"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1968",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was not sold to any companies stateside in the 60s, perhaps owing to its very dark and nihilistic themes and especially its anti-American sentiments. However, the full international export version was released in the US on DVD-R by gray market outlet Sinister Cinema telecined from a letterboxed 16mm print around 2008. It would not be officially released in the US until Criterion picked it up in the 2000s and eventually made it available on DVD as part of their Eclipse label."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Prophecies-Nostradamus-1974",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Prophecies of Nostradamus"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Matthew Oram","RoleName":"Dr. Nishiyama"},
+                                {"ActorName":"Barry Haigh","RoleName":"Akira Nakagawa, Newscaster"},
+                                {"ActorName":"Esma Wilson","RoleName":"Mariko Nishiyama"},
+                                {"ActorName":"Michael Ross","RoleName":""}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1974",
+                            "Runtime":"87",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Despite the film's controversial reception in its homeland, an export English version was indeed prepared.",
+                                        "This international version is cut down to about 87 minutes and is missing a lot of character development scenes, including a subplot where Nishiyama's elderly assistant Kida's daughter has a deformed baby. The prologue explaining the Nishiyama family's historical interest in Nostradamus is also cut completely as is the epilogue with the Prime Minister's speech.",
+                                        "Despite the cuts, all of the film's most lurid footage is left intact including the footage trimmed in the Japanese rerelease. The film did get a limited theatrical release in Japanese-American theaters but it's unknown if it played dubbed or subtitled or which version was shown.",
+                                        "The full international English version was available on a Danish PAL VHS."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The Last Days of Planet Earth"}],
+                            "Cast": [],
+                            "DubCast": [{"ActorName":"Jack Ryland","RoleName":"Narrator"}],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "UPA",
+                            "ReleaseDate": "Circa 1981",
+                            "Runtime":"88",
+                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"","TitleValue":""}],
+                                    "Name": "",
+                                    "MediaPath": [{"Descriptor":"","Path":""}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Henry G. Saperstein's UPA bought the rights to the picture in 1981. This version, entitled The Last Days of Planet Earth, was sold directly to TV.",
+                                        "The export English dubbing is left basically intact, but narration by Jack Ryland is added which supplants the female narrator's prophecy readings but also occasionally drowns out the dubbed dialog.",
+                                        "The rest of the film is fairly close to the international version, but is missing some additional character development scenes (such as Akira meeting Mariko as she teaches ballet to some children) as well as nudity and gore, such as shots of actress Kaoru Yumi topless, a shot of one of the New Guinea mutants feasting on a doomed member of the expedition, and a shot of the first Soft-bodied Human feasting on a snake. The dance sequence with Kaoru Yumi is also cut. A few lines in two scenes from the film are actually redubbed as the English track has the female narrator (Kyoko Kishida in the Japanese version) reciting a prophecy over it and the other for no apparent reason.",
+                                        "Interestingly enough, some footage from the Japanese version that was cut from the international version is actually added back in. This includes some short excerpts from the prologue which lead you to believe that Nishiyama's father is Nostradamus as well as a short bit from the Kida baby scene and a tranquil montage of Japan's beauty shown right before the snow in Egypt scene.",
+                                        "There also an additional sequence likely filmed by UPA showing a transmission about New Guinea being received and monstrous grunting is added to the soft-bodied Humans scene and some shots have been flipped for some reason.",
+                                        "The ending features a montage of tranquil sequences from the film's epilogue intercut with disaster scenes taken from earlier in the movie. The runtime of Last Days of Planet Earth is 88 minutes. This version is the only version of the movie ever officially available on home video."
+                                    ]
                                 }
                             ]
                         }
