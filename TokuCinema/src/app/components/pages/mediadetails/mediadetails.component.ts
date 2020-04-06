@@ -8,7 +8,7 @@ import { MetatagService } from 'app/services/metatag.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
-import { Router, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -25,10 +25,10 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   coverUrl: string = '';
   public pageNotFound: boolean = false;
   private sub: Subscription;
+  private get pathname() { return document.location.pathname }
 
 
   constructor(private fdb: FirebaseService,
-    private router: Router,
     private route: ActivatedRoute,
     private titleService: Title,
     private metatagService: MetatagService
@@ -36,7 +36,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(() => {
-      this.fdb.getItemFromBranch(this.router.url, 'media', true, DataType.Media).subscribe((mediaData) => {
+      this.fdb.getItemFromBranch(this.pathname, 'media', true, DataType.Media).subscribe((mediaData) => {
         this.media = mediaData;
         if (this.media === undefined) {
           // redirect to 404
@@ -95,7 +95,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     const descriptionTag = this.mediaDetails.Title + ' ' + this.mediaDetails.getFirstMedium() + ' from ' +
       this.mediaDetails.Distributor + ' Information.';
     this.metatagService.updateTags([
-      { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
+      { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },
       { property: 'og:title', content: this.mediaDetails.Title + ' ' + this.mediaDetails.getFirstMedium() + ' Information' },
       { property: 'og:description', content: descriptionTag },
       { name: 'description', content: descriptionTag },

@@ -4,10 +4,10 @@ import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
-import { Router, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -22,18 +22,17 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: AngularFireList<any[]>;
+  private get pathname() { return document.location.pathname }
 
   constructor(
-    private router: Router,
     private fdb: FirebaseService,
     private route: ActivatedRoute,
     private titleService: Title,
     private metatagService: MetatagService
   ) {
-
     this.sub = this.route.params.subscribe(params => {
 
-      fdb.getItemFromBranch(this.router.url, 'movies', true, DataType.Movie).subscribe( (data) => {
+      fdb.getItemFromBranch(this.pathname, 'movies', true, DataType.Movie).subscribe((data) => {
         this.movie = data;
         if (this.movie === undefined) {
           // redirect to 404
@@ -44,7 +43,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').'
         const imageUrlTag = this.movie.doesPosterExist() ? this.movie.OriginalPoster[1] : '';
         this.metatagService.updateTags([
-          { property: 'og:url', content: 'https://tokucinema.com' + this.router.url },
+          { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },
           { property: 'og:title', content: this.movie.OfficialTitle },
           { property: 'og:description', content: descriptionTag },
           { name: 'description', content: descriptionTag },
@@ -67,7 +66,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         }
       });
 
-      fdb.getItemFromBranch(this.router.url, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe( (data) => {
+      fdb.getItemFromBranch(this.pathname, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe((data) => {
         if (data) {
           this.movieAlternateVersion = data;
           this.movieAlternateVersion.Countries[0].Active = true;
