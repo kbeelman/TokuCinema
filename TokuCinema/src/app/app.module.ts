@@ -73,58 +73,60 @@ import { environment } from '../environments/environment';
     ReleaseYearSortPipe
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule,
     FormsModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
     AngularFireStorageModule,
     RouterModule.forRoot([
-      {
+    {
         path: '',
         component: HomeComponent
-      },
-      {
+    },
+    {
         path: 'home',
         component: HomeComponent
-      },
-      {
+    },
+    {
         path: 'index',
         component: HomeComponent
-      },
-      {
+    },
+    {
         path: 'about',
         component: AboutComponent
-      },
-      {
+    },
+    {
         path: 'movies',
         component: MoviesComponent
-      },
-      {
+    },
+    {
         path: 'movies/:name',
         component: MoviedetailsComponent
-      },
-      {
+    },
+    {
         path: 'media',
         component: MediaComponent
-      },
-      {
+    },
+    {
         path: 'media/:name',
         component: MediadetailsComponent
-      },
-      {
+    },
+    {
         path: 'mediaboxsets',
         component: MediaBoxsetsComponent
-      },
-      {
+    },
+    {
         path: '404',
         component: NotFoundComponent
-      },
-      {
+    },
+    {
         path: '**',
         component: NotFoundComponent
-      }
-    ]),
+    }
+], {
+    initialNavigation: 'enabled'
+}),
   ],
   providers: [FirebaseService],
   bootstrap: [AppComponent]
