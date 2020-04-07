@@ -12,7 +12,17 @@
     "deploy": "firebase deploy",
     "deploy-dev": "firebase deploy -P dev",
     "lint": "ng lint",
-    "duplication": "jscpd --path ./src/ --languages typescript"
+    "duplication": "jscpd --path ./src/ --languages typescript",
+    "compile:server": "webpack --config webpack.server.config.js --progress --colors",
+    "serve:ssr": "node dist/server",
+    "build:client-and-server-bundles": "ng build --prod && ng run toku-cinema:server:production",
+    "build-dev:client-and-server-bundles": "ng build && ng run toku-cinema:server:production",
+    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server && cd functions/ && npm run build && cd ..",
+    "build-dev:ssr": "npm run build-dev:client-and-server-bundles && npm run compile:server && cd functions/ && npm run build && cd ..",
+    "build-deploy": "npm run build:ssr && npm run deploy",
+    "build-deploy-dev": "npm run build-dev:ssr && npm run deploy-dev",
+    "use-pre-rendered": "cp dist/pre-render/* -R dist/ && rm -rf dist/pre-render",
+    "pre-render": "sleep 1 && node pre-render.js && npm run use-pre-rendered"
   },
   "private": true,
   "dependencies": {
@@ -46,12 +56,18 @@
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-cli": "^2.0.0",
-    "karma-coverage-istanbul-reporter": "^2.1.1",
-    "karma-jasmine": "^3.1.1",
-    "karma-jasmine-html-reporter": "^1.5.3",
-    "protractor": "^5.4.3",
-    "ts-node": "^8.8.2",
-    "tslint": "^6.1.1",
-    "typescript": "3.8.3"
+    "karma-coverage-istanbul-reporter": "^2.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "protractor": "^5.4.2",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "3.5.3",
+    "utf-8-validate": "^5.0.2",
+    "webpack-cli": "^3.3.7",
+    "ws": "^7.1.2",
+    "xhr2": "^0.2.0",
+    "puppeteer": "^1.19.0"
   }
 }
