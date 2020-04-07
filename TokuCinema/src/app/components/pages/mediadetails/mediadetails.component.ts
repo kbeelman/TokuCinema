@@ -103,7 +103,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
       { property: 'og:image:alt', content: imageAltTextTag },
       { name: 'twitter:image:alt', content: imageAltTextTag }
     ]);
-    this.fdb.getImageMetadata(this.media.Path, 'media').subscribe((metadata) => {
+    this.fdb.getImageMetadata(this.media.Path, 'media').then((metadata) => {
       const customMetadata = metadata.customMetadata;
       if (customMetadata) {
         if (customMetadata.width && customMetadata.height) {

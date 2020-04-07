@@ -51,8 +51,8 @@ export class FirebaseService {
       return branchItem;
     }
 
-    public getImageMetadata(path: string, branchName: string): Observable<any> {
-      return this.fireStorage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
+    public getImageMetadata(path: string, branchName: string): Promise<any> {
+      return this.fireStorage.storage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
     }
 
     private extractDomainObject(res: any, buildType: DataType): Observable<any> {

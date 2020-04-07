@@ -50,7 +50,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           { property: 'og:image', content: imageUrlTag }
         ]);
         if (this.movie.doesPosterExist()) {
-          fdb.getImageMetadata(this.movie.Path, 'movies').subscribe((metadata) => {
+          fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata) => {
             const customMetadata = metadata.customMetadata;
             if (customMetadata) {
               if (customMetadata.width && customMetadata.height) {

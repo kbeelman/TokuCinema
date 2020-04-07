@@ -5,14 +5,18 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build --prod",
+    "copy-404": "cp dist/index.html dist/404.html",
+    "build": "ng build --prod && npm run copy-404",
     "test": "ng test --code-coverage",
     "test-once": "ng test --watch=false --code-coverage",
-    "build-dev": "ng build",
+    "build-dev": "ng build && npm run copy-404",
     "deploy": "firebase deploy",
     "deploy-dev": "firebase deploy -P dev",
     "lint": "ng lint",
-    "duplication": "jscpd --path ./src/ --languages typescript"
+    "duplication": "jscpd --path ./src/ --languages typescript",
+    "use-pre-rendered": "cp dist/pre-render/* -R dist/ && rm -rf dist/pre-render",
+    "pre-render": "node pre-render.js && npm run use-pre-rendered",
+    "deploy-pipeline-dev": "npm run build && npm run deploy-dev && sleep 10 && npm run pre-render && npm run deploy-dev"
   },
   "private": true,
   "dependencies": {
@@ -50,6 +54,7 @@
     "karma-jasmine": "^3.1.1",
     "karma-jasmine-html-reporter": "^1.5.3",
     "protractor": "^5.4.3",
+    "puppeteer": "^1.19.0",
     "ts-node": "^8.8.2",
     "tslint": "^6.1.1",
     "typescript": "3.8.3"
