@@ -24,7 +24,7 @@ export class AboutComponent implements OnInit {
     {
       name: 'Joey',
       imgUrl: 'https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/' +
-        'images%2Fabout%2Fjoseph.png?alt=media&token=2054f594-d96c-4573-a285-abe24ec4caee',
+        'images%2Fabout%2Fjoey.jpg?alt=media&token=d7e8856e-e364-4d2a-b919-4e6927cbab56',
       bio: 'Joey has been a fan of the Godzilla series since childhood, and was helped by his grandfather who would record ' +
       'TV airings of Godzilla movies onto VHS tapes. As a skilled Software Engineer, Joey lends his talents to assisting with the ' +
       'software development of the Toku Cinema website.',
