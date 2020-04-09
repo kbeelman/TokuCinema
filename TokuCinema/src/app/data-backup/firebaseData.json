@@ -1966,6 +1966,167 @@
             ] 
         },
         {
+            "OfficialTitle": "Frankenstein vs. Baragon",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"フランケンシュタイン対地底怪獣バラゴン"},
+                {"TitleType":"Hepburn","TitleValue":"Furankenshutain tai Chitei Kaiju Baragon"},
+                {"TitleType":"Literal Translation","TitleValue":"Frankenstein vs. the Subterranean Monster Baragon"},
+                {"TitleType":"U.S. Title","TitleValue":"Frankenstein Conquers the World"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FFrankenstein-Baragon-1965%2Fthumb-card.png?alt=media&token=6b5ccb6c-0e72-4424-91db-3d3627502b73",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FFrankenstein-Baragon-1965%2Fthumb-details.png?alt=media&token=54323621-b204-439c-93bc-1ac1fa6ac7b4"],
+            "ReleaseDate": "1965-08-08",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "93",
+            "Path": "Frankenstein-Baragon-1965",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Henry G. Saperstein, Reuben Bercovich"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Takeshi Kimura (as Kaoru Mabuchi), Jerry Sohl (synopsis), Reuben Bercovich (story)"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Sound","Name":"Sadamasa Nishimoto"},
+                {"PositionTitle":"Sound Recording","Name":"Wataru Konuma"},
+                {"PositionTitle":"Production Manager","Name":"Yorihiko Yamada"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"SFX Wire Work","Name":"Fumio Nakadai"},
+                {"PositionTitle":"Still Photographer","Name":"Kazukiyo Tanaka"},
+                {"PositionTitle":"Makeup (Frankenstein)","Name":"Riki Konna"}
+            ],
+            "Cast": [
+                {"ActorName":"Nick Adams","RoleName":"Dr. James Bowen"},
+                {"ActorName":"Tadao Takashima","RoleName":"Dr. Yuzo Kawaji"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Dr. Sueko Togami"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Captain Kawai"},
+                {"ActorName":"Peter Mann","RoleName":"Dr. Liesendorf"},
+                {"ActorName":"Takashi Shimura","RoleName":"Army Surgeon"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Commander Murata"},
+                {"ActorName":"Keiko Sawai","RoleName":"Tazuko Toii"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Dog Owner"},
+                {"ActorName":"Junichiro Mukai","RoleName":"Policeman"},
+                {"ActorName":"Toshihiko Furata","RoleName":"Peasant"},
+                {"ActorName":"Yutaka Sada","RoleName":"Hospital Director"},
+                {"ActorName":"Hideo Shibuya","RoleName":"Reporter"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Motoki"},
+                {"ActorName":"Haruya Kato","RoleName":"TV Director"},
+                {"ActorName":"Yutaka Nakayama","RoleName":"TV Lighting Man A"},
+                {"ActorName":"Senkichi Omura","RoleName":"TV Lighting Man B"},
+                {"ActorName":"Yasuyuki Saijo","RoleName":"TV Camerman"},
+                {"ActorName":"Shigeki Ishida","RoleName":"University Professor"},
+                {"ActorName":"Kenzo Tabu","RoleName":"Newspaper Editor"},
+                {"ActorName":"Mitsuo Tsuda","RoleName":"Engineer"},
+                {"ActorName":"Shoichi Hirose","RoleName":"Tunnel Worker"},
+                {"ActorName":"Kozo Nomura","RoleName":"Reporter #2"},
+                {"ActorName":"Tadashi Okabe","RoleName":"Reporter #3"},
+                {"ActorName":"Masaki Tachibana","RoleName":"Reporter #4"},
+                {"ActorName":"Nadao Kirino","RoleName":"Inspector Okabe"},
+                {"ActorName":"Kenji Sahara","RoleName":"Lt. Tadokoro"},
+                {"ActorName":"Jun Tazaki","RoleName":"Military Advisor"},
+                {"ActorName":"Susumu Fujira","RoleName":"Osaka Police Chief"},
+                {"ActorName":"Hisayo Ito","RoleName":"Osaka Police Sergeant"},
+                {"ActorName":"Nobuo Nakamura","RoleName":"Dr. Suga"},
+                {"ActorName":"Yoshio Kosugi","RoleName":"Soldier"},
+                {"ActorName":"Noriko Takahashi","RoleName":"Girl at Lodge"},
+                {"ActorName":"Koji Furuhata","RoleName":"Frankenstein"},
+                {"ActorName":"Sumio Nakao","RoleName":"Boy Frankenstein"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Baragon"}
+            ]
+        },
+        {
+            "OfficialTitle": "The War of the Gargantuas",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"フランケンシュタインの怪獣 サンダ対ガイラ"},
+                {"TitleType":"Hepburn","TitleValue":"Furankenshutain no kaiju: Sanda tai Gaira"},
+                {"TitleType":"Literal Translation","TitleValue":"Frankenstein's Monsters: Sanda vs. Gaira"},
+                {"TitleType":"U.S. Title","TitleValue":"The War of the Gargantuas"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FWar-Gargantuas-1966%2Fthumb-card.png?alt=media&token=26ebbc78-c38c-49f6-990e-8bb4df8ec082",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FWar-Gargantuas-1966%2Fthumb-details.png?alt=media&token=81c7c99a-629d-4a9e-a3f5-de1adeebb593"],
+            "ReleaseDate": "1966-07-31",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "88",
+            "Path": "War-Gargantuas-1966",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Kenichiro Tsunoda, Henry G. Saperstein"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Takeshi Kimura (as Kaoru Mabuchi), Ishiro Honda, Reuben Bercovich (story)"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Ryohei Fujii"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Art Director","Name":"Takeo Kita"},
+                {"PositionTitle":"Lighting","Name":"Toshio Takashima"},
+                {"PositionTitle":"Sound","Name":"Sadamasa Nishimoto"},
+                {"PositionTitle":"Sound Recording","Name":"Norio Tone"},
+                {"PositionTitle":"Production Manager","Name":"Shoichi Koga"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Yasuaki Sakamoto"},
+                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"SFX Wire Work","Name":"Fumio Nakadai"},
+                {"PositionTitle":"Still Photographer","Name":"Kazukiyo Tanaka"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Wareichi Araki"},
+                {"PositionTitle":"Monster Design","Name":"Toru Narita"}
+            ],
+            "Cast": [
+                {"ActorName":"Russ Tamblyn","RoleName":"Dr. Paul Stewart"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Dr. Akemi Togawa"},
+                {"ActorName":"Kenji Sahara","RoleName":"Dr. Yuzo Mamiya"},
+                {"ActorName":"Jun Tazaki","RoleName":"Major General Hashimoto"},
+                {"ActorName":"Nobuo Nakamura","RoleName":"Professor Kida"},
+                {"ActorName":"Hisaya Ito","RoleName":"Police Chief Izumida"},
+                {"ActorName":"Yoshifumi Tajima","RoleName":"Police Officer Hirai"},
+                {"ActorName":"Hiro Kirino","RoleName":"Soldier Kazama"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Sailor Kameda"},
+                {"ActorName":"Kipp Hamilton","RoleName":"Lounge Singer"},
+                {"ActorName":"Tadashi Okabe","RoleName":"Reporter #1"},
+                {"ActorName":"Yoshio Katsube","RoleName":"Reporter #2"},
+                {"ActorName":"Minoru Ito","RoleName":"Reporter #3"},
+                {"ActorName":"Yutaka Oka","RoleName":"Reporter #4"},
+                {"ActorName":"Hideo Shibuya","RoleName":"Reporter #5"},
+                {"ActorName":"Masaki Tachibana","RoleName":"Reporter #6"},
+                {"ActorName":"Yu Sekida","RoleName":"Sanda"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Gaira"},
+                {"ActorName":"Yasuhiro Komiya","RoleName":"Baby Sanda"},
+                {"ActorName":"Henry Okawa","RoleName":"Doctor"},
+                {"ActorName":"Kyoko Mori","RoleName":"Nurse"},
+                {"ActorName":"Ikio Sawamura","RoleName":"Old Fisherman"},
+                {"ActorName":"Shoichi Hirose","RoleName":"Mountain Guide"},
+                {"ActorName":"Toku Ihara","RoleName":"Diver"},
+                {"ActorName":"Yasuhisa Tsutumi","RoleName":"Soldier #1"},
+                {"ActorName":"Mitsuo Tsuda","RoleName":"Soldier #2"},
+                {"ActorName":"Kozo Nomura","RoleName":"Soldier #3"},
+                {"ActorName":"Nadao Kirino","RoleName":"Soldier #4"}
+            ]
+        },
+        {
             "OfficialTitle": "The X from Outer Space",
             "AlternateTitles": [
                 {"TitleType":"Japanese","TitleValue":"宇宙大怪獣ギララ"},
@@ -5034,7 +5195,7 @@
                                     "Notes": [
                                         "Classic Media's reconstruction of the film mostly utlizes Toho's contemporary transfer of the Japanese version.",
                                         "The opening credits are in widescreen, and feature no significant cropping.",
-                                        "Strangely, the video source falls back to footage from the MonstersHD master for the ending title, which is further cropped to roughly 2.35:1 from 1.78:1."
+                                        "Strangely, the video source falls back to footage from the Monsters HD master for the ending title, which is further cropped to roughly 2.35:1 from 1.78:1."
                                     ]
                                 }
                             ]
@@ -7242,6 +7403,282 @@
             ]
         },
         {
+            "Path": "Frankenstein-Baragon-1965",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankenstein Conquers the World"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Lucy Martin","RoleName":"Dr. Sueko Togami"},
+                                {"ActorName":"Bernard Grant","RoleName":"Dr. Yuzo Kawaji"},
+                                {"ActorName":"Larry Robinson","RoleName":"Captain Kawai"},
+                                {"ActorName":"Kenneth Harvey","RoleName":"Military Advisor, Osaka Police Chief"},
+                                {"ActorName":"Jack Curtis","RoleName":"Army Surgeon, Reporter"},
+                                {"ActorName":"Bret Morrison","RoleName":"Reporter #2, Akita Oil Field Employee"}
+                            ],
+                            "Crew": [{"PositionTitle":"Producer","Name":"Salvatore Billitteri"}],
+                            "DubCompany": "Titan Productions",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "1966-07-08",
+                            "Runtime":"86:56",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A short conversation between Kawai and his superior during the prologue and a lengthy sequence where Dr. Bowen and Sueko go to visit a dead female patient's grave are cut.",
+                                        "Some alternate takes and footage are used during Frankenstein's escape scene. This footage, which like the Oodako alternate endping sequence, was filmed at Saperstein's insistence, shows a more aggressive Frankenstein and includes some coverage of police officers being crushed by rubble as Frankenstien breaks out of captivity. A slightly later sequence shows Frankenstein bending a lamppost and throwing it at a police cruiser and then grabbing the cruiser and throwing it, causing it to explode. There is a stutter in Ifukube's music during the sequence.",
+                                        "The ending also uses some of Ifukube's music from the alternate octopus ending.",
+                                        "While not included in any cut of the movie, it is worth mentioning an alternate ending was filmed at the insistence by producer Saperstein where, after Frankenstein defeats Baragon, he is attacked by Oodako, a giant octopus and drowned in a lake. Honda and Tsuburaya filmed and finished the sequence. However, for whatever reason, Saperstein changed his mind and the scene was discarded and used in neither the Japanese or US edits, though musical cues from the sequence can be heard as Frankenstein sinks into the ground in the U.S. edit. The alternate ending finally reappeared in the 1980s as an extra on Toho's VHS and LaserDisc and was available on Media Blasters' region 1 DVD."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "UPA TV",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1980's",
+                                    "Notes": [
+                                        "UPA made a TV version with video generated credits which is the version most often seen on television in the U.S. in the 90’s, airing several times on TNT and AMC. This master has some sound synchronization issues."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Monsters HD Master",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 2004",
+                                    "Notes": [
+                                        "Monsters HD aired a 16x9 cropped reconstruction of the US version. It uses a pristine Japanese source for majority of the picture, reverting to a much poorer, oddly framed AIP source for the English location cards and the ending, but uses the UPA end title card.",
+                                        "This version is missing many shots and lines, and features neither of the extensions to the two scenes from the American theatrical version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Media Blasers DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2007-06-26",
+                                    "Notes": [
+                                        "Media Blasters created a scope reconstruction of the US version directly based on the Monsters HD version. Location cards are all digitally recreated, and bear only a slight similarity to the original opticals."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankenstein Conquers the World"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Anglo Amalgamated",
+                            "ReleaseDate": "1966-08-30",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"X"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Latino",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "American International Pictures released a Spanish language dub of their American version of the movie for the Latino market. It has the Japanese Toho logo music before the American International Pictures logo appears."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1967",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A French dub of American International Pictures' American version was made, has never been released on home video, and is considered lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "American International Pictures released a Italian language dub of their American version of the movie. This dub is available on DVD."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "War-Gargantuas-1966",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War of the Gargantuas"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Linda Masson","RoleName":"Dr. Akemi Togawa"},
+                                {"ActorName":"Barry Haigh","RoleName":"Police Chief Izumida"},
+                                {"ActorName":"Nick Kendall","RoleName":"Major General Hashimoto"},
+                                {"ActorName":"Warren Rooke","RoleName":"Soldier #4"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1966",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An English international version was made, and the dubbing was done in Hong Kong.",
+                                        "This English version retains the Frankenstein references removed from the U.S. cut; however, it was soon supplanted by the U.S. version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Greek VHS",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A cut version of the International dub was released on home video in Greece in the 1980's or 1990's from a Dutch-subtitled print entitled \"KATANGO'S WAR\", and is extremely rare. The print on this tape is full of splices, contains change-over damage, and is cut by around 15-20 minutes."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Janus Films/Criterion",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 2017",
+                                    "Notes": [
+                                        "The complete dub was released in the U.S. in 2017 through Janus Films/Criterion via STARZ and the now defunct FilmStruck streaming service. This version of the dub differs from the Dutch copy however, with many mixing/sync differences, and at least one instance of missing dialogue from some announcements over the PA during the Haneda Airport attack."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War of the Gargantuas"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Dialog Supervisor","Name":"Riley Jackson"}
+                            ],
+                            "DubCompany": "Glen Glenn Sound",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Maron Films",
+                            "ReleaseDate": "1970-07-29",
+                            "Runtime":"92",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"G"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The U.S. version was released on a double bill with Toho and UPA's own Monster Zero (or Invasion of the Astro Monster). The U.S. version features an entirely new dub.",
+                                        "All references to Frankenstein vs. Baragon and to the monsters being \"Frankensteins\" are removed.",
+                                        "Russ Tamblyn had to reloop his own performance, either due to the on-set dialog tapes being lost or to remove the Frankenstein references, depending on who you ask.",
+                                        "The opening has been rearranged, the Japanese and international versions open with the credits and then the first scene. The U.S. version starts with the first scene and then cuts to the credits.",
+                                        "There were several alterations to the film’s music, including the deletion of Akira Ifukube's \"Operation L March\", which has been replaced by a stock music piece by Phillip Green called \"Terror Hunt\" that has been used in other films including Zaat or The Blood Waters of Dr. Z (1972). Additionally, some music from Invasion of the Astro Monster/Monster Zero is also added.",
+                                        "This U.S. cut runs 92 minutes, four minutes longer than the Japanese version and features a fair amount of alternate and additional scenes and takes. This includes more scenes with Russ Tamblyn that serve the purpose of introducing his character earlier and expanding his role (at the expense of Kenji Sahara's), including a scene where he has a discussion with Yoshifumi Tajima's Police Officer and mentions a \"severed hand\" that's still alive, clearly a reference to the previous film."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "X-Outer-Space-1967",
             "Countries": [
                 {
@@ -7727,6 +8164,47 @@
             "Path": "Godzilla-1984",
             "Countries": [
                 {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "\"A\" Mix",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Return of Godzilla has two main audio mixes, an \"A\" mix and a \"B\" mix that utilize different music and effects tracks. The \"A\" mix is the only version that has been released on home video, and has been used as the basis of the stereo mix and 5.1 surround sound remixes, as well as the basis for most foreign language copies."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "\"B\" Mix",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The \"B\" mix was likely created for a mono theatrical release, though no copies have surfaced. This mix was notably used as a basis for a 1985 Drama LP, the original copies of the international dub, and the American version, Godzilla 1985.",
+                                        "The most notable difference in the \"B\" mix is that Godzilla screams as he falls into the volcano at the end of the movie."
+
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "Country": "International",
                     "Versions": [
                         {
@@ -7755,7 +8233,7 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "This is an exact, cut for cut dub of the Japanese version. The Russian dialog is dubbed into English as well as the Japanese, unlike in the American cut, Godzilla 1985.",
-                                        "Godzilla's infamous scream as he falls into Mt. Mihara is actually present in this version when it was previously thought to be one of the many sound design tweaks made to Godzilla 1985. The answer behind the mysterious scream being present is that it apparently was originally included in the Japanese cinema version of The Return of Godzilla but removed from the film for the stereo video release. As the international version is in mono and based on the cinema version, the scream managed to make it in.",
+                                        "Godzilla's infamous scream as he falls into Mt. Mihara is actually present in this version when it was previously thought to be one of the many sound design tweaks made to Godzilla 1985. The answer behind the mysterious scream being present is that the international dub originally used a \"B\" mix music and effects track, which contains several differences to the more commonly used \"A\" mix.",
                                         "This version was released on PAL VHS in Britain."
                                     ]
                                 },
@@ -7766,7 +8244,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 and replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred new scream."
+                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 surround sound and uses the \"A\" mix music and effects track, which notably replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred scream from the \"A\" mix music and effects track."
                                     ]
                                 }
                             ]
@@ -7816,6 +8294,7 @@
                                         "Shortened scenes include: Goro's fight with the sea louse, the scenes where Goro tells Naoko that Hiroshi is still alive and when the two are reunite; as well as the meeting between the Prime Minister, the American ambassador, and the Russian ambassador is heavily shortened and moved to take place prior to Godzilla’s attack on the nuclear power plant.",
                                         "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
                                         "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
+                                        "At the end of this version of the movie, Godzilla screams as he falls into Mt. Mihara. This scream is not present in most other versions of the movie. While it was previously thought that this scream was one of the many sound design tweaks exclusive to this version, it was actually just sourced from the \"B\" mix music and effects track, which can also be heard in the 1985 Drama LP and early versions of the international dub.",
                                         "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
                                     ]
                                 }
