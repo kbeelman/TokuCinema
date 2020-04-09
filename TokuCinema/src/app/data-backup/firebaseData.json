@@ -1766,6 +1766,74 @@
             "Path": "Gamera-Brave-2006"
         },
         {
+            "OfficialTitle": "Matango",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"マタンゴ"},
+                {"TitleType":"Hepburn","TitleValue":"Matango"},
+                {"TitleType":"U.S. Title","TitleValue":"Attack of the Mushroom People"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMatango-1963%2Fthumb-card.png?alt=media&token=b616a3c1-20b2-4259-9f6e-7d155c9af912",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMatango-1963%2Fthumb-details.png?alt=media&token=a9da3b66-0711-4582-8012-ac512c70a545"],
+            "ReleaseDate": "1963-08-11",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "89",
+            "Path": "Matango-1963",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Special Effects Director","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Screenplay","Name":"Takeshi Kimura, William Hope Hodgson (story Voice in the Night)"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Music","Name":"Sadao Bekku"},
+                {"PositionTitle":"Editor","Name":"Reiko Kaneko"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Art Director","Name":"Shigekazu Ikuno"},
+                {"PositionTitle":"Lighting","Name":"Shoshichi Kojima"},
+                {"PositionTitle":"Sound","Name":"Hisashi Shimonaga, Minoru Kaneyama"},
+                {"PositionTitle":"Sound Recording","Name":"Fumio Yanaguchi"},
+                {"PositionTitle":"Production Manager","Name":"Shigeru Nakamura"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"SFX Cinematography","Name":"Sadamasa Arikiawa, Mototaka Tomioka"},
+                {"PositionTitle":"SFX Art Director","Name":"Akira Watanabe"},
+                {"PositionTitle":"SFX Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Tadashi Koike"},
+                {"PositionTitle":"VFX Opticals","Name":"Hiroshi Mukoyama"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Yukio Manoda, Yoshiyuki Tokumasa"},
+                {"PositionTitle":"Costume and Conceptual Designs","Name":"Shigeru Komatsuzaki"},
+                {"PositionTitle":"Monster Design","Name":"Toru Narita"},
+                {"PositionTitle":"Still Photographer","Name":"Kazukiyo Tanaka"}
+            ],
+            "Cast": [
+                {"ActorName":"Akira Kubo","RoleName":"Kenji Murai"},
+                {"ActorName":"Kumi Mizuno","RoleName":"Mami Sekiguchi"},
+                {"ActorName":"Hiroshi Koizumi","RoleName":"Naoyuki Sakuta"},
+                {"ActorName":"Kenji Sahara","RoleName":"Senzo Koyama"},
+                {"ActorName":"Hiroshi Tachikawa","RoleName":"Etsuro Yoshida"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Fumio Kasai"},
+                {"ActorName":"Miki Yashiro","RoleName":"Akiko Soma"},
+                {"ActorName":"Hideyo Amamoto","RoleName":"Hero Transitional Matango"},
+                {"ActorName":"Haruo Nakajima","RoleName":"Hero Matango"},
+                {"ActorName":"Jiro Kumagai","RoleName":"Doctor"},
+                {"ActorName":"Katsumi Tezuka","RoleName":"Policeman"},
+                {"ActorName":"Akio Kusama","RoleName":"Policeman #2"},
+                {"ActorName":"Yutaka Oka","RoleName":"Doctor #2"},
+                {"ActorName":"Keisuki Yamada","RoleName":"Doctor #3"},
+                {"ActorName":"Tokio Okawa","RoleName":"Matango"},
+                {"ActorName":"Toku Ihara","RoleName":"Matango"},
+                {"ActorName":"Masaki Shinohara","RoleName":"Matango"},
+                {"ActorName":"Kuniyoshi Kashima","RoleName":"Matango"},
+                {"ActorName":"Mitsuko Hayashi","RoleName":"Nurse"},
+                {"ActorName":"Tsurue Ichimanji","RoleName":"Nurse #2"}
+            ]
+        },
+        {
             "OfficialTitle": "Atragon",
             "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"},{"TitleType":"Literal Translation","TitleValue":"Undersea Warship"}],
             "OriginalPoster": [
@@ -2209,6 +2277,82 @@
                 {"ActorName":"Burt Johansson","RoleName":"Counter ESPY Agent #4"},
                 {"ActorName":"Robert Dunham","RoleName":"Plane Captain"}
             ] 
+        },
+        {
+            "OfficialTitle": "The War in Space",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"惑星大戦争"},
+                {"TitleType":"Hepburn","TitleValue":"Wakusei Daisenso"},
+                {"TitleType":"Literal Translation","TitleValue":"Great Planet War"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FWar-Space-1977%2Fthumb-card.png?alt=media&token=b55f420d-9dfd-432f-b5ac-0ed5719174e7",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FWar-Space-1977%2Fthumb-details.png?alt=media&token=75ef2b03-223f-4a25-bb61-3910e1ab7680"],
+            "ReleaseDate": "1977-12-17",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Jun Fukuda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "91",
+            "Path": "War-Space-1977",
+            "Crew": [
+                {"PositionTitle":"Producers","Name":"Tomoyuki Tanaka, Fumio Tanaka"},
+                {"PositionTitle":"Director","Name":"Jun Fukuda"},
+                {"PositionTitle":"Special Effects Director","Name":"Teruyoshi Nakano"},
+                {"PositionTitle":"Screenplay","Name":"Shuichi Nagahara, Ryuzo Nakanishi"},
+                {"PositionTitle":"Cinematography","Name":"Yuzuru Aizawa"},
+                {"PositionTitle":"Music","Name":"Toshiaki Tsushima"},
+                {"PositionTitle":"Editor","Name":"Michiko Ikeda"},
+                {"PositionTitle":"Assistant Director","Name":"Ippei Imamura"},
+                {"PositionTitle":"Art Director","Name":"Kazuo Satsuya"},
+                {"PositionTitle":"Lighting","Name":"Shinji Kojima"},
+                {"PositionTitle":"Sound Recording","Name":"Toshiya Ban"},
+                {"PositionTitle":"Production Manager","Name":"Toshiaki Hashimoto"},
+                {"PositionTitle":"Stunts","Name":"Japan Action Club"},
+                {"PositionTitle":"Assistant SFX Director","Name":"Koichi Kawakita"},
+                {"PositionTitle":"SFX Cinematography","Name":"Takeshi Yamamoto"},
+                {"PositionTitle":"SFX Art Director","Name":"Yasuyuki Inoue"},
+                {"PositionTitle":"SFX Lighting","Name":"Masukuni Morimoto"},
+                {"PositionTitle":"SFX Unit Production Manager","Name":"Keisuke Shinoda"},
+                {"PositionTitle":"VFX Optical Photography","Name":"Takeshi Miyanishi"},
+                {"PositionTitle":"Mechanical Effects","Name":"Tadashi Watanbe"},
+                {"PositionTitle":"Still Photographer","Name":"Yoshinori Ishizuki"},
+                {"PositionTitle":"SFX Still Photographer","Name":"Kazukiyo Tanaka"}
+            ],
+            "Cast": [
+                {"ActorName":"Kensaku Morita","RoleName":"Koji Miyoshi"},
+                {"ActorName":"Yuko Asano","RoleName":"Jun Takigawa"},
+                {"ActorName":"Masaya Oki","RoleName":"Muroi"},
+                {"ActorName":"Ryo Ikebe","RoleName":"Dr. Masato Takigawa"},
+                {"ActorName":"Katsutoshi Atarashi","RoleName":"Tadashi Mikasa"},
+                {"ActorName":"Hiroshi Miyauchi","RoleName":"Kazuo Fuyuki"},
+                {"ActorName":"David Perlin","RoleName":"Jimmy"},
+                {"ActorName":"William Ross","RoleName":"Dr. Schimdt"},
+                {"ActorName":"Takashi Kanematsu","RoleName":"Tetsuo Kusaka"},
+                {"ActorName":"Futoshi Kikuchi","RoleName":"Goro Minato"},
+                {"ActorName":"Hideji Otaki","RoleName":"Dr. Matsuzawa"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Commander Oishi"},
+                {"ActorName":"Toshikazu Moritagawa","RoleName":"Ishiyama"},
+                {"ActorName":"Goro Mutsumi","RoleName":"Commander Hell"},
+                {"ActorName":"Isao Hashimoto","RoleName":"Scientist #1"},
+                {"ActorName":"Go Endo","RoleName":"Scientist #2"},
+                {"ActorName":"Shoji Nakayama","RoleName":"Defense Staff"},
+                {"ActorName":"Wataru Yamamoto","RoleName":"Goten Captain"},
+                {"ActorName":"Yu Naoko","RoleName":"Goten Vice-Captain"},
+                {"ActorName":"Yosuke Takemura","RoleName":"Goten Communications Officer #1"},
+                {"ActorName":"Shinichi Yoshimiya","RoleName":"Goten Communications Officer #2"},
+                {"ActorName":"Shinji Kawabata","RoleName":"Goten Bridge Officer #1"},
+                {"ActorName":"Koichi Yoshida","RoleName":"Goten Bridge Officer #2"},
+                {"ActorName":"Fumitsugu Hayata","RoleName":"Goten Bridge Officer #3"},
+                {"ActorName":"Junichi Eto","RoleName":"Goten Crew #1"},
+                {"ActorName":"Osamu Murashima","RoleName":"Goten Crew #2"},
+                {"ActorName":"Susumu Otani","RoleName":"Goten Crew #3"},
+                {"ActorName":"Isao Setoyama","RoleName":"Goten Radar Officer"},
+                {"ActorName":"Mammoth Suzuki","RoleName":"Space Beastman"}
+            ]
         },
         {
             "OfficialTitle": "Message from Space",
@@ -6693,6 +6837,164 @@
             ]
         },
         {
+            "Path": "Matango-1963",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Matango"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Ted Thomas","RoleName":"Naoyuki Sakuta"},
+                                {"ActorName":"Linda Mason","RoleName":"Akiko Soma"},
+                                {"ActorName":"John Wallace","RoleName":"Senzo Koyama"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1963",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international export English version was produced and was dubbed into English in Hong Kong.",
+                                        "The full export version was released on video in Europe and the full international dub can be heard on the 2005 Region 1 Media Blasters DVD, but is missing the (international) opening and end credits."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Attack of the Mushroom People"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1965",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US in 1965.",
+                                        "Unlike most of AIP's releases, the film was not redubbed and the original international Hong Kong dubbing was left intact.",
+                                        "The film was retitled to Attack of the Mushroom people, and the credits were shortened. The credits are extremely rudimentary and Ishiro Honda is miscredited as \"Inoshira Honda\".",
+                                        "There were some very minor dialogue cuts made, though it may be that those bits were simply missing from the 16mm print that the Something Weird Video released."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Matango"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Orb Films",
+                            "ReleaseDate": "1969-02-13",
+                            "Runtime":"76:48",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"X"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Matango had a British theatrical release on February 13, 1969."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Matango il mostro"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1964",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Matango received a theatrical release in 1964, which included a dub. This dub is available on DVD."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Matango"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1990's",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Matango received a French television dub in the 1990's."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Atragon-1963",
             "Countries": [
                 {
@@ -7137,7 +7439,7 @@
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "Circa 1974",
-                            "Runtime":"87",
+                            "Runtime":"88:40",
                             "Rating": [],
                             "Iterations": [
                                 {
@@ -7169,13 +7471,13 @@
                             "ProductionCompany": "",
                             "DistributionCompany": "UPA",
                             "ReleaseDate": "Circa 1981",
-                            "Runtime":"88",
-                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Runtime":"87",
+                            "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [{"TitleType":"","TitleValue":""}],
+                                    "AlternateTitle": [],
                                     "Name": "",
-                                    "MediaPath": [{"Descriptor":"","Path":""}],
+                                    "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
@@ -7237,6 +7539,111 @@
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "War-Space-1977",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War in Space"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1977",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international English version was made. It is unknown where the film was dubbed, some suspect Hong Kong, but the voices are completely different from either of the Hong Kong dubbing teams Toho used in the 70's and 80's. Another theory is that the film was dubbed in France, possibly by Les Filmes Jacques Willemetz. The voices are similar to those found in the dub of Shaw Brothers’ Might Peking Man, which was also released in 1977 and was dubbed into English in France."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Video Action - U.S. VHS",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1984",
+                                    "Notes": [
+                                        "The War in Space received a VHS release by Video Action in 1984, and features the international dubbing, complete with opening and end titles in red text.",
+                                        "A brief shot containing Muroi’s line “Jimmy” approximately 62 minutes into the film is missing."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Diskotek Media - U.S. DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2006-04-25",
+                                    "Notes": [
+                                        "In 2006, Diskotek Media released The War in Space on Region 1 DVD in the United States. This DVD features the international dub, synchronized to the Japanese version of the film with Japanese text and credits.",
+                                        "There are a few seconds of missing music at the opening Toho logo.",
+                                        "Similar to Video Action’s 1984 VHS, Muroi’s line \"Jimmy\", approximately 62 minutes into the film is not heard and the audio is briefly out of synch during that sequence."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The War in Space"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Gold Key Entertainment",
+                            "ReleaseDate": "Circa 1981",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television",
+                                    "MediaPath": [],
+                                    "Runtime": "88",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Features the international dubbing and opening credits with white text, but replaces the closing film title and “THE END” screen with black screen.",
+                                        "Approximately 3 minutes have been cut shortly after the opening credits."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Sota avaruudessa"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "ABC-Kinot Oy",
+                            "ReleaseDate": "1978-08-04",
+                            "Runtime":"91",
+                            "Rating": [{"RatingSystem":"CNC","RatingValue":"K12"}],
+                            "Iterations": []
                         }
                     ]
                 }
