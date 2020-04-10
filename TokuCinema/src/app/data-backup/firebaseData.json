@@ -3065,7 +3065,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "The U.S. version is almost a new film, with Godzilla's name being changed to \"Gigantis\", plus extensive edits. This version was based on the foreign negative of the film, which has one different special effect: a shot of some optical snow around Kobayashi's plane. It also has an additional Anguirus roar, which was silenced in the original Japanese version, resulting from something inherent to the dubbing music and effects track."
                                     ]
                                 },
                                 {
@@ -3075,7 +3075,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "The ending Warner Bros. logo differs between older 16mm prints and the 35mm sourced Alan Enterprises/CST master."
                                     ]
                                 },
                                 {
@@ -3083,9 +3083,9 @@
                                     "Name": "Home Video",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "Circa 1980's",
                                     "Notes": [
-                                        ""
+                                        "The Video Treasures VHS labeled the movie as \"Godzilla Raids Again\" on the box, but the actual film print reads \"Gigantis, the Fire Monster\"."
                                     ]
                                 },
                                 {
@@ -3093,9 +3093,221 @@
                                     "Name": "Classic Media",
                                     "MediaPath": [],
                                     "Runtime": "",
+                                    "ReleaseDate": "Circa 1980's",
+                                    "Notes": [
+                                        "A video-generated \"GODZILLA RAIDS AGAIN\" title first appeared in the '80s when the movie started playing again on television, long before Disney Channel started airing it with the same title. This version is available on DVD from Classic Media."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gigantis, the Fire Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Eros Films",
+                            "ReleaseDate": "1960-01-04",
+                            "Runtime":"77:39",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"A"}],
+                            "Iterations": []
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla Kehrt Zurück"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Donau Film",
+                            "ReleaseDate": "Circa February 1958",
+                            "Runtime":"80",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Returns"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "The German theatrical version is based on the Japanese version, but has been slightly edited to be about one minute shorter. Previously thought to be lost, it was released on DVD by Splendid in 2009.",
+                                        "The German version utilize the same dupe negative that the U.S. version used, in which a shot of Kobayashi’s plane features an alternate optical snow effect."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Godzilla Kehrt Zurück"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 2004",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"FSK","RatingValue":"12"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Returns"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Marketing Film released Godzilla Raids Again in 2004 with a newly commissioned dub."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Le retour de Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Les Films du Verseau",
+                            "ReleaseDate": "1967-10-17",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Return of Godzilla"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical version has never been released on home video and is considered to be lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"El Rey de Los Monstruos"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1959",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The King of the Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Spanish theatrical version has never been released on home video and is considered to be lost."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Los hijos del volcán"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Filmax",
+                            "ReleaseDate": "Circa September 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Children of the Volcano"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Filmax produced a new dub for Godzilla Raids Again in 1998 and released it onto VHS."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1959",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Mexican theatrical version has never been released on home video and is considered to be lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Il re dei mostri"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1960",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The King of the Monsters"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical version has never been released on home video and is considered to be lost."
                                     ]
                                 }
                             ]
@@ -3127,19 +3339,26 @@
                                     "Name": "Theatrical",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "1962-08-11",
                                     "Notes": [
-                                        ""
+                                        "The original film negative was cut to conform to either the March 21, 1970 Toho Champion Matsuri (Toho Champion Festival) or to the 1977 reissue.",
+                                        "There were two tracks made each for music and effects, a mono mix and a 4.0 surround sound mix. The 4.0 mix contains a fade-out of a music track as a scene of Godzilla walking along the train tracks transitions to an indoor military shot, and contains a sound effect of Godzilla growling as he gets the tree shoved in his throat."
                                     ]
                                 },
                                 {
                                     "AlternateTitle": [],
-                                    "Name": "VHS & Beta",
+                                    "Name": "Paper Box VHS & Beta",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "1985-06-01",
                                     "Notes": [
-                                        ""
+                                        "The 1985 VHS and Beta releases feature the first of what would be many reconstructions of the film.",
+                                        "This video master uses 16mm elements as a basis, and utilizes 35mm elements when available. As a result of the different film elements used, the aspect ratio is inconsistent.",
+                                        "The Toho logo at the beginning of the movie was ported from another Toho film form around the same time, most likely from Mothra (1961).",
+                                        "An establishing shot of King Kong entering Tokyo is missing from this version.",
+                                        "This release contains a remixed mono track.",
+                                        "A scene with Tadao Takashima has music that fades in and out.",
+                                        "Two versions of the VHS were released, the original release had a red label, and a later release had a blue label. It is unknown if there are any differences in the content of the video, or if the only difference in the releases is limited to the color of the labels."
                                     ]
                                 },
                                 {
@@ -3147,9 +3366,16 @@
                                     "Name": "Misprint LaserDisc",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "1986-11-21",
                                     "Notes": [
-                                        ""
+                                        "When Toho released King Kong vs. Godzilla onto LaserDisc in 1986, it was supposed to contain a few fixes to correct some mistakes from the previous release. Unfortunately, the initial LaserDisc pressings were misprints, and contained what is likely an in-progress workprint.",
+                                        "The Toho logo at the beginning is sourced from 16mm, unlike the VHS and subsequent LaserDisc releases which use a 35mm source for the Toho logo.",
+                                        "The opening scene with narration over the spinning globe plays twice.",
+                                        "The sound source switches between 16mm and 35mm elements, which causes the audio to go out of sync on several occasions. The sound is also sourced directly from the telecines of the 16mm and 35mm elements used.",
+                                        "A brief piece of dialog is missing from the end of the first reel.",
+                                        "An establishing shot of King Kong entering Tokyo is missing from this version.",
+                                        "The music at the end of reel 4 can still be heard in the beginning of reel 5, which itself starts playing on the B-side of the LaserDisc.",
+                                        "There is a lot of audible noise during the transition between reel 6 and reel 7."
                                     ]
                                 },
                                 {
@@ -3159,17 +3385,41 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "Very shortly after the initial printing of LaserDiscs, Toho released a corrected LaserDisc. The version of the film on this LaserDisc is very similar to the 1985 VHS.",
+                                        "This version on this LaserDisc contained some color correction when compared to the VHS, which makes the transition between 16mm and 35mm elements less jarring.",
+                                        "The previously missing establishing shot of King Kong entering Tokyo was added in this version.",
+                                        "A scene at the very beginning of reel 5 featuring Jun Tazaki uses an alternate take, which was used in the trailers, since the 16mm source was damaged."
                                     ]
                                 },
                                 {
                                     "AlternateTitle": [],
-                                    "Name": "Digital Remaster LaserDisc & DVD",
+                                    "Name": "Digital Remaster LaserDisc",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "1991-11-01",
                                     "Notes": [
-                                        ""
+                                        "Originally intended to be a cost-effective reissue of the 1986 LaserDisc, Toho suddenly found original negatives of the previously lost footage. Additionally, Akira Ifukube’s stereo score was found. As a result, the 1991 LaserDisc release was a completely new restoration of the film.",
+                                        "This version uses the music and effects track stems from the 1962 4.0 mix. This mix also contains music during a sequence in the expedition on Faro Island and extended music during a shot with Osamu and Kinsaburo on the boat ferrying Kong to Japan as Mr. Tako’s helicopter lands.",
+                                        "An editing mistake resulted in a very brief party scene appearing during the \"Wonder World Series\" card.",
+                                        "During the submarine scenes, the font for the Japanese subtitles is slightly different than the font used in the original theatrical release. Even though the original negatives were found, they did not contain the on-screen subtitles, and the character negative was still missing. The restoration team tried to recreate the subtitles and match them as closely as possible to the original subtitles, but the new font is different, and some of the spacing is different as well.",
+                                        "This version corrects the fading music in a scene with Tadao Takashima.",
+                                        "This LaserDisc uses the stereo mix throughout most of the film, with the exception of a song at around 40:23 still being mono. Compared to the stereo audio, the mono audio typically has less bass and a muffled treble sound, but the song used here was equalized to raise the bass and treble to make it more consistent with the rest of the film.",
+                                        "An editing mistake was introduced in this master during reel 7, which would not be corrected until 2019. As Godzilla fires his breath at Kong towards the end of the movie, there are some alternating shots between Godzilla roaring, and Kong looking at his hands after being hit with Godzilla’s atomic ray. Some footage of Godzilla appears out of sync to the sound effects, which results in Godzilla’s roar being out of sync.",
+                                        "The visbile are of the frame is very large, which results in splice marks being visible from scene to scene."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2001-01-21",
+                                    "Notes": [
+                                        "The 2001 DVD was based on the master from the 1991 LaserDisc and uses the same telecine as its source.",
+                                        "The \"Toho Studios 30th Anniversary Production\" logo at the beginning of the film utilizes a digital fade-out, instead of being sourced from film elements.",
+                                        "Some black frames in the previous master were digitally recreated and reinserted into this master.",
+                                        "The picture has been slightly cropped, which results in the splice marks no longer being visible.",
+                                        "This release introduced a 5.1 surround sound track, which uses the 4.0 music track stems and the mono effects track stems. Additionally, the 5.1 mix omits the first few notes of the music when Osamu Sakurai is looking for Fumiko in the apartment at the beginning of the movie and omits a scream during the Seahawk sequence after the captain yells \"What?\"."
                                     ]
                                 },
                                 {
@@ -3177,9 +3427,25 @@
                                     "Name": "2008 Broadcast",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "2008-10-27",
                                     "Notes": [
-                                        ""
+                                        "King Kong vs. Godzilla was given an HD scan and broadcast on Japanese television in 2008. However, the scenes cut from the Champion Festival version were not scanned in HD, and those scenes fallback on upconverted footage from the DVD master, which is itself sourced from the 1991 LaserDisc master.",
+                                        "Due to an editing mistake, the Toho logo in this version was from the Champion Festival edit, and notably lacks the \"TOHO SCOPE\" text.",
+                                        "Several shots in the first reel use the DVD master, even though those shots were partially available in HD. This was done so that the transition between sources would be less jarring.",
+                                        "A scene with the Faro Island Chief uses upconverted video sourced from the DVD, even though that scene was included in the Champion Festival edit.",
+                                        "A sequence during Godzilla and Kong's final fight, which was used in the highlight intro for the Champion Festival edit, also uses upconverted DVD footage.",
+                                        "The broadcast utilized the stereo mix from the 1991 LaserDisc."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "2014 Broadcast",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2014-03-15",
+                                    "Notes": [
+                                        "The film was broadcast again on Japanese television in 2014. This broadcast was largely similar to the 2008 broadcast, but contains a few fixes.",
+                                        "The opening Toho has been corrected. It was likely sourced from another film, but the film used is unknown."
                                     ]
                                 },
                                 {
@@ -3187,19 +3453,37 @@
                                     "Name": "Blu-ray",
                                     "MediaPath": [],
                                     "Runtime": "",
-                                    "ReleaseDate": "",
+                                    "ReleaseDate": "2014-07-16",
                                     "Notes": [
-                                        ""
+                                        "When the 2014 Blu-ray was released, it was rumored that the missing footage in the 2008 and 2014 broadcasts had been recovered, and that this edition of the movie would be fully HD. However, this was not the case, as reel 1 still utilizes the DVD master for several scenes.",
+                                        "The \"Toho Studios 30th Anniversary Production\" logo at the beginning of the film is now fully sourced from film elements.",
+                                        "The \"Wonder World Series\" card animation at the beginning of the movie uses digital animation.",
+                                        "Several scenes during the Seahawk submarine sequences actually use Universal's master. New subtitles were digitally generated, but the font used is still different than the font used in the theatrical version or the 1991 LaserDisc master.",
+                                        "Due to an editing mistake, there are several missing frames when a reporter is interviewing Dr. Onuki.",
+                                        "This release includes a mono mix, which is a bit noisier than the mono mix from the 1986 LaserDisc, the 4.0 mix, and the 2001 5.1 mix."
                                     ]
                                 },
                                 {
                                     "AlternateTitle": [],
-                                    "Name": "4K Restoration",
+                                    "Name": "2016 4K Restoration Broadcast",
                                     "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "A 4K restoration was completed in 2016, finally using original film elements for the entirety of the movie, and not relying on any previous master for the video source.",
+                                        "Several issues with unstable brightness have been corrected.",
+                                        "The original character negative was found, so the subtitles during the Seahawk submarine sequences finally use the correct font and character placement.",
+                                        "Inconsistencies in the audio track, such as wow and flutter, have been corrected."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "2019 4K Restoration Update",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2019-06-12",
+                                    "Notes": [
+                                        "The 4K restoration was rebroadcast in 2019. While mostly similar to the 2016 broadcast, it does contain a minor editing fix during reel 7 in a sequence where Godzilla fires his atomic ray at Kong. Since the 1991 restoration, it appeared that Godzilla's roar was out of sync, but that was fixed in the 2019 broadcast."
                                     ]
                                 }
                             ]
@@ -3223,7 +3507,9 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
+                                        "The original film negative was cut to conform to either the March 21, 1970 Toho Champion Matsuri (Toho Champion Festival) or to the 1977 reissue.",
+                                        "The 1970 rerelease includes a new intro sequence, featuring re-edited footage from Godzilla and Kong's final duel. The \"Toho Studios 30th Anniversary Production\" logo has been removed, and the Toho logo has been updated.",
+                                        "Scenes throughout the movie have been shortened or removed."
                                     ]
                                 }
                             ]
@@ -3236,12 +3522,12 @@
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [{"ActorName":"William Ross","RoleName":""}],
                             "Crew": [],
                             "DubCompany": "Frontier Enterprises",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "",
+                            "ReleaseDate": "Circa 1962",
                             "Runtime":"",
                             "Rating": [],
                             "Iterations": [
@@ -3252,8 +3538,9 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "While no Toho-produced international dub of King Kong vs. Godzilla exists, there are many documents and hints that one may have existed. This section will focus on a timeline of these documents and clues to this dub’s existence.",
-                                        ""
+                                        "While no Toho-produced international dub of King Kong vs. Godzilla exists, there are many documents and hints that one may have existed.",
+                                        "An international trailer was produced, likely dubbed by Frontier Enterprises and features the voice of William Ross. This trailer has been included on several Japanese home video releases.",
+                                        "There is evidence of a Malaysian theatrical showing in May of 1980 with Bahasa Malaysia and Chinese subtitles. It is unknown whether the version shown was John Beck's cut or the hypothesized international dub."
                                     ]
                                 }
                             ]
@@ -3291,7 +3578,274 @@
                             "DistributionCompany": "",
                             "ReleaseDate": "1963-06-26",
                             "Runtime":"90",
-                            "Rating": [{"RatingSystem":"","RatingValue":""}],
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "John Beck produced the U.S. version for Universal, who owns the rights to the film in most Western markets.",
+                                        "This version features extremely extensive editing including: a completely different score using stock music, newly-shot American newscaster scenes, and stock footage from The Mysterians.",
+                                        "It’s worth noting that all European versions based on the U.S. John Beck version can be traced to a master foreign film source because of a number of recognizable blemishes that appear in certain shots (one such occurrence of unique damage is the shot of Godzilla emerging from the iceberg). Likewise, most versions forget to properly color grade some of the shifted scenes to day-for-night in the re-editing."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Goodtimes VHS & DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1987",
+                                    "Notes": [
+                                        "Goodtimes Home Video released King Kong vs. Godzilla on VHS in 1987, and later on DVD on August 20th, 1998.",
+                                        "This video master features the opening credits in a 2.35:1 scope aspect ratio, but the rest of the film is cropped to 4x3."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Universal DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2009-09-15",
+                                    "Notes": [
+                                        "Universal released King Kong vs. Godzilla on DVD in 2009. For the first time on home video in the U.S., this release was uncropped.",
+                                        "Several night-time scenes in this release are fairly bright compared to other versions of the movie."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Universal Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2014-04-01",
+                                    "Notes": [
+                                        "Universal's 2014 Blu-ray release is very similar to their 2009 DVD, featuring an obvious upgrade in resolution.",
+                                        "Compared to Universal's DVD release, the contrast and brightness have been modified, which most significantly results in several night-time scenes in this version appearing darker."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "J. Arthur Rank Film Distributors",
+                            "ReleaseDate": "1963-07-19",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"X"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British release of King Kong vs. Godzilla was most likely the U.S. version of the film made by John Beck."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Australia",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Regent Trading Enterprises",
+                            "ReleaseDate": "Circa April 19974",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "There is evidence of an Australian theatrical release. John Beck is listed as the producer, but the runtime of 108 minutes is most likely erroneous."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Die Rückkehr des King Kong"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Avis / Appolo",
+                            "ReleaseDate": "1974-08-23",
+                            "Runtime":"78:48",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"The Return of King Kong"}],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German theatrical version was based on the U.S. version, but further edited, which resulted in the removal of roughly 8 minutes of film."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "A slighly modified version of the German theatrical version was made for Television, which contains the U.S. opening title sequence."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong contre Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Dubbing Director","Name":"André Chelossi"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Sofradis Film",
+                            "ReleaseDate": "1976-07-07",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French theatrical version is based on the U.S. version by John Beck and makes further cuts towards the beginning of the film.",
+                                        "The dinner scene is known to be missing from all copies.",
+                                        "This version dubs the Faro Island Chief for a number of lines and also dubs Chikiro's mother."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Il Trionfo di King Kong"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1976",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian theatrical cut of King Kong vs. Godzilla is based on the U.S. version by John Beck and is uncut. It is unknown if the theatrical version had Italian language credits, as the TV versions use the English credits."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong contra Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"José MaríA del Río","RoleName":"Osamu Sakurai"},
+                                {"ActorName":"Manuel Peiro","RoleName":"Kazuo Fujita"},
+                                {"ActorName":"José Moratalla","RoleName":"Kinsaburo Furue"},
+                                {"ActorName":"Eduardo Moreno","RoleName":"Mr. Tako"},
+                                {"ActorName":"Fernando Nogueras","RoleName":"General Masami Shinzo, Captain of the Ship"},
+                                {"ActorName":"Ricardo Tundidor","RoleName":"Doctor Shigesawa"},
+                                {"ActorName":"Rosa María Belda","RoleName":"Fumiko Sakurai"},
+                                {"ActorName":"Luis María Lasala","RoleName":"Doctor Onuki, Submarine Crewman, Soldier"},
+                                {"ActorName":"José Ángel Juanes","RoleName":"Eric Carter"},
+                                {"ActorName":"Jesús Nieto","RoleName":"Yutaka Omura"},
+                                {"ActorName":"Félix Acaso","RoleName":"Doctor Arnold Johnson, Captain Roberts of the Seahawk"},
+                                {"ActorName":"Estanis González","RoleName":"Narrator, Scientist on Submarine, Man on Train, Soldier"},
+                                {"ActorName":"José Luis Baltanás","RoleName":"Sailor, Submarine Crewman, Soldier, News Reporter, Train Reviewer"},
+                                {"ActorName":"Juan Antonio Castro","RoleName":"Sailor, Submarine Crewman"},
+                                {"ActorName":"Luis García Vidal","RoleName":"News Reporter, Soldier"},
+                                {"ActorName":"Ana Ángeles García","RoleName":"Chikiro (Faro Island boy)"},
+                                {"ActorName":"Rafael Arcos","RoleName":"Submarine Captain, Voice on Radio"},
+                                {"ActorName":"Luis Marín","RoleName":"Submarine Crewman, Obayashi (Mr. Takao's Assistant), Coastguard, Driver, Helicopter Pilot"},
+                                {"ActorName":"José Luis Lespe","RoleName":"Soldier, Submarine Crewman"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Arcofon-Doyson",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Universal Films Española, S.A.",
+                            "ReleaseDate": "1978-12-26",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Spanish theatrical version was given a Spanish-language dub and was based on John Beck's U.S. version."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"King Kong contra Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1980's or 1990's",
+                            "Runtime":"",
+                            "Rating": [],
                             "Iterations": [
                                 {
                                     "AlternateTitle": [],
@@ -3300,30 +3854,37 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        ""
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "DVD",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        ""
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Blu-ray",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        ""
+                                        "King Kong vs. Godzilla got another dub, which was made in the 1980's or 1990's, and used a music & effects-less track as its basis."
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong contra Godzilla "}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "Advertising materials for a Mexican release exist, although this dub has never been released on home video, and is considered to be lost."
+                                ]
+                            }]
                         }
                     ]
                 }
@@ -7059,7 +7620,8 @@
                                         "The film was bought by American International Pictures and released directly to television in the US in 1965.",
                                         "Unlike most of AIP's releases, the film was not redubbed and the original international Hong Kong dubbing was left intact.",
                                         "The film was retitled to Attack of the Mushroom people, and the credits were shortened. The credits are extremely rudimentary and Ishiro Honda is miscredited as \"Inoshira Honda\".",
-                                        "There were some very minor dialogue cuts made, though it may be that those bits were simply missing from the 16mm print that the Something Weird Video released."
+                                        "There were some very minor dialogue cuts made, though it may be that those bits were simply missing from the 16mm print that the Something Weird Video released.",
+                                        "There is a minor difference in the AIP TV print of Attack of the Mushroom People that is either the result of a minor edit or a mishandled reel change. The difference in question is a shot when the characters find the ship's lab that begins with a stationary image of mushroom samples with Japanese signage that pans down to show more samples on lower shelves. The US version deletes the brief stationary shot and begins during the pan. This is in television broadcasts as well as the Something Weird Video VHS tape."
                                     ]
                                 }
                             ]
