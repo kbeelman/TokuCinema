@@ -82,24 +82,4 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.sub.unsubscribe();
   }
-
-  toggleCountries(country: string) {
-    this.movieAlternateVersion.Countries.forEach(element => {
-      if (element.Country === country) {
-        element.Active = true;
-      } else {
-        element.Active = false;
-      }
-    });
-  }
-
-  isCircaDate(releaseDate: string): boolean {
-    let response: boolean = false;
-    if (isNaN(Number(releaseDate.substr(0, 4)))) {
-      response = true;
-    }
-
-    return response;
-  }
-
 }

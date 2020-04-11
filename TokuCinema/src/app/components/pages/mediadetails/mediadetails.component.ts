@@ -5,17 +5,19 @@ import { MediaReview } from '../../../domain/MediaReview';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from 'app/services/metatag.service';
 
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { MediaGalleryComponent } from 'app/components/sub-pages/media-gallery/media-gallery.component';
 
 @Component({
   selector: 'app-mediadetails',
   templateUrl: './mediadetails.component.html'
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
+  @ViewChild('mediaGallery') public mediaGallery: MediaGalleryComponent;
   mediaData: AngularFireList<any[]>;
   media: Media;
   mediaDetails: MediaDetails;
@@ -142,9 +144,14 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
       this.mediaReview &&
       this.mediaReview.FeaturedScreenShots &&
       this.mediaReview.FeaturedScreenShots.length > index) {
-      screenCap = this.mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[index]];
+      screenCap = this.mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[index]].Sceencap;
     }
 
     return screenCap;
+  }
+
+  public openGallery(url: string): void {
+    this.mediaGallery.showItem = true;
+    this.mediaGallery.setActiveItemFromUrl(url);
   }
 }

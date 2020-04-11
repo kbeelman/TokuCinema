@@ -16,6 +16,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { NavComponent } from './components/global/nav/nav.component';
 import { MoviesComponent } from './components/pages/movies/movies.component';
 import { MoviedetailsComponent } from './components/pages/moviedetails/moviedetails.component';
+import { MovieAltDetailsComponent } from './components/sub-pages/movie-alt-details/movie-alt-details.component';
 import { MediaComponent } from './components/pages/media/media.component';
 import { MediaBoxsetsComponent } from './components/sub-pages/media-boxsets/media-boxsets.component';
 import { MediadetailsComponent } from './components/pages/mediadetails/mediadetails.component';
@@ -52,6 +53,7 @@ import { environment } from '../environments/environment';
     NavComponent,
     MoviesComponent,
     MoviedetailsComponent,
+    MovieAltDetailsComponent,
     MediaComponent,
     MediadetailsComponent,
     DevCardComponent,

@@ -44,12 +44,17 @@ $white: #fff;
       max-width: calc(100% - 40px);
       max-height: calc(100vh - 160px);
     }
+
+    iframe {
+      width: auto;
+      height: auto;
+    }
   }
 }
 
 .focsed-video {
   height: 400px;
-  width: 100%;
+  width: 710px;
 }
 
 $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
@@ -179,11 +184,12 @@ $nav-button-transparent: rgba(29.8%, 33.7%, 36.9%, .8);
   fill: $white;
   height: inherit;
   position: absolute;
-  width: 31%;
+  width: 12.25%;
 
   svg {
-    height: 100%;
-    left: 28%;
+    height: 33%;
+    left: 43%;
+    top: 30%;
     position: relative;
     width: 33%;
   }

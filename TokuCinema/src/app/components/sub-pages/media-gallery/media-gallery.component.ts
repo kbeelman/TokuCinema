@@ -11,8 +11,7 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl} from '@angular/platform-browser
 })
 
 export class MediaGalleryComponent implements OnInit {
-    @Input() images: Array<string>;
-    @Input() imagesAlt: Array<string>;
+    @Input() images: Array<{'Sceencap': string, 'Thumbnail': string, 'Description': string}>;
     @Input() videoIds: Array<string>;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
@@ -50,8 +49,9 @@ export class MediaGalleryComponent implements OnInit {
     setupImages(): void {
         if (this.images.length) {
             for (let index = 0; index < this.images.length; index++) {
-                const altText: string = this.imagesAlt[index] ? this.imagesAlt[index] : 'gallery image';
-                this.galleryImages.push(new GalleryImage(this.images[index], altText, index));
+                const altText: string = this.images[index]?.Description ? this.images[index].Description : '';
+                const thumbnail: string = this.images[index].Thumbnail ? this.images[index].Thumbnail : this.images[index].Sceencap;
+                this.galleryImages.push(new GalleryImage(this.images[index].Sceencap, thumbnail, altText, index));
                 this.itemCount ++;
             }
         }
@@ -84,6 +84,23 @@ export class MediaGalleryComponent implements OnInit {
     activeItemIsVideo(): boolean {
         const answer = this.activeItem.ItemType === ItemType.Video ? true : false;
         return answer;
+    }
+
+    setActiveItemFromUrl(url: string): void {
+        let galleryItem: IGalleryItem;
+        let foundItem: boolean = false;
+        let index: number = 0;
+        while (index < this.galleryImages.length && !foundItem) {
+            if (this.galleryImages[index].GetSource() === url) {
+                galleryItem = this.galleryImages[index];
+                foundItem = true;
+            } else {
+                index++;
+            }
+        }
+        if (galleryItem !== undefined) {
+            this.setActiveItem(galleryItem);
+        }
     }
 
     setActiveItem(item: IGalleryItem): void {

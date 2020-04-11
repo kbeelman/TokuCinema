@@ -6,6 +6,7 @@ import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { MoviedetailsComponent } from './moviedetails.component';
+import { MovieAltDetailsComponent } from '../../sub-pages/movie-alt-details/movie-alt-details.component';
 import { MediaGalleryComponent } from '../../sub-pages/media-gallery/media-gallery.component';
 import { FirebaseService } from '../../../services/firebase.service';
 import { AngularFireStorageModule } from '@angular/fire/storage';
@@ -17,7 +18,7 @@ describe('MoviedetailsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MoviedetailsComponent, MediaGalleryComponent, NotFoundComponent ],
+      declarations: [ MoviedetailsComponent, MediaGalleryComponent, NotFoundComponent, MovieAltDetailsComponent ],
       imports: [
         FormsModule,
         RouterTestingModule,

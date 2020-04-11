@@ -83,7 +83,7 @@
             "Country": "",
             "MediumCount": [{"Medium":"", "Count": ""}],
             "ColorSystem": "",
-            "screencaps": [""],
+            "screencaps": [{"Sceencap": "", "Thumbnail": "", "Description": ""}],
             "Distributor": "",
             "CatalogCode": "",
             "UPC": "",
