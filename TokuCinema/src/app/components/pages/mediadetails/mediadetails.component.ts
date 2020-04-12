@@ -26,10 +26,10 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   hasRuntimes: boolean = false;
   coverUrl: string = '';
   imageGallery: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
+  videoGallery: Array<{'Host': string, 'ID': string, 'Description': string}>; // = [];
   public pageNotFound: boolean = false;
   private sub: Subscription;
   private get pathname() { return document.location.pathname }
-
 
   constructor(private fdb: FirebaseService,
     private route: ActivatedRoute,
@@ -52,6 +52,8 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
         this.subscribeToMediaDetails();
         this.subscribeToReview();
         this.imageGallery = this.fdb.getImages('media', this.media.Path, this.mediaDetails.ScreencapDescriptions);
+        // this.videoGallery.push({'Host': 'YT', 'ID': 'GISAE16jsE4', 'Description': 'Mothra vs. Godzilla trailer'});
+        // this.videoGallery.push({'Host': 'DM', 'ID': 'x7fq3jr', 'Description': 'International Terror of Mechagodzilla trailer'});
       });
     });
   }

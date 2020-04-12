@@ -12,7 +12,7 @@ import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 
 export class MediaGalleryComponent {
     @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
-    @Input() videoIds: Array<string>;
+    @Input() videoIds: Array<{'Host': string, 'ID': string, 'Description': string}>;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
     activeItemSource: string | SafeResourceUrl;
@@ -112,7 +112,8 @@ export class MediaGalleryComponent {
     setupVideos(): void {
         if (this.videoIds && this.videoIds.length) {
             for (let index = 0; index < this.videoIds.length; index++) {
-                this.galleryVideos.push(new GalleryVideo(this.videoIds[index], index));
+                this.galleryVideos.push(new GalleryVideo(this.videoIds[index].Host,
+                    this.videoIds[index].ID, index, this.videoIds[index].Description));
                 this.itemCount++;
             }
         }
@@ -167,7 +168,11 @@ export class MediaGalleryComponent {
             this.activeItemSource = item.GetSource();
         }
         if (item.ItemType === ItemType.Video) {
-            this.activeItemSource = this.getTrustedUrl('https://www.youtube.com/embed/' + this.activeItem.GetSource());
+            if (item.getHost() === 'YT') {
+                this.activeItemSource = this.getTrustedUrl('https://www.youtube.com/embed/' + this.activeItem.GetSource());
+            } else if (item.getHost() === 'DM') {
+                this.activeItemSource = this.getTrustedUrl('https://www.dailymotion.com/embed/video/' + this.activeItem.GetSource());
+            }
         }
     }
 

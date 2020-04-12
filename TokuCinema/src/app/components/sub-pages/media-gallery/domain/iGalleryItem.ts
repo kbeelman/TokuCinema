@@ -5,4 +5,6 @@ export interface IGalleryItem {
     ItemType: ItemType;
 
     GetSource(): string;
+
+    getHost(): string;
 }

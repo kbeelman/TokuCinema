@@ -19,4 +19,8 @@ export class GalleryImage implements IGalleryItem {
     public GetSource(): string {
         return this.Url;
     }
+
+    public getHost(): string {
+        return '';
+    }
 }
