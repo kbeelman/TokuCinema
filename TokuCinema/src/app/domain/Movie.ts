@@ -28,7 +28,8 @@ export class Movie implements ISearchable {
         public Cast: Array<{'ActorName': string, 'RoleName': string}>,
         public MediaPath: Array<string>,
         public AlternateVersionsPath: Array<string>,
-        public Path?: string
+        public Path?: string,
+        public Videos?: Array<string>
     ) {
         // Assign default route if none given, clean either way
         if (this.Path) {

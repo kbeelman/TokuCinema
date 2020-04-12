@@ -17,6 +17,8 @@ import { NavComponent } from './components/global/nav/nav.component';
 import { MoviesComponent } from './components/pages/movies/movies.component';
 import { MoviedetailsComponent } from './components/pages/moviedetails/moviedetails.component';
 import { MovieAltDetailsComponent } from './components/sub-pages/movie-alt-details/movie-alt-details.component';
+import { MovieAltCountryComponent } from './components/sub-pages/movie-alt-country/movie-alt-country.component';
+import { MovieAltVersionComponent } from './components/sub-pages/movie-alt-version/movie-alt-version.component';
 import { MediaComponent } from './components/pages/media/media.component';
 import { MediaBoxsetsComponent } from './components/sub-pages/media-boxsets/media-boxsets.component';
 import { MediadetailsComponent } from './components/pages/mediadetails/mediadetails.component';
@@ -54,6 +56,8 @@ import { environment } from '../environments/environment';
     MoviesComponent,
     MoviedetailsComponent,
     MovieAltDetailsComponent,
+    MovieAltCountryComponent,
+    MovieAltVersionComponent,
     MediaComponent,
     MediadetailsComponent,
     DevCardComponent,

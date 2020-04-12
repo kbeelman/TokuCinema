@@ -49,7 +49,8 @@ export class DomainBuilder {
             movieData['Cast'],
             movieData['MediaPath'],
             movieData['AlternateVersionsPath'],
-            movieData['Path']);
+            movieData['Path'],
+            movieData['Videos'])
 
         return movie;
     }

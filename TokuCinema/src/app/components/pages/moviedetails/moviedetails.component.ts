@@ -4,9 +4,9 @@ import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
-import { Title } from '@angular/platform-browser';
+import { Title, SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -22,13 +22,15 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: AngularFireList<any[]>;
+  trailerUrl: SafeResourceUrl;
   private get pathname() { return document.location.pathname }
 
   constructor(
+    @Inject(DomSanitizer) private sanitizer: DomSanitizer,
     private fdb: FirebaseService,
     private route: ActivatedRoute,
     private titleService: Title,
-    private metatagService: MetatagService
+    private metatagService: MetatagService,
   ) {
     this.sub = this.route.params.subscribe(params => {
 
@@ -38,6 +40,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           // redirect to 404
           this.pageNotFound = true;
         }
+        this.trailerUrl = this.movie.Videos ? this.getTrustedUrl('https://www.youtube.com/embed/' + this.movie.Videos[0]) : undefined;
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
         const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
         const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').'
@@ -82,4 +85,10 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.sub.unsubscribe();
   }
+
+  getTrustedUrl(sourceUrl: string): SafeResourceUrl {
+    const safeUrl: SafeResourceUrl = this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
+
+    return safeUrl;
+}
 }

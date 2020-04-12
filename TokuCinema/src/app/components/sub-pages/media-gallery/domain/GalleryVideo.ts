@@ -17,7 +17,7 @@ export class GalleryVideo implements IGalleryItem {
     }
 
     public getThumbnailSource(): string {
-        const thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/1.jpg';
+        const thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/mqdefault.jpg';
         return thumbNailUrl;
     }
 }

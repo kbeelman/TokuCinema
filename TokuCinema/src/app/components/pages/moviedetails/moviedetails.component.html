@@ -42,6 +42,15 @@
       </div>
     </div>
   </div>
+  <div class="video">
+    <iframe
+      *ngIf="this.trailerUrl"
+      [src]="this.trailerUrl"
+      frameborder="0"
+      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
   <div class="movie-cast-crew" *ngIf="this.movie.doesCastOrCrewExist()">
     <div class="movie-cast-crew-left" *ngIf="this.movie.doesCastExist()">
       <h2>Cast</h2>

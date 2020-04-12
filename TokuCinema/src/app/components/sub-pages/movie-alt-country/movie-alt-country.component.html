@@ -1,0 +1,5 @@
+<div class="movie-alt-details" [class.active]="country.Active" *ngIf="country.Active">
+  <div class="movie-alt-version-details" *ngFor="let version of country.Versions">
+    <app-movie-alt-version [version]="version" [numVersions]="country.Versions.length"></app-movie-alt-version>
+  </div>
+</div>
