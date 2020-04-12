@@ -31,7 +31,7 @@ export class Media implements ISearchable {
         public Country: string,
         public MediumCount: Array<{'Medium': string, 'Count': number}>,
         public ColorSystem: ColorSystemType,
-        public Screencaps: Array<{'Sceencap': string, 'Thumbnail': string, 'Description': string}>,
+        public ScreencapDescriptions: Array<string>,
         // Distributor Information
         public Distributor: string,
         public CatalogCode: string,
@@ -82,7 +82,7 @@ export class Media implements ISearchable {
             this.MoviePath,
             this.OriginalRelease,
             this.BoxArt,
-            this.Screencaps
+            this.ScreencapDescriptions
         );
         return mediaDetails;
     }

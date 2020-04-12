@@ -25,6 +25,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   movieDetails: any = [];
   hasRuntimes: boolean = false;
   coverUrl: string = '';
+  imageGallery: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
   public pageNotFound: boolean = false;
   private sub: Subscription;
   private get pathname() { return document.location.pathname }
@@ -50,6 +51,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
         this.setMetaTags();
         this.subscribeToMediaDetails();
         this.subscribeToReview();
+        this.imageGallery = this.fdb.getImages('media', this.media.Path, this.mediaDetails.ScreencapDescriptions);
       });
     });
   }
@@ -140,11 +142,12 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   public getFeaturedScreenCapAtIndex(index: number): string {
     let screenCap = '';
 
-    if (this.mediaDetails &&
+    if (this.imageGallery &&
+      this.imageGallery.length > index &&
       this.mediaReview &&
       this.mediaReview.FeaturedScreenShots &&
       this.mediaReview.FeaturedScreenShots.length > index) {
-      screenCap = this.mediaDetails.Screencaps[this.mediaReview.FeaturedScreenShots[index]].Sceencap;
+      screenCap = this.imageGallery[this.mediaReview.FeaturedScreenShots[index]].Screencap;
     }
 
     return screenCap;

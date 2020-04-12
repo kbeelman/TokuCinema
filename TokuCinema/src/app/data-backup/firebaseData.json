@@ -9527,7 +9527,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Classic Media",
             "CatalogCode": "DVMS 003882-450",
             "UPC": "828768455999",
@@ -9557,7 +9557,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Classic Media",
             "CatalogCode": "03125OSL1",
             "UPC": "037117031252",
@@ -9587,67 +9587,10 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"DVD", "Count": "1"}],
             "ColorSystem": "NTSC",
-            "Screencaps": [
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F01.png?alt=media&token=2edd2a9f-3cac-47ac-b5da-54bd6bc2ae3e",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F01.png?alt=media&token=85d1d9df-de67-4701-b4a6-bd7befea7977",
-                    "Description": "Main Menu"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F02.png?alt=media&token=6a33a772-3468-4ac3-873b-96167137a411",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F02.png?alt=media&token=249a4308-94fc-435e-bd20-65a6f5897619",
-                    "Description": "Scene Selection"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F03.png?alt=media&token=cc6d37c5-5183-464b-a509-14e8eedea2d3",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F03.png?alt=media&token=5af23d24-97ba-47a9-8d21-0b29a726e4ac",
-                    "Description": "Special Features"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F04.png?alt=media&token=832833cd-f3a1-4b2e-9d70-6ff27e2eaaec",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F04.png?alt=media&token=1e3d11a1-ffe2-46bc-be97-42a3e65e97df",
-                    "Description": "Movie Screencap #1"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F05.png?alt=media&token=eb4dc12f-af21-4070-857b-d28d9cae2585",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F05.png?alt=media&token=020e2211-32b5-4dc3-88c2-bf5aa5294ab9",
-                    "Description": "Movie Screencap #2"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F06.png?alt=media&token=77df9349-6943-468b-ade9-2686b6443a74",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F06.png?alt=media&token=8064fc6c-60bd-4a36-ab65-03b759a75d02",
-                    "Description": "Movie Screencap #3"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F07.png?alt=media&token=cffbae91-b1a4-448f-a348-380f03d7bd79",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F07.png?alt=media&token=954cea4c-7199-48be-aa1a-11e57235c57c",
-                    "Description": "Movie Screencap #4"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F08.png?alt=media&token=afd6e1bc-ed24-4dfa-b2d7-da5276619041",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F08.png?alt=media&token=719ce023-7a58-4bf6-9d75-2763b10a0285",
-                    "Description": "Movie Screencap #5"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F09.png?alt=media&token=79220dff-6302-49f9-ac70-41c7a903835f",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F09.png?alt=media&token=6ac1011f-f7d1-4e59-84ec-8b527c68396f",
-                    "Description": "Movie Screencap #6"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F10.png?alt=media&token=46e01991-6954-45cc-a0a6-e6557683c4a8",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F10.png?alt=media&token=499f2a1b-1a8a-4405-a8f1-9bb253af1e15",
-                    "Description": "Movie Screencap #7"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F11.png?alt=media&token=332eb752-0f1a-400e-b7b9-36d1fc8eb8c9",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F11.png?alt=media&token=84ac0f71-d84c-48e4-9569-a90b3b3a56f6",
-                    "Description": "Movie Screencap #8"
-                },
-                {
-                    "Sceencap": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Ffull%2F12.png?alt=media&token=bdbabc1d-e974-4645-bc2d-11dd95fafd24",
-                    "Thumbnail": "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMothra-vs-Godzilla-Classic-Media-DVD-2002-09-17%2Fscreencaps%2Fthumbs%2F12.png?alt=media&token=b5ea17f8-dbec-4ad4-b8a4-27504d0f7912",
-                    "Description": "Movie Screencap #9"
-                }
+            "ScreencapDescriptions": [
+                "Main Menu", "Scene Selection", "Special Features", "Movie Screencap #1", "Movie Screencap #2",
+                "Movie Screencap #3", "Movie Screencap #4", "Movie Screencap #5", "Movie Screencap #6", "Movie Screencap #7",
+                "Movie Screencap #8", "Movie Screencap #9"
             ],
             "Distributor": "Classic Media",
             "CatalogCode": "LVD 54288",
@@ -9678,7 +9621,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"Blu-ray", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Sony Pictures Home Entertainment",
             "CatalogCode": "43689",
             "UPC": "043396436893",
@@ -9710,7 +9653,7 @@
             "Country": "Japan",
             "MediumCount": [{"Medium":"DVD", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Toho Video",
             "CatalogCode": "TDV2864D",
             "UPC": "4988104022431",
@@ -9740,7 +9683,7 @@
             "Country": "United Kingdom",
             "MediumCount": [{"Medium":"DVD", "Count": "1"}],
             "ColorSystem": "PAL",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "BFI",
             "CatalogCode": "BFIVD680",
             "UPC": "5035673006801",
@@ -9770,7 +9713,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"Super 8", "Count": "1"}],
             "ColorSystem": "",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Ken Films",
             "CatalogCode": "277",
             "UPC": "",
@@ -9800,7 +9743,7 @@
             "Country": "United States",
             "MediumCount": [{"Medium":"LaserDisc", "Count": "2"}],
             "ColorSystem": "NTSC",
-            "screencaps": [],
+            "ScreencapDescriptions": [],
             "Distributor": "Image Entertainment",
             "CatalogCode": "ID6507NW",
             "UPC": "014381650761",

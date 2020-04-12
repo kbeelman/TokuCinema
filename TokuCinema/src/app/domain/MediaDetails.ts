@@ -31,7 +31,7 @@ export class MediaDetails {
         public MovieDetails: Array<string>,
         public OriginalRelease: string,
         public BoxArt: Array<string>,
-        public Screencaps: Array<{'Sceencap': string, 'Thumbnail': string, 'Description': string}>
+        public ScreencapDescriptions: Array<string>
     ) {
         const aspectCompArray: Array<string> = [];
         this.AspectRatio.forEach(element => {

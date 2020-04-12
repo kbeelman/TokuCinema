@@ -14,7 +14,7 @@ export const stubGodzillaMedia = {
   'Country': 'United States',
   'MediumCount': [{ 'Medium': 'DVD', 'Count': '2' }],
   'ColorSystem': 'NTSC',
-  'Screencaps': [''],
+  'ScreencapDescriptions': [''],
   'Distributor': 'Classic Media',
   'CatalogCode': 'DVMS 003882-450',
   'UPC': '828768455999',

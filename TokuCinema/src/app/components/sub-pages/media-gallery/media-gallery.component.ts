@@ -1,17 +1,17 @@
-import { Component, Input, Inject, OnInit } from '@angular/core';
+import { Component, Input, Inject } from '@angular/core';
 import { IGalleryItem } from './domain/IGalleryItem';
 import { GalleryImage } from './domain/GalleryImage';
 import { GalleryVideo } from './domain/GalleryVideo';
 import { ItemType } from './domain/ItemType';
-import { DomSanitizer, SafeResourceUrl, SafeUrl} from '@angular/platform-browser';
+import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 
 @Component({
     selector: 'app-media-gallery',
     templateUrl: 'templates/media-gallery.component.html'
 })
 
-export class MediaGalleryComponent implements OnInit {
-    @Input() images: Array<{'Sceencap': string, 'Thumbnail': string, 'Description': string}>;
+export class MediaGalleryComponent {
+    @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
     @Input() videoIds: Array<string>;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
@@ -24,17 +24,26 @@ export class MediaGalleryComponent implements OnInit {
     currentCarouselMargin: number = 0;
     currentCarouselPosition: number = 0; // index of the left most item shown
 
-    constructor (@Inject(DomSanitizer) private sanitizer: DomSanitizer) {
-    }
+    initInterval: any;
+    elapsedTime: number = 0;
 
-    ngOnInit(): any {
-        if (this.shouldInit(this.images)) {
-            this.setupImages();
-        }
-        if (this.shouldInit(this.videoIds)) {
-            this.setupVideos();
-        }
-        this.chooseDefaultActiveItem();
+    constructor (
+        @Inject(DomSanitizer) private sanitizer: DomSanitizer
+    ) {
+        this.initInterval = setInterval(() => {
+            if (this.shouldInit(this.images)) {
+                this.setupImages();
+            }
+            if (this.shouldInit(this.videoIds)) {
+                this.setupVideos();
+            }
+            this.chooseDefaultActiveItem();
+
+            this.elapsedTime = this.elapsedTime + 500;
+            if (!this.isGalleryStillLoading()) {
+                clearInterval(this.initInterval);
+            }
+        }, 500);
     }
 
     toggleShowItem() {
@@ -50,11 +59,54 @@ export class MediaGalleryComponent implements OnInit {
         if (this.images.length) {
             for (let index = 0; index < this.images.length; index++) {
                 const altText: string = this.images[index]?.Description ? this.images[index].Description : '';
-                const thumbnail: string = this.images[index].Thumbnail ? this.images[index].Thumbnail : this.images[index].Sceencap;
-                this.galleryImages.push(new GalleryImage(this.images[index].Sceencap, thumbnail, altText, index));
-                this.itemCount ++;
+                const thumbnail: string = this.images[index].Thumbnail ? this.images[index].Thumbnail : this.images[index].Screencap;
+
+                const loadingStatus = this.doesGalleryContainImage(index);
+
+                if (loadingStatus.foundIndex > -1) {
+                    this.galleryImages.splice(loadingStatus.foundIndex, 1,
+                        new GalleryImage(this.images[index].Screencap, thumbnail, altText, index));
+                } else if (!loadingStatus.found) {
+                    this.galleryImages.push(new GalleryImage(this.images[index].Screencap, thumbnail, altText, index));
+                    this.itemCount ++;
+                }
+            };
+        }
+    }
+
+    doesGalleryContainImage(index: number): {foundIndex: number, found: boolean } {
+        let foundIndex = -1;
+        let found = false;
+        for (let subIndex = 0; subIndex < this.galleryImages.length; subIndex++) {
+            if (this.galleryImages[subIndex].Url === this.images[index].Screencap ||
+                this.galleryImages[subIndex].Thumb === this.images[index].Thumbnail ||
+                this.galleryImages[subIndex].Alt === this.images[index].Description) {
+                found = true;
+                    if (this.galleryImages[subIndex].Alt === '' || this.galleryImages[subIndex].Url === '' ||
+                        this.galleryImages[subIndex].Thumb === '') {
+                        foundIndex = subIndex;
+                    }
+                }
+        }
+
+        return { foundIndex, found };
+    }
+
+    isGalleryStillLoading(): boolean {
+        let stillLoading = true;
+        if (this.galleryImages.length < this.images.length) {
+            return stillLoading;
+        }
+
+        stillLoading = false;
+        for (let index = 0; index < this.galleryImages.length; index++) {
+            if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
+                this.galleryImages[index].Thumb === '') {
+                    stillLoading = true;
             }
         }
+
+        return stillLoading;
     }
 
     setupVideos(): void {
