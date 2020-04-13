@@ -7065,6 +7065,392 @@
             ]
         },
         {
+            "Path": "Godzilla-1984",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "\"A\" Mix",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Return of Godzilla has two main audio mixes, an \"A\" mix and a \"B\" mix that utilize different music and effects tracks. The \"A\" mix is the only version that has been released on home video, and has been used as the basis of the stereo mix and 5.1 surround sound remixes, as well as the basis for most foreign language copies."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "\"B\" Mix",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The \"B\" mix was likely created for a mono theatrical release, though no copies have surfaced. This mix was notably used as a basis for a 1985 Drama LP, the original copies of the international dub, and the American version, Godzilla 1985.",
+                                        "The most notable difference in the \"B\" mix is that Godzilla screams as he falls into the volcano at the end of the movie."
+
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Return of Godzilla"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"John Culkin","RoleName":"Goro Maki"},
+                                {"ActorName":"Barry Haigh","RoleName":"Prime Minister Mitamura, Chief Editor Gondo, The Bum, Submarine Captain, and Power Plant Guard"},
+                                {"ActorName":"Elizabeth Oram","RoleName":"Naoko Okumura"},
+                                {"ActorName":"Warwick Paul Evans","RoleName":"Hiroshi Okamura, Defense Minister, and Environmental Director"},
+                                {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida, Chief of Staff, Russian Ambassador, and Photographer Kamiya"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Original",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This is an exact, cut for cut dub of the Japanese version. The Russian dialog is dubbed into English as well as the Japanese, unlike in the American cut, Godzilla 1985.",
+                                        "Godzilla's infamous scream as he falls into Mt. Mihara is actually present in this version when it was previously thought to be one of the many sound design tweaks made to Godzilla 1985. The answer behind the mysterious scream being present is that the international dub originally used a \"B\" mix music and effects track, which contains several differences to the more commonly used \"A\" mix.",
+                                        "This version was released on PAL VHS in Britain."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "American DVD & Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 surround sound and uses the \"A\" mix music and effects track, which notably replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred scream from the \"A\" mix music and effects track."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 1985"}],
+                            "Cast": [
+                                {"ActorName":"Raymond Burr","RoleName":"Steve Martin"},
+                                {"ActorName":"Warren J. Kemmerling","RoleName":"General Goodhoe"},
+                                {"ActorName":"James Hess","RoleName":"Colonel Raschen"},
+                                {"ActorName":"Travis Swords","RoleName":"Major McDonough"},
+                                {"ActorName":"Crawford Binion","RoleName":"Lieutenant"},
+                                {"ActorName":"Justin Gocke","RoleName":"Kyle Martin"}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Tony Plana","RoleName":"Goro Maki"},
+                                {"ActorName":"Paul Wilson","RoleName":"Professor Hayashida"},
+                                {"ActorName":"Andy Goldberg","RoleName":"Hiroshi Okumura"},
+                                {"ActorName":"Lara Cody","RoleName":"Naoko Okumura"},
+                                {"ActorName":"Gregory Snegoff","RoleName":"Newscaster/Pilot/Government Official"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"R.J. Kizer"},
+                                {"PositionTitle":"Composer (Added Music)","Name":"Christopher Young"}
+                            ],
+                            "DubCompany": "Ryder Sound Services, Inc.",
+                            "ProductionCompany": "New World Pictures, Toho Pictures",
+                            "DistributionCompany": "New World Pictures",
+                            "ReleaseDate": "1985-08-23",
+                            "Runtime":"87",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Like Godzilla King of the Monsters, additional American shot footage is added with a now grey Raymond Burr. While the first few scenes are effective, much of this footage is more comedic than serious and the scenes with Burr at the military base feature heavy product placement for the soft drink Dr. Pepper.",
+                                        "While a good amount of Reijiro Koroku's score was kept, some music from Christopher Young (originally from the movie Def Con 4) was added and there are other sound design changes as well.",
+                                        "Shortened scenes include: Goro's fight with the sea louse, the scenes where Goro tells Naoko that Hiroshi is still alive and when the two are reunite; as well as the meeting between the Prime Minister, the American ambassador, and the Russian ambassador is heavily shortened and moved to take place prior to Godzilla’s attack on the nuclear power plant.",
+                                        "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
+                                        "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
+                                        "At the end of this version of the movie, Godzilla screams as he falls into Mt. Mihara. This scream is not present in most other versions of the movie. While it was previously thought that this scream was one of the many sound design tweaks exclusive to this version, it was actually just sourced from the \"B\" mix music and effects track, which can also be heard in the 1985 Drama LP and early versions of the international dub.",
+                                        "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Australia",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Village Roadshow Corp.",
+                            "ReleaseDate": "1986-03-13",
+                            "Runtime":"87",
+                            "Rating": [{"RatingSystem":"","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Australian theatrical release was based on the United States' version, Godzilla 1985."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1986",
+                            "Runtime":"87",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The British theatrical release was based on the United States' version, Godzilla 1985, but approximately 17 seconds of footage from the giant sea louse's assault on Maki were excised to meet BBFC standards."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1987",
+                                    "Notes": [
+                                        "The home video version was reevaluated by the BBFC and given an uncensored release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Delta Video",
+                            "ReleaseDate": "Circa 1990",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In France, the international version of Return of Godzilla was given a French dub that was released direct to video. This version uses the updated sound effects track, so Godzilla’s roar is modified at the end of the movie. The Russians and Americans are dubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Yamato Video",
+                            "ReleaseDate": "Circa 1996",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Italy, the international version of Return of Godzilla was given an Italian dub that was released direct to video. However, this version bases its dialog from the American Godzilla 1985 script. For example, just as the character Hiroshi Okamura is renamed to Ken in Godzilla 1985, he is renamed to Ken in this version as well. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Spain",
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Manga Video",
+                            "ReleaseDate": "Circa 1998",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Spain, the international version of Return of Godzilla was given a Spanish dub that was released direct to video. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Taiwan",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"擊滅日本國"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Power Multimedia",
+                            "ReleaseDate": "Circa 1999",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Destruction of Japan"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Taiwan, the international version of Return of Godzilla was given a direct to video dub. This version refers to Godzilla as \"Kǒnglóng\", meaning \"dinosaur.\" 13 minutes of footage is cut from the film, and the video is sourced from Japanese TV pan-and-scan elements."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "China",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"哥斯拉之怪獸王復活"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Universe Laser",
+                            "ReleaseDate": "Circa 2006",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Monster King Resurrection"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In China, the international version of Return of Godzilla was given a Cantonese dub that was released direct to video. The audio track is culled from several sources, resulting in varying audio quality throughout the film. The Russian and American characters are dubbed in this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Thailand",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"คืนชีพก็อตซิลล่า ถล่ม โตเกียว"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 2012",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Revival Collapses Tokyo"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In Thailand, the international version of Return of Godzilla was given a Thai dub that was released direct to video. This dub is based off of the Japanese 5.1 audio track with the Japanese dialog removed, and dubs the American and Russian characters."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Godzilla-Biollante-1989",
             "Countries": [
                 {
@@ -7163,6 +7549,116 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "The US version was released on tape in 1999 and later that year on DVD by TriStar. This version features the international dubbing. The Toho logo and Toho Eiga title replaced by \"TriStar Pictures Presents\" and \"A Toho Co., Ltd. Presentation of a Toho Pictures Inc. Production\", respectively. The Japanese title card is present, but the film's title is subtitled in English under it, via video-generated subtitles. The opening credits before the title card are textless, but has credits after the opening title. The rest of film is uncut, except for the end credits, which begin with scrolling copyright information and then the film fades out."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-2000-Millennium-1999",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Francois Chau","RoleName":"Yuji Shinoda"},
+                                {"ActorName":"Denise Iketani","RoleName":"Yuki Ichinose"},
+                                {"ActorName":"Jack Ong","RoleName":"Shiro Miyasaka"},
+                                {"ActorName":"Ron Yuan","RoleName":"Mitsuo Katagiri"},
+                                {"ActorName":"Rachel Crane","RoleName":"Io Shinoda"},
+                                {"ActorName":"Jim Ishida","RoleName":"General Takada"},
+                                {"ActorName":"Yoshio Be","RoleName":""},
+                                {"ActorName":"Glen Chin","RoleName":""},
+                                {"ActorName":"John Cho","RoleName":""},
+                                {"ActorName":"Micael Hagiwara","RoleName":""},
+                                {"ActorName":"Amy Hill","RoleName":""},
+                                {"ActorName":"Rodney Kageyama","RoleName":""},
+                                {"ActorName":"Denice Kumagai","RoleName":""},
+                                {"ActorName":"Jim Lau","RoleName":""},
+                                {"ActorName":"Dana Lee","RoleName":""},
+                                {"ActorName":"Lucy Lin","RoleName":""},
+                                {"ActorName":"Sachiko","RoleName":""},
+                                {"ActorName":"Marilyn Tokuda","RoleName":""},
+                                {"ActorName":"Jerry Tondo","RoleName":""},
+                                {"ActorName":"Ping Wu","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Dubbing Director","Name":"Mike Schlesinger"},
+                                {"PositionTitle":"Additional Music","Name":"J. Peter Robinson"},
+                                {"PositionTitle":"Film Editor","Name":"Michael Hahoney"},
+                                {"PositionTitle":"Supervising Sound Editor","Name":"Darren Paskal"},
+                                {"PositionTitle":"Assistant Film Editor","Name":"Ryan Quigley"},
+                                {"PositionTitle":"Re-recording Mixers","Name":"Jon Taylor, Greg Orloff, Carlos Delarios"},
+                                {"PositionTitle":"Music Editor","Name":"Lisé Richardson"},
+                                {"PositionTitle":"Sound Editors","Name":"Nicolas James, Greg Schorer, Richard S. Steele, Brian Reisner, John K. Adams"},
+                                {"PositionTitle":"Voice Casting","Name":"Glen Chin"},
+                                {"PositionTitle":"ADR Mixer","Name":"Matt Beville"},
+                                {"PositionTitle":"Foley Artist","Name":"Dan O’Connell"}
+                            ],
+                            "DubCompany": "TriStar Pictures/Sony Pictures Entertainment",
+                            "ProductionCompany": "TriStar Pictures",
+                            "DistributionCompany": "TriStar Pictures",
+                            "ReleaseDate": "2000-08-18",
+                            "Runtime":"98",
+                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Roughly nine minutes of footage is removed in this cut of the film, mostly to improve pacing. Some dialog is rewritten to make the film more lighthearted, and the sound design is also reworked.",
+                                        "J. Peter Robinson composed additional music for this version of the movie, which supplements the original music by Takayuki Hattori.",
+                                        "This version ends with a \"THE ? END\" title card. During production, the wrong font was used for the ending card, resulting in a cartoony font being mistakenly used. Toho and TriStar mutually agreed to remove this card from future releases."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2000-12-06",
+                                    "Notes": [
+                                        "This version is almost entirely the same as the Theatrical version, but the \"THE ? END\" ending title card has been removed."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000: Millennium"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Toho originally had an English dub produced in Hong Kong, but it has never been released in any form, as it was supplanted by TriStar's Godzilla 2000 dub, which is now Toho's preferred English version of the film.",
+                                        "Parts of the International dub can be heard in the trailer for TriStar's Godzilla 2000.",
+                                        "One line from the International dub remains in TriStar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
                                     ]
                                 }
                             ]
@@ -7442,6 +7938,297 @@
                                     ]
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Godzilla-Monster-Planet-2017",
+            "Countries": [      
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"English","TitleValue":"Godzilla: Planet of the Monsters"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
+                                {"ActorName":"Rachelle Heger","RoleName":"Young Haruo"},
+                                {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
+                                {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
+                                {"ActorName":"Jamieson Price (as Taylor Henry)","RoleName":"Mulu Elu Galu Gu"},
+                                {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
+                                {"ActorName":"Cristina Valenzuela (as Cristina Vee)","RoleName":"Yuko Tani"},
+                                {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
+                                {"ActorName":"Danny Boston","RoleName":"Eliott Leland"},
+                                {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
+                                {"ActorName":"Doug Stone","RoleName":"Halu-Elu Dolu-do"},
+                                {"ActorName":"Joe Ochman","RoleName":"Endurphe"},
+                                {"ActorName":"Martin Billany","RoleName":""},
+                                {"ActorName":"Chris Hackney","RoleName":""},
+                                {"ActorName":"Roy Lee Pitts III","RoleName":""},
+                                {"ActorName":"Laura Post","RoleName":""},
+                                {"ActorName":"Bill Rogers","RoleName":""},
+                                {"ActorName":"Paul St. Peter","RoleName":""},
+                                {"ActorName":"David Sylvain","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Directors","Name":"Laura Post, Shannon Wilson"},
+                                {"PositionTitle":"Production Manager","Name":"Mary Kay De Guzman"},
+                                {"PositionTitle":"ADR Engineers","Name":"Ally Hustings, Tony McVann, Erik Karsen Puhm"}
+                            ],
+                            "DubCompany": "Post Haste Digital",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "2017-01-17",
+                            "Runtime":"88",
+                            "Rating": [{"RatingSystem":"TV Parental Guidelines Monitoring Board","RatingValue":"TV-14"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "English Dub",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The English dubbed version, released by Netflix, is identical to the Japanese theatrical version of the movie."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"German","TitleValue":"Godzilla: Planet der Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Jesse Grimm","RoleName":"Haruo"},
+                                {"ActorName":"Marcus Just","RoleName":"Martin"},
+                                {"ActorName":"Daniel Schutter","RoleName":"Metphies"},
+                                {"ActorName":"Robert Knorr","RoleName":"Leland"},
+                                {"ActorName":"Martin Sabel","RoleName":"Galugu"},
+                                {"ActorName":"Franciska Friede","RoleName":"Yuko"},
+                                {"ActorName":"Henrik Moller","RoleName":"Belube Kai"},
+                                {"ActorName":"Patrick Back","RoleName":"Adam"},
+                                {"ActorName":"Wolfgang Berger","RoleName":"Mori"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Arlette Stanschus"},
+                                {"PositionTitle":"Writer","Name":"Andreas Barz"},
+                                {"PositionTitle":"Production Manager","Name":"Jenny Buch"},
+                                {"PositionTitle":"Sound Engineer","Name":"Johannes Marguere"},
+                                {"PositionTitle":"Editor","Name":"Norman Nodop"}
+                            ],
+                            "DubCompany": "CSC-Studio",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Spanish","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Carles Teruel Borras","RoleName":"Haruo"},
+                                {"ActorName":"Daniel Gonzalez Lillo","RoleName":"Metphies"},
+                                {"ActorName":"Alejandro Moreno Blanco","RoleName":"Martin"},
+                                {"ActorName":"Pau Ferrer Ramon","RoleName":"Leland"},
+                                {"ActorName":"Boris Sanz Garcia","RoleName":"Galu-Gu"},
+                                {"ActorName":"Greta Ruiz Ybarra","RoleName":"Yuko"},
+                                {"ActorName":"Paco Alegre Senent","RoleName":"Belu-Be"},
+                                {"ActorName":"Rafa Ordonez Arrieta","RoleName":"Mori"},
+                                {"ActorName":"Ruben Felis Borja","RoleName":"Adam"},
+                                {"ActorName":"Jose Luis Siurana Gil","RoleName":"Takeshi"},
+                                {"ActorName":"Jose Luis Molina Tornero","RoleName":"Dolu-Do"},
+                                {"ActorName":"Jose Manuel Oliva Castillo","RoleName":"Gunner"},
+                                {"ActorName":"Maria Jose Chabrera Carda","RoleName":"Controller A"},
+                                {"ActorName":"Nina Romero Fabra","RoleName":"Controller B"},
+                                {"ActorName":"Jose Manuel Casany Lluesma","RoleName":"Endurph"},
+                                {"ActorName":"Omar Lozano Legaz","RoleName":"Infantry"},
+                                {"ActorName":"Jose Vte. Marzo Gimeno","RoleName":"Grandpa Tani"},
+                                {"ActorName":"Alvaro Esteve Jimenez","RoleName":"Marco"},
+                                {"ActorName":"Pablo Chico Bautista","RoleName":"Tank Driver A and Soldier F"},
+                                {"ActorName":"Aida Baida Gil","RoleName":"Pilot A"},
+                                {"ActorName":"Enric Puig Sapina","RoleName":"Hover Pilot A"},
+                                {"ActorName":"Jose Dario Torrent Orti","RoleName":"Hover Pilot"},
+                                {"ActorName":"Jaime Vicedo Garrido","RoleName":"Reporter A, Worker A, and Hover Driver C"},
+                                {"ActorName":"Marina Vinals Colubi","RoleName":"Reporter B"},
+                                {"ActorName":"Gabriel Pareja Llorens","RoleName":"Male New A"},
+                                {"ActorName":"Enric Lencina Peris","RoleName":"Male New B"},
+                                {"ActorName":"Fran De La Torre Lopez","RoleName":"Worker B"},
+                                {"ActorName":"Juan Catala Hernandez","RoleName":"Soldier A and Sentry B"},
+                                {"ActorName":"Jesus Motos Lopez","RoleName":"Soldier B"},
+                                {"ActorName":"Jesus Gimenez Torres","RoleName":"Soldier C"},
+                                {"ActorName":"Ruben Aranda Sanchis","RoleName":"Soldier D"},
+                                {"ActorName":"Rafael Albert Gabaldön","RoleName":"Soldier E"},
+                                {"ActorName":"Quique Fernandez Regatillo","RoleName":"Soldier G"},
+                                {"ActorName":"Cristina Oliva Redrejo","RoleName":"Boy"},
+                                {"ActorName":"Alba Torrubia","RoleName":"Chica"},
+                                {"ActorName":"Mabel Jimeznez Perez","RoleName":"Anciana"},
+                                {"ActorName":"Ernest Sendin Baquero","RoleName":"Sentry A and Hover Driver D"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director and Casting Director","Name":"Rafa Ordonez Arrieta"},
+                                {"PositionTitle":"Assistant Producer","Name":"Dina Romero Fabra"},
+                                {"PositionTitle":"Production Manager","Name":"Lola Diaz Pastrana"},
+                                {"PositionTitle":"Sound Supervisor and Editor","Name":"Javier Fernanez"},
+                                {"PositionTitle":"Re-recording Mixer","Name":"Ricardo Suarez"},
+                                {"PositionTitle":"Recording Engineer","Name":"Antonio Castillejo Lopez"}
+                            ],
+                            "DubCompany": "International Dubbing Group",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Standard Spanish","TitleValue":""}],
+                            "Cast": [
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Alberto Bernal","RoleName":"Haruo"},
+                                {"ActorName":"Azul Valadez","RoleName":"Yuko"},
+                                {"ActorName":"Armando Guerrero","RoleName":"Metphies"},
+                                {"ActorName":"Gabriel Basurto","RoleName":"Martin"},
+                                {"ActorName":"Arturo Mercado Jr.","RoleName":"Mori"},
+                                {"ActorName":"Jesus Cortes","RoleName":"Takeshi"},
+                                {"ActorName":"Gabriel Ortiz","RoleName":"Leland"},
+                                {"ActorName":"Victor Delgado","RoleName":"Dolu Do"},
+                                {"ActorName":"Raul Solo","RoleName":"Galu Gu"},
+                                {"ActorName":"Santos Alberto","RoleName":"Belu Be"},
+                                {"ActorName":"Alejandra Delint","RoleName":"Controller A"},
+                                {"ActorName":"Erika Langarica","RoleName":"Controller B"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Cristina Flores"},
+                                {"PositionTitle":"Director and Casting Director","Name":"Arturo Catano"},
+                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
+                                {"PositionTitle":"Translation Studio","Name":"Kora Studio-Mexico"},
+                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
+                                {"PositionTitle":"Sound Supervisor","Name":"Guillermo Lopez"},
+                                {"PositionTitle":"Sound Mixer","Name":"Ivan Chorne"},
+                                {"PositionTitle":"Dialog Operator","Name":"Chachu Gilabert"},
+                                {"PositionTitle":"Editor","Name":"Daniel Macias"}
+                            ],
+                            "DubCompany": "Dubbing House Mexico",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"French","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Alessandro Bevilacqua","RoleName":"Adam and Marco"},
+                                {"ActorName":"Franck Dacquin","RoleName":"Galu-Gu"},
+                                {"ActorName":"Maxime Donnay","RoleName":"Martin"},
+                                {"ActorName":"Simon Duprez","RoleName":"Takeshi"},
+                                {"ActorName":"Alain Eloy","RoleName":"Endurph and Grandpa Tani"},
+                                {"ActorName":"Sophie Frison","RoleName":"Yuko"},
+                                {"ActorName":"Michel Hinderyckx","RoleName":"Mori"},
+                                {"ActorName":"Quinton Minon","RoleName":"Belu-Be"},
+                                {"ActorName":"Gregory Praet","RoleName":"Haruo"},
+                                {"ActorName":"Oliver Premel","RoleName":"Dolu-Do"},
+                                {"ActorName":"Maxime Van Santfoort","RoleName":"Metphies"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director and Casting Director","Name":"Laurence Stevenne"},
+                                {"PositionTitle":"Production Manager","Name":"Melanie Gabant"},
+                                {"PositionTitle":"Adaptation","Name":"Justine Rouze"},
+                                {"PositionTitle":"Sound Mixing Engineer","Name":"Jean-Michel Beranger"},
+                                {"PositionTitle":"Sound Engineer","Name":"Denis Portal"}
+                            ],
+                            "DubCompany": "Lylo Media Group",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Italian","TitleValue":"Godzilla: Il pianeta dei mostri"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Federico Viola","RoleName":"Haruo"},
+                                {"ActorName":"Alessandro Germano","RoleName":"Adam"},
+                                {"ActorName":"Martina Tamburello","RoleName":"Yuko"},
+                                {"ActorName":"Roberto Accornero","RoleName":"Endurph"},
+                                {"ActorName":"Domenico Brioschi","RoleName":"Dolu-Do"},
+                                {"ActorName":"Claudio Moneta","RoleName":"Belu-Be"},
+                                {"ActorName":"Donato Sbodio","RoleName":"Galu-Gu"},
+                                {"ActorName":"Omar Maestroni","RoleName":"Metphies"},
+                                {"ActorName":"Matteo Brusamonti","RoleName":"Martin"},
+                                {"ActorName":"Massimiliano Lotti","RoleName":"Mori"},
+                                {"ActorName":"Luca Sandri","RoleName":"Takeshi"},
+                                {"ActorName":"Gigi Rosa","RoleName":"Leland"},
+                                {"ActorName":"Maura Marenghi","RoleName":"Controller A"},
+                                {"ActorName":"Giuliana Atepi","RoleName":"Controller B"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director & Translation and Adaptation","Name":"Gigi Rosa"},
+                                {"PositionTitle":"Sound Engineer and Syncronization","Name":"Valerio De Grandis"},
+                                {"PositionTitle":"Mixing Engineer","Name":"Michele Conti"}
+                            ],
+                            "DubCompany": "Arte e Comunicazione International srl",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Portugese","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Roberto Rodrigues","RoleName":"Haruo"},
+                                {"ActorName":"Fernanda Moraes","RoleName":"Yuko"},
+                                {"ActorName":"Rodrigo Nanal","RoleName":"Metphies"},
+                                {"ActorName":"Tiaggo Guimaraes","RoleName":"Martin"},
+                                {"ActorName":"Mario Spatizziani","RoleName":"Mori"},
+                                {"ActorName":"Fernando Ferraz","RoleName":"Takeshi"},
+                                {"ActorName":"Douglas Monteiro","RoleName":"Leland"},
+                                {"ActorName":"Edu Castilho","RoleName":"Dolu Do"},
+                                {"ActorName":"Enio Vivono","RoleName":"Galu Gu"},
+                                {"ActorName":"Paulo Olyva","RoleName":"Belu Be"},
+                                {"ActorName":"Tulio Hopper","RoleName":"Adam"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producers","Name":"Cristina Flores and Marina Esposito"},
+                                {"PositionTitle":"Director and Casting Director","Name":"Conrado Sotero"},
+                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
+                                {"PositionTitle":"Translator","Name":"Joao Rodrigo"},
+                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
+                                {"PositionTitle":"Sound Supervisor","Name":"Eduardo Araujo (Jimmi)"},
+                                {"PositionTitle":"Mixing and Sound Engineer","Name":"Guillermo Marghetich"}
+                            ],
+                            "DubCompany": "Dubbing House Brazil",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Chinese","TitleValue":"哥吉拉 怪獸行星"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Netflix",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": []
                         }
                     ]
                 }
@@ -8729,793 +9516,6 @@
                                     ]
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Path": "Godzilla-1984",
-            "Countries": [
-                {
-                    "Country": "Japan",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "\"A\" Mix",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The Return of Godzilla has two main audio mixes, an \"A\" mix and a \"B\" mix that utilize different music and effects tracks. The \"A\" mix is the only version that has been released on home video, and has been used as the basis of the stereo mix and 5.1 surround sound remixes, as well as the basis for most foreign language copies."
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "\"B\" Mix",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The \"B\" mix was likely created for a mono theatrical release, though no copies have surfaced. This mix was notably used as a basis for a 1985 Drama LP, the original copies of the international dub, and the American version, Godzilla 1985.",
-                                        "The most notable difference in the \"B\" mix is that Godzilla screams as he falls into the volcano at the end of the movie."
-
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "International",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Return of Godzilla"}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"John Culkin","RoleName":"Goro Maki"},
-                                {"ActorName":"Barry Haigh","RoleName":"Prime Minister Mitamura, Chief Editor Gondo, The Bum, Submarine Captain, and Power Plant Guard"},
-                                {"ActorName":"Elizabeth Oram","RoleName":"Naoko Okumura"},
-                                {"ActorName":"Warwick Paul Evans","RoleName":"Hiroshi Okamura, Defense Minister, and Environmental Director"},
-                                {"ActorName":"Matthew Oram","RoleName":"Professor Hayashida, Chief of Staff, Russian Ambassador, and Photographer Kamiya"}
-                            ],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Original",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "This is an exact, cut for cut dub of the Japanese version. The Russian dialog is dubbed into English as well as the Japanese, unlike in the American cut, Godzilla 1985.",
-                                        "Godzilla's infamous scream as he falls into Mt. Mihara is actually present in this version when it was previously thought to be one of the many sound design tweaks made to Godzilla 1985. The answer behind the mysterious scream being present is that the international dub originally used a \"B\" mix music and effects track, which contains several differences to the more commonly used \"A\" mix.",
-                                        "This version was released on PAL VHS in Britain."
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "American DVD & Blu-ray",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 surround sound and uses the \"A\" mix music and effects track, which notably replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred scream from the \"A\" mix music and effects track."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "United States",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 1985"}],
-                            "Cast": [
-                                {"ActorName":"Raymond Burr","RoleName":"Steve Martin"},
-                                {"ActorName":"Warren J. Kemmerling","RoleName":"General Goodhoe"},
-                                {"ActorName":"James Hess","RoleName":"Colonel Raschen"},
-                                {"ActorName":"Travis Swords","RoleName":"Major McDonough"},
-                                {"ActorName":"Crawford Binion","RoleName":"Lieutenant"},
-                                {"ActorName":"Justin Gocke","RoleName":"Kyle Martin"}
-                            ],
-                            "DubCast": [
-                                {"ActorName":"Tony Plana","RoleName":"Goro Maki"},
-                                {"ActorName":"Paul Wilson","RoleName":"Professor Hayashida"},
-                                {"ActorName":"Andy Goldberg","RoleName":"Hiroshi Okumura"},
-                                {"ActorName":"Lara Cody","RoleName":"Naoko Okumura"},
-                                {"ActorName":"Gregory Snegoff","RoleName":"Newscaster/Pilot/Government Official"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Director","Name":"R.J. Kizer"},
-                                {"PositionTitle":"Composer (Added Music)","Name":"Christopher Young"}
-                            ],
-                            "DubCompany": "Ryder Sound Services, Inc.",
-                            "ProductionCompany": "New World Pictures, Toho Pictures",
-                            "DistributionCompany": "New World Pictures",
-                            "ReleaseDate": "1985-08-23",
-                            "Runtime":"87",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Theatrical",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "Like Godzilla King of the Monsters, additional American shot footage is added with a now grey Raymond Burr. While the first few scenes are effective, much of this footage is more comedic than serious and the scenes with Burr at the military base feature heavy product placement for the soft drink Dr. Pepper.",
-                                        "While a good amount of Reijiro Koroku's score was kept, some music from Christopher Young (originally from the movie Def Con 4) was added and there are other sound design changes as well.",
-                                        "Shortened scenes include: Goro's fight with the sea louse, the scenes where Goro tells Naoko that Hiroshi is still alive and when the two are reunite; as well as the meeting between the Prime Minister, the American ambassador, and the Russian ambassador is heavily shortened and moved to take place prior to Godzilla’s attack on the nuclear power plant.",
-                                        "The opening credits, while containing the same Koroku music, are completely different to the credits in the Japanese version which appear over the eruption on Daikoku Island which awakens Godzilla. Other modified scenes include: Godzilla's attack on Tokyo is somewhat rearranged and he's made to look more aggressive in some scenes, the credits were altered and the song \"Godzilla\" by the Star Sisters was not used, instead opting for a medley of Koroku's themes and the added Christopher Young music was used over a black screen. Interesting enough, another love theme called \"I Was Afraid to Love You\" was written for the film but went unused for some reason.",
-                                        "Godzilla 1985's most severe change is that it demonizes the Russians and turns them into villains. To achieve this, a shot of a U.S. missile satellite is cut and the Russian freighter captain explains that the Russian government has decided to use nuclear weapons. The most controversial of all the modified scenes is one where the captain sacrifices his life trying stop the missile from being launched, which is changed to him actually launching this missile added footage of a hand pressing a button. These scenes included altered subtitles to achieve the effect of demonizing the Russians.",
-                                        "At the end of this version of the movie, Godzilla screams as he falls into Mt. Mihara. This scream is not present in most other versions of the movie. While it was previously thought that this scream was one of the many sound design tweaks exclusive to this version, it was actually just sourced from the \"B\" mix music and effects track, which can also be heard in the 1985 Drama LP and early versions of the international dub.",
-                                        "Around 30 minutes of footage is removed from the Japanese version, which makes some pacing improvement, but also loses a lot of poignant moments. Scenes cut include: a scene where Goro calls his editor to discuss his story which the editor is skeptical about, a scene where Hayashida shows Hiroshi pictures of the 1954 Godzilla, a scene where Naoko tells Goro that she's disappointed with him because of his article, a scene where the Prime Minister speaks to his cabinet about the prospect of using nuclear weapons against Godzilla, a scene where the Prime Minister tells his aide that he convinced the U.S. and Russia to back off from using nuclear weapons by getting them to empathize with Japan's position, a scene where a crowd is warned to stay back by police after Godzilla is brought down by the Super-X, and a romantic scene between Goro and Naoko."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Australia",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Village Roadshow Corp.",
-                            "ReleaseDate": "1986-03-13",
-                            "Runtime":"87",
-                            "Rating": [{"RatingSystem":"","RatingValue":"PG"}],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The Australian theatrical release was based on the United States' version, Godzilla 1985."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "United Kingdom",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"","TitleValue":"Godzilla 1985"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1986",
-                            "Runtime":"87",
-                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"PG"}],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Theatrical",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The British theatrical release was based on the United States' version, Godzilla 1985, but approximately 17 seconds of footage from the giant sea louse's assault on Maki were excised to meet BBFC standards."
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Home Video",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "Circa 1987",
-                                    "Notes": [
-                                        "The home video version was reevaluated by the BBFC and given an uncensored release."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "France",
-                    "Versions": [
-                        {
-                            "MainTitle":[],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Delta Video",
-                            "ReleaseDate": "Circa 1990",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In France, the international version of Return of Godzilla was given a French dub that was released direct to video. This version uses the updated sound effects track, so Godzilla’s roar is modified at the end of the movie. The Russians and Americans are dubbed in this version."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Italy",
-                    "Versions": [
-                        {
-                            "MainTitle":[],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Yamato Video",
-                            "ReleaseDate": "Circa 1996",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In Italy, the international version of Return of Godzilla was given an Italian dub that was released direct to video. However, this version bases its dialog from the American Godzilla 1985 script. For example, just as the character Hiroshi Okamura is renamed to Ken in Godzilla 1985, he is renamed to Ken in this version as well. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Spain",
-                    "Versions": [
-                        {
-                            "MainTitle":[],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Manga Video",
-                            "ReleaseDate": "Circa 1998",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In Spain, the international version of Return of Godzilla was given a Spanish dub that was released direct to video. Japanese subtitles and other superimposed texted is blacked out, and the Americans and Russians remain undubbed in this version."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Taiwan",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"擊滅日本國"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Power Multimedia",
-                            "ReleaseDate": "Circa 1999",
-                            "Runtime":"90",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Destruction of Japan"}],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In Taiwan, the international version of Return of Godzilla was given a direct to video dub. This version refers to Godzilla as \"Kǒnglóng\", meaning \"dinosaur.\" 13 minutes of footage is cut from the film, and the video is sourced from Japanese TV pan-and-scan elements."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "China",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"哥斯拉之怪獸王復活"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Universe Laser",
-                            "ReleaseDate": "Circa 2006",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Monster King Resurrection"}],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In China, the international version of Return of Godzilla was given a Cantonese dub that was released direct to video. The audio track is culled from several sources, resulting in varying audio quality throughout the film. The Russian and American characters are dubbed in this version."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Thailand",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"คืนชีพก็อตซิลล่า ถล่ม โตเกียว"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "Circa 2012",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [{"TitleType":"Literal Translation","TitleValue":"Godzilla Revival Collapses Tokyo"}],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "In Thailand, the international version of Return of Godzilla was given a Thai dub that was released direct to video. This dub is based off of the Japanese 5.1 audio track with the Japanese dialog removed, and dubs the American and Russian characters."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Path": "Godzilla-2000-Millennium-1999",
-            "Countries": [
-                {
-                    "Country": "United States",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000"}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Francois Chau","RoleName":"Yuji Shinoda"},
-                                {"ActorName":"Denise Iketani","RoleName":"Yuki Ichinose"},
-                                {"ActorName":"Jack Ong","RoleName":"Shiro Miyasaka"},
-                                {"ActorName":"Ron Yuan","RoleName":"Mitsuo Katagiri"},
-                                {"ActorName":"Rachel Crane","RoleName":"Io Shinoda"},
-                                {"ActorName":"Jim Ishida","RoleName":"General Takada"},
-                                {"ActorName":"Yoshio Be","RoleName":""},
-                                {"ActorName":"Glen Chin","RoleName":""},
-                                {"ActorName":"John Cho","RoleName":""},
-                                {"ActorName":"Micael Hagiwara","RoleName":""},
-                                {"ActorName":"Amy Hill","RoleName":""},
-                                {"ActorName":"Rodney Kageyama","RoleName":""},
-                                {"ActorName":"Denice Kumagai","RoleName":""},
-                                {"ActorName":"Jim Lau","RoleName":""},
-                                {"ActorName":"Dana Lee","RoleName":""},
-                                {"ActorName":"Lucy Lin","RoleName":""},
-                                {"ActorName":"Sachiko","RoleName":""},
-                                {"ActorName":"Marilyn Tokuda","RoleName":""},
-                                {"ActorName":"Jerry Tondo","RoleName":""},
-                                {"ActorName":"Ping Wu","RoleName":""}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Dubbing Director","Name":"Mike Schlesinger"},
-                                {"PositionTitle":"Additional Music","Name":"J. Peter Robinson"},
-                                {"PositionTitle":"Film Editor","Name":"Michael Hahoney"},
-                                {"PositionTitle":"Supervising Sound Editor","Name":"Darren Paskal"},
-                                {"PositionTitle":"Assistant Film Editor","Name":"Ryan Quigley"},
-                                {"PositionTitle":"Re-recording Mixers","Name":"Jon Taylor, Greg Orloff, Carlos Delarios"},
-                                {"PositionTitle":"Music Editor","Name":"Lisé Richardson"},
-                                {"PositionTitle":"Sound Editors","Name":"Nicolas James, Greg Schorer, Richard S. Steele, Brian Reisner, John K. Adams"},
-                                {"PositionTitle":"Voice Casting","Name":"Glen Chin"},
-                                {"PositionTitle":"ADR Mixer","Name":"Matt Beville"},
-                                {"PositionTitle":"Foley Artist","Name":"Dan O’Connell"}
-                            ],
-                            "DubCompany": "TriStar Pictures/Sony Pictures Entertainment",
-                            "ProductionCompany": "TriStar Pictures",
-                            "DistributionCompany": "TriStar Pictures",
-                            "ReleaseDate": "2000-08-18",
-                            "Runtime":"98",
-                            "Rating": [{"RatingSystem":"MPAA","RatingValue":"PG"}],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Theatrical",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "Roughly nine minutes of footage is removed in this cut of the film, mostly to improve pacing. Some dialog is rewritten to make the film more lighthearted, and the sound design is also reworked.",
-                                        "J. Peter Robinson composed additional music for this version of the movie, which supplements the original music by Takayuki Hattori.",
-                                        "This version ends with a \"THE ? END\" title card. During production, the wrong font was used for the ending card, resulting in a cartoony font being mistakenly used. Toho and TriStar mutually agreed to remove this card from future releases."
-                                    ]
-                                },
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "Home Video",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "2000-12-06",
-                                    "Notes": [
-                                        "This version is almost entirely the same as the Theatrical version, but the \"THE ? END\" ending title card has been removed."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "International",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000: Millennium"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "Toho originally had an English dub produced in Hong Kong, but it has never been released in any form, as it was supplanted by TriStar's Godzilla 2000 dub, which is now Toho's preferred English version of the film.",
-                                        "Parts of the International dub can be heard in the trailer for TriStar's Godzilla 2000.",
-                                        "One line from the International dub remains in TriStar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "Path": "Godzilla-Monster-Planet-2017",
-            "Countries": [      
-                {
-                    "Country": "International",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"English","TitleValue":"Godzilla: Planet of the Monsters"}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Chris Niosi","RoleName":"Haruo Sakaki"},
-                                {"ActorName":"Rachelle Heger","RoleName":"Young Haruo"},
-                                {"ActorName":"Lucien Dodge","RoleName":"Metphies"},
-                                {"ActorName":"Edward Bosco","RoleName":"Martin Lazzari"},
-                                {"ActorName":"Jamieson Price (as Taylor Henry)","RoleName":"Mulu Elu Galu Gu"},
-                                {"ActorName":"Rich Brown","RoleName":"Rilu-Elu Belu-be"},
-                                {"ActorName":"Cristina Valenzuela (as Cristina Vee)","RoleName":"Yuko Tani"},
-                                {"ActorName":"Robbie Daymond","RoleName":"Adam Bindewald"},
-                                {"ActorName":"Danny Boston","RoleName":"Eliott Leland"},
-                                {"ActorName":"Keith Silverstein","RoleName":"Unberto Mori"},
-                                {"ActorName":"Doug Stone","RoleName":"Halu-Elu Dolu-do"},
-                                {"ActorName":"Joe Ochman","RoleName":"Endurphe"},
-                                {"ActorName":"Martin Billany","RoleName":""},
-                                {"ActorName":"Chris Hackney","RoleName":""},
-                                {"ActorName":"Roy Lee Pitts III","RoleName":""},
-                                {"ActorName":"Laura Post","RoleName":""},
-                                {"ActorName":"Bill Rogers","RoleName":""},
-                                {"ActorName":"Paul St. Peter","RoleName":""},
-                                {"ActorName":"David Sylvain","RoleName":""}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Directors","Name":"Laura Post, Shannon Wilson"},
-                                {"PositionTitle":"Production Manager","Name":"Mary Kay De Guzman"},
-                                {"PositionTitle":"ADR Engineers","Name":"Ally Hustings, Tony McVann, Erik Karsen Puhm"}
-                            ],
-                            "DubCompany": "Post Haste Digital",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "2017-01-17",
-                            "Runtime":"88",
-                            "Rating": [{"RatingSystem":"TV Parental Guidelines Monitoring Board","RatingValue":"TV-14"}],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [],
-                                    "Name": "English Dub",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The English dubbed version, released by Netflix, is identical to the Japanese theatrical version of the movie."
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"German","TitleValue":"Godzilla: Planet der Monster"}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Jesse Grimm","RoleName":"Haruo"},
-                                {"ActorName":"Marcus Just","RoleName":"Martin"},
-                                {"ActorName":"Daniel Schutter","RoleName":"Metphies"},
-                                {"ActorName":"Robert Knorr","RoleName":"Leland"},
-                                {"ActorName":"Martin Sabel","RoleName":"Galugu"},
-                                {"ActorName":"Franciska Friede","RoleName":"Yuko"},
-                                {"ActorName":"Henrik Moller","RoleName":"Belube Kai"},
-                                {"ActorName":"Patrick Back","RoleName":"Adam"},
-                                {"ActorName":"Wolfgang Berger","RoleName":"Mori"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Director","Name":"Arlette Stanschus"},
-                                {"PositionTitle":"Writer","Name":"Andreas Barz"},
-                                {"PositionTitle":"Production Manager","Name":"Jenny Buch"},
-                                {"PositionTitle":"Sound Engineer","Name":"Johannes Marguere"},
-                                {"PositionTitle":"Editor","Name":"Norman Nodop"}
-                            ],
-                            "DubCompany": "CSC-Studio",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"Spanish","TitleValue":""}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Carles Teruel Borras","RoleName":"Haruo"},
-                                {"ActorName":"Daniel Gonzalez Lillo","RoleName":"Metphies"},
-                                {"ActorName":"Alejandro Moreno Blanco","RoleName":"Martin"},
-                                {"ActorName":"Pau Ferrer Ramon","RoleName":"Leland"},
-                                {"ActorName":"Boris Sanz Garcia","RoleName":"Galu-Gu"},
-                                {"ActorName":"Greta Ruiz Ybarra","RoleName":"Yuko"},
-                                {"ActorName":"Paco Alegre Senent","RoleName":"Belu-Be"},
-                                {"ActorName":"Rafa Ordonez Arrieta","RoleName":"Mori"},
-                                {"ActorName":"Ruben Felis Borja","RoleName":"Adam"},
-                                {"ActorName":"Jose Luis Siurana Gil","RoleName":"Takeshi"},
-                                {"ActorName":"Jose Luis Molina Tornero","RoleName":"Dolu-Do"},
-                                {"ActorName":"Jose Manuel Oliva Castillo","RoleName":"Gunner"},
-                                {"ActorName":"Maria Jose Chabrera Carda","RoleName":"Controller A"},
-                                {"ActorName":"Nina Romero Fabra","RoleName":"Controller B"},
-                                {"ActorName":"Jose Manuel Casany Lluesma","RoleName":"Endurph"},
-                                {"ActorName":"Omar Lozano Legaz","RoleName":"Infantry"},
-                                {"ActorName":"Jose Vte. Marzo Gimeno","RoleName":"Grandpa Tani"},
-                                {"ActorName":"Alvaro Esteve Jimenez","RoleName":"Marco"},
-                                {"ActorName":"Pablo Chico Bautista","RoleName":"Tank Driver A and Soldier F"},
-                                {"ActorName":"Aida Baida Gil","RoleName":"Pilot A"},
-                                {"ActorName":"Enric Puig Sapina","RoleName":"Hover Pilot A"},
-                                {"ActorName":"Jose Dario Torrent Orti","RoleName":"Hover Pilot"},
-                                {"ActorName":"Jaime Vicedo Garrido","RoleName":"Reporter A, Worker A, and Hover Driver C"},
-                                {"ActorName":"Marina Vinals Colubi","RoleName":"Reporter B"},
-                                {"ActorName":"Gabriel Pareja Llorens","RoleName":"Male New A"},
-                                {"ActorName":"Enric Lencina Peris","RoleName":"Male New B"},
-                                {"ActorName":"Fran De La Torre Lopez","RoleName":"Worker B"},
-                                {"ActorName":"Juan Catala Hernandez","RoleName":"Soldier A and Sentry B"},
-                                {"ActorName":"Jesus Motos Lopez","RoleName":"Soldier B"},
-                                {"ActorName":"Jesus Gimenez Torres","RoleName":"Soldier C"},
-                                {"ActorName":"Ruben Aranda Sanchis","RoleName":"Soldier D"},
-                                {"ActorName":"Rafael Albert Gabaldön","RoleName":"Soldier E"},
-                                {"ActorName":"Quique Fernandez Regatillo","RoleName":"Soldier G"},
-                                {"ActorName":"Cristina Oliva Redrejo","RoleName":"Boy"},
-                                {"ActorName":"Alba Torrubia","RoleName":"Chica"},
-                                {"ActorName":"Mabel Jimeznez Perez","RoleName":"Anciana"},
-                                {"ActorName":"Ernest Sendin Baquero","RoleName":"Sentry A and Hover Driver D"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Director and Casting Director","Name":"Rafa Ordonez Arrieta"},
-                                {"PositionTitle":"Assistant Producer","Name":"Dina Romero Fabra"},
-                                {"PositionTitle":"Production Manager","Name":"Lola Diaz Pastrana"},
-                                {"PositionTitle":"Sound Supervisor and Editor","Name":"Javier Fernanez"},
-                                {"PositionTitle":"Re-recording Mixer","Name":"Ricardo Suarez"},
-                                {"PositionTitle":"Recording Engineer","Name":"Antonio Castillejo Lopez"}
-                            ],
-                            "DubCompany": "International Dubbing Group",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"Standard Spanish","TitleValue":""}],
-                            "Cast": [
-                            ],
-                            "DubCast": [
-                                {"ActorName":"Alberto Bernal","RoleName":"Haruo"},
-                                {"ActorName":"Azul Valadez","RoleName":"Yuko"},
-                                {"ActorName":"Armando Guerrero","RoleName":"Metphies"},
-                                {"ActorName":"Gabriel Basurto","RoleName":"Martin"},
-                                {"ActorName":"Arturo Mercado Jr.","RoleName":"Mori"},
-                                {"ActorName":"Jesus Cortes","RoleName":"Takeshi"},
-                                {"ActorName":"Gabriel Ortiz","RoleName":"Leland"},
-                                {"ActorName":"Victor Delgado","RoleName":"Dolu Do"},
-                                {"ActorName":"Raul Solo","RoleName":"Galu Gu"},
-                                {"ActorName":"Santos Alberto","RoleName":"Belu Be"},
-                                {"ActorName":"Alejandra Delint","RoleName":"Controller A"},
-                                {"ActorName":"Erika Langarica","RoleName":"Controller B"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Producer","Name":"Cristina Flores"},
-                                {"PositionTitle":"Director and Casting Director","Name":"Arturo Catano"},
-                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
-                                {"PositionTitle":"Translation Studio","Name":"Kora Studio-Mexico"},
-                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
-                                {"PositionTitle":"Sound Supervisor","Name":"Guillermo Lopez"},
-                                {"PositionTitle":"Sound Mixer","Name":"Ivan Chorne"},
-                                {"PositionTitle":"Dialog Operator","Name":"Chachu Gilabert"},
-                                {"PositionTitle":"Editor","Name":"Daniel Macias"}
-                            ],
-                            "DubCompany": "Dubbing House Mexico",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"French","TitleValue":""}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Alessandro Bevilacqua","RoleName":"Adam and Marco"},
-                                {"ActorName":"Franck Dacquin","RoleName":"Galu-Gu"},
-                                {"ActorName":"Maxime Donnay","RoleName":"Martin"},
-                                {"ActorName":"Simon Duprez","RoleName":"Takeshi"},
-                                {"ActorName":"Alain Eloy","RoleName":"Endurph and Grandpa Tani"},
-                                {"ActorName":"Sophie Frison","RoleName":"Yuko"},
-                                {"ActorName":"Michel Hinderyckx","RoleName":"Mori"},
-                                {"ActorName":"Quinton Minon","RoleName":"Belu-Be"},
-                                {"ActorName":"Gregory Praet","RoleName":"Haruo"},
-                                {"ActorName":"Oliver Premel","RoleName":"Dolu-Do"},
-                                {"ActorName":"Maxime Van Santfoort","RoleName":"Metphies"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Director and Casting Director","Name":"Laurence Stevenne"},
-                                {"PositionTitle":"Production Manager","Name":"Melanie Gabant"},
-                                {"PositionTitle":"Adaptation","Name":"Justine Rouze"},
-                                {"PositionTitle":"Sound Mixing Engineer","Name":"Jean-Michel Beranger"},
-                                {"PositionTitle":"Sound Engineer","Name":"Denis Portal"}
-                            ],
-                            "DubCompany": "Lylo Media Group",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"Italian","TitleValue":"Godzilla: Il pianeta dei mostri"}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Federico Viola","RoleName":"Haruo"},
-                                {"ActorName":"Alessandro Germano","RoleName":"Adam"},
-                                {"ActorName":"Martina Tamburello","RoleName":"Yuko"},
-                                {"ActorName":"Roberto Accornero","RoleName":"Endurph"},
-                                {"ActorName":"Domenico Brioschi","RoleName":"Dolu-Do"},
-                                {"ActorName":"Claudio Moneta","RoleName":"Belu-Be"},
-                                {"ActorName":"Donato Sbodio","RoleName":"Galu-Gu"},
-                                {"ActorName":"Omar Maestroni","RoleName":"Metphies"},
-                                {"ActorName":"Matteo Brusamonti","RoleName":"Martin"},
-                                {"ActorName":"Massimiliano Lotti","RoleName":"Mori"},
-                                {"ActorName":"Luca Sandri","RoleName":"Takeshi"},
-                                {"ActorName":"Gigi Rosa","RoleName":"Leland"},
-                                {"ActorName":"Maura Marenghi","RoleName":"Controller A"},
-                                {"ActorName":"Giuliana Atepi","RoleName":"Controller B"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Director & Translation and Adaptation","Name":"Gigi Rosa"},
-                                {"PositionTitle":"Sound Engineer and Syncronization","Name":"Valerio De Grandis"},
-                                {"PositionTitle":"Mixing Engineer","Name":"Michele Conti"}
-                            ],
-                            "DubCompany": "Arte e Comunicazione International srl",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"Portugese","TitleValue":""}],
-                            "Cast": [],
-                            "DubCast": [
-                                {"ActorName":"Roberto Rodrigues","RoleName":"Haruo"},
-                                {"ActorName":"Fernanda Moraes","RoleName":"Yuko"},
-                                {"ActorName":"Rodrigo Nanal","RoleName":"Metphies"},
-                                {"ActorName":"Tiaggo Guimaraes","RoleName":"Martin"},
-                                {"ActorName":"Mario Spatizziani","RoleName":"Mori"},
-                                {"ActorName":"Fernando Ferraz","RoleName":"Takeshi"},
-                                {"ActorName":"Douglas Monteiro","RoleName":"Leland"},
-                                {"ActorName":"Edu Castilho","RoleName":"Dolu Do"},
-                                {"ActorName":"Enio Vivono","RoleName":"Galu Gu"},
-                                {"ActorName":"Paulo Olyva","RoleName":"Belu Be"},
-                                {"ActorName":"Tulio Hopper","RoleName":"Adam"}
-                            ],
-                            "Crew": [
-                                {"PositionTitle":"Producers","Name":"Cristina Flores and Marina Esposito"},
-                                {"PositionTitle":"Director and Casting Director","Name":"Conrado Sotero"},
-                                {"PositionTitle":"Production Assistant","Name":"Karina Turcio"},
-                                {"PositionTitle":"Translator","Name":"Joao Rodrigo"},
-                                {"PositionTitle":"Production Manager","Name":"Jose Luis Arias"},
-                                {"PositionTitle":"Sound Supervisor","Name":"Eduardo Araujo (Jimmi)"},
-                                {"PositionTitle":"Mixing and Sound Engineer","Name":"Guillermo Marghetich"}
-                            ],
-                            "DubCompany": "Dubbing House Brazil",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
-                        },
-                        {
-                            "MainTitle":[{"TitleType":"Chinese","TitleValue":"哥吉拉 怪獸行星"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "Netflix",
-                            "ReleaseDate": "",
-                            "Runtime":"",
-                            "Rating": [],
-                            "Iterations": []
                         }
                     ]
                 }
