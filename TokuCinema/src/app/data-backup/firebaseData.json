@@ -2698,6 +2698,10 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "aFeSDZPhYFU", "Description": "US Theatrical Trailer - Godzilla, King of the Monsters!"},
+                        {"Host": "YT", "ID": "feNVLHseYQY", "Description": "US Radio Spots - Godzilla, King of the Monsters!"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters!"}],
@@ -3034,6 +3038,11 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "6qxGQAwL79w", "Description": "US Theatrical Trailer - Gigantis The Fire Monster"},
+                        {"Host": "YT", "ID": "pbxr_3wIhQw", "Description": "US TV Spot - Gigantis The Fire Monster"},
+                        {"Host": "YT", "ID": "p01xnU-_jy8", "Description": "US TV Spots - Gigantis The Fire Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gigantis The Fire Monster"}],
@@ -3321,6 +3330,9 @@
             "Countries": [
                 {
                     "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "PkbiyqKHZic", "Description": "Japanese Trailer - King Kong vs. Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
@@ -3549,6 +3561,11 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "a2yS7T12kms", "Description": "US Theatrical Teaser - King Kong vs. Godzilla"},
+                        {"Host": "YT", "ID": "E_B_nBdV3V8", "Description": "US Theatrical Trailer - King Kong vs. Godzilla"},
+                        {"Host": "YT", "ID": "PHkzQAOm9W8", "Description": "US TV Spot - King Kong vs. Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"King Kong vs. Godzilla"}],
@@ -3924,6 +3941,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "RRoULoXO_Wc", "Description": "US TV Spot - Godzilla vs. The Thing"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Thing"}],
@@ -4246,6 +4266,11 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "xOiK0OPGJiY", "Description": "US Theatrical Trailer - Ghidrah, the Three-Headed Monster"},
+                        {"Host": "YT", "ID": "TLghd4ah_WY", "Description": "US Spots - Ghidrah, the Three-Headed Monster"},
+                        {"Host": "YT", "ID": "E7EZCXzUbd4", "Description": "US Spot - Ghidrah, the Three-Headed Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ghidrah the Three-Headed Monster"}],
@@ -4465,6 +4490,11 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "IYLoXwS71qU", "Description": "US Theatrical Trailer - Monster Zero & The War of the Gargantuas"},
+                        {"Host": "YT", "ID": "83YDNl_3fE8", "Description": "US TV Spot #1 - Monster Zero & The War of the Gargantuas"},
+                        {"Host": "YT", "ID": "S75pRveNWtM", "Description": "US TV Spot #2 - Monster Zero & The War of the Gargantuas"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Monster Zero"}],
@@ -4655,6 +4685,9 @@
                 },
                 {
                     "Country": "Germany",
+                    "Videos": [
+                        {"Host": "YT", "ID": "cH_9YK9ccqk", "Description": "German Theatrical Trailer - Befehl aus dem Dunkel"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Befehl aus dem Dunkel"}],
@@ -4911,9 +4944,12 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "qBe5Ett1Pfc", "Description": "US TV Spot - Godzilla versus The Sea Monster"}
+                    ],
                     "Versions": [
                         {
-                            "MainTitle":[{"TitleType":"Television","TitleValue":"Godzilla vs. The Sea Monster"}],
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Godzilla versus The Sea Monster"}],
                             "Cast": [],
                             "DubCast": [
                                 {"ActorName":"Hal Linden","RoleName":"Yoshimura (Bank Robber)"},
@@ -5230,6 +5266,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "tKUqNxZ7TT0", "Description": "US TV Spot - Son of Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Televison","TitleValue":"Son of Godzilla"}],
@@ -5508,6 +5547,10 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "WD303Iq_4HE", "Description": "US Theatrical Trailer - Destroy All Monsters"},
+                        {"Host": "YT", "ID": "haOBj0vithQ", "Description": "US TV Spot - Destroy All Monsters"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Destroy All Monsters"}],
@@ -5688,6 +5731,9 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "qUnSq8qwRis", "Description": "US Theatrical Trailer - Island of the Burning Damned & Godzilla's Revenge"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla's Revenge"}],
@@ -5901,6 +5947,11 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "tBjDLzlBtRA", "Description": "US Theatrical Trailer - Godzilla vs. The Smog Monster"},
+                        {"Host": "YT", "ID": "PiuWpLYHmZA", "Description": "US Theatrical Trailers - Godzilla vs. The Smog Monster"},
+                        {"Host": "YT", "ID": "H3vvdW1xhdI", "Description": "US TV Spot - Godzilla vs. The Smog Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Smog Monster"}],
@@ -6459,6 +6510,11 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "F8hrFuuAFHQ", "Description": "US Theatrical Trailer #1 - Godzilla vs. Megalon"},
+                        {"Host": "YT", "ID": "GCcLIIhnsyM", "Description": "US Theatrical Trailer #2 - Godzilla vs. Megalon"},
+                        {"Host": "YT", "ID": "docJPG2JPHU", "Description": "US TV Spot - Godzilla vs. Megalon"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. Megalon"}],
@@ -6818,6 +6874,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "ycqRkKoAGK8", "Description": "US TV Spots - Godzilla vs. The Bionic Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs. The Cosmic Monster"}],
@@ -7069,6 +7128,10 @@
             "Countries": [
                 {
                     "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "Agr9q41zs0A", "Description": "Japanese Teaser - Godzilla"},
+                        {"Host": "YT", "ID": "54xJlggSiIQ", "Description": "Japanese TV Spot - Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
@@ -7157,6 +7220,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "RHiPuGzmQD0", "Description": "US Theatrical Trailer - Godzilla 1985"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 1985"}],
@@ -7455,6 +7521,10 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "g-Nplw_LmdA", "Description": "Japanese TV Spot #1"},
+                        {"Host": "YT", "ID": "q2ouk3TL_lQ", "Description": "Japanese TV Spot #2"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Biollante"}],
@@ -7496,6 +7566,16 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "9msTahMeomk", "Description": "Japanese Theatrical Teaser #1 - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "nWlaovmjrt0", "Description": "Japanese Newsflash #1 - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "mzjr1fE9EyA", "Description": "Japanese Newsflash #2 - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "6-xfxE68mLY", "Description": "Japanese Newsflash #3 - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "uOfYkw_Rg0A", "Description": "Japanese Newsflash #4 - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "XXgcqEv5Wy4", "Description": "Japanese TV Spots - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "TY0t9ssK7yw", "Description": "Japanese TV Promo - Godzilla vs. Destoroyah"},
+                        {"Host": "YT", "ID": "nCgwN8XKow8", "Description": "Taiwanese Theatrical Teaser - Godzilla vs. Destoroyah"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla vs Destoroyah"}],
@@ -7562,6 +7642,10 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "UHunJksIOoE", "Description": "US Theatrical Trailer - Godzilla 2000"},
+                        {"Host": "YT", "ID": "2UnJ6onY6vQ", "Description": "US TV Spot - Godzilla 2000"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000"}],
@@ -7636,6 +7720,10 @@
                 },
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "gNsdmlVYmAo", "Description": "Japanese Theatrical Trailer - Godzilla 2000: Millennium"},
+                        {"Host": "YT", "ID": "9pUXqCjzOZA", "Description": "Japanese TV Spots - Godzilla 2000: Millennium"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla 2000: Millennium"}],
