@@ -1,14 +1,14 @@
 <div class="movie-alt-details" [class.active]="country.Active" *ngIf="country.Active">
+  <div *ngIf="country.Videos || country.ScreencapDescriptions">
+    <div><h2>Gallery</h2></div>
+    <app-media-gallery
+      #mediaGallery
+      [images]="imageGallery"
+      [videoIds]="country.Videos"
+      [numberOfImages]="getNumberOfImages()">
+    </app-media-gallery>
+  </div>
   <div class="movie-alt-version-details" *ngFor="let version of country.Versions">
-    <div *ngIf="country.Videos || country.ScreencapDescriptions">
-      <div><h2>Gallery</h2></div>
-      <app-media-gallery
-        #mediaGallery
-        [images]="imageGallery"
-        [videoIds]="country.Videos"
-        [numberOfImages]="getNumberOfImages()">
-      </app-media-gallery>
-    </div>
     <app-movie-alt-version [version]="version" [numVersions]="country.Versions.length"></app-movie-alt-version>
   </div>
 </div>
