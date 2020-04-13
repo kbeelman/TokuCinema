@@ -31,6 +31,10 @@
             "Countries": [
                 {
                     "Country": "",
+                    "Videos": [
+                        {"Host": "", "ID": "", "Description": ""}
+                    ],
+                    "ScreencapDescriptions": [""],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"","TitleValue":""}],
@@ -84,7 +88,7 @@
             "Country": "",
             "MediumCount": [{"Medium":"", "Count": ""}],
             "ColorSystem": "",
-            "screencaps": [{"Sceencap": "", "Thumbnail": "", "Description": ""}],
+            "ScreencapDescriptions": [""],
             "Distributor": "",
             "CatalogCode": "",
             "UPC": "",

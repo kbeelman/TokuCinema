@@ -4026,6 +4026,9 @@
                 },
                 {
                     "Country": "Germany",
+                    "Videos": [
+                        {"Host": "YT", "ID": "GISAE16jsE4", "Description": "German Mothra vs. Godzilla trailer"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[
