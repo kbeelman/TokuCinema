@@ -6039,6 +6039,9 @@
                 },
                 {
                     "Country": "Germany",
+                    "Videos": [
+                        {"Host": "DM", "ID": "x7fq3jm", "Description": "German Theatrical Trailer - Frankensteins Kampf gegen die Teufelsmonster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankensteins Kampf gegen die Teufelsmonster"}],
@@ -6963,7 +6966,8 @@
                 {
                     "Country": "International",
                     "Videos": [
-                        {"Host": "DM", "ID": "x7fq3jr", "Description": "Export Trailer (Turkish Language)"}
+                        {"Host": "DM", "ID": "x7fq3jr", "Description": "Export Trailer (Turkish Language)"},
+                        {"Host": "DM", "ID": "x7fq3jq", "Description": "German Trailer - Konga - Godzilla - King Kong Die Brut Des Teufels"}
                     ],
                     "ScreencapDescriptions": ["International Title Card (English)"],
                     "Versions": [
@@ -7644,7 +7648,8 @@
                     "Country": "United States",
                     "Videos": [
                         {"Host": "YT", "ID": "UHunJksIOoE", "Description": "US Theatrical Trailer - Godzilla 2000"},
-                        {"Host": "YT", "ID": "2UnJ6onY6vQ", "Description": "US TV Spot - Godzilla 2000"}
+                        {"Host": "YT", "ID": "2UnJ6onY6vQ", "Description": "US TV Spot - Godzilla 2000"},
+                        {"Host": "DM", "ID": "x1290y9", "Description": "Original US Theatrical Ending - Godzilla 2000"}
                     ],
                     "Versions": [
                         {
@@ -8856,6 +8861,9 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "DM", "ID": "x7fq3kh", "Description": "Japanese / US Version Differences"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Frankenstein Conquers the World"}],
