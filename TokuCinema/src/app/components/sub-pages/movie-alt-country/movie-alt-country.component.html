@@ -5,7 +5,8 @@
       <app-media-gallery
         #mediaGallery
         [images]="imageGallery"
-        [videoIds]="country.Videos">
+        [videoIds]="country.Videos"
+        [numberOfImages]="country.ScreencapDescriptions.length">
       </app-media-gallery>
     </div>
     <app-movie-alt-version [version]="version" [numVersions]="country.Versions.length"></app-movie-alt-version>

@@ -13,6 +13,7 @@ import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 export class MediaGalleryComponent {
     @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
     @Input() videoIds: Array<{'Host': string, 'ID': string, 'Description': string}>;
+    @Input() numberOfImages?: number;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
     activeItemSource: string | SafeResourceUrl;
@@ -94,17 +95,20 @@ export class MediaGalleryComponent {
 
     isGalleryStillLoading(): boolean {
         let stillLoading = true;
-        if (this.images) {
-            if (this.galleryImages && this.galleryImages.length < this.images.length) {
-                return stillLoading;
-            }
-
-            stillLoading = false;
-            for (let index = 0; index < this.galleryImages.length; index++) {
-                if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
-                    this.galleryImages[index].Thumb === '') {
-                        stillLoading = true;
+        if (this.numberOfImages > 0) {
+            if (this.images) {
+                if (this.galleryImages && this.galleryImages.length < this.images.length) {
+                    return stillLoading;
                 }
+                stillLoading = false;
+                for (let index = 0; index < this.galleryImages.length; index++) {
+                    if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
+                        this.galleryImages[index].Thumb === '') {
+                            stillLoading = true;
+                    }
+                }
+            } else {
+                return stillLoading;
             }
         } else if (this.elapsedTime < 500) {
             return stillLoading;
