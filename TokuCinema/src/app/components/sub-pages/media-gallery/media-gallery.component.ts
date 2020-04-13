@@ -94,16 +94,23 @@ export class MediaGalleryComponent {
 
     isGalleryStillLoading(): boolean {
         let stillLoading = true;
-        if (this.galleryImages.length < this.images.length) {
-            return stillLoading;
-        }
-
-        stillLoading = false;
-        for (let index = 0; index < this.galleryImages.length; index++) {
-            if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
-                this.galleryImages[index].Thumb === '') {
-                    stillLoading = true;
+        if (this.images) {
+            if (this.galleryImages && this.galleryImages.length < this.images.length) {
+                return stillLoading;
             }
+
+            stillLoading = false;
+            for (let index = 0; index < this.galleryImages.length; index++) {
+                if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
+                    this.galleryImages[index].Thumb === '') {
+                        stillLoading = true;
+                }
+            }
+        } else if (this.elapsedTime < 500) {
+            return stillLoading;
+        } else {
+            stillLoading = false;
+            return stillLoading;
         }
 
         return stillLoading;
