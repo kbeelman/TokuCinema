@@ -6945,7 +6945,7 @@
                     "Videos": [
                         {"Host": "YT", "ID": "MEmyLjSMQfI", "Description": "TV Spot for The Terror of Godzilla"}
                     ],
-                    "ScreencapDescriptions": [],
+                    "ScreencapDescriptions": ["Title Card - Terror of Godzilla (Theatrical)", "Title Card - Terror of Godzilla (Television and Home Video #1)", "Title Card - Terror of Godzilla (Television and Home Video #2)", "Title Card - Terror of Mechagodzilla (Television)"],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Terror of Godzilla"}],
@@ -7034,7 +7034,7 @@
                 },
                 {
                     "Country": "United Kingdom",
-                    "ScreencapDescriptions": [],
+                    "ScreencapDescriptions": ["Title Card - United Kingdom"],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Monsters from an Unknown Planet"}],
