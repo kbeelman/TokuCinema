@@ -21,4 +21,12 @@ export class MovieAltCountryComponent implements OnInit {
     this.imageGallery = this.fdb.getImages('alternateVersions', this.path + '/' + this.country.Country, this.country.ScreencapDescriptions);
   }
 
+  getNumberOfImages(): number {
+    if (this.country.ScreencapDescriptions) {
+      return this.country.ScreencapDescriptions.length;
+    } else {
+      return 0;
+    }
+  }
+
 }
