@@ -15,6 +15,9 @@ export class MovieAltDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    if (this.movieAlternateVersion.Countries) {
+      this.activeAltCountry = this.movieAlternateVersion.Countries[0].Country;
+    }
   }
 
   toggleCountries(country: string) {

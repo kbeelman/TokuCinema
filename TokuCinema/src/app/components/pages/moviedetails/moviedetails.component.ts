@@ -17,7 +17,6 @@ import { Subscription } from 'rxjs';
 export class MoviedetailsComponent implements OnInit, OnDestroy {
   private sub: Subscription;
   public pageNotFound: boolean = false;
-  public activeAltCountry: any; // used for mobile alt version selector
 
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
@@ -73,7 +72,6 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         if (data) {
           this.movieAlternateVersion = data;
           this.movieAlternateVersion.Countries[0].Active = true;
-          this.activeAltCountry = this.movieAlternateVersion.Countries[0].Country;
         }
       });
     });
