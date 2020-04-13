@@ -190,7 +190,7 @@ export class MediaGalleryComponent {
             if (item.getHost() === 'YT') {
                 this.activeItemSource = this.getTrustedUrl('https://www.youtube.com/embed/' + this.activeItem.GetSource());
             } else if (item.getHost() === 'DM') {
-                this.activeItemSource = this.getTrustedUrl('https://www.dailymotion.com/embed/video/' + this.activeItem.GetSource());
+                this.activeItemSource = this.getTrustedUrl('https://www.dailymotion.com/embed/video/' + this.activeItem.GetSource() + '?queue-enable=false');
             }
         }
     }
