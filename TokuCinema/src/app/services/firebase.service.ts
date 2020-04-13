@@ -71,8 +71,9 @@ export class FirebaseService {
     getImages(branchName: string, path: string, descriptions: Array<string>):
       Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> {
         const returnList: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> = [];
-        const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + '/screencaps/full');
-        const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + '/screencaps/thumbs');
+        const imageDirectory = branchName === 'media' ? '/screencaps' : '';
+        const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
+        const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
 
         fullStorageRef.list().then((folderData: ListResult) => {
           folderData.items.forEach((image, index) => {

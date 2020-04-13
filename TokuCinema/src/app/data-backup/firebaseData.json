@@ -6903,6 +6903,10 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "DM", "ID": "x7fq3jr", "Description": "Export Trailer (Turkish Language)"}
+                    ],
+                    "ScreencapDescriptions": ["International Title Card (English)"],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Terror of Mechagodzilla"}],
@@ -6938,6 +6942,10 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "MEmyLjSMQfI", "Description": "TV Spot for The Terror of Godzilla"}
+                    ],
+                    "ScreencapDescriptions": [],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Terror of Godzilla"}],
@@ -7026,6 +7034,7 @@
                 },
                 {
                     "Country": "United Kingdom",
+                    "ScreencapDescriptions": [],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Monsters from an Unknown Planet"}],

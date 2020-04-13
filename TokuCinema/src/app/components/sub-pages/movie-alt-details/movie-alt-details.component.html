@@ -16,6 +16,6 @@
     </option>
   </select>
   <div *ngFor="let country of this.movieAlternateVersion.Countries" >
-    <app-movie-alt-country [country]="country"></app-movie-alt-country>
+    <app-movie-alt-country [country]="country" [path]="movieAlternateVersion.Path"></app-movie-alt-country>
   </div>
 </div>
