@@ -119,9 +119,17 @@ export class MediaGalleryComponent {
     setupVideos(): void {
         if (this.videoIds && this.videoIds.length) {
             for (let index = 0; index < this.videoIds.length; index++) {
-                this.galleryVideos.push(new GalleryVideo(this.videoIds[index].Host,
-                    this.videoIds[index].ID, index, this.videoIds[index].Description));
-                this.itemCount++;
+                let found = false;
+                for (let subIndex = 0; subIndex < this.galleryVideos.length; subIndex++) {
+                    if (this.videoIds[index].ID === this.galleryVideos[subIndex].VideoId) {
+                        found = true;
+                    }
+                }
+                if (!found) {
+                    this.galleryVideos.push(new GalleryVideo(this.videoIds[index].Host,
+                        this.videoIds[index].ID, index, this.videoIds[index].Description));
+                    this.itemCount++;
+                }
             }
         }
     }

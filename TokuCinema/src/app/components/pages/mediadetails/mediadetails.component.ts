@@ -52,8 +52,6 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
         this.subscribeToMediaDetails();
         this.subscribeToReview();
         this.imageGallery = this.fdb.getImages('media', this.media.Path, this.mediaDetails.ScreencapDescriptions);
-        // this.videoGallery.push({'Host': 'YT', 'ID': 'GISAE16jsE4', 'Description': 'Mothra vs. Godzilla trailer'});
-        // this.videoGallery.push({'Host': 'DM', 'ID': 'x7fq3jr', 'Description': 'International Terror of Mechagodzilla trailer'});
       });
     });
   }

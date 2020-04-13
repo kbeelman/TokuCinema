@@ -7,7 +7,6 @@ import { Component, Input } from '@angular/core';
   templateUrl: './movie-alt-version.component.html'
 })
 export class MovieAltVersionComponent  {
-  public activeAltCountry: any; // used for mobile alt version selector
 
   @Input() version: Version;
   @Input() numVersions: number;
