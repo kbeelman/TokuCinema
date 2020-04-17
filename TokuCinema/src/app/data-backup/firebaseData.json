@@ -1656,7 +1656,7 @@
             "OfficialTitle": "Gamera: The Giant Monster",
             "AlternateTitles": [
                 {"TitleType":"Japanese","TitleValue":"大怪獣ガメラ"},
-                {"TitleType":"Hepburn","TitleValue":"Daikaijū Gamera"},
+                {"TitleType":"Hepburn","TitleValue":"Daikaiju Gamera"},
                 {"TitleType":"Literal Translation","TitleValue":"Giant Monster Gamera"},
                 {"TitleType":"Original U.S. Title","TitleValue":"Gammera the Invincible"}
             ],
@@ -1673,11 +1673,90 @@
             "Series": "Gamera",
             "Era": "Showa",
             "Runtime": "86",
-            "Path": "Gamera-Giant-Monster-1965"
+            "Path": "Gamera-Giant-Monster-1965",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Planning","Name":"Yonejiro Saito"},
+                {"PositionTitle":"Screenplay","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Photography","Name":"Nobuo Munekawa"},
+                {"PositionTitle":"Sound","Name":"Toshikazu Watanabe"},
+                {"PositionTitle":"Lighting","Name":"Yukio Ito"},
+                {"PositionTitle":"Art Director","Name":"Akira Inoue"},
+                {"PositionTitle":"Music","Name":"Tadashi Yamauchi"},
+                {"PositionTitle":"Editor","Name":"Tatsuji Nakashizu"},
+                {"PositionTitle":"Assistant Director","Name":"Shima Abe"},
+                {"PositionTitle":"Production Manager","Name":"Hiroaki Uejima"},
+                {"PositionTitle":"Visual Effects Photography","Name":"Yonesaburo Tsukiji"},
+                {"PositionTitle":"Visual Effects Art Director","Name":"Akira Inoue"},
+                {"PositionTitle":"Composites","Name":"Kazafumi Fujii"},
+                {"PositionTitle":"Lighting","Name":"Mamoru Ishizaka"},
+                {"PositionTitle":"Assistant Director","Name":"Kiyoshi Ishida"},
+                {"PositionTitle":"Production Manager","Name":"Kiyoshi Kawamura"}
+            ],
+            "Cast": [
+                {"ActorName":"Eiji Funakoshi","RoleName":"Doctor Eiji Hidaka"},
+                {"ActorName":"Junichiro Yamashita","RoleName":"Aoyagi"},
+                {"ActorName":"Michiko Sugata","RoleName":"Nobuyo Sakurai"},
+                {"ActorName":"Harumi Kiritachi","RoleName":"Kyoko Yamamoto"},
+                {"ActorName":"Yoshiro Kitahara","RoleName":"Mr. Sakurai"},
+                {"ActorName":"Bokuzen Hidari","RoleName":"Old Farmer"},
+                {"ActorName":"Jun Hamamura","RoleName":"Professor Murase"},
+                {"ActorName":"Jutaro Hojo","RoleName":"Self-Defense Force Commander"},
+                {"ActorName":"Yoshio Yoshida","RoleName":"Eskimo Chief"},
+                {"ActorName":"Kenji Oyama","RoleName":"Minister of Defense"},
+                {"ActorName":"Jun Osanai","RoleName":"Chidori Maru Captain"},
+                {"ActorName":"Koji Fujiyama","RoleName":"U.S. Arctic Base Commander"},
+                {"ActorName":"Ichigen Ohashi","RoleName":"Mr. Ueda"},
+                {"ActorName":"Munehiko Takada","RoleName":"Soviet Representative"},
+                {"ActorName":"Kenichi Tani","RoleName":"Officer"},
+                {"ActorName":"Tsutomu Nakata","RoleName":"Toshio's Uncle"},
+                {"ActorName":"Yuji Moriya","RoleName":"News Announcer"},
+                {"ActorName":"Osamu Maruyama","RoleName":" Atomic Energy Research Institute Chief"},
+                {"ActorName":"Yoshiro Uchida (Himawari)","RoleName":"Toshio Sakurai"},
+                {"ActorName":"Toshio Maki","RoleName":"Atomic Energy Research Institute Staff A"},
+                {"ActorName":"Kazuo Sumida","RoleName":"Atomic Energy Research Institute Staff B"},
+                {"ActorName":"Rin Sugimori","RoleName":"Police Station Chief"},
+                {"ActorName":"Fumiko Murata","RoleName":"Old Farmer's Wife"},
+                {"ActorName":"Tetsuo Takeuchi","RoleName":"Japan Broadcasting Station Announcer"},
+                {"ActorName":"Kyosuke Shiho","RoleName":"Fish Seller A"},
+                {"ActorName":"Ken Nakahara","RoleName":"Fish Seller C"},
+                {"ActorName":"Kazuo Mori","RoleName":"Chidori Maru Radioman"},
+                {"ActorName":"Shinji Sayama","RoleName":"Fish Seller B"},
+                {"ActorName":"Hiroya Kita","RoleName":"Chidori Maru Navigator"},
+                {"ActorName":"Kenji Ohba","RoleName":"Self-Defense Force Soldier B"},
+                {"ActorName":"Yasuo Araki","RoleName":"Self-Defense Force Soldier A"},
+                {"ActorName":"Daigo Inoue","RoleName":"Self-Defense Force Adjutant"},
+                {"ActorName":"Shin Minatsu","RoleName":"Sapporo Broadcasting Station Announcer"},
+                {"ActorName":"Akira Shimizu","RoleName":"Dancing Youth"},
+                {"ActorName":"Shinichi Matsuyama","RoleName":"Operator A"},
+                {"ActorName":"Ikuji Oka","RoleName":"U.S. Fighter Pilot"},
+                {"ActorName":"Ryuji Fujii","RoleName":"Official at Haneda Airport"},
+                {"ActorName":"Keiichiro Yamane","RoleName":"Geothermal Station Engineer"},
+                {"ActorName":"Wakayo Matsumura","RoleName":"Customer"},
+                {"ActorName":"Chizuru Ko","RoleName":"Stripper A (deleted scene)"},
+                {"ActorName":"Ryoko Oki","RoleName":"Stripper B (deleted scene)"},
+                {"ActorName":"Takehiko Goto","RoleName":"Self-Defense Force Cessna Pilot"},
+                {"ActorName":"Toichiro Kagawa","RoleName":"Operator B"},
+                {"ActorName":"Ichiro Ise","RoleName":"Reporter A"},
+                {"ActorName":"Shinji Sahara","RoleName":"Reporter B"},
+                {"ActorName":"Hajime Munechika","RoleName":"Reporter C"},
+                {"ActorName":"Himawari Theatrical Troupe","RoleName":""},
+                {"ActorName":"M. Apanay (Abdul Apanay)","RoleName":""},
+                {"ActorName":"Richardson","RoleName":"U.S. Arctic Base Personnel"},
+                {"ActorName":"Strahan","RoleName":"U.S. Arctic Base Personnel"},
+                {"ActorName":"Ronson","RoleName":"U.S. Arctic Base Personnel"},
+                {"ActorName":"Brown (Hank Brown)","RoleName":"U.S. Arctic Base Personnel"},
+                {"ActorName":"Hartman","RoleName":"U.S. Arctic Base Personnel"}
+            ]
         },
         {
             "OfficialTitle": "Gamera vs. Barugon",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"大怪獣決闘 ガメラ対バルゴン"},{"TitleType":"Hepburn","TitleValue":"Daikaiju Ketto: Gamera Tai Barugon"},{"TitleType":"Literal Translation","TitleValue":"Duel of the Giant Monsters: Gamera vs. Barugon"},{"TitleType":"Original U.S. Title","TitleValue":"War of the Monsters"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大怪獣決闘 ガメラ対バルゴン"},
+                {"TitleType":"Hepburn","TitleValue":"Daikaiju Ketto: Gamera Tai Barugon"},
+                {"TitleType":"Literal Translation","TitleValue":"Duel of the Giant Monsters: Gamera vs. Barugon"},
+                {"TitleType":"Original U.S. Title","TitleValue":"War of the Monsters"}
+            ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Barugon-1966%2Fthumb-card.png?alt=media&token=f812997b-a758-45d6-97d2-249a47c5b7dd",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Barugon-1966%2Fthumb-details.png?alt=media&token=5d6ae5a8-1782-40d5-98d9-9b9ef7905376"
@@ -1691,7 +1770,167 @@
             "Series": "Gamera",
             "Era": "Showa",
             "Runtime": "100",
-            "Path": "Gamera-Barugon-1966"
+            "Path": "Gamera-Barugon-1966",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Tanaka Shigeo"},
+                {"PositionTitle":"Producer","Name":"Nagata Masaichi"},
+                {"PositionTitle":"Planning","Name":"Saitou Yonejirou"},
+                {"PositionTitle":"Screenplay","Name":"Takahashi Niisan"},
+                {"PositionTitle":"Photography","Name":"Takahashi Michio"},
+                {"PositionTitle":"Audio Recording","Name":"Okumura Yukio"},
+                {"PositionTitle":"Lighting","Name":"Shibata Tsunekichi"},
+                {"PositionTitle":"Art","Name":"Shibata Atsuji"},
+                {"PositionTitle":"Music","Name":"Kinoshita Chuuji"},
+                {"PositionTitle":"Editing","Name":"Nakashizu Tatsuji"},
+                {"PositionTitle":"Assistant Director","Name":"Segawa Masao"},
+                {"PositionTitle":"Supervisor","Name":"Numata Yoshizou"},
+                {"PositionTitle":"Special Effects Director","Name":"Yuasa Noriaki"},
+                {"PositionTitle":"Special Effects Photography","Name":"Fujii Kazafumi"},
+                {"PositionTitle":"Special Effects Art","Name":"Yamaguchi Hikaru, Inoue Akira"},
+                {"PositionTitle":"Composites","Name":"Kaneko Yuuzou"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Ishizaka Mamoru"},
+                {"PositionTitle":"Choreography","Name":"Erikawa Hideo"},
+                {"PositionTitle":"Assistant Director","Name":"Abe Shima"},
+                {"PositionTitle":"Production Manager","Name":"Kawamura Kiyoshi"}
+            ],
+            "Cast": [
+                {"ActorName":"Hongou Koujirou","RoleName":"Keisuke Hirata"},
+                {"ActorName":"Enami Kyouko","RoleName":"Karen"},
+                {"ActorName":"Hayakawa Yuuzou","RoleName":"Kawajiri"},
+                {"ActorName":"Fujioka Takuya","RoleName":"Doctor Sato"},
+                {"ActorName":"Fujiyama Kouji","RoleName":"Onodera"},
+                {"ActorName":"Natsuki Sho","RoleName":"Ichiro Hirata"},
+                {"ActorName":"Kitahara Yoshirou","RoleName":"Professor Amano"},
+                {"ActorName":"Sugai Ichirou","RoleName":"Doctor Matsushita"},
+                {"ActorName":"Miake Bontarou","RoleName":"Self-Defense Force General"},
+                {"ActorName":"Houjou Jutarou","RoleName":"Self-Defense Force Commander"},
+                {"ActorName":"Wakamatsu Kazuko","RoleName":"Sadae Hirata"},
+                {"ActorName":"Konno Yuka","RoleName":"Onodera's Lover"},
+                {"ActorName":"Takamura Eiichi","RoleName":"Governor of Osaka"},
+                {"ActorName":"Tani Kenichi","RoleName":"Lee (Jewelry Broker)"},
+                {"ActorName":"Itou Kouichi","RoleName":"Metropolitan Police Superintendent-General"},
+                {"ActorName":"Hoshi Hikaru","RoleName":"Awaji Maru Captain"},
+                {"ActorName":"Abe Osamu","RoleName":"Awaji Maru Crewman"},
+                {"ActorName":"Osanai Jun","RoleName":""},
+                {"ActorName":"Hamaguchi Yoshihiro","RoleName":"Awaji Maru Crewman"},
+                {"ActorName":"Joe Ohara","RoleName":"Chief (Karen's Father)"},
+                {"ActorName":"Nakata Tsutomu","RoleName":"Assistant Professor Hayashi"},
+                {"ActorName":"Moriya Yuuji","RoleName":"Announcer"},
+                {"ActorName":"Kawashima Shinji","RoleName":""},
+                {"ActorName":"Harata Gen","RoleName":"Kishimoto"},
+                {"ActorName":"Mori Kazuo","RoleName":"Awaji Maru Crewman"},
+                {"ActorName":"Minatsu Shin","RoleName":"Awaji Maru Crewma"},
+                {"ActorName":"Gotou Takehiko","RoleName":""},
+                {"ActorName":"Kagawa Touichirou","RoleName":"Observer"},
+                {"ActorName":"Shingu Nobuko","RoleName":"Self-Defense Force Personnel"},
+                {"ActorName":"Nishi Hiroko","RoleName":""},
+                {"ActorName":"Akira Michiyo","RoleName":""},
+                {"ActorName":"Masuda Takashi Dance Company","RoleName":""},
+                {"ActorName":"Teruo Aragaki","RoleName":"Gamera"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera vs. Gyaos",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大怪獣空中戦 ガメラ対ギャオス"},
+                {"TitleType":"Hepburn","TitleValue":"Daikaiju kuchusen: Gamera tai Gyaosu"},
+                {"TitleType":"Literal Translation","TitleValue":"Giant Monster Midair Battle: Gamera vs. Gyaos"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Return of the Giant Monsters"}
+            ],
+            "OriginalPoster": [
+                "thumb-card",
+                "thumb-details"],
+            "ReleaseDate": "1967-03-15",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "86",
+            "Path": "Gamera-Gyaos-1967",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Producer","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"Planning","Name":"Kazumasa Nakano"},
+                {"PositionTitle":"Screenwriter","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Cinematography","Name":"Akira Uehara"},
+                {"PositionTitle":"Audio Recording","Name":"Yukio Okumura"},
+                {"PositionTitle":"Lighting","Name":"Heihachi Kubo"},
+                {"PositionTitle":"Art","Name":"Akira Inoue"},
+                {"PositionTitle":"Music","Name":"Tadashi Yamauchi"},
+                {"PositionTitle":"\"Gamera's Song\" Theme"},
+                {"PositionTitle":"\"Gamera's Song\" Theme Song","Name":"Hibari Children's Choir"},
+                {"PositionTitle":"\"Gamera's Song\" Theme Lyrics","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"\"Gamera's Song\" Theme Written and Arranged","Name":"Akira Komachi"},
+                {"PositionTitle":"\"Gamera's Song\" Theme Label King Record's"},
+                {"PositionTitle":"\"Gamera's Song\" Theme Performance","Name":"Daiei Recording Orchestra"},
+                {"PositionTitle":"Editor","Name":"Tatsuharu Nakashizu"},
+                {"PositionTitle":"Sound Effects","Name":"Nobuyoshi Ogura"},
+                {"PositionTitle":"Assistant Director","Name":"Masao Kobayashi"},
+                {"PositionTitle":"Production Manager","Name":"Kiyoshi Kawamura"},
+                {"PositionTitle":"Film Development","Name":"Tokyo Development Office"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Kazufumi Fujii"},
+                {"PositionTitle":"Special Effects Assistant Director","Name":"Shima Abe"},
+                {"PositionTitle":"Special Effects Art","Name":"Tomohisa Yano"},
+                {"PositionTitle":"Special Effects Composites","Name":"Yuzo Kaneko"},
+                {"PositionTitle":"Special Effects Choreography","Name":"Yoshio Kaneko"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Naoo Kumagi"}
+            ],
+            "Cast": [
+                {"ActorName":"Kojiro Hongo","RoleName":"Shiro Tsutsumi"},
+                {"ActorName":"Reiko Kasahara","RoleName":"Sumiko Kanemaru (Granddaughter of the Mayor)"},
+                {"ActorName":"Taro Marui","RoleName":"Mite-no-Tetsu"},
+                {"ActorName":"Yoshio Kitahara","RoleName":"Doctor Aoki"},
+                {"ActorName":"Akira Natsuki","RoleName":"Commander of the Central Self-Defense Force"},
+                {"ActorName":"Kichjiro Ueda","RoleName":"Tatsuemon Kanamaru (Village Mayor)"},
+                {"ActorName":"Fujio Murakami","RoleName":"Member of The Institute of Oriental Medicine"},
+                {"ActorName":"Jutaro Kijo","RoleName":"Rancher"},
+                {"ActorName":"Takashi Nakamura","RoleName":"Chunichi Shinpo Reporter"},
+                {"ActorName":"Yukitaro Aya","RoleName":"Yako"},
+                {"ActorName":"Naoyuki Abe","RoleName":"Eiichi Kanemaru (Sumiko's Younger Brother)"},
+                {"ActorName":"Kenji Oyama","RoleName":"Chief of The Prefectural Police"},
+                {"ActorName":"Koichi Ito","RoleName":"Director of The Road Corporation Development Bureau"},
+                {"ActorName":"Nobu Minatsu","RoleName":"Okabe Photographer"},
+                {"ActorName":"Yuji Moriya","RoleName":"Announcer"},
+                {"ActorName":"Osamu Maruyama","RoleName":"Director, Earthquake Research Institute"},
+                {"ActorName":"Susumu Tsuda","RoleName":"Reporter"},
+                {"ActorName":"Yoshio Toyoda","RoleName":"Sergeant"},
+                {"ActorName":"Tetsuhei Endo","RoleName":"Regional Manager, Road Corporation"},
+                {"ActorName":"Joe O'Hara","RoleName":"Hotel Highland Manager"},
+                {"ActorName":"Harada","RoleName":"Engineer of The Hayashi Station"},
+                {"ActorName":"Tadashi Date","RoleName":"Villager"},
+                {"ActorName":"Tsutomu Nakata","RoleName":"Villager"},
+                {"ActorName":" Toshio Maki","RoleName":"Villager"},
+                {"ActorName":"Takamiukuki","RoleName":"Chunichi Shinpo Driver"},
+                {"ActorName":"Kyosuke Shibo","RoleName":"Nakanichi Shinpo Photographer"},
+                {"ActorName":"Rin Sugimori","RoleName":"Villager"},
+                {"ActorName":"Yoshio Takee","RoleName":"Reporter"},
+                {"ActorName":"Goro Kudan","RoleName":"Laborer"},
+                {"ActorName":"Kenji Morita","RoleName":"Substation Engineer"},
+                {"ActorName":"Naoma Kawashima","RoleName":"Makido"},
+                {"ActorName":"Ken Nakahara","RoleName":"Sailor"},
+                {"ActorName":"Yoshisohachi","RoleName":"Engineer"},
+                {"ActorName":"Kenji Ohba","RoleName":"Reporter"},
+                {"ActorName":"Takehiko Goto","RoleName":"Laborer"},
+                {"ActorName":"Daigo Inoue","RoleName":"Self-Defense Force Deputy"},
+                {"ActorName":"Kazuo Sumida","RoleName":"Shinkansen Passenger"},
+                {"ActorName":"Munehiko Takada","RoleName":"Shinkansen Passenger"},
+                {"ActorName":"Fujio Yonezawa","RoleName":"Villager"},
+                {"ActorName":"Keiichiro Yamane","RoleName":"Sailor"},
+                {"ActorName":"Yasuo Araki","RoleName":"Conductor"},
+                {"ActorName":"Masaki Minamido","RoleName":"Reporter"},
+                {"ActorName":"Ryuji Fujii","RoleName":"Laborer"},
+                {"ActorName":"Ikuji Oka","RoleName":""},
+                {"ActorName":"Hanafu Hiroshi","RoleName":"Engineer"},
+                {"ActorName":"Goro Maeda","RoleName":"Laborer"},
+                {"ActorName":"Takesato Mitsuko","RoleName":"Kanamaru's Old Woman"},
+                {"ActorName":"Hitomi Tenten","RoleName":"Earthquake Research Institute Staff"},
+                {"ActorName":"Junko Ichijo","RoleName":"Shinkansen Passenger"},
+                {"ActorName":"Yoko Okada","RoleName":"Villager"},
+                {"ActorName":"Teruo Aragaki (Credited as Teruo Niigaki)","RoleName":"Gamera"}
+            ]
         },
         {
             "OfficialTitle": "Gamera: Guardian of the Universe",
@@ -1835,7 +2074,11 @@
         },
         {
             "OfficialTitle": "Atragon",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"海底軍艦"},{"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"},{"TitleType":"Literal Translation","TitleValue":"Undersea Warship"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"海底軍艦"},
+                {"TitleType":"Hepburn","TitleValue":"Kaitei Gunkan"},
+                {"TitleType":"Literal Translation","TitleValue":"Undersea Warship"}
+            ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAtragon-1963%2Fthumb-card.png?alt=media&token=4c5fdb92-302c-4740-87f0-9eadf43bfb5f",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FAtragon-1963%2Fthumb-details.png?alt=media&token=63315f4d-c1a5-4b82-8e87-91d21a9f43a1"
@@ -1902,7 +2145,12 @@
         },
         {
             "OfficialTitle": "Dogora",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"宇宙大怪獣ドゴラ"},{"TitleType":"Hepburn","TitleValue":"Uchu Dai kaiju Dogora"},{"TitleType":"Literal Translation","TitleValue":"Giant Space Monster Dogora"}],
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"宇宙大怪獣ドゴラ"},
+                {"TitleType":"Hepburn","TitleValue":"Uchu Dai kaiju Dogora"},
+                {"TitleType":"Literal Translation","TitleValue":"Giant Space Monster Dogora"},
+                {"TitleType":"U.S. Title","TitleValue":"Dagora"}
+            ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDogora-1964%2Fthumb-card.png?alt=media&token=41be6de2-d83d-4017-b5e0-86d04c787d93",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDogora-1964%2Fthumb-details.png?alt=media&token=910ff016-cfc1-4fd2-9d6e-ff5c176236ca"
@@ -3004,6 +3252,9 @@
                 },
                 {
                     "Country": "France",
+                    "Videos": [
+                        {"Host": "YT", "ID": "wRjpGY6TBKo", "Description": "French Trailer - Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla"}],
@@ -8451,10 +8702,238 @@
             ]
         },
         {
+            "Path": "Gamera-Giant-Monster-1965",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "u8hw9kxkpKc", "Description": "Japanese Theatrical Trailer - Giant Monster Gamera"},
+                        {"Host": "YT", "ID": "27KXJBDSNuM", "Description": "Giant Monster Gamera/Gammera the Invincible - \"Goddess of Luck\" Subplot Removal"}
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gammera the Invincible"}],
+                            "Cast": [
+                                {"ActorName":"Albert Dekker","RoleName":"Secretary of Defense"},
+                                {"ActorName":"Brian Donlevy","RoleName":"General Terry Arnold"},
+                                {"ActorName":"Diane Findlay","RoleName":"Sergeant Susan Embers"},
+                                {"ActorName":"John Baragrey","RoleName":"J.T. Standish"},
+                                {"ActorName":"Dick O'Neill","RoleName":"General O'Neill"},
+                                {"ActorName":"Mort Marshall","RoleName":"Jules Manning"},
+                                {"ActorName":"Alan Oppenheimer","RoleName":"Doctor Contrare"},
+                                {"ActorName":"Steffen Zacharias","RoleName":"Senator Billings"},
+                                {"ActorName":"Thomas Stubblefield","RoleName":"Captain Lovell"},
+                                {"ActorName":"Gene Bua","RoleName":"Lieutenant Clark"},
+                                {"ActorName":"Bob Carraway","RoleName":"Lieutenant Simpson"},
+                                {"ActorName":"John McCurry","RoleName":"A1C Hopkins"},
+                                {"ActorName":"Walter Arnold","RoleName":"American Ambassador"},
+                                {"ActorName":"Louis Zorick","RoleName":"Russian Ambassador"},
+                                {"ActorName":"Robin Craven","RoleName":"British Ambassador"}
+                            ],
+                            "DubCast": [
+                                {"ActorName":"Bernard Grant","RoleName":"Doctor Eiji Hidaka"},
+                                {"ActorName":"Larry Robinson","RoleName":"Aoyagi"},
+                                {"ActorName":"Lucy Martin","RoleName":"Nobuyo Sakurai"},
+                                {"ActorName":"Paulette Rubinstein","RoleName":"Kyoko Yamamoto"},
+                                {"ActorName":"Peter Fernandez","RoleName":"Mr. Ueda, U.S. Fighter Pilot"},
+                                {"ActorName":"Jack Curtis","RoleName":"News Announcer"},
+                                {"ActorName":"Corrine Orr","RoleName":"Toshio Sakurai"},
+                                {"ActorName":"Kenneth Harvey","RoleName":"Narrator, Chidori Maru Navigator"},
+                                {"ActorName":"William Griffis","RoleName":"Additional Voices"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Assistant Director","Name":"Sid Cooperschmidt"},
+                                {"PositionTitle":"Art Director","Name":"Hank Aldrick"},
+                                {"PositionTitle":"Sound","Name":"Murray Rosenblum"},
+                                {"PositionTitle":"Editing","Name":"Ross-Gaffney"},
+                                {"PositionTitle":"Assistant to Producer","Name":"Fran Wolf"},
+                                {"PositionTitle":"Production Associate","Name":"L. Jeffrey Norwalk"},
+                                {"PositionTitle":"Director of Photography","Name":"Julian Townsend"},
+                                {"PositionTitle":"Script Supervisor","Name":"Barbara Robinson"},
+                                {"PositionTitle":"Dialogue Director","Name":"Robert Myerson"},
+                                {"PositionTitle":"Additional Dialogue","Name":"Richard Kraft"},
+                                {"PositionTitle":"Gamera Theme Song Writer","Name":"Wes Farrell"},
+                                {"PositionTitle":"Gamera Theme Song Arrangment and Conductor","Name":"Artie Butler"},
+                                {"PositionTitle":"Executive Producer","Name":"Ken Barnett"},
+                                {"PositionTitle":"Associate Producer","Name":"Rober Baron"}
+                            ],
+                            "DubCompany": "Titan Productions",
+                            "ProductionCompany": "Harris Associates",
+                            "DistributionCompany": "World Entertainment Corporation",
+                            "ReleaseDate": "1966-12-15",
+                            "Runtime":"86",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "New scenes were filmed and replaced scenes of English-speaking actors playing military personnel at the beginning of the movie. More scenes were filmed with Brian Donlevy and Albert Dekker as US military men looking for a plan to stop Gamera.",
+                                        "One shot of Gammera at the power plant is unique to this version.",
+                                        "Several small edits were made to quicken the pace and a few library music tracks were added. A widescreen version was released on VHS in 1999 by Neptune Media."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "16mm",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While the theatrical version opened with a World Entertainment Corp. logo, 16mm prints of the US version feature an NTA (National Telefilm Associates) logo."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Bootleg DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Some DVD versions (most notably the one released by Alpha Video) shuffle the order of the credits. In the theatrical and 16mm versions, a new US scene of military personnel is placed between the main title and the opening credits. In the altered DVD versions, a digital fade connects the main title and credits, which are then followed by the originally sandwiched scene."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1980's",
+                            "Runtime":"86",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment. Released as \"Gamera\", Frank's version is the original Japanese version dubbed by an uncredited dubbing studio, though it is suspected to have been dubbed at Anvil Studios in England.",
+                                        "This dub was made without the original music & effects track construct.",
+                                        "The main title and opening credits are overlaid on a shot of ocean waves and are moved to the beginning of the movie.",
+                                        "Although this version is technically uncut, two scenes during Gamera's rampage at the power plant are moved around.",
+                                        "This version was released on video and laserdisc by Celebrity Home Entertainment in 1987 and played on MST3K twice. (Once in 1988 and again in 1991)."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Barugon-1966",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Barugon"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Michael Kaye","RoleName":"Keisuke Hirata"},
+                                {"ActorName":"Esma Wilson","RoleName":"Karen"},
+                                {"ActorName":"Warren Rooke","RoleName":"Ichiro Hirata"},
+                                {"ActorName":"Barry Haigh","RoleName":"Guy with flowers"},
+                                {"ActorName":"Ted Thomas","RoleName":""}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1966-04-17",
+                            "Runtime":"100",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An International version was dubbed in Hong Kong. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"War of the Monsters"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Pictures",
+                            "ReleaseDate": "",
+                            "Runtime":"88",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US.",
+                                        "The English dubbing is uncredited, but it was likely dubbed in Rome by the English Language Dubbers Association (ELDA).",
+                                        "The third act runs at a generally tighter pace at the expense of exposition, and the ending credits are cut."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera vs. Barugon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1980s",
+                            "Runtime":"100",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment.",
+                                        "This version is uncut and features the Hong Kong dubbing, along with new ocean credits. Featured twice on MST3K, once in the UHF era, and later on nationwide cable. Issued solely on tape."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "Path": "Matango-1963",
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "iWWqHJkjats", "Description": "Japanese Theatrical Trailer - Matango"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Matango"}],
@@ -8497,7 +8976,7 @@
                             "Crew": [],
                             "DubCompany": "",
                             "ProductionCompany": "",
-                            "DistributionCompany": "",
+                            "DistributionCompany": "American International Pictures",
                             "ReleaseDate": "Circa 1965",
                             "Runtime":"",
                             "Rating": [],
@@ -8646,6 +9125,10 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "fzUZLme3GEs", "Description": "US Theatrical Trailer - Atragon"},
+                        {"Host": "YT", "ID": "DoLPtiO6Dyg", "Description": "US Theatrical Trailer & TV Spots - Atragon"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Atragon"}],
@@ -8755,6 +9238,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "76fm-t-_qNs", "Description": "Japanese Theatrical Trailer - Dogora"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Dogora"}],
@@ -8800,6 +9286,9 @@
                 },
                 {
                     "Country": "Germany",
+                    "Videos": [
+                        {"Host": "YT", "ID": "YUfQuiKr4lA", "Description": "German Theatrical Trailer - Dogora"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"X 3000 - Fantome gegen Gangster"}],
@@ -8862,6 +9351,8 @@
                 {
                     "Country": "United States",
                     "Videos": [
+                        {"Host": "YT", "ID": "yKxQHhki_k8", "Description": "US Theatrical Version - Frankenstein Conquers the World"},
+                        {"Host": "YT", "ID": "65SMnin24fY", "Description": "US Radio Spots - Frankenstein Conquers the World"},
                         {"Host": "DM", "ID": "x7fq3kh", "Description": "Japanese / US Version Differences"}
                     ],
                     "Versions": [
@@ -9044,6 +9535,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "z-0zORg3y64", "Description": "International Theatrical Trailer - The War of the Gargantuas"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War of the Gargantuas"}],
@@ -9099,6 +9593,12 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "KrI-QM7tdVQ", "Description": "US Theatrical Trailer - The War of the Gargantuas"},
+                        {"Host": "YT", "ID": "IYLoXwS71qU", "Description": "US Theatrical Trailer - The War of the Gargantuas & Monster Zero"},
+                        {"Host": "YT", "ID": "83YDNl_3fE8", "Description": "US TV Spot #1 - Monster Zero & The War of the Gargantuas"},
+                        {"Host": "YT", "ID": "S75pRveNWtM", "Description": "US TV Spot #2 - Monster Zero & The War of the Gargantuas"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War of the Gargantuas"}],
@@ -9140,6 +9640,10 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "1T8W5KVWxtg", "Description": "International Theatrical Trailer - The X from Outer Space"},
+                        {"Host": "YT", "ID": "Ts95V729z44", "Description": "German Theatrical Trailer - The X from Outer Space"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The X from Outer Space"}],
@@ -9210,6 +9714,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "wdFdpR4JsnQ", "Description": "International Theatrical Trailer - Goke, Body Snatcher from Hell"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Goke, Body Snatcher from Hell"}],
@@ -9244,6 +9751,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "Kh2mvH9QFqY", "Description": "US Theatrical Trailer - Body Snatcher from Hell"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Body Snatcher From Hell "}],
@@ -9280,6 +9790,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "AwNHNgd86Og", "Description": "International Theatrical Trailer - Genocide"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Genocide"}],
@@ -9318,6 +9831,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "UA0JB_AQmoA", "Description": "Japanese Theatrical Trailer - Prophecies of Nostradamus"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Prophecies of Nostradamus"}],
@@ -9443,6 +9959,9 @@
             "Countries": [
                 {
                     "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "wOrlHsz3vl4", "Description": "German Theatrical Trailer - The War in Space"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The War in Space"}],
@@ -9495,6 +10014,9 @@
                 },
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "-3O6lCeKuQM", "Description": "US TV Trailer - The War in Space"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Television","TitleValue":"The War in Space"}],
@@ -9548,6 +10070,9 @@
             "Countries": [
                 {
                     "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "lR9kcGkqkuA", "Description": "US TV Spots - Message from Space"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Message from Space"}],
