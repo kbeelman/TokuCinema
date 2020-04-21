@@ -87,6 +87,7 @@ export class FirebaseService {
                 const tempItem = JSON.parse(JSON.stringify(returnList[index]));
                 tempItem.Screencap = url;
                 returnList.splice(index, 1, tempItem);
+                this.sortImageList(returnList);
               }
             });
           });
@@ -99,6 +100,7 @@ export class FirebaseService {
                   const tempItem = JSON.parse(JSON.stringify(returnList[index]));
                   tempItem.Thumbnail = url;
                   returnList.splice(index, 1, tempItem);
+                  this.sortImageList(returnList);
                 }
               });
             })
@@ -117,6 +119,19 @@ export class FirebaseService {
           }
         }
         return index;
+    }
+
+    private sortImageList(fileList: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>):
+      Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> {
+        return fileList.sort((a, b) => {
+          if (a.Name < b.Name) {
+            return -1;
+          } else if (a.Name > b.Name) {
+            return 1;
+          } else {
+            return 0;
+          }
+        });
     }
 
     private getPathFromRoute(route: string): string {
