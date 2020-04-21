@@ -1755,7 +1755,8 @@
                 {"TitleType":"Japanese","TitleValue":"大怪獣決闘 ガメラ対バルゴン"},
                 {"TitleType":"Hepburn","TitleValue":"Daikaiju Ketto: Gamera Tai Barugon"},
                 {"TitleType":"Literal Translation","TitleValue":"Duel of the Giant Monsters: Gamera vs. Barugon"},
-                {"TitleType":"Original U.S. Title","TitleValue":"War of the Monsters"}
+                {"TitleType":"Original U.S. Title","TitleValue":"War of the Monsters"},
+                {"TitleType":"Alternate Home Video U.S. Title","TitleValue":"Gamera Strikes Back"}
             ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Barugon-1966%2Fthumb-card.png?alt=media&token=f812997b-a758-45d6-97d2-249a47c5b7dd",
@@ -1835,7 +1836,8 @@
                 {"TitleType":"Japanese","TitleValue":"大怪獣空中戦 ガメラ対ギャオス"},
                 {"TitleType":"Hepburn","TitleValue":"Daikaiju kuchusen: Gamera tai Gyaosu"},
                 {"TitleType":"Literal Translation","TitleValue":"Giant Monster Midair Battle: Gamera vs. Gyaos"},
-                {"TitleType":"Original U.S. Title","TitleValue":"Return of the Giant Monsters"}
+                {"TitleType":"Original U.S. Title","TitleValue":"Return of the Giant Monsters"},
+                {"TitleType":"Alternate Home Video U.S. Title","TitleValue":"Gamera vs. Gaos"}
             ],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Gyaos-1967%2Fthumb-card.png?alt=media&token=129c623c-7fd1-4510-a2b0-3f456b5bd005",
@@ -1931,6 +1933,236 @@
                 {"ActorName":"Junko Ichijo","RoleName":"Shinkansen Passenger"},
                 {"ActorName":"Yoko Okada","RoleName":"Villager"},
                 {"ActorName":"Teruo Aragaki (Credited as Teruo Niigaki)","RoleName":"Gamera"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera vs. Viras",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ガメラ対宇宙怪獣バイラス"},
+                {"TitleType":"Hepburn","TitleValue":"Gamera tai Uchu Kaiju Bairasu"},
+                {"TitleType":"Literal Translation","TitleValue":"Gamera vs. Outer Space Monster Viras"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Destroy All Planets"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Viras-1968%2Fthumb-card.png?alt=media&token=ea6a4f7a-e764-45e5-932e-d358d6f5758e",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Viras-1968%2Fthumb-details.png?alt=media&token=6fc10bbe-6e1f-4bb8-b7f6-178b53a9743e"
+            ],
+            "ReleaseDate": "1968-03-20",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "71",
+            "Path": "Gamera-Viras-1968",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Producer","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"Planning","Name":"Shouichi Fujita & Kazumasa Nakano"},
+                {"PositionTitle":"Screenwriter","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Cinematography","Name":"Akira Kitazaki"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Kazufumi Fujii"},
+                {"PositionTitle":"Recording","Name":"Kisao Tobita"},
+                {"PositionTitle":"Special Effects Art","Name":"Tomohisa Yano"},
+                {"PositionTitle":"Music","Name":"Kenjirou Hirose"},
+                {"PositionTitle":"Editor","Name":"Shouji Sekiguchi"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Mamoru Ishizaka"},
+                {"PositionTitle":"Assistant Director","Name":"Masayoshi Imago"},
+                {"PositionTitle":"Production Manager","Name":"Shin Kawamura"}
+            ],
+            "Cast": [
+                {"ActorName":"Koujirou Hongo","RoleName":"Nobuhiko Shimada"},
+                {"ActorName":"Michiko Yaegaki","RoleName":"Mariko Nakaya"},
+                {"ActorName":"Mari Atsumi","RoleName":"Junko Aoki"},
+                {"ActorName":"Junko Yashiro","RoleName":"Masako Shibata"},
+                {"ActorName":"Yoshirou Kitahara","RoleName":"Masao's Father"},
+                {"ActorName":"Akira Natsuki","RoleName":"Doctor"},
+                {"ActorName":"Kouji Fujiyama","RoleName":"Commander of Jietat"},
+                {"ActorName":"Chikara Hashimoto","RoleName":"Doctor"},
+                {"ActorName":"Carl Craig Jr.","RoleName":"Jim Morgan"},
+                {"ActorName":"Tooru Takatsuka","RoleName":"Masao Nakaya"},
+                {"ActorName":"Kenji Gou","RoleName":"Doctor"},
+                {"ActorName":"Munehiko Takada","RoleName":"Jim's Father"},
+                {"ActorName":"Peter Williams","RoleName":"Dr. Dobby (Director, International Oceanographic Research Institute)"},
+                {"ActorName":"Ken Nakahara","RoleName":"Doctor"},
+                {"ActorName":"Keiichirou Yamane","RoleName":"Doctor"},
+                {"ActorName":"Mary Morris","RoleName":"Jim's Mother"},
+                {"ActorName":"Genzou Wakayama","RoleName":"Narrator, Voice of the Boss"},
+                {"ActorName":"Himawari and Kojika Acting Troupes","RoleName":""},
+                {"ActorName":"Teruo Aragaki","RoleName":"Gamera"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera vs. Guiron",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ガメラ対大悪獣ギロン"},
+                {"TitleType":"Hepburn","TitleValue":"Gamera tai Daiakuju Giron"},
+                {"TitleType":"Literal Translation","TitleValue":"Gamera vs. Giant Evil Beast Guiron"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Attack of the Monsters"},
+                {"TitleType":"Alternate Home Video U.S. Title","TitleValue":"Gamera vs. Guillon"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guiron-1969%2Fthumb-card.png?alt=media&token=3d94a79f-0ce6-456f-8e6f-f8317c59f4e9",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guiron-1969%2Fthumb-details.png?alt=media&token=3b803644-01e9-430c-b3f8-be717d2aef65"
+            ],
+            "ReleaseDate": "1969-03-21",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "82",
+            "Path": "Gamera-Guiron-1969",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Producer","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"Screenplay","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Cinematography","Name":"Akira Kitazaki"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Kazufumi Fujii"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"},
+                {"PositionTitle":"Editor","Name":"Zenko Miyazaki"}
+            ],
+            "Cast": [
+                {"ActorName":"Nobuhiro Kajima","RoleName":"Akio"},
+                {"ActorName":"Christopher Murphy","RoleName":"Tom"},
+                {"ActorName":"Miyuki Akiyama","RoleName":"Tomoko"},
+                {"ActorName":"Eiji Funakoshi","RoleName":"Doctor Shiga"},
+                {"ActorName":"Kon Ohmura","RoleName":"Kondo"},
+                {"ActorName":"Yuko Hamada","RoleName":"Kuniko"},
+                {"ActorName":"Edith Hanson","RoleName":"Tom's Mother Elsa"},
+                {"ActorName":"Reiko Kasahara","RoleName":"Florbella"},
+                {"ActorName":"Hiroko Kai","RoleName":"Barbella"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera vs. Jiger",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ガメラ対大魔獣ジャイガ"},
+                {"TitleType":"Hepburn","TitleValue":"Gamera tai Daimaju Jaiga"},
+                {"TitleType":"Literal Translation","TitleValue":"Gamera vs. Giant Devil Beast Jiger"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Gamera vs. Monster X"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Jiger-1970%2Fthumb-card.png?alt=media&token=542c755c-b773-4159-8b79-a2a52a05996a",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Jiger-1970%2Fthumb-details.png?alt=media&token=f6af1e2a-c004-4af8-8828-397455819f91"
+            ],
+            "ReleaseDate": "1970-03-21",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "83",
+            "Path": "Gamera-Jiger-1970",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Producer","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"Screenplay","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Cinematography","Name":"Akira Kitazaki"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"},
+                {"PositionTitle":"Special Effects Cinematography","Name":"Yuzo Kaneko"},
+                {"PositionTitle":"Editor","Name":"Zenko Miyazaki"}
+            ],
+            "Cast": [
+                {"ActorName":"Tsutomu Takakuwa","RoleName":"Hiroshi Kitayama"},
+                {"ActorName":"Kelly Varis","RoleName":"Tommy Williams"},
+                {"ActorName":"Katherine Murphy","RoleName":"Susan Williams"},
+                {"ActorName":"Sanshiro Honoo","RoleName":"Keisuke Sawada"},
+                {"ActorName":"Junko Yashiro","RoleName":"Miko Kitayama"},
+                {"ActorName":"Kon Ohmura","RoleName":"Ryosaku Kitayama"},
+                {"ActorName":"Akira Natsuki","RoleName":"Doctor Suzuki"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera vs. Zigra",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"ガメラ対深海怪獣ジグラ"},
+                {"TitleType":"Hepburn","TitleValue":"Gamera tai Shinkai Kaiju Jigura"},
+                {"TitleType":"Literal Translation","TitleValue":"Gamera vs. Deep-Sea Monster Zigra"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Zigra-1971%2Fthumb-card.png?alt=media&token=56717c47-1c00-4c99-bf23-253d1c173c8c",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Zigra-1971%2Fthumb-details.png?alt=media&token=0b5174e6-c5d0-4b9e-af10-69a053facc39"
+            ],
+            "ReleaseDate": "1971-07-17",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Dainichi Eihai",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "87",
+            "Path": "Gamera-Zigra-1971",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Producer","Name":"Hidemasa Nagata"},
+                {"PositionTitle":"Screenplay","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Cinematography","Name":"Akira Uehara"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"},
+                {"PositionTitle":"Editor","Name":"Zenko Miyazaki"}
+            ],
+            "Cast": [
+                {"ActorName":"Eiko Yanami","RoleName":"Woman X / Chikako Sugawara"},
+                {"ActorName":"Reiko Kasahara","RoleName":"Kiyoko Ishikawa"},
+                {"ActorName":"Mikiko Tsubouchi","RoleName":"Mrs. Ishikawa"},
+                {"ActorName":"Koji Fukiyama","RoleName":"Tom Wallace"},
+                {"ActorName":"Isamu Saeki","RoleName":"Doctor Yosuke Ishikawa"},
+                {"ActorName":"Yasushi Sakagami","RoleName":"Kenichi Ishikawa"},
+                {"ActorName":"Arlene Wallace","RoleName":"Erin Zoellner"},
+                {"ActorName":"Helen Wallace","RoleName":"Gloria Zoellner"}
+            ]
+        },
+        {
+            "OfficialTitle": "Gamera: Super Monster",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"宇宙怪獣ガメラ"},
+                {"TitleType":"Hepburn","TitleValue":"Uchu Kaiju Gamera"},
+                {"TitleType":"Literal Translation","TitleValue":"Space Monster Gamera"},
+                {"TitleType":"Alternate Home Video U.S. Title","TitleValue":"Super Monster"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Super-Monster-1980%2Fthumb-card.png?alt=media&token=c2bbeab6-6b57-4a44-8ec9-07c6a7ac9a66",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Super-Monster-1980%2Fthumb-details.png?alt=media&token=1e1c63a9-30e7-4be9-b51d-acadb46fbd70"
+            ],
+            "ReleaseDate": "1980-03-20",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "New Daiei",
+            "Director": "Noriaki Yuasa",
+            "Series": "Gamera",
+            "Era": "Showa",
+            "Runtime": "92",
+            "Path": "Gamera-Super-Monster-1980",
+            "Crew": [
+                {"PositionTitle":"Director","Name":"Noriaki Yuasa"},
+                {"PositionTitle":"Planning","Name":"Masaya Tokuyama"},
+                {"PositionTitle":"Producers","Name":"Hirokazu Ohba, Masaya Tokuyama, Shigeru Shinohara"},
+                {"PositionTitle":"Screenplay","Name":"Niisan Takahashi"},
+                {"PositionTitle":"Music","Name":"Shunsuke Kikuchi"}
+            ],
+            "Cast": [
+                {"ActorName":"Mach Fumiake","RoleName":"Kilara"},
+                {"ActorName":"Yaeko Kojima","RoleName":"Marsha"},
+                {"ActorName":"Yoko Komatsu","RoleName":"Mitan"},
+                {"ActorName":"Keiko Kudo","RoleName":"Giruge"},
+                {"ActorName":"Koichi Maeda","RoleName":"Keiichi"},
+                {"ActorName":"Toshie Takada","RoleName":"Keiichi's Mother"},
+                {"ActorName":"Bad Boy A","RoleName":"Yuji Hayashi"},
+                {"ActorName":"Bad Boy B","RoleName":"Tetsuaki Toyosumi"},
+                {"ActorName":"Bad Boy C","RoleName":"Hideki Kobayashi"},
+                {"ActorName":"Keiichi's Friend","RoleName":"Makoto Ikeda"},
+                {"ActorName":"Driver","RoleName":"Kimio Toyoda"},
+                {"ActorName":"Announcer","RoleName":"Yasuhiro Saito (Nippon Broadcasting Corporation)"},
+                {"ActorName":"Captain's Voice","RoleName":"Osamu Kobayashi"},
+                {"ActorName":"Narrator","RoleName":"Masaru Nakamura"}
             ]
         },
         {
@@ -3163,7 +3395,7 @@
                     "Country": "Germany and Austria",
                     "Versions": [
                         {
-                            "MainTitle":[{"TitleType":"","TitleValue":""}],
+                            "MainTitle":[],
                             "Cast": [],
                             "DubCast": [],
                             "Crew": [],
@@ -4882,7 +5114,7 @@
                                         "1966-1970: English Toho posters, lobby cards, and other print advertising materials for the film began to be issued, all consistently featuring a stylized \"Invasion of Astro-Monster\" logo. The posters feature a unique illustration while the lobby cards were adapted from the original Japanese lobby cards. The title cards in Toho's international versions (before the 1990’s) tended to be based on title logos appearing on posters and other paper materials, which is not the case with the current international copy. For this film, the title that has been used on and mentioned in paper materials for 50 years isn't even the same title, Toho has opted to use \"Invasion of the Astro-Monsters\" in their current international dub. These materials can be dated to before 1970 due to the crediting of Toho Company, Ltd. and the inclusion of the terms Eastmancolor and Tohoscope (while from 1970 and onward, Toho English advertising credits Toho International Co., Ltd. and instead includes the terms color and widescreen). Another thing constraining the Toho English materials’ creation to 1966 to 1970 is the fact that many non-American, foreign releases from those years utilize the international poster art and adaptations of the international logo in the releasing country’s language. For example, the February 1967 German release is the first known release to feature heavy adaptation of the English Toho materials in its posters and other materials.",
                                         "Circa 1970: The advertising campaign for the Turkish version of the film, apparently released in 1970, included a trailer whose picture element is based on the original Japanese trailer and features English text, including the aforementioned \"Invasion of Astro-Monster\" logo (This trailer is available on Anolis’ German metal-pak DVD). This Turkish trailer is assumed to be based on an international trailer. The English text in the trailer utilizes typefaces seen in Toho advertising material used for some of their other 1960's films and a typeface similar to the one used in Saperstein’s American version of Astro-Monster. This trailer is not adequate proof that a complete international dub was created, since it was not uncommon for Toho to commission a dubbed trailer for a movie and nothing else. For example, an international trailer for Gorath is known to exist, but there is no evidence that a complete dub was created.",
                                         "May 1966: The Glen Glenn dub of \"Invasion of the Astro-Monsters\" is completed.",
-                                        "March 1967: Although it was not listed with other English titles in any presently-digitized Toho Films catalogs, an English version running 96 minutes was included alongside The War of the Gargantuas in Indian censor records in early 1967. (March 1, 1967 for War of the Gargantuas, and March 2 for Invasion of Astro-Monster.) Since this is after the completion of the Glen Glenn-recorded American version, it is still possible (if unlikely) that the version mentioned in the Indian log is the same as the current International version.",
+                                        "March 1967: Although it was not listed with other English titles in any presently-digitized Toho Films catalogs, an English version running 96 minutes was included alongside The War of the Gargantuas in Indian censor records in early 1967. (March 1, 1967 for War of the Gargantuas, and March 2 for Invasion of Astro-Monster.) Since this is after the completion of the Glen Glenn-recorded American version, it is still possible (if unlikely) that the version mentioned in the Indian log is the same as the current international version.",
                                         "April 1967: The first documentation available and archived of a Toho dub after 1963, where UniJapan listings of Ebirah, Horror of the Deep and Killing Bottle are available. The former is a Frontier dub made in Tokyo, and the latter is a co-production with an American company. UniJapan only listed new releases, and dub/subtitle options available for those new releases. There was never a constantly updating list of dubs, if a dub wasn’t available when it was first offered internationally, no mention of the dub would be found in UniJapan. Space Amoeba is one of the known export dubs not mentioned in its UniJapan entry, although this could also just be a mistake.",
                                         "1967-1968: The film was not offered as an English dubbed picture in Toho's '67/'68 catalog. If Toho had a dub on hand at that time, readers wouldn't have been aware of it.",
                                         "1968: The first known evidence of an international dub of one of Toho’s co-productions with Saperstein, War of the Gargantuas, appears in the 1968 edition of Toho Films, making two American co-productions so far confirmed, with Toho-commissioned international dubs.",
@@ -5211,7 +5443,7 @@
                                 {"ActorName":"Peter Fernandez","RoleName":"Ryota Kane"}
                             ],
                             "Crew": [],
-                            "DubCompany": "Titan Productions",
+                            "DubCompany": "Titan Productions, Inc.",
                             "ProductionCompany": "",
                             "DistributionCompany": "Walter-Reade Organization",
                             "ReleaseDate": "Circa 1967",
@@ -5533,7 +5765,7 @@
                                 {"ActorName":"Jack Curtis","RoleName":"Narrator"}
                             ],
                             "Crew": [],
-                            "DubCompany": "Titan Productions",
+                            "DubCompany": "Titan Productions, Inc.",
                             "ProductionCompany": "",
                             "DistributionCompany": "Walter-Reade Organization",
                             "ReleaseDate": "Circa 1968",
@@ -5818,7 +6050,7 @@
                                 {"ActorName":"Norman Rose","RoleName":"Narrator"}
                             ],
                             "Crew": [],
-                            "DubCompany": "Titan Productions",
+                            "DubCompany": "Titan Productions, Inc.",
                             "ProductionCompany": "",
                             "DistributionCompany": "American International Pictures",
                             "ReleaseDate": "1969-04-23",
@@ -7152,7 +7384,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "Utilizing Toho's International dub, this version may be uncut aside from the opening credits.",
+                                        "Utilizing Toho's international dub, this version may be uncut aside from the opening credits.",
                                         "Theatrical prints feature the title card in white text on a red background with Basil Gogos' poster artwork for the film on the side.",
                                         "This version was likely distributed for a very short period of time before being pulled and replaced with an identical version titled \"Godzilla vs. The Cosmic Monster\"."
                                     ]
@@ -7467,7 +7699,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "This version is largely similar to the existing International version, but the dub is remixed to 5.1 surround sound and uses the \"A\" mix music and effects track, which notably replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred scream from the \"A\" mix music and effects track."
+                                        "This version is largely similar to the existing international version, but the dub is remixed to 5.1 surround sound and uses the \"A\" mix music and effects track, which notably replaces Godzilla's scream as he falls into Mt. Mihara with Toho's preferred scream from the \"A\" mix music and effects track."
                                     ]
                                 }
                             ]
@@ -8002,8 +8234,8 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Toho originally had an English dub produced in Hong Kong, but it has never been released in any form, as it was supplanted by TriStar's Godzilla 2000 dub, which is now Toho's preferred English version of the film.",
-                                        "Parts of the International dub can be heard in the trailer for TriStar's Godzilla 2000.",
-                                        "One line from the International dub remains in TriStar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
+                                        "Parts of the international dub can be heard in the trailer for TriStar's Godzilla 2000.",
+                                        "One line from the international dub remains in TriStar's Godzilla 2000 dub, the line being \"As long as the beer's cold, who cares?\""
                                     ]
                                 }
                             ]
@@ -8104,7 +8336,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "Sony's home video release of Godzilla: Final Wars uses the Japanese master, with Japanese audio and Toho's international English dub available, paired with the end credits from the International version."
+                                        "Sony's home video release of Godzilla: Final Wars uses the Japanese master, with Japanese audio and Toho's international English dub available, paired with the end credits from the international version."
                                     ]
                                 },
                                 {
@@ -8716,7 +8948,9 @@
                         "Japanese Title Card",
                         "Japanese End Title",
                         "U.S. Theatrical Title Card - Gammera the Invincible",
-                        "U.S. TV Title - Gamera"
+                        "U.S. Theatrical End Title Card - Gammera the Invincible",
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card Card - Gamera",
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card Title Card - Gamera"
                     ],
                     "Versions": [
                         {
@@ -8765,7 +8999,7 @@
                                 {"PositionTitle":"Executive Producer","Name":"Ken Barnett"},
                                 {"PositionTitle":"Associate Producer","Name":"Rober Baron"}
                             ],
-                            "DubCompany": "Titan Productions",
+                            "DubCompany": "Titan Productions, Inc.",
                             "ProductionCompany": "Harris Associates",
                             "DistributionCompany": "World Entertainment Corporation",
                             "ReleaseDate": "1966-12-15",
@@ -8807,14 +9041,24 @@
                             ]
                         },
                         {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera"}],
+                            "MainTitle":[{"TitleType":"King Features Entertainment - Home Video","TitleValue":"Gamera"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [
+                                {"ActorName":"Sean Barrett","RoleName":"Doctor Eiji Hidaka"},
+                                {"ActorName":"Jay Benedict","RoleName":"Chidori Maru Navigator, Fish Seller B, Chidori Maru Radioman, News Reporter, Additional Voices"},
+                                {"ActorName":"Liza Ross","RoleName":"Catherine (Harumi Kiritachi), Old Farmer's Wife"},
+                                {"ActorName":"Garrick Hagon","RoleName":"Alex (Junichiro Yamashita)"},
+                                {"ActorName":"Constantine Gregory","RoleName":"Professor Murase"},
+                                {"ActorName":"Jesse Vogel","RoleName":"Self-Defense Force Commander, Toshio's Uncle, Fish Seller A, Additional Voices"},
+                                {"ActorName":"Bob Sherman","RoleName":"Chidori Maru Captain, Fish Seller C"},
+                                {"ActorName":"Bob Sessions","RoleName":"Soviet Representative, News Announcer, Additional Voices"},
+                                {"ActorName":"Peter Marinker","RoleName":""}
+                            ],
                             "Crew": [],
-                            "DubCompany": "",
+                            "DubCompany": "Anvil Studios",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1980's",
+                            "ReleaseDate": "Circa 1987",
                             "Runtime":"86",
                             "Rating": [],
                             "Iterations": [
@@ -8846,6 +9090,10 @@
                     "ScreencapDescriptions": [
                         "Japanese Title Card", "Japanese End Title"
                     ],
+                    "Videos": [
+                        {"Host": "YT", "ID": "ZkOSbMoyXEY", "Description": "Japanese Theatrical Trailer - Gamera vs. Barugon & Daimajin"},
+                        {"Host": "YT", "ID": "EepXh-Mu1LQ", "Description": "Italian Theatrical Credits - Gamera vs. Barugon"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Barugon"}],
@@ -8872,7 +9120,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "An International version was dubbed in Hong Kong. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
+                                        "An uncut international version was dubbed in Hong Kong. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
                                     ]
                                 }
                             ]
@@ -8884,57 +9132,82 @@
                     "ScreencapDescriptions": [
                         "U.S. TV Title Card - War of the Monsters",
                         "U.S. TV End Title - War of the Monsters",
-                        "U.S. Home Video Title Card - Gamera vs Barugon",
-                        "U.S. Alternate Home Video Title Card - Gamera Strikes Back"
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card Title Card - Gamera vs Barugon",
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card End Title Card - Gamera vs Barugon",
+                        "U.S. EastWest DVD Title Card - Gamera Strikes Back"
+                    ],
+                    "Videos": [
+                        {"Host": "YT", "ID": "m654Vm8nPYY", "Description": "Home Video Credits - Gamera vs. Barugon"},
+                        {"Host": "YT", "ID": "jgoornpU1V0", "Description": "Home Video End Titles - Gamera vs. Barugon"}
                     ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Television","TitleValue":"War of the Monsters"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [{"ActorName":"Ted Rusoff","RoleName":""}],
                             "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "American International Pictures",
-                            "ReleaseDate": "",
+                            "DubCompany": "English Language Dubbers Association (ELDA)",
+                            "ProductionCompany": "American International Pictures",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1967",
                             "Runtime":"88",
                             "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [],
+                                    "AlternateTitle": [{"TitleType":"AI-TV","TitleValue":"War of the Monsters"}],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "The film was bought by American International Pictures and released directly to television in the US.",
+                                        "The film was bought by American International Pictures and released directly to television in the US. Released as War of the Monsters, it was first mentioned in an article in The Salt Lake Tribune (July 28, 1967), stating that a new syndication package had been picked up and included titles such as Godzilla vs. The Thing, Majin, the Monster of Terror, Monster from a Prehistoric Planet, and War of the Monsters. The first known airdate for War of The Monsters is on Feb. 17, 1968 at 2pm on KTAL-TV out of Shreveport, LA, as reported in The Daily Oklahoman on Feb. 11, 1968.",
                                         "The English dubbing is uncredited, but it was likely dubbed in Rome by the English Language Dubbers Association (ELDA).",
                                         "The third act runs at a generally tighter pace at the expense of exposition, and the ending credits are cut."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"EastWest DVD","TitleValue":"Gamera Strikes Back"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "EastWest released a DVD of War of the Monsters, but retitles the film to Gamera Strikes Back, and replaces the title card with a cropped photo of the 1991 Film Ventures VHS featuring the same title (detailed below)."
                                     ]
                                 }
                             ]
                         },
                         {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera vs. Barugon"}],
+                            "MainTitle":[{"TitleType":"King Features Entertainment - Home Video","TitleValue":"Gamera vs. Barugon"}],
                             "Cast": [],
                             "DubCast": [],
                             "Crew": [],
                             "DubCompany": "",
                             "ProductionCompany": "",
                             "DistributionCompany": "",
-                            "ReleaseDate": "Circa 1980s",
+                            "ReleaseDate": "Circa 1987",
                             "Runtime":"100",
                             "Rating": [],
                             "Iterations": [
                                 {
-                                    "AlternateTitle": [],
+                                    "AlternateTitle": [{"TitleType":"King Features Entertainment","TitleValue":"Gamera vs. Barugon"}],
                                     "Name": "",
                                     "MediaPath": [],
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment.",
-                                        "This version is uncut and features the Hong Kong dubbing, along with new ocean credits. Featured twice on MST3K, once in the UHF era, and later on nationwide cable. Issued solely on tape."
+                                        "This version is uncut and features the Hong Kong dubbing, along with new opening credits over an ocean backdrop. Featured twice on MST3K, once in the UHF era, and later on nationwide cable. Issued solely on tape."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Film Ventures VHS","TitleValue":"Gamera Strikes Back"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1991",
+                                    "Notes": [
+                                        "In 1991, Film Ventures released a VHS of the Sandy Frank version of Gamera vs. Barugon. This version contains video-generated credits, which feature footage sourced form Ghidrah, the Three-Headed Monster, and retitles the film to Gamera Strikes Back."
                                     ]
                                 }
                             ]
@@ -8949,10 +9222,14 @@
                 {
                     "Country": "International",
                     "Videos": [
-                        {"Host": "YT", "ID": "6U8GW_tkMy8", "Description": "Italian Theatrical Credits - Gamera Contro il Mostro Gaos"}
+                        {"Host": "YT", "ID": "6U8GW_tkMy8", "Description": "Italian Theatrical Credits - Gamera Contro il Mostro Gaos"},
+                        {"Host": "YT", "ID": "hN6ocAvvo7Y", "Description": "German Theatrical Trailer - Gamera gegen Gaos"}
                     ],
                     "ScreencapDescriptions": [
-                        "Japanese Title Card", "Japanese End Title", "Italian Title Card - Gamera Contro il Mostro Gaos", "German Title Card - Gamera Gegen Gaos Frankensteins Kampf Der Ungeheuer"
+                        "Japanese Title Card",
+                        "Japanese End Title",
+                        "Italian Title Card - Gamera Contro il Mostro Gaos",
+                        "German Title Card - Gamera Gegen Gaos Frankensteins Kampf Der Ungeheuer"
                     ],
                     "Versions": [
                         {
@@ -8976,7 +9253,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "An international version was produced by Daiei by a dubbing studio in Hong Kong. No prints or telecines, including any credits or title cards, have ever been released, though advertising materials exist."
+                                        "An uncut international version was produced by Daiei by a dubbing studio in Hong Kong. No prints or telecines, including any credits or title cards, have ever been released, though advertising materials exist."
                                     ]
                                 }
                             ]
@@ -8990,22 +9267,23 @@
                         {"Host": "YT", "ID": "zTRbLgMzXy0", "Description": "Shout! Factory AI-TV Cut Line / Dub Sync Issue"}
                     ],
                     "ScreencapDescriptions": [
-                        "U.S. Title Card - Return of the Giant Monsters",
-                        "U.S. End Title - Return of the Giant Monsters",
-                        "U.S. Title Card - Return of the Giant Monsters (Special Edition)",
-                        "U.S. Title Card - Gamera vs. Gaos"
+                        "U.S. TV Title Card - Return of the Giant Monsters",
+                        "U.S. TV End Title - Return of the Giant Monsters",
+                        "U.S. TV Alternate Title Card - Return of the Giant Monsters (Special Edition)",
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card Title Card - Gamera vs. Gaos",
+                        "U.S. U.S. King Features Entertainment - Home Video Title Card End Title Card - Gamera vs. Gaos"
                     ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Television","TitleValue":"Return of the Giant Monsters"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [{"ActorName":"Ted Rusoff","RoleName":""}],
                             "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "",
-                            "DistributionCompany": "American International Pictures",
+                            "DubCompany": "English Language Dubbers Association (ELDA)",
+                            "ProductionCompany": "American International Pictures",
+                            "DistributionCompany": "American International Television",
                             "ReleaseDate": "Circa 1967",
-                            "Runtime":"",
+                            "Runtime":"84",
                             "Rating": [],
                             "Iterations": [
                                 {
@@ -9015,6 +9293,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US through American International Television. Released as Return of the Giant Monsters, it was first mentioned in a report in the Pittsburgh Post-Gazette on July 4, 1968. Win Fanning reported that WPXI 11 in Pittsburgh has picked up several movies, including Return of the Giant Monsters, for its Chiller Theater. The Pittsburgh Press reported on August 27 that other films in the package included Frankenstein Conquers the World, The X from Outer Space and Yongary, Monster from the Deep. The earliest known broadcast was on September 28, 1968 at 10:40pm on KVII from Amarillo, TX, as reported in Lubbock Avalanche-Journal on Sep. 22. Pittsburgh would finally get to see Return of the Giant Monsters on Channel 11 on November 30, 1968 at 11:20pm.",
                                         "The English dubbing is uncredited, but it was likely dubbed in Rome by the English Language Dubbers Association (ELDA).",
                                         "The AIP-TV version is uncut, with the exception of removing the end credits."
                                     ]
@@ -9042,7 +9321,7 @@
                             ]
                         },
                         {
-                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera vs. Gaos"}],
+                            "MainTitle":[{"TitleType":"King Features Entertainment - Home Video","TitleValue":"Gamera vs. Gaos"}],
                             "Cast": [],
                             "DubCast": [],
                             "Crew": [],
@@ -9050,7 +9329,7 @@
                             "ProductionCompany": "",
                             "DistributionCompany": "",
                             "ReleaseDate": "Circa 1987",
-                            "Runtime":"",
+                            "Runtime":"87",
                             "Rating": [],
                             "Iterations": [
                                 {
@@ -9061,10 +9340,509 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment.",
-                                        "This version features the Hong Kong dubbing, along with new ocean credits, though they are slightly extended, and incorrectly show the credits for Gamera vs. Zigra.",
+                                        "This version features the Hong Kong dubbing, along with new opening credits over an ocean backdrop, though they are slightly extended, and incorrectly show the credits for Gamera vs. Zigra.",
                                         "The ending credits are replaced with a montage similar to the actual credits, though it contains footage not seen in those.",
                                         "Featured twice on Mystery Science Theater 3000, once in the UHF era, and later on nationwide cable.",
                                         "This version was released on VHS and LaserDisc. Actual home video copies open with a \"preview\" excerpt of footage of the movie."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Viras-1968",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "vvjBcgNH-cI", "Description": "Original Japanese Theatrical Version Montage"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Title Card", "Japanese End Title"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Viras"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [{
+                                "AlternateTitle": [],
+                                "Name": "Theatrical",
+                                "MediaPath": [],
+                                "Runtime": "",
+                                "ReleaseDate": "",
+                                "Notes": [
+                                    "When Gamera vs. Viras was released in Japan, its runtime was 71 minutes. The stock footage montage tracing Gamera's history originally ran just under 3 minutes, but would be greatly expanded in the international version, as well as later Japanese home video releases."
+                                ]
+                            }]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera vs. Viras"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"81",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When Gamera vs. Viras was released on home video in Japan, the stock footage montage was expanded, though not as long as the montage in the international version, adding an additional 10 minutes to the runtime."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "xU2M2coKtJs", "Description": "International Version Extended Montage"},
+                        {"Host": "YT", "ID": "xgBXGQWBRdg", "Description": "Italian Theatrical Credits - Il Mostro Invincible"}
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Viras"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1969-03-21",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An international version was dubbed in Hong Kong. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have.",
+                                        "This version features a greatly extended montage in the middle of the movie, which raises the runtime from 71 minutes to 90 minutes."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "ScreencapDescriptions": [
+                        "U.S. TV Title Card - Destroy All Planets",
+                        "U.S. TV End Title - Destroy All Planets"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Destroy All Planets"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bret Morrison","RoleName":"Dr. Dobby"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Bret Morrison"},
+                                {"PositionTitle":"Editors","Name":"Eli Haviv & Emil Haviv"}
+                            ],
+                            "DubCompany": "Titan Productions, Inc.",
+                            "ProductionCompany": "American International Pictures",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1970",
+                            "Runtime":"90",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "AI-TV",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1970",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US through American International Television. The earliest known airdate for Destroy All Planets is November 28, 1970 at 3pm on WDCA out of Washington D.C., as reported by The Baltimore Sun in the Nov. 22 edition. However, since all of AI-TV’s other Gamera movies aired on television roughly one year after their Japanese release, it is possible that Destroy All Planets aired as early as 1969.",
+                                        "This version is based on Daiei's 90-minute export version, meaning the rest of the battles from Gamera vs. Barugon and Gamera vs. Gyaos have been spliced into Gamera's mind probing. The second and third Gyaos battles have been edited into the sequence before the first battle to avoid making a new transition to end the montage. The Virian leader gives brief references to the monsters' names and abilities in the dubbing during the flashbacks.",
+                                        "Kenjiro Hirose's Japanese Gamera theme has been replaced with an instrumental rendition from elsewhere in the film."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Retromedia",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2010-06-22",
+                                    "Notes": [
+                                        "Retromedia is notable for having done a new transfer of 16mm elements for their 2010 DVD release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Guiron-1969",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "ScreencapDescriptions": [
+                        "Japanese Title Card",
+                        "Japanese End Title"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Guiron"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Mike Daneen","RoleName":"Cornjob (Kondo)"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Pedro Production, Ltd.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1969-03-21",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An uncut international version was dubbed in Tokyo. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "dyvFLf9tnVM", "Description": "Television Spot - Attack of the Monsters"}
+                    ],
+                    "ScreencapDescriptions": [
+                        "U.S. TV Title Card - Attack of the Monsters",
+                        "U.S. TV End Title - Attack of the Monsters",
+                        "U.S. King Features Entertainment - Home Video Title Card - Gamera vs. Guiron",
+                        "U.S. King Features Entertainment - Home Video End Title Card - Gamera vs. Guiron",
+                        "U.S. Neptune Media - Home Video Title Card - Gamera vs. Guillon"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Attack of the Monsters"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bret Morrison","RoleName":"Doctor Shiga"},
+                                {"ActorName":"Lucy Martin","RoleName":"Tom's Mother Elsa"},
+                                {"ActorName":"Larry Robinson","RoleName":"Reporter"},
+                                {"ActorName":"Earl Hammond","RoleName":""},
+                                {"ActorName":"Peggy Lobbin","RoleName":""},
+                                {"ActorName":"Rita Morely","RoleName":""},
+                                {"ActorName":"Corinne Orr","RoleName":""},
+                                {"ActorName":"Paulette Rubinstein","RoleName":""},
+                                {"ActorName":"William Griffis","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Bret Morrison"},
+                                {"PositionTitle":"Editor","Name":"Eli Haviv"}
+                            ],
+                            "DubCompany": "Titan Productions, Inc.",
+                            "ProductionCompany": "American International Pictures",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1970",
+                            "Runtime":"80",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US through American International Television. The earliest known airdate for Attack of the Monsters is Sunday October 11, 1970 at 12:30am on WPXI 11 in Pittsburgh, as reported by The Daily Courier, Connellsville, PA, 10/3/70.",
+                                        "This version contains very minor edits, mostly limited to the removal of Space Gyaos’ death."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"King Features Entertainment - Home Video","TitleValue":"Gamera vs. Guiron"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa August 1988",
+                            "Runtime":"82",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment.",
+                                        "This version is uncut and features the international dubbing from a Tokyo studio, along with new opening credits over an ocean backdrop."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Neptune Media - Home Video","TitleValue":"Gamera vs. Guillon"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1999",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Neptune Media’s home video release is a hybrid version that synchronizes the Titan dub to the widescreen Japanese version. It opens with the AI-TV logo, followed by the Japanese Daiei logo. All on-screen Japanese location titles are blurred out and replaced with translated, video-generated English text. New video generated credits play over freeze-framed footage of the original credit sequence. Space Gyaos' decapitation is re-instated, but the audio is re-edited to fill in for undubbed audio."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Jiger-1970",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "4DtXSBXCd1I", "Description": "Italian Opening Credits - Kinkong - L'impero dei draghi"},
+                        {"Host": "YT", "ID": "pDj27Iq_KTs", "Description": "German Theatrical Trailer - Gamera gegen Jiggar – Frankensteins Dämon bedroht die Welt"}
+                    ],
+                    "ScreencapDescriptions": [
+                        "Japanese Title Card",
+                        "Japanese End Title"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera vs. Jiger"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1970-03-21",
+                            "Runtime":"83",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An uncut international dubbed version may have been produced. No prints of this particular version with unique audio or visual elements are known to have surfaced, though some advertising materials have. It is also unknown where this dub would have been recorded."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "5XOWG3gSDHg", "Description": "U.S. Opening Credits - Gamera vs. Monster X"}
+                    ],
+                    "ScreencapDescriptions": [
+                        "U.S. AI-TV Title Card - Gamera vs. Monster X",
+                        "U.S. Retromedia Home Video End Title Card - Gamera vs. Monster X"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Gamera vs. Monster X"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Bret Morrison","RoleName":"Doctor Suzuki"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Titan Productions, Inc.",
+                            "ProductionCompany": "American International Pictures",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1971",
+                            "Runtime":"81",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "AI-TV",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US through American International Television. The earliest known airdate for Gamera vs. Monster X was on February 27, 1971 at 11:15pm on WPXI in Pittsburgh, as reported by The Kane Republican, Kane, PA, 2/20/71.",
+                                        "This version shortens the opening credits, and Gamera's theme has been replaced with the instrumental rendition from Gamera vs. Viras.",
+                                        "Most grey market releases use a local TV station edit, which runs about 12 minutes shorter."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Retromedia Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Retromedia rereleased Gamera vs. Monster X, and added a digitally-generated end title card."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Zigra-1971",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "tuC65usXLNs", "Description": "Home Video Preview - Gamera vs. Zigra"}
+                    ],
+                    "ScreencapDescriptions": [
+                        "Japanese Title Card",
+                        "Japanese End Title",
+                        "U.S. King Features Entertainment - Home Video Title Card - Gamera vs. Zigra",
+                        "U.S. King Features Entertainment - Home Video End Title Card - Gamera vs. Zigra"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"King Features Entertainment - Home Video","TitleValue":"Gamera vs. Zigra"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Garrick Hagon","RoleName":"Henry (Isamu Saeki)"},
+                                {"ActorName":"Jay Benedict","RoleName":""},
+                                {"ActorName":"Liza Ross","RoleName":""},
+                                {"ActorName":"Constantine Gregory","RoleName":""},
+                                {"ActorName":"Peter Marinker","RoleName":""}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "Anvil Studios",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1987-04-03",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Gamera vs. Zigra was never picked up by American International Television, as Daiei had gone bankrupt by 1971 and had to distribute the film through Dainichi Films. As a result, no export version could be prepared.",
+                                        "In the 1980s, distributor Sandy Frank acquired the rights to five classic Gamera films, had new video versions prepared, and distributed them under King Features Entertainment.",
+                                        "The English dubbing is uncredited, but it was possibly dubbed at Anvil Studios in England. New credits over an ocean backdrop are placed before the prologue, with the \"Persistent Pursuit\" track from later in the film serving as the main title cue, complete with Lora Lee's \"zap\" sound effects from the music & effects stems. Additionally, Zigra has been given a masculine voice."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Super-Monster-1980",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "R4Sefhtyzns", "Description": "International Opening Credits & Ending Title - Gamera: Super Monster"},
+                        {"Host": "YT", "ID": "ldUIbuqSk7E", "Description": "English Monster On-screen Supers - Gamera: Super Monster"},
+                        {"Host": "YT", "ID": "2Sk0FbH2xLo", "Description": "Missing Dubbed Dialog - Gamera: Super Monster"}
+                    ],
+                    "ScreencapDescriptions": [
+                        "Japanese Title Card",
+                        "Japanese End Title",
+                        "International Title Card",
+                        "International End Title",
+                        "Filmways TV Title Card",
+                        "Filmways TV End Title"
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gamera: Super Monster"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Hilton","RoleName":"Zanon, Cab Driver, Punk, Gyaos Reporter"},
+                                {"ActorName":"Ted Thomas","RoleName":"Narrator, Gyaos Photographer"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1980-03-20",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"MTV","TitleValue":"Super Monster"}],
+                                    "Name": "MTV",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "Circa 1980's",
+                                    "Notes": [
+                                        "An international version was dubbed in Hong Kong. The introductory monster supers are in English. This version aired on MTV in the mid 1980’s."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"Filmways TV","TitleValue":"Gamera Super Monster"}],
+                                    "Name": "Filmways TV",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Filmways TV version replaces the title card with a similar card over a black screen, although some alternate versions use the star field backdrop. The introductory monster supers are in Japanese."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Shout! Factory DVD",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2011-03-15",
+                                    "Notes": [
+                                        "Shout! Factory's DVD contains the international dub, and is nearly complete, but is missing a line about Barugon's rampage."
                                     ]
                                 }
                             ]
@@ -9515,7 +10293,7 @@
                                 {"ActorName":"Bret Morrison","RoleName":"Reporter #2, Akita Oil Field Employee"}
                             ],
                             "Crew": [{"PositionTitle":"Producer","Name":"Salvatore Billitteri"}],
-                            "DubCompany": "Titan Productions",
+                            "DubCompany": "Titan Productions, Inc.",
                             "ProductionCompany": "",
                             "DistributionCompany": "American International Pictures",
                             "ReleaseDate": "1966-07-08",
@@ -9721,7 +10499,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "A cut version of the International dub was released on home video in Greece in the 1980's or 1990's from a Dutch-subtitled print entitled \"KATANGO'S WAR\", and is extremely rare. The print on this tape is full of splices, contains change-over damage, and is cut by around 15-20 minutes."
+                                        "A cut version of the international dub was released on home video in Greece in the 1980's or 1990's from a Dutch-subtitled print entitled \"KATANGO'S WAR\", and is extremely rare. The print on this tape is full of splices, contains change-over damage, and is cut by around 15-20 minutes."
                                     ]
                                 },
                                 {
