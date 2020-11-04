@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { MediaCardComponent } from './../media-card/media-card.component';
 import { MediaTitleSearch } from '../../../pipes/media/mediaTitle.pipe';
 import { MediaFiltersSearch } from '../../../pipes/media/mediaFilters.pipe';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MediaSearchResultsComponent } from './media-search-results.component';
 import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
@@ -12,7 +12,7 @@ describe('MediaSearchResultsComponent', () => {
   let component: MediaSearchResultsComponent;
   let fixture: ComponentFixture<MediaSearchResultsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         MediaSearchResultsComponent,

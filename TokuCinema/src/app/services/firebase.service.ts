@@ -103,7 +103,7 @@ export class FirebaseService {
                   this.sortImageList(returnList);
                 }
               });
-            })
+            });
           });
         });
 

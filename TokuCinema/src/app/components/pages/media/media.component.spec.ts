@@ -4,7 +4,7 @@ import { MediaTitleSearch } from '../../../pipes/media/mediaTitle.pipe';
 import { MediaCardComponent } from '../../sub-pages/media-card/media-card.component';
 import { MediaSearchResultsComponent } from '../../sub-pages/media-search-results/media-search-results.component';
 import { FormsModule } from '@angular/forms';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { MediaComponent } from './media.component';
 import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
@@ -18,7 +18,7 @@ describe('MediaComponent', () => {
   let component: MediaComponent;
   let fixture: ComponentFixture<MediaComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         MediaComponent,

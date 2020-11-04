@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { MovieFiltersSearch } from '../../../pipes/movies/movieFilters.pipe';
 import { MovieTitleSearch } from '../../../pipes/movies/movieTitle.pipe';
 import { MovieCardComponent } from './../movie-card/movie-card.component';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MoviesSearchResultsComponent } from './movies-search-results.component';
 
@@ -11,7 +11,7 @@ describe('MoviesSearchResultsComponent', () => {
   let component: MoviesSearchResultsComponent;
   let fixture: ComponentFixture<MoviesSearchResultsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MoviesSearchResultsComponent,
         MovieCardComponent,

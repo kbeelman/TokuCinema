@@ -22,7 +22,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
   movieAlternateVersion: MovieAlternateVersion;
   moviesData: AngularFireList<any[]>;
   trailerUrl: SafeResourceUrl;
-  private get pathname() { return document.location.pathname }
+  private get pathname() { return document.location.pathname; }
 
   constructor(
     @Inject(DomSanitizer) private sanitizer: DomSanitizer,
@@ -42,7 +42,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         this.trailerUrl = this.movie.Videos ? this.getTrustedUrl('https://www.youtube.com/embed/' + this.movie.Videos[0]) : undefined;
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
         const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
-        const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').'
+        const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').';
         const imageUrlTag = this.movie.doesPosterExist() ? this.movie.OriginalPoster[1] : '';
         this.metatagService.updateTags([
           { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },

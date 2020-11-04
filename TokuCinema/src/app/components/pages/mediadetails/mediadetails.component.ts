@@ -29,7 +29,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   videoGallery: Array<{'Host': string, 'ID': string, 'Description': string}>; // = [];
   public pageNotFound: boolean = false;
   private sub: Subscription;
-  private get pathname() { return document.location.pathname }
+  private get pathname() { return document.location.pathname; }
 
   constructor(private fdb: FirebaseService,
     private route: ActivatedRoute,
@@ -72,7 +72,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
             if (existingMovies.Path === movieData['Path']) {
               alreadyContainsMovie = true;
             }
-          })
+          });
           if (!alreadyContainsMovie) {
             this.movieDetails.push(movieData);
           }
@@ -129,7 +129,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
       if (!(item.Runtime === undefined)) {
         this.hasRuntimes = true;
       }
-    })
+    });
 
     return this.hasRuntimes;
   }

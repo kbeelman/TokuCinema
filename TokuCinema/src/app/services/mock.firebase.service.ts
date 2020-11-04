@@ -18,7 +18,7 @@ export class MockFirebaseService {
   constructor() { }
 
   public getBranch(branchName: string): Observable<any> {
-    return Observable.create((observer) => {
+    return new Observable((observer) => {
       let response: any;
       response = {};
       observer.next(response);
@@ -27,10 +27,9 @@ export class MockFirebaseService {
   }
 
   public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
-    return Observable.create((observer) => {
+    return new Observable((observer) => {
       let response: any;
       response = {};
-      // tslint:disable: max-line-length
 
       if (buildType === DataType.Media) {
         observer.next(new DomainBuilder(stubGodzillaMedia, DataType.Media).getDomainObject());
@@ -47,7 +46,7 @@ export class MockFirebaseService {
   }
 
   public getImageMetadata(path: string, branchName: string): Observable<any> {
-    return Observable.create((observer) => {
+    return new Observable((observer) => {
       let response: any;
       response = {};
       observer.next(response);

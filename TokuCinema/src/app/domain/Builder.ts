@@ -50,7 +50,7 @@ export class DomainBuilder {
             movieData['MediaPath'],
             movieData['AlternateVersionsPath'],
             movieData['Path'],
-            movieData['Videos'])
+            movieData['Videos']);
 
         return movie;
     }

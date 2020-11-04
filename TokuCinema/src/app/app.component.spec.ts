@@ -1,5 +1,5 @@
 import { NotFoundComponent } from './components/pages/not-found/not-found.component';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { FirebaseService } from './services/firebase.service';
 import { MediaCardComponent } from './components/sub-pages/media-card/media-card.component';
 import { MovieCardComponent } from './components/sub-pages/movie-card/movie-card.component';
@@ -39,7 +39,7 @@ describe('AppComponent', () => {
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
@@ -85,7 +85,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create the app', async(() => {
+  it('should create the app', waitForAsync(() => {
     expect(component).toBeTruthy();
   }));
 

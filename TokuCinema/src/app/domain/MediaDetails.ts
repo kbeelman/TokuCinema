@@ -38,7 +38,7 @@ export class MediaDetails {
             if (!(aspectCompArray.indexOf(element.AspectRatio) >= 0)) {
                 aspectCompArray.push(element.AspectRatio);
             }
-        })
+        });
         if (aspectCompArray.length > 1) {
             this.hasDifferentAspectRatios = true;
         }
@@ -48,7 +48,7 @@ export class MediaDetails {
             if (!(colorCompArray.indexOf(element.Color) >= 0)) {
                 colorCompArray.push(element.Color);
             }
-        })
+        });
         if (colorCompArray.length > 1) {
             this.hasDifferentColors = true;
         }

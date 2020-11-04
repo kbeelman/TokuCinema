@@ -17,7 +17,7 @@ export class GalleryVideo implements IGalleryItem {
     }
 
     public GetSource(): string {
-        return this.VideoId
+        return this.VideoId;
     }
 
     public getThumbnailSource(): string {

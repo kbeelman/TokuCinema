@@ -16,6 +16,6 @@ export class Version {
         'Runtime': string,
         'ReleaseDate': string,
         'Notes': Array<string>
-    }>
+    }>;
 }
 

@@ -5,5 +5,5 @@ export class Country {
     'Videos': Array<{'Host': string, 'ID': string, 'Description': string}>;
     'ScreencapDescriptions': Array<string>;
     'Active': boolean;
-    'Versions': Array<Version>
+    'Versions': Array<Version>;
 }

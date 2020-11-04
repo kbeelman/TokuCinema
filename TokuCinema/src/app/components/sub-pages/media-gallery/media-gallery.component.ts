@@ -71,7 +71,7 @@ export class MediaGalleryComponent {
                     this.galleryImages.push(new GalleryImage(this.images[index].Screencap, thumbnail, altText, index));
                     this.itemCount ++;
                 }
-            };
+            }
         }
     }
 

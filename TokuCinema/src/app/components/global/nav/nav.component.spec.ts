@@ -1,9 +1,8 @@
 import { DeepSearch } from '../../../pipes/deepSearch.pipe';
 import { SearchResultsComponent } from '../../sub-pages/search-results/search-results.component';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -16,7 +15,7 @@ describe('NavComponent', () => {
   let component: NavComponent;
   let fixture: ComponentFixture<NavComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ NavComponent,
         SearchResultsComponent,

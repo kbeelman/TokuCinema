@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {'text': 'Home Media Releases', 'link': '/media',
       'body': 'Details on home media releases across a wide range of formats, ' +
         'as well as reviews capturing everything from video quality to special features.'}
-  ]
+  ];
 
   constructor(
     private fdb: FirebaseService,

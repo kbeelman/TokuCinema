@@ -2,7 +2,7 @@ import { NotFoundComponent } from './../not-found/not-found.component';
 import { MediaGalleryComponent } from '../../sub-pages/media-gallery/media-gallery.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -16,7 +16,7 @@ describe('MediadetailsComponent', () => {
   let component: MediadetailsComponent;
   let fixture: ComponentFixture<MediadetailsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [MediadetailsComponent, MediaGalleryComponent, NotFoundComponent],
       imports: [

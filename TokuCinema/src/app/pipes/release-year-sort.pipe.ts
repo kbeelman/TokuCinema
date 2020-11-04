@@ -11,13 +11,13 @@ export class ReleaseYearSortPipe implements PipeTransform {
     if (isMedia) {
       items = items.sort((a, b) => {
         if ((a.Movies[0] !== undefined) && (b.Movies[0] !== undefined)) {
-          return a.Movies[0]['ReleaseYear'] - b.Movies[0]['ReleaseYear']
+          return a.Movies[0]['ReleaseYear'] - b.Movies[0]['ReleaseYear'];
         }
       });
     // Sort by the release year of the array item if it's a movie
     } else {
       items = items.sort((a, b) => {
-        return a['ReleaseYear'] - b['ReleaseYear']
+        return a['ReleaseYear'] - b['ReleaseYear'];
       });
     }
 

@@ -67,7 +67,7 @@ export class Movie implements ISearchable {
             if (relaventAltTitle) {
               displayName += '<p><em>' + relaventAltTitle.TitleValue + '</em></p>';
             } else {
-              displayName += '<p><em>' + this.AlternateTitles[0].TitleValue + '</em></p>'
+              displayName += '<p><em>' + this.AlternateTitles[0].TitleValue + '</em></p>';
             }
         }
 

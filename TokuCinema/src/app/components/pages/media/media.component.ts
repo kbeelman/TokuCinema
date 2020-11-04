@@ -90,7 +90,7 @@ export class MediaComponent implements OnInit {
 
     this.titleService.setTitle(this.title);
     const descriptionTag = 'Details on home media releases across a wide range of formats, ' +
-    'as well as reviews capturing everything from video quality to special features.'
+    'as well as reviews capturing everything from video quality to special features.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/media' },
       { property: 'og:title', content: 'Home Media Releases'},
@@ -126,7 +126,7 @@ export class MediaComponent implements OnInit {
       if (!(this.mediums.indexOf(element) >= 0) && (!(element === ''))) {
         this.mediums.push(element);
       }
-    })
+    });
     if (typeof media.Region !== 'undefined') {
       if (media.Region.length > 0) {
         media.Region.forEach(element => {

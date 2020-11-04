@@ -15,11 +15,11 @@ export class MediaFiltersSearch implements PipeTransform {
                 if (element.Region.indexOf(args.Region) >= 0) {
                   result = true;
                 }
-              }))
+              }));
             }
             return result;
           }
-        )
+        );
       }
       // Filter for Medium
       if (args.Medium !== '') {

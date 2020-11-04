@@ -6,7 +6,7 @@ describe('MetatagService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: MetatagService = TestBed.get(MetatagService);
+    const service: MetatagService = TestBed.inject(MetatagService);
     expect(service).toBeTruthy();
   });
 });

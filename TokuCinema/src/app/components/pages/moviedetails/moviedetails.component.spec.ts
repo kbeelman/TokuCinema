@@ -1,7 +1,7 @@
 import { NotFoundComponent } from './../not-found/not-found.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule } from '@angular/forms';
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
@@ -16,7 +16,7 @@ describe('MoviedetailsComponent', () => {
   let component: MoviedetailsComponent;
   let fixture: ComponentFixture<MoviedetailsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MoviedetailsComponent, MediaGalleryComponent, NotFoundComponent, MovieAltDetailsComponent ],
       imports: [

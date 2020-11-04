@@ -135,7 +135,7 @@ export class Media implements ISearchable {
             mediumWords.forEach(element => {
                 keywords.push(new Keyword(element, false, false, true));
             });
-        })
+        });
 
         const countryWords = this.Country.split(' ');
         countryWords.forEach(element => {
