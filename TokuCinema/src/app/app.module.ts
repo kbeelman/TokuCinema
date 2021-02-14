@@ -131,7 +131,8 @@ import { environment } from '../environments/environment';
         component: NotFoundComponent
     }
 ], {
-    initialNavigation: 'enabled'
+    initialNavigation: 'enabled',
+    relativeLinkResolution: 'legacy'
 }),
   ],
   providers: [FirebaseService],
