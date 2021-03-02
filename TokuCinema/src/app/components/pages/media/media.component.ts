@@ -43,51 +43,52 @@ export class MediaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.mediaData.forEach(element => {
-      for (let i = 0; i < element.length; i++) {
-        const domainBuilder = new DomainBuilder(element[i], DataType.Media);
-        const domainObject = domainBuilder.getDomainObject();
-
-        // Shitty nested algorithm here
-        domainObject.MoviePath.forEach(mediaElement => {
-          this.movieData.forEach(moviesElement => {
-            moviesElement.forEach(movieElement => {
+    this.movieData.subscribe(movieArray => {
+      this.mediaData.subscribe(mediaArray => {
+        mediaArray.forEach((element) => {
+          const domainBuilder = new DomainBuilder(element, DataType.Media);
+          const domainObject = domainBuilder.getDomainObject();
+  
+          // Shitty nested algorithm here
+          domainObject.MoviePath.forEach(mediaElement => {
+            movieArray.forEach(movieElement => {
               if (mediaElement === movieElement.Path) {
-                const newBuilder = new DomainBuilder(movieElement, DataType.Movie);
-                const movie = newBuilder.getDomainObject();
+                const movieBuilder = new DomainBuilder(movieElement, DataType.Movie);
+                const movie = movieBuilder.getDomainObject();
                 domainObject.Movies.push(movie);
               }
             });
           });
+  
+          this.mediaItems.push(domainObject);
+          this.populateFiltersWithTheseOptions(domainObject);
         });
+        
+        this.sortFilters();
+        this.mediaItems = this.mediaItems.sort(function(a, b) {
+          if (a.Movies[0] && b.Movies[0]) {
+            const countryCompare: number = b.Country.localeCompare(a.Country);
+            if (countryCompare !== 0) {
+              return countryCompare;
+            }
+            if (a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear) {
+              return -1;
+            } else if (a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear) {
+              return 1;
+            }
 
-        this.mediaItems.push(domainObject);
-        this.populateFiltersWithTheseOptions(domainObject);
-      }
+            if (a.ReleaseYear < b.ReleaseYear) {
+              return -1;
+            } else if (a.ReleaseYear > b.ReleaseYear) {
+              return 1;
+            } else {
+              return 0;
+            }
+          }
+        });
+      });
     });
-    this.sortFilters();
-    this.mediaItems.sort(function(a, b) {
-      if (a.Movies[0] && b.Movies[0]) {
-        const countryCompare: number = b.Country.localeCompare(a.Country);
-        if (countryCompare !== 0) {
-          return countryCompare;
-        }
-        if (a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear) {
-          return -1;
-        } else if (a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear) {
-          return 1;
-        }
-
-        if (a.ReleaseYear < b.ReleaseYear) {
-          return -1;
-        } else if (a.ReleaseYear > b.ReleaseYear) {
-          return 1;
-        } else {
-          return 0;
-        }
-      }
-    });
-
+    
     this.titleService.setTitle(this.title);
     const descriptionTag = 'Details on home media releases across a wide range of formats, ' +
     'as well as reviews capturing everything from video quality to special features.';
