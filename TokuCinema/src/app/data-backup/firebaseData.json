@@ -6267,7 +6267,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "When Godzilla's Revenge was brought to television and home video, the opening credits and end titles were squeezed to fit a 4:3 aspect ratio. The rest of the film is pan-and-scan."
+                                        "When Godzilla's Revenge was brought to television and home video, the opening credits and end titles were squeezed to fit a 1.33:1 aspect ratio. The rest of the film is pan-and-scan."
                                     ]
                                 },
                                 {
@@ -6473,7 +6473,7 @@
                                         "The animated segment with Hedorah drinking from an oil tanker was modified so \"ヘドラ\" in the factory exhaust now read \"Hedorah\" (possibly \"Hedora\").",
                                         "The map of Godzilla and Hedorah's battle zone in Fuji City was carefully recreated and translated.",
                                         "As the movie closes, the shots of the Great Wave, the \"And Yet Another One?\" text, and Hedorah rising from the deep were replaced by a \"The End\" card.",
-                                        "35mm elements (presumably the same as the theatrical version) were used for Orion's SP mode VHS. Orion's transfer features a varying aspect ratio. The main title is letterboxed. The opening credits are slightly cropped, squeezed, and letterboxed. The rest of the film is squeezed to 4:3 from a ratio somewhere between 1.66:1 and 1.85:1"
+                                        "35mm elements (presumably the same as the theatrical version) were used for Orion's SP mode VHS. Orion's transfer features a varying aspect ratio. The main title is letterboxed. The opening credits are slightly cropped, squeezed, and letterboxed. The rest of the film is squeezed to 1.33:1 from a ratio somewhere between 1.66:1 and 1.85:1"
                                     ]
                                 },
                                 {
@@ -9337,7 +9337,7 @@
                                 {
                                     "AlternateTitle": [],
                                     "Name": "",
-                                    "MediaPath": [],
+                                    "MediaPath": [{"Descriptor":"1987 King Features Entertainment VHS","Path":"Gamera-Gaos-King-Features-VHS-1987"}],
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
@@ -11075,7 +11075,7 @@
     "media": [
         {
             "Title": "Gojira",
-            "AspectRatio": [{"Version":"Japanese", "AspectRatio": "4:3"},{"Version":"American", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Japanese", "AspectRatio": "1.33:1"},{"Version":"American", "AspectRatio": "1.33:1"}],
             "Runtime": [{"Version":"Japanese", "Runtime": "95"},{"Version":"American", "Runtime": "80"}],
             "Color": [{"Version":"Japanese", "Color": "Black & White"},{"Version":"American", "Color": "Black & White"}],
             "ChapterStops": [{"Version":"Japanese", "Count": "25"},{"Version":"American", "Count": "10"}],
@@ -11105,7 +11105,7 @@
         },
         {
             "Title": "Godzilla King of the Monsters",
-            "AspectRatio": [{"Version":"Japanese", "AspectRatio": "4:3"},{"Version":"American", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Japanese", "AspectRatio": "1.33:1"},{"Version":"American", "AspectRatio": "1.33:1"}],
             "Runtime": [{"Version":"Japanese", "Runtime": "95"},{"Version":"American", "Runtime": "80"}],
             "Color": [{"Version":"Japanese", "Color": "Black & White"},{"Version":"American", "Color": "Black & White"}],
             "ChapterStops": [{"Version":"Japanese", "Count": "25"},{"Version":"American", "Count": "10"}],
@@ -11135,7 +11135,7 @@
         },
         {
             "Title": "Godzilla vs. Mothra",
-            "AspectRatio": [{"Version":"American", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"American", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"American", "Runtime": "87"}],
             "Color": [{"Version":"American", "Color": "Color"}],
             "ChapterStops": [{"Version":"American", "Count": "11"}],
@@ -11169,7 +11169,7 @@
         },
         {
             "Title": "Godzilla vs. The Sea Monster",
-            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"Godzilla vs. The Sea Monster", "Runtime": "88"}],
             "Color": [{"Version":"Godzilla vs. The Sea Monster", "Color": "Color"}],
             "ChapterStops": [],
@@ -11199,7 +11199,7 @@
         },
         {
             "Title": "Godzilla vs. The Sea Monster",
-            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"Godzilla vs. The Sea Monster", "Runtime": "88"}],
             "Color": [{"Version":"Godzilla vs. The Sea Monster", "Color": "Color"}],
             "ChapterStops": [],
@@ -11229,7 +11229,7 @@
         },
         {
             "Title": "Godzilla vs. The Sea Monster",
-            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"Godzilla vs. The Sea Monster", "Runtime": "88"}],
             "Color": [{"Version":"Godzilla vs. The Sea Monster", "Color": "Color"}],
             "ChapterStops": [],
@@ -11259,7 +11259,7 @@
         },
         {
             "Title": "Godzilla vs. The Sea Monster",
-            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"Godzilla vs. The Sea Monster", "Runtime": "88"}],
             "Color": [{"Version":"Godzilla vs. The Sea Monster", "Color": "Color"}],
             "ChapterStops": [],
@@ -11351,7 +11351,7 @@
         },
         {
             "Title": "The Human Vapor",
-            "AspectRatio": [{"Version":"The Human Vapor", "AspectRatio": "4:3"}],
+            "AspectRatio": [{"Version":"The Human Vapor", "AspectRatio": "1.33:1 (Pan & Scan)"}],
             "Runtime": [{"Version":"The Human Vapor", "Runtime": "82"}],
             "Color": [{"Version":"The Human Vapor", "Color": "Color"}],
             "ChapterStops": [],
@@ -11468,6 +11468,216 @@
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGigan-Mechagodzilla-Image-LaserDisc-1988-01-01%2Fthumb-details.png?alt=media&token=d82860cd-12be-4b67-aca1-2a36207ec982"
             ],
             "Path": "Gigan-Mechagodzilla-Image-LaserDisc-1988-01-01"
+        },
+        {
+            "Title": "The Mysterians",
+            "AspectRatio": [{"Version":"The Mysterians", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"The Mysterians", "Runtime": "85"}],
+            "Color": [{"Version":"The Mysterians", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "VCI",
+            "CatalogCode": "1072",
+            "UPC": "",
+            "ReleaseDate": "Circa 1985",
+            "PurchaseLinks": [],
+            "MoviePath": [""],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMysterians-VCI-VHS-1985%2Fthumb-card.png?alt=media&token=ed0ff5e4-9236-48de-9ff7-219b16e47e7a",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMysterians-VCI-VHS-1985%2Fthumb-details.png?alt=media&token=34bcf0d7-0f58-4ff1-84ba-de800253a0ec"
+            ],
+            "Path": "Mysterians-VCI-VHS-1985"
+        },
+        {
+            "Title": "Godzilla vs. The Sea Monster & Godzilla vs. Megalon",
+            "AspectRatio": [{"Version":"Godzilla vs. The Sea Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}, {"Version":"Godzilla vs. Megalon", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"Godzilla vs. The Sea Monster", "Runtime": "88"}, {"Version":"Godzilla vs. Megalon", "Runtime": "79"}],
+            "Color": [{"Version":"Godzilla vs. The Sea Monster", "Color": "Color"}, {"Version":"Godzilla vs. Megalon", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SLP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "Goodtimes Entertainment, Ltd.",
+            "CatalogCode": "05-07432",
+            "UPC": "01813074324",
+            "ReleaseDate": "Circa 2001",
+            "PurchaseLinks": [],
+            "MoviePath": ["Ebirah-Horror-Deep-1966", "Godzilla-Megalon-1973"],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FSea-Monster-Megalon-Goodtimes-VHS-2001%2Fthumb-card.png?alt=media&token=7d67d6db-a135-4509-a64a-53bd8acd5701",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FSea-Monster-Megalon-Goodtimes-VHS-2001%2Fthumb-details.png?alt=media&token=bf8f396e-0cfb-4e62-9a34-2309455406ac"
+            ],
+            "Path": "Sea-Monster-Megalon-Goodtimes-VHS-2001"
+        },
+        {
+            "Title": "Godzilla vs Cosmic Monster",
+            "AspectRatio": [{"Version":"Godzilla vs Cosmic Monster", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"Godzilla vs Cosmic Monster", "Runtime": "80"}],
+            "Color": [{"Version":"Godzilla vs Cosmic Monster", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SLP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "UAV",
+            "CatalogCode": "1368",
+            "UPC": "084296013685",
+            "ReleaseDate": "Circa 1991",
+            "PurchaseLinks": [],
+            "MoviePath": ["Godzilla-Mechagodzilla-1974"],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Cosmic-Monster-UAV-VHS-1991%2Fthumb-card.png?alt=media&token=1dc149af-1e9b-40c8-9e1a-7546b7b8e50e",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Cosmic-Monster-UAV-VHS-1991%2Fthumb-details.png?alt=media&token=84c0de0e-614b-4d95-8ee5-88cbe489c81e"
+            ],
+            "Path": "Godzilla-Cosmic-Monster-UAV-VHS-1991"
+        },
+        {
+            "Title": "Godzilla vs. Megalon",
+            "AspectRatio": [{"Version":"Godzilla vs. Megalon", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"Godzilla vs. Megalon", "Runtime": "80"}],
+            "Color": [{"Version":"Godzilla vs. Megalon", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SLP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "UAV",
+            "CatalogCode": "1367",
+            "UPC": "084296013678",
+            "ReleaseDate": "Circa 1991",
+            "PurchaseLinks": [],
+            "MoviePath": ["Godzilla-Megalon-1973"],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Megalon-UAV-VHS-1991%2Fthumb-card.png?alt=media&token=95705e4b-9099-427c-9a48-b9f164bfa962",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGodzilla-Megalon-UAV-VHS-1991%2Fthumb-details.png?alt=media&token=fbc0ac3f-06fe-4401-8b6a-1fd1e8a5d6b6"
+            ],
+            "Path": "Godzilla-Megalon-UAV-VHS-1991"
+        },
+        {
+            "Title": "The Last War",
+            "AspectRatio": [{"Version":"The Last War", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"The Last War", "Runtime": "79"}],
+            "Color": [{"Version":"The Last War", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "Hollywood Video Gems",
+            "CatalogCode": "VG 6065",
+            "UPC": "",
+            "ReleaseDate": "Circa 1985",
+            "PurchaseLinks": [],
+            "MoviePath": [""],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FLast-War-Video-Gems-VHS-1985%2Fthumb-card.png?alt=media&token=279bf007-b6f7-4d20-9b56-41bad038270b",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FLast-War-Video-Gems-VHS-1985%2Fthumb-details.png?alt=media&token=a1ead340-8868-450b-8bf1-d6ffa854da8b"
+            ],
+            "Path": "Last-War-Video-Gems-VHS-1985"
+        },
+        {
+            "Title": "Giant Monster Gamera",
+            "AspectRatio": [{"Version":"Giant Monster Gamera", "AspectRatio": "2.35:1"}],
+            "Runtime": [{"Version":"Giant Monster Gamera", "Runtime": "79"}],
+            "Color": [{"Version":"Giant Monster Gamera", "Color": "Black & White"}],
+            "ChapterStops": [],
+            "Subtitles": ["English"],
+            "SubtitlesDetails":["English"],
+            "AudioTracks": ["Japanese"],
+            "AudioTracksDetails": ["Japanese"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "Reverse Cover", "VHS and Label"],
+            "Distributor": "Neptune Media",
+            "CatalogCode": "NVJS0001",
+            "UPC": "059788000230",
+            "ReleaseDate": "Circa 1998",
+            "PurchaseLinks": [],
+            "MoviePath": ["Gamera-Giant-Monster-1965"],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGiant-Monster-Gamera-Neptune-Media-VHS-1998%2Fthumb-card.png?alt=media&token=d00cf757-87bd-4edf-aaa0-91918f412c60",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGiant-Monster-Gamera-Neptune-Media-VHS-1998%2Fthumb-details.png?alt=media&token=88c7851f-33d1-449c-b8f1-426ec12eddf3"
+            ],
+            "Path": "Giant-Monster-Gamera-Neptune-Media-VHS-1998"
+        },
+        {
+            "Title": "Gamera vs. Gaos",
+            "AspectRatio": [{"Version":"Gamera vs. Gaos", "AspectRatio": "1.33:1 (Pan & Scan)"}],
+            "Runtime": [{"Version":"Gamera vs. Gaos", "Runtime": "87"}],
+            "Color": [{"Version":"Gamera vs. Gaos", "Color": "Color"}],
+            "ChapterStops": [],
+            "Subtitles": [""],
+            "SubtitlesDetails":[],
+            "AudioTracks": ["English"],
+            "AudioTracksDetails": ["English"],
+            "Medium": ["VHS"],
+            "Format": [{"Medium":"VHS", "Format": "SLP"}],
+            "Region": [],
+            "Country": "United States",
+            "MediumCount": [{"Medium":"VHS", "Count": "1"}],
+            "ColorSystem": "NTSC",
+            "ScreencapDescriptions": ["Front Cover", "Front and Back Cover", "VHS and Label"],
+            "Distributor": "King Features Entertainment",
+            "CatalogCode": "CHE 6015",
+            "UPC": "041009601539",
+            "ReleaseDate": "Circa 1987",
+            "PurchaseLinks": [],
+            "MoviePath": ["Gamera-Gyaos-1967"],
+            "OriginalRelease": "",
+            "BoxArt": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGamera-Gaos-King-Features-VHS-1987%2Fthumb-card.png?alt=media&token=45c5c9ae-c0d2-4bb2-b82a-053d0e88768a",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FGamera-Gaos-King-Features-VHS-1987%2Fthumb-details.png?alt=media&token=09e56357-429d-4357-b60d-5e982930aee8"
+            ],
+            "Path": "Gamera-Gaos-King-Features-VHS-1987"
         }
     ],
     "mediaReviews": [
