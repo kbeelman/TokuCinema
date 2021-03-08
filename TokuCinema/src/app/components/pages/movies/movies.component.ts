@@ -52,13 +52,25 @@ export class MoviesComponent implements OnInit {
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
-    this.moviesData.forEach(element => {
-    for (let i = 0; i < element.length; i++) {
-        const domainBuilder = new DomainBuilder(element[i], DataType.Movie);
+    this.moviesData.subscribe(movieArray => {
+      for (let i = 0; i < movieArray.length; i++) {
+        const domainBuilder = new DomainBuilder(movieArray[i], DataType.Movie);
         const domainObject = domainBuilder.getDomainObject();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
       }
+
+      this.movieItems = this.movieItems.sort(function(a: Movie, b: Movie) {
+        const seriesCompare: number = b.Series.localeCompare(a.Series);
+        if (seriesCompare !== 0) {
+          return seriesCompare;
+        }
+        if (a.ReleaseYear < b.ReleaseYear) {
+          return -1;
+        } else if (a.ReleaseYear > b.ReleaseYear) {
+          return 1;
+        }
+      });
     });
   }
 
