@@ -48,7 +48,7 @@ export class MediaComponent implements OnInit {
         mediaArray.forEach((element) => {
           const domainBuilder = new DomainBuilder(element, DataType.Media);
           const domainObject = domainBuilder.getDomainObject();
-  
+
           // Shitty nested algorithm here
           domainObject.MoviePath.forEach(mediaElement => {
             movieArray.forEach(movieElement => {
@@ -59,11 +59,11 @@ export class MediaComponent implements OnInit {
               }
             });
           });
-  
+
           this.mediaItems.push(domainObject);
           this.populateFiltersWithTheseOptions(domainObject);
         });
-        
+
         this.sortFilters();
         this.mediaItems = this.mediaItems.sort(function(a, b) {
           if (a.Movies[0] && b.Movies[0]) {
@@ -88,7 +88,7 @@ export class MediaComponent implements OnInit {
         });
       });
     });
-    
+
     this.titleService.setTitle(this.title);
     const descriptionTag = 'Details on home media releases across a wide range of formats, ' +
     'as well as reviews capturing everything from video quality to special features.';
