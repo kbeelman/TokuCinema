@@ -3174,6 +3174,162 @@
                 {"ActorName":"Terry Notary","RoleName":"Kong (Motion Capture Performance"},
                 {"ActorName":"John C. Reilly","RoleName":"Hank Marlow"}
             ]
+        },
+        {
+            "OfficialTitle": "The Last War",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"世界大戦争"},{"TitleType":"Hepburn","TitleValue":"Sekai Daisenso"},{"TitleType":"Literal Translation","TitleValue":"The Great World War"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FLast-War-1961%2Fthumb-card.png?alt=media&token=f1e50274-1863-4708-8b94-a81f6aadbe74",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FLast-War-1961%2Fthumb-details.png?alt=media&token=838ad9d2-f93e-4edc-a5a8-cc5bc0abb76f"],
+            "ReleaseDate": "1961-10-08",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Shue Matsubayashi",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "109",
+            "Path": "Last-War-1961",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka and Sanezumi Fujimoto"},
+                {"PositionTitle":"Director","Name":"Shue Matsubayashi"},
+                {"PositionTitle":"Writers","Name":"Takeshi Kimura and Toshi Yasumi"},
+                {"PositionTitle":"Cinematography","Name":"Rokuro Nishigaki"},
+                {"PositionTitle":"Composer","Name":"Ikuma Dan"},
+                {"PositionTitle":"Director of Special Effects","Name":"Eiji Tsuburaya"}
+            ],
+            "Cast": [
+                {"ActorName":"Frankie Sakai","RoleName":"Mokichi Tamura"},
+                {"ActorName":"Akira Takarada","RoleName":"Takano"},
+                {"ActorName":"Yuriko Hoshi","RoleName":"Saeko Tamura"},
+                {"ActorName":"Nobuko Otowa","RoleName":"Tamura's wife"},
+                {"ActorName":"So Yamamura","RoleName":"Prime Minister of Japan"}
+            ]
+        },
+        {
+            "OfficialTitle": "The Human Vapor",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガス人間第一号"},{"TitleType":"Hepburn","TitleValue":"Gasu Ningen Dai Ichi Go"},{"TitleType":"Literal Translation","TitleValue":"Gas Human Being Number 1"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FHuman-Vapor-1960%2Fthumb-card.png?alt=media&token=7fb41966-d303-4481-93d1-70c9b5d44cf4",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FHuman-Vapor-1960%2Fthumb-details.png?alt=media&token=350d92f6-57bb-4c1b-8c78-383a13860e65"],
+            "ReleaseDate": "1960-12-11",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "91",
+            "Path": "Human-Vapor-1960",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Screenplay","Name":"Takeshi Kimura"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Art","Name":"Kiyoshi Shimizu"},
+                {"PositionTitle":"Sound Recording","Name":"Masao Fujiyoshi and Masamasa Miyazaki"},
+                {"PositionTitle":"Lighting","Name":"Takashima Toshio"},
+                {"PositionTitle":"Composer","Name":"Kunio Miyauchi"},
+                {"PositionTitle":"Lyrics","Name":"Sadayuki Katayama"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Editing","Name":"Kazuji Taira"},
+                {"PositionTitle":"Film Processing","Name":"Tokyo Laboratories"},
+                {"PositionTitle":"Director of Special Effects","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Special Effects Optical Photography","Name":"Shuzaburo Araki"},
+                {"PositionTitle":"Special Effects Photography","Name":"Sadamasa Arikawa"},
+                {"PositionTitle":"Special Effects Production Design","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Kishida Kuichiro"}
+            ],
+            "Cast": [
+                {"ActorName":"Tatsuya Mihashi","RoleName":"Detective Okamoto"},
+                {"ActorName":"Keiko Sata","RoleName":"Reporter Kyoko Kono"},
+                {"ActorName":"Kaoru Yachigusa","RoleName":"Fujichiyo, the dancer"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Mizuno the Vapor Man"},
+                {"ActorName":"Bokuzen Hidari","RoleName":"Fujichiyo's Guardian"},
+                {"ActorName":"Hisaya Ito","RoleName":"Doctor Tamiya"},
+                {"ActorName":"Takamaru Sasaki","RoleName":"Senior Officer, Metropolitan"},
+                {"ActorName":"Tetsu Nakamura","RoleName":"Director, Tobe Editorial Bureau"},
+                {"ActorName":"Murakami Fuyuki","RoleName":"Doctor Hisayuki Sano"},
+                {"ActorName":"Ren Yamamoto","RoleName":"Nishiyama (Robbery Murderer)"}
+            ]
+        },
+        {
+            "OfficialTitle": "The Mysterians",
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"地球防衛軍"},{"TitleType":"Hepburn","TitleValue":"Chikyu Boeigun"},{"TitleType":"Literal Translation","TitleValue":"Earth Defense Force"}],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMysterians-1957%2Fthumb-card.png?alt=media&token=c9bffc67-4163-406d-b169-9215b0cfb907",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FMysterians-1957%2Fthumb-details.png?alt=media&token=4f47cec9-4315-4f46-b5da-962152eadb55"],
+            "ReleaseDate": "1957-12-28",
+            "ProductionCompany": "Toho",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Toho",
+            "Director": "Ishiro Honda",
+            "Series": "Tokusatsu",
+            "Era": "Showa",
+            "Runtime": "89",
+            "Path": "Mysterians-1957",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Tomoyuki Tanaka"},
+                {"PositionTitle":"Director","Name":"Ishiro Honda"},
+                {"PositionTitle":"Original Story","Name":"Jojiro Okami"},
+                {"PositionTitle":"Adaptation from the Original Story","Name":"Shigeru Kayama"},
+                {"PositionTitle":"Screenplay","Name":"Takeshi Kimura"},
+                {"PositionTitle":"Cinematography","Name":"Hajime Koizumi"},
+                {"PositionTitle":"Production Design","Name":"Teruaki Abe"},
+                {"PositionTitle":"Sound Recording","Name":"Masanobu Miyazaki"},
+                {"PositionTitle":"Lighting","Name":"Kuichiro Kishida"},
+                {"PositionTitle":"Music","Name":"Akira Ifukube"},
+                {"PositionTitle":"Assistant Director","Name":"Koji Kajita"},
+                {"PositionTitle":"Sound Effects","Name":"Ichiro Minawa"},
+                {"PositionTitle":"Editing","Name":"Koichi Iwashita"},
+                {"PositionTitle":"Film Processing","Name":"Tokyo Laboratories"},
+                {"PositionTitle":"Line Producer","Name":"Yasuaki Sakamoto"},
+                {"PositionTitle":"Director of Special Effects","Name":"Eiji Tsuburaya"},
+                {"PositionTitle":"Special Effects Photography","Name":"Hidesaburo Araki & Sadamasa Arikawa"},
+                {"PositionTitle":"Special Effects Production Design","Name":"Akira Watanabe"},
+                {"PositionTitle":"Special Effects Lighting","Name":"Masao Shirota"},
+                {"PositionTitle":"Composition","Name":"Hiroshi Koyama"}
+            ],
+            "Cast": [
+                {"ActorName":"Kenji Sahara","RoleName":"Joji Atsumi"},
+                {"ActorName":"Yumi Shirakawa","RoleName":"Etsuko Shiraishi"},
+                {"ActorName":"Momoko Kochi","RoleName":"Hiroko Iwamoto"},
+                {"ActorName":"Akihiko Hirata","RoleName":"Ryoichi Shiraishi"},
+                {"ActorName":"Takashi Shimura","RoleName":"Dr. Kenjiro Adachi"},
+                {"ActorName":"Susumu Fujita","RoleName":"General Morita"},
+                {"ActorName":"Hisaya Ito","RoleName":"Captain Seki"},
+                {"ActorName":"Yoshio Kosugi","RoleName":"Commander Sugimoto"},
+                {"ActorName":"Fuyuki Murakami","RoleName":"Dr. Nobu Kawanami"},
+                {"ActorName":"Yoshio Tsuchiya","RoleName":"Mysterian Leader"},
+                {"ActorName":"Minosuke Yamada","RoleName":""},
+                {"ActorName":"Tetsu Nakamura","RoleName":"Dr. Koda"},
+                {"ActorName":"Heihachiro Okawa","RoleName":""},
+                {"ActorName":"Takeo Oikawa","RoleName":""},
+                {"ActorName":"Haruya Kato","RoleName":""},
+                {"ActorName":"Senkichi Omura","RoleName":""},
+                {"ActorName":"Yutaka Sada","RoleName":""},
+                {"ActorName":"Hideo Mihara","RoleName":""},
+                {"ActorName":"Rikie Sanjo","RoleName":""},
+                {"ActorName":"Soji Ubukata","RoleName":""},
+                {"ActorName":"Mitsuo Tsuda","RoleName":""},
+                {"ActorName":"Ren Imaizumi","RoleName":""},
+                {"ActorName":"Shin Otomo","RoleName":""},
+                {"ActorName":"Jiro Kumagai","RoleName":""},
+                {"ActorName":"Akio Kusama","RoleName":""},
+                {"ActorName":"Shoichi Hirose","RoleName":""},
+                {"ActorName":"Tadao Nakamaru","RoleName":""},
+                {"ActorName":"Kamayuki Tsubono","RoleName":""},
+                {"ActorName":"Rinsaku Ogata","RoleName":""},
+                {"ActorName":"Yasuhiro Shigenobu","RoleName":""},
+                {"ActorName":"George Furness","RoleName":""},
+                {"ActorName":"Harold S. Conway","RoleName":""},
+                {"ActorName":"Haruo Nakajima","RoleName":""},
+                {"ActorName":"Katsumi Tezuka","RoleName":""}
+                
+            ]
         }
     ],
     "alternateVersions": [
@@ -11073,6 +11229,762 @@
                     ]
                 }
             ]
+        },
+        {
+            "Path": "Mysterians-1957",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "JnybaFbrDSc", "Description": "Japanese Theatrical Trailer"},
+                        {"Host": "YT", "ID": "G6SRJRIrcR0", "Description": "Japanese vs. Foreign Composites"},
+                        {"Host": "YT", "ID": "CqhJ86TEnKo", "Description": "Japanese Trailer with U.S. Voices"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Title Card", "Japanese Title Card (Champion Festival)"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Earth Defense Force"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Japanese theatrical version of The Mysterians has not featured major edits over the years and is widely available on home video inside and outside of Japan."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Champion Festival","TitleValue":"Earth Defense Force"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1978-03-18",
+                            "Runtime":"70",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Champion Festival version of the Mysterians cuts out about 19 minutes of runtime. This version was not editied from the original camera negative."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "RLCMdEv6qik", "Description": "U.S. Theatrical Trailer (Scope)"},
+                        {"Host": "YT", "ID": "WFizBfkMr2s", "Description": "Textless U.S. Theatrical Trailer (Scope)"},
+                        {"Host": "YT", "ID": "0WQuNiQ5OqY", "Description": "U.S. Theatrical Opening and Ending"},
+                        {"Host": "YT", "ID": "0DrzJVwWeJI", "Description": "Rodan & The Mysterians U.S. Theatrical Trailers"},
+                        {"Host": "YT", "ID": "DY6SZx5n_dM", "Description": "English Study of Mysteroid Shot (Widescreen)"},
+                        {"Host": "YT", "ID": "G6SRJRIrcR0", "Description": "Japanese vs. Foreign Composites"},
+                        {"Host": "YT", "ID": "ImTA2ZvNUgY", "Description": "News Bulletin and TV Background Music"},
+                        {"Host": "YT", "ID": "CqhJ86TEnKo", "Description": "Japanese Trailer with U.S. Voices"}
+                    ],
+                    "ScreencapDescriptions": ["U.S. Title Card", "U.S. Dubbing Credits"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Mysterians"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Peter Riethof"},
+                                {"PositionTitle":"Producer","Name":"Carlos Montalban"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "RKO & Teleradio",
+                            "DistributionCompany": "MGM",
+                            "ReleaseDate": "1959-05-15",
+                            "Runtime":"85",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Theatrical",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The MGM version bears a 1958 RKO Teleradio copyright and features few noteworthy edits besides the second Mogera's appearance near the end of the movie.",
+                                        "This version was based on the master foreign negative of the film, which has a number of tiny visual differences found around various the composite effects throughout the film."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Black & White Television",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Original television release prints featured the MGM logo at the beginning were in black and white."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Color Television",
+                                    "MediaPath": [{"Descriptor":"1985 VCI VHS","Path":"Mysterians-VCI-VHS-1985"}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Later television prints were in color, omitted the MGM logo and have warbly sound during reels 3 and 4 of the source used."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"The Mysterians"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Alfred Thor","RoleName":"Sugimoto"},
+                                {"ActorName":"Chris Kent","RoleName":"Yamamoto"},
+                                {"ActorName":"Dave Mallow","RoleName":"Red Mysterian"},
+                                {"ActorName":"David Lelyveld","RoleName":"Jyouji"},
+                                {"ActorName":"Doug Stone","RoleName":"Kawanami"},
+                                {"ActorName":"Erik Blackthorn","RoleName":"Immerman"},
+                                {"ActorName":"Joey Capps","RoleName":"Commander"},
+                                {"ActorName":"John Smallberries","RoleName":"Miyamoto"},
+                                {"ActorName":"Lesli Todd","RoleName":"Etsuko"},
+                                {"ActorName":"Melodee M. Spevack","RoleName":"Etsuko's Mother"},
+                                {"ActorName":"Michael McConnohie","RoleName":"Adachi"},
+                                {"ActorName":"Michelle Ruff","RoleName":"Hiroko"},
+                                {"ActorName":"Sparky Thornton","RoleName":"Ryoichi"},
+                                {"ActorName":"Steve Kramer","RoleName":"Morita"},
+                                {"ActorName":"William Frederick","RoleName":"Hanamoto"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Producer","Name":"Eric P. Sherman"},
+                                {"PositionTitle":"Producer","Name":"Kaeko Sakamoto"},
+                                {"PositionTitle":"Assistant Producer","Name":"Mami Okada"},
+                                {"PositionTitle":"Director","Name":"Eric P. Sherman"},
+                                {"PositionTitle":"Casting Director","Name":"Kaeko Sakamoto"},
+                                {"PositionTitle":"ADR Script Writer","Name":"Clark Cheng"},
+                                {"PositionTitle":"Supervising Sound Engineer / Re-Recording Mixer","Name":"Patrick Rodman"},
+                                {"PositionTitle":"Dialogue Recording Engineer / Dialogue Editor","Name":"Deb Munini"},
+                                {"PositionTitle":"Production Assistants","Name":"Megumi Kinisada, Stephanie Takemoto, Kristal Harwood, & Mark Fujita"},
+                                {"PositionTitle":"Post-Production Assistant","Name":"Brian Becker"},
+                                {"PositionTitle":"Spotting","Name":"Tetsuya Fujita"}
+                            ],
+                            "DubCompany": "Bang Zoom! Entertainment",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Media Blasters",
+                            "ReleaseDate": "2005-03-01",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Media Blasters distributed a new English dub with their 2005 DVD release. This dub matches the Japanese video and features no cuts."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Latino",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"The Mysterians"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Gaby Guzman","RoleName":"Hiroko"},
+                                {"ActorName":"Paty Acevedo","RoleName":"Etsuko"},
+                                {"ActorName":"Andres Gutierrez","RoleName":"Yuzuharo"},
+                                {"ActorName":"Jose Luis Reza","RoleName":"Ryoichi"},
+                                {"ActorName":"Alejandro Mayen","RoleName":"Mysteriano"},
+                                {"ActorName":"Javier Olguin","RoleName":"Yakegoshi and Senzo"},
+                                {"ActorName":"Jaime Alberto Carrillo","RoleName":"Niro"},
+                                {"ActorName":"Roberto Mendiola","RoleName":"Miyamoto"},
+                                {"ActorName":"Carlos Del Campo","RoleName":"Morita"},
+                                {"ActorName":"Andres Garcia","RoleName":"Comandante"},
+                                {"ActorName":"Alejandro Illescs","RoleName":"Hanamoto"}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Lourdes Moran and Ruben Arivizu "},
+                                {"PositionTitle":"Translation and Adaptation ","Name":"Sergio Illingworth"},
+                                {"PositionTitle":"Sound Recording","Name":"Suite Sync"},
+                                {"PositionTitle":"Production Coordinator","Name":"Jorge Quezada"},
+                                {"PositionTitle":"Pro-tools and Mix","Name":"Juan Gonzalez"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "Arvintel Media Productions",
+                            "DistributionCompany": "Media Blasters",
+                            "ReleaseDate": "2005-03-01",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Media Blasters distributed a new Latino dub with their 2005 DVD release. This dub matches the Japanese video and features no cuts."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United Kingdom",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Mysterians"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Rank",
+                            "ReleaseDate": "Circa May 1959",
+                            "Runtime":"",
+                            "Rating": [{"RatingSystem":"BBFC Certified","RatingValue":"A"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Rank released the Mysterians in the UK in May 1959 and likely distributed the dub produced by RKO."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "France",
+                    "Videos": [
+                        {"Host": "YT", "ID": "etVV9oxhvec", "Description": "French Theatrical Ending Credits"}
+                    ],
+                    "ScreencapDescriptions": ["French Theatrical Dubbing Credits", "French Theatrical Dubbing Cast"],
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"Theatrical","TitleValue":"Prisonnières des Martiens"}
+                            ],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Michel François","RoleName":""},
+                                {"ActorName":"Serge Lhorca","RoleName":""},
+                                {"ActorName":"Jane Val","RoleName":""},
+                                {"ActorName":"Sophie Leclair","RoleName":""},
+                                {"ActorName":"Georges Aminel","RoleName":""},
+                                {"ActorName":"René Beriard","RoleName":""},
+                                {"ActorName":"Michel Gatineau","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Directors of Post-Synchronisation","Name":"L. & M. KiKoïne"},
+                                {"PositionTitle":"French Adaptation","Name":"Louis Sauvat"},
+                                {"PositionTitle":"Production","Name":"Daniel Gilbert"},
+                                {"PositionTitle":"Sound Engineer","Name":"Jacques Bonpunt"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa October 1959",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French version features different editing to the ending credits. The full Japanese sequence with the Earth at the end is shown, but the sound effects from the opening sequence oddly replaces the music track, and there are some dubbing credits at the end."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The Mysterians"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1990",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The French television dub renames the Mysterians to \"Martians\" in this version, unlike the misleadingly titled but accurately dubbed theatrical version.",
+                                        "Henry Okawa's Japanese English is replaced with French English.",
+                                        "There are a few noticeable added sound effects in places."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Weltraum-Bestien","TitleValue":""}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "RKO",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Rank Organization",
+                            "ReleaseDate": "Circa February 1960",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German and Austrian theatrical release of the Mysterians was based on the RKO edit with no cuts.",
+                                        "Shock DVD Entertainment released this version on DVD in 2013, which was the first release of the German version."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [{"TitleType":"1963 Theatrical Re-Release","TitleValue":"Phantom 7000"}],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Mercator-Filmverleih re-released The Mysterians to theaters in 1963 under a new title, Phantom 7000."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1959",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Italy received a version of the RKO cut, though not much is known about this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Mexico",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"Theatrical","TitleValue":"Misterios del espacio"},
+                                {"TitleType":"Literal Translation","TitleValue":"Mysteries of Space"}
+                            ],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Mysterians received a theatrical release in Mexico, but this version is considered to be lost."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Argentina",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Los bárbaros invaden la Tierra"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Argentine advertising materials exist for a theatrical version of The Mysterians, though not much else is known about this version."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Human-Vapor-1960",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "3Z9lRC50PyM", "Description": "Japanese Theatrical Trailer"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Theatrical Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gas Human Being Number 1"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Japanese theatrical version has not featured major edits over the years and has been widely available on home media inside of Japan, but not in other territories. While it was released on formats like VHS, Laserdisc, and DVD, it has not been released on Blu-ray in Japan."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Videos": [],
+                    "ScreencapDescriptions": ["Toho Catalog Advertising International Dub", "Toho Catalog - Available International Dubs - Human Vapor is Missing from This Listing"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Human Vapor"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1960",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "An International version was possibly dubbed by Frontier Enterprises in Tokyo. This is listed in one of the Toho Films catalogs that cites a dubbed version of the film, but it's never mentioned again in any other issue that's available online, nor is it among the other dubbed films in the same catalog's \"List of English-Dubbed Features\"."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "HgVmYTM3RTw", "Description": "U.S. Trailers"},
+                        {"Host": "YT", "ID": "Rb4s-D2tnYE", "Description": "U.S. Television Titles and Credits"}
+                    ],
+                    "ScreencapDescriptions": ["U.S. Title Card", "U.S. Title Card (Trio Broadcast - 2004)"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The Human Vapor"}],
+                            "Cast": [
+                                {"ActorName":"James Hong","RoleName":"Mizuno the Vapor Man"}
+                            ],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Brenco Pictures",
+                            "ReleaseDate": "1964-05-20",
+                            "Runtime":"79",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [{"Descriptor":"1985 Hollywood Video Gems VHS","Path":"Human-Vapor-Video-Gems-VHS-1985"}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The United States version changes original version's linear detective mystery story to a tale told through narration by the title character."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Italy",
+                    "Videos": [
+                        {"Host": "YT", "ID": "aCJMuUJxXCo", "Description": "Italian Ending"}
+                    ],
+                    "ScreencapDescriptions": ["Italian Title Card", "Italian Dubbing Credits"],
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"Italian","TitleValue":"Una nube di terrore"},
+                                {"TitleType":"Literal Translation","TitleValue":"The Cloud of Terror"}
+                            ],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Dubbing Director","Name":"Tony Fusaro"}
+                            ],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Italian television version is a strange hybrid of the editing and narrative of the U.S. Brenco Pictures version, but has Kunio Miyauchi's original score and keeps a newspaper headline that's translated in the U.S. version in Japanese."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Last-War-1961",
+            "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "1xo94uOXymw", "Description": "Japanese Theatrical Trailer (Reconstruction)"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Theatrical Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Great World War"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The Japanese theatrical version has not featured major edits over the years and has been widely available on home media inside of Japan, but not in other territories. While it was released on formats like VHS, Laserdisc, and DVD, it has not been released on Blu-ray in Japan."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "CpsgTbUum30", "Description": "International English Trailer"},
+                        {"Host": "YT", "ID": "UVfolYTxHQw", "Description": "Textless International English Trailer"}
+                    ],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Last War"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": ["An International version was dubbed by Frontier Enterprises in Tokyo. This is listed in Toho's catalog and a trailer was included on Toho's LaserDisc and DVD."]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "Tg7ESbeu0TA", "Description": "U.S. Trailer"},
+                        {"Host": "YT", "ID": "W4gOELsq2Y8", "Description": "U.S. TV Trailer"}
+                    ],
+                    "ScreencapDescriptions": ["U.S. Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"The Last War"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Marvin Miller","RoleName":"Takano"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Brenco Pictures",
+                            "ReleaseDate": "Circa 1968",
+                            "Runtime":"79",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [{"Descriptor":"1985 Hollywood Video Gems VHS","Path":"Last-War-Video-Gems-VHS-1985"}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Brenco Pictures prepared for a theatrical release, but Brenco went bankrupt and was forced to distribute it on television. This version doesn't have a dubbing credit, but it features several familiar voice actors, including Marvin Miller.",
+                                        "This version is changed to a story told almost entirely in flashback and has fairly extensive editing."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "Germany",
+                    "Videos": [],
+                    "ScreencapDescriptions": [],
+                    "Versions": [
+                        {
+                            "MainTitle":[
+                                {"TitleType":"German","TitleValue":"Todesstrahlen aus dem Weltall"},
+                                {"TitleType":"Literal Translation","TitleValue":"Death Rays from Outer Space"}
+                            ],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "Circa 1973",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The German theatrical version was based on the US version with no known cuts."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "media": [
@@ -11374,7 +12286,7 @@
             "UPC": "",
             "ReleaseDate": "Circa 1985",
             "PurchaseLinks": [],
-            "MoviePath": [""],
+            "MoviePath": ["Human-Vapor-1960"],
             "OriginalRelease": "",
             "BoxArt": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FHuman-Vapor-Video-Gems-VHS-1985%2Fthumb-card.png?alt=media&token=9bdad9a8-2ca5-4351-b379-071cf866725c",
@@ -11494,7 +12406,7 @@
             "UPC": "",
             "ReleaseDate": "Circa 1985",
             "PurchaseLinks": [],
-            "MoviePath": [""],
+            "MoviePath": ["Mysterians-1957"],
             "OriginalRelease": "",
             "BoxArt": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FMysterians-VCI-VHS-1985%2Fthumb-card.png?alt=media&token=ed0ff5e4-9236-48de-9ff7-219b16e47e7a",
@@ -11614,7 +12526,7 @@
             "UPC": "",
             "ReleaseDate": "Circa 1985",
             "PurchaseLinks": [],
-            "MoviePath": [""],
+            "MoviePath": ["Last-War-1961"],
             "OriginalRelease": "",
             "BoxArt": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmedia%2FLast-War-Video-Gems-VHS-1985%2Fthumb-card.png?alt=media&token=279bf007-b6f7-4d20-9b56-41bad038270b",
