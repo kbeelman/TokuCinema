@@ -3330,6 +3330,212 @@
                 {"ActorName":"Katsumi Tezuka","RoleName":""}
                 
             ]
+        },
+        {
+            "OfficialTitle": "Daimajin",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大魔神"},
+                {"TitleType":"Hepburn","TitleValue":"Daimajin"},
+                {"TitleType":"Literal Translation","TitleValue":"Daimajin"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Majin, The Monster of Terror"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDaimajin-1966%2Fthumb-card.png?alt=media&token=c90d5650-7846-45c3-bfc0-a8d14d56bc0f",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDaimajin-1966%2Fthumb-details.png?alt=media&token=9f4732d9-836c-4461-84f8-a5bf1b50895c"
+            ],
+            "ReleaseDate": "1966-04-17",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Kimiyoshi Yasuda",
+            "Series": "Daimajin",
+            "Era": "Showa",
+            "Runtime": "84",
+            "Path": "Daimajin-1966",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Masaichi Nagata"},
+                {"PositionTitle":"Director","Name":"Kimiyoshi Yasuda"},
+                {"PositionTitle":"Art Director","Name":"Hisashi Okuda"},
+                {"PositionTitle":"Writer","Name":"Tetsuro Yoshida"},
+                {"PositionTitle":"Cinematography","Name":"Fujio Morita"},
+                {"PositionTitle":"Sound Recording","Name":"Tsuchitaro Hayashi"},
+                {"PositionTitle":"Lighting","Name":"Hiroshi Mima"},
+                {"PositionTitle":"Art","Name":"Akira Naito"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Hiroshi Yamada"},
+                {"PositionTitle":"Composition","Name":"Teizo Tanaka"},
+                {"PositionTitle":"Sword Fights","Name":"Eeichi Kusumoto"},
+                {"PositionTitle":"Sound","Name":"Toru Kurashima"},
+                {"PositionTitle":"Assistant Director","Name":"Eiji Nishizawa"},
+                {"PositionTitle":"Executive Producer","Name":"Mitsuru Tanabe"},
+                {"PositionTitle":"Post Production","Name":"Toyo Genzojo"},
+                {"PositionTitle":"Director of Special Effects","Name":"Yoshiyuki Kuroda"}
+            ],
+            "Cast": [
+                {"ActorName":"Miwa Takada","RoleName":"Hanabusa Kozasa"},
+                {"ActorName":"Masako Morishita","RoleName":"Young Kozasa"},
+                {"ActorName":"Yoshihiko Aoyama","RoleName":"Hanabusa Tadafumi"},
+                {"ActorName":"Hideki Ninomiya","RoleName":"Young Tadafumi"},
+                {"ActorName":"Jun Fujimaki","RoleName":"Sarumaru Kogenta"},
+                {"ActorName":"Otome Tsukimiya","RoleName":"Shinobu"},
+                {"ActorName":"Ryutaro Gomi","RoleName":"Ōdate Samanosuke"},
+                {"ActorName":"Ryuzo Shimada","RoleName":"Hanabusa Tadakiyo"},
+                {"ActorName":"Tatsuo Endo","RoleName":"Inugami Gunjuro"},
+                {"ActorName":"Saburo Date","RoleName":"Chūma Ippei"},
+                {"ActorName":"Shosaku Sugiyama","RoleName":"Kajiura Yusuke"},
+                {"ActorName":"Hideo Kuroki","RoleName":"Harada Magojuro"},
+                {"ActorName":"Shizuhiro Izoguchi","RoleName":"Take-bo, AKA The Boy"},
+                {"ActorName":"Gen Kimura","RoleName":"Mosuke, Take-bo's father"},
+                {"ActorName":"Keiko Kayama","RoleName":"Haruno"},
+                {"ActorName":"Eigoro Onoe","RoleName":"Gosaku"},
+                {"ActorName":"Chikara Hashimoto","RoleName":"Daimajin"},
+                {"ActorName":"Yutaro Ban","RoleName":""},
+                {"ActorName":"Akira Shiga","RoleName":""},
+                {"ActorName":"Jun Ohsugi","RoleName":""},
+                {"ActorName":"Jun Katsumura","RoleName":""},
+                {"ActorName":"Kazuo Moriuchi","RoleName":""},
+                {"ActorName":"Akira Amemiya","RoleName":""},
+                {"ActorName":"Shinjiro Akatsuki","RoleName":""},
+                {"ActorName":"Kanji Uehara","RoleName":""},
+                {"ActorName":"Hatsumi Yoshikawa","RoleName":""}
+            ]
+        },
+        {
+            "OfficialTitle": "Return of Daimajin",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大魔神怒る"},
+                {"TitleType":"Hepburn","TitleValue":"Daimajin Ikaru"},
+                {"TitleType":"Literal Translation","TitleValue":"Wrath of Daimajin"},
+                {"TitleType":"Original U.S. Title","TitleValue":"Return of Giant Majin"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FReturn-Daimajin-1966%2Fthumb-card.png?alt=media&token=ce44c429-6428-445b-b693-bf4369a29842",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FReturn-Daimajin-1966%2Fthumb-details.png?alt=media&token=5d61888a-b87b-41c7-9599-9fe1b2a8dede"
+            ],
+            "ReleaseDate": "1966-08-13",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Kenji Misumi",
+            "Series": "Daimajin",
+            "Era": "Showa",
+            "Runtime": "89",
+            "Path": "Return-Daimajin-1966",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Masaichi Nagata"},
+                {"PositionTitle":"Director","Name":"Kenji Misumi"},
+                {"PositionTitle":"Development","Name":"Kimiyoshi Yasuda"},
+                {"PositionTitle":"Writer","Name":"Tetsuro Yoshida"},
+                {"PositionTitle":"Cinematography","Name":"Fujio Morita & Shozo Tanaka"},
+                {"PositionTitle":"Sound Recording","Name":"Masao Osumi"},
+                {"PositionTitle":"Lighting","Name":"Hiroshi Mima & Kenji Furuya"},
+                {"PositionTitle":"Art","Name":"Akira Naito & Shigeru Kato"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Kanji Suganuma"},
+                {"PositionTitle":"Special Effects","Name":"Teizo Tanaka"},
+                {"PositionTitle":"Animation","Name":"Yoshio Watanabe"},
+                {"PositionTitle":"Fight Scenes","Name":"Shohei Miyauchi"},
+                {"PositionTitle":"Sound Effects","Name":"Toru Kurashima"},
+                {"PositionTitle":"Assistant Director","Name":"Eiji Nishizawa"},
+                {"PositionTitle":"Production Manager","Name":"Takashi Imamura"},
+                {"PositionTitle":"Post Production","Name":"Toyo Genzojo"},
+                {"PositionTitle":"Director of Special Effects","Name":"Yoshiyuki Kuroda"}
+            ],
+            "Cast": [
+                {"ActorName":"Kojiro Hongo","RoleName":""},
+                {"ActorName":"Shiho Fujimura","RoleName":""},
+                {"ActorName":"Taro Marui","RoleName":""},
+                {"ActorName":"Jutaro Hojoh","RoleName":""},
+                {"ActorName":"Koichi Uenoyama","RoleName":""},
+                {"ActorName":"Asaao Uchida","RoleName":""},
+                {"ActorName":"Chikara Hashimoto","RoleName":"Daimajin"},
+                {"ActorName":"Takashi Kanada","RoleName":""},
+                {"ActorName":"Sei Hirazumi","RoleName":""},
+                {"ActorName":"Koji Fujiyama","RoleName":""},
+                {"ActorName":"Koichi Mizuhara","RoleName":""},
+                {"ActorName":"Gen Takasugi","RoleName":""},
+                {"ActorName":"Hyosuke Kanbe","RoleName":""},
+                {"ActorName":"Yusaku Terashima","RoleName":""},
+                {"ActorName":"Kimiko Tachibana","RoleName":""},
+                {"ActorName":"Yuji Hamada","RoleName":""},
+                {"ActorName":"Hideo Kuroki","RoleName":""},
+                {"ActorName":"Kohbu Matsuda","RoleName":""},
+                {"ActorName":"Yoshitaka Ito","RoleName":""},
+                {"ActorName":"Tadashi Iwata","RoleName":""},
+                {"ActorName":"Yutaro Ban","RoleName":""},
+                {"ActorName":"Kiyokazu Kagatsume","RoleName":""},
+                {"ActorName":"Kayo Mikimoto","RoleName":""},
+                {"ActorName":"Keiko Koyanagi","RoleName":""}
+            ]
+        },
+        {
+            "OfficialTitle": "Daimajin Strikes Again",
+            "AlternateTitles": [
+                {"TitleType":"Japanese","TitleValue":"大魔神逆襲"},
+                {"TitleType":"Hepburn","TitleValue":"Daimajin Gyakushu"},
+                {"TitleType":"Literal Translation","TitleValue":"Daimajin Strikes Again"}
+            ],
+            "OriginalPoster": [
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDaimajin-Strikes-Again-1966%2Fthumb-card.png?alt=media&token=58ba9f50-a660-45cf-880a-a99b7643167a",
+                "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FDaimajin-Strikes-Again-1966%2Fthumb-details.png?alt=media&token=37d4f505-6c16-458e-8b2d-3bd7a8887112"
+            ],
+            "ReleaseDate": "1966-12-10",
+            "ProductionCompany": "Daiei",
+            "CountryOfOrigin": "Japan",
+            "Languages": ["Japanese", "English"],
+            "Distributor": "Daiei",
+            "Director": "Issei Mori",
+            "Series": "Daimajin",
+            "Era": "Showa",
+            "Runtime": "87",
+            "Path": "Daimajin-Strikes-Again-1966",
+            "Crew": [
+                {"PositionTitle":"Producer","Name":"Masaichi Nagata"},
+                {"PositionTitle":"Director","Name":"Kazuo Mori"},
+                {"PositionTitle":"Development","Name":"Hisashi Okuda"},
+                {"PositionTitle":"Writer","Name":"Tetsuro Yoshida"},
+                {"PositionTitle":"Cinematography","Name":"Hiroshi Imai & Fujio Morita"},
+                {"PositionTitle":"Sound Recording","Name":"Iwao Ootani"},
+                {"PositionTitle":"Lighting","Name":"Teiichi Ito & Hiroshi Mima"},
+                {"PositionTitle":"Art","Name":"Yoshinobu Nishioka & Shigeru Kato"},
+                {"PositionTitle":"Composer","Name":"Akira Ifukube"},
+                {"PositionTitle":"Editor","Name":"Toshio Taniguchi"},
+                {"PositionTitle":"Special Effects","Name":"Teizo Tanaka"},
+                {"PositionTitle":"Animation","Name":"Yoshio Watanabe"},
+                {"PositionTitle":"Fight Scenes","Name":"Eiichi Kusumoto"},
+                {"PositionTitle":"Sound Effects","Name":"Toru Kurashima"},
+                {"PositionTitle":"Assistant Director","Name":"Hitoshi Oozu"},
+                {"PositionTitle":"Production Manager","Name":"Hiroshi Ozawa"},
+                {"PositionTitle":"Post Production","Name":"Toyo Genzojo"},
+                {"PositionTitle":"Director of Special Effects","Name":"Yoshiyuki Kuroda"}
+            ],
+            "Cast": [
+                {"ActorName":"Hideki Ninomiya","RoleName":""},
+                {"ActorName":"Masahide Iizuka","RoleName":""},
+                {"ActorName":"Shinji Horii","RoleName":""},
+                {"ActorName":"Muneyuki Nagatomo","RoleName":""},
+                {"ActorName":"Toru Abe","RoleName":""},
+                {"ActorName":"Takashi Nakamura","RoleName":""},
+                {"ActorName":"Hiroshi Nawa","RoleName":""},
+                {"ActorName":"Tanie Kitabayashi","RoleName":""},
+                {"ActorName":"Junichiro Yamashita","RoleName":""},
+                {"ActorName":"Chikara Hashimoto","RoleName":"Daimajin"},
+                {"ActorName":"Manabu Morita","RoleName":""},
+                {"ActorName":"Kazue Tamaoki","RoleName":""},
+                {"ActorName":"Yuzo Hayakawa","RoleName":""},
+                {"ActorName":"Yuji Hamada","RoleName":""},
+                {"ActorName":"Yukio Horikita","RoleName":""},
+                {"ActorName":"Sumao Ishihara","RoleName":""},
+                {"ActorName":"Takeshi Yabuuchi","RoleName":""},
+                {"ActorName":"Shouzo Nanbu","RoleName":""},
+                {"ActorName":"Sojo Shibata","RoleName":""},
+                {"ActorName":"Yoshitaka Ito","RoleName":""},
+                {"ActorName":"Akira Kominami","RoleName":""},
+                {"ActorName":"Masayoshi Kikuno","RoleName":""},
+                {"ActorName":"Masako Tomura","RoleName":""}
+            ]
         }
     ],
     "alternateVersions": [
@@ -9280,7 +9486,7 @@
                                     "Runtime": "",
                                     "ReleaseDate": "",
                                     "Notes": [
-                                        "An uncut international version was dubbed in Hong Kong. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
+                                        "An uncut international version was dubbed in Hong Kong and released by King Features Entertainment on VHS in 1987. No prints of this particular version with unique visual elements are known to have surfaced, though some advertising materials have."
                                     ]
                                 }
                             ]
@@ -11978,6 +12184,164 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "The German theatrical version was based on the US version with no known cuts."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Daimajin-1966",
+            "Countries": [
+                {
+                    "Country": "International",
+                    "Videos": [
+                        {"Host": "YT", "ID": "Do_hmU-8GjE", "Description": "Japanese Theatrical Trailer"},
+                        {"Host": "YT", "ID": "0ptQ1c7XRI0", "Description": "Daimajin Trilogy Trailer (ADV Films)"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Theatrical Title Card", "Advertising Materials","Drive-In Theater Showing"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Vengeance of the Monster"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "1970-12-31",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "While it is not believed that an international dub for Daimajin exists, a drive-in theater in Canada showed Gamera vs. Barugon and Daimajin (under the alternate title The Vengeance of the Monster) for a week in late 1970 and early 1971, as reported by the Calgary Herald on December 28th, 1970. Because neither Gamera vs. Barugon nor Daimajin were shown theatrically in North America, and Gamera vs. Barugon has an international dub, the showings at this drive-in suggest that an international dub of Daimajin may have been made."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Country": "United States",
+                    "Videos": [],
+                    "ScreencapDescriptions": ["U.S. TV Title Card", "U.S. TV End Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Majin, The Monster of Terror"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Ted Rusoff","RoleName":"Hanabusa Tadafumi"},
+                                {"ActorName":"Robert Spafford","RoleName":"Inugami Gunjuro"}
+                            ],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1967",
+                            "Runtime":"84",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the US. Released as Majin, the Monster of Terror, it was first mentioned in an article in The Salt Lake Tribune (July 28, 1967), stating that a new syndication package had been picked up and included titles such as Godzilla vs. The Thing, Majin, the Monster of Terror, Monster from a Prehistoric Planet, and War of the Monsters. Majin was playing on television in Texas by November 10th, 1967 at 10:30pm on San Antonio's KENS 5, as reported by the Austin American and San Antonio Express.",
+                                        "Although Majin doesn’t include any credits for the dubbing, it was likely dubbed in Rome by the English Language Dubbers Association (ELDA).",
+                                        "This version opens with the AI-TV logo and includes brief credits of the cast and crew. The movie ends with a “The End” end title card."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Return-Daimajin-1966",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "0ptQ1c7XRI0", "Description": "Daimajin Trilogy Trailer (ADV Films)"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Theatrical Title Card", "U.S. TV Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Television","TitleValue":"Return of Giant Majin"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [
+                                {"PositionTitle":"Director","Name":"Bret Morrison"},
+                                {"PositionTitle":"Editor","Name":"Eli Haviv & Emil Haviv"}
+                            ],
+                            "DubCompany": "Titan Production, Inc.",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "American International Television",
+                            "ReleaseDate": "Circa 1970",
+                            "Runtime":"89",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The film was bought by American International Pictures and released directly to television in the U.S. in 1970 and released as Return of Giant Majin. Dubbing was handled by Titan Production and is credited in the film.",
+                                        "It is likely that Return of Giant Majin was produced alongside Gamera vs. Monster X since the two movies have such similar credit design.",
+                                        "This version opens with the AI-TV logo and features a unique title sequence, but does not feature an end title card.",
+                                        "Several newspapers included listings for Return of the Giant Majin in 1968 and 1969. This was likely a mistake, since the cast listings correspond to Majin, The Monster of Terror, AIP’s title for the first Daimajin movie."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Daimajin-Strikes-Again-1966",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Videos": [
+                        {"Host": "YT", "ID": "_he2-UDxYNE", "Description": "Japanese Theatrical Trailer"},
+                        {"Host": "YT", "ID": "0ptQ1c7XRI0", "Description": "Daimajin Trilogy Trailer (ADV Films)"}
+                    ],
+                    "ScreencapDescriptions": ["Japanese Theatrical Title Card"],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Daimajin Strikes Again"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Mill Creek Entertainment",
+                            "ReleaseDate": "2012-09-12",
+                            "Runtime":"87",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "Daimajin Strikes Again was never released by AI-TV, and thus lacked a dub for nearly 46 years. However, when Mill Creek released the Daimajin trilogy on Blu-ray in 2012 they included a newly produced dub for the film, which was coordinated by Mill Creek’s licensor Joyplex Inc. The Blu-ray does not feature any dubbing credits and not much is known about this dub, but it is speculated that the dub was produced by Bang Zoom! Entertainment. This dub conforms to the Japanese theatrical version, features no unique visuals, and contains no edits."
                                     ]
                                 }
                             ]
