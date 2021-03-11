@@ -1,6 +1,3 @@
-import { ISearchable } from './ISearchable';
-import { ItemType } from './ItemType';
-
 export class MediaDetails {
     hasDifferentAspectRatios: boolean = false;
     hasDifferentColors: boolean = false;

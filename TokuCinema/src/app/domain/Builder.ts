@@ -13,7 +13,7 @@ export class DomainBuilder {
         this.DataType = dataType;
     }
 
-    public getDomainObject(): any {
+    public getDomainObject<T>(): T {
         let domainObject: any;
 
         if (this.DataType === DataType.Media) {

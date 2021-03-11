@@ -9,6 +9,7 @@ import { AngularFireList } from '@angular/fire/database';
 import { Title, SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { Media } from '../../../domain/Media';
 
 @Component({
   selector: 'app-moviedetails',
@@ -20,6 +21,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
 
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
+  mediaItems = new Array<Media>();
   moviesData: AngularFireList<any[]>;
   trailerUrl: SafeResourceUrl;
   private get pathname() { return document.location.pathname; }
@@ -31,9 +33,9 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
     private titleService: Title,
     private metatagService: MetatagService,
   ) {
-    this.sub = this.route.params.subscribe(params => {
+    this.sub = this.route.params.subscribe(() => {
 
-      fdb.getItemFromBranch(this.pathname, 'movies', true, DataType.Movie).subscribe((data) => {
+      this.fdb.getItemFromBranch(this.pathname, 'movies', true, DataType.Movie).subscribe((data) => {
         this.movie = data;
         if (this.movie === undefined) {
           // redirect to 404
@@ -52,7 +54,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           { property: 'og:image', content: imageUrlTag }
         ]);
         if (this.movie.doesPosterExist()) {
-          fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata) => {
+          this.fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata) => {
             const customMetadata = metadata.customMetadata;
             if (customMetadata) {
               if (customMetadata.width && customMetadata.height) {
@@ -68,7 +70,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         }
       });
 
-      fdb.getItemFromBranch(this.pathname, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe((data) => {
+      this.fdb.getItemFromBranch(this.pathname, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe((data) => {
         if (data) {
           this.movieAlternateVersion = data;
           this.movieAlternateVersion.Countries[0].Active = true;
@@ -84,9 +86,9 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
     this.sub.unsubscribe();
   }
 
-  getTrustedUrl(sourceUrl: string): SafeResourceUrl {
+  private getTrustedUrl(sourceUrl: string): SafeResourceUrl {
     const safeUrl: SafeResourceUrl = this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
 
     return safeUrl;
-}
+  }
 }

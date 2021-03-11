@@ -1,6 +1,3 @@
-import { StringCleaner, StringType } from './StringCleaner';
-import { ItemType } from './ItemType';
-
 export class MediaReview {
     constructor(
         public Overview: string,

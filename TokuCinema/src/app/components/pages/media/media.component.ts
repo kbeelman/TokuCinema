@@ -3,9 +3,10 @@ import { Media } from '../../../domain/Media';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from 'app/services/metatag.service';
 
-import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
+import { Movie } from '../../../domain/Movie';
 
 @Component({
   selector: 'app-media',
@@ -38,8 +39,8 @@ export class MediaComponent implements OnInit {
     private titleService: Title,
     private metatagService: MetatagService
   ) {
-    this.movieData = fdb.getBranch('movies');
-    this.mediaData = fdb.getBranch('media');
+    this.movieData = this.fdb.getBranch('movies');
+    this.mediaData = this.fdb.getBranch('media');
   }
 
   ngOnInit() {
@@ -47,14 +48,14 @@ export class MediaComponent implements OnInit {
       this.mediaData.subscribe(mediaArray => {
         mediaArray.forEach((element) => {
           const domainBuilder = new DomainBuilder(element, DataType.Media);
-          const domainObject = domainBuilder.getDomainObject();
+          const domainObject = domainBuilder.getDomainObject<Media>();
 
           // Shitty nested algorithm here
           domainObject.MoviePath.forEach(mediaElement => {
             movieArray.forEach(movieElement => {
               if (mediaElement === movieElement.Path) {
                 const movieBuilder = new DomainBuilder(movieElement, DataType.Movie);
-                const movie = movieBuilder.getDomainObject();
+                const movie = movieBuilder.getDomainObject<Movie>();
                 domainObject.Movies.push(movie);
               }
             });
@@ -65,7 +66,7 @@ export class MediaComponent implements OnInit {
         });
 
         this.sortFilters();
-        this.mediaItems = this.mediaItems.sort(function(a, b) {
+        this.mediaItems.sort(function(a, b) {
           if (a.Movies[0] && b.Movies[0]) {
             const countryCompare: number = b.Country.localeCompare(a.Country);
             if (countryCompare !== 0) {

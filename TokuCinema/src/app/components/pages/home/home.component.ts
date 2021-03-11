@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       const winningNumber = Math.floor(Math.random() * data.length) + 0;
 
       const builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
-      this.randomContent = builder.getDomainObject();
+      this.randomContent = builder.getDomainObject<Media>();
     });
   }
 

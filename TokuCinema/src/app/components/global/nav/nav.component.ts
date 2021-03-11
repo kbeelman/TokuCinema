@@ -4,7 +4,7 @@ import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
 
-import { Component, OnInit, Output, EventEmitter, NgZone, Inject } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, NgZone } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -32,8 +32,8 @@ export class NavComponent implements OnInit {
     private fdb: FirebaseService,
     private _ngZone: NgZone
   ) {
-    this.moviesData = fdb.getBranch('movies');
-    this.mediaData = fdb.getBranch('media');
+    this.moviesData = this.fdb.getBranch('movies');
+    this.mediaData = this.fdb.getBranch('media');
   }
 
   ngOnInit() {
@@ -41,7 +41,7 @@ export class NavComponent implements OnInit {
     this.moviesData.forEach(element => {
       for (let i = 0; i < element.length; i++) {
         const domainBuilder = new DomainBuilder(element[i], DataType.Movie);
-        const domainObject = domainBuilder.getDomainObject();
+        const domainObject = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
       }
     });
@@ -50,7 +50,7 @@ export class NavComponent implements OnInit {
     this.mediaData.forEach(element => {
       for (let i = 0; i < element.length; i++) {
         const domainBuilder = new DomainBuilder(element[i], DataType.Media);
-        const domainObject = domainBuilder.getDomainObject();
+        const domainObject = domainBuilder.getDomainObject<Media>();
         this.mediaItems.push(domainObject);
       }
     });

@@ -55,12 +55,12 @@ export class MoviesComponent implements OnInit {
     this.moviesData.subscribe(movieArray => {
       for (let i = 0; i < movieArray.length; i++) {
         const domainBuilder = new DomainBuilder(movieArray[i], DataType.Movie);
-        const domainObject = domainBuilder.getDomainObject();
+        const domainObject = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
       }
 
-      this.movieItems = this.movieItems.sort(function(a: Movie, b: Movie) {
+      this.movieItems.sort(function(a: Movie, b: Movie) {
         const seriesCompare: number = b.Series.localeCompare(a.Series);
         if (seriesCompare !== 0) {
           return seriesCompare;

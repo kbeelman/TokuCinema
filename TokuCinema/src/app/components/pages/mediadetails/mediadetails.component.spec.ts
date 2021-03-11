@@ -11,6 +11,7 @@ import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { FirebaseService } from '../../../services/firebase.service';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { MockFirebaseService } from 'app/services/mock.firebase.service';
+import { Movie } from '../../../domain/Movie';
 
 describe('MediadetailsComponent', () => {
   let component: MediadetailsComponent;
@@ -62,7 +63,7 @@ describe('MediadetailsComponent', () => {
         'Era': 'Showa',
         'Runtime': '96',
         'Path': 'Godzilla-1954'
-      }, DataType.Movie).getDomainObject()
+      }, DataType.Movie).getDomainObject<Movie>()
     ];
   });
 

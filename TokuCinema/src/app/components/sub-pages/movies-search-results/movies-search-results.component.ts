@@ -1,7 +1,6 @@
 import { MovieFilterPackage } from '../../../domain/MovieFilterPackage';
-import { MovieTitleSearch } from '../../../pipes/movies/movieTitle.pipe';
 import { Movie } from '../../../domain/Movie';
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'app-movies-search-results',
