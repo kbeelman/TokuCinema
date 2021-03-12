@@ -12280,7 +12280,10 @@
                         {
                             "MainTitle":[{"TitleType":"Television","TitleValue":"Return of Giant Majin"}],
                             "Cast": [],
-                            "DubCast": [],
+                            "DubCast": [
+                                {"ActorName":"Bret Morrison","RoleName":""},
+                                {"ActorName":"Larry Robinson","RoleName":""}
+                            ],
                             "Crew": [
                                 {"PositionTitle":"Director","Name":"Bret Morrison"},
                                 {"PositionTitle":"Editor","Name":"Eli Haviv & Emil Haviv"}
