@@ -26,3 +26,16 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## If you have already checked out the source code, but still have a "master" branch:
+
+1. Switch to the "master" branch:\
+    `$ git checkout master`
+2. Rename it to "main":\
+    `$ git branch -m master main`
+3. Get the latest commits (and branches!) from the remote:\
+    `$ git fetch`
+4. Remove the existing tracking connection with "origin/master":\
+    `$ git branch --unset-upstream`
+5. Create a new tracking connection with the new "origin/main" branch:\
+    `$ git branch -u origin/main`
