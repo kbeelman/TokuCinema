@@ -47,20 +47,20 @@ export class MoviesComponent implements OnInit {
     'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/movies' },
-      { property: 'og:title', content: 'Movie List'},
+      { property: 'og:title', content: 'Movie List' },
       { property: 'og:description', content: descriptionTag },
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
-    this.moviesData.subscribe(movieArray => {
-      for (let i = 0; i < movieArray.length; i++) {
-        const domainBuilder = new DomainBuilder(movieArray[i], DataType.Movie);
+    this.moviesData.subscribe((movieArray: Movie[]) => {
+      movieArray.forEach((movie: Movie) => {
+        const domainBuilder = new DomainBuilder(movie, DataType.Movie);
         const domainObject = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
-      }
+      });
 
-      this.movieItems.sort(function(a: Movie, b: Movie) {
+      this.movieItems.sort((a: Movie, b: Movie) => {
         const seriesCompare: number = b.Series.localeCompare(a.Series);
         if (seriesCompare !== 0) {
           return seriesCompare;

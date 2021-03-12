@@ -10,8 +10,8 @@ import { Keyword } from '../../../domain/Keyword';
 export class SearchResultsComponent implements OnInit {
   @Input() searchTerm: string;
   @Input() searchItems: Array<ISearchable>;
-  movieItems = new Array<{'name': string, 'names': Array<Keyword>, 'type': string, 'path': string, 'score': number, 'iconName': string}>();
-  mediaItems = new Array<{'name': string, 'names': Array<Keyword>, 'type': string, 'path': string, 'score': number, 'iconName': string}>();
+  movieItems = new Array<{'name': string; 'names': Array<Keyword>; 'type': string; 'path': string; 'score': number; 'iconName': string}>();
+  mediaItems = new Array<{'name': string; 'names': Array<Keyword>; 'type': string; 'path': string; 'score': number; 'iconName': string}>();
 
   constructor() { }
 

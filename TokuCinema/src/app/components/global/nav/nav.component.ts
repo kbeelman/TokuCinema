@@ -15,11 +15,11 @@ export class NavComponent implements OnInit {
   @Output() searchEvent = new EventEmitter();
   navMenuOpen: boolean = false;
   searchOpen: boolean = false;
-  menuItems: Array<{'text': string, 'link': string}> = [
-    {'text': 'Home', 'link': '/'},
-    {'text': 'Movie List', 'link': '/movies'},
-    {'text': 'Home Media Releases', 'link': '/media'},
-    {'text': 'About', 'link': '/about'}
+  menuItems: Array<{'text': string; 'link': string}> = [
+    { text: 'Home', link: '/' },
+    { text: 'Movie List', link: '/movies' },
+    { text: 'Home Media Releases', link: '/media' },
+    { text: 'About', link: '/about' }
   ];
   movieItems = new Array<Movie>();
   mediaItems = new Array<Media>();
@@ -30,7 +30,7 @@ export class NavComponent implements OnInit {
 
   constructor(
     private fdb: FirebaseService,
-    private _ngZone: NgZone
+    private ngZone: NgZone
   ) {
     this.moviesData = this.fdb.getBranch('movies');
     this.mediaData = this.fdb.getBranch('media');
@@ -38,21 +38,21 @@ export class NavComponent implements OnInit {
 
   ngOnInit() {
     // Transform Movies
-    this.moviesData.forEach(element => {
-      for (let i = 0; i < element.length; i++) {
-        const domainBuilder = new DomainBuilder(element[i], DataType.Movie);
+    this.moviesData.subscribe((movies: Movie[]) => {
+      movies.forEach((movie: Movie) => {
+        const domainBuilder = new DomainBuilder(movie, DataType.Movie);
         const domainObject = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
-      }
+      });
     });
 
     // Transform Media
-    this.mediaData.forEach(element => {
-      for (let i = 0; i < element.length; i++) {
-        const domainBuilder = new DomainBuilder(element[i], DataType.Media);
+    this.mediaData.subscribe((medias: Media[]) => {
+      medias.forEach((media: Media) => {
+        const domainBuilder = new DomainBuilder(media, DataType.Media);
         const domainObject = domainBuilder.getDomainObject<Media>();
         this.mediaItems.push(domainObject);
-      }
+      });
     });
   }
 
@@ -66,7 +66,7 @@ export class NavComponent implements OnInit {
   public toggleSearch(): void {
     this.searchOpen = !this.searchOpen;
     if (this.searchOpen) {
-      this._ngZone.runOutsideAngular(() => {
+      this.ngZone.runOutsideAngular(() => {
         setTimeout(() => document?.getElementById('search-input')?.focus());
       });
     }

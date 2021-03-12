@@ -4,7 +4,7 @@ import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
-import { Component, OnInit, OnDestroy, Inject } from '@angular/core';
+import { Component, OnDestroy, Inject } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title, SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
@@ -15,16 +15,18 @@ import { Media } from '../../../domain/Media';
   selector: 'app-moviedetails',
   templateUrl: './moviedetails.component.html'
 })
-export class MoviedetailsComponent implements OnInit, OnDestroy {
-  private sub: Subscription;
+export class MoviedetailsComponent implements OnDestroy {
   public pageNotFound: boolean = false;
-
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   mediaItems = new Array<Media>();
   moviesData: AngularFireList<any[]>;
   trailerUrl: SafeResourceUrl;
-  private get pathname() { return document.location.pathname; }
+
+  private sub: Subscription;
+  private get pathname() {
+    return document.location.pathname;
+  }
 
   constructor(
     @Inject(DomSanitizer) private sanitizer: DomSanitizer,
@@ -77,9 +79,6 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
         }
       });
     });
-  }
-
-  ngOnInit() {
   }
 
   ngOnDestroy() {

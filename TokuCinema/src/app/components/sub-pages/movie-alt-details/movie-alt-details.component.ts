@@ -7,9 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './movie-alt-details.component.html'
 })
 export class MovieAltDetailsComponent implements OnInit {
-  public activeAltCountry: any; // used for mobile alt version selector
-
   @Input() movieAlternateVersion: MovieAlternateVersion;
+
+  public activeAltCountry: any; // used for mobile alt version selector
 
   constructor(
   ) { }

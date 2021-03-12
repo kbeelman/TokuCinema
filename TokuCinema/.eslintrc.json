@@ -1,0 +1,83 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": [
+          "tsconfig.json"
+        ],
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@angular-eslint/ng-cli-compat",
+        "plugin:@angular-eslint/ng-cli-compat--formatting-add-on",
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
+          }
+        ],
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
+          }
+        ],
+
+        // add missing rules that aren't included in plugins by default
+        "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/no-inferrable-types": [
+          "off",
+          {
+            "ignoreParameters": true,
+            "ignoreProperties": true
+          }
+        ],
+        "@typescript-eslint/semi": "error",
+        "brace-style": [
+          "error",
+          "1tbs"
+        ],
+        "jsdoc/no-types": "off",
+        "keyword-spacing": "error",
+        "object-curly-spacing": [
+          "error",
+          "always"
+        ],
+        "semi": "off",
+        "semi-spacing": "error",
+        "spaced-comment": "error",
+        "space-before-blocks": "error",
+        "space-infix-ops": "error",
+        "space-unary-ops": "error",
+
+        // re-enable these
+        "@typescript-eslint/naming-convention": "off",
+        "no-shadow": "off"
+      }
+    },
+    {
+      "files": [
+        "*.html"
+      ],
+      "extends": [
+        "plugin:@angular-eslint/template/recommended"
+      ],
+      "rules": {}
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './about.component.html'
 })
 export class AboutComponent implements OnInit {
-  developers: Array<{'name': string, 'imgUrl': string, 'bio': string, 'url': string}> = [
+  developers: Array<{'name': string; 'imgUrl': string; 'bio': string; 'url': string}> = [
     {
       name: 'Kiefer',
       imgUrl: 'https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/' +
@@ -44,7 +44,7 @@ export class AboutComponent implements OnInit {
     const descriptionTag = 'About the developers of the Toku Cinema website.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/about' },
-      { property: 'og:title', content: 'About - Toku Cinema'},
+      { property: 'og:title', content: 'About - Toku Cinema' },
       { property: 'og:description', content: descriptionTag },
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }

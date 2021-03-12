@@ -11,19 +11,18 @@ import { MovieAlternateVersion } from '../domain/MovieAlternateVersion';
 @Injectable()
 export class MockFirebaseService {
   public cachedData: Array<{
-    branchName: string,
-    data: Observable<any>
+    branchName: string;
+    data: Observable<any>;
   }> = new Array<{
-    branchName: string,
-    data: Observable<any>
+    branchName: string;
+    data: Observable<any>;
   }>();
 
   constructor() { }
 
   public getBranch(_branchName: string): Observable<any> {
     return new Observable((observer) => {
-      let response: any;
-      response = {};
+      const response: any = {};
       observer.next(response);
       observer.complete();
     });
@@ -31,8 +30,7 @@ export class MockFirebaseService {
 
   public getItemFromBranch(_item: string, _branchName: string, _itemIsRoute: boolean, buildType: DataType): Observable<any> {
     return new Observable((observer) => {
-      let response: any;
-      response = {};
+      const response: any = {};
 
       if (buildType === DataType.Media) {
         observer.next(new DomainBuilder(stubGodzillaMedia, DataType.Media).getDomainObject<Media>());
@@ -51,8 +49,7 @@ export class MockFirebaseService {
 
   public getImageMetadata(_path: string, _branchName: string): Observable<any> {
     return new Observable((observer) => {
-      let response: any;
-      response = {};
+      const response: any = {};
       observer.next(response);
       observer.complete();
     });

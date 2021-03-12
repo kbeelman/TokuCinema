@@ -13,7 +13,7 @@ export class Movie implements ISearchable {
 
     constructor(
         public OfficialTitle: string,
-        public AlternateTitles: Array<{'TitleType': string, 'TitleValue': string}>,
+        public AlternateTitles: Array<{'TitleType': string; 'TitleValue': string}>,
         public OriginalPoster: Array<string>,
         public ReleaseDateString: string,
         public ProductionCompany: string,
@@ -24,8 +24,8 @@ export class Movie implements ISearchable {
         public Series: SeriesType,
         public Era: EraType,
         public Runtime: number,
-        public Crew: Array<{'PositionTitle': string, 'Name': string}>,
-        public Cast: Array<{'ActorName': string, 'RoleName': string}>,
+        public Crew: Array<{'PositionTitle': string; 'Name': string}>,
+        public Cast: Array<{'ActorName': string; 'RoleName': string}>,
         public MediaPath: Array<string>,
         public AlternateVersionsPath: Array<string>,
         public Path: string,
@@ -133,18 +133,6 @@ export class Movie implements ISearchable {
         return 'movies';
     }
 
-    private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
-        const cleanKeywords = new Array<Keyword>();
-
-        keywords.forEach(element => {
-            if (element.word !== '') {
-                cleanKeywords.push(element);
-            }
-        });
-
-      return cleanKeywords;
-    }
-
     public doesPosterExist(): boolean {
         if (typeof this.OriginalPoster !== 'undefined') {
             if (this.OriginalPoster.length > 1) {
@@ -187,5 +175,17 @@ export class Movie implements ISearchable {
         } else {
             return false;
         }
+    }
+
+    private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
+        const cleanKeywords = new Array<Keyword>();
+
+        keywords.forEach(element => {
+            if (element.word !== '') {
+                cleanKeywords.push(element);
+            }
+        });
+
+      return cleanKeywords;
     }
 }

@@ -33,24 +33,24 @@ export class DomainBuilder {
         const movieData = this.RawData;
 
         const movie: Movie = new Movie(
-            movieData['OfficialTitle'],
-            movieData['AlternateTitles'],
-            movieData['OriginalPoster'],
-            movieData['ReleaseDate'],
-            movieData['ProductionCompany'],
-            movieData['CountryOfOrigin'],
-            movieData['Languages'],
-            movieData['Distributor'],
-            movieData['Director'],
-            movieData['Series'],
-            movieData['Era'],
-            movieData['Runtime'],
-            movieData['Crew'],
-            movieData['Cast'],
-            movieData['MediaPath'],
-            movieData['AlternateVersionsPath'],
-            movieData['Path'],
-            movieData['Videos']);
+            movieData.OfficialTitle,
+            movieData.AlternateTitles,
+            movieData.OriginalPoster,
+            movieData.ReleaseDate,
+            movieData.ProductionCompany,
+            movieData.CountryOfOrigin,
+            movieData.Languages,
+            movieData.Distributor,
+            movieData.Director,
+            movieData.Series,
+            movieData.Era,
+            movieData.Runtime,
+            movieData.Crew,
+            movieData.Cast,
+            movieData.MediaPath,
+            movieData.AlternateVersionsPath,
+            movieData.Path,
+            movieData.Videos);
 
         return movie;
     }
@@ -59,8 +59,8 @@ export class DomainBuilder {
         const altVerData = this.RawData;
 
         const movieAlternateVersion: MovieAlternateVersion = new MovieAlternateVersion(
-            altVerData['Path'],
-            altVerData['Countries']
+            altVerData.Path,
+            altVerData.Countries
         );
 
         return movieAlternateVersion;
@@ -70,31 +70,31 @@ export class DomainBuilder {
         const mediaData = this.RawData;
 
         const media: Media = new Media(
-            mediaData['Title'],
-            mediaData['AspectRatio'],
-            mediaData['Runtime'],
-            mediaData['Color'],
-            mediaData['ChapterStops'],
-            mediaData['Subtitles'],
-            mediaData['SubtitlesDetails'],
-            mediaData['AudioTracks'],
-            mediaData['AudioTracksDetails'],
-            mediaData['Medium'],
-            mediaData['Format'],
-            mediaData['Region'],
-            mediaData['Country'],
-            mediaData['MediumCount'],
-            mediaData['ColorSystem'],
-            mediaData['ScreencapDescriptions'],
-            mediaData['Distributor'],
-            mediaData['CatalogCode'],
-            mediaData['UPC'],
-            mediaData['ReleaseDate'],
-            mediaData['PurchaseLinks'],
-            mediaData['MoviePath'],
-            mediaData['OriginalRelease'],
-            mediaData['BoxArt'],
-            mediaData['Path'],
+            mediaData.Title,
+            mediaData.AspectRatio,
+            mediaData.Runtime,
+            mediaData.Color,
+            mediaData.ChapterStops,
+            mediaData.Subtitles,
+            mediaData.SubtitlesDetails,
+            mediaData.AudioTracks,
+            mediaData.AudioTracksDetails,
+            mediaData.Medium,
+            mediaData.Format,
+            mediaData.Region,
+            mediaData.Country,
+            mediaData.MediumCount,
+            mediaData.ColorSystem,
+            mediaData.ScreencapDescriptions,
+            mediaData.Distributor,
+            mediaData.CatalogCode,
+            mediaData.UPC,
+            mediaData.ReleaseDate,
+            mediaData.PurchaseLinks,
+            mediaData.MoviePath,
+            mediaData.OriginalRelease,
+            mediaData.BoxArt,
+            mediaData.Path,
             []
         );
 
@@ -105,12 +105,12 @@ export class DomainBuilder {
         const mediaReviewData = this.RawData;
 
         const mediaReview: MediaReview = new MediaReview(
-            mediaReviewData['Overview'],
-            mediaReviewData['Video'],
-            mediaReviewData['Audio'],
-            mediaReviewData['Extras'],
-            mediaReviewData['Overall'],
-            mediaReviewData['FeaturedScreenShots'],
+            mediaReviewData.Overview,
+            mediaReviewData.Video,
+            mediaReviewData.Audio,
+            mediaReviewData.Extras,
+            mediaReviewData.Overall,
+            mediaReviewData.FeaturedScreenShots,
         );
 
         return mediaReview;

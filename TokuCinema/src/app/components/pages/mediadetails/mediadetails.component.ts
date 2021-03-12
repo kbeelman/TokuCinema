@@ -25,11 +25,13 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   movieDetails: any = [];
   hasRuntimes: boolean = false;
   coverUrl: string = '';
-  imageGallery: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
-  videoGallery: Array<{'Host': string, 'ID': string, 'Description': string}>; // = [];
-  public pageNotFound: boolean = false;
+  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>;
+  videoGallery: Array<{'Host': string; 'ID': string; 'Description': string}>;
+  public pageNotFound = false;
   private sub: Subscription;
-  private get pathname() { return document.location.pathname; }
+  private get pathname() {
+    return document.location.pathname;
+  }
 
   constructor(private fdb: FirebaseService,
     private route: ActivatedRoute,
@@ -69,7 +71,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
         if (movieData) {
           let alreadyContainsMovie: boolean = false;
           this.movieDetails.forEach(existingMovies => {
-            if (existingMovies.Path === movieData['Path']) {
+            if (existingMovies.Path === movieData.Path) {
               alreadyContainsMovie = true;
             }
           });
@@ -135,9 +137,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   }
 
   /**
+   *
+   *
    * @description Safely retrieves the featured screen cap at the given index
    * @returns {string} Returns the featured screen cap when available, otherwise an empty string
-   * @param index featured screen cap to retrieve
+   * @param {number} index featured screen cap to retrieve
    */
   public getFeaturedScreenCapAtIndex(index: number): string {
     let screenCap = '';

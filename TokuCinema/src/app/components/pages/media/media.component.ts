@@ -65,7 +65,7 @@ export class MediaComponent implements OnInit {
         });
 
         this.sortFilters();
-        this.mediaItems.sort(function(a: Media, b: Media) {
+        this.mediaItems.sort((a: Media, b: Media) => {
           if (a.Movies[0] && b.Movies[0]) {
             const countryCompare: number = b.Country.localeCompare(a.Country);
             if (countryCompare !== 0) {
@@ -96,7 +96,7 @@ export class MediaComponent implements OnInit {
     'as well as reviews capturing everything from video quality to special features.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/media' },
-      { property: 'og:title', content: 'Home Media Releases'},
+      { property: 'og:title', content: 'Home Media Releases' },
       { property: 'og:description', content: descriptionTag },
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }

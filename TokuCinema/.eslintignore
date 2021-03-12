@@ -1,0 +1,6 @@
+# Don't lint the following files / directories
+node_modules
+.eslintrc.js
+polyfills.ts
+*.json
+**/*.json

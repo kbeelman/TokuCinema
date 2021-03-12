@@ -36,11 +36,11 @@ export class StringCleaner {
   }
 
   // Clean if not part of a route - assignment
-  private cleanString(string: string): string {
-    return this.replaceSpaces(string);
+  private cleanString(str: string): string {
+    return this.replaceSpaces(str);
   }
 
-  private replaceSpaces(string: string): string {
-    return string.replace(/\s+/g, '-');
+  private replaceSpaces(str: string): string {
+    return str.replace(/\s+/g, '-');
   }
 }

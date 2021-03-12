@@ -3,7 +3,7 @@ import { IGalleryItem } from './domain/iGalleryItem';
 import { GalleryImage } from './domain/GalleryImage';
 import { GalleryVideo } from './domain/GalleryVideo';
 import { ItemType } from './domain/ItemType';
-import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-media-gallery',
@@ -11,8 +11,8 @@ import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 })
 
 export class MediaGalleryComponent {
-    @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> = [];
-    @Input() videoIds: Array<{'Host': string, 'ID': string, 'Description': string}> = [];
+    @Input() images: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
+    @Input() videoIds: Array<{'Host': string; 'ID': string; 'Description': string}> = [];
     @Input() numberOfImages: number = 0;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
@@ -28,7 +28,7 @@ export class MediaGalleryComponent {
     initInterval: any;
     elapsedTime: number = 0;
 
-    constructor (
+    constructor(
         @Inject(DomSanitizer) private sanitizer: DomSanitizer
     ) {
         this.initInterval = setInterval(() => {
@@ -69,13 +69,13 @@ export class MediaGalleryComponent {
                         new GalleryImage(this.images[index].Screencap, thumbnail, altText, index));
                 } else if (!loadingStatus.found) {
                     this.galleryImages.push(new GalleryImage(this.images[index].Screencap, thumbnail, altText, index));
-                    this.itemCount ++;
+                    this.itemCount++;
                 }
             }
         }
     }
 
-    doesGalleryContainImage(index: number): {foundIndex: number, found: boolean } {
+    doesGalleryContainImage(index: number): {foundIndex: number; found: boolean } {
         let foundIndex = -1;
         let found = false;
         for (let subIndex = 0; subIndex < this.galleryImages.length; subIndex++) {
@@ -101,12 +101,12 @@ export class MediaGalleryComponent {
                     return stillLoading;
                 }
                 stillLoading = false;
-                for (let index = 0; index < this.galleryImages.length; index++) {
-                    if (this.galleryImages[index].Alt === '' || this.galleryImages[index].Url === '' ||
-                        this.galleryImages[index].Thumb === '') {
-                            stillLoading = true;
+                this.galleryImages.forEach((galleryImage) => {
+                    if (galleryImage.Alt === '' || galleryImage.Url === '' ||
+                        galleryImage.Thumb === '') {
+                        stillLoading = true;
                     }
-                }
+                });
             } else {
                 return stillLoading;
             }
@@ -124,11 +124,11 @@ export class MediaGalleryComponent {
         if (this.videoIds && this.videoIds.length) {
             for (let index = 0; index < this.videoIds.length; index++) {
                 let found = false;
-                for (let subIndex = 0; subIndex < this.galleryVideos.length; subIndex++) {
-                    if (this.videoIds[index].ID === this.galleryVideos[subIndex].VideoId) {
+                this.galleryVideos.forEach((galleryVideo) => {
+                    if (this.videoIds[index].ID === galleryVideo.VideoId) {
                         found = true;
                     }
-                }
+                });
                 if (!found) {
                     this.galleryVideos.push(new GalleryVideo(this.videoIds[index].Host,
                         this.videoIds[index].ID, index, this.videoIds[index].Description));
@@ -190,7 +190,8 @@ export class MediaGalleryComponent {
             if (item.getHost() === 'YT') {
                 this.activeItemSource = this.getTrustedUrl('https://www.youtube.com/embed/' + this.activeItem.GetSource());
             } else if (item.getHost() === 'DM') {
-                this.activeItemSource = this.getTrustedUrl('https://www.dailymotion.com/embed/video/' + this.activeItem.GetSource() + '?queue-enable=false');
+                this.activeItemSource = this.getTrustedUrl('https://www.dailymotion.com/embed/video/' +
+                    this.activeItem.GetSource() + '?queue-enable=false');
             }
         }
     }

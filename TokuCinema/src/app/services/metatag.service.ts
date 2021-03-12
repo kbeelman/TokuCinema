@@ -47,7 +47,7 @@ export class MetatagService {
     }
 
     /**
-     * Adds new metatags if they don't exist, updates existing metatags,
+     * @description Adds new metatags if they don't exist, updates existing metatags,
      * and removes existing metatags if their replacement has empty content.
      * @param {MetaDefinition[]} tags The list of tags to be updated.
      */

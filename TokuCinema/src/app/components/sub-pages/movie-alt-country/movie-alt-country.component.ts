@@ -8,10 +8,10 @@ import { FirebaseService } from 'app/services/firebase.service';
   templateUrl: './movie-alt-country.component.html'
 })
 export class MovieAltCountryComponent implements OnInit {
-  imageGallery: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> = [];
-
   @Input() country: Country = new Country();
   @Input() path: string = '';
+
+  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
 
   constructor(
     private fdb: FirebaseService

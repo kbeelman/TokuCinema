@@ -2,7 +2,7 @@ import { DomainBuilder, DataType } from '../domain/Builder';
 import { StringCleaner, StringType } from '../domain/StringCleaner';
 
 import { Injectable } from '@angular/core';
-import { AngularFireStorage} from '@angular/fire/storage';
+import { AngularFireStorage } from '@angular/fire/storage';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -11,11 +11,11 @@ import { ListResult } from '@angular/fire/storage/interfaces';
 @Injectable()
 export class FirebaseService {
     public cachedData: Array<{
-          branchName: string,
-          data: Observable<any>
+          branchName: string;
+          data: Observable<any>;
         }> = new Array<{
-          branchName: string,
-          data: Observable<any>
+          branchName: string;
+          data: Observable<any>;
         }>();
 
     constructor(
@@ -27,14 +27,13 @@ export class FirebaseService {
       const cachedBranch = this.cachedData.find( item => item.branchName === branchName);
       if (!cachedBranch) {
 
-        let itemRef: AngularFireList<any>;
-        let item: Observable<any[]>;
+        const itemRef: AngularFireList<any> = this.db.list('/' + branchName);
+        const item: Observable<any[]> = itemRef.valueChanges();
 
-        itemRef = this.db.list('/' + branchName);
-        item = itemRef.valueChanges();
+
 
         // cache for future use
-        const branchToCache = {branchName: branchName, data: item};
+        const branchToCache = { branchName, data: item };
         this.cachedData.push(branchToCache);
         return item;
       } else {
@@ -45,9 +44,7 @@ export class FirebaseService {
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       const itemString = itemIsRoute ? this.getPathFromRoute(item) : item;
       const branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
-        map(response => {
-          return this.extractDomainObject(response, buildType);
-      }));
+        map(response => this.extractDomainObject(response, buildType)));
 
       return branchItem;
     }
@@ -56,28 +53,16 @@ export class FirebaseService {
       return this.fireStorage.storage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
     }
 
-    private extractDomainObject(res: any, buildType: DataType): Observable<any> {
-      let domainObject: any;
-      res.forEach(element => {
-        if (element) {
-          const domainBuilder = new DomainBuilder(element, buildType);
-          domainObject = domainBuilder.getDomainObject();
-        }
-      });
-
-      return domainObject;
-    }
-
     getImages(branchName: string, path: string, descriptions: Array<string>):
-      Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> {
-        const returnList: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> = [];
+      Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> {
+        const returnList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
         const imageDirectory = branchName === 'media' ? '/screencaps' : '';
         const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
         const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
 
         fullStorageRef.list().then((folderData: ListResult) => {
           folderData.items.forEach((image, index) => {
-            returnList.push({'Screencap': '', 'Thumbnail': '', 'Description': descriptions[index], 'Name': image.name});
+            returnList.push({ Screencap: '', Thumbnail: '', Description: descriptions[index], Name: image.name });
           });
 
           folderData.items.forEach(image => {
@@ -110,7 +95,19 @@ export class FirebaseService {
         return returnList;
     }
 
-    private getImageIndex(fileList: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>,
+    private extractDomainObject(res: any, buildType: DataType): Observable<any> {
+      let domainObject: any;
+      res.forEach(element => {
+        if (element) {
+          const domainBuilder = new DomainBuilder(element, buildType);
+          domainObject = domainBuilder.getDomainObject();
+        }
+      });
+
+      return domainObject;
+    }
+
+    private getImageIndex(fileList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>,
       fileName: string): number {
         let index = -1;
         for (let i = 0; i < fileList.length; i++) {
@@ -121,8 +118,8 @@ export class FirebaseService {
         return index;
     }
 
-    private sortImageList(fileList: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>):
-      Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> {
+    private sortImageList(fileList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>):
+      Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> {
         return fileList.sort((a, b) => {
           if (a.Name < b.Name) {
             return -1;

@@ -55,16 +55,16 @@ describe('media gallery component', () => {
   it('should setup images', waitForAsync(() => {
     comp.images = [
       {
-        'Screencap': 'sc1',
-        'Thumbnail': 'tn1',
-        'Description': 'd1',
-        'Name': 'n1'
+        Screencap: 'sc1',
+        Thumbnail: 'tn1',
+        Description: 'd1',
+        Name: 'n1'
       },
       {
-        'Screencap': 'sc2',
-        'Thumbnail': 'tn2',
-        'Description': 'd2',
-        'Name': 'n2'
+        Screencap: 'sc2',
+        Thumbnail: 'tn2',
+        Description: 'd2',
+        Name: 'n2'
       }
     ];
     comp.setupImages();

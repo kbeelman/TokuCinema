@@ -102,7 +102,7 @@ export class DeepSearch implements PipeTransform {
         });
 
         // sort results by score
-        results.sort(function(a, b) { return a.score - b.score; });
+        results.sort((a, b) => a.score - b.score);
         results.reverse();
 
         // return deep search, if no results return standard search
