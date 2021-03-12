@@ -20,9 +20,9 @@ export class MockFirebaseService {
 
   constructor() { }
 
-  public getBranch(_branchName: string): Observable<any> {
+  public getBranch(branchName: string): Observable<any> {
     return new Observable((observer) => {
-      const response: any = {};
+      const response: any = branchName === 'media' ? [stubGodzillaMedia] : branchName === 'movies' ? [stubGodzillaMovie] : {};
       observer.next(response);
       observer.complete();
     });
@@ -47,11 +47,11 @@ export class MockFirebaseService {
     });
   }
 
-  public getImageMetadata(_path: string, _branchName: string): Observable<any> {
-    return new Observable((observer) => {
-      const response: any = {};
-      observer.next(response);
-      observer.complete();
-    });
+  public getImageMetadata(_path: string, _branchName: string): Promise<any> {
+    return new Promise(() => {});
+  }
+
+  public getImages() {
+    return [];
   }
 }

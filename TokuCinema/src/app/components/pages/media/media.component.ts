@@ -1,7 +1,7 @@
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { FirebaseService } from '../../../services/firebase.service';
-import { MetatagService } from 'app/services/metatag.service';
+import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Title } from '@angular/platform-browser';

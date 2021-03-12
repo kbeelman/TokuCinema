@@ -25,7 +25,8 @@ module.exports = function (config) {
       'text/x-typescript': ['ts','tsx']
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, 'coverage'), reports: [ 'html', 'lcovonly' ],
+      dir: require('path').join(__dirname, 'coverage'),
+      reports: [ 'html', 'lcovonly' ],
       fixWebpackSourcePaths: true
     },
     

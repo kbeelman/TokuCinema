@@ -10,9 +10,9 @@ import { environment } from '../../../../environments/environment';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { FirebaseService } from '../../../services/firebase.service';
-import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
+import { ReleaseYearSortPipe } from '../../../pipes/release-year-sort.pipe';
 import { AngularFireStorageModule } from '@angular/fire/storage';
-import { MockFirebaseService } from 'app/services/mock.firebase.service';
+import { MockFirebaseService } from '../../../services/mock.firebase.service';
 
 describe('MediaComponent', () => {
   let component: MediaComponent;

@@ -10,7 +10,7 @@ import { MediadetailsComponent } from './mediadetails.component';
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { FirebaseService } from '../../../services/firebase.service';
 import { AngularFireStorageModule } from '@angular/fire/storage';
-import { MockFirebaseService } from 'app/services/mock.firebase.service';
+import { MockFirebaseService } from '../../../services/mock.firebase.service';
 import { Movie } from '../../../domain/Movie';
 
 describe('MediadetailsComponent', () => {

@@ -1,7 +1,7 @@
 import { Country } from '../../../domain/Country';
 
 import { Component, Input, OnInit } from '@angular/core';
-import { FirebaseService } from 'app/services/firebase.service';
+import { FirebaseService } from '../../../services/firebase.service';
 
 @Component({
   selector: 'app-movie-alt-country',

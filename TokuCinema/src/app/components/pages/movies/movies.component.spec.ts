@@ -11,7 +11,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { MoviesComponent } from './movies.component';
 import { FirebaseService } from '../../../services/firebase.service';
 import { AngularFireStorageModule } from '@angular/fire/storage';
-import { MockFirebaseService } from 'app/services/mock.firebase.service';
+import { MockFirebaseService } from '../../../services/mock.firebase.service';
 
 describe('MoviesComponent', () => {
   let component: MoviesComponent;

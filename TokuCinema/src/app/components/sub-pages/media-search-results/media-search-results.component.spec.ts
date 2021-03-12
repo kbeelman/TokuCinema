@@ -6,7 +6,7 @@ import { MediaFiltersSearch } from '../../../pipes/media/mediaFilters.pipe';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MediaSearchResultsComponent } from './media-search-results.component';
-import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
+import { ReleaseYearSortPipe } from '../../../pipes/release-year-sort.pipe';
 
 describe('MediaSearchResultsComponent', () => {
   let component: MediaSearchResultsComponent;

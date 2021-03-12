@@ -1,4 +1,4 @@
-import { MetatagService } from 'app/services/metatag.service';
+import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';

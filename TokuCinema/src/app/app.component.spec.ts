@@ -32,7 +32,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 // Firebase config
 import { environment } from '../environments/environment';
-import { ReleaseYearSortPipe } from 'app/pipes/release-year-sort.pipe';
+import { ReleaseYearSortPipe } from './pipes/release-year-sort.pipe';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 
 describe('AppComponent', () => {

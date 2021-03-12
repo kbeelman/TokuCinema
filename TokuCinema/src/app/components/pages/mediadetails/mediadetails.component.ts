@@ -3,14 +3,14 @@ import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
 import { FirebaseService } from '../../../services/firebase.service';
-import { MetatagService } from 'app/services/metatag.service';
+import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { MediaGalleryComponent } from 'app/components/sub-pages/media-gallery/media-gallery.component';
+import { MediaGalleryComponent } from '../../../components/sub-pages/media-gallery/media-gallery.component';
 
 @Component({
   selector: 'app-mediadetails',
