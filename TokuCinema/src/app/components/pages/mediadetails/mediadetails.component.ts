@@ -111,13 +111,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
     ]);
     this.fdb.getImageMetadata(this.media.Path, 'media').then((metadata) => {
       const customMetadata = metadata.customMetadata;
-      if (customMetadata) {
-        if (customMetadata.width && customMetadata.height) {
-          this.metatagService.updateTags([
-            { property: 'og:image:width', content: customMetadata.width },
-            { property: 'og:image:height', content: customMetadata.height }
-          ]);
-        }
+      if (customMetadata && customMetadata.width && customMetadata.height) {
+        this.metatagService.updateTags([
+          { property: 'og:image:width', content: customMetadata.width },
+          { property: 'og:image:height', content: customMetadata.height }
+        ]);
       }
     });
   }
@@ -128,7 +126,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    */
   public doesHaveRuntimes(): boolean {
     this.movieDetails.forEach(item => {
-      if (!(item.Runtime === undefined)) {
+      if (item.Runtime !== undefined) {
         this.hasRuntimes = true;
       }
     });

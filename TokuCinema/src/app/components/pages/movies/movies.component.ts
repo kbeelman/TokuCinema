@@ -14,6 +14,8 @@ import { Observable } from 'rxjs';
   encapsulation: ViewEncapsulation.None
 })
 export class MoviesComponent implements OnInit {
+  readonly showFilters: string = 'Show filters +';
+
   title = 'Movies - Toku Cinema';
   movieItems = new Array<Movie>();
   searchTerm: string = '';
@@ -24,7 +26,7 @@ export class MoviesComponent implements OnInit {
   eraFilter: string = '';
   productionCompanyFilter: string = '';
   moviesData: Observable<any[]>;
-  showFilters: string = 'Show filters +';
+  showFiltersText: string = this.showFilters;
 
   languages = new Array<string>();
   distributors = new Array<string>();
@@ -77,10 +79,10 @@ export class MoviesComponent implements OnInit {
   }
 
   public toggleShowFilters(): void {
-    if (this.showFilters === 'Show filters +') {
-      this.showFilters = 'Hide filters -';
+    if (this.showFiltersText === this.showFilters) {
+      this.showFiltersText = 'Hide filters -';
     } else {
-      this.showFilters = 'Show filters +';
+      this.showFiltersText = this.showFilters;
     }
   }
 
@@ -95,23 +97,23 @@ export class MoviesComponent implements OnInit {
   }
 
   populateFiltersWithTheseOptions(movie: Movie): void {
-    if (!(this.directors.indexOf(movie.Director) >= 0)) {
+    if (this.directors.indexOf(movie.Director) < 0) {
       this.directors.push(movie.Director);
     }
-    if (!(this.distributors.indexOf(movie.Distributor) >= 0)) {
+    if (this.distributors.indexOf(movie.Distributor) < 0) {
       this.distributors.push(movie.Distributor);
     }
-    if (!(this.eras.indexOf(movie.Era) >= 0)) {
+    if (this.eras.indexOf(movie.Era) < 0) {
       this.eras.push(movie.Era);
     }
-    if (!(this.series.indexOf(movie.Series) >= 0)) {
+    if (this.series.indexOf(movie.Series) < 0) {
       this.series.push(movie.Series);
     }
-    if (!(this.productionCompanies.indexOf(movie.ProductionCompany) >= 0)) {
+    if (this.productionCompanies.indexOf(movie.ProductionCompany) < 0) {
       this.productionCompanies.push(movie.ProductionCompany);
     }
     movie.Languages.forEach(element => {
-      if (!(this.languages.indexOf(element) >= 0)) {
+      if (this.languages.indexOf(element) < 0) {
         this.languages.push(element);
       }
     });

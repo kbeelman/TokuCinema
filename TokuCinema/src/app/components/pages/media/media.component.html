@@ -6,7 +6,7 @@
     </div>
     
     <!--Filters-->
-    <div [ngClass]="{'hide-filters' : this.showFilters === 'Show filters +'}" class="filter-section">
+    <div [ngClass]="{'hide-filters' : this.showFiltersText === this.showFilters}" class="filter-section">
       <div class="filter-option">
         <select id="country-select" [(ngModel)]="this.countryFilter">
           <option value="">Filter by country</option>

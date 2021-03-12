@@ -134,47 +134,23 @@ export class Movie implements ISearchable {
     }
 
     public doesPosterExist(): boolean {
-        if (typeof this.OriginalPoster !== 'undefined') {
-            if (this.OriginalPoster.length > 1) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.OriginalPoster !== 'undefined' && this.OriginalPoster.length > 1;
     }
 
     public doesAlternateTitlesExist(): boolean {
-        if (typeof this.AlternateTitles !== 'undefined') {
-            if (this.AlternateTitles.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.AlternateTitles !== 'undefined' && this.AlternateTitles.length > 0;
     }
 
     public doesCastExist(): boolean {
-        if (typeof this.Cast !== 'undefined') {
-            if (this.Cast.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Cast !== 'undefined' && this.Cast.length > 0;
     }
 
     public doesCrewExist(): boolean {
-        if (typeof this.Crew !== 'undefined') {
-            if (this.Crew.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Crew !== 'undefined' && this.Crew.length > 0;
     }
 
     public doesCastOrCrewExist(): boolean {
-        if (this.doesCastExist || this.doesCrewExist()) {
-            return true;
-        } else {
-            return false;
-        }
+        return this.doesCastExist() || this.doesCrewExist();
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {

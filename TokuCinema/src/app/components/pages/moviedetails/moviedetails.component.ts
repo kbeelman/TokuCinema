@@ -58,15 +58,13 @@ export class MoviedetailsComponent implements OnDestroy {
         if (this.movie.doesPosterExist()) {
           this.fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata) => {
             const customMetadata = metadata.customMetadata;
-            if (customMetadata) {
-              if (customMetadata.width && customMetadata.height) {
-                this.metatagService.updateTags([
-                  { property: 'og:image:width', content: customMetadata.width },
-                  { property: 'og:image:height', content: customMetadata.height },
-                  { property: 'og:image:alt', content: imageAltTextTag },
-                  { name: 'twitter:image:alt', content: imageAltTextTag }
-                ]);
-              }
+            if (customMetadata && customMetadata.width && customMetadata.height) {
+              this.metatagService.updateTags([
+                { property: 'og:image:width', content: customMetadata.width },
+                { property: 'og:image:height', content: customMetadata.height },
+                { property: 'og:image:alt', content: imageAltTextTag },
+                { name: 'twitter:image:alt', content: imageAltTextTag }
+              ]);
             }
           });
         }
@@ -86,8 +84,6 @@ export class MoviedetailsComponent implements OnDestroy {
   }
 
   private getTrustedUrl(sourceUrl: string): SafeResourceUrl {
-    const safeUrl: SafeResourceUrl = this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
-
-    return safeUrl;
+    return this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
   }
 }

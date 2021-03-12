@@ -72,10 +72,10 @@ describe('MediaComponent', () => {
   });
 
   it('should toggle show filters', () => {
-    component.showFilters = 'Show filters +';
+    component.showFiltersText = 'Show filters +';
     component.toggleShowFilters();
-    expect(component.showFilters).toEqual('Hide filters -');
+    expect(component.showFiltersText).toEqual('Hide filters -');
     component.toggleShowFilters();
-    expect(component.showFilters).toEqual('Show filters +');
+    expect(component.showFiltersText).toEqual('Show filters +');
   });
 });

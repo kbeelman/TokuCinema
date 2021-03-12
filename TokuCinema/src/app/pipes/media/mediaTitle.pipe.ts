@@ -22,7 +22,7 @@ export class MediaTitleSearch implements PipeTransform {
         cleanedSubStrings.forEach(element => {
             const Itemresults = value.filter(item => (this.getCleanString(item.Title).indexOf(element.toLowerCase()) >= 0));
             Itemresults.forEach(subElement => {
-              if (!(results.indexOf(subElement) >= 0)) {
+              if (results.indexOf(subElement) < 0) {
                 results.push(subElement);
               }
             });

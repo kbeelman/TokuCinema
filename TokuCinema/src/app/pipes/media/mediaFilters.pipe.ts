@@ -1,3 +1,4 @@
+/* eslint sonarjs/cognitive-complexity: 0 */
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'mediaFilters' })

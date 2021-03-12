@@ -32,7 +32,7 @@ export class DomainBuilder {
     private buildMovie(): Movie {
         const movieData = this.RawData;
 
-        const movie: Movie = new Movie(
+        return new Movie(
             movieData.OfficialTitle,
             movieData.AlternateTitles,
             movieData.OriginalPoster,
@@ -51,25 +51,21 @@ export class DomainBuilder {
             movieData.AlternateVersionsPath,
             movieData.Path,
             movieData.Videos);
-
-        return movie;
     }
 
     private buildMovieAlternateVersion(): MovieAlternateVersion {
         const altVerData = this.RawData;
 
-        const movieAlternateVersion: MovieAlternateVersion = new MovieAlternateVersion(
+        return new MovieAlternateVersion(
             altVerData.Path,
             altVerData.Countries
         );
-
-        return movieAlternateVersion;
     }
 
     private buildMedia(): Media {
         const mediaData = this.RawData;
 
-        const media: Media = new Media(
+        return new Media(
             mediaData.Title,
             mediaData.AspectRatio,
             mediaData.Runtime,
@@ -97,14 +93,12 @@ export class DomainBuilder {
             mediaData.Path,
             []
         );
-
-        return media;
     }
 
     private buildMediaReview(): MediaReview {
         const mediaReviewData = this.RawData;
 
-        const mediaReview: MediaReview = new MediaReview(
+        return new MediaReview(
             mediaReviewData.Overview,
             mediaReviewData.Video,
             mediaReviewData.Audio,
@@ -112,8 +106,6 @@ export class DomainBuilder {
             mediaReviewData.Overall,
             mediaReviewData.FeaturedScreenShots,
         );
-
-        return mediaReview;
     }
 }
 

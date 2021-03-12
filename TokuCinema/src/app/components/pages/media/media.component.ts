@@ -15,6 +15,8 @@ import { Movie } from '../../../domain/Movie';
   encapsulation: ViewEncapsulation.None
 })
 export class MediaComponent implements OnInit {
+  readonly showFilters: string = 'Show filters +';
+
   title = 'Media - Toku Cinema';
   mediaItems = new Array<Media>();
   searchTerm: string = '';
@@ -25,7 +27,7 @@ export class MediaComponent implements OnInit {
   regionFilter: any = '';
   mediaData: Observable<any[]>;
   movieData: Observable<any[]>;
-  showFilters: string = 'Show filters +';
+  showFiltersText: string = this.showFilters;
 
   // Form use
   mediums = new Array<string>();
@@ -65,29 +67,7 @@ export class MediaComponent implements OnInit {
         });
 
         this.sortFilters();
-        this.mediaItems.sort((a: Media, b: Media) => {
-          if (a.Movies[0] && b.Movies[0]) {
-            const countryCompare: number = b.Country.localeCompare(a.Country);
-            if (countryCompare !== 0) {
-              return countryCompare;
-            }
-            if (a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear) {
-              return -1;
-            } else if (a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear) {
-              return 1;
-            }
-
-            if (a.ReleaseYear < b.ReleaseYear) {
-              return -1;
-            } else if (a.ReleaseYear > b.ReleaseYear) {
-              return 1;
-            } else {
-              return 0;
-            }
-          } else {
-            return 0;
-          }
-        });
+        this.sortMedia();
       });
     });
 
@@ -104,10 +84,10 @@ export class MediaComponent implements OnInit {
   }
 
   public toggleShowFilters(): void {
-    if (this.showFilters === 'Show filters +') {
-      this.showFilters = 'Hide filters -';
+    if (this.showFiltersText === this.showFilters) {
+      this.showFiltersText = 'Hide filters -';
     } else {
-      this.showFilters = 'Show filters +';
+      this.showFiltersText = this.showFilters;
     }
   }
 
@@ -120,36 +100,84 @@ export class MediaComponent implements OnInit {
     this.searchTerm = '';
   }
 
-  // Gurantees filters are only populated with viable options
+  /**
+   * @description Populates filters based on data from the Media
+   * @param {Media} media
+   */
   private populateFiltersWithTheseOptions(media: Media): void {
-    if (!(this.countries.indexOf(media.Country) >= 0)) {
+    if (this.shouldPushIntoList(this.countries, media.Country)) {
       this.countries.push(media.Country);
     }
+    if (typeof media.Region !== 'undefined' && media.Region.length > 0) {
+      media.Region.forEach(element => {
+        if (this.shouldPushIntoList(this.regions, element.Region)) {
+          this.regions.push(element.Region);
+        }
+      });
+    }
     media.Medium.forEach(element => {
-      if (!(this.mediums.indexOf(element) >= 0) && (!(element === ''))) {
+      if (this.shouldPushIntoList(this.mediums, element)) {
         this.mediums.push(element);
       }
     });
-    if (typeof media.Region !== 'undefined') {
-      if (media.Region.length > 0) {
-        media.Region.forEach(element => {
-          if (!(this.regions.indexOf(element.Region) >= 0) && (!(element.Region === ''))) {
-            this.regions.push(element.Region);
-          }
-        });
-      }
-    }
     media.AudioTracks.forEach(element => {
-      if (!(this.spokenLanguages.indexOf(element) >= 0) && (!(element === ''))) {
+      if (this.shouldPushIntoList(this.spokenLanguages, element)) {
         this.spokenLanguages.push(element);
       }
     });
     media.Subtitles.forEach(element => {
-      if (!(this.subtitleLanguages.indexOf(element) >= 0) && (!(element === ''))) {
+      if (this.shouldPushIntoList(this.subtitleLanguages, element)) {
         this.subtitleLanguages.push(element);
       }
     });
+  }
 
+  /**
+   * @description Checks if an element exists in the list or not and if the element is valid.
+   * @param {string[]} list
+   * @param {string} element
+   * @returns {boolean}
+   */
+  private shouldPushIntoList(list: string[], element: string): boolean {
+    return list.indexOf(element) < 0 && this.isBlank(element);
+  }
+
+  /**
+   * @description Checks if a string is blank, null, or undefined.
+   * @param {string} str
+   * @returns {boolean}
+   */
+  private isBlank(str: string): boolean {
+    return (!str || /^\s*$/.test(str));
+  }
+
+  /**
+   * @description Sorts media in order of Country, Movie release year, Media release year
+   */
+  private sortMedia(): void {
+    this.mediaItems.sort((a: Media, b: Media) => {
+      if (a.Movies[0] && b.Movies[0]) {
+        const countryCompare: number = b.Country.localeCompare(a.Country);
+        if (countryCompare !== 0) {
+          return countryCompare;
+        }
+        if (a.Movies[0].ReleaseYear < b.Movies[0].ReleaseYear) {
+          return -1;
+        } else if (a.Movies[0].ReleaseYear > b.Movies[0].ReleaseYear) {
+          return 1;
+        }
+
+        if (a.ReleaseYear < b.ReleaseYear) {
+          return -1;
+        } else if (a.ReleaseYear > b.ReleaseYear) {
+          return 1;
+        } else {
+          return 0;
+        }
+      } else {
+        return 0;
+      }
+    });
   }
 
   private sortFilters(): void {

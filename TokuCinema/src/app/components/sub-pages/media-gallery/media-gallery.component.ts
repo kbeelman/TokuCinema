@@ -52,8 +52,7 @@ export class MediaGalleryComponent {
     }
 
     shouldInit(array: Array<any>) {
-        const answer = array && array.length ? true : false;
-        return answer;
+        return array && array.length ? true : false;
     }
 
     setupImages(): void {
@@ -149,13 +148,11 @@ export class MediaGalleryComponent {
     }
 
     activeItemIsImage(): boolean {
-        const answer = this.activeItem.ItemType === ItemType.Image ? true : false;
-        return answer;
+        return this.activeItem.ItemType === ItemType.Image ? true : false;
     }
 
     activeItemIsVideo(): boolean {
-        const answer = this.activeItem.ItemType === ItemType.Video ? true : false;
-        return answer;
+        return this.activeItem.ItemType === ItemType.Video ? true : false;
     }
 
     setActiveItemFromUrl(url: string): void {
@@ -244,9 +241,7 @@ export class MediaGalleryComponent {
     }
 
     getTrustedUrl(sourceUrl: string): SafeResourceUrl {
-        const safeUrl: SafeResourceUrl = this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
-
-        return safeUrl;
+        return this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
     }
 
 }

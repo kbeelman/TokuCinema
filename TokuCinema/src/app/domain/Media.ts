@@ -56,7 +56,7 @@ export class Media implements ISearchable {
 
     // Draft method for exposing this class without affecting current media details page
     public GetMediaDetails(): MediaDetails {
-        const mediaDetails = new MediaDetails(
+        return new MediaDetails(
             this.Title,
             this.AspectRatio,
             this.Runtime,
@@ -84,7 +84,6 @@ export class Media implements ISearchable {
             this.BoxArt,
             this.ScreencapDescriptions
         );
-        return mediaDetails;
     }
 
     public setReleaseDate(): void {

@@ -5,6 +5,7 @@ import { Meta, MetaDefinition } from '@angular/platform-browser';
     providedIn: 'root'
 })
 export class MetatagService {
+    readonly property: string = 'property=\"';
 
     constructor(private meta: Meta) { }
 
@@ -25,9 +26,9 @@ export class MetatagService {
      * @returns {void}
      */
     private removeImageTags(): void {
-        this.meta.removeTag('property=\"og:image:width\"');
-        this.meta.removeTag('property=\"og:image:height\"');
-        this.meta.removeTag('property=\"og:image:alt\"');
+        this.meta.removeTag(this.property + 'og:image:width\"');
+        this.meta.removeTag(this.property + 'og:image:height\"');
+        this.meta.removeTag(this.property + 'og:image:alt\"');
         this.meta.removeTag('name=\"twitter:image:alt\"');
     }
 
@@ -54,13 +55,13 @@ export class MetatagService {
     private genericTagUpdate(tags: MetaDefinition[]): void {
         tags.forEach(tag => {
             // Check if a tag property already exists.
-            if (this.meta.getTag('property=\"' + tag.property + '\"')) {
+            if (this.meta.getTag(this.property + tag.property + '\"')) {
                 // If we're providing new tag content, update the existing tag.
                 if (tag.content) {
-                    this.meta.updateTag(tag, 'property=\"' + tag.property + '\"');
+                    this.meta.updateTag(tag, this.property + tag.property + '\"');
                 // If we're not providing new tag content, remove the existing tag.
                 } else {
-                    this.meta.removeTag('property=\"' + tag.property + '\"');
+                    this.meta.removeTag(this.property + tag.property + '\"');
                     if (tag.property === 'og:image') {
                         this.removeImageTags();
                     }

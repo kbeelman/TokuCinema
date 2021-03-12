@@ -1,3 +1,4 @@
+/* eslint sonarjs/cognitive-complexity: 0 */
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'deepSearch' })
@@ -49,7 +50,7 @@ export class DeepSearch implements PipeTransform {
         value.forEach(elementToAudit => {
           elementToAudit.names.forEach(subElement => {
             const indexOfElement = words.indexOf(subElement.word);
-            if (!(indexOfElement >= 0)) {
+            if (indexOfElement < 0) {
               words.push(subElement.word);
               counts.push(1);
             } else {

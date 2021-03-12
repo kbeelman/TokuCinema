@@ -32,7 +32,7 @@ export class MediaDetails {
     ) {
         const aspectCompArray: Array<string> = [];
         this.AspectRatio.forEach(element => {
-            if (!(aspectCompArray.indexOf(element.AspectRatio) >= 0)) {
+            if (aspectCompArray.indexOf(element.AspectRatio) < 0) {
                 aspectCompArray.push(element.AspectRatio);
             }
         });
@@ -42,7 +42,7 @@ export class MediaDetails {
 
         const colorCompArray: Array<string> = [];
         this.Color.forEach(element => {
-            if (!(colorCompArray.indexOf(element.Color) >= 0)) {
+            if (colorCompArray.indexOf(element.Color) < 0) {
                 colorCompArray.push(element.Color);
             }
         });
@@ -52,12 +52,7 @@ export class MediaDetails {
     }
 
     public doesAspectRatioExist(): boolean {
-        if (typeof this.AspectRatio !== 'undefined') {
-            if (this.AspectRatio.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.AspectRatio !== 'undefined' && this.AspectRatio.length > 0;
     }
 
     public getHasDifferentAspectRatios(): boolean {
@@ -65,10 +60,8 @@ export class MediaDetails {
     }
 
     public doesColorExist(): boolean {
-        if (typeof this.Color !== 'undefined') {
-            if (this.Color.length > 0) {
-                return true;
-            }
+        if (typeof this.Color !== 'undefined' && this.Color.length > 0) {
+            return true;
         }
         return false;
     }
@@ -78,48 +71,23 @@ export class MediaDetails {
     }
 
     public doesRuntimeExist(): boolean {
-        if (typeof this.Runtime !== 'undefined') {
-            if (this.Runtime.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Runtime !== 'undefined' && this.Runtime.length > 0;
     }
 
     public doesMediumExist(): boolean {
-        if (typeof this.Medium !== 'undefined') {
-            if (this.Medium.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Medium !== 'undefined' && this.Medium.length > 0;
     }
 
     public doesFormatExist(): boolean {
-        if (typeof this.Format !== 'undefined') {
-            if (this.Format.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Format !== 'undefined' && this.Format.length > 0;
     }
 
     public doesMediumCountExist(): boolean {
-        if (typeof this.MediumCount !== 'undefined') {
-            if (this.MediumCount.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.MediumCount !== 'undefined' && this.MediumCount.length > 0;
     }
 
     public doesRegionExist(): boolean {
-        if (typeof this.Region !== 'undefined') {
-            if (this.Region.length > 0) {
-                return true;
-            }
-        }
-        return false;
+        return typeof this.Region !== 'undefined' && this.Region.length > 0;
     }
 
     public getFirstMedium(): string {

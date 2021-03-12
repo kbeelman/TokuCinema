@@ -43,10 +43,8 @@ export class FirebaseService {
 
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
       const itemString = itemIsRoute ? this.getPathFromRoute(item) : item;
-      const branchItem = this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
+      return this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
         map(response => this.extractDomainObject(response, buildType)));
-
-      return branchItem;
     }
 
     public getImageMetadata(path: string, branchName: string): Promise<any> {

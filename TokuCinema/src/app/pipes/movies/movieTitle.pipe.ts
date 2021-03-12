@@ -1,3 +1,4 @@
+/* eslint sonarjs/cognitive-complexity: 0 */
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'movieTitle' })
@@ -23,7 +24,7 @@ export class MovieTitleSearch implements PipeTransform {
         cleanedSubStrings.forEach(element => {
             const titleResults = value.filter(item => (this.getCleanString(item.OfficialTitle).indexOf(element) >= 0));
             titleResults.forEach(subElement => {
-              if (!(results.indexOf(subElement) >= 0)) {
+              if (results.indexOf(subElement) < 0) {
                 results.push(subElement);
               }
             });
@@ -38,7 +39,7 @@ export class MovieTitleSearch implements PipeTransform {
                 movie.AlternateTitles.forEach(altTitle => {
                   if (this.getCleanString(altTitle.TitleValue) &&
                       this.getCleanString(altTitle.TitleValue).indexOf(element) >= 0 &&
-                      !(results.indexOf(movie) >= 0)) {
+                      results.indexOf(movie) < 0) {
                     results.push(movie);
                   }
                 });
@@ -53,7 +54,7 @@ export class MovieTitleSearch implements PipeTransform {
           value.forEach(movie => {
             if (movie.ReleaseYear &&
                 movie.ReleaseYear.toString().indexOf(element) >= 0 &&
-                !(results.indexOf(movie) >= 0)) {
+                results.indexOf(movie) < 0) {
                   results.push(movie);
             }
           });

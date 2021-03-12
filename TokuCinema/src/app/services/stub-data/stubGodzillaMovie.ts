@@ -1,3 +1,4 @@
+/* eslint sonarjs/no-duplicate-string: 0 */
 export const stubGodzillaMovie = {
   OfficialTitle: 'Godzilla',
   AlternateTitles: [

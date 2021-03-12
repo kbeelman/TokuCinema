@@ -4,3 +4,4 @@ node_modules
 polyfills.ts
 *.json
 **/*.json
+test.ts
