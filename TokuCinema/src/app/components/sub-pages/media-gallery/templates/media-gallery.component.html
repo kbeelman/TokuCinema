@@ -91,7 +91,7 @@
                 *ngFor="let pic of galleryImages; let i = index"
                 [ngStyle]="{
                     'background-image': 'url(' + pic.Thumb + ')',
-                    'alt': pic.alt
+                    'alt': pic.Alt
                 }"
                 [ngClass]="{'carousel-less-margin': galleryVideos && galleryVideos.length && i === 0}"
                 (click)="setActiveItem(pic); this.showItem = true">

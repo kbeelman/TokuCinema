@@ -23,19 +23,19 @@
           <li *ngIf="this.movie.Distributor">Distribution Company: {{this.movie.Distributor}}</li>
           <li *ngIf="this.movie.Runtime">Original Runtime: {{this.movie.Runtime}} minutes</li>
           <!-- Atlernate Titles Null Check -->
-          <div *ngIf="this.movie.doesAlternateTitlesExist(); then thenBlock_AtlernateTitles_NullCheck"></div>
-            <ng-template #thenBlock_AtlernateTitles_NullCheck>
+          <div *ngIf="this.movie.doesAlternateTitlesExist(); then thenBlock_AlternateTitles_NullCheck"></div>
+            <ng-template #thenBlock_AlternateTitles_NullCheck>
               <!-- Do we have more than 1 Atlernate Titles? -->
-              <div *ngIf="this.movie.AlternateTitles.length>1; then thenBlock_AtlernateTitles_multiple else elseBlock_AtlernateTitles_multiple"></div>
-                <ng-template #thenBlock_AtlernateTitles_multiple>
+              <div *ngIf="this.movie.AlternateTitles.length>1; then thenBlock_AlternateTitles_multiple else elseBlock_AlternateTitles_multiple"></div>
+                <ng-template #thenBlock_AlternateTitles_multiple>
                   <li>Atlernate Titles:
                     <ul>
                       <li *ngFor="let item of this.movie.AlternateTitles">{{item.TitleType}}: {{item.TitleValue}}</li>
                     </ul>
                   </li>
                 </ng-template>
-                <ng-template #elseBlock_AtlernateTitles_multiple>
-                  <li>Atlernate Title: {{this.movie.AtlernateTitles[0].TitleValue}}</li>
+                <ng-template #elseBlock_AlternateTitles_multiple>
+                  <li>Atlernate Title: {{this.movie.AlternateTitles[0].TitleValue}}</li>
                 </ng-template>
             </ng-template>
         </ul>
@@ -44,7 +44,7 @@
   </div>
   <div class="video">
     <iframe
-      *ngIf="this.trailerUrl"
+      *ngIf="this.trailerUrl !== ''"
       [src]="this.trailerUrl"
       frameborder="0"
       allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"

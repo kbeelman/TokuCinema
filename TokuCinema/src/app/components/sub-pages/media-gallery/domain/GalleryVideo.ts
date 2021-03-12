@@ -1,5 +1,5 @@
 import { ItemType } from './ItemType';
-import { IGalleryItem } from './IGalleryItem';
+import { IGalleryItem } from './iGalleryItem';
 
 export class GalleryVideo implements IGalleryItem {
     VideoId: string;

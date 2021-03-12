@@ -7,11 +7,22 @@
     "baseUrl": "src",
     "sourceMap": true,
     "declaration": false,
+    "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
+    // "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
@@ -21,5 +32,10 @@
       "dom"
     ],
     "module": "es2020"
-  }
+  },
+  "angularCompilerOptions": {
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": false
+  } 
 }

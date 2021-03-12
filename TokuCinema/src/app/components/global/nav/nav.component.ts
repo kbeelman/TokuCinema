@@ -67,7 +67,7 @@ export class NavComponent implements OnInit {
     this.searchOpen = !this.searchOpen;
     if (this.searchOpen) {
       this._ngZone.runOutsideAngular(() => {
-        setTimeout(() => document.getElementById('search-input').focus());
+        setTimeout(() => document?.getElementById('search-input')?.focus());
       });
     }
     if (this.navMenuOpen) {

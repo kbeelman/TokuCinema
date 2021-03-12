@@ -7,11 +7,11 @@ import { Keyword } from './Keyword';
 import { Movie } from './Movie';
 
 export class Media implements ISearchable {
-    public ReleaseYear: number;
-    public ReleaseDate: Date = new Date();
-    public CircaRelease: string;
-    public ImageCard: string;
-    public ImageDetails: string;
+    public ReleaseYear: number = 0;
+    public ReleaseDate: Date | undefined = new Date();
+    public CircaRelease: string = '';
+    public ImageCard: string = '';
+    public ImageDetails: string = '';
 
     constructor(
         // Main Feature Info
@@ -41,8 +41,8 @@ export class Media implements ISearchable {
         public MoviePath: Array<string>,
         public OriginalRelease: string,
         public BoxArt: Array<string>,
-        public Path?: string,
-        public Movies?: Array<Movie>
+        public Path: string,
+        public Movies: Array<Movie>
     ) {
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
@@ -89,16 +89,16 @@ export class Media implements ISearchable {
 
     public setReleaseDate(): void {
         if (isNaN(Number(this.ReleaseDateString.substr(0, 4)))) {
-            this.ReleaseDate = null;
+            this.ReleaseDate = undefined;
             this.CircaRelease = this.ReleaseDateString;
             this.ReleaseYear = Number(this.ReleaseDateString.substr(6, 4));
         } else {
-            this.ReleaseDate.setFullYear(Number(this.ReleaseDateString.substr(0, 4)));
-            this.ReleaseDate.setMonth(Number(this.ReleaseDateString.substr(5, 2)) - 1);
-            this.ReleaseDate.setDate(Number(this.ReleaseDateString.substr(8, 2)));
-            this.ReleaseDate.setHours(0, 0, 0 , 0); // Zero-out the time
+            (this.ReleaseDate as Date).setFullYear(Number(this.ReleaseDateString.substr(0, 4)));
+            (this.ReleaseDate as Date).setMonth(Number(this.ReleaseDateString.substr(5, 2)) - 1);
+            (this.ReleaseDate as Date).setDate(Number(this.ReleaseDateString.substr(8, 2)));
+            (this.ReleaseDate as Date).setHours(0, 0, 0 , 0); // Zero-out the time
 
-            this.ReleaseYear = this.ReleaseDate.getFullYear();
+            this.ReleaseYear = (this.ReleaseDate as Date).getFullYear();
         }
 
     }

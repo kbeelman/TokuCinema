@@ -12,6 +12,8 @@ export class ReleaseYearSortPipe implements PipeTransform {
       items.sort((a, b) => {
         if ((a.Movies[0] !== undefined) && (b.Movies[0] !== undefined)) {
           return a.Movies[0]['ReleaseYear'] - b.Movies[0]['ReleaseYear'];
+        } else {
+          return 0;
         }
       });
     // Sort by the release year of the array item if it's a movie

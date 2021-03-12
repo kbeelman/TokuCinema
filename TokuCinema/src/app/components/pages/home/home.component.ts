@@ -28,7 +28,16 @@ export class HomeComponent implements OnInit, OnDestroy {
     private fdb: FirebaseService,
     private titleService: Title,
     private metatagService: MetatagService
-  ) {}
+  ) {
+    this.sub = this.fdb.getBranch('media').subscribe((data) => {
+
+      // Select a random index in the media branch to display in the content tile
+      const winningNumber = Math.floor(Math.random() * data.length) + 0;
+
+      const builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
+      this.randomContent = builder.getDomainObject<Media>();
+    });
+  }
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
@@ -42,14 +51,6 @@ export class HomeComponent implements OnInit, OnDestroy {
       { name: 'description', content: descriptionTag },
       { property: 'og:image', content: '' }
     ]);
-    this.sub = this.fdb.getBranch('media').subscribe((data) => {
-
-      // Select a random index in the media branch to display in the content tile
-      const winningNumber = Math.floor(Math.random() * data.length) + 0;
-
-      const builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
-      this.randomContent = builder.getDomainObject<Media>();
-    });
   }
 
   ngOnDestroy() {

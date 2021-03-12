@@ -41,7 +41,7 @@ export class MoviedetailsComponent implements OnInit, OnDestroy {
           // redirect to 404
           this.pageNotFound = true;
         }
-        this.trailerUrl = this.movie.Videos ? this.getTrustedUrl('https://www.youtube.com/embed/' + this.movie.Videos[0]) : undefined;
+        this.trailerUrl = this.movie.Videos ? this.getTrustedUrl('https://www.youtube.com/embed/' + this.movie.Videos[0]) : '';
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
         const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
         const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').';

@@ -1,5 +1,5 @@
 import { Component, Input, Inject } from '@angular/core';
-import { IGalleryItem } from './domain/IGalleryItem';
+import { IGalleryItem } from './domain/iGalleryItem';
 import { GalleryImage } from './domain/GalleryImage';
 import { GalleryVideo } from './domain/GalleryVideo';
 import { ItemType } from './domain/ItemType';
@@ -11,12 +11,12 @@ import { DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 })
 
 export class MediaGalleryComponent {
-    @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}>;
-    @Input() videoIds: Array<{'Host': string, 'ID': string, 'Description': string}>;
-    @Input() numberOfImages?: number;
+    @Input() images: Array<{'Screencap': string, 'Thumbnail': string, 'Description': string, 'Name': string}> = [];
+    @Input() videoIds: Array<{'Host': string, 'ID': string, 'Description': string}> = [];
+    @Input() numberOfImages: number = 0;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;
-    activeItemSource: string | SafeResourceUrl;
+    activeItemSource: string | SafeResourceUrl = '';
     galleryVideos: Array<GalleryVideo> = new Array<GalleryVideo>();
     itemCount: number = 0;
     showItem: boolean = false;
@@ -159,7 +159,7 @@ export class MediaGalleryComponent {
     }
 
     setActiveItemFromUrl(url: string): void {
-        let galleryItem: IGalleryItem;
+        let galleryItem: IGalleryItem | undefined;
         let foundItem: boolean = false;
         let index: number = 0;
         while (index < this.galleryImages.length && !foundItem) {

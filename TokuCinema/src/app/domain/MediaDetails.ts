@@ -21,7 +21,7 @@ export class MediaDetails {
         public Distributor: string,
         public CatalogCode: string,
         public UPC: string,
-        public ReleaseDate: Date,
+        public ReleaseDate: Date | undefined,
         public CircaRelease: string,
         public ReleaseYear: number,
         public PurchaseLinks: Array<{'Vendor': string, 'Link': string}>,

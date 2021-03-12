@@ -35,9 +35,11 @@ export class MediaTitleSearch implements PipeTransform {
     }
   }
 
-  getCleanString(stringToClean: string): string {
+  private getCleanString(stringToClean: string): string {
     if (stringToClean && stringToClean.length) {
       return stringToClean.toLowerCase().trim().replace(/\W/g, '');
+    } else {
+      return '';
     }
   }
 

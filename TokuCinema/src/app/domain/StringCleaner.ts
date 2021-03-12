@@ -30,6 +30,8 @@ export class StringCleaner {
       } else {
         return this.replaceSpaces(cleanName[0]);
       }
+    } else {
+      return '';
     }
   }
 

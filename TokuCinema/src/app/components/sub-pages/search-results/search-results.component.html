@@ -8,7 +8,7 @@
         <div class="result-list">
           <app-search-result-tab
             class="result-item"
-            *ngFor="let item of screenedMovieItems | deepSearch : searchTerm | slice:0:6; let i = index;"
+            *ngFor="let item of screenedMovieItems | deepSearch : searchTerm | slice:0:6"
             [resultItem]="item"
             [pathRoot]="'movies'">
           </app-search-result-tab>
@@ -26,7 +26,7 @@
         <div class="result-list">
           <app-search-result-tab
             class="result-item"
-            *ngFor="let item of screenedMediaItems | deepSearch : searchTerm | slice:0:6; let i = index;"
+            *ngFor="let item of screenedMediaItems | deepSearch : searchTerm | slice:0:6"
             [resultItem]="item"
             [pathRoot]="'media'">
           </app-search-result-tab>

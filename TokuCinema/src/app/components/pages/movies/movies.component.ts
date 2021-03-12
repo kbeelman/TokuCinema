@@ -69,6 +69,8 @@ export class MoviesComponent implements OnInit {
           return -1;
         } else if (a.ReleaseYear > b.ReleaseYear) {
           return 1;
+        } else {
+          return 0;
         }
       });
     });

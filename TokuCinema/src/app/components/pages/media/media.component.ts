@@ -50,7 +50,6 @@ export class MediaComponent implements OnInit {
           const domainBuilder = new DomainBuilder(element, DataType.Media);
           const domainObject = domainBuilder.getDomainObject<Media>();
 
-          // Shitty nested algorithm here
           domainObject.MoviePath.forEach(mediaElement => {
             movieArray.forEach(movieElement => {
               if (mediaElement === movieElement.Path) {
@@ -66,7 +65,7 @@ export class MediaComponent implements OnInit {
         });
 
         this.sortFilters();
-        this.mediaItems.sort(function(a, b) {
+        this.mediaItems.sort(function(a: Media, b: Media) {
           if (a.Movies[0] && b.Movies[0]) {
             const countryCompare: number = b.Country.localeCompare(a.Country);
             if (countryCompare !== 0) {
@@ -85,6 +84,8 @@ export class MediaComponent implements OnInit {
             } else {
               return 0;
             }
+          } else {
+            return 0;
           }
         });
       });
