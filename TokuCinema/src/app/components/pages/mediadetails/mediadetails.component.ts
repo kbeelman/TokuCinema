@@ -24,10 +24,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   movieDetails: Movie[] = [];
   hasRuntimes: boolean = false;
   coverUrl: string = '';
-  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>;
-  videoGallery: Array<{'Host': string; 'ID': string; 'Description': string}>;
+  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
+  videoGallery: Array<{'Host': string; 'ID': string; 'Description': string}> = [];
   public pageNotFound = false;
   private sub: Subscription = new Subscription();
+
   private get pathname() {
     return document.location.pathname;
   }

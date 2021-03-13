@@ -9,8 +9,8 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './search-results.component.html'
 })
 export class SearchResultsComponent implements OnInit {
-  @Input() searchTerm: string;
-  @Input() searchItems: Array<ISearchable>;
+  @Input() searchTerm: string = '';
+  @Input() searchItems: Array<ISearchable> = [];
   movieItems = new Array<DeepSearchObject>();
   mediaItems = new Array<DeepSearchObject>();
 

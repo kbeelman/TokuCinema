@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
 export class MovieAltVersionComponent  {
 
   @Input() version: Version;
-  @Input() numVersions: number;
+  @Input() numVersions: number = 0;
 
   constructor(
   ) { }

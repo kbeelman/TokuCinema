@@ -15,18 +15,23 @@ export class Keyword {
         public attribute: boolean
     ) {
         this.word = this.word.replace(/\W/g, '').toLowerCase();
-        this.calculateScore();
+        this.score = this.calculateScore();
         this.negateIgnoreList();
     }
 
-    private calculateScore(): void {
+    private calculateScore(): number {
+        let score;
         if (this.exactMatch) {
-            this.score = 1000;
+            score = 1000;
         } else if (this.titleElement) {
-            this.score = 100 * this.word.length;
+            score = 100 * this.word.length;
         } else if (this.attribute) {
-            this.score = 50 * this.word.length;
+            score = 50 * this.word.length;
+        } else {
+            score = 0;
         }
+
+        return score;
     }
 
     private negateIgnoreList(): void {

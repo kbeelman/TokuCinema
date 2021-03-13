@@ -11,6 +11,8 @@ export class StringCleaner {
             this.CleanString = this.cleanString(stringToClean);
         } else if (stringType === StringType.WithRoute) {
             this.CleanString = this.cleanRouteName(stringToClean);
+        } else {
+          this.CleanString = '';
         }
     }
 
