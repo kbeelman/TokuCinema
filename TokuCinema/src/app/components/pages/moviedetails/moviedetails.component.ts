@@ -5,7 +5,6 @@ import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnDestroy, Inject } from '@angular/core';
-import { AngularFireList } from '@angular/fire/database';
 import { Title, SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
@@ -20,7 +19,6 @@ export class MoviedetailsComponent implements OnDestroy {
   movie: Movie;
   movieAlternateVersion: MovieAlternateVersion;
   mediaItems = new Array<Media>();
-  moviesData: AngularFireList<any[]>;
   trailerUrl: SafeResourceUrl;
 
   private sub: Subscription;

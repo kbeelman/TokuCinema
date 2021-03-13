@@ -7,7 +7,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-media-gallery',
-    templateUrl: 'templates/media-gallery.component.html'
+    templateUrl: 'media-gallery.component.html'
 })
 
 export class MediaGalleryComponent {

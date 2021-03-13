@@ -17,7 +17,7 @@
     "noUnusedLocals": true,
     // enable strict, then remove noImplicitAny, noImplicitThis, alwaysStrict, strictBindCallApply, strictNullChecks, strictFunctionTypes, and strictPropertyInitialization
     // "strict": true,
-    "noImplicitAny": true, // enable this
+    "noImplicitAny": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
     "strictBindCallApply": true,
@@ -37,6 +37,6 @@
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": false // enable this
+    "strictTemplates": true
   } 
 }

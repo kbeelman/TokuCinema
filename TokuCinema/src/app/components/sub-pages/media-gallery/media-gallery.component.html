@@ -76,7 +76,7 @@
             <div class="slider-carousel-image"
                 *ngFor="let video of galleryVideos; let i = index"
                 [ngStyle]="{
-                    'background-image': 'url(' + video.getThumbnailSource() + ')'
+                    'background-image': 'url(' + video.Url + ')'
                 }"
                 (click)="setActiveItem(video); this.showItem = true">
                 <!-- <div class="youtube-play-circle">

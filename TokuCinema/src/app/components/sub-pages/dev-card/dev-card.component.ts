@@ -1,3 +1,5 @@
+import { Developer } from '../../../domain/Types';
+
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -5,7 +7,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './dev-card.component.html'
 })
 export class DevCardComponent {
-  @Input() developer: {'name': string; 'imgUrl': string; 'bio': string; 'url': string};
+  @Input() developer: Developer;
 
   constructor() { }
 

@@ -1,3 +1,4 @@
+import { MediaGalleryComponent } from '../../../components/sub-pages/media-gallery/media-gallery.component';
 import { DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
@@ -7,11 +8,9 @@ import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
-import { AngularFireList } from '@angular/fire/database';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { MediaGalleryComponent } from '../../../components/sub-pages/media-gallery/media-gallery.component';
 
 @Component({
   selector: 'app-mediadetails',
@@ -19,7 +18,6 @@ import { MediaGalleryComponent } from '../../../components/sub-pages/media-galle
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
   @ViewChild('mediaGallery') public mediaGallery: MediaGalleryComponent;
-  mediaData: AngularFireList<any[]>;
   media: Media;
   mediaDetails: MediaDetails;
   mediaReview: MediaReview;
@@ -29,7 +27,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>;
   videoGallery: Array<{'Host': string; 'ID': string; 'Description': string}>;
   public pageNotFound = false;
-  private sub: Subscription;
+  private sub: Subscription = new Subscription();
   private get pathname() {
     return document.location.pathname;
   }

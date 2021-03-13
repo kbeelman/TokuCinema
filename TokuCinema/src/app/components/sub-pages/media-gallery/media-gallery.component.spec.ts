@@ -1,7 +1,7 @@
 import { TestBed, ComponentFixture, waitForAsync } from '@angular/core/testing';
-import { MediaGalleryComponent } from '../media-gallery.component';
-import { GalleryImage } from '../domain/GalleryImage';
-import { GalleryVideo } from '../domain/GalleryVideo';
+import { MediaGalleryComponent } from './media-gallery.component';
+import { GalleryImage } from './domain/GalleryImage';
+import { GalleryVideo } from './domain/GalleryVideo';
 
 const stubImages = [
     new GalleryImage(

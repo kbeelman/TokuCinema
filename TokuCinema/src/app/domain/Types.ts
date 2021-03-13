@@ -19,25 +19,42 @@ export type SeriesType = 'Godzilla' | 'Gamera' | 'Universal';
 export type EraType = 'Showa' | 'Heisei';
 
 export class Title {
-    TitleType: string;
-    TitleValue: string;
+    constructor(
+        public TitleType: string,
+        public TitleValue: string
+    ) {}
 }
 
 export class Actor {
-    ActorName: string;
-    RoleName: string;
+    constructor(
+        public ActorName: string,
+        public RoleName: string
+    ) {}
 }
 
 export class CrewMember {
-    PositionTitle: string;
-    Name: string;
+    constructor(
+        public PositionTitle: string,
+        public Name: string
+    ) {}
 }
 
 export class DeepSearchObject {
-    name: string;
-    names: Array<Keyword>;
-    type: string;
-    path: string;
-    score: number;
-    iconName: string;
+    constructor(
+        public name: string,
+        public names: Array<Keyword>,
+        public type: string,
+        public path: string,
+        public score: number,
+        public iconName: string
+    ) {}
+}
+
+export class Developer {
+    constructor(
+        public name: string,
+        public imgUrl: string,
+        public bio: string,
+        public url: string
+    ) { }
 }

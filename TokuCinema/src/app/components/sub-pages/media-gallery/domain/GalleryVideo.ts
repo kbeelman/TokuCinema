@@ -7,6 +7,7 @@ export class GalleryVideo implements IGalleryItem {
     ItemType: ItemType;
     Host: string;
     Alt: string;
+    Url: string;
 
     constructor(host: string, videoId: string, index: number, alt: string) {
         this.VideoId = videoId;
@@ -14,13 +15,18 @@ export class GalleryVideo implements IGalleryItem {
         this.ItemType = ItemType.Video;
         this.Host = host;
         this.Alt = alt;
+        this.Url = this.getThumbnailSource();
     }
 
     public GetSource(): string {
         return this.VideoId;
     }
 
-    public getThumbnailSource(): string {
+    public getHost(): string {
+        return this.Host;
+    }
+
+    private getThumbnailSource(): string {
         let thumbNailUrl;
         if (this.Host === 'YT') {
             thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/mqdefault.jpg';
@@ -32,9 +38,5 @@ export class GalleryVideo implements IGalleryItem {
         }
 
         return thumbNailUrl;
-    }
-
-    public getHost(): string {
-        return this.Host;
     }
 }

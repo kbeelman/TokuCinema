@@ -1,5 +1,6 @@
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Movie } from '../../../domain/Movie';
+import { LanguageType } from '../../../domain/Types';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
@@ -19,7 +20,7 @@ export class MoviesComponent implements OnInit {
   title = 'Movies - Toku Cinema';
   movieItems = new Array<Movie>();
   searchTerm: string = '';
-  spokenLanguageFilter: string = '';
+  spokenLanguageFilter: LanguageType = '';
   distributorFilter: string = '';
   directorFilter: string = '';
   seriesFilter: string = '';
