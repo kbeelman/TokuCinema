@@ -1,9 +1,12 @@
 /* eslint sonarjs/cognitive-complexity: 0 */
+import { Movie } from '../../domain/Movie';
+import { Title } from '../../domain/Types';
+
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'movieTitle' })
 export class MovieTitleSearch implements PipeTransform {
-  transform(value, args) {
+  transform(value: Movie[], args: string) {
     if (args && this.getCleanString(args).length >= 3) {
         const results = new Array<any>();
 
@@ -34,9 +37,9 @@ export class MovieTitleSearch implements PipeTransform {
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
           if (element !== 'the') {
-            value.forEach(movie => {
+            value.forEach((movie: Movie) => {
               if (movie.AlternateTitles && movie.AlternateTitles.length) {
-                movie.AlternateTitles.forEach(altTitle => {
+                movie.AlternateTitles.forEach((altTitle: Title) => {
                   if (this.getCleanString(altTitle.TitleValue) &&
                       this.getCleanString(altTitle.TitleValue).indexOf(element) >= 0 &&
                       results.indexOf(movie) < 0) {
@@ -51,7 +54,7 @@ export class MovieTitleSearch implements PipeTransform {
         // years
         // add results for each string to list
         cleanedSubStrings.forEach(element => {
-          value.forEach(movie => {
+          value.forEach((movie: Movie) => {
             if (movie.ReleaseYear &&
                 movie.ReleaseYear.toString().indexOf(element) >= 0 &&
                 results.indexOf(movie) < 0) {

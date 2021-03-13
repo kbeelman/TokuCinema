@@ -1,6 +1,8 @@
+import { LanguageType } from './Types';
+
 // More of a struct
 export class MovieFilterPackage {
-    public SpokenLanguage: string;
+    public SpokenLanguage: LanguageType;
     public Distributor: string;
     public Director: string;
     public Series: string;
@@ -8,7 +10,7 @@ export class MovieFilterPackage {
     public ProductionCompany: string;
 
     constructor(
-        spokenLanguage?: string,
+        spokenLanguage?: LanguageType,
         distributor?: string,
         director?: string,
         series?: string,

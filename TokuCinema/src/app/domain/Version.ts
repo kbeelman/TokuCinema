@@ -1,8 +1,10 @@
+import { Actor, CrewMember, Title } from './Types';
+
 export class Version {
-    'MainTitle': Array<{'TitleType': string; 'TitleValue': string}>;
-    'Cast': Array<{'ActorName': string; 'RoleName': string}>;
-    'DubCast': Array<{'ActorName': string; 'RoleName': string}>;
-    'Crew': Array<{'PositionTitle': string; 'Name': string}>;
+    'MainTitle': Array<Title>;
+    'Cast': Array<Actor>;
+    'DubCast': Array<Actor>;
+    'Crew': Array<CrewMember>;
     'DubCompany': string;
     'ProductionCompany': string;
     'DistributionCompany': string;
@@ -10,7 +12,7 @@ export class Version {
     'Runtime': string;
     'Rating': Array<{'RatingSystem': string; 'RatingValue': string}>;
     'Iterations': Array<{
-        'AlternateTitle': Array<{'TitleType': string; 'TitleValue': string}>;
+        'AlternateTitle': Array<Title>;
         'Name': string;
         'MediaPath': Array<{'Descriptor': string; 'Path': string}>;
         'Runtime': string;

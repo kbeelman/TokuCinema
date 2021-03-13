@@ -17,7 +17,7 @@
     "noUnusedLocals": true,
     // enable strict, then remove noImplicitAny, noImplicitThis, alwaysStrict, strictBindCallApply, strictNullChecks, strictFunctionTypes, and strictPropertyInitialization
     // "strict": true,
-    "noImplicitAny": false, // enable this
+    "noImplicitAny": true, // enable this
     "noImplicitThis": true,
     "alwaysStrict": true,
     "strictBindCallApply": true,

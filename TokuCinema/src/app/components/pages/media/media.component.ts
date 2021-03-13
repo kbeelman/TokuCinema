@@ -1,12 +1,12 @@
 import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
+import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
-import { Movie } from '../../../domain/Movie';
 
 @Component({
   selector: 'app-media',
@@ -18,7 +18,7 @@ export class MediaComponent implements OnInit {
   readonly showFilters: string = 'Show filters +';
 
   title = 'Media - Toku Cinema';
-  mediaItems = new Array<Media>();
+  mediaItems: Media[] = [];
   searchTerm: string = '';
   mediumFilter: string = '';
   spokenLanguageFilter: string = '';
@@ -139,7 +139,7 @@ export class MediaComponent implements OnInit {
    * @returns {boolean}
    */
   private shouldPushIntoList(list: string[], element: string): boolean {
-    return list.indexOf(element) < 0 && this.isBlank(element);
+    return list.indexOf(element) < 0 && !this.isBlank(element);
   }
 
   /**

@@ -2,6 +2,7 @@ import { DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
+import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
@@ -22,7 +23,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   media: Media;
   mediaDetails: MediaDetails;
   mediaReview: MediaReview;
-  movieDetails: any = [];
+  movieDetails: Movie[] = [];
   hasRuntimes: boolean = false;
   coverUrl: string = '';
   imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>;
@@ -66,11 +67,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    * @description Gathers the information for the MediaDetails.
    */
   subscribeToMediaDetails(): void {
-    this.mediaDetails.MovieDetails.forEach(element => {
+    this.mediaDetails.MovieDetails.forEach((element: string) => {
       this.fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe((movieData) => {
         if (movieData) {
           let alreadyContainsMovie: boolean = false;
-          this.movieDetails.forEach(existingMovies => {
+          this.movieDetails.forEach((existingMovies: Movie) => {
             if (existingMovies.Path === movieData.Path) {
               alreadyContainsMovie = true;
             }

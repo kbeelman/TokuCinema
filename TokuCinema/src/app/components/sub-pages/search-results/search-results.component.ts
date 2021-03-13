@@ -1,7 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
 import { ISearchable } from '../../../domain/ISearchable';
 import { ItemType } from '../../../domain/ItemType';
-import { Keyword } from '../../../domain/Keyword';
+import { DeepSearchObject } from '../../../domain/Types';
+
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-search-results',
@@ -10,8 +11,8 @@ import { Keyword } from '../../../domain/Keyword';
 export class SearchResultsComponent implements OnInit {
   @Input() searchTerm: string;
   @Input() searchItems: Array<ISearchable>;
-  movieItems = new Array<{'name': string; 'names': Array<Keyword>; 'type': string; 'path': string; 'score': number; 'iconName': string}>();
-  mediaItems = new Array<{'name': string; 'names': Array<Keyword>; 'type': string; 'path': string; 'score': number; 'iconName': string}>();
+  movieItems = new Array<DeepSearchObject>();
+  mediaItems = new Array<DeepSearchObject>();
 
   constructor() { }
 

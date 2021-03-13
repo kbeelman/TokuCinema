@@ -1,3 +1,6 @@
+import { Media } from '../domain/Media';
+import { Movie } from '../domain/Movie';
+
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
@@ -5,11 +8,10 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ReleaseYearSortPipe implements PipeTransform {
 
-  transform(items: Array<any>, isMedia: boolean): any {
-
+  transform(items: (Movie | Media)[], isMedia: boolean): any {
     // Sort by first movie's release year if media
     if (isMedia) {
-      items.sort((a, b) => {
+      (items as Media[]).sort((a: Media, b: Media) => {
         if ((a.Movies[0] !== undefined) && (b.Movies[0] !== undefined)) {
           return a.Movies[0].ReleaseYear - b.Movies[0].ReleaseYear;
         } else {

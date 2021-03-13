@@ -95,7 +95,7 @@ export class FirebaseService {
 
     private extractDomainObject(res: any, buildType: DataType): Observable<any> {
       let domainObject: any;
-      res.forEach(element => {
+      res.forEach((element: any) => {
         if (element) {
           const domainBuilder = new DomainBuilder(element, buildType);
           domainObject = domainBuilder.getDomainObject();

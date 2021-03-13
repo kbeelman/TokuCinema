@@ -26,6 +26,9 @@ export class GalleryVideo implements IGalleryItem {
             thumbNailUrl = 'https://img.youtube.com/vi/' + this.VideoId + '/mqdefault.jpg';
         } else if (this.Host === 'DM') {
             thumbNailUrl = 'https://www.dailymotion.com/thumbnail/video/' + this.VideoId;
+        } else {
+            /** @todo - Make a thumbnail for unknown sources */
+            return '';
         }
 
         return thumbNailUrl;

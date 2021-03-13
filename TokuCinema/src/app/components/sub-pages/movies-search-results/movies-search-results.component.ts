@@ -1,5 +1,7 @@
+import { LanguageType } from '../../../domain/Types';
 import { MovieFilterPackage } from '../../../domain/MovieFilterPackage';
 import { Movie } from '../../../domain/Movie';
+
 import { Component, Input, OnChanges } from '@angular/core';
 
 @Component({
@@ -9,7 +11,7 @@ import { Component, Input, OnChanges } from '@angular/core';
 export class MoviesSearchResultsComponent implements OnChanges {
   @Input() movieItems: Array<Movie>;
   @Input() searchTerm: string;
-  @Input() spokenLanguageFilter: string;
+  @Input() spokenLanguageFilter: LanguageType;
   @Input() distributor: string;
   @Input() director: string;
   @Input() series: string;

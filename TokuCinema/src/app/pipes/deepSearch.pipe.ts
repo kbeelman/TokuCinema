@@ -1,27 +1,30 @@
 /* eslint sonarjs/cognitive-complexity: 0 */
+import { Keyword } from '../domain/Keyword';
+import { DeepSearchObject } from '../domain/Types';
+
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({ name: 'deepSearch' })
 export class DeepSearch implements PipeTransform {
-  public transform(value, args) {
+  public transform(value: DeepSearchObject[], args: string) {
     const worthSearching = (args !== undefined && args.trim().length > 1 && value);
 
     if (worthSearching) {
         const cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
-        const results = new Array<any>();
+        const results: DeepSearchObject[] = [];
 
         // create search strings - deliminited by space
         const substrings = args.split(' ');
         const cleanedSubStrings = new Array<string>();
-        substrings.forEach(element => {
-          if (element !== '' || element !== ' ') {
+        substrings.forEach((element: string) => {
+          if (element.trim() !== '') {
             cleanedSubStrings.push(element.trim().replace(/\W/g, ''));
           }
         });
 
         // exact match pass
-        value.forEach(element => {
-          element.names.forEach(nameElement => {
+        value.forEach((element: DeepSearchObject) => {
+          element.names.forEach((nameElement: Keyword) => {
             if (nameElement.exactMatch) {
               let itAlreadExists: boolean = false;
 
@@ -30,7 +33,8 @@ export class DeepSearch implements PipeTransform {
                 names: element.names,
                 path: element.path,
                 score: 1000,
-                iconName: element.iconName
+                iconName: element.iconName,
+                type: element.type
               };
 
               results.forEach(subElement => {
@@ -47,8 +51,8 @@ export class DeepSearch implements PipeTransform {
         // weight commonality of keyword
         const words = new Array<string>();
         const counts = new Array<number>();
-        value.forEach(elementToAudit => {
-          elementToAudit.names.forEach(subElement => {
+        value.forEach((elementToAudit: DeepSearchObject) => {
+          elementToAudit.names.forEach((subElement: Keyword) => {
             const indexOfElement = words.indexOf(subElement.word);
             if (indexOfElement < 0) {
               words.push(subElement.word);
@@ -60,8 +64,8 @@ export class DeepSearch implements PipeTransform {
         });
 
         // apply weightings at name level
-        value.forEach(elementToWeight => {
-          elementToWeight.names.forEach(subElement => {
+        value.forEach((elementToWeight: DeepSearchObject) => {
+          elementToWeight.names.forEach((subElement: Keyword) => {
             const indexOfElement = words.indexOf(subElement.word);
             if (indexOfElement >= 0) {
               subElement.score = subElement.score / counts[indexOfElement];
@@ -70,9 +74,9 @@ export class DeepSearch implements PipeTransform {
         });
 
         // add results for each string to list
-        cleanedSubStrings.forEach(searchElement => {
-            value.forEach(resultElement => {
-              resultElement.names.forEach(resultNameElement => {
+        cleanedSubStrings.forEach((searchElement: string) => {
+            value.forEach((resultElement: DeepSearchObject) => {
+              resultElement.names.forEach((resultNameElement: Keyword) => {
 
                 if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
 
@@ -82,12 +86,13 @@ export class DeepSearch implements PipeTransform {
                     names: resultElement.names,
                     path: resultElement.path,
                     score: resultNameElement.score,
-                    iconName: resultElement.iconName
+                    iconName: resultElement.iconName,
+                    type: resultElement.type
                   };
 
                   // add result to list if not already there - add to score if already there
                   let alreadyExists: boolean = false;
-                  results.forEach(subElement => {
+                  results.forEach((subElement: DeepSearchObject) => {
                     if (subElement.path === resultToAdd.path) {
                       alreadyExists = true;
                       subElement.score += resultToAdd.score;
@@ -113,7 +118,7 @@ export class DeepSearch implements PipeTransform {
     }
   }
 
-  standardSearch(value, args) {
+  standardSearch(value: DeepSearchObject[], args: string) {
     return value.filter( item => (item.name.toLowerCase().indexOf(args.toLowerCase()) >= 0));
   }
 }
