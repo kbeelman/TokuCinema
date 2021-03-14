@@ -4,6 +4,7 @@ import { Media } from '../../../domain/Media';
 import { MediaDetails } from '../../../domain/MediaDetails';
 import { MediaReview } from '../../../domain/MediaReview';
 import { Movie } from '../../../domain/Movie';
+import { ImageScreencap, VideoScreencap } from '../../../domain/Types';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
@@ -24,8 +25,8 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   movieDetails: Movie[] = [];
   hasRuntimes: boolean = false;
   coverUrl: string = '';
-  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
-  videoGallery: Array<{'Host': string; 'ID': string; 'Description': string}> = [];
+  imageGallery: Array<ImageScreencap> = [];
+  videoGallery: Array<VideoScreencap> = [];
   public pageNotFound = false;
   private sub: Subscription = new Subscription();
 

@@ -1,5 +1,16 @@
 import { StringCleaner, StringType } from './StringCleaner';
-import { ColorSystemType, LanguageType } from './Types';
+import {
+    ColorSystemType,
+    LanguageType,
+    MediaVendor,
+    MediumCount,
+    MediumFormat,
+    MediumRegion,
+    VersionAspectRatio,
+    VersionChapters,
+    VersionColor,
+    VersionRuntime
+} from './Types';
 import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
@@ -16,20 +27,20 @@ export class Media implements ISearchable {
     constructor(
         // Main Feature Info
         public Title: string,
-        public AspectRatio: Array<{'Version': string; 'AspectRatio': string}>,
-        public Runtime: Array<{'Version': string; 'Runtime': number}>,
-        public Color: Array<{'Version': string; 'Color': string}>,
-        public ChapterStops: Array<{'Version': string; 'Count': number}>,
+        public AspectRatio: Array<VersionAspectRatio>,
+        public Runtime: Array<VersionRuntime>,
+        public Color: Array<VersionColor>,
+        public ChapterStops: Array<VersionChapters>,
         public Subtitles: Array<string>,
         public SubtitlesDetails: Array<LanguageType>,
         public AudioTracks: Array<string>,
         public AudioTracksDetails: Array<LanguageType>,
         // Medium Information
         public Medium: Array<string>,
-        public Format: Array<{'Medium': string; 'Format': number}>,
-        public Region: Array<{'Medium': string; 'Region': string}>,
+        public Format: Array<MediumFormat>,
+        public Region: Array<MediumRegion>,
         public Country: string,
-        public MediumCount: Array<{'Medium': string; 'Count': number}>,
+        public MediumCount: Array<MediumCount>,
         public ColorSystem: ColorSystemType,
         public ScreencapDescriptions: Array<string>,
         // Distributor Information
@@ -37,7 +48,7 @@ export class Media implements ISearchable {
         public CatalogCode: string,
         public UPC: string,
         public ReleaseDateString: string,
-        public PurchaseLinks: Array<{'Vendor': string; 'Link': string}>,
+        public PurchaseLinks: Array<MediaVendor>,
         public MoviePath: Array<string>,
         public OriginalRelease: string,
         public BoxArt: Array<string>,

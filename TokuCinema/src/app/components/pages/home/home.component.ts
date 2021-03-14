@@ -1,5 +1,6 @@
 import { DataType, DomainBuilder } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
+import { MenuItems } from '../../../domain/Types';
 import { FirebaseService } from './../../../services/firebase.service';
 import { MetatagService } from './../../../services/metatag.service';
 
@@ -15,7 +16,7 @@ import { Subscription } from 'rxjs';
 export class HomeComponent implements OnInit, OnDestroy {
   title = 'Toku Cinema';
   public randomContent: Media;
-  public landingPages: Array<{'text': string; 'link': string; 'body': string}> = [
+  public landingPages: Array<MenuItems> = [
     { text: 'Movie List', link: '/movies',
       body: 'Information on all of your favorite Tokusatsu, Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.' },
     { text: 'Home Media Releases', link: '/media',

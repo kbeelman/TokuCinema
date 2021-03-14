@@ -1,10 +1,12 @@
+import { ReviewElement } from './Types';
+
 export class MediaReview {
     constructor(
         public Overview: string,
-        public Video: Array<{'Score': number; 'Description': number}>,
-        public Audio: Array<{'Score': number; 'Description': number}>,
-        public Extras: Array<{'Score': number; 'Description': number}>,
-        public Overall: Array<{'Score': number; 'Description': number}>,
+        public Video: Array<ReviewElement>,
+        public Audio: Array<ReviewElement>,
+        public Extras: Array<ReviewElement>,
+        public Overall: Array<ReviewElement>,
         public FeaturedScreenShots: Array<number>
     ) {}
 }

@@ -1,8 +1,10 @@
-import { Component, Input, Inject } from '@angular/core';
 import { IGalleryItem } from './domain/iGalleryItem';
 import { GalleryImage } from './domain/GalleryImage';
 import { GalleryVideo } from './domain/GalleryVideo';
 import { ItemType } from './domain/ItemType';
+import { ImageScreencap, VideoScreencap } from '../../../domain/Types';
+
+import { Component, Input, Inject } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
@@ -11,8 +13,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 
 export class MediaGalleryComponent {
-    @Input() images: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
-    @Input() videoIds: Array<{'Host': string; 'ID': string; 'Description': string}> = [];
+    @Input() images: Array<ImageScreencap> = [];
+    @Input() videoIds: Array<VideoScreencap> = [];
     @Input() numberOfImages: number = 0;
     galleryImages: Array<GalleryImage> = new Array<GalleryImage>();
     activeItem: IGalleryItem;

@@ -1,4 +1,5 @@
 import { Country } from '../../../domain/Country';
+import { ImageScreencap } from '../../../domain/Types';
 
 import { Component, Input, OnInit } from '@angular/core';
 import { FirebaseService } from '../../../services/firebase.service';
@@ -11,7 +12,7 @@ export class MovieAltCountryComponent implements OnInit {
   @Input() country: Country = new Country();
   @Input() path: string = '';
 
-  imageGallery: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
+  imageGallery: Array<ImageScreencap> = [];
 
   constructor(
     private fdb: FirebaseService

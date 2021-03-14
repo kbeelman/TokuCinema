@@ -1,22 +1,18 @@
-import { DataType, DomainBuilder } from '../domain/Builder';
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 import { stubGodzillaMedia } from './stub-data/stubGodzillaMedia';
 import { stubGodzillaMovie } from './stub-data/stubGodzillaMovie';
 import { stubGodzillaMovieAlternateVersion } from './stub-data/stubGodzillaMovieAlternateVersion';
+import { DataType, DomainBuilder } from '../domain/Builder';
 import { Media } from '../domain/Media';
 import { Movie } from '../domain/Movie';
 import { MovieAlternateVersion } from '../domain/MovieAlternateVersion';
+import { BranchData } from '../domain/Types';
+
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable()
 export class MockFirebaseService {
-  public cachedData: Array<{
-    branchName: string;
-    data: Observable<any>;
-  }> = new Array<{
-    branchName: string;
-    data: Observable<any>;
-  }>();
+  public cachedData: Array<BranchData> = new Array<BranchData>();
 
   constructor() { }
 

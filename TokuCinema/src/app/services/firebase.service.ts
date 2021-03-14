@@ -1,5 +1,6 @@
 import { DomainBuilder, DataType } from '../domain/Builder';
 import { StringCleaner, StringType } from '../domain/StringCleaner';
+import { BranchData, ImageScreencap } from '../domain/Types';
 
 import { Injectable } from '@angular/core';
 import { AngularFireStorage } from '@angular/fire/storage';
@@ -10,13 +11,7 @@ import { ListResult } from '@angular/fire/storage/interfaces';
 
 @Injectable()
 export class FirebaseService {
-    public cachedData: Array<{
-          branchName: string;
-          data: Observable<any>;
-        }> = new Array<{
-          branchName: string;
-          data: Observable<any>;
-        }>();
+    public cachedData: Array<BranchData> = new Array<BranchData>();
 
     constructor(
       private db: AngularFireDatabase,
@@ -51,46 +46,45 @@ export class FirebaseService {
       return this.fireStorage.storage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
     }
 
-    getImages(branchName: string, path: string, descriptions: Array<string>):
-      Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> {
-        const returnList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> = [];
-        const imageDirectory = branchName === 'media' ? '/screencaps' : '';
-        const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
-        const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
+    getImages(branchName: string, path: string, descriptions: Array<string>): Array<ImageScreencap> {
+      const returnList: Array<ImageScreencap> = [];
+      const imageDirectory = branchName === 'media' ? '/screencaps' : '';
+      const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
+      const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
 
-        fullStorageRef.list().then((folderData: ListResult) => {
-          folderData.items.forEach((image, index) => {
-            returnList.push({ Screencap: '', Thumbnail: '', Description: descriptions[index], Name: image.name });
+      fullStorageRef.list().then((folderData: ListResult) => {
+        folderData.items.forEach((image, index) => {
+          returnList.push({ Screencap: '', Thumbnail: '', Description: descriptions[index], Name: image.name });
+        });
+
+        folderData.items.forEach(image => {
+          image.getDownloadURL().then((url) => {
+            const index = this.getImageIndex(returnList, image.name);
+            if (index !== -1) {
+              const tempItem = JSON.parse(JSON.stringify(returnList[index]));
+              tempItem.Screencap = url;
+              returnList.splice(index, 1, tempItem);
+              this.sortImageList(returnList);
+            }
           });
+        });
 
-          folderData.items.forEach(image => {
+        thumbStorageRef.list().then((thumbFolder: ListResult) => {
+          thumbFolder.items.forEach(image => {
             image.getDownloadURL().then((url) => {
               const index = this.getImageIndex(returnList, image.name);
               if (index !== -1) {
                 const tempItem = JSON.parse(JSON.stringify(returnList[index]));
-                tempItem.Screencap = url;
+                tempItem.Thumbnail = url;
                 returnList.splice(index, 1, tempItem);
                 this.sortImageList(returnList);
               }
             });
           });
-
-          thumbStorageRef.list().then((thumbFolder: ListResult) => {
-            thumbFolder.items.forEach(image => {
-              image.getDownloadURL().then((url) => {
-                const index = this.getImageIndex(returnList, image.name);
-                if (index !== -1) {
-                  const tempItem = JSON.parse(JSON.stringify(returnList[index]));
-                  tempItem.Thumbnail = url;
-                  returnList.splice(index, 1, tempItem);
-                  this.sortImageList(returnList);
-                }
-              });
-            });
-          });
         });
+      });
 
-        return returnList;
+      return returnList;
     }
 
     private extractDomainObject(res: any, buildType: DataType): Observable<any> {
@@ -105,7 +99,7 @@ export class FirebaseService {
       return domainObject;
     }
 
-    private getImageIndex(fileList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>,
+    private getImageIndex(fileList: Array<ImageScreencap>,
       fileName: string): number {
         let index = -1;
         for (let i = 0; i < fileList.length; i++) {
@@ -116,17 +110,16 @@ export class FirebaseService {
         return index;
     }
 
-    private sortImageList(fileList: Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}>):
-      Array<{'Screencap': string; 'Thumbnail': string; 'Description': string; 'Name': string}> {
-        return fileList.sort((a, b) => {
-          if (a.Name < b.Name) {
-            return -1;
-          } else if (a.Name > b.Name) {
-            return 1;
-          } else {
-            return 0;
-          }
-        });
+    private sortImageList(fileList: Array<ImageScreencap>): Array<ImageScreencap> {
+      return fileList.sort((a, b) => {
+        if (a.Name < b.Name) {
+          return -1;
+        } else if (a.Name > b.Name) {
+          return 1;
+        } else {
+          return 0;
+        }
+      });
     }
 
     private getPathFromRoute(route: string): string {

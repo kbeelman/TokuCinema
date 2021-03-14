@@ -2,6 +2,7 @@ import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { ISearchable } from '../../../domain/ISearchable';
 import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
+import { MenuItems } from '../../../domain/Types';
 import { FirebaseService } from '../../../services/firebase.service';
 
 import { Component, OnInit, Output, EventEmitter, NgZone } from '@angular/core';
@@ -15,7 +16,7 @@ export class NavComponent implements OnInit {
   @Output() searchEvent = new EventEmitter();
   navMenuOpen: boolean = false;
   searchOpen: boolean = false;
-  menuItems: Array<{'text': string; 'link': string}> = [
+  menuItems: Array<MenuItems> = [
     { text: 'Home', link: '/' },
     { text: 'Movie List', link: '/movies' },
     { text: 'Home Media Releases', link: '/media' },

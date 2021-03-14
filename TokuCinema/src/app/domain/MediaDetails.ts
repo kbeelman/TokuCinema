@@ -1,21 +1,32 @@
+import {
+    MediaVendor,
+    MediumCount,
+    MediumFormat,
+    MediumRegion,
+    VersionAspectRatio,
+    VersionChapters,
+    VersionColor,
+    VersionRuntime
+} from './Types';
+
 export class MediaDetails {
     hasDifferentAspectRatios: boolean = false;
     hasDifferentColors: boolean = false;
     constructor(
         // Main Feature Info
         public Title: string,
-        public AspectRatio: Array<{'Version': string; 'AspectRatio': string}>,
-        public Runtime: Array<{'Version': string; 'Runtime': number}>,
-        public Color: Array<{'Version': string; 'Color': string}>,
-        public ChapterStops: Array<{'Version': string; 'Count': number}>,
+        public AspectRatio: Array<VersionAspectRatio>,
+        public Runtime: Array<VersionRuntime>,
+        public Color: Array<VersionColor>,
+        public ChapterStops: Array<VersionChapters>,
         public AudioTracksDetails: Array<string>,
         public SubtitlesDetails: Array<string>,
         // Medium Information
         public Medium: Array<string>,
-        public Format: Array<{'Medium': string; 'Format': number}>,
-        public Region: Array<{'Medium': string; 'Region': string}>,
+        public Format: Array<MediumFormat>,
+        public Region: Array<MediumRegion>,
         public Country: string,
-        public MediumCount: Array<{'Medium': string; 'Count': number}>,
+        public MediumCount: Array<MediumCount>,
         public ColorSystem: string,
         // Distribution Information
         public Distributor: string,
@@ -24,7 +35,7 @@ export class MediaDetails {
         public ReleaseDate: Date | undefined,
         public CircaRelease: string,
         public ReleaseYear: number,
-        public PurchaseLinks: Array<{'Vendor': string; 'Link': string}>,
+        public PurchaseLinks: Array<MediaVendor>,
         public MovieDetails: Array<string>,
         public OriginalRelease: string,
         public BoxArt: Array<string>,
