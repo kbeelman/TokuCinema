@@ -3543,6 +3543,66 @@
             "Path": "Godzilla-1954",
             "Countries": [
                 {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "GuV-Vb1PlSU", "Description": "Japanese Theatrical Trailer - Godzilla"}
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Gojira"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original theatrical version of Godzilla has remained widely available in Japan since its release."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters!"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "Jewell Enterprises",
+                            "DistributionCompany": "Toho",
+                            "ReleaseDate": "1957-05-29",
+                            "Runtime":"80",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [
+                                        {"TitleType":"Japanese","TitleValue":"怪獣王ゴジラ"},
+                                        {"TitleType":"Hepburn","TitleValue":"Kaiju O Gojira"},
+                                        {"TitleType":"Literal Translation","TitleValue":"Monster King Godzilla"}
+                                    ],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The American version of the film, starring Raymond Burr, was released in Japanese theaters in 1957 complete with Japanese subtitles. It has been released in Japan on VHS, LaserDisc, and DVD throughout the years."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "Country": "United States",
                     "Videos": [
                         {"Host": "YT", "ID": "aFeSDZPhYFU", "Description": "US Theatrical Trailer - Godzilla, King of the Monsters!"},
@@ -3622,39 +3682,6 @@
                                     "ReleaseDate": "2012-01-24",
                                     "Notes": [
                                         "Criterion’s release of Godzilla, King of the Monsters! was sourced from a 35mm fine-grain print. This version features the \"Trans World\" logo and the ending credits placed correctly into the film."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "Country": "Japan",
-                    "Versions": [
-                        {
-                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla, King of the Monsters!"}],
-                            "Cast": [],
-                            "DubCast": [],
-                            "Crew": [],
-                            "DubCompany": "",
-                            "ProductionCompany": "Jewell Enterprises",
-                            "DistributionCompany": "Toho",
-                            "ReleaseDate": "1957-05-29",
-                            "Runtime":"80",
-                            "Rating": [],
-                            "Iterations": [
-                                {
-                                    "AlternateTitle": [
-                                        {"TitleType":"Japanese","TitleValue":"怪獣王ゴジラ"},
-                                        {"TitleType":"Hepburn","TitleValue":"Kaiju O Gojira"},
-                                        {"TitleType":"Literal Translation","TitleValue":"Monster King Godzilla"}
-                                    ],
-                                    "Name": "",
-                                    "MediaPath": [],
-                                    "Runtime": "",
-                                    "ReleaseDate": "",
-                                    "Notes": [
-                                        "The American version of the film, starring Raymond Burr, was released in Japanese theaters in 1957 complete with Japanese subtitles. It has been released in Japan on VHS, LaserDisc, and DVD throughout the years."
                                     ]
                                 }
                             ]
@@ -3885,6 +3912,38 @@
         {
             "Path": "Godzilla-Raids-Again-1955",
             "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "4b179urNFlQ", "Description": "Japanese Theatrical Trailer - Godzilla Raids Again"}
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Godzilla Raids Again"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original theatrical version of Godzilla Raids Again has remained widely available in Japan since its release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "Country": "United States",
                     "Videos": [
@@ -4180,7 +4239,7 @@
                 {
                     "Country": "Japan",
                     "Videos": [
-                        {"Host": "YT", "ID": "PkbiyqKHZic", "Description": "Japanese Trailer - King Kong vs. Godzilla"}
+                        {"Host": "YT", "ID": "WtgFm2LxJx4", "Description": "Japanese Theatrical Trailer - King Kong vs. Godzilla"}
                     ],
                     "Versions": [
                         {
@@ -4761,6 +4820,9 @@
             "Countries": [
                 {
                     "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "lRlttjvvvzE", "Description": "Japanese Theatrical Trailer - Mothra vs. Godzilla"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Toho Champion Festival","TitleValue":"Mothra vs. Godzilla"}],
@@ -5082,6 +5144,9 @@
             "Countries": [
                 {
                     "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "87lLDKzpw0o", "Description": "Japanese Theatrical Trailer - Ghidorah, the Three-Headed Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ghidorah, the Three-Headed Monster"}],
@@ -5271,6 +5336,9 @@
             "Countries": [
                 {
                     "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "2j7k5VpZJ7E", "Description": "Japanese Theatrical Trailer - Invasion of Astro-Monster"}
+                    ],
                     "Versions": [
                         {
                             "MainTitle":[{"TitleType":"Theatrical","TitleValue":"The Giant Monster War"}],
@@ -5746,6 +5814,38 @@
         {
             "Path": "Ebirah-Horror-Deep-1966",
             "Countries": [
+                {
+                    "Country": "Japan",
+                    "Videos": [
+                        {"Host": "YT", "ID": "oP9juL09Cww", "Description": "Japanese Theatrical Trailer - Ebirah, Horror of the Deep"}
+                    ],
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Theatrical","TitleValue":"Ebirah, Horror of the Deep"}],
+                            "Cast": [],
+                            "DubCast": [],
+                            "Crew": [],
+                            "DubCompany": "",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "",
+                            "ReleaseDate": "",
+                            "Runtime":"",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The original theatrical version of Ebirah, Horror of the Deep has remained widely available in Japan since its release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "Country": "International",
                     "Versions": [
