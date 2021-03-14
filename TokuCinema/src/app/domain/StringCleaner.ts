@@ -23,7 +23,7 @@ export class StringCleaner {
   // Clean if is part of a route - routing
   private cleanRouteName(routeName: string): string {
     if (routeName.split('/')[2]) {
-      const cleanName = routeName.split('/')[2]
+      const cleanName: string[] = routeName.split('/')[2]
         .replace(/[^A-Za-z]/, '-')
         .split(' ');
 

@@ -3,7 +3,7 @@ import { DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { MediaReview } from '../../../domain/MediaReview';
 import { Movie } from '../../../domain/Movie';
-import { ImageScreencap, VideoScreencap } from '../../../domain/Types';
+import { CustomMetadata, ImageScreencap, MetaData, VideoScreencap } from '../../../domain/Types';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
 
@@ -90,39 +90,11 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   }
 
   /**
-   * @description Sets the page title and meta tags.
-   */
-  setMetaTags(): void {
-    this.titleService.setTitle(this.media.Title + ' ' + this.media.Medium + ' - Toku Cinema');
-    const imageAltTextTag = 'Image showing a movie poster for ' + this.media.Title + ' ' + this.media.getFirstMedium();
-    const descriptionTag = this.media.Title + ' ' + this.media.getFirstMedium() + ' from ' +
-      this.media.Distributor + ' Information.';
-    this.metatagService.updateTags([
-      { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },
-      { property: 'og:title', content: this.media.Title + ' ' + this.media.getFirstMedium() + ' Information' },
-      { property: 'og:description', content: descriptionTag },
-      { name: 'description', content: descriptionTag },
-      { property: 'og:image', content: this.media.BoxArt[1] },
-      { property: 'og:image:alt', content: imageAltTextTag },
-      { name: 'twitter:image:alt', content: imageAltTextTag }
-    ]);
-    this.fdb.getImageMetadata(this.media.Path, 'media').then((metadata) => {
-      const customMetadata = metadata.customMetadata;
-      if (customMetadata && customMetadata.width && customMetadata.height) {
-        this.metatagService.updateTags([
-          { property: 'og:image:width', content: customMetadata.width },
-          { property: 'og:image:height', content: customMetadata.height }
-        ]);
-      }
-    });
-  }
-
-  /**
    * @description Checks if any of the movies in this media contain runtimes.
    * @returns {boolean} Whether or not any movies in this Media contains runtimes.
    */
   public doesHaveRuntimes(): boolean {
-    this.movieDetails.forEach(item => {
+    this.movieDetails.forEach((item: Movie) => {
       if (item.Runtime !== undefined) {
         this.hasRuntimes = true;
       }
@@ -153,5 +125,33 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   public openGallery(url: string): void {
     this.mediaGallery.showItem = true;
     this.mediaGallery.setActiveItemFromUrl(url);
+  }
+
+  /**
+   * @description Sets the page title and meta tags.
+   */
+   private setMetaTags(): void {
+    this.titleService.setTitle(this.media.Title + ' ' + this.media.Medium + ' - Toku Cinema');
+    const imageAltTextTag: string = 'Image showing a movie poster for ' + this.media.Title + ' ' + this.media.getFirstMedium();
+    const descriptionTag: string = this.media.Title + ' ' + this.media.getFirstMedium() + ' from ' +
+      this.media.Distributor + ' Information.';
+    this.metatagService.updateTags([
+      { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },
+      { property: 'og:title', content: this.media.Title + ' ' + this.media.getFirstMedium() + ' Information' },
+      { property: 'og:description', content: descriptionTag },
+      { name: 'description', content: descriptionTag },
+      { property: 'og:image', content: this.media.BoxArt[1] },
+      { property: 'og:image:alt', content: imageAltTextTag },
+      { name: 'twitter:image:alt', content: imageAltTextTag }
+    ]);
+    this.fdb.getImageMetadata(this.media.Path, 'media').then((metadata: MetaData) => {
+      const customMetadata: CustomMetadata = metadata.customMetadata;
+      if (customMetadata && customMetadata.width && customMetadata.height) {
+        this.metatagService.updateTags([
+          { property: 'og:image:width', content: customMetadata.width },
+          { property: 'og:image:height', content: customMetadata.height }
+        ]);
+      }
+    });
   }
 }

@@ -46,7 +46,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
-    const descriptionTag = 'Information on all of your favorite Tokusatsu, ' +
+    const descriptionTag: string = 'Information on all of your favorite Tokusatsu, ' +
     'Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/movies' },
@@ -57,8 +57,8 @@ export class MoviesComponent implements OnInit {
     ]);
     this.moviesData.subscribe((movieArray: Movie[]) => {
       movieArray.forEach((movie: Movie) => {
-        const domainBuilder = new DomainBuilder(movie, DataType.Movie);
-        const domainObject = domainBuilder.getDomainObject<Movie>();
+        const domainBuilder: DomainBuilder = new DomainBuilder(movie, DataType.Movie);
+        const domainObject: Movie = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
         this.populateFiltersWithTheseOptions(domainObject);
       });
@@ -113,7 +113,7 @@ export class MoviesComponent implements OnInit {
     if (this.productionCompanies.indexOf(movie.ProductionCompany) < 0) {
       this.productionCompanies.push(movie.ProductionCompany);
     }
-    movie.Languages.forEach(element => {
+    movie.Languages.forEach((element: LanguageType) => {
       if (this.languages.indexOf(element) < 0) {
         this.languages.push(element);
       }

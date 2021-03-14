@@ -10,12 +10,12 @@ export class DeepSearch implements PipeTransform {
     const worthSearching = (args !== undefined && args.trim().length > 1 && value);
 
     if (worthSearching) {
-        const cleanSearchTerm = args.toLowerCase().trim().replace(/\W/g, '');
+        const cleanSearchTerm: string = args.toLowerCase().trim().replace(/\W/g, '');
         const results: DeepSearchObject[] = [];
 
         // create search strings - deliminited by space
-        const substrings = args.split(' ');
-        const cleanedSubStrings = new Array<string>();
+        const substrings: string[] = args.split(' ');
+        const cleanedSubStrings: string[] = new Array<string>();
         substrings.forEach((element: string) => {
           if (element.trim() !== '') {
             cleanedSubStrings.push(element.trim().replace(/\W/g, ''));
@@ -28,7 +28,7 @@ export class DeepSearch implements PipeTransform {
             if (nameElement.exactMatch) {
               let itAlreadExists: boolean = false;
 
-              const resultToAdd = {
+              const resultToAdd: DeepSearchObject = {
                 name: element.name,
                 names: element.names,
                 path: element.path,
@@ -37,7 +37,7 @@ export class DeepSearch implements PipeTransform {
                 type: element.type
               };
 
-              results.forEach(subElement => {
+              results.forEach((subElement: DeepSearchObject) => {
                 itAlreadExists = subElement.path === resultToAdd.path;
               });
 
@@ -49,11 +49,11 @@ export class DeepSearch implements PipeTransform {
         });
 
         // weight commonality of keyword
-        const words = new Array<string>();
-        const counts = new Array<number>();
+        const words: Array<string> = new Array<string>();
+        const counts: Array<number> = new Array<number>();
         value.forEach((elementToAudit: DeepSearchObject) => {
           elementToAudit.names.forEach((subElement: Keyword) => {
-            const indexOfElement = words.indexOf(subElement.word);
+            const indexOfElement: number = words.indexOf(subElement.word);
             if (indexOfElement < 0) {
               words.push(subElement.word);
               counts.push(1);
@@ -66,7 +66,7 @@ export class DeepSearch implements PipeTransform {
         // apply weightings at name level
         value.forEach((elementToWeight: DeepSearchObject) => {
           elementToWeight.names.forEach((subElement: Keyword) => {
-            const indexOfElement = words.indexOf(subElement.word);
+            const indexOfElement: number = words.indexOf(subElement.word);
             if (indexOfElement >= 0) {
               subElement.score = subElement.score / counts[indexOfElement];
             }
@@ -81,7 +81,7 @@ export class DeepSearch implements PipeTransform {
                 if (!resultNameElement.exactMatch && searchElement.toLowerCase() === resultNameElement.word.toLowerCase()) {
 
                   // create a result element with appropriate score
-                  const resultToAdd = {
+                  const resultToAdd: DeepSearchObject = {
                     name: resultElement.name,
                     names: resultElement.names,
                     path: resultElement.path,

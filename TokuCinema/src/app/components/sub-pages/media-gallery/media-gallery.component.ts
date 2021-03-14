@@ -76,24 +76,6 @@ export class MediaGalleryComponent {
         }
     }
 
-    doesGalleryContainImage(index: number): {foundIndex: number; found: boolean } {
-        let foundIndex = -1;
-        let found = false;
-        for (let subIndex = 0; subIndex < this.galleryImages.length; subIndex++) {
-            if (this.galleryImages[subIndex].Url === this.images[index].Screencap ||
-                this.galleryImages[subIndex].Thumb === this.images[index].Thumbnail ||
-                this.galleryImages[subIndex].Alt === this.images[index].Description) {
-                found = true;
-                    if (this.galleryImages[subIndex].Alt === '' || this.galleryImages[subIndex].Url === '' ||
-                        this.galleryImages[subIndex].Thumb === '') {
-                        foundIndex = subIndex;
-                    }
-                }
-        }
-
-        return { foundIndex, found };
-    }
-
     isGalleryStillLoading(): boolean {
         let stillLoading = true;
         if (this.numberOfImages > 0) {
@@ -102,7 +84,7 @@ export class MediaGalleryComponent {
                     return stillLoading;
                 }
                 stillLoading = false;
-                this.galleryImages.forEach((galleryImage) => {
+                this.galleryImages.forEach((galleryImage: GalleryImage) => {
                     if (galleryImage.Alt === '' || galleryImage.Url === '' ||
                         galleryImage.Thumb === '') {
                         stillLoading = true;
@@ -125,7 +107,7 @@ export class MediaGalleryComponent {
         if (this.videoIds && this.videoIds.length) {
             for (let index = 0; index < this.videoIds.length; index++) {
                 let found = false;
-                this.galleryVideos.forEach((galleryVideo) => {
+                this.galleryVideos.forEach((galleryVideo: GalleryVideo) => {
                     if (this.videoIds[index].ID === galleryVideo.VideoId) {
                         found = true;
                     }
@@ -140,8 +122,8 @@ export class MediaGalleryComponent {
     }
 
     chooseDefaultActiveItem(): void {
-        const imagesExist = this.galleryImages && this.galleryImages.length;
-        const videosExist = this.galleryVideos && this.galleryVideos.length;
+        const imagesExist: boolean = this.galleryImages && this.galleryImages.length > 0;
+        const videosExist: boolean = this.galleryVideos && this.galleryVideos.length > 0;
         if (videosExist) {
             this.setActiveItem(this.galleryVideos[0]);
         } else if (imagesExist) {
@@ -197,12 +179,12 @@ export class MediaGalleryComponent {
 
     carouselRight(): void {
         if (this.canCarouselRight()) {
-            const imageCount = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
-            const videoCount = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
-            const itemCount = imageCount + videoCount;
+            const imageCount: number = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
+            const videoCount: number = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
+            const itemCount: number = imageCount + videoCount;
 
             if ((this.currentCarouselPosition + 10) > itemCount) {
-                const marginMultiple = itemCount % 5;
+                const marginMultiple: number = itemCount % 5;
                 this.currentCarouselMargin = (this.currentCarouselMargin - (marginMultiple * 20));
                 this.currentCarouselPosition = this.currentCarouselPosition + marginMultiple;
             } else {
@@ -216,7 +198,7 @@ export class MediaGalleryComponent {
     carouselLeft(): void {
         if (this.canCarouselLeft()) {
             if (this.currentCarouselPosition < 5) {
-                const marginMultiple = this.currentCarouselPosition;
+                const marginMultiple: number = this.currentCarouselPosition;
                 this.currentCarouselMargin = (this.currentCarouselMargin + (marginMultiple * 20));
                 this.currentCarouselPosition = this.currentCarouselPosition - marginMultiple;
             } else {
@@ -232,9 +214,9 @@ export class MediaGalleryComponent {
     }
 
     canCarouselRight(): boolean {
-        const imageCount = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
-        const videoCount = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
-        const itemCount = imageCount + videoCount;
+        const imageCount: number = this.galleryImages && this.galleryImages.length ? this.galleryImages.length : 0;
+        const videoCount: number = this.galleryVideos && this.galleryVideos.length ? this.galleryVideos.length : 0;
+        const itemCount: number = imageCount + videoCount;
         return Math.abs((this.currentCarouselPosition - itemCount)) > 5 ? true : false;
     }
 
@@ -242,8 +224,25 @@ export class MediaGalleryComponent {
         return this.currentCarouselPosition !== 0 ? true : false;
     }
 
-    getTrustedUrl(sourceUrl: string): SafeResourceUrl {
+    private getTrustedUrl(sourceUrl: string): SafeResourceUrl {
         return this.sanitizer.bypassSecurityTrustResourceUrl(sourceUrl);
     }
 
+    private doesGalleryContainImage(index: number): { foundIndex: number; found: boolean } {
+        let foundIndex = -1;
+        let found = false;
+        for (let subIndex = 0; subIndex < this.galleryImages.length; subIndex++) {
+            if (this.galleryImages[subIndex].Url === this.images[index].Screencap ||
+                this.galleryImages[subIndex].Thumb === this.images[index].Thumbnail ||
+                this.galleryImages[subIndex].Alt === this.images[index].Description) {
+                found = true;
+                    if (this.galleryImages[subIndex].Alt === '' || this.galleryImages[subIndex].Url === '' ||
+                        this.galleryImages[subIndex].Thumb === '') {
+                        foundIndex = subIndex;
+                    }
+                }
+        }
+
+        return { foundIndex, found };
+    }
 }

@@ -1,13 +1,13 @@
 import { DomainBuilder, DataType } from '../domain/Builder';
 import { StringCleaner, StringType } from '../domain/StringCleaner';
-import { BranchData, ImageScreencap } from '../domain/Types';
+import { BranchData, ImageScreencap, MetaData } from '../domain/Types';
 
 import { Injectable } from '@angular/core';
 import { AngularFireStorage } from '@angular/fire/storage';
+import { ListResult, Reference } from '@angular/fire/storage/interfaces';
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ListResult } from '@angular/fire/storage/interfaces';
 
 @Injectable()
 export class FirebaseService {
@@ -19,7 +19,7 @@ export class FirebaseService {
     ) {}
 
     public getBranch(branchName: string): Observable<any> {
-      const cachedBranch = this.cachedData.find( item => item.branchName === branchName);
+      const cachedBranch = this.cachedData.find( (item: BranchData) => item.branchName === branchName);
       if (!cachedBranch) {
 
         const itemRef: AngularFireList<any> = this.db.list('/' + branchName);
@@ -37,31 +37,31 @@ export class FirebaseService {
     }
 
     public getItemFromBranch(item: string, branchName: string, itemIsRoute: boolean, buildType: DataType): Observable<any> {
-      const itemString = itemIsRoute ? this.getPathFromRoute(item) : item;
+      const itemString: string = itemIsRoute ? this.getPathFromRoute(item) : item;
       return this.db.list('/' + branchName, ref => ref.orderByChild('Path').equalTo(itemString)).valueChanges().pipe(
         map(response => this.extractDomainObject(response, buildType)));
     }
 
-    public getImageMetadata(path: string, branchName: string): Promise<any> {
+    public getImageMetadata(path: string, branchName: string): Promise<MetaData> {
       return this.fireStorage.storage.ref('images/' + branchName + '/' + path).child('thumb-details.png').getMetadata();
     }
 
     getImages(branchName: string, path: string, descriptions: Array<string>): Array<ImageScreencap> {
       const returnList: Array<ImageScreencap> = [];
-      const imageDirectory = branchName === 'media' ? '/screencaps' : '';
-      const fullStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
-      const thumbStorageRef = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
+      const imageDirectory: string = branchName === 'media' ? '/screencaps' : '';
+      const fullStorageRef: Reference = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/full');
+      const thumbStorageRef: Reference = this.fireStorage.storage.ref('images/' + branchName + '/' + path + imageDirectory + '/thumbs');
 
       fullStorageRef.list().then((folderData: ListResult) => {
-        folderData.items.forEach((image, index) => {
+        folderData.items.forEach((image: Reference, index: number) => {
           returnList.push({ Screencap: '', Thumbnail: '', Description: descriptions[index], Name: image.name });
         });
 
-        folderData.items.forEach(image => {
-          image.getDownloadURL().then((url) => {
-            const index = this.getImageIndex(returnList, image.name);
+        folderData.items.forEach((image: Reference) => {
+          image.getDownloadURL().then((url: string) => {
+            const index: number = this.getImageIndex(returnList, image.name);
             if (index !== -1) {
-              const tempItem = JSON.parse(JSON.stringify(returnList[index]));
+              const tempItem: ImageScreencap = JSON.parse(JSON.stringify(returnList[index]));
               tempItem.Screencap = url;
               returnList.splice(index, 1, tempItem);
               this.sortImageList(returnList);
@@ -70,11 +70,11 @@ export class FirebaseService {
         });
 
         thumbStorageRef.list().then((thumbFolder: ListResult) => {
-          thumbFolder.items.forEach(image => {
-            image.getDownloadURL().then((url) => {
-              const index = this.getImageIndex(returnList, image.name);
+          thumbFolder.items.forEach((image: Reference) => {
+            image.getDownloadURL().then((url: string) => {
+              const index: number = this.getImageIndex(returnList, image.name);
               if (index !== -1) {
-                const tempItem = JSON.parse(JSON.stringify(returnList[index]));
+                const tempItem: ImageScreencap = JSON.parse(JSON.stringify(returnList[index]));
                 tempItem.Thumbnail = url;
                 returnList.splice(index, 1, tempItem);
                 this.sortImageList(returnList);
@@ -91,7 +91,7 @@ export class FirebaseService {
       let domainObject: any;
       res.forEach((element: any) => {
         if (element) {
-          const domainBuilder = new DomainBuilder(element, buildType);
+          const domainBuilder: DomainBuilder = new DomainBuilder(element, buildType);
           domainObject = domainBuilder.getDomainObject();
         }
       });

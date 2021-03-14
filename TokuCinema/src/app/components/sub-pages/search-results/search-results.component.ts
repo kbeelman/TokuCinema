@@ -19,7 +19,7 @@ export class SearchResultsComponent implements OnInit {
   ngOnInit() {
     // Populate movies
     if (this.searchItems) {
-      this.searchItems.forEach(subElement => {
+      this.searchItems.forEach((subElement: ISearchable) => {
         if (subElement.getType() === ItemType.Movie) {
           this.movieItems.push(
             {

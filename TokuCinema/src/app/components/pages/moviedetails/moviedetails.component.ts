@@ -1,5 +1,7 @@
 import { DataType } from '../../../domain/Builder';
 import { Movie } from '../../../domain/Movie';
+import { Media } from '../../../domain/Media';
+import { CustomMetadata, MetaData } from '../../../domain/Types';
 import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 import { FirebaseService } from '../../../services/firebase.service';
 import { MetatagService } from '../../../services/metatag.service';
@@ -8,7 +10,6 @@ import { Component, OnDestroy, Inject } from '@angular/core';
 import { Title, SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { Media } from '../../../domain/Media';
 
 @Component({
   selector: 'app-moviedetails',
@@ -43,9 +44,10 @@ export class MoviedetailsComponent implements OnDestroy {
         }
         this.trailerUrl = this.movie.Videos ? this.getTrustedUrl('https://www.youtube.com/embed/' + this.movie.Videos[0]) : '';
         this.titleService.setTitle(this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ') - Toku Cinema');
-        const imageAltTextTag = 'Image showing a movie poster for ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ')';
-        const descriptionTag = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').';
-        const imageUrlTag = this.movie.doesPosterExist() ? this.movie.OriginalPoster[1] : '';
+        const imageAltTextTag: string = 'Image showing a movie poster for ' + this.movie.OfficialTitle +
+          ' (' + this.movie.ReleaseYear + ')';
+        const descriptionTag: string = 'Details about ' + this.movie.OfficialTitle + ' (' + this.movie.ReleaseYear + ').';
+        const imageUrlTag: string = this.movie.doesPosterExist() ? this.movie.OriginalPoster[1] : '';
         this.metatagService.updateTags([
           { property: 'og:url', content: 'https://tokucinema.com' + this.pathname },
           { property: 'og:title', content: this.movie.OfficialTitle },
@@ -54,8 +56,8 @@ export class MoviedetailsComponent implements OnDestroy {
           { property: 'og:image', content: imageUrlTag }
         ]);
         if (this.movie.doesPosterExist()) {
-          this.fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata) => {
-            const customMetadata = metadata.customMetadata;
+          this.fdb.getImageMetadata(this.movie.Path, 'movies').then((metadata: MetaData) => {
+            const customMetadata: CustomMetadata = metadata.customMetadata;
             if (customMetadata && customMetadata.width && customMetadata.height) {
               this.metatagService.updateTags([
                 { property: 'og:image:width', content: customMetadata.width },

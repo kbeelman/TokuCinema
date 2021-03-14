@@ -1,3 +1,4 @@
+import { Country } from '../../../domain/Country';
 import { MovieAlternateVersion } from '../../../domain/MovieAlternateVersion';
 
 import { Component, Input, OnInit } from '@angular/core';
@@ -21,7 +22,7 @@ export class MovieAltDetailsComponent implements OnInit {
   }
 
   toggleCountries(country: string) {
-    this.movieAlternateVersion.Countries.forEach(element => {
+    this.movieAlternateVersion.Countries.forEach((element: Country) => {
       if (element.Country === country) {
         element.Active = true;
       } else {

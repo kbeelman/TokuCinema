@@ -34,8 +34,6 @@ export class Movie implements ISearchable {
         public Runtime: number,
         public Crew: Array<CrewMember>,
         public Cast: Array<Actor>,
-        public MediaPath: Array<string>,
-        public AlternateVersionsPath: Array<string>,
         public Path: string,
         public Videos?: Array<string>
     ) {
@@ -96,12 +94,12 @@ export class Movie implements ISearchable {
     }
 
     public getKeywords(): Array<Keyword> {
-        const keywords = new Array<Keyword>();
+        const keywords: Array<Keyword> = new Array<Keyword>();
 
         // add title elements (if more than one word)
-        const titleElements = this.OfficialTitle.split(' ');
+        const titleElements: string[] = this.OfficialTitle.split(' ');
         if (titleElements.length > 1) {
-            titleElements.forEach(element => {
+            titleElements.forEach((element: string) => {
                 keywords.push(new Keyword(element, false, true, false));
             });
         }
@@ -110,14 +108,14 @@ export class Movie implements ISearchable {
         keywords.push(new Keyword(this.OfficialTitle, true, false, false));
         // alternate titles are exact matches as well
         if (this.AlternateTitles && this.AlternateTitles.length) {
-            this.AlternateTitles.forEach(element => {
+            this.AlternateTitles.forEach((element: Title) => {
                 keywords.push(new Keyword(element.TitleValue, true, false, false));
             });
 
-            this.AlternateTitles.forEach(element => {
-                const alternateTitleWords = element.TitleValue.split(' ');
+            this.AlternateTitles.forEach((element: Title) => {
+                const alternateTitleWords: string[] = element.TitleValue.split(' ');
                 if (alternateTitleWords.length > 1) {
-                    alternateTitleWords.forEach(subElement => {
+                    alternateTitleWords.forEach((subElement: string) => {
                         keywords.push(new Keyword(subElement, false, true, false));
                     });
                 }
@@ -127,8 +125,8 @@ export class Movie implements ISearchable {
         // add attribute keywords
         keywords.push(new Keyword(this.CountryOfOrigin, false, false, true));
 
-        const directorNames = this.Director.split(' ');
-        directorNames.forEach(element => {
+        const directorNames: string[] = this.Director.split(' ');
+        directorNames.forEach((element: string) => {
             keywords.push(new Keyword(element, false, false, true));
         });
         keywords.push(new Keyword(this.Distributor, false, false, true));
@@ -162,9 +160,9 @@ export class Movie implements ISearchable {
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
-        const cleanKeywords = new Array<Keyword>();
+        const cleanKeywords: Array<Keyword> = new Array<Keyword>();
 
-        keywords.forEach(element => {
+        keywords.forEach((element: Keyword) => {
             if (element.word !== '') {
                 cleanKeywords.push(element);
             }

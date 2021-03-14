@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.sub = this.fdb.getBranch('media').subscribe((data: Media[]) => {
 
       // Select a random index in the media branch to display in the content tile
-      const winningNumber = Math.floor(Math.random() * data.length) + 0;
+      const winningNumber: number = Math.floor(Math.random() * data.length) + 0;
 
       const builder: DomainBuilder = new DomainBuilder(data[winningNumber], DataType.Media);
       this.randomContent = builder.getDomainObject<Media>();
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
-    const descriptionTag = 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
+    const descriptionTag: string = 'Toku Cinema is a website dedicated to tokusatsu (a Japanese term meaning ' +
     '\"special effects\") cinema and television, as well as media influenced by tokusatsu, and media that provided ' +
     'influence to the tokusatsu genre.';
     this.metatagService.updateTags([

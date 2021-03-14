@@ -53,7 +53,7 @@ export class MetatagService {
      * @param {MetaDefinition[]} tags The list of tags to be updated.
      */
     private genericTagUpdate(tags: MetaDefinition[]): void {
-        tags.forEach(tag => {
+        tags.forEach((tag: MetaDefinition) => {
             // Check if a tag property already exists.
             if (this.meta.getTag(this.property + tag.property + '\"')) {
                 // If we're providing new tag content, update the existing tag.

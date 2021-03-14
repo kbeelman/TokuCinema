@@ -59,7 +59,7 @@ export class Media implements ISearchable {
         if (this.Path) {
             this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
         } else {
-            const path = this.Title + '-' + this.Distributor + '-' + this.Medium + '-' + this.ReleaseDate;
+            const path: string = this.Title + '-' + this.Distributor + '-' + this.Medium + '-' + this.ReleaseDate;
             this.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
         }
 
@@ -98,29 +98,29 @@ export class Media implements ISearchable {
     }
 
     public getKeywords(): Array<Keyword> {
-        const keywords = new Array<Keyword>();
+        const keywords: Array<Keyword> = new Array<Keyword>();
 
         // add exact matches
         keywords.push(new Keyword(this.Title, true, false, false));
 
         // add title elements (if more than one word)
-        const titleElements = this.Title.split(' ');
+        const titleElements: string[] = this.Title.split(' ');
         if (titleElements.length > 1) {
-            titleElements.forEach(element => {
+            titleElements.forEach((element: string) => {
                 keywords.push(new Keyword(element, false, true, false));
             });
         }
 
         // add attribute keywords
-        this.Medium.forEach(item => {
-            const mediumWords = item.split('-');
-            mediumWords.forEach(element => {
+        this.Medium.forEach((item: string) => {
+            const mediumWords: string[] = item.split('-');
+            mediumWords.forEach((element: string) => {
                 keywords.push(new Keyword(element, false, false, true));
             });
         });
 
-        const countryWords = this.Country.split(' ');
-        countryWords.forEach(element => {
+        const countryWords: string[] = this.Country.split(' ');
+        countryWords.forEach((element: string) => {
             keywords.push(new Keyword(element, false, false, true));
         });
         keywords.push(new Keyword(this.Distributor, false, false, true));
@@ -176,9 +176,9 @@ export class Media implements ISearchable {
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
-        const cleanKeywords = new Array<Keyword>();
+        const cleanKeywords: Array<Keyword> = new Array<Keyword>();
 
-        keywords.forEach(element => {
+        keywords.forEach((element: Keyword) => {
             if (element.word !== '') {
                 cleanKeywords.push(element);
             }
@@ -192,7 +192,7 @@ export class Media implements ISearchable {
      */
     private setHasDifferentAspectRatios(): void {
         const aspectCompArray: Array<string> = [];
-        this.AspectRatio.forEach(element => {
+        this.AspectRatio.forEach((element: VersionAspectRatio) => {
             if (aspectCompArray.indexOf(element.AspectRatio) < 0) {
                 aspectCompArray.push(element.AspectRatio);
             }
@@ -207,7 +207,7 @@ export class Media implements ISearchable {
      */
     private setHasDifferentColors(): void {
         const colorCompArray: Array<string> = [];
-        this.Color.forEach(element => {
+        this.Color.forEach((element: VersionColor) => {
             if (colorCompArray.indexOf(element.Color) < 0) {
                 colorCompArray.push(element.Color);
             }

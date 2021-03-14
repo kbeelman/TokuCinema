@@ -6,15 +6,15 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class MediaTitleSearch implements PipeTransform {
   transform(value: Media[], args: string) {
     if (args && this.getCleanString(args).length >= 3) {
-        const results = new Array<any>();
+        const results: Array<Media> = new Array<Media>();
 
         // create search strings - deliminited by space
-        const substrings = args.split(' ');
+        const substrings: string[] = args.split(' ');
 
-        const cleanedSubStrings = new Array<string>();
+        const cleanedSubStrings: Array<string> = new Array<string>();
 
         // remove empty elements
-        substrings.forEach(element => {
+        substrings.forEach((element: string) => {
           if (element !== '') {
             cleanedSubStrings.push(this.getCleanString(element));
           }
@@ -22,7 +22,8 @@ export class MediaTitleSearch implements PipeTransform {
 
         // add results for each string to list
         cleanedSubStrings.forEach((element: string) => {
-            const Itemresults = value.filter((item: Media) => (this.getCleanString(item.Title).indexOf(element.toLowerCase()) >= 0));
+            const Itemresults: Media[] =
+              value.filter((item: Media) => (this.getCleanString(item.Title).indexOf(element.toLowerCase()) >= 0));
             Itemresults.forEach((subElement: Media) => {
               if (results.indexOf(subElement) < 0) {
                 results.push(subElement);

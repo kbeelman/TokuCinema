@@ -2,6 +2,7 @@ import { DomainBuilder, DataType } from '../../../domain/Builder';
 import { Media } from '../../../domain/Media';
 import { Movie } from '../../../domain/Movie';
 import { FirebaseService } from '../../../services/firebase.service';
+import { MediumRegion } from '../../../domain/Types';
 import { MetatagService } from '../../../services/metatag.service';
 
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
@@ -48,15 +49,15 @@ export class MediaComponent implements OnInit {
   ngOnInit() {
     this.movieData.subscribe((movieArray: Movie[]) => {
       this.mediaData.subscribe((mediaArray: Media[]) => {
-        mediaArray.forEach((element) => {
-          const domainBuilder = new DomainBuilder(element, DataType.Media);
-          const domainObject = domainBuilder.getDomainObject<Media>();
+        mediaArray.forEach((element: Media) => {
+          const domainBuilder: DomainBuilder = new DomainBuilder(element, DataType.Media);
+          const domainObject: Media = domainBuilder.getDomainObject<Media>();
 
-          domainObject.MoviePath.forEach(mediaElement => {
-            movieArray.forEach(movieElement => {
+          domainObject.MoviePath.forEach((mediaElement: string) => {
+            movieArray.forEach((movieElement: Movie) => {
               if (mediaElement === movieElement.Path) {
-                const movieBuilder = new DomainBuilder(movieElement, DataType.Movie);
-                const movie = movieBuilder.getDomainObject<Movie>();
+                const movieBuilder: DomainBuilder = new DomainBuilder(movieElement, DataType.Movie);
+                const movie: Movie = movieBuilder.getDomainObject<Movie>();
                 domainObject.Movies.push(movie);
               }
             });
@@ -72,7 +73,7 @@ export class MediaComponent implements OnInit {
     });
 
     this.titleService.setTitle(this.title);
-    const descriptionTag = 'Details on home media releases across a wide range of formats, ' +
+    const descriptionTag: string = 'Details on home media releases across a wide range of formats, ' +
     'as well as reviews capturing everything from video quality to special features.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/media' },
@@ -109,23 +110,23 @@ export class MediaComponent implements OnInit {
       this.countries.push(media.Country);
     }
     if (typeof media.Region !== 'undefined' && media.Region.length > 0) {
-      media.Region.forEach(element => {
+      media.Region.forEach((element: MediumRegion) => {
         if (this.shouldPushIntoList(this.regions, element.Region)) {
           this.regions.push(element.Region);
         }
       });
     }
-    media.Medium.forEach(element => {
+    media.Medium.forEach((element: string) => {
       if (this.shouldPushIntoList(this.mediums, element)) {
         this.mediums.push(element);
       }
     });
-    media.AudioTracks.forEach(element => {
+    media.AudioTracks.forEach((element: string) => {
       if (this.shouldPushIntoList(this.spokenLanguages, element)) {
         this.spokenLanguages.push(element);
       }
     });
-    media.Subtitles.forEach(element => {
+    media.Subtitles.forEach((element: string) => {
       if (this.shouldPushIntoList(this.subtitleLanguages, element)) {
         this.subtitleLanguages.push(element);
       }

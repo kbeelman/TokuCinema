@@ -173,3 +173,16 @@ export class MediaVendor {
         public Link: string
     ) {}
 }
+
+export class CustomMetadata {
+    constructor(
+        public width: string,
+        public height: string
+    ) {}
+}
+
+export class MetaData {
+    constructor(
+        public customMetadata: CustomMetadata
+    ) {}
+}

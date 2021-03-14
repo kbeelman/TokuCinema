@@ -47,8 +47,6 @@ export class DomainBuilder {
             movieData.Runtime,
             movieData.Crew,
             movieData.Cast,
-            movieData.MediaPath,
-            movieData.AlternateVersionsPath,
             movieData.Path,
             movieData.Videos);
     }

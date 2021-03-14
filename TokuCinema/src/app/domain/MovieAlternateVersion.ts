@@ -5,7 +5,7 @@ export class MovieAlternateVersion {
         public Path: string,
         public Countries: Array<Country>
     ) {
-        Countries.forEach(country => {
+        Countries.forEach((country: Country) => {
             country.Active = false;
         });
     }

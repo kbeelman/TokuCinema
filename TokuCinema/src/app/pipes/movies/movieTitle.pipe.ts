@@ -16,7 +16,7 @@ export class MovieTitleSearch implements PipeTransform {
         const cleanedSubStrings = new Array<string>();
 
         // remove empty elements
-        substrings.forEach(element => {
+        substrings.forEach((element: string) => {
           if (element !== '') {
             cleanedSubStrings.push(this.getCleanString(element));
           }
@@ -24,8 +24,8 @@ export class MovieTitleSearch implements PipeTransform {
 
         // Official titles
         // add results for each string to list
-        cleanedSubStrings.forEach(element => {
-            const titleResults = value.filter(item => (this.getCleanString(item.OfficialTitle).indexOf(element) >= 0));
+        cleanedSubStrings.forEach((element: string) => {
+            const titleResults: Movie[] = value.filter(item => (this.getCleanString(item.OfficialTitle).indexOf(element) >= 0));
             titleResults.forEach(subElement => {
               if (results.indexOf(subElement) < 0) {
                 results.push(subElement);
@@ -35,7 +35,7 @@ export class MovieTitleSearch implements PipeTransform {
 
         // Alt titles
         // add results for each string to list
-        cleanedSubStrings.forEach(element => {
+        cleanedSubStrings.forEach((element: string) => {
           if (element !== 'the') {
             value.forEach((movie: Movie) => {
               if (movie.AlternateTitles && movie.AlternateTitles.length) {
@@ -53,7 +53,7 @@ export class MovieTitleSearch implements PipeTransform {
 
         // years
         // add results for each string to list
-        cleanedSubStrings.forEach(element => {
+        cleanedSubStrings.forEach((element: string) => {
           value.forEach((movie: Movie) => {
             if (movie.ReleaseYear &&
                 movie.ReleaseYear.toString().indexOf(element) >= 0 &&

@@ -20,7 +20,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
     this.titleService.setTitle(this.title);
-    const descriptionTag = 'About the developers of the Toku Cinema website.';
+    const descriptionTag: string = 'About the developers of the Toku Cinema website.';
     this.metatagService.updateTags([
       { property: 'og:url', content: 'https://tokucinema.com/about' },
       { property: 'og:title', content: 'About - Toku Cinema' },

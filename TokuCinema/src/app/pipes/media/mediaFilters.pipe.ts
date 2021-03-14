@@ -1,5 +1,6 @@
 /* eslint sonarjs/cognitive-complexity: 0 */
 import { Media } from '../../domain/Media';
+import { MediumRegion } from '../../domain/Types';
 import { MediaFilterPakage } from '../../domain/MediaFilterPackage';
 
 import { Pipe, PipeTransform } from '@angular/core';
@@ -15,7 +16,7 @@ export class MediaFiltersSearch implements PipeTransform {
         filteredResults = filteredResults.filter( (item: Media) => {
             let result: boolean = false;
             if (item.Region !== undefined) {
-              (item.Region.forEach(element => {
+              (item.Region.forEach((element: MediumRegion) => {
                 if (element.Region.indexOf(args.Region) >= 0) {
                   result = true;
                 }

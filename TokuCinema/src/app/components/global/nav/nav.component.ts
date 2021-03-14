@@ -41,8 +41,8 @@ export class NavComponent implements OnInit {
     // Transform Movies
     this.moviesData.subscribe((movies: Movie[]) => {
       movies.forEach((movie: Movie) => {
-        const domainBuilder = new DomainBuilder(movie, DataType.Movie);
-        const domainObject = domainBuilder.getDomainObject<Movie>();
+        const domainBuilder: DomainBuilder = new DomainBuilder(movie, DataType.Movie);
+        const domainObject: Movie = domainBuilder.getDomainObject<Movie>();
         this.movieItems.push(domainObject);
       });
     });
@@ -50,8 +50,8 @@ export class NavComponent implements OnInit {
     // Transform Media
     this.mediaData.subscribe((medias: Media[]) => {
       medias.forEach((media: Media) => {
-        const domainBuilder = new DomainBuilder(media, DataType.Media);
-        const domainObject = domainBuilder.getDomainObject<Media>();
+        const domainBuilder: DomainBuilder = new DomainBuilder(media, DataType.Media);
+        const domainObject: Media = domainBuilder.getDomainObject<Media>();
         this.mediaItems.push(domainObject);
       });
     });
@@ -81,18 +81,18 @@ export class NavComponent implements OnInit {
     this.searchOpen = false;
   }
 
-  clearSearch(): void {
+  public clearSearch(): void {
     this.searchEvent.emit(this.searchTerm = '');
   }
 
-  getSearchItems(): Array<ISearchable> {
+  public getSearchItems(): Array<ISearchable> {
     const result: Array<ISearchable> = new Array<ISearchable>();
     // Add Movies
-    this.movieItems.forEach(element => {
+    this.movieItems.forEach((element: Movie) => {
       result.push(element);
     });
     // Add Media
-    this.mediaItems.forEach(element => {
+    this.mediaItems.forEach((element: Media) => {
       result.push(element);
     });
     return result;
