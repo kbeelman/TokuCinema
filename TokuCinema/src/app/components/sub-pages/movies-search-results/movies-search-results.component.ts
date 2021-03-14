@@ -11,7 +11,7 @@ import { Component, Input, OnChanges } from '@angular/core';
 export class MoviesSearchResultsComponent implements OnChanges {
   @Input() movieItems: Array<Movie> = [];
   @Input() searchTerm: string = '';
-  @Input() spokenLanguageFilter: LanguageType;
+  @Input() spokenLanguageFilter: LanguageType = '';
   @Input() distributor: string = '';
   @Input() director: string = '';
   @Input() series: string = '';

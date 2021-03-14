@@ -12,7 +12,7 @@ export type MediumType = 'DVD' | 'VHS' | 'Blu-Ray';
 
 export type FormatType = 'Single Sided' | 'Dual-Layer';
 
-export type ColorSystemType = 'NTSC';
+export type ColorSystemType = 'NTSC' | 'PAL' | 'SECAM' | '';
 
 export type CountryType = 'Japan' | 'UnitedStates';
 
