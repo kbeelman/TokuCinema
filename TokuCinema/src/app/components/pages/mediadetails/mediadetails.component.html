@@ -1,11 +1,11 @@
-<div *ngIf="this.mediaDetails"
+<div *ngIf="this.media"
   class="media-details-root">
   <div class="media-details-title">
-    <h2>{{mediaDetails.Title}} {{mediaDetails.Medium}}</h2>
+    <h2>{{media.Title}} {{media.Medium}}</h2>
   </div>
   <div class="media-information-parent">
     <div class="media-poster">
-      <img src="{{media.BoxArt[1]}}" alt="Cover art for {{mediaDetails.Title}} {{mediaDetails.Medium}}">
+      <img src="{{media.BoxArt[1]}}" alt="Cover art for {{media.Title}} {{media.Medium}}">
     </div>
     <div class="media-information">
       <div class="left-information">
@@ -13,36 +13,36 @@
           <h4>Main Feature Information:</h4>
           <ul>
             <!-- Aspect Ratio Null Check -->
-            <div *ngIf="this.mediaDetails.doesAspectRatioExist(); then thenBlock_AspectRatio_NullCheck"></div>
+            <div *ngIf="this.media.doesAspectRatioExist(); then thenBlock_AspectRatio_NullCheck"></div>
               <ng-template #thenBlock_AspectRatio_NullCheck>
                 <!-- Do we have more than 1 unique aspect ratio? -->
-                <div *ngIf="this.mediaDetails.getHasDifferentAspectRatios(); then thenBlock_AspectRatio_multiple else elseBlock_AspectRatio_multiple"></div>
+                <div *ngIf="this.media.getHasDifferentAspectRatios(); then thenBlock_AspectRatio_multiple else elseBlock_AspectRatio_multiple"></div>
                   <ng-template #thenBlock_AspectRatio_multiple>
                     <li>Aspect Ratio:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.AspectRatio">{{item.Version}}: <br>{{item.AspectRatio}}</li>
+                        <li *ngFor="let item of this.media.AspectRatio">{{item.Version}}: <br>{{item.AspectRatio}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_AspectRatio_multiple>
-                    <li>Aspect Ratio: {{this.mediaDetails.AspectRatio[0].AspectRatio}}</li>
+                    <li>Aspect Ratio: {{this.media.AspectRatio[0].AspectRatio}}</li>
                   </ng-template>
               </ng-template>
 
             <!-- Runtime Null Check -->
-            <div *ngIf="this.mediaDetails.doesRuntimeExist(); then thenBlock_Runtime_NullCheck"></div>
+            <div *ngIf="this.media.doesRuntimeExist(); then thenBlock_Runtime_NullCheck"></div>
               <ng-template #thenBlock_Runtime_NullCheck>
                 <!-- Do we have more than 1 Runtime? -->
-                <div *ngIf="this.mediaDetails.Runtime.length>1; then thenBlock_Runtime_multiple else elseBlock_Runtime_multiple"></div>
+                <div *ngIf="this.media.Runtime.length>1; then thenBlock_Runtime_multiple else elseBlock_Runtime_multiple"></div>
                   <ng-template #thenBlock_Runtime_multiple>
                     <li>Runtime:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.Runtime">{{item.Version}}: <br>{{item.Runtime}} minutes</li>
+                        <li *ngFor="let item of this.media.Runtime">{{item.Version}}: <br>{{item.Runtime}} minutes</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Runtime_multiple>
-                    <li>Runtime: {{this.mediaDetails.Runtime[0].Runtime}} minutes</li>
+                    <li>Runtime: {{this.media.Runtime[0].Runtime}} minutes</li>
                   </ng-template>
               </ng-template>
 
@@ -72,43 +72,43 @@
                 </ng-template>
               </ng-template>
             <!-- Color Null Check -->
-            <div *ngIf="this.mediaDetails.doesColorExist(); then thenBlock_Color_NullCheck"></div>
+            <div *ngIf="this.media.doesColorExist(); then thenBlock_Color_NullCheck"></div>
               <ng-template #thenBlock_Color_NullCheck>
                 <!-- Do we have more than 1 unique color? -->
-                <div *ngIf="this.mediaDetails.getHasDifferentColors(); then thenBlock_Color_multiple else elseBlock_Color_multiple"></div>
+                <div *ngIf="this.media.getHasDifferentColors(); then thenBlock_Color_multiple else elseBlock_Color_multiple"></div>
                   <ng-template #thenBlock_Color_multiple>
                     <li>Color:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.Color">{{item.Version}}: <br>{{item.Color}}</li>
+                        <li *ngFor="let item of this.media.Color">{{item.Version}}: <br>{{item.Color}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Color_multiple>
-                    <li>Color: {{this.mediaDetails.Color[0].Color}}</li>
+                    <li>Color: {{this.media.Color[0].Color}}</li>
                   </ng-template>
               </ng-template>
-            <div *ngIf="this.mediaDetails.ChapterStops; then thenBlock_Chapter_NullCheck"></div>
+            <div *ngIf="this.media.ChapterStops; then thenBlock_Chapter_NullCheck"></div>
               <ng-template #thenBlock_Chapter_NullCheck>
-                <div *ngIf="this.mediaDetails.ChapterStops.length>1; then thenBlock_Chapter else elseBlock_Chapter"></div>
+                <div *ngIf="this.media.ChapterStops.length>1; then thenBlock_Chapter else elseBlock_Chapter"></div>
                 <ng-template #thenBlock_Chapter>
-                  <li *ngIf="this.mediaDetails.ChapterStops">Chapter Stops:
+                  <li *ngIf="this.media.ChapterStops">Chapter Stops:
                     <ul>
-                      <li *ngFor = "let item of mediaDetails.ChapterStops">{{item.Version}}: <br>{{item.Count}}</li>
+                      <li *ngFor = "let item of media.ChapterStops">{{item.Version}}: <br>{{item.Count}}</li>
                     </ul>
                   </li>
                 </ng-template>
                 <ng-template #elseBlock_Chapter>
-                  <li *ngFor = "let item of mediaDetails.ChapterStops">Chapter Stops: {{item.Count}}</li>
+                  <li *ngFor = "let item of media.ChapterStops">Chapter Stops: {{item.Count}}</li>
                 </ng-template>
               </ng-template>
-            <li *ngIf="this.mediaDetails.AudioTracksDetails">Audio Tracks:
+            <li *ngIf="this.media.AudioTracksDetails">Audio Tracks:
               <ul>
-                <li *ngFor = "let item of mediaDetails.AudioTracksDetails">{{item}}</li>
+                <li *ngFor = "let item of media.AudioTracksDetails">{{item}}</li>
               </ul>
             </li>
-            <li *ngIf="this.mediaDetails.SubtitlesDetails">Subtitles:
+            <li *ngIf="this.media.SubtitlesDetails">Subtitles:
               <ul>
-                <li *ngFor = "let item of mediaDetails.SubtitlesDetails">{{item}}</li>
+                <li *ngFor = "let item of media.SubtitlesDetails">{{item}}</li>
               </ul>
             </li>
           </ul>
@@ -118,12 +118,12 @@
       <div class="right-information">
         <div>
           <h4>Purchase Now:</h4>
-          <div *ngIf="mediaDetails.PurchaseLinks; then thenBlock_Purchase_NullCheck else elseBlock_Purchase_NullCheck"></div>
+          <div *ngIf="media.PurchaseLinks; then thenBlock_Purchase_NullCheck else elseBlock_Purchase_NullCheck"></div>
             <ng-template #thenBlock_Purchase_NullCheck>
-            <div *ngIf="mediaDetails.PurchaseLinks.length > 0; then thenBlock_Purchase else elseBlock_Purchase"></div>
+            <div *ngIf="media.PurchaseLinks.length > 0; then thenBlock_Purchase else elseBlock_Purchase"></div>
               <ng-template #thenBlock_Purchase>
                 <ul>
-                  <li *ngFor = "let item of mediaDetails.PurchaseLinks"><a [href]="item.Link" target="_blank">{{item.Vendor}}</a></li>
+                  <li *ngFor = "let item of media.PurchaseLinks"><a [href]="item.Link" target="_blank">{{item.Vendor}}</a></li>
                 </ul>
               </ng-template>
               <ng-template #elseBlock_Purchase>
@@ -142,89 +142,89 @@
           <h4>Media Information:</h4>
           <ul>
             <!-- Medium Null Check -->
-            <div *ngIf="this.mediaDetails.doesMediumExist(); then thenBlock_Medium_NullCheck"></div>
+            <div *ngIf="this.media.doesMediumExist(); then thenBlock_Medium_NullCheck"></div>
               <ng-template #thenBlock_Medium_NullCheck>
                 <!-- Do we have more than 1 medium? -->
-                <div *ngIf="this.mediaDetails.Medium.length>1; then thenBlock_Medium_multiple else elseBlock_Medium_multiple"></div>
+                <div *ngIf="this.media.Medium.length>1; then thenBlock_Medium_multiple else elseBlock_Medium_multiple"></div>
                   <ng-template #thenBlock_Medium_multiple>
                     <li>Medium:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.Medium">{{item}}</li>
+                        <li *ngFor="let item of this.media.Medium">{{item}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Medium_multiple>
-                    <li>Medium: {{this.mediaDetails.Medium[0]}}</li>
+                    <li>Medium: {{this.media.Medium[0]}}</li>
                   </ng-template>
               </ng-template>
 
             <!-- Format Details Null Check -->
-            <div *ngIf="this.mediaDetails.doesFormatExist(); then thenBlock_Format_NullCheck"></div>
+            <div *ngIf="this.media.doesFormatExist(); then thenBlock_Format_NullCheck"></div>
               <ng-template #thenBlock_Format_NullCheck>
                 <!-- Do we have more than 1 format? -->
-                <div *ngIf="this.mediaDetails.Format.length>1; then thenBlock_Format_multiple else elseBlock_Format_multiple"></div>
+                <div *ngIf="this.media.Format.length>1; then thenBlock_Format_multiple else elseBlock_Format_multiple"></div>
                   <ng-template #thenBlock_Format_multiple>
                     <li>Format Details:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.Format">{{item.Medium}}: {{item.Format}}</li>
+                        <li *ngFor="let item of this.media.Format">{{item.Medium}}: {{item.Format}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Format_multiple>
-                    <li *ngIf="this.mediaDetails.Format[0].Format">Format Details: {{this.mediaDetails.Format[0].Format}}</li>
+                    <li *ngIf="this.media.Format[0].Format">Format Details: {{this.media.Format[0].Format}}</li>
                   </ng-template>
               </ng-template>
 
             <!-- MediumCount Null Check -->
-            <div *ngIf="this.mediaDetails.doesMediumCountExist(); then thenBlock_MediumCount_NullCheck"></div>
+            <div *ngIf="this.media.doesMediumCountExist(); then thenBlock_MediumCount_NullCheck"></div>
               <ng-template #thenBlock_MediumCount_NullCheck>
                 <!-- Do we have more than 1 medium count? -->
-                <div *ngIf="this.mediaDetails.MediumCount.length>1; then thenBlock_MediumCount_multiple else elseBlock_MediumCount_multiple"></div>
+                <div *ngIf="this.media.MediumCount.length>1; then thenBlock_MediumCount_multiple else elseBlock_MediumCount_multiple"></div>
                   <ng-template #thenBlock_MediumCount_multiple>
                     <li>Medium Count:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.MediumCount">{{item.Medium}}: {{item.Count}}</li>
+                        <li *ngFor="let item of this.media.MediumCount">{{item.Medium}}: {{item.Count}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_MediumCount_multiple>
-                    <li>{{this.mediaDetails.Medium}} Count: {{this.mediaDetails.MediumCount[0].Count}}</li>
+                    <li>{{this.media.Medium}} Count: {{this.media.MediumCount[0].Count}}</li>
                   </ng-template>
               </ng-template>
 
             <!-- Region Null Check -->
-            <div *ngIf="this.mediaDetails.doesRegionExist(); then thenBlock_Region_NullCheck"></div>
+            <div *ngIf="this.media.doesRegionExist(); then thenBlock_Region_NullCheck"></div>
               <ng-template #thenBlock_Region_NullCheck>
                 <!-- Do we have more than 1 Region? -->
-                <div *ngIf="this.mediaDetails.Region.length>1; then thenBlock_Region_multiple else elseBlock_Region_multiple"></div>
+                <div *ngIf="this.media.Region.length>1; then thenBlock_Region_multiple else elseBlock_Region_multiple"></div>
                   <ng-template #thenBlock_Region_multiple>
                     <li>Region:
                       <ul>
-                        <li *ngFor="let item of this.mediaDetails.Region">{{item.Medium}}: {{item.Region}}</li>
+                        <li *ngFor="let item of this.media.Region">{{item.Medium}}: {{item.Region}}</li>
                       </ul>
                     </li>
                   </ng-template>
                   <ng-template #elseBlock_Region_multiple>
-                    <li>Region: {{this.mediaDetails.Region[0].Region}}</li>
+                    <li>Region: {{this.media.Region[0].Region}}</li>
                   </ng-template>
               </ng-template>
 
-            <li *ngIf="this.mediaDetails.Country">Release Country: {{this.mediaDetails.Country}}</li>
-            <li *ngIf="this.mediaDetails.ColorSystem">Color System: {{this.mediaDetails.ColorSystem}}</li>
+            <li *ngIf="this.media.Country">Release Country: {{this.media.Country}}</li>
+            <li *ngIf="this.media.ColorSystem">Color System: {{this.media.ColorSystem}}</li>
           </ul>
         </div>
         <div>
           <h4>Distributor Information:</h4>
           <ul>
-            <li *ngIf="this.mediaDetails.Distributor">Distributor: {{this.mediaDetails.Distributor}}</li>
-            <li *ngIf="this.mediaDetails.CatalogCode">Catalog Code: {{this.mediaDetails.CatalogCode}}</li>
-            <li *ngIf="this.mediaDetails.UPC">UPC: {{this.mediaDetails.UPC}}</li>
-            <div *ngIf="this.mediaDetails.ReleaseDate then thenBlock_ReleaseDate_Date else elseBlock_ReleaseDate_Date"></div>
+            <li *ngIf="this.media.Distributor">Distributor: {{this.media.Distributor}}</li>
+            <li *ngIf="this.media.CatalogCode">Catalog Code: {{this.media.CatalogCode}}</li>
+            <li *ngIf="this.media.UPC">UPC: {{this.media.UPC}}</li>
+            <div *ngIf="this.media.ReleaseDate then thenBlock_ReleaseDate_Date else elseBlock_ReleaseDate_Date"></div>
               <ng-template #thenBlock_ReleaseDate_Date>
-                <li>Release Date: {{this.mediaDetails.ReleaseDate | date:'MMMM d, yyyy'}}</li>
+                <li>Release Date: {{this.media.ReleaseDate | date:'MMMM d, yyyy'}}</li>
               </ng-template>
               <ng-template #elseBlock_ReleaseDate_Date>
-                <li>Release Date: {{this.mediaDetails.CircaRelease}}</li>
+                <li>Release Date: {{this.media.CircaRelease}}</li>
               </ng-template>
           </ul>
         </div>
@@ -244,27 +244,27 @@
     </div>
   </div>
 
-  <div *ngIf="mediaDetails.ScreencapDescriptions">
-    <div><h2>{{mediaDetails.Medium}} Image Gallery</h2></div>
+  <div *ngIf="media.ScreencapDescriptions">
+    <div><h2>{{media.Medium}} Image Gallery</h2></div>
     <app-media-gallery
       #mediaGallery
       [images]="imageGallery"
       [videoIds]="videoGallery"
-      [numberOfImages]="mediaDetails.ScreencapDescriptions.length">
+      [numberOfImages]="media.ScreencapDescriptions.length">
     </app-media-gallery>
   </div>
 
   <div class="media-review">
-    <div *ngIf="mediaDetails.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
+    <div *ngIf="media.OriginalRelease; then thenBlock_OriginalRelease_NullCheck else elseBlock_OriginalRelease_NullCheck"></div>
     <ng-template #thenBlock_OriginalRelease_NullCheck>
-      <div><h2>{{mediaDetails.Medium}} Re-release Information</h2></div>
-        This {{mediaDetails.Medium}} is a re-release,
-        <a [routerLink]="['/media', mediaDetails.OriginalRelease]">click here</a>
+      <div><h2>{{media.Medium}} Re-release Information</h2></div>
+        This {{media.Medium}} is a re-release,
+        <a [routerLink]="['/media', media.OriginalRelease]">click here</a>
         to see the review for the original release.
     </ng-template>
     <ng-template #elseBlock_OriginalRelease_NullCheck>
       <div *ngIf="this.mediaReview">
-        <div><h2>{{mediaDetails.Medium}} Review</h2></div>
+        <div><h2>{{media.Medium}} Review</h2></div>
         <div *ngIf="this.mediaReview.Overview">
           <div><h3>Overview</h3></div>
           <div>{{this.mediaReview.Overview}}</div>

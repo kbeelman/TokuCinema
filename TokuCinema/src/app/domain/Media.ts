@@ -11,7 +11,6 @@ import {
     VersionColor,
     VersionRuntime
 } from './Types';
-import { MediaDetails } from './MediaDetails';
 import { ISearchable } from './ISearchable';
 import { ItemType } from './ItemType';
 import { Keyword } from './Keyword';
@@ -23,6 +22,8 @@ export class Media implements ISearchable {
     public CircaRelease: string = '';
     public ImageCard: string = '';
     public ImageDetails: string = '';
+    public hasDifferentAspectRatios: boolean = false;
+    public hasDifferentColors: boolean = false;
 
     constructor(
         // Main Feature Info
@@ -63,38 +64,9 @@ export class Media implements ISearchable {
         }
 
         this.setReleaseDate();
-    }
 
-    // Draft method for exposing this class without affecting current media details page
-    public GetMediaDetails(): MediaDetails {
-        return new MediaDetails(
-            this.Title,
-            this.AspectRatio,
-            this.Runtime,
-            this.Color,
-            this.ChapterStops,
-            this.AudioTracksDetails,
-            this.SubtitlesDetails,
-            // Medium Information
-            this.Medium,
-            this.Format,
-            this.Region,
-            this.Country,
-            this.MediumCount,
-            this.ColorSystem,
-            // Distribution Information
-            this.Distributor,
-            this.CatalogCode,
-            this.UPC,
-            this.ReleaseDate,
-            this.CircaRelease,
-            this.ReleaseYear,
-            this.PurchaseLinks,
-            this.MoviePath,
-            this.OriginalRelease,
-            this.BoxArt,
-            this.ScreencapDescriptions
-        );
+        this.setHasDifferentAspectRatios();
+        this.setHasDifferentColors();
     }
 
     public setReleaseDate(): void {
@@ -156,8 +128,51 @@ export class Media implements ISearchable {
         return this.cleanKeywords(keywords);
     }
 
-    getIconName(): string {
+    public getIconName(): string {
         return this.Medium[0];
+    }
+
+    public doesAspectRatioExist(): boolean {
+        return typeof this.AspectRatio !== 'undefined' && this.AspectRatio.length > 0;
+    }
+
+    public getHasDifferentAspectRatios(): boolean {
+        return this.hasDifferentAspectRatios;
+    }
+
+    public doesColorExist(): boolean {
+        if (typeof this.Color !== 'undefined' && this.Color.length > 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public getHasDifferentColors(): boolean {
+        return this.hasDifferentColors;
+    }
+
+    public doesRuntimeExist(): boolean {
+        return typeof this.Runtime !== 'undefined' && this.Runtime.length > 0;
+    }
+
+    public doesMediumExist(): boolean {
+        return typeof this.Medium !== 'undefined' && this.Medium.length > 0;
+    }
+
+    public doesFormatExist(): boolean {
+        return typeof this.Format !== 'undefined' && this.Format.length > 0;
+    }
+
+    public doesMediumCountExist(): boolean {
+        return typeof this.MediumCount !== 'undefined' && this.MediumCount.length > 0;
+    }
+
+    public doesRegionExist(): boolean {
+        return typeof this.Region !== 'undefined' && this.Region.length > 0;
+    }
+
+    public getFirstMedium(): string {
+      return this.Medium && this.Medium.length >= 1 ? this.Medium[0] : '';
     }
 
     private cleanKeywords(keywords: Array<Keyword>): Array<Keyword> {
@@ -172,4 +187,33 @@ export class Media implements ISearchable {
       return cleanKeywords;
     }
 
+    /**
+     * @description Determines if the media has multiple AspectRatios.
+     */
+    private setHasDifferentAspectRatios(): void {
+        const aspectCompArray: Array<string> = [];
+        this.AspectRatio.forEach(element => {
+            if (aspectCompArray.indexOf(element.AspectRatio) < 0) {
+                aspectCompArray.push(element.AspectRatio);
+            }
+        });
+        if (aspectCompArray.length > 1) {
+            this.hasDifferentAspectRatios = true;
+        }
+    }
+
+    /**
+     * @description Determines if the media has multiple Colors.
+     */
+    private setHasDifferentColors(): void {
+        const colorCompArray: Array<string> = [];
+        this.Color.forEach(element => {
+            if (colorCompArray.indexOf(element.Color) < 0) {
+                colorCompArray.push(element.Color);
+            }
+        });
+        if (colorCompArray.length > 1) {
+            this.hasDifferentColors = true;
+        }
+    }
 }
