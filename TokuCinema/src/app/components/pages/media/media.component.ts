@@ -24,7 +24,7 @@ export class MediaComponent implements OnInit {
   spokenLanguageFilter: string = '';
   subtitleLanguageFilter: string = '';
   countryFilter: string = '';
-  regionFilter: any = '';
+  regionFilter: string = '';
   mediaData: Observable<any[]>;
   movieData: Observable<any[]>;
   showFiltersText: string = this.showFilters;
@@ -46,8 +46,8 @@ export class MediaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.movieData.subscribe(movieArray => {
-      this.mediaData.subscribe(mediaArray => {
+    this.movieData.subscribe((movieArray: Movie[]) => {
+      this.mediaData.subscribe((mediaArray: Media[]) => {
         mediaArray.forEach((element) => {
           const domainBuilder = new DomainBuilder(element, DataType.Media);
           const domainObject = domainBuilder.getDomainObject<Media>();

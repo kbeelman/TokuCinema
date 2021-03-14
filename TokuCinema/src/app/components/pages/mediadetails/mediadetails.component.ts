@@ -41,7 +41,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(() => {
-      this.fdb.getItemFromBranch(this.pathname, 'media', true, DataType.Media).subscribe((mediaData) => {
+      this.fdb.getItemFromBranch(this.pathname, 'media', true, DataType.Media).subscribe((mediaData: Media) => {
         this.media = mediaData;
         if (this.media === undefined) {
           // redirect to 404
@@ -67,7 +67,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    */
   subscribeToMediaDetails(): void {
     this.mediaDetails.MovieDetails.forEach((element: string) => {
-      this.fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe((movieData) => {
+      this.fdb.getItemFromBranch(element, 'movies', false, DataType.Movie).subscribe((movieData: Movie) => {
         if (movieData) {
           let alreadyContainsMovie: boolean = false;
           this.movieDetails.forEach((existingMovies: Movie) => {
@@ -87,7 +87,7 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
    * @description Gathers the information for the review object.
    */
   subscribeToReview(): void {
-    this.fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe((mediaReviewData) => {
+    this.fdb.getItemFromBranch(this.media.Path, 'mediaReviews', false, DataType.MediaReview).subscribe((mediaReviewData: MediaReview) => {
       this.mediaReview = mediaReviewData;
     });
   }

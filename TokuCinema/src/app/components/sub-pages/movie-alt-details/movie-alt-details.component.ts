@@ -9,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MovieAltDetailsComponent implements OnInit {
   @Input() movieAlternateVersion: MovieAlternateVersion;
 
-  public activeAltCountry: any; // used for mobile alt version selector
+  public activeAltCountry: string; // used for mobile alt version selector
 
   constructor(
   ) { }

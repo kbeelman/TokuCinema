@@ -35,7 +35,7 @@ export class MoviedetailsComponent implements OnDestroy {
   ) {
     this.sub = this.route.params.subscribe(() => {
 
-      this.fdb.getItemFromBranch(this.pathname, 'movies', true, DataType.Movie).subscribe((data) => {
+      this.fdb.getItemFromBranch(this.pathname, 'movies', true, DataType.Movie).subscribe((data: Movie) => {
         this.movie = data;
         if (this.movie === undefined) {
           // redirect to 404
@@ -68,11 +68,12 @@ export class MoviedetailsComponent implements OnDestroy {
         }
       });
 
-      this.fdb.getItemFromBranch(this.pathname, 'alternateVersions', true, DataType.MovieAlternateVersion).subscribe((data) => {
-        if (data) {
-          this.movieAlternateVersion = data;
-          this.movieAlternateVersion.Countries[0].Active = true;
-        }
+      this.fdb.getItemFromBranch(this.pathname, 'alternateVersions', true, DataType.MovieAlternateVersion)
+        .subscribe((data: MovieAlternateVersion) => {
+          if (data) {
+            this.movieAlternateVersion = data;
+            this.movieAlternateVersion.Countries[0].Active = true;
+          }
       });
     });
   }

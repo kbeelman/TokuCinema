@@ -25,7 +25,7 @@ export class MediaGalleryComponent {
     currentCarouselMargin: number = 0;
     currentCarouselPosition: number = 0; // index of the left most item shown
 
-    initInterval: any;
+    initInterval: NodeJS.Timeout;
     elapsedTime: number = 0;
 
     constructor(

@@ -4,13 +4,13 @@ export class MediaFilterPakage {
     public SpokenLanguages: string;
     public SubtitleLanguages: string;
     public Country: string;
-    public Region: any;
+    public Region: string;
 
     constructor(medium?: string,
         spokenLanguages?: string,
         subtitleLanguages?: string,
         country?: string,
-        region?: any
+        region?: string
     ) {
         this.Medium = medium && medium.length ? medium : '';
         this.SpokenLanguages = spokenLanguages && spokenLanguages.length ? spokenLanguages : '';

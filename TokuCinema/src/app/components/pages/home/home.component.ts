@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     private titleService: Title,
     private metatagService: MetatagService
   ) {
-    this.sub = this.fdb.getBranch('media').subscribe((data) => {
+    this.sub = this.fdb.getBranch('media').subscribe((data: Media[]) => {
 
       // Select a random index in the media branch to display in the content tile
       const winningNumber = Math.floor(Math.random() * data.length) + 0;
