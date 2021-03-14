@@ -2,7 +2,7 @@
 
   <section> 
     <div class="home-tile-wrapper"
-      *ngIf="this.randomContent">
+      *ngIf="this.randomContent.Path !== ''">
       
       <div class="home-tile full-width-tile">
         <a class="landing-page-card" [routerLink]="['/media', this.randomContent.Path]">

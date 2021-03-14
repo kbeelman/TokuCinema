@@ -18,7 +18,7 @@ import { Subscription } from 'rxjs';
 })
 export class MediadetailsComponent implements OnInit, OnDestroy {
   @ViewChild('mediaGallery') public mediaGallery: MediaGalleryComponent;
-  media: Media;
+  media: Media = new Media();
   mediaReview: MediaReview;
   movieDetails: Movie[] = [];
   hasRuntimes: boolean = false;

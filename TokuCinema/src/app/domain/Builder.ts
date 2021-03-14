@@ -63,7 +63,7 @@ export class DomainBuilder {
     private buildMedia(): Media {
         const mediaData = this.RawData;
 
-        return new Media(
+        return Media.createMedia(
             mediaData.Title,
             mediaData.AspectRatio,
             mediaData.Runtime,

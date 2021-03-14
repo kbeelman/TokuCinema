@@ -15,7 +15,7 @@ import { Subscription } from 'rxjs';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   title = 'Toku Cinema';
-  public randomContent: Media;
+  public randomContent: Media = new Media();
   public landingPages: Array<MenuItems> = [
     { text: 'Movie List', link: '/movies',
       body: 'Information on all of your favorite Tokusatsu, Giant Monster, and Sci-Fi films; including Godzilla, King Kong, and more.' },

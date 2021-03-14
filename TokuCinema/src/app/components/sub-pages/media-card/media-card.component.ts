@@ -6,7 +6,7 @@ import { Media } from '../../../domain/Media';
   templateUrl: './media-card.component.html'
 })
 export class MediaCardComponent {
-  @Input() media: Media;
+  @Input() media: Media = new Media();
 
   constructor() { }
 

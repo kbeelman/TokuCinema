@@ -25,48 +25,111 @@ export class Media implements ISearchable {
     public hasDifferentAspectRatios: boolean = false;
     public hasDifferentColors: boolean = false;
 
-    constructor(
+    // Main Feature Info
+    public Title: string = '';
+    public AspectRatio: Array<VersionAspectRatio> = [];
+    public Runtime: Array<VersionRuntime> = [];
+    public Color: Array<VersionColor> = [];
+    public ChapterStops: Array<VersionChapters> = [];
+    public Subtitles: Array<string> = [];
+    public SubtitlesDetails: Array<LanguageType> = [];
+    public AudioTracks: Array<string> = [];
+    public AudioTracksDetails: Array<LanguageType> = [];
+    // Medium Information
+    public Medium: Array<string> = [];
+    public Format: Array<MediumFormat> = [];
+    public Region: Array<MediumRegion> = [];
+    public Country: string = '';
+    public MediumCount: Array<MediumCount> = [];
+    public ColorSystem: ColorSystemType = '';
+    public ScreencapDescriptions: Array<string> = [];
+    // Distributor Information
+    public Distributor: string = '';
+    public CatalogCode: string = '';
+    public UPC: string = '';
+    public ReleaseDateString: string = '';
+    public PurchaseLinks: Array<MediaVendor> = [];
+    public MoviePath: Array<string> = [];
+    public OriginalRelease: string = '';
+    public BoxArt: Array<string> = [];
+    public Path: string = '';
+    public Movies: Array<Movie> = [];
+
+    static createMedia(
         // Main Feature Info
-        public Title: string,
-        public AspectRatio: Array<VersionAspectRatio>,
-        public Runtime: Array<VersionRuntime>,
-        public Color: Array<VersionColor>,
-        public ChapterStops: Array<VersionChapters>,
-        public Subtitles: Array<string>,
-        public SubtitlesDetails: Array<LanguageType>,
-        public AudioTracks: Array<string>,
-        public AudioTracksDetails: Array<LanguageType>,
+        Title: string,
+        AspectRatio: Array<VersionAspectRatio>,
+        Runtime: Array<VersionRuntime>,
+        Color: Array<VersionColor>,
+        ChapterStops: Array<VersionChapters>,
+        Subtitles: Array<string>,
+        SubtitlesDetails: Array<LanguageType>,
+        AudioTracks: Array<string>,
+        AudioTracksDetails: Array<LanguageType>,
         // Medium Information
-        public Medium: Array<string>,
-        public Format: Array<MediumFormat>,
-        public Region: Array<MediumRegion>,
-        public Country: string,
-        public MediumCount: Array<MediumCount>,
-        public ColorSystem: ColorSystemType,
-        public ScreencapDescriptions: Array<string>,
+        Medium: Array<string>,
+        Format: Array<MediumFormat>,
+        Region: Array<MediumRegion>,
+        Country: string,
+        MediumCount: Array<MediumCount>,
+        ColorSystem: ColorSystemType,
+        ScreencapDescriptions: Array<string>,
         // Distributor Information
-        public Distributor: string,
-        public CatalogCode: string,
-        public UPC: string,
-        public ReleaseDateString: string,
-        public PurchaseLinks: Array<MediaVendor>,
-        public MoviePath: Array<string>,
-        public OriginalRelease: string,
-        public BoxArt: Array<string>,
-        public Path: string,
-        public Movies: Array<Movie>
-    ) {
-        if (this.Path) {
-            this.Path = new StringCleaner(this.Path, StringType.WithoutRoute).getCleanString();
+        Distributor: string,
+        CatalogCode: string,
+        UPC: string,
+        ReleaseDateString: string,
+        PurchaseLinks: Array<MediaVendor>,
+        MoviePath: Array<string>,
+        OriginalRelease: string,
+        BoxArt: Array<string>,
+        Path: string,
+        Movies: Array<Movie>
+    ): Media {
+        const media = new Media();
+        // Main Feature Info
+        media.Title = Title;
+        media.AspectRatio = AspectRatio;
+        media.Runtime = Runtime;
+        media.Color = Color;
+        media.ChapterStops = ChapterStops;
+        media.Subtitles = Subtitles;
+        media.SubtitlesDetails = SubtitlesDetails;
+        media.AudioTracks = AudioTracks;
+        media.AudioTracksDetails = AudioTracksDetails;
+        // Medium Information
+        media.Medium = Medium;
+        media.Format = Format;
+        media.Region = Region;
+        media.Country = Country;
+        media.MediumCount = MediumCount;
+        media.ColorSystem = ColorSystem;
+        media.ScreencapDescriptions = ScreencapDescriptions;
+        // Distributor Information
+        media.Distributor = Distributor;
+        media.CatalogCode = CatalogCode;
+        media.UPC = UPC;
+        media.ReleaseDateString = ReleaseDateString;
+        media.PurchaseLinks = PurchaseLinks;
+        media.MoviePath = MoviePath;
+        media.OriginalRelease = OriginalRelease;
+        media. BoxArt = BoxArt;
+        media.Path = Path;
+        media.Movies = Movies;
+
+        if (media.Path) {
+            media.Path = new StringCleaner(media.Path, StringType.WithoutRoute).getCleanString();
         } else {
-            const path: string = this.Title + '-' + this.Distributor + '-' + this.Medium + '-' + this.ReleaseDate;
-            this.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
+            const path: string = media.Title + '-' + media.Distributor + '-' + media.Medium + '-' + media.ReleaseDate;
+            media.Path = new StringCleaner(path, StringType.WithoutRoute).getCleanString();
         }
 
-        this.setReleaseDate();
+        media.setReleaseDate();
 
-        this.setHasDifferentAspectRatios();
-        this.setHasDifferentColors();
+        media.setHasDifferentAspectRatios();
+        media.setHasDifferentColors();
+
+        return media;
     }
 
     public setReleaseDate(): void {
