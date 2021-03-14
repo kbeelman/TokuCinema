@@ -67,7 +67,7 @@ describe('MoviesComponent', () => {
     component.eraFilter = 'test';
     component.productionCompanyFilter = 'test';
     component.seriesFilter = 'test';
-    component.spokenLanguageFilter = 'test';
+    component.spokenLanguageFilter = 'English';
 
     component.clearFilters();
 
