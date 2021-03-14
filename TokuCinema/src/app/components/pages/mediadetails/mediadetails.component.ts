@@ -132,8 +132,6 @@ export class MediadetailsComponent implements OnInit, OnDestroy {
   }
 
   /**
-   *
-   *
    * @description Safely retrieves the featured screen cap at the given index
    * @returns {string} Returns the featured screen cap when available, otherwise an empty string
    * @param {number} index featured screen cap to retrieve
