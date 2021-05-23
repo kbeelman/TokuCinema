@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve -o",
     "copy-404": "cp dist/index.html dist/404.html",
-    "build": "ng build --prod && npm run copy-404",
+    "build": "ng build --configuration production && npm run copy-404",
     "test": "ng test --code-coverage",
     "test-once": "ng test --watch=false --code-coverage",
     "build-dev": "ng build && npm run copy-404",
