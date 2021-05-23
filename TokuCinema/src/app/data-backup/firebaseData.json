@@ -2170,7 +2170,7 @@
         },
         {
             "OfficialTitle": "Gamera: Guardian of the Universe",
-            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガメラ 大怪獣空中決戦"},{"TitleType":"Hepburn","TitleValue":"Gamera: Daikaiju Kuchu Kessen"}],
+            "AlternateTitles": [{"TitleType":"Japanese","TitleValue":"ガメラ 大怪獣空中決戦"},{"TitleType":"Hepburn","TitleValue":"Gamera: Daikaiju Kuchu Kessen"},{"TitleType":"Literal Translation","TitleValue":"Gamera: Giant Monster Dogfight"}],
             "OriginalPoster": [
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guardian-Universe-1995%2Fthumb-card.png?alt=media&token=1e25f96d-3ce9-4b71-a878-f1c69b21ed4b",
                 "https://firebasestorage.googleapis.com/v0/b/tokucinema.appspot.com/o/images%2Fmovies%2FGamera-Guardian-Universe-1995%2Fthumb-details.png?alt=media&token=e4d2e87a-3f60-4678-ac93-659774b6212d"
@@ -2184,7 +2184,72 @@
             "Series": "Gamera",
             "Era": "Heisei",
             "Runtime": "96",
-            "Path": "Gamera-Guardian-Universe-1995"
+            "Path": "Gamera-Guardian-Universe-1995",
+            "Crew": [
+                {"PositionTitle":"General Producer","Name":"Yasuyoshi Tokuma"},
+                {"PositionTitle":"Director","Name":"Shusuke Kaneko"},
+                {"PositionTitle":"Executive Producers","Name":"Hiroyuki Kato, Seiji Urushido, & Shigeru Ohno"},
+                {"PositionTitle":"Producers","Name":"Tetsuya Ikeda, Toshio Hagiwara, & Hatsuhiko Sawada"},
+                {"PositionTitle":"Writer","Name":"Kazunori Ito"},
+                {"PositionTitle":"Special Effects Director","Name":"Shinji Higuchi"},
+                {"PositionTitle":"Composer","Name":"Kow Otani"},
+                {"PositionTitle":"Cinematography","Name":"Junichi Tozawa"},
+                {"PositionTitle":"Art Director","Name":"Hajime Oikawa"},
+                {"PositionTitle":"Sound Recording","Name":"Yasuoo Hashimoto"},
+                {"PositionTitle":"Lighting","Name":"Sosuke Yoshikado"},
+                {"PositionTitle":"Editor","Name":"Shizuo Arakawa"},
+                {"PositionTitle":"Script Continuity","Name":"Kumiko Ishiyama"},
+                {"PositionTitle":"Assistant Director","Name":"Shozo Katashima"}
+            ],
+            "Cast": [
+                {"ActorName":"Tsuyoshi Ihara","RoleName":"Yoshinari Yonemori"},
+                {"ActorName":"Akira Onodera","RoleName":"Naoya Kusanagi"},
+                {"ActorName":"Shinobu Nakayama","RoleName":"Mayumi Nagamine"},
+                {"ActorName":"Ayako Fujitani","RoleName":"Asagi Kusanagi"},
+                {"ActorName":"Yukijiro Hotaru","RoleName":"Inspector Oosako"},
+                {"ActorName":"Hatsundori Hasegawa","RoleName":"Colonel Satake"},
+                {"ActorName":"Hirotaro Honda","RoleName":"Mr. Saito, EPA"},
+                {"ActorName":"Kojiro Hongo","RoleName":"Captain of the Nojima"},
+                {"ActorName":"Akira Kubo","RoleName":"Captain of the Kairyumaru"},
+                {"ActorName":"Yasuo Kanechika","RoleName":"Policeman on Himegami Island"},
+                {"ActorName":"Masahiko Sakata","RoleName":"Officer at Dome"},
+                {"ActorName":"Masato Yasuo","RoleName":"Nagasaki Helicopter Captain"},
+                {"ActorName":"Kiyokazu Inoue","RoleName":"Chishimamaru Crewman"},
+                {"ActorName":"Masashi Ueda","RoleName":"Officer behind Dome"},
+                {"ActorName":"Miyuki Fuji","RoleName":"Correspondent at DOD"},
+                {"ActorName":"Haruyasu Oi","RoleName":"Old Man at Bridge"},
+                {"ActorName":"Satoshi Masae","RoleName":"Firefighter at Bridge"},
+                {"ActorName":"Miyako Wada","RoleName":"Mother at Bridge"},
+                {"ActorName":"Takito Horiuchi","RoleName":"Kid at Bridge"},
+                {"ActorName":"Hiroshi Atsumi","RoleName":"Correspondent in Office"},
+                {"ActorName":"Mika Suzuki","RoleName":"Correspondent"},
+                {"ActorName":"Nanako Shindo","RoleName":"Zoo Employee"},
+                {"ActorName":"Sarina Kaori","RoleName":"Reporter on Himegami Island"},
+                {"ActorName":"Koutaro Takeshita","RoleName":"Young Man on Train"},
+                {"ActorName":"Mitsuko Aoki","RoleName":"Woman on Train"},
+                {"ActorName":"Yomoka Sakano","RoleName":"Yukino"},
+                {"ActorName":"Takeshi Yano","RoleName":"Investigator on the Kenzaki"},
+                {"ActorName":"Takumi Matsui","RoleName":"Kairyumaru Crewman"},
+                {"ActorName":"Yoko Ooshima","RoleName":"Woman in Otoko Island Shop"},
+                {"ActorName":"Yuichi Mayama","RoleName":"News Caster for Plus One"},
+                {"ActorName":"Yuko Kimura","RoleName":"News Caster for Plus One"},
+                {"ActorName":"Kenji Wakabayashi","RoleName":"News Caster for News Flash"},
+                {"ActorName":"Minako Nagai","RoleName":"News Caster for Alta"},
+                {"ActorName":"Izumi Ohgami","RoleName":"Reporter for Plus One"},
+                {"ActorName":"Akemi Nakamura","RoleName":"Correspondent at Dome"},
+                {"ActorName":"Hisanori Koba","RoleName":"Reporter at Dome"},
+                {"ActorName":"Minoru Tamura","RoleName":"News Caster at Train Station"},
+                {"ActorName":"Naoaki Manabe","RoleName":"Gamera Performer"},
+                {"ActorName":"Jun Suzuki","RoleName":"Gamera Performer"},
+                {"ActorName":"Yuhmi Kaneyama","RoleName":"Gyaos Performer"},
+                {"ActorName":"Takashi Matsuo","RoleName":"Taxi Driver"},
+                {"ActorName":"Yoshihiko Hakamada","RoleName":"Michiya"},
+                {"ActorName":"Yutaka Natsuki","RoleName":"Reporter at Radar"},
+                {"ActorName":"Tomiko Ishii","RoleName":"Woman in Supermarket"},
+                {"ActorName":"Tetsu Watanabe","RoleName":"Captain at Mt. Fuji"},
+                {"ActorName":"Hiroyuki Watanabe","RoleName":"Co. Commander at Tenohman"},
+                {"ActorName":"Jun Fubuki","RoleName":"Shopping Wooman"}
+            ]
         },
         {
             "OfficialTitle": "Gamera 2: Attack of Legion",
@@ -12445,6 +12510,197 @@
                                     "ReleaseDate": "",
                                     "Notes": [
                                         "Daimajin Strikes Again was never released by AI-TV, and thus lacked a dub for nearly 46 years. However, when Mill Creek released the Daimajin trilogy on Blu-ray in 2012 they included a newly produced dub for the film, which was coordinated by Mill Creek’s licensor Joyplex Inc. The Blu-ray does not feature any dubbing credits and not much is known about this dub, but it is speculated that the dub was produced by Bang Zoom! Entertainment. This dub conforms to the Japanese theatrical version, features no unique visuals, and contains no edits."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Path": "Gamera-Guardian-Universe-1995",
+            "Countries": [
+                {
+                    "Country": "United States",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"Home Video","TitleValue":"Gamera: Guardian of the Universe"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Aaron Krohn","RoleName":"Yoshinari Yonemori"},
+                                {"ActorName":"Tristan MacAvery","RoleName":"Naoya Kusanagi"},
+                                {"ActorName":"Tiffany Grant","RoleName":"Mayumi Nagamine"},
+                                {"ActorName":"Amanda Winn Lee","RoleName":"Asagi Kusanagi"},
+                                {"ActorName":"Paul Sidello","RoleName":"Inspector Oosako"},
+                                {"ActorName":"Rob Mungle","RoleName":"Colonel Satake"},
+                                {"ActorName":"Rick Peeples","RoleName":"Mr. Saito, EPA"},
+                                {"ActorName":"John Swasey","RoleName":"Captain of the Nojima"},
+                                {"ActorName":"Phil Ross","RoleName":"Captain of the Kairyumaru"},
+                                {"ActorName":"Kimberly Yates","RoleName":"Yukino"},
+                                {"ActorName":"Spike Spencer","RoleName":"Michiya"},
+                                {"ActorName":"Guil Lunde","RoleName":"Taxi Driver"},
+                                {"ActorName":"Marcy Rae","RoleName":"Shopkeeper"},
+                                {"ActorName":"Kim Sevier","RoleName":"Zoo Staffer"},
+                                {"ActorName":"Brett Weaver","RoleName":"Researcher"},
+                                {"ActorName":"Laura Chapman","RoleName":"Air Traffic Controller"},
+                                {"ActorName":"Sue Ulu","RoleName":"Female Reporter 1"},
+                                {"ActorName":"Allison Keith","RoleName":"Female Reporter 2"},
+                                {"ActorName":"Marcie Corder","RoleName":"Female Researcher 1"},
+                                {"ActorName":"Carol Amerson","RoleName":"Female Researcher 2"},
+                                {"ActorName":"Charles Campbell","RoleName":"Command Post Technician"},
+                                {"ActorName":"Kyle Sturdivant","RoleName":"Communications Engineer"},
+                                {"ActorName":"Robert Peeples","RoleName":"Island Policeman"},
+                                {"ActorName":"Jason Lee","RoleName":"Military Helicopter Pilot"},
+                                {"ActorName":"Paul Killam","RoleName":"M.P."},
+                                {"ActorName":"Bryan Bounds","RoleName":"Police Helicopter Pilot"},
+                                {"ActorName":"Joe Pisano","RoleName":"Policeman"},
+                                {"ActorName":"Gene Kato","RoleName":"Radio Operator"},
+                                {"ActorName":"Douglas Smith","RoleName":"News Cameraman"},
+                                {"ActorName":"Kurt Stoll","RoleName":"Squadron Lieutenant"},
+                                {"ActorName":"Lew Temple","RoleName":"Reporter"},
+                                {"ActorName":"Brian Granveldt","RoleName":""},
+                                {"ActorName":"Matt Greenfield","RoleName":""},
+                                {"ActorName":"Deidre Blackmon","RoleName":""},
+                                {"ActorName":"Jeannie Blackmon","RoleName":""},
+                                {"ActorName":"Jordan Blackmon","RoleName":""},
+                                {"ActorName":"David Del Rio","RoleName":""},
+                                {"ActorName":"Veronica Diaz","RoleName":""},
+                                {"ActorName":"Malisha Fox","RoleName":""},
+                                {"ActorName":"Pat Greenfield","RoleName":""},
+                                {"ActorName":"Virgil Greenfield","RoleName":""},
+                                {"ActorName":"Kevin Hinnant","RoleName":""},
+                                {"ActorName":"Alice Hollomon","RoleName":""},
+                                {"ActorName":"Theodore Horrocks","RoleName":""},
+                                {"ActorName":"Hunter Hughes","RoleName":""},
+                                {"ActorName":"Joseph Killam","RoleName":""},
+                                {"ActorName":"William McBee","RoleName":""},
+                                {"ActorName":"Ben Nunez","RoleName":""},
+                                {"ActorName":"Sharon Papa","RoleName":""},
+                                {"ActorName":"Rod Peters","RoleName":""},
+                                {"ActorName":"Lorraine Reyes","RoleName":""},
+                                {"ActorName":"Dan Rockwell","RoleName":""},
+                                {"ActorName":"David Spray","RoleName":""},
+                                {"ActorName":"Christopher Williams","RoleName":""},
+                                {"ActorName":"David Williams","RoleName":""},
+                                {"ActorName":"Janice Williams","RoleName":""},
+                                {"ActorName":"Jessica Williams","RoleName":""},
+                                {"ActorName":"Gene Wilson","RoleName":""},
+                                {"ActorName":"Kevin Winkler","RoleName":""}
+                                
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Executive Producer","Name":"John Ledford"},
+                                {"PositionTitle":"Producer / Director","Name":"Matt Greenfield"},
+                                {"PositionTitle":"International Coordinator","Name":"Toru Iwakami"},
+                                {"PositionTitle":"English Language Screenplay","Name":"Matt Greenfield"},
+                                {"PositionTitle":"Audio Mix / Sound Design","Name":"Paul Killam"},
+                                {"PositionTitle":"Recording Engineer","Name":"Charles Campbell"},
+                                {"PositionTitle":"Art Direction & Logo Design","Name":"Lorraine Reyes"},
+                                {"PositionTitle":"Production Coordinator","Name":"Janice Williams"},
+                                {"PositionTitle":"Special Thanks","Name":"Masako Arakawa"}
+                            ],
+                            "DubCompany": "Industrial Smoke & Mirrors",
+                            "ProductionCompany": "A.D. Vision, Inc.",
+                            "DistributionCompany": "A.D.V. Films",
+                            "ReleaseDate": "1997-04-16",
+                            "Runtime":"96",
+                            "Rating": [],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Initial Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "When ADV films first released Gamera: Guardian of the Universe to VHS, the opening shot was freeze framed. The Japanese credits and supers were blacked out with rectangles that contained English translations, and the title card was replaced with a CG English title card."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Revised Home Video",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "ADV films re-released Gamera: Guardian of the Universe on DVD. This version lacked the freeze framed opening shot and unique English visuals, though it does still include the English end credits."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Arrow Video Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2020-08-18",
+                                    "Notes": [
+                                        "Arrow's Blu-ray release of Gamera: Guardian of the Universe contains the US dub as a separate audio track that accompanies the Japanese video. The end credits are included as an extra, though other unique English visuals are missing from this release."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    "Country": "United Kingdom",
+                    "Versions": [
+                        {
+                            "MainTitle":[{"TitleType":"","TitleValue":"Gamera The Guardian of the Universe"}],
+                            "Cast": [],
+                            "DubCast": [
+                                {"ActorName":"Chris Harvey John","RoleName":""},
+                                {"ActorName":"Lara Clancy","RoleName":""},
+                                {"ActorName":"Roy Ward","RoleName":""},
+                                {"ActorName":"Charlotte Bellamore","RoleName":""},
+                                {"ActorName":"David Snow","RoleName":""},
+                                {"ActorName":"Tim James","RoleName":""},
+                                {"ActorName":"Carol Kentish","RoleName":""},
+                                {"ActorName":"Daniel Johnson","RoleName":""},
+                                {"ActorName":"Richard Archer","RoleName":""},
+                                {"ActorName":"Jocelyn Fairman","RoleName":""},
+                                {"ActorName":"Neil Craske","RoleName":""},
+                                {"ActorName":"Jackie Wigglesworth","RoleName":""},
+                                {"ActorName":"Daniel Henson","RoleName":""},
+                                {"ActorName":"Craig Mandeville","RoleName":""}
+                            ],
+                            "Crew": [
+                                {"PositionTitle":"Executive Producer","Name":"Clinton H. Montague"},
+                                {"PositionTitle":"Producer","Name":"Oliver Ronoicle"},
+                                {"PositionTitle":"Music Sculpture","Name":"Stephen W. Parsons"},
+                                {"PositionTitle":"ADR Director & Script Editor","Name":"James Shanks"},
+                                {"PositionTitle":"ADR Assistant Director","Name":"Neil Craske"},
+                                {"PositionTitle":"Supervising Sound Editor","Name":"Jim Hurst"},
+                                {"PositionTitle":"ADR Sound Editor","Name":"John Buckley"},
+                                {"PositionTitle":"Dubbming Mixer","Name":"Nic Le Messurier"},
+                                {"PositionTitle":"Titles & Laser Subtitles","Name":"Capital FX"},
+                                {"PositionTitle":"Sound Remixed at","Name":"Pinewood Studios, England"},
+                                {"PositionTitle":"Music Editor","Name":"Dominic Gibbs"},
+                                {"PositionTitle":"All Techno Supplied by","Name":"Truelove Label Collective"}
+                            ],
+                            "DubCompany": "D.R.S., Shepperton Studios, England",
+                            "ProductionCompany": "",
+                            "DistributionCompany": "Arrival Films",
+                            "ReleaseDate": "1997-04-03",
+                            "Runtime":"95",
+                            "Rating": [{"RatingSystem":"BBFC","RatingValue":"PG"}],
+                            "Iterations": [
+                                {
+                                    "AlternateTitle": [{"TitleType":"","TitleValue":""}],
+                                    "Name": "",
+                                    "MediaPath": [{"Descriptor":"","Path":""}],
+                                    "Runtime": "",
+                                    "ReleaseDate": "",
+                                    "Notes": [
+                                        "The UK received a unique dub. Most notably, this dub augments and in some places replaces the original score with 90's techno music. English credits and subtitles accompany the Japanese supers."
+                                    ]
+                                },
+                                {
+                                    "AlternateTitle": [],
+                                    "Name": "Arrow Video Blu-ray",
+                                    "MediaPath": [],
+                                    "Runtime": "",
+                                    "ReleaseDate": "2020-08-18",
+                                    "Notes": [
+                                        "Arrow's Blu-ray release of Gamera: Guardian of the Universe contains the UK dub as a separate audio track that accompanies the Japanese video. The end credits are included as an extra, though other unique English visuals are missing from this release."
                                     ]
                                 }
                             ]
